@@ -12,11 +12,16 @@ interface Settings {
   openrouterKey: string;
   anthropicModel: string;
   openrouterModel: string;
+  // When true, pressing Enter (without modifier) sends the message and
+  // Shift+Enter inserts a newline. When false, the inverse: Enter inserts
+  // a newline and Cmd/Ctrl+Enter sends.
+  enterToSend: boolean;
   setProvider: (p: Provider) => void;
   setAnthropicKey: (k: string) => void;
   setOpenrouterKey: (k: string) => void;
   setAnthropicModel: (m: string) => void;
   setOpenrouterModel: (m: string) => void;
+  setEnterToSend: (v: boolean) => void;
   activeKey: () => string;
   activeModel: () => string;
   hasKey: () => boolean;
@@ -30,11 +35,13 @@ export const useSettings = create<Settings>()(
       openrouterKey: "",
       anthropicModel: DEFAULT_MODELS.anthropic,
       openrouterModel: DEFAULT_MODELS.openrouter,
+      enterToSend: false,
       setProvider: (p) => set({ provider: p }),
       setAnthropicKey: (k) => set({ anthropicKey: k.trim() }),
       setOpenrouterKey: (k) => set({ openrouterKey: k.trim() }),
       setAnthropicModel: (m) => set({ anthropicModel: m }),
       setOpenrouterModel: (m) => set({ openrouterModel: m }),
+      setEnterToSend: (v) => set({ enterToSend: v }),
       activeKey: () => (get().provider === "anthropic" ? get().anthropicKey : get().openrouterKey),
       activeModel: () => (get().provider === "anthropic" ? get().anthropicModel : get().openrouterModel),
       hasKey: () => Boolean(get().activeKey()),

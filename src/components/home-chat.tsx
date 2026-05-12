@@ -49,7 +49,7 @@ export function HomeChat({
   collapsed,
   onToggleCollapsed,
 }: Props) {
-  const { provider, activeKey, activeModel, hasKey } = useSettings();
+  const { provider, activeKey, activeModel, hasKey, enterToSend, setEnterToSend } = useSettings();
   const [input, setInput] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [loadingCourseId, setLoadingCourseId] = useState<string | null>(null);
@@ -486,9 +486,10 @@ export function HomeChat({
         )}
       </div>
 
+      <div className="border-t border-[var(--border-soft)] px-3 py-3">
       <form
         onSubmit={(e) => { e.preventDefault(); if (!isStreaming) send(input); }}
-        className="border-t border-[var(--border-soft)] px-3 py-3 flex items-end gap-2"
+        className="flex items-end gap-2"
       >
         <textarea
           ref={autoGrow}
@@ -498,7 +499,11 @@ export function HomeChat({
             autoGrow(e.currentTarget);
           }}
           onKeyDown={(e) => {
-            if ((e.metaKey || e.ctrlKey) && e.key === "Enter") {
+            const mod = e.metaKey || e.ctrlKey;
+            if (enterToSend && e.key === "Enter" && !e.shiftKey && !mod) {
+              e.preventDefault();
+              if (!isStreaming) send(input);
+            } else if (!enterToSend && mod && e.key === "Enter") {
               e.preventDefault();
               if (!isStreaming) send(input);
             }
@@ -526,6 +531,14 @@ export function HomeChat({
           Send
         </button>
       </form>
+        <button
+          onClick={() => setEnterToSend(!enterToSend)}
+          className="mt-2 text-[11px] text-[var(--muted)] hover:text-[var(--accent)]"
+          title="Click to switch send shortcut"
+        >
+          {enterToSend ? "Enter to send (Shift+Enter for newline)" : "⌘+Enter to send"}
+        </button>
+      </div>
       </aside>
     </>
   );

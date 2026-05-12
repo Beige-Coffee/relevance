@@ -133,7 +133,7 @@ function ModuleDialogue({
   onPrev?: () => void;
   onNext?: () => void;
 }) {
-  const { provider, activeKey, activeModel } = useSettings();
+  const { provider, activeKey, activeModel, enterToSend, setEnterToSend } = useSettings();
   // Thread key matches what HomeChat uses for the in-place Conversation
   // running mode, so messages started in one place show up in the other.
   const threadKey = `course:${courseId}:${moduleIndex}`;
@@ -352,7 +352,11 @@ function ModuleDialogue({
               autoGrow(e.currentTarget);
             }}
             onKeyDown={(e) => {
-              if ((e.metaKey || e.ctrlKey) && e.key === "Enter") {
+              const mod = e.metaKey || e.ctrlKey;
+              if (enterToSend && e.key === "Enter" && !e.shiftKey && !mod) {
+                e.preventDefault();
+                if (!isStreaming) send(input);
+              } else if (!enterToSend && mod && e.key === "Enter") {
                 e.preventDefault();
                 if (!isStreaming) send(input);
               }
@@ -371,7 +375,13 @@ function ModuleDialogue({
           </button>
         </form>
         <div className="flex items-center justify-between mt-2 max-w-3xl mx-auto text-xs text-[var(--muted)]">
-          <span>⌘+Enter to send</span>
+          <button
+            onClick={() => setEnterToSend(!enterToSend)}
+            className="hover:text-[var(--accent)]"
+            title="Click to switch send shortcut"
+          >
+            {enterToSend ? "Enter to send (Shift+Enter for newline)" : "⌘+Enter to send"}
+          </button>
           <div className="flex items-center gap-3">
             {onPrev && (
               <button onClick={onPrev} className="hover:text-[var(--accent)]">
