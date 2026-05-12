@@ -117,10 +117,20 @@ export interface Citation {
   excerpt: string;
 }
 
+export interface ToolEventLog {
+  id: string;
+  name: string;
+  input: Record<string, unknown>;
+  result?: unknown;
+  cached?: boolean;
+  done: boolean;
+}
+
 export interface ChatMessage {
   id: string;
   role: "user" | "assistant";
   content: string;
   citations?: Citation[];
+  toolEvents?: ToolEventLog[];
   createdAt: number;
 }

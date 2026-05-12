@@ -48,6 +48,7 @@ interface ChatState {
   isStreaming: boolean;
   append: (m: ChatMessage) => void;
   setLastContent: (content: string, citations?: ChatMessage["citations"]) => void;
+  patchLast: (patch: Partial<ChatMessage>) => void;
   setStreaming: (v: boolean) => void;
   reset: () => void;
 }
@@ -62,6 +63,14 @@ export const useChat = create<ChatState>((set) => ({
       if (idx < 0) return s;
       const updated = [...s.messages];
       updated[idx] = { ...updated[idx], content, citations: citations ?? updated[idx].citations };
+      return { messages: updated };
+    }),
+  patchLast: (patch) =>
+    set((s) => {
+      const idx = s.messages.length - 1;
+      if (idx < 0) return s;
+      const updated = [...s.messages];
+      updated[idx] = { ...updated[idx], ...patch };
       return { messages: updated };
     }),
   setStreaming: (v) => set({ isStreaming: v }),

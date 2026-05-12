@@ -4,12 +4,14 @@ import { useEffect, useRef, useState, use } from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getCourse, getConcepts, getEpisodes } from "@/lib/data";
-import type { Course, Concept, Episode, ChatMessage, Module } from "@/lib/types";
+import type { Course, Concept, Episode, ChatMessage, Module, ToolEventLog } from "@/lib/types";
 import { useChat, useSettings } from "@/lib/store";
 import { makeClientForProvider } from "@/lib/anthropic";
 import { streamText } from "@/lib/stream";
 import { buildModuleSystemPrompt } from "@/lib/prompts";
+import { TOOLS, ToolBudget, executeTool as runTool } from "@/lib/tools";
 import { RenderedText } from "@/components/rendered-text";
+import { ToolTrace } from "@/components/tool-trace";
 
 export default function ConversationPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = use(params);
@@ -110,7 +112,7 @@ function ModuleChat({
   onNext?: () => void;
 }) {
   const { provider, activeKey, activeModel } = useSettings();
-  const { messages, append, setLastContent, isStreaming, setStreaming, reset } = useChat();
+  const { messages, append, setLastContent, patchLast, isStreaming, setStreaming, reset } = useChat();
   const [input, setInput] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [showSources, setShowSources] = useState(false);
@@ -161,10 +163,14 @@ function ModuleChat({
       id: crypto.randomUUID(),
       role: "assistant",
       content: "",
+      toolEvents: [],
       createdAt: Date.now(),
     };
     append(assistantMsg);
     setStreaming(true);
+
+    const budget = new ToolBudget();
+    const toolEvents: ToolEventLog[] = [];
 
     try {
       const client = makeClientForProvider(provider, key);
@@ -179,9 +185,20 @@ function ModuleChat({
         model: activeModel(),
         system,
         messages: history,
+        tools: TOOLS,
+        executeTool: (call) => runTool(call, budget),
         onDelta: (d) => {
           buf += d;
           setLastContent(buf);
+        },
+        onToolEvent: (ev) => {
+          if (ev.kind === "start") {
+            toolEvents.push({ id: ev.id, name: ev.name, input: ev.input, done: false });
+          } else {
+            const idx = toolEvents.findIndex((e) => e.id === ev.id);
+            if (idx >= 0) toolEvents[idx] = { ...toolEvents[idx], done: true, result: ev.result, cached: ev.cached };
+          }
+          patchLast({ toolEvents: [...toolEvents] });
         },
         maxTokens: 1600,
       });
@@ -235,11 +252,12 @@ function ModuleChat({
               ) : (
                 <div>
                   <div className="text-[10px] uppercase tracking-wider text-[var(--muted)] mb-1.5">Sage</div>
+                  {m.toolEvents && m.toolEvents.length > 0 && <ToolTrace events={m.toolEvents} />}
                   {m.content ? (
                     <RenderedText text={m.content} />
-                  ) : (
+                  ) : !m.toolEvents?.length ? (
                     <div className="dot-pulse"><span /><span /><span /></div>
-                  )}
+                  ) : null}
                 </div>
               )}
             </div>

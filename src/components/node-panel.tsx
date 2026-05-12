@@ -2,13 +2,14 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import type { Concept, Person, Episode, CourseSummary, ChatMessage, GraphNode } from "@/lib/types";
+import type { Concept, Person, Episode, CourseSummary, ChatMessage, GraphNode, ToolEventLog } from "@/lib/types";
 import { useChat, useSettings } from "@/lib/store";
 import { makeClientForProvider } from "@/lib/anthropic";
 import { streamText } from "@/lib/stream";
-import { retrieve } from "@/lib/retrieve";
-import { SOCRATIC_SYSTEM_PROMPT, buildContextBlock } from "@/lib/prompts";
+import { SOCRATIC_SYSTEM_PROMPT } from "@/lib/prompts";
+import { TOOLS, ToolBudget, executeTool as runTool } from "@/lib/tools";
 import { RenderedText } from "./rendered-text";
+import { ToolTrace } from "./tool-trace";
 
 type Mode = "details" | "chat" | "conversation";
 
@@ -437,22 +438,17 @@ function DiscussButton({ onClick, small }: { onClick: () => void; small?: boolea
 
 function ChatThread({ seed, anchor, onBack }: { seed: string; anchor: string; onBack: () => void }) {
   const { provider, activeKey, activeModel } = useSettings();
-  const { messages, append, setLastContent, isStreaming, setStreaming, reset } = useChat();
+  const { messages, append, setLastContent, patchLast, isStreaming, setStreaming, reset } = useChat();
   const [input, setInput] = useState("");
   const [error, setError] = useState<string | null>(null);
   const seededRef = useRef(false);
 
-  // Seed the conversation once when this thread first mounts.
-  // Guarded with a ref so React StrictMode's dev-only double-mount doesn't
-  // fire two parallel streams.
   useEffect(() => {
     if (seededRef.current) return;
     seededRef.current = true;
     if (messages.length === 0 && seed) {
       send(seed);
     }
-    // No cleanup reset here: that was wiping the chat history between
-    // StrictMode unmount and remount, racing the two seed calls.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -472,42 +468,45 @@ function ChatThread({ seed, anchor, onBack }: { seed: string; anchor: string; on
     };
     append(userMsg);
     setInput("");
-    const results = await retrieve(`${anchor} ${text}`.slice(-1500), 6);
-    const citations = results.map((r) => ({
-      passageId: r.passage.id,
-      episode: r.passage.episode,
-      episodeTitle: r.passage.episodeTitle,
-      excerpt: r.passage.text.slice(0, 280),
-    }));
     const assistantMsg: ChatMessage = {
       id: crypto.randomUUID(),
       role: "assistant",
       content: "",
-      citations,
+      toolEvents: [],
       createdAt: Date.now(),
     };
     append(assistantMsg);
     setStreaming(true);
+
+    const budget = new ToolBudget();
+    const toolEvents: ToolEventLog[] = [];
+
     try {
       const client = makeClientForProvider(provider, key);
-      const context = buildContextBlock(results.map((r) => ({ episode: r.passage.episode, text: r.passage.text })));
       const history = [...messages, userMsg].map((m) => ({ role: m.role, content: m.content }));
-      history[history.length - 1] = {
-        role: "user",
-        content: `${context}\n\n[Student says:]\n${text.trim()}`,
-      };
+      const augmentedSystem = `${SOCRATIC_SYSTEM_PROMPT}\n\nCONTEXT FOR THIS DISCUSSION:\nThe student is exploring this anchor:\n${anchor}\n\nUse the tools to ground every claim. Start by calling look_up or read_concept if the student's question would benefit from fresh passages.`;
       let buf = "";
       await streamText({
         client,
         model: activeModel(),
-        system: SOCRATIC_SYSTEM_PROMPT,
+        system: augmentedSystem,
         messages: history,
-        onDelta: (d) => { buf += d; setLastContent(buf, citations); },
+        tools: TOOLS,
+        executeTool: (call) => runTool(call, budget),
+        onDelta: (d) => { buf += d; setLastContent(buf); },
+        onToolEvent: (ev) => {
+          if (ev.kind === "start") {
+            toolEvents.push({ id: ev.id, name: ev.name, input: ev.input, done: false });
+          } else {
+            const idx = toolEvents.findIndex((e) => e.id === ev.id);
+            if (idx >= 0) toolEvents[idx] = { ...toolEvents[idx], done: true, result: ev.result, cached: ev.cached };
+          }
+          patchLast({ toolEvents: [...toolEvents] });
+        },
         maxTokens: 1400,
       });
     } catch (e) {
       const msg = e instanceof Error ? e.message : String(e);
-      // Surface the underlying API error verbatim plus a hint if it's a key issue.
       const looksLikeAuth = /401|invalid|unauthor|api.key/i.test(msg);
       setError(looksLikeAuth ? `${msg} (check your API key on the Settings page)` : msg);
     } finally {
@@ -532,11 +531,12 @@ function ChatThread({ seed, anchor, onBack }: { seed: string; anchor: string; on
             ) : (
               <div className="">
                 <div className="text-[10px] uppercase tracking-wider text-[var(--muted)] mb-1.5">Sage</div>
+                {m.toolEvents && m.toolEvents.length > 0 && <ToolTrace events={m.toolEvents} />}
                 {m.content ? (
                   <RenderedText text={m.content} />
-                ) : (
+                ) : !m.toolEvents?.length ? (
                   <div className="dot-pulse"><span /><span /><span /></div>
-                )}
+                ) : null}
               </div>
             )}
           </div>

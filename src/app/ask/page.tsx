@@ -5,16 +5,20 @@ import { useSettings } from "@/lib/store";
 import { retrieve, type RetrievalResult } from "@/lib/retrieve";
 import { makeClientForProvider } from "@/lib/anthropic";
 import { streamText } from "@/lib/stream";
-import { ASK_SYSTEM_PROMPT, buildContextBlock } from "@/lib/prompts";
+import { ASK_SYSTEM_PROMPT } from "@/lib/prompts";
+import { TOOLS, ToolBudget, executeTool as runTool } from "@/lib/tools";
 import { PassageCard } from "@/components/passage-card";
 import { RenderedText } from "@/components/rendered-text";
 import { ApiKeyBanner } from "@/components/api-key-banner";
+import { ToolTrace } from "@/components/tool-trace";
+import type { ToolEventLog } from "@/lib/types";
 
 interface AnswerState {
   query: string;
   results: RetrievalResult[];
   answer: string;
   streaming: boolean;
+  toolEvents: ToolEventLog[];
   error?: string;
 }
 
@@ -27,15 +31,16 @@ export default function AskPage() {
     e.preventDefault();
     if (!query.trim()) return;
     const q = query.trim();
-    const next: AnswerState = { query: q, results: [], answer: "", streaming: true };
+    const next: AnswerState = { query: q, results: [], answer: "", streaming: true, toolEvents: [] };
     setState(next);
 
+    // Show the BM25 results as a side-by-side reference for the user. The
+    // model will do its own look_up calls via tools regardless.
     let results: RetrievalResult[] = [];
     try {
       results = await retrieve(q, 8);
-    } catch (err) {
-      setState({ ...next, streaming: false, error: err instanceof Error ? err.message : String(err) });
-      return;
+    } catch {
+      // Non-fatal: the model can still synthesize via tools.
     }
     setState({ ...next, results });
 
@@ -45,19 +50,31 @@ export default function AskPage() {
       return;
     }
 
+    const budget = new ToolBudget();
+    const toolEvents: ToolEventLog[] = [];
+
     try {
       const client = makeClientForProvider(provider, key);
-      const context = buildContextBlock(results.map((r) => ({ episode: r.passage.episode, text: r.passage.text })));
-      const userMsg = `Question: ${q}\n\n${context}\n\nAnswer the question above using the passages. Cite episodes inline using (Episode N) form.`;
       let buf = "";
       await streamText({
         client,
         model: activeModel(),
         system: ASK_SYSTEM_PROMPT,
-        messages: [{ role: "user", content: userMsg }],
+        messages: [{ role: "user", content: q }],
+        tools: TOOLS,
+        executeTool: (call) => runTool(call, budget),
         onDelta: (d) => {
           buf += d;
           setState((cur) => (cur ? { ...cur, answer: buf } : cur));
+        },
+        onToolEvent: (ev) => {
+          if (ev.kind === "start") {
+            toolEvents.push({ id: ev.id, name: ev.name, input: ev.input, done: false });
+          } else {
+            const idx = toolEvents.findIndex((e) => e.id === ev.id);
+            if (idx >= 0) toolEvents[idx] = { ...toolEvents[idx], done: true, result: ev.result, cached: ev.cached };
+          }
+          setState((cur) => (cur ? { ...cur, toolEvents: [...toolEvents] } : cur));
         },
       });
       setState((cur) => (cur ? { ...cur, streaming: false } : cur));
@@ -105,16 +122,17 @@ export default function AskPage() {
             </div>
           )}
 
-          {(state.answer || state.streaming) && (
+          {(state.answer || state.streaming || state.toolEvents.length > 0) && (
             <section>
               <h2 className="serif text-2xl text-[var(--ink)] mb-3">Answer</h2>
+              {state.toolEvents.length > 0 && <ToolTrace events={state.toolEvents} />}
               {state.answer ? (
                 <RenderedText text={state.answer} />
-              ) : (
+              ) : !state.toolEvents.length ? (
                 <div className="dot-pulse text-[var(--muted)]">
                   <span /> <span /> <span />
                 </div>
-              )}
+              ) : null}
             </section>
           )}
 

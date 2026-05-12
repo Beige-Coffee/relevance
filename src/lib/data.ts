@@ -2,6 +2,8 @@
 
 import type { Episode, Concept, Person, Passage, Quote, Graph, CourseSummary, Course } from "./types";
 
+export type TranscriptIndex = Record<number, { title: string; body: string }>;
+
 type Cache = Partial<{
   episodes: Episode[];
   concepts: Concept[];
@@ -10,6 +12,7 @@ type Cache = Partial<{
   quotes: Quote[];
   graph: Graph;
   courses: CourseSummary[];
+  transcripts: TranscriptIndex;
 }>;
 
 const cache: Cache = {};
@@ -31,6 +34,7 @@ export const getPassages = () => load<"passages", Passage[]>("passages", "/data/
 export const getQuotes = () => load<"quotes", Quote[]>("quotes", "/data/quotes.json");
 export const getGraph = () => load<"graph", Graph>("graph", "/data/graph.json");
 export const getCourses = () => load<"courses", CourseSummary[]>("courses", "/data/courses.json");
+export const getTranscripts = () => load<"transcripts", TranscriptIndex>("transcripts", "/data/transcripts.json");
 
 export async function getCourse(id: string): Promise<Course> {
   if (courseCache.has(id)) return courseCache.get(id)!;

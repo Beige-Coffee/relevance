@@ -345,8 +345,16 @@ async function main() {
   const graph = buildGraph(concepts, people, metadata);
   console.log(`  ${graph.nodes.length} nodes, ${graph.links.length} links`);
 
+  // Full per-episode transcripts (body only, no frontmatter) — needed for the
+  // verify_quote tool in the browser.
+  const transcriptsByEpisode: Record<number, { title: string; body: string }> = {};
+  for (const t of transcripts) {
+    transcriptsByEpisode[t.num] = { title: t.title, body: t.body };
+  }
+
   console.log("Writing outputs...");
   await writeFile(path.join(OUT_PUBLIC, "episodes.json"), JSON.stringify(epIndex, null, 2));
+  await writeFile(path.join(OUT_PUBLIC, "transcripts.json"), JSON.stringify(transcriptsByEpisode));
   await writeFile(path.join(OUT_PUBLIC, "concepts.json"), JSON.stringify(concepts, null, 2));
   await writeFile(path.join(OUT_PUBLIC, "people.json"), JSON.stringify(people, null, 2));
   await writeFile(path.join(OUT_PUBLIC, "graph.json"), JSON.stringify(graph, null, 2));

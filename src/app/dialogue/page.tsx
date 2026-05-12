@@ -2,13 +2,14 @@
 
 import { useEffect, useRef, useState } from "react";
 import { useSettings, useChat } from "@/lib/store";
-import { retrieve, type RetrievalResult } from "@/lib/retrieve";
 import { makeClientForProvider } from "@/lib/anthropic";
 import { streamText } from "@/lib/stream";
-import { SOCRATIC_SYSTEM_PROMPT, buildContextBlock } from "@/lib/prompts";
+import { SOCRATIC_SYSTEM_PROMPT } from "@/lib/prompts";
+import { TOOLS, ToolBudget, executeTool as runTool } from "@/lib/tools";
 import { RenderedText } from "@/components/rendered-text";
 import { ApiKeyBanner } from "@/components/api-key-banner";
-import type { Citation, ChatMessage } from "@/lib/types";
+import { ToolTrace } from "@/components/tool-trace";
+import type { ChatMessage, ToolEventLog } from "@/lib/types";
 
 const STARTER_PROMPTS = [
   "What is relevance realization, and why does it matter?",
@@ -19,16 +20,14 @@ const STARTER_PROMPTS = [
 
 export default function DialoguePage() {
   const { provider, activeKey, activeModel } = useSettings();
-  const { messages, append, setLastContent, isStreaming, setStreaming, reset } = useChat();
+  const { messages, append, setLastContent, patchLast, isStreaming, setStreaming, reset } = useChat();
   const [input, setInput] = useState("");
-  const [retrieved, setRetrieved] = useState<RetrievalResult[]>([]);
-  const [showSources, setShowSources] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: "smooth" });
-  }, [messages, retrieved]);
+  }, [messages]);
 
   async function send(text: string) {
     if (!text.trim()) return;
@@ -48,45 +47,25 @@ export default function DialoguePage() {
     append(userMsg);
     setInput("");
 
-    // Retrieve passages based on the new user message, biased by recent history.
-    const history = messages
-      .slice(-4)
-      .map((m) => m.content)
-      .join(" ");
-    const retrievalQuery = `${history} ${text}`.slice(-1500);
-    const results = await retrieve(retrievalQuery, 6);
-    setRetrieved(results);
-    const citations: Citation[] = results.map((r) => ({
-      passageId: r.passage.id,
-      episode: r.passage.episode,
-      episodeTitle: r.passage.episodeTitle,
-      excerpt: r.passage.text.slice(0, 280),
-    }));
-
-    // Add a placeholder assistant message that we stream into.
     const assistantMsg: ChatMessage = {
       id: crypto.randomUUID(),
       role: "assistant",
       content: "",
-      citations,
+      toolEvents: [],
       createdAt: Date.now(),
     };
     append(assistantMsg);
     setStreaming(true);
 
+    const budget = new ToolBudget();
+    const toolEvents: ToolEventLog[] = [];
+
     try {
       const client = makeClientForProvider(provider, key);
-      const context = buildContextBlock(results.map((r) => ({ episode: r.passage.episode, text: r.passage.text })));
       const historyMessages = [...messages, userMsg].map((m) => ({
         role: m.role,
         content: m.content,
       }));
-      // Replace the last user message content with one that includes context.
-      const lastIdx = historyMessages.length - 1;
-      historyMessages[lastIdx] = {
-        role: "user",
-        content: `${context}\n\n[Student says:]\n${text.trim()}`,
-      };
 
       let buf = "";
       await streamText({
@@ -94,15 +73,26 @@ export default function DialoguePage() {
         model: activeModel(),
         system: SOCRATIC_SYSTEM_PROMPT,
         messages: historyMessages,
+        tools: TOOLS,
+        executeTool: (call) => runTool(call, budget),
         onDelta: (d) => {
           buf += d;
-          setLastContent(buf, citations);
+          setLastContent(buf);
+        },
+        onToolEvent: (ev) => {
+          if (ev.kind === "start") {
+            toolEvents.push({ id: ev.id, name: ev.name, input: ev.input, done: false });
+          } else {
+            const idx = toolEvents.findIndex((e) => e.id === ev.id);
+            if (idx >= 0) toolEvents[idx] = { ...toolEvents[idx], done: true, result: ev.result, cached: ev.cached };
+          }
+          patchLast({ toolEvents: [...toolEvents] });
         },
         maxTokens: 1800,
       });
     } catch (err) {
       setError(err instanceof Error ? err.message : String(err));
-      setLastContent("(error generating response, see banner above)", citations);
+      setLastContent("(error generating response, see banner above)");
     } finally {
       setStreaming(false);
     }
@@ -147,31 +137,12 @@ export default function DialoguePage() {
               ) : (
                 <article className="rounded-lg">
                   <div className="text-xs uppercase tracking-wider text-[var(--muted)] mb-2">Sage</div>
+                  {m.toolEvents && m.toolEvents.length > 0 && <ToolTrace events={m.toolEvents} />}
                   {m.content ? (
                     <RenderedText text={m.content} />
-                  ) : (
+                  ) : !m.toolEvents?.length ? (
                     <div className="dot-pulse"><span /><span /><span /></div>
-                  )}
-                  {m.citations && m.citations.length > 0 && (
-                    <details className="mt-4 group">
-                      <summary className="cursor-pointer text-xs text-[var(--muted)] hover:text-[var(--accent)] mono">
-                        retrieved sources ({m.citations.length})
-                      </summary>
-                      <div className="mt-3 space-y-2">
-                        {m.citations.map((c) => (
-                          <div
-                            key={c.passageId}
-                            className="text-xs p-3 rounded-md border border-[var(--border)] bg-[var(--surface)]"
-                          >
-                            <div className="mono text-[var(--accent)] mb-1">
-                              Episode {c.episode} <span className="text-[var(--muted)]">· {c.episodeTitle}</span>
-                            </div>
-                            <p className="text-[var(--ink-soft)]">{c.excerpt}…</p>
-                          </div>
-                        ))}
-                      </div>
-                    </details>
-                  )}
+                  ) : null}
                 </article>
               )}
             </div>
@@ -220,7 +191,6 @@ export default function DialoguePage() {
                 type="button"
                 onClick={() => {
                   reset();
-                  setRetrieved([]);
                   setError(null);
                 }}
                 className="px-3 py-2 rounded-md text-xs text-[var(--muted)] hover:text-[var(--accent)] hover:bg-[var(--elev)]"
