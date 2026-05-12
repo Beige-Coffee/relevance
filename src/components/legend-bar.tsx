@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useRef, useState } from "react";
 
 const CLUSTERS: { id: string; label: string; color: string }[] = [
   { id: "cognitive-science", label: "Cognitive science", color: "#1f3a8a" },
@@ -12,8 +12,27 @@ const CLUSTERS: { id: string; label: string; color: string }[] = [
 
 export function LegendBar({ mode }: { mode: "concepts" | "persons" }) {
   const [moreOpen, setMoreOpen] = useState(false);
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  // Close popover on outside click or Escape.
+  useEffect(() => {
+    if (!moreOpen) return;
+    function onDocClick(e: MouseEvent) {
+      if (!containerRef.current?.contains(e.target as Node)) setMoreOpen(false);
+    }
+    function onKey(e: KeyboardEvent) {
+      if (e.key === "Escape") setMoreOpen(false);
+    }
+    document.addEventListener("mousedown", onDocClick);
+    document.addEventListener("keydown", onKey);
+    return () => {
+      document.removeEventListener("mousedown", onDocClick);
+      document.removeEventListener("keydown", onKey);
+    };
+  }, [moreOpen]);
+
   return (
-    <div className="flex items-center gap-3 text-[11px] text-[var(--ink-soft)] relative">
+    <div ref={containerRef} className="flex items-center gap-3 text-[11px] text-[var(--ink-soft)] relative">
       {mode === "concepts" ? (
         <>
           <div className="hidden lg:flex items-center gap-3">
