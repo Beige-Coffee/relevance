@@ -76,6 +76,9 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1 }
   );
 
   // Filter the graph to the selected mode. Episodes are never shown.
+  // After filtering by mode and minDegree, drop any node that isn't in the
+  // largest connected component, so a small disconnected cluster doesn't drift
+  // to the edge and stretch the layout.
   const filteredGraph = useMemo(() => {
     const kindKeep = mode === "concepts" ? "concept" : "person";
     const visible = new Set<string>();
@@ -84,11 +87,43 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1 }
       if ((n.count ?? 1) < minDegree) continue;
       visible.add(n.id);
     }
-    const nodes = graph.nodes.filter((n) => visible.has(n.id));
+    // Build adjacency on the visible subgraph
+    const adj: Record<string, Set<string>> = {};
+    for (const l of graph.links) {
+      const s = typeof l.source === "string" ? l.source : (l.source as GraphNode).id;
+      const t = typeof l.target === "string" ? l.target : (l.target as GraphNode).id;
+      if (!visible.has(s) || !visible.has(t)) continue;
+      (adj[s] ??= new Set()).add(t);
+      (adj[t] ??= new Set()).add(s);
+    }
+    // BFS-extract connected components; keep only the largest.
+    const visited = new Set<string>();
+    const components: string[][] = [];
+    for (const id of visible) {
+      if (visited.has(id)) continue;
+      const comp: string[] = [];
+      const queue: string[] = [id];
+      while (queue.length) {
+        const n = queue.shift()!;
+        if (visited.has(n)) continue;
+        visited.add(n);
+        comp.push(n);
+        for (const next of adj[n] ?? []) if (visible.has(next) && !visited.has(next)) queue.push(next);
+      }
+      components.push(comp);
+    }
+    components.sort((a, b) => b.length - a.length);
+    const keep = new Set<string>(components[0] ?? []);
+    // Edge case: if the largest component is small, fall back to showing all
+    // visible nodes (avoid hiding everything when filtering is harsh).
+    if (keep.size < Math.max(8, visible.size * 0.25)) {
+      for (const id of visible) keep.add(id);
+    }
+    const nodes = graph.nodes.filter((n) => keep.has(n.id));
     const links = graph.links.filter((l) => {
       const s = typeof l.source === "string" ? l.source : (l.source as GraphNode).id;
       const t = typeof l.target === "string" ? l.target : (l.target as GraphNode).id;
-      return visible.has(s) && visible.has(t);
+      return keep.has(s) && keep.has(t);
     });
     return { nodes, links };
   }, [graph, mode, minDegree]);
