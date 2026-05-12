@@ -63,26 +63,21 @@ export default function CoursesPage() {
             {groupByCluster.get(cluster)!.length} Conversation{groupByCluster.get(cluster)!.length === 1 ? "" : "s"}
           </p>
           <div className="grid sm:grid-cols-2 gap-3">
-            {groupByCluster.get(cluster)!.map((c) => {
-              const concept = cMap.get(c.conceptId);
-              return (
-                <Link
-                  key={c.id}
-                  href={`/conversation/${c.id}`}
-                  className="block rounded-lg border border-[var(--border)] bg-[var(--surface)] p-5 hover:border-[var(--accent)] transition-colors group"
-                >
-                  <h3 className="serif text-xl text-[var(--ink)] group-hover:text-[var(--accent)] transition-colors mb-1">
-                    {c.title}
-                  </h3>
-                  {concept && (
-                    <div className="text-xs text-[var(--muted)] mb-2">
-                      {c.moduleCount} module{c.moduleCount === 1 ? "" : "s"} · depth {concept.depth}
-                    </div>
-                  )}
-                  <p className="text-sm text-[var(--ink-soft)] leading-relaxed line-clamp-3">{c.abstract}</p>
-                </Link>
-              );
-            })}
+            {groupByCluster.get(cluster)!.map((c) => (
+              <Link
+                key={c.id}
+                href={`/conversation/${c.id}`}
+                className="block rounded-lg border border-[var(--border)] bg-[var(--surface)] p-5 hover:border-[var(--accent)] transition-colors group"
+              >
+                <h3 className="serif text-xl text-[var(--ink)] group-hover:text-[var(--accent)] transition-colors mb-1">
+                  {c.title}
+                </h3>
+                <div className="text-xs text-[var(--muted)] mb-2">
+                  {c.moduleCount} module{c.moduleCount === 1 ? "" : "s"}
+                </div>
+                <p className="text-sm text-[var(--ink-soft)] leading-relaxed line-clamp-3">{c.abstract}</p>
+              </Link>
+            ))}
           </div>
         </section>
       ))}
