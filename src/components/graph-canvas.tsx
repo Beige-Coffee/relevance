@@ -381,7 +381,10 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1, 
 
   const activeId = selectedId ?? hoverId ?? null;
   const activeNeighbors = activeId ? neighbors[activeId] ?? new Set() : new Set();
-  const hasFocus = Boolean(activeId);
+  // In isolate mode the entire visible set is intentionally part of the focused
+  // concept's neighborhood, so we never dim. In normal mode, dimming kicks in
+  // when the user has selected or is hovering a node.
+  const hasFocus = !isolatedId && Boolean(activeId);
 
   // Configure d3 forces synchronously so the simulation runs with the
   // correct forces from frame 1, not after an async import resolves.

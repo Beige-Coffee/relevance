@@ -85,8 +85,8 @@ export default function Home() {
                 isolatedId={isolatedId}
               />
               {isolatedId && (
-                <div className="absolute top-4 left-1/2 -translate-x-1/2 z-20 flex items-center gap-4 px-5 py-2.5 rounded-full bg-[var(--ink)] text-[var(--bg)] text-sm shadow-lg whitespace-nowrap max-w-[calc(100%-32px)]">
-                  <span className="text-[10px] uppercase tracking-[0.16em] opacity-60 shrink-0">
+                <div className="absolute top-4 left-1/2 -translate-x-1/2 z-20 flex items-center gap-4 px-5 py-2 rounded-full bg-[var(--surface)] text-[var(--accent)] border border-[var(--accent)] text-sm shadow-sm whitespace-nowrap max-w-[calc(100%-32px)]">
+                  <span className="text-[10px] uppercase tracking-[0.16em] text-[var(--muted)] shrink-0">
                     Isolated
                   </span>
                   <span className="font-medium truncate">
@@ -94,7 +94,7 @@ export default function Home() {
                   </span>
                   <button
                     onClick={() => setIsolatedId(null)}
-                    className="shrink-0 text-xs opacity-70 hover:opacity-100 underline-offset-2 hover:underline"
+                    className="shrink-0 text-xs text-[var(--muted)] hover:text-[var(--accent)] underline-offset-2 hover:underline"
                     aria-label="Exit isolation"
                   >
                     Exit ✕
@@ -103,15 +103,9 @@ export default function Home() {
               )}
               {hoverLabel && !isolatedId && (
                 <div className="absolute top-6 left-1/2 -translate-x-1/2 z-10 pointer-events-none">
-                  <div className="px-4 py-2 rounded-full bg-[var(--ink)] text-[var(--bg)] text-sm font-medium shadow-lg whitespace-nowrap">
+                  <div className="px-4 py-2 rounded-full bg-[var(--surface)] text-[var(--accent)] border border-[var(--accent)] text-sm font-medium shadow-sm whitespace-nowrap">
                     {hoverLabel}
                   </div>
-                </div>
-              )}
-              {isolatedId && (
-                <div className="absolute inset-x-0 top-16 z-10 pointer-events-none flex justify-between px-12 text-[10px] uppercase tracking-[0.18em] text-[var(--muted)]">
-                  <span>← Prerequisites</span>
-                  <span>Contrasted →</span>
                 </div>
               )}
             </>
