@@ -140,6 +140,18 @@ export function makeOpenRouterClient(apiKey: string): Anthropic {
       "HTTP-Referer": typeof window !== "undefined" ? window.location.origin : "",
       "X-Title": "relevance",
     },
+    // OpenRouter's Anthropic-compat endpoint accepts the Anthropic request
+    // format but its CORS Access-Control-Allow-Headers list does NOT include
+    // the SDK-default `anthropic-version` or `anthropic-dangerous-direct-
+    // browser-access` headers. If we send them, the browser's preflight
+    // rejects the request and fetch() throws "Failed to fetch." Strip them
+    // here so the preflight passes.
+    fetch: async (input, init) => {
+      const headers = new Headers(init?.headers ?? {});
+      headers.delete("anthropic-version");
+      headers.delete("anthropic-dangerous-direct-browser-access");
+      return fetch(input as RequestInfo | URL, { ...init, headers });
+    },
   });
 }
 
