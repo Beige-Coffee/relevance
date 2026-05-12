@@ -5,14 +5,16 @@ import Link from "next/link";
 import { useChat, useSettings } from "@/lib/store";
 import { makeClientForProvider } from "@/lib/anthropic";
 import { streamText } from "@/lib/stream";
-import { SOCRATIC_SYSTEM_PROMPT } from "@/lib/prompts";
+import { SOCRATIC_SYSTEM_PROMPT, buildModuleSystemPrompt } from "@/lib/prompts";
 import { TOOLS, ToolBudget, executeTool as runTool } from "@/lib/tools";
+import { getCourse } from "@/lib/data";
 import type {
   ChatMessage,
   ToolEventLog,
   GraphNode,
   Concept,
   Person,
+  Course,
   CourseSummary,
 } from "@/lib/types";
 import type { GraphMode } from "./graph-canvas";
@@ -51,6 +53,10 @@ export function HomeChat({
   const { messages, append, setLastContent, patchLast, isStreaming, setStreaming, reset } = useChat();
   const [input, setInput] = useState("");
   const [error, setError] = useState<string | null>(null);
+  const [loadingCourseId, setLoadingCourseId] = useState<string | null>(null);
+  // When a Conversation is running inside this panel, hold the full Course
+  // and which module is currently in focus.
+  const [activeConversation, setActiveConversation] = useState<{ course: Course; moduleIndex: number } | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
   const inputRef = useRef<HTMLTextAreaElement>(null);
 
@@ -68,6 +74,58 @@ export function HomeChat({
   const selectedCourse = selectedConcept
     ? courses.find((cr) => cr.conceptId === selectedConcept.id)
     : null;
+
+  function seedModule(course: Course, moduleIndex: number) {
+    const mod = course.modules[moduleIndex];
+    const opener = mod.socraticSeeds[0]?.prompt ?? `Let's begin. ${mod.learningObjective}`;
+    append({
+      id: crypto.randomUUID(),
+      role: "assistant",
+      content: `Let's explore **${mod.title}**.\n\n${opener}`,
+      createdAt: Date.now(),
+    });
+  }
+
+  async function beginConversation(courseSummary: CourseSummary) {
+    if (loadingCourseId) return;
+    setError(null);
+    setLoadingCourseId(courseSummary.id);
+    try {
+      const course = await getCourse(courseSummary.id);
+      reset();
+      setActiveConversation({ course, moduleIndex: 0 });
+      seedModule(course, 0);
+    } catch (e) {
+      setError(e instanceof Error ? e.message : String(e));
+    } finally {
+      setLoadingCourseId(null);
+    }
+  }
+
+  function switchModule(nextIndex: number) {
+    if (!activeConversation) return;
+    if (nextIndex < 0 || nextIndex >= activeConversation.course.modules.length) return;
+    reset();
+    setActiveConversation({ ...activeConversation, moduleIndex: nextIndex });
+    seedModule(activeConversation.course, nextIndex);
+  }
+
+  function exitConversation() {
+    setActiveConversation(null);
+    reset();
+    setError(null);
+  }
+
+  function clearChat() {
+    if (activeConversation) {
+      // Clear the messages but keep the Conversation context; reseed the module opener.
+      reset();
+      seedModule(activeConversation.course, activeConversation.moduleIndex);
+    } else {
+      reset();
+    }
+    setError(null);
+  }
 
   async function send(text: string) {
     if (!text.trim()) return;
@@ -102,7 +160,12 @@ export function HomeChat({
 
     try {
       const client = makeClientForProvider(provider, key);
-      const system = buildSystem({ mode, selectedConcept, selectedPerson });
+      const system = activeConversation
+        ? buildModuleSystemPrompt(
+            activeConversation.course.title,
+            activeConversation.course.modules[activeConversation.moduleIndex],
+          )
+        : buildSystem({ mode, selectedConcept, selectedPerson });
       const history = [...messages, userMsg].map((m) => ({
         role: m.role,
         content: m.content,
@@ -158,28 +221,79 @@ export function HomeChat({
   return (
     <aside className="h-full w-full sm:w-[400px] shrink-0 border-l border-[var(--border-soft)] bg-[var(--surface)] flex flex-col">
       <header className="px-4 py-3 border-b border-[var(--border-soft)] flex items-center justify-between gap-2">
-        <div className="flex items-center gap-2">
+        <div className="flex items-center gap-2 min-w-0">
           <button
             onClick={onToggleCollapsed}
             aria-label="Collapse chat"
-            className="w-7 h-7 rounded-md text-[var(--muted)] hover:text-[var(--accent)] hover:bg-[var(--elev)] flex items-center justify-center"
+            className="w-7 h-7 rounded-md text-[var(--muted)] hover:text-[var(--accent)] hover:bg-[var(--elev)] flex items-center justify-center shrink-0"
             title="Collapse"
           >
             ›
           </button>
-          <span className="text-[11px] uppercase tracking-[0.16em] text-[var(--muted)]">Dialogue</span>
+          {activeConversation ? (
+            <span className="text-[11px] uppercase tracking-[0.16em] text-[var(--accent)] truncate">
+              Conversation
+            </span>
+          ) : (
+            <span className="text-[11px] uppercase tracking-[0.16em] text-[var(--muted)]">Dialogue</span>
+          )}
         </div>
-        {messages.length > 0 && (
-          <button
-            onClick={() => { reset(); setError(null); }}
-            className="text-[11px] text-[var(--muted)] hover:text-[var(--accent)]"
-          >
-            Clear
-          </button>
-        )}
+        <div className="flex items-center gap-3 shrink-0">
+          {messages.length > 0 && (
+            <button
+              onClick={clearChat}
+              className="text-[11px] text-[var(--muted)] hover:text-[var(--accent)]"
+            >
+              Clear
+            </button>
+          )}
+          {activeConversation && (
+            <button
+              onClick={exitConversation}
+              className="text-[11px] text-[var(--muted)] hover:text-[var(--accent)]"
+            >
+              Exit
+            </button>
+          )}
+        </div>
       </header>
 
-      {(selectedConcept || selectedPerson) && (
+      {activeConversation ? (
+        <div className="px-4 py-2 border-b border-[var(--border-soft)] bg-[var(--bg-tinted)]">
+          <div className="flex items-baseline gap-2">
+            <span className="text-[10px] uppercase tracking-[0.14em] text-[var(--muted)]">
+              {activeConversation.course.title}
+            </span>
+          </div>
+          <div className="mt-1 flex items-center gap-2 text-xs">
+            <button
+              onClick={() => switchModule(activeConversation.moduleIndex - 1)}
+              disabled={activeConversation.moduleIndex === 0 || isStreaming}
+              className="w-5 h-5 rounded text-[var(--muted)] hover:text-[var(--accent)] hover:bg-[var(--elev)] disabled:opacity-30 disabled:hover:bg-transparent flex items-center justify-center"
+              aria-label="Previous module"
+              title="Previous module"
+            >
+              ‹
+            </button>
+            <span className="text-[var(--ink-soft)]">
+              Module {activeConversation.moduleIndex + 1} of {activeConversation.course.modules.length}
+              <span className="mx-1.5 text-[var(--muted)]">·</span>
+              <span className="text-[var(--ink)] font-medium">
+                {activeConversation.course.modules[activeConversation.moduleIndex].title}
+              </span>
+            </span>
+            <button
+              onClick={() => switchModule(activeConversation.moduleIndex + 1)}
+              disabled={activeConversation.moduleIndex >= activeConversation.course.modules.length - 1 || isStreaming}
+              className="ml-auto w-5 h-5 rounded text-[var(--muted)] hover:text-[var(--accent)] hover:bg-[var(--elev)] disabled:opacity-30 disabled:hover:bg-transparent flex items-center justify-center"
+              aria-label="Next module"
+              title="Next module"
+            >
+              ›
+            </button>
+          </div>
+        </div>
+      ) : (selectedConcept || selectedPerson) && (
         <div className="px-4 py-2 border-b border-[var(--border-soft)] bg-[var(--bg-tinted)] flex items-center gap-2 text-xs">
           <span className="text-[var(--muted)]">Discussing:</span>
           {selectedConcept && (
@@ -209,6 +323,8 @@ export function HomeChat({
             <ConversationOffer
               concept={selectedConcept}
               course={selectedCourse}
+              loading={loadingCourseId === selectedCourse.id}
+              onBegin={() => beginConversation(selectedCourse)}
               onAskInstead={() => inputRef.current?.focus()}
             />
           ) : (
@@ -260,11 +376,13 @@ export function HomeChat({
           placeholder={
             isStreaming
               ? "Thinking..."
-              : selectedConcept
-                ? `Ask about ${selectedConcept.canonicalName}...`
-                : selectedPerson
-                  ? `Ask about ${selectedPerson.canonicalName}...`
-                  : "Ask anything..."
+              : activeConversation
+                ? "Reply..."
+                : selectedConcept
+                  ? `Ask about ${selectedConcept.canonicalName}...`
+                  : selectedPerson
+                    ? `Ask about ${selectedPerson.canonicalName}...`
+                    : "Ask anything..."
           }
           rows={1}
           disabled={isStreaming}
@@ -285,10 +403,14 @@ export function HomeChat({
 function ConversationOffer({
   concept,
   course,
+  loading,
+  onBegin,
   onAskInstead,
 }: {
   concept: Concept;
   course: CourseSummary;
+  loading: boolean;
+  onBegin: () => void;
   onAskInstead: () => void;
 }) {
   return (
@@ -303,18 +425,25 @@ function ConversationOffer({
         <p className="text-[13px] text-[var(--ink-soft)] mt-1.5 leading-relaxed">
           {concept.definition}
         </p>
+        <Link
+          href={`/concept/${concept.id}`}
+          className="inline-block mt-2 text-[11px] text-[var(--muted)] hover:text-[var(--accent)]"
+        >
+          Open the concept card →
+        </Link>
       </div>
 
       <div className="rounded-md border border-[var(--accent)]/30 bg-[var(--accent-tint)] p-3.5">
         <p className="text-[13px] text-[var(--ink)] leading-relaxed">
-          There&rsquo;s a guided <strong>Conversation</strong> on this concept: {course.moduleCount} module{course.moduleCount === 1 ? "" : "s"} of Socratic dialogue grounded in the transcripts.
+          There&rsquo;s a guided <strong>Conversation</strong> on this concept: {course.moduleCount} module{course.moduleCount === 1 ? "" : "s"} of Socratic dialogue grounded in the transcripts. It runs here in this panel.
         </p>
-        <Link
-          href={`/conversation/${course.id}`}
-          className="mt-3 inline-flex items-center justify-center w-full px-3 py-2 rounded-md bg-[var(--accent)] text-white text-sm font-medium hover:bg-[var(--accent-bright)] transition-colors"
+        <button
+          onClick={onBegin}
+          disabled={loading}
+          className="mt-3 inline-flex items-center justify-center w-full px-3 py-2 rounded-md bg-[var(--accent)] text-white text-sm font-medium hover:bg-[var(--accent-bright)] transition-colors disabled:opacity-60 disabled:cursor-wait"
         >
-          Begin the Conversation →
-        </Link>
+          {loading ? "Loading..." : "Begin the Conversation →"}
+        </button>
       </div>
 
       <div className="flex items-center gap-3">
