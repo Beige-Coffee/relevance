@@ -136,15 +136,9 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1 }
     }).catch(() => {});
   }, [filteredGraph, mode]);
 
-  // Subtle perpetual reheat so nodes drift gently.
-  useEffect(() => {
-    const fg = fgRef.current as { d3ReheatSimulation?: () => void } | null;
-    if (!fg?.d3ReheatSimulation) return;
-    const interval = setInterval(() => {
-      fg.d3ReheatSimulation?.();
-    }, 4000);
-    return () => clearInterval(interval);
-  }, [filteredGraph]);
+  // No perpetual reheat. The simulation settles and stays still so the click
+  // target is stable. Users can still drag a node to rearrange, and the
+  // spring-back animation lasts a couple of seconds before resting.
 
   function nodeRadius(node: GraphNode): number {
     return (node.kind === "person" ? 5 : 6) + Math.min(5, (node.count ?? 1) * 0.6);
@@ -262,10 +256,10 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1 }
         onNodeClick={(node) => onSelect(node as unknown as GraphNode)}
         onBackgroundClick={() => onSelect(null)}
         enableNodeDrag={true}
-        cooldownTicks={500}
-        d3AlphaDecay={0.018}
-        d3VelocityDecay={0.55}
-        d3AlphaMin={0.0015}
+        cooldownTicks={400}
+        d3AlphaDecay={0.025}
+        d3VelocityDecay={0.5}
+        d3AlphaMin={0.01}
         warmupTicks={140}
       />
     </div>
