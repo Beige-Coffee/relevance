@@ -61,6 +61,14 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1, 
   const [size, setSize] = useState({ w: 800, h: 600 });
   const [dark, setDark] = useState(false);
   const [hoverId, setHoverId] = useState<string | null>(null);
+  // Per-mode cache of settled node positions. After the simulation stops we
+  // record where each node ended up; the next time the user returns to that
+  // mode we hydrate the nodes from this cache so the layout looks identical
+  // (including any manual drags they made).
+  const positionCacheRef = useRef<Record<GraphMode, Record<string, { x: number; y: number }>>>({
+    concepts: {},
+    persons: {},
+  });
 
   useEffect(() => {
     setDark(window.matchMedia?.("(prefers-color-scheme: dark)").matches ?? false);
@@ -152,13 +160,29 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1, 
     if (keep.size < Math.max(8, visible.size * 0.25)) {
       for (const id of visible) keep.add(id);
     }
+    const cache = positionCacheRef.current[mode] ?? {};
     const nodes = graph.nodes
       .filter((n) => keep.has(n.id))
       // Spread to a new object so the simulation can mutate (vx, vy) without
-      // touching the source data, and assign deterministic initial positions.
+      // touching the source data. Hydrate from the per-mode cache when we
+      // have it (so returning to this mode gives the same layout); fall back
+      // to a deterministic hash-seeded position for first-time nodes.
+      // When cached, also set fx/fy so d3 pins the node and the sim can't
+      // drift the whole layout when it reheats on data change. The
+      // ForceGraph drag handler still works because it overrides fx/fy
+      // during the drag.
       .map((n) => {
-        const { x, y } = seedPosition(n.id);
-        return { ...n, x, y, vx: 0, vy: 0 };
+        const cached = cache[n.id];
+        const pos = cached ?? seedPosition(n.id);
+        const pinned = !!cached;
+        return {
+          ...n,
+          x: pos.x,
+          y: pos.y,
+          vx: 0,
+          vy: 0,
+          ...(pinned ? { fx: pos.x, fy: pos.y } : {}),
+        };
       });
     // Also clone links and reset source/target to string ids. d3-force may
     // have rewritten these to point at the *previous* node objects on an
@@ -373,6 +397,16 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1, 
         onNodeClick={(node) => onSelect(node as unknown as GraphNode)}
         onBackgroundClick={() => onSelect(null)}
         onEngineStop={() => {
+          // Snapshot the settled positions per node so the next visit to this
+          // mode (or a drag-induced re-settle) restores from this layout
+          // instead of starting from the hash seed again.
+          const snapshot: Record<string, { x: number; y: number }> = {};
+          for (const raw of filteredGraph.nodes) {
+            const n = raw as RenderNode;
+            if (n.x != null && n.y != null) snapshot[n.id] = { x: n.x, y: n.y };
+          }
+          positionCacheRef.current[mode] = snapshot;
+
           // Fit the camera only once the simulation has actually cooled,
           // so we always frame the settled layout (no more tight-vs-sparse
           // race condition).
