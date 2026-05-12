@@ -1,6 +1,7 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useLayoutEffect, useRef, useState } from "react";
+import { createPortal } from "react-dom";
 
 interface Cluster {
   id: string;
@@ -188,8 +189,24 @@ function InfoIcon() {
 
 function ClusterPill({ cluster }: { cluster: Cluster }) {
   const [open, setOpen] = useState(false);
+  const [mounted, setMounted] = useState(false);
+  const [pos, setPos] = useState<{ top: number; left: number } | null>(null);
+  const anchorRef = useRef<HTMLSpanElement>(null);
+
+  useEffect(() => setMounted(true), []);
+
+  useLayoutEffect(() => {
+    if (!open || !anchorRef.current) return;
+    const r = anchorRef.current.getBoundingClientRect();
+    const tooltipWidth = 280;
+    // Clamp so the tooltip stays inside the viewport horizontally.
+    const maxLeft = window.innerWidth - tooltipWidth - 8;
+    setPos({ top: r.bottom + 8, left: Math.max(8, Math.min(maxLeft, r.left)) });
+  }, [open]);
+
   return (
     <span
+      ref={anchorRef}
       className="relative inline-flex items-center gap-1 whitespace-nowrap"
       onMouseEnter={() => setOpen(true)}
       onMouseLeave={() => setOpen(false)}
@@ -201,22 +218,32 @@ function ClusterPill({ cluster }: { cluster: Cluster }) {
       <span className="cursor-help underline decoration-dotted decoration-[var(--border)] underline-offset-4">
         {cluster.label}
       </span>
-      {open && (
-        <div
-          role="tooltip"
-          className="absolute top-full left-0 mt-2 z-40 w-[280px] rounded-md border border-[var(--border)] bg-[var(--surface)] shadow-lg p-3 text-[11px] text-[var(--ink-soft)] leading-snug normal-case tracking-normal"
-        >
-          <div className="flex items-center gap-2 mb-1">
-            <span
-              className="inline-block w-2.5 h-2.5 rounded-full"
-              style={{ background: cluster.color }}
-              aria-hidden
-            />
-            <span className="text-[12px] text-[var(--ink)] font-medium">{cluster.label}</span>
-          </div>
-          <p>{cluster.definition}</p>
-        </div>
-      )}
+      {mounted && open && pos &&
+        createPortal(
+          <div
+            role="tooltip"
+            style={{
+              position: "fixed",
+              top: pos.top,
+              left: pos.left,
+              width: 280,
+              background: "var(--surface)",
+              zIndex: 100,
+            }}
+            className="rounded-md border border-[var(--border)] shadow-lg p-3 text-[11px] text-[var(--ink-soft)] leading-snug pointer-events-none"
+          >
+            <div className="flex items-center gap-2 mb-1">
+              <span
+                className="inline-block w-2.5 h-2.5 rounded-full"
+                style={{ background: cluster.color }}
+                aria-hidden
+              />
+              <span className="text-[12px] text-[var(--ink)] font-medium">{cluster.label}</span>
+            </div>
+            <p>{cluster.definition}</p>
+          </div>,
+          document.body,
+        )}
     </span>
   );
 }
