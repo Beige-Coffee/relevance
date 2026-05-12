@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import { useChat, useSettings } from "@/lib/store";
+import { useThread, useSettings } from "@/lib/store";
 import { makeClientForProvider } from "@/lib/anthropic";
 import { streamText, describeError } from "@/lib/stream";
 import { SOCRATIC_SYSTEM_PROMPT, buildModuleSystemPrompt } from "@/lib/prompts";
@@ -50,13 +50,24 @@ export function HomeChat({
   onToggleCollapsed,
 }: Props) {
   const { provider, activeKey, activeModel, hasKey } = useSettings();
-  const { messages, append, setLastContent, patchLast, isStreaming, setStreaming, reset } = useChat();
   const [input, setInput] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [loadingCourseId, setLoadingCourseId] = useState<string | null>(null);
   // When a Conversation is running inside this panel, hold the full Course
   // and which module is currently in focus.
   const [activeConversation, setActiveConversation] = useState<{ course: Course; moduleIndex: number } | null>(null);
+
+  // Pick a thread key for the current topic. Threads are persisted per-key
+  // so users can come back to a concept or a Conversation module and pick
+  // up where they left off.
+  const threadKey = activeConversation
+    ? `course:${activeConversation.course.id}:${activeConversation.moduleIndex}`
+    : selected?.kind === "concept"
+      ? `home:concept:${selected.id.replace(/^concept:/, "")}`
+      : selected?.kind === "person"
+        ? `home:person:${selected.id.replace(/^person:/, "")}`
+        : "home:free";
+  const { messages, append, setLastContent, patchLast, isStreaming, setStreaming, reset } = useThread(threadKey);
   const scrollRef = useRef<HTMLDivElement>(null);
 
   // Resizable panel width. Default 400px; persisted to localStorage.
@@ -135,15 +146,25 @@ export function HomeChat({
     });
   }
 
+  // Seed the module opener when entering a Conversation thread that has no
+  // history yet. If the user has been here before (persisted thread), the
+  // opener is already in messages and we leave it alone.
+  useEffect(() => {
+    if (!activeConversation) return;
+    if (messages.length > 0) return;
+    seedModule(activeConversation.course, activeConversation.moduleIndex);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [threadKey]);
+
   async function beginConversation(courseSummary: CourseSummary) {
     if (loadingCourseId) return;
     setError(null);
     setLoadingCourseId(courseSummary.id);
     try {
       const course = await getCourse(courseSummary.id);
-      reset();
+      // Don't reset: if the user has an existing thread for this course's
+      // first module, keep it. The useEffect above will seed if empty.
       setActiveConversation({ course, moduleIndex: 0 });
-      seedModule(course, 0);
     } catch (e) {
       setError(e instanceof Error ? e.message : String(e));
     } finally {
@@ -154,26 +175,29 @@ export function HomeChat({
   function switchModule(nextIndex: number) {
     if (!activeConversation) return;
     if (nextIndex < 0 || nextIndex >= activeConversation.course.modules.length) return;
-    reset();
+    // Don't reset: switch to a different module's persisted thread; the
+    // useEffect above will seed it if it's empty.
     setActiveConversation({ ...activeConversation, moduleIndex: nextIndex });
-    seedModule(activeConversation.course, nextIndex);
   }
 
   function exitConversation() {
+    // Drop out of conversation mode but DON'T wipe the thread; user can
+    // come back to it later.
     setActiveConversation(null);
-    reset();
     setError(null);
   }
 
   function clearChat() {
-    if (activeConversation) {
-      // Clear the messages but keep the Conversation context; reseed the module opener.
-      reset();
-      seedModule(activeConversation.course, activeConversation.moduleIndex);
-    } else {
-      reset();
-    }
+    reset();
     setError(null);
+    if (activeConversation) {
+      // Re-seed the opener since the useEffect won't re-fire (threadKey
+      // didn't change). Defer one microtask so the reset's state update
+      // commits first.
+      const course = activeConversation.course;
+      const idx = activeConversation.moduleIndex;
+      queueMicrotask(() => seedModule(course, idx));
+    }
   }
 
   async function send(text: string) {

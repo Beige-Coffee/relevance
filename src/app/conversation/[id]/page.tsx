@@ -5,7 +5,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getCourse, getConcepts, getEpisodes } from "@/lib/data";
 import type { Course, Concept, Episode, ChatMessage, Module, ToolEventLog } from "@/lib/types";
-import { useChat, useSettings } from "@/lib/store";
+import { useThread, useSettings } from "@/lib/store";
 import { makeClientForProvider } from "@/lib/anthropic";
 import { streamText, describeError } from "@/lib/stream";
 import { buildModuleSystemPrompt } from "@/lib/prompts";
@@ -97,6 +97,7 @@ export default function ConversationPage({ params }: { params: Promise<{ id: str
         </aside>
 
         <ModuleDialogue
+          courseId={course.id}
           courseTitle={course.title}
           courseAbstract={course.abstract}
           mod={mod}
@@ -112,6 +113,7 @@ export default function ConversationPage({ params }: { params: Promise<{ id: str
 }
 
 function ModuleDialogue({
+  courseId,
   courseTitle,
   courseAbstract,
   mod,
@@ -121,6 +123,7 @@ function ModuleDialogue({
   onPrev,
   onNext,
 }: {
+  courseId: string;
   courseTitle: string;
   courseAbstract: string;
   mod: Module;
@@ -131,19 +134,19 @@ function ModuleDialogue({
   onNext?: () => void;
 }) {
   const { provider, activeKey, activeModel } = useSettings();
-  const { messages, append, setLastContent, patchLast, isStreaming, setStreaming, reset } = useChat();
+  // Thread key matches what HomeChat uses for the in-place Conversation
+  // running mode, so messages started in one place show up in the other.
+  const threadKey = `course:${courseId}:${moduleIndex}`;
+  const { messages, append, setLastContent, patchLast, isStreaming, setStreaming, reset } = useThread(threadKey);
   const [input, setInput] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [showAbout, setShowAbout] = useState(false);
   const scrollRef = useRef<HTMLDivElement>(null);
-  const seededForRef = useRef<string | null>(null);
 
-  // Reset chat and seed with an opener whenever the module changes.
-  const moduleKey = `${courseTitle}::${moduleIndex}::${mod.id || mod.title}`;
+  // Seed the module opener once, only if the thread is empty. Persisted
+  // history takes precedence so a returning user picks up where they were.
   useEffect(() => {
-    if (seededForRef.current === moduleKey) return;
-    seededForRef.current = moduleKey;
-    reset();
+    if (messages.length > 0) return;
     setError(null);
     setShowAbout(false);
     const opener = mod.socraticSeeds[0]?.prompt ?? `Let's begin. ${mod.learningObjective}`;
@@ -154,7 +157,7 @@ function ModuleDialogue({
       createdAt: Date.now(),
     });
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [moduleKey]);
+  }, [threadKey]);
 
   useEffect(() => {
     scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: "smooth" });
