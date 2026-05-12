@@ -53,6 +53,11 @@ export function HomeChat({
   const [input, setInput] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [loadingCourseId, setLoadingCourseId] = useState<string | null>(null);
+  // Guard against hydration mismatch: settings are read from localStorage
+  // synchronously on the client but are not available on the server, so
+  // conditional UI keyed on those settings has to wait one render.
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
   // When a Conversation is running inside this panel, hold the full Course
   // and which module is currently in focus.
   const [activeConversation, setActiveConversation] = useState<{ course: Course; moduleIndex: number } | null>(null);
@@ -455,7 +460,7 @@ export function HomeChat({
               href={`/person/${selectedPerson.id}`}
             />
           ) : (
-            <EmptyState onStarter={send} canChat={Boolean(hasKey())} />
+            <EmptyState onStarter={send} canChat={mounted && Boolean(hasKey())} />
           )
         ) : (
           <div className="space-y-4">
