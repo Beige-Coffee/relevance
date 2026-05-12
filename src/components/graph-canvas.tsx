@@ -25,6 +25,19 @@ interface RenderNode extends GraphNode {
   fy?: number | null;
 }
 
+function roundRect(ctx: CanvasRenderingContext2D, x: number, y: number, w: number, h: number, r: number) {
+  ctx.beginPath();
+  ctx.moveTo(x + r, y);
+  ctx.lineTo(x + w - r, y);
+  ctx.quadraticCurveTo(x + w, y, x + w, y + r);
+  ctx.lineTo(x + w, y + h - r);
+  ctx.quadraticCurveTo(x + w, y + h, x + w - r, y + h);
+  ctx.lineTo(x + r, y + h);
+  ctx.quadraticCurveTo(x, y + h, x, y + h - r);
+  ctx.lineTo(x, y + r);
+  ctx.quadraticCurveTo(x, y, x + r, y);
+}
+
 const CLUSTER_COLORS_LIGHT: Record<string, string> = {
   "cognitive-science": "#1f3a8a",
   historical: "#5b3e89",
@@ -210,13 +223,21 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1 }
           const isNeighbor = activeId ? activeNeighbors.has(node.id) : false;
           const isDimmed = hasFocus && !isActive && !isNeighbor;
 
-          ctx.globalAlpha = isDimmed ? 0.12 : 1;
+          // Soft dim rather than near-invisible: keep dimmed nodes legible.
+          ctx.globalAlpha = isDimmed ? 0.32 : 1;
 
-          // Cluster color for fill (concepts) or stroke ring (persons)
           const cluster = node.cluster as string | undefined;
           const clusterColor = cluster ? palette.cluster[cluster] : palette.stroke;
 
-          // Draw fill
+          // Hover/selection halo (drawn first so node sits on top)
+          if (isActive || selected) {
+            ctx.beginPath();
+            ctx.arc(node.x, node.y, r + 7, 0, 2 * Math.PI);
+            ctx.fillStyle = selected ? palette.selected + "33" : palette.linkActive + "33";
+            ctx.fill();
+          }
+
+          // Fill
           ctx.beginPath();
           ctx.arc(node.x, node.y, r, 0, 2 * Math.PI);
           if (node.kind === "concept") {
@@ -226,33 +247,49 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1 }
           }
           ctx.fill();
 
-          // Selection ring (outer)
-          if (selected) {
-            ctx.beginPath();
-            ctx.arc(node.x, node.y, r + 4, 0, 2 * Math.PI);
-            ctx.lineWidth = 2;
-            ctx.strokeStyle = palette.selected;
-            ctx.stroke();
-          }
-
-          // Inner stroke
+          // Stroke
           ctx.beginPath();
           ctx.arc(node.x, node.y, r, 0, 2 * Math.PI);
-          ctx.lineWidth = isActive ? 2.2 : 1.4;
-          ctx.strokeStyle = node.kind === "concept"
-            ? (clusterColor ?? palette.stroke)
-            : palette.strokePerson;
+          ctx.lineWidth = selected ? 2.8 : isActive ? 2.4 : 1.4;
+          ctx.strokeStyle = selected
+            ? palette.selected
+            : node.kind === "concept"
+              ? (clusterColor ?? palette.stroke)
+              : palette.strokePerson;
           ctx.stroke();
 
-          // Labels: always show selected/active/neighbor; otherwise only at higher zoom levels.
-          const showLabel = isActive || selected || isNeighbor || globalScale > 1.8;
+          // Label: always show on hover/selection/neighbor; with a pill background for
+          // legibility against the busy canvas.
+          const showLabel = isActive || selected || isNeighbor || globalScale > 1.7;
           if (showLabel) {
-            ctx.font = `${Math.max(9, 11 / globalScale).toFixed(0)}px ui-sans-serif, system-ui`;
+            const fontSize = isActive || selected ? Math.max(12, 13 / globalScale) : Math.max(10, 11 / globalScale);
+            ctx.font = `${(isActive || selected) ? "500 " : ""}${fontSize.toFixed(0)}px ui-sans-serif, system-ui, -apple-system, "Inter"`;
             ctx.textAlign = "center";
             ctx.textBaseline = "top";
+
+            const text = node.label;
+            const textW = ctx.measureText(text).width;
+            const padX = 5;
+            const padY = 2.5;
+            const lineH = fontSize + padY * 2;
+            const labelY = node.y + r + 5;
+
+            // Always paint a background for the active/selected label; lighter
+            // background for neighbors so they stay readable but secondary.
+            if (isActive || selected) {
+              ctx.fillStyle = palette.bg;
+              ctx.globalAlpha = 0.94;
+              roundRect(ctx, node.x - textW / 2 - padX, labelY, textW + padX * 2, lineH, 4);
+              ctx.fill();
+              ctx.lineWidth = 1;
+              ctx.strokeStyle = node.kind === "concept" ? (clusterColor ?? palette.stroke) : palette.strokePerson;
+              ctx.stroke();
+              ctx.globalAlpha = 1;
+            }
+
             ctx.fillStyle = palette.ink;
-            ctx.globalAlpha = isDimmed ? 0.2 : (isActive || selected ? 1 : 0.75);
-            ctx.fillText(node.label, node.x, node.y + r + 3);
+            ctx.globalAlpha = isDimmed ? 0.45 : (isActive || selected ? 1 : 0.8);
+            ctx.fillText(text, node.x, labelY + padY);
           }
           ctx.globalAlpha = 1;
         }}
@@ -278,12 +315,8 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1 }
           if (!hasFocus) return baseW;
           return isLinkActive(link) ? Math.max(2.2, baseW + 1.4) : 0.4;
         }}
-        linkVisibility={(l) => {
-          const link = l as GraphLink;
-          // When focused, hide non-relevant links entirely (cleaner than dimming).
-          if (!hasFocus) return true;
-          return isLinkActive(link) || activeNeighbors.size === 0;
-        }}
+        // Keep all links visible; we dim them instead of hiding so the graph
+        // doesn't appear to "shatter" on hover.
         onNodeHover={(n) => {
           setHoverId(n ? ((n as GraphNode).id) : null);
           if (containerRef.current) containerRef.current.style.cursor = n ? "pointer" : "default";
