@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
-import { useThread, useSettings } from "@/lib/store";
+import { useThread, useSettings, useChatThreads } from "@/lib/store";
 import { makeClientForProvider } from "@/lib/anthropic";
 import { streamText, describeError } from "@/lib/stream";
 import { SOCRATIC_SYSTEM_PROMPT, buildModuleSystemPrompt } from "@/lib/prompts";
@@ -148,10 +148,12 @@ export function HomeChat({
 
   // Seed the module opener when entering a Conversation thread that has no
   // history yet. If the user has been here before (persisted thread), the
-  // opener is already in messages and we leave it alone.
+  // opener is already in messages and we leave it alone. Read thread state
+  // imperatively so React Strict Mode's double-mount doesn't double-seed.
   useEffect(() => {
     if (!activeConversation) return;
-    if (messages.length > 0) return;
+    const current = useChatThreads.getState().threads[threadKey] ?? [];
+    if (current.length > 0) return;
     seedModule(activeConversation.course, activeConversation.moduleIndex);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [threadKey]);

@@ -5,7 +5,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { getCourse, getConcepts, getEpisodes } from "@/lib/data";
 import type { Course, Concept, Episode, ChatMessage, Module, ToolEventLog } from "@/lib/types";
-import { useThread, useSettings } from "@/lib/store";
+import { useThread, useSettings, useChatThreads } from "@/lib/store";
 import { makeClientForProvider } from "@/lib/anthropic";
 import { streamText, describeError } from "@/lib/stream";
 import { buildModuleSystemPrompt } from "@/lib/prompts";
@@ -145,8 +145,11 @@ function ModuleDialogue({
 
   // Seed the module opener once, only if the thread is empty. Persisted
   // history takes precedence so a returning user picks up where they were.
+  // Read thread state imperatively so React Strict Mode's double-mount
+  // doesn't double-seed when the first mount hasn't committed yet.
   useEffect(() => {
-    if (messages.length > 0) return;
+    const current = useChatThreads.getState().threads[threadKey] ?? [];
+    if (current.length > 0) return;
     setError(null);
     setShowAbout(false);
     const opener = mod.socraticSeeds[0]?.prompt ?? `Let's begin. ${mod.learningObjective}`;
