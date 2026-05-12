@@ -146,7 +146,7 @@ export default function DialoguePage() {
                 </div>
               ) : (
                 <article className="rounded-lg">
-                  <div className="text-xs uppercase tracking-wider text-[var(--muted)] mb-2">Atlas</div>
+                  <div className="text-xs uppercase tracking-wider text-[var(--muted)] mb-2">Sage</div>
                   {m.content ? (
                     <RenderedText text={m.content} />
                   ) : (

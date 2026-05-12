@@ -15,8 +15,8 @@ export function Nav() {
   return (
     <header className="border-b border-[var(--border-soft)] bg-[var(--bg)]/85 backdrop-blur sticky top-0 z-30">
       <div className="max-w-7xl mx-auto px-6 h-14 flex items-center justify-between">
-        <Link href="/" className="serif text-xl tracking-tight text-[var(--ink)] hover:text-[var(--accent)] transition-colors">
-          Awakening <span className="text-[var(--accent)]">Atlas</span>
+        <Link href="/" className="text-xl lowercase tracking-tight text-[var(--accent)] hover:opacity-80 transition-opacity">
+          relevance
         </Link>
         <nav className="flex items-center gap-1 sm:gap-1.5 text-sm">
           {links.map((l) => {

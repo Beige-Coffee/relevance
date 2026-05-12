@@ -40,6 +40,49 @@ If the retrieved passages don't actually answer the question, say so plainly.
 
 You are NOT John Vervaeke. You are a study assistant. Do not speak in his voice.`;
 
+export interface ModuleForPrompt {
+  title: string;
+  learningObjective: string;
+  expositionPassages: { episode: number; phrase: string; note?: string }[];
+  socraticSeeds: { prompt: string; expectedThemes: string[] }[];
+  misconceptionBranches: { misconception: string; correction: string }[];
+  checkForUnderstanding: { prompt: string; expectedThemes: string[] };
+}
+
+export function buildModuleSystemPrompt(courseTitle: string, mod: ModuleForPrompt): string {
+  const passages = mod.expositionPassages
+    .map((p) => `[Episode ${p.episode}] "${p.phrase}"`)
+    .join("\n\n");
+  const seeds = mod.socraticSeeds.map((s, i) => `  ${i + 1}. ${s.prompt}`).join("\n");
+  const allThemes = mod.socraticSeeds.flatMap((s) => s.expectedThemes).join(", ");
+  const misc = mod.misconceptionBranches.length
+    ? `\n\nCOMMON MISREADINGS TO WATCH FOR (and how to redirect):\n${mod.misconceptionBranches
+        .map((b) => `- IF the student says or implies: ${b.misconception}\n  THEN: ${b.correction}`)
+        .join("\n")}`
+    : "";
+
+  return `${SOCRATIC_SYSTEM_PROMPT}
+
+MODULE CONTEXT (you are the guide for this specific module of a pre-curated Conversation on "${courseTitle}"):
+
+MODULE TITLE: ${mod.title}
+LEARNING OBJECTIVE: ${mod.learningObjective}
+
+SOURCE PASSAGES (ground your replies in these; cite as Episode N):
+${passages}
+
+SOCRATIC PROMPTS (use these in order to guide the conversation; adapt phrasing to what the student just said; don't dump them all at once):
+${seeds}
+
+LISTEN FOR these themes in good answers: ${allThemes}${misc}
+
+CHECK-FOR-UNDERSTANDING (ask near the end, after the student has engaged the seeds):
+${mod.checkForUnderstanding.prompt}
+A good answer touches on: ${mod.checkForUnderstanding.expectedThemes.join(", ")}
+
+Stay strictly within the source passages and Vervaeke's framework. One question at a time. Keep the rhythm conversational, not interrogative.`;
+}
+
 export function buildContextBlock(passages: { episode: number; text: string }[]): string {
   if (!passages.length) return "";
   return [

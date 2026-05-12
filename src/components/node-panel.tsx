@@ -211,8 +211,8 @@ function ConceptDetails({
       {c.subConcepts && c.subConcepts.length > 0 && (
         <Section label={`Sub-concepts (${c.subConcepts.length})`}>
           <div className="space-y-2">
-            {c.subConcepts.map((sc) => (
-              <details key={sc.id} className="rounded-md border border-[var(--border-soft)] bg-[var(--bg-tinted)]">
+            {c.subConcepts.map((sc, scIdx) => (
+              <details key={sc.id || `sub-${scIdx}`} className="rounded-md border border-[var(--border-soft)] bg-[var(--bg-tinted)]">
                 <summary className="cursor-pointer px-3 py-2 text-sm text-[var(--ink)] hover:text-[var(--accent)]">
                   {sc.name}
                 </summary>
@@ -531,7 +531,7 @@ function ChatThread({ seed, anchor, onBack }: { seed: string; anchor: string; on
               </div>
             ) : (
               <div className="">
-                <div className="text-[10px] uppercase tracking-wider text-[var(--muted)] mb-1.5">Atlas</div>
+                <div className="text-[10px] uppercase tracking-wider text-[var(--muted)] mb-1.5">Sage</div>
                 {m.content ? (
                   <RenderedText text={m.content} />
                 ) : (

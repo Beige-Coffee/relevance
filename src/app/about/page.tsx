@@ -1,19 +1,20 @@
 import Link from "next/link";
 
 export const metadata = {
-  title: "About, Awakening Atlas",
+  title: "About, relevance",
 };
 
 export default function AboutPage() {
   return (
     <div className="max-w-3xl mx-auto px-6 py-12 w-full">
       <p className="mono text-xs uppercase tracking-[0.22em] text-[var(--accent)] mb-3">A study companion</p>
-      <h1 className="serif text-5xl text-[var(--ink)] leading-[1.05] tracking-tight">
-        Awakening <span className="text-[var(--accent)]">Atlas</span>
+      <h1 className="text-5xl lowercase text-[var(--accent)] leading-[1.05] tracking-tight">
+        relevance
       </h1>
       <p className="serif italic text-xl text-[var(--ink-soft)] mt-4 leading-snug">
         Search, dialogue with, and map the ideas in John Vervaeke&rsquo;s lecture series{" "}
         <span className="whitespace-nowrap">&ldquo;Awakening from the Meaning Crisis.&rdquo;</span>
+        {" "}A nod to the central technical construct of the series: relevance realization.
       </p>
 
       <div className="hr-soft my-10" />

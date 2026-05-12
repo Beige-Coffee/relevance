@@ -22,7 +22,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Awakening Atlas, A study companion for Vervaeke's lectures",
+  title: "relevance, a study companion for Vervaeke's lectures",
   description:
     "Search, dialogue with, and map the ideas in John Vervaeke's 50-episode 'Awakening from the Meaning Crisis' lecture series. An educational study tool, not affiliated with John Vervaeke.",
 };
