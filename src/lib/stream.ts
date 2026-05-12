@@ -34,6 +34,39 @@ interface BlockSeen {
 // Stream a Claude response and call onDelta as text arrives. If tools are
 // provided, recursively handle tool_use → tool_result rounds up to
 // maxIterations times before forcing a final answer.
+/**
+ * Anthropic's SDK throws `APIConnectionError` with the bare message
+ * "Connection error." for any fetch-level failure, hiding the real reason
+ * (CORS, TLS, missing host, malformed stream chunk, etc.) inside `.cause`.
+ * This drills down to surface something the user can actually act on.
+ */
+export function describeError(e: unknown): string {
+  if (!e) return "Unknown error";
+  if (typeof e === "string") return e;
+  if (!(e instanceof Error)) return String(e);
+
+  const parts: string[] = [];
+  parts.push(e.message);
+  // Walk the .cause chain so the real underlying error surfaces.
+  let cause: unknown = (e as { cause?: unknown }).cause;
+  let safety = 0;
+  while (cause && safety < 5) {
+    safety++;
+    if (cause instanceof Error) {
+      if (cause.message && !parts.includes(cause.message)) {
+        parts.push(cause.message);
+      }
+      cause = (cause as { cause?: unknown }).cause;
+    } else {
+      break;
+    }
+  }
+  // Anthropic SDK APIError exposes status + error fields.
+  const status = (e as { status?: number }).status;
+  if (status) parts.unshift(`HTTP ${status}`);
+  return parts.join(" · ");
+}
+
 export async function streamText(opts: StreamOpts): Promise<string> {
   const {
     client,

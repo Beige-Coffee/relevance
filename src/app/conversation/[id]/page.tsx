@@ -7,7 +7,7 @@ import { getCourse, getConcepts, getEpisodes } from "@/lib/data";
 import type { Course, Concept, Episode, ChatMessage, Module, ToolEventLog } from "@/lib/types";
 import { useChat, useSettings } from "@/lib/store";
 import { makeClientForProvider } from "@/lib/anthropic";
-import { streamText } from "@/lib/stream";
+import { streamText, describeError } from "@/lib/stream";
 import { buildModuleSystemPrompt } from "@/lib/prompts";
 import { TOOLS, ToolBudget, executeTool as runTool } from "@/lib/tools";
 import { RenderedText } from "@/components/rendered-text";
@@ -220,12 +220,24 @@ function ModuleDialogue({
         maxTokens: 1600,
       });
     } catch (e) {
-      const msg = e instanceof Error ? e.message : String(e);
-      const looksLikeAuth = /401|invalid|unauthor|api.key/i.test(msg);
-      setError(looksLikeAuth ? `${msg} (check your API key on the Settings page)` : msg);
+      const details = describeError(e);
+      const looksLikeAuth = /401|invalid|unauthor|api.key/i.test(details);
+      setError(looksLikeAuth ? `${details} (check your API key on the Settings page)` : details);
+      // Also log to the devtools console with the full Error chain so it can
+      // be inspected interactively.
+      // eslint-disable-next-line no-console
+      console.error("Dialogue send failed:", e);
     } finally {
       setStreaming(false);
     }
+  }
+
+  // Auto-grow the reply textarea up to ~10 lines so long messages stay visible.
+  function autoGrow(el: HTMLTextAreaElement | null) {
+    if (!el) return;
+    el.style.height = "0px";
+    const next = Math.min(el.scrollHeight, 240);
+    el.style.height = next + "px";
   }
 
   return (
@@ -327,8 +339,12 @@ function ModuleDialogue({
           className="flex items-end gap-2 max-w-3xl mx-auto"
         >
           <textarea
+            ref={autoGrow}
             value={input}
-            onChange={(e) => setInput(e.target.value)}
+            onChange={(e) => {
+              setInput(e.target.value);
+              autoGrow(e.currentTarget);
+            }}
             onKeyDown={(e) => {
               if ((e.metaKey || e.ctrlKey) && e.key === "Enter") {
                 e.preventDefault();
@@ -338,7 +354,7 @@ function ModuleDialogue({
             placeholder={isStreaming ? "Thinking..." : "Reply..."}
             rows={1}
             disabled={isStreaming}
-            className="flex-1 px-3 py-2 rounded-md border border-[var(--border)] bg-[var(--bg)] text-[var(--ink)] placeholder:text-[var(--muted)] focus:outline-none focus:border-[var(--accent)] resize-none text-[15px]"
+            className="flex-1 px-3 py-2 rounded-md border border-[var(--border)] bg-[var(--bg)] text-[var(--ink)] placeholder:text-[var(--muted)] focus:outline-none focus:border-[var(--accent)] resize-none text-[15px] leading-snug min-h-[40px] max-h-[240px] overflow-y-auto"
           />
           <button
             type="submit"
