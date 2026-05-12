@@ -63,7 +63,7 @@ export function HomeChat({
   const MIN_WIDTH = 320;
   const MAX_WIDTH = 900;
   const [chatWidth, setChatWidth] = useState<number>(400);
-  const isResizingRef = useRef(false);
+  const [isResizing, setIsResizing] = useState(false);
 
   useEffect(() => {
     if (typeof window === "undefined") return;
@@ -73,28 +73,7 @@ export function HomeChat({
     }
   }, []);
 
-  useEffect(() => {
-    function onMouseMove(e: MouseEvent) {
-      if (!isResizingRef.current) return;
-      const maxForViewport = Math.min(MAX_WIDTH, window.innerWidth - 200);
-      const next = Math.max(MIN_WIDTH, Math.min(maxForViewport, window.innerWidth - e.clientX));
-      setChatWidth(next);
-    }
-    function onMouseUp() {
-      if (!isResizingRef.current) return;
-      isResizingRef.current = false;
-      document.body.style.cursor = "";
-      document.body.style.userSelect = "";
-    }
-    document.addEventListener("mousemove", onMouseMove);
-    document.addEventListener("mouseup", onMouseUp);
-    return () => {
-      document.removeEventListener("mousemove", onMouseMove);
-      document.removeEventListener("mouseup", onMouseUp);
-    };
-  }, []);
-
-  // Persist width after it changes (debounced via the natural mouseup pause).
+  // Persist width after it changes.
   useEffect(() => {
     if (typeof window === "undefined") return;
     localStorage.setItem("home-chat-width", String(chatWidth));
@@ -102,9 +81,21 @@ export function HomeChat({
 
   function startResize(e: React.MouseEvent) {
     e.preventDefault();
-    isResizingRef.current = true;
-    document.body.style.cursor = "col-resize";
+    setIsResizing(true);
     document.body.style.userSelect = "none";
+  }
+
+  function onResizeMove(e: React.MouseEvent) {
+    if (!isResizing) return;
+    const maxForViewport = Math.min(MAX_WIDTH, window.innerWidth - 200);
+    const next = Math.max(MIN_WIDTH, Math.min(maxForViewport, window.innerWidth - e.clientX));
+    setChatWidth(next);
+  }
+
+  function endResize() {
+    if (!isResizing) return;
+    setIsResizing(false);
+    document.body.style.userSelect = "";
   }
 
   useEffect(() => {
@@ -266,21 +257,33 @@ export function HomeChat({
   }
 
   return (
-    <aside
-      className="relative h-full shrink-0 bg-[var(--surface)] flex flex-col min-h-0"
-      style={{ width: chatWidth }}
-    >
-      {/* Resize handle doubles as the left border. 8px transparent hit zone
-          with a 1px visible line on the inside edge that highlights on hover. */}
-      <div
-        onMouseDown={startResize}
-        onDoubleClick={() => setChatWidth(400)}
-        className="absolute left-0 top-0 bottom-0 w-2 cursor-col-resize z-20 group"
-        aria-label="Resize chat panel (double-click to reset)"
-        title="Drag to resize. Double-click to reset."
+    <>
+      {/* While dragging, this fixed overlay sits above the graph canvas and
+          owns all pointer events so the canvas can not eat them. */}
+      {isResizing && (
+        <div
+          className="fixed inset-0 z-[100]"
+          style={{ cursor: "col-resize" }}
+          onMouseMove={onResizeMove}
+          onMouseUp={endResize}
+          onMouseLeave={endResize}
+        />
+      )}
+      <aside
+        className="relative h-full shrink-0 bg-[var(--surface)] flex flex-col min-h-0"
+        style={{ width: chatWidth }}
       >
-        <span className="absolute inset-y-0 left-0 w-px bg-[var(--border)] group-hover:bg-[var(--accent)] group-hover:w-[2px] transition-all" />
-      </div>
+        {/* Resize handle doubles as the left border. 8px transparent hit zone
+            with a 1px visible line on the inside edge that highlights on hover. */}
+        <div
+          onMouseDown={startResize}
+          onDoubleClick={() => setChatWidth(400)}
+          className="absolute left-0 top-0 bottom-0 w-2 cursor-col-resize z-20 group"
+          aria-label="Resize chat panel (double-click to reset)"
+          title="Drag to resize. Double-click to reset."
+        >
+          <span className={`absolute inset-y-0 left-0 w-px ${isResizing ? "bg-[var(--accent)] w-[2px]" : "bg-[var(--border)] group-hover:bg-[var(--accent)] group-hover:w-[2px]"} transition-all`} />
+        </div>
       <header className="px-4 py-3 border-b border-[var(--border-soft)] flex items-center justify-between gap-2">
         <div className="flex items-center gap-2 min-w-0">
           <button
@@ -472,7 +475,8 @@ export function HomeChat({
           Send
         </button>
       </form>
-    </aside>
+      </aside>
+    </>
   );
 }
 
