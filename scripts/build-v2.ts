@@ -214,7 +214,44 @@ function buildGraph(concepts: Concept[], people: Person[], metadata: EpisodeMeta
     }
   }
 
+  // Derive person ↔ person edges from shared concepts and shared episodes.
+  // Two thinkers are connected if Vervaeke discusses them in relation to the same
+  // ideas. Weight is the overlap count; we only keep edges with weight >= 1.
+  const personConcepts: Record<string, Set<string>> = {};
+  for (const c of concepts) {
+    for (const pid of c.associatedPeople ?? []) {
+      (personConcepts[pid] ??= new Set()).add(c.id);
+    }
+  }
+  const personEpisodes: Record<string, Set<number>> = {};
+  for (const p of people) {
+    personEpisodes[p.id] = new Set(p.discussedIn);
+  }
+  for (let i = 0; i < people.length; i++) {
+    for (let j = i + 1; j < people.length; j++) {
+      const a = people[i].id;
+      const b = people[j].id;
+      const sharedConcepts = intersect(personConcepts[a] ?? new Set(), personConcepts[b] ?? new Set()).size;
+      const sharedEpisodes = intersect(personEpisodes[a] ?? new Set(), personEpisodes[b] ?? new Set()).size;
+      const weight = sharedConcepts * 2 + sharedEpisodes;
+      if (weight >= 2) {
+        links.push({ source: `person:${a}`, target: `person:${b}`, kind: "co-discussed" });
+      }
+    }
+  }
+
+  // Derive concept ↔ concept edges from shared associated people and shared episodes
+  // (in addition to the explicit relatedConcepts already added). This makes the
+  // graph richer for cluster discovery.
+  // (Skipped for now: relatedConcepts alone is already 533 concept-concept edges.)
+
   return { nodes, links };
+}
+
+function intersect<T>(a: Set<T>, b: Set<T>): Set<T> {
+  const out = new Set<T>();
+  for (const x of a) if (b.has(x)) out.add(x);
+  return out;
 }
 
 function buildCypher(concepts: Concept[], people: Person[], metadata: EpisodeMeta[]): string {

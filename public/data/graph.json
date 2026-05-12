@@ -14001,6 +14001,2381 @@
       "source": "ep:50",
       "target": "ep:46",
       "kind": "references"
+    },
+    {
+      "source": "person:callard",
+      "target": "person:schwartz-sharpe",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:callard",
+      "target": "person:igor-grossmann",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:callard",
+      "target": "person:iris-murdoch",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:callard",
+      "target": "person:juensung-kim",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:callard",
+      "target": "person:la-paul",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:callard",
+      "target": "person:monika-ardelt",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:callard",
+      "target": "person:baltes-staudinger",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:callard",
+      "target": "person:plato",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:callard",
+      "target": "person:sternberg",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:callard",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:camus",
+      "target": "person:schopenhauer",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:camus",
+      "target": "person:nietzsche",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:camus",
+      "target": "person:kant",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:camus",
+      "target": "person:jesus-of-nazareth",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:camus",
+      "target": "person:john-evangelist",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:camus",
+      "target": "person:la-paul",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:camus",
+      "target": "person:paul",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:camus",
+      "target": "person:tillich",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:camus",
+      "target": "person:plato",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:camus",
+      "target": "person:descartes",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:camus",
+      "target": "person:sartre",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:alicia-juarrero",
+      "target": "person:andy-clark",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:alicia-juarrero",
+      "target": "person:aristotle",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:alicia-juarrero",
+      "target": "person:evan-thompson",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:alicia-juarrero",
+      "target": "person:varela",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:alicia-juarrero",
+      "target": "person:heidegger",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:alicia-juarrero",
+      "target": "person:plato",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:anderson-todd",
+      "target": "person:newberg",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:anderson-todd",
+      "target": "person:yaden",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:anderson-todd",
+      "target": "person:juensung-kim",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:anderson-todd",
+      "target": "person:baltes-staudinger",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:anderson-todd",
+      "target": "person:siddhartha-gautama",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:anderson-todd",
+      "target": "person:steve-taylor",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:newberg",
+      "target": "person:yaden",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:newberg",
+      "target": "person:juensung-kim",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:newberg",
+      "target": "person:baltes-staudinger",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:newberg",
+      "target": "person:siddhartha-gautama",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:newberg",
+      "target": "person:steve-taylor",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:newberg",
+      "target": "person:william-james",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:andy-clark",
+      "target": "person:varela",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:andy-clark",
+      "target": "person:dreyfus",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:andy-clark",
+      "target": "person:leo-ferraro",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:andy-clark",
+      "target": "person:heidegger",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:andy-clark",
+      "target": "person:merleau-ponty",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:april-deconick",
+      "target": "person:jung",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:april-deconick",
+      "target": "person:hans-jonas",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:april-deconick",
+      "target": "person:corbin",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:april-deconick",
+      "target": "person:paul",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:april-deconick",
+      "target": "person:plato",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:april-deconick",
+      "target": "person:plotinus",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:schopenhauer",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:augustine",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:schwartz-sharpe",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:brian-walsh",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:jung",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:charles-taylor",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:christopher-mastropietro",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:geertz",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:eric-perl",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:fromm",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:evan-thompson",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:filip-miscevic",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:varela",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:nietzsche",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:corbin",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:dreyfus",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:kant",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:iris-murdoch",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:jesus-of-nazareth",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:john-evangelist",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:leo-ferraro",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:ludwig-wittgenstein",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:marc-lewis",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:marcus-aurelius",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:heidegger",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:luther",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:merleau-ponty",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:meister-eckhart",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:csikszentmihalyi",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:monika-ardelt",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:paul",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:tillich",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:plato",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:plotinus",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:pythagoras",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:descartes",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:siddhartha-gautama",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:freud",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:stephen-batchelor",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:kierkegaard",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:aquinas",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:cheetham",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:aristotle",
+      "target": "person:william-of-ockham",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:arthur-reber",
+      "target": "person:robin-hogarth",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:schopenhauer",
+      "target": "person:nietzsche",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:schopenhauer",
+      "target": "person:hegel",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:schopenhauer",
+      "target": "person:kant",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:schopenhauer",
+      "target": "person:jesus-of-nazareth",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:schopenhauer",
+      "target": "person:marx",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:schopenhauer",
+      "target": "person:la-paul",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:schopenhauer",
+      "target": "person:paul",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:schopenhauer",
+      "target": "person:plato",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:schopenhauer",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:schopenhauer",
+      "target": "person:kierkegaard",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:augustine",
+      "target": "person:jung",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:augustine",
+      "target": "person:eric-perl",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:augustine",
+      "target": "person:nietzsche",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:augustine",
+      "target": "person:hegel",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:augustine",
+      "target": "person:corbin",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:augustine",
+      "target": "person:kant",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:augustine",
+      "target": "person:iris-murdoch",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:augustine",
+      "target": "person:jesus-of-nazareth",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:augustine",
+      "target": "person:john-evangelist",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:augustine",
+      "target": "person:meister-eckhart",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:augustine",
+      "target": "person:paul",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:augustine",
+      "target": "person:tillich",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:augustine",
+      "target": "person:plato",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:augustine",
+      "target": "person:plotinus",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:augustine",
+      "target": "person:descartes",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:augustine",
+      "target": "person:freud",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:augustine",
+      "target": "person:kierkegaard",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:augustine",
+      "target": "person:aquinas",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:augustine",
+      "target": "person:cheetham",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:augustine",
+      "target": "person:william-of-ockham",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:schwartz-sharpe",
+      "target": "person:igor-grossmann",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:schwartz-sharpe",
+      "target": "person:iris-murdoch",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:schwartz-sharpe",
+      "target": "person:juensung-kim",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:schwartz-sharpe",
+      "target": "person:leo-ferraro",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:schwartz-sharpe",
+      "target": "person:csikszentmihalyi",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:schwartz-sharpe",
+      "target": "person:monika-ardelt",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:schwartz-sharpe",
+      "target": "person:baltes-staudinger",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:schwartz-sharpe",
+      "target": "person:plato",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:schwartz-sharpe",
+      "target": "person:sternberg",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:schwartz-sharpe",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:pascal",
+      "target": "person:kant",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:pascal",
+      "target": "person:descartes",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:brian-walsh",
+      "target": "person:geertz",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:brian-walsh",
+      "target": "person:filip-miscevic",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:brian-walsh",
+      "target": "person:hegel",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:brian-walsh",
+      "target": "person:porteous",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:brian-walsh",
+      "target": "person:heidegger",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:brian-walsh",
+      "target": "person:tillich",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:brian-walsh",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:brian-walsh",
+      "target": "person:kierkegaard",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jung",
+      "target": "person:christopher-mastropietro",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jung",
+      "target": "person:eric-perl",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jung",
+      "target": "person:fromm",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jung",
+      "target": "person:filip-miscevic",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jung",
+      "target": "person:nietzsche",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jung",
+      "target": "person:hegel",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jung",
+      "target": "person:hans-jonas",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jung",
+      "target": "person:frankfurt",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jung",
+      "target": "person:corbin",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jung",
+      "target": "person:dreyfus",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jung",
+      "target": "person:kant",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jung",
+      "target": "person:jesus-of-nazareth",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jung",
+      "target": "person:la-paul",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jung",
+      "target": "person:heidegger",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jung",
+      "target": "person:meister-eckhart",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jung",
+      "target": "person:barfield",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jung",
+      "target": "person:paul",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jung",
+      "target": "person:tillich",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jung",
+      "target": "person:plato",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jung",
+      "target": "person:plotinus",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jung",
+      "target": "person:descartes",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jung",
+      "target": "person:freud",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jung",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jung",
+      "target": "person:kierkegaard",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jung",
+      "target": "person:aquinas",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jung",
+      "target": "person:cheetham",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jung",
+      "target": "person:william-james",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:charles-taylor",
+      "target": "person:eric-perl",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:charles-taylor",
+      "target": "person:dreyfus",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:charles-taylor",
+      "target": "person:karen-armstrong",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:charles-taylor",
+      "target": "person:karl-jaspers",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:charles-taylor",
+      "target": "person:plato",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:charles-taylor",
+      "target": "person:robert-bellah",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:christopher-mastropietro",
+      "target": "person:filip-miscevic",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:christopher-mastropietro",
+      "target": "person:corbin",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:christopher-mastropietro",
+      "target": "person:jesus-of-nazareth",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:christopher-mastropietro",
+      "target": "person:heidegger",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:christopher-mastropietro",
+      "target": "person:barfield",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:christopher-mastropietro",
+      "target": "person:tillich",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:christopher-mastropietro",
+      "target": "person:plato",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:christopher-mastropietro",
+      "target": "person:siddhartha-gautama",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:christopher-mastropietro",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:christopher-mole",
+      "target": "person:siddhartha-gautama",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:geertz",
+      "target": "person:fromm",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:geertz",
+      "target": "person:schleiermacher",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:geertz",
+      "target": "person:buber",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:geertz",
+      "target": "person:tillich",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:geertz",
+      "target": "person:otto",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:daniel-dennett",
+      "target": "person:jerry-fodor",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:daniel-dennett",
+      "target": "person:ludwig-wittgenstein",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:siegel",
+      "target": "person:matt-rossano",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:siegel",
+      "target": "person:michael-winkelman",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:yaden",
+      "target": "person:siddhartha-gautama",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:yaden",
+      "target": "person:steve-taylor",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:yaden",
+      "target": "person:william-james",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:ellen-langer",
+      "target": "person:siddhartha-gautama",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:ellen-langer",
+      "target": "person:stephen-batchelor",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:epictetus",
+      "target": "person:marcus-aurelius",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:epictetus",
+      "target": "person:tillich",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:eric-perl",
+      "target": "person:dreyfus",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:eric-perl",
+      "target": "person:jesus-of-nazareth",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:eric-perl",
+      "target": "person:paul",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:eric-perl",
+      "target": "person:plato",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:eric-perl",
+      "target": "person:plotinus",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:eric-perl",
+      "target": "person:freud",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:eric-perl",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:eric-perl",
+      "target": "person:aquinas",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:fromm",
+      "target": "person:filip-miscevic",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:fromm",
+      "target": "person:nietzsche",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:fromm",
+      "target": "person:corbin",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:fromm",
+      "target": "person:leo-ferraro",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:fromm",
+      "target": "person:marcus-aurelius",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:fromm",
+      "target": "person:buber",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:fromm",
+      "target": "person:heidegger",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:fromm",
+      "target": "person:barfield",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:fromm",
+      "target": "person:tillich",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:fromm",
+      "target": "person:siddhartha-gautama",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:fromm",
+      "target": "person:stephen-batchelor",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:evan-thompson",
+      "target": "person:varela",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:evan-thompson",
+      "target": "person:dreyfus",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:evan-thompson",
+      "target": "person:merleau-ponty",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:filip-miscevic",
+      "target": "person:corbin",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:filip-miscevic",
+      "target": "person:jesus-of-nazareth",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:filip-miscevic",
+      "target": "person:marcus-aurelius",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:filip-miscevic",
+      "target": "person:heidegger",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:filip-miscevic",
+      "target": "person:barfield",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:filip-miscevic",
+      "target": "person:tillich",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:filip-miscevic",
+      "target": "person:plato",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:filip-miscevic",
+      "target": "person:siddhartha-gautama",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:filip-miscevic",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:filip-miscevic",
+      "target": "person:stephen-batchelor",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:filip-miscevic",
+      "target": "person:kierkegaard",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:varela",
+      "target": "person:dreyfus",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:varela",
+      "target": "person:leo-ferraro",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:varela",
+      "target": "person:heidegger",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:varela",
+      "target": "person:merleau-ponty",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:varela",
+      "target": "person:csikszentmihalyi",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:varela",
+      "target": "person:plato",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:varela",
+      "target": "person:siddhartha-gautama",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:varela",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:nietzsche",
+      "target": "person:hegel",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:nietzsche",
+      "target": "person:corbin",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:nietzsche",
+      "target": "person:kant",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:nietzsche",
+      "target": "person:jesus-of-nazareth",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:nietzsche",
+      "target": "person:marx",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:nietzsche",
+      "target": "person:la-paul",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:nietzsche",
+      "target": "person:heidegger",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:nietzsche",
+      "target": "person:barfield",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:nietzsche",
+      "target": "person:paul",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:nietzsche",
+      "target": "person:tillich",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:nietzsche",
+      "target": "person:plato",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:nietzsche",
+      "target": "person:plotinus",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:nietzsche",
+      "target": "person:descartes",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:nietzsche",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:nietzsche",
+      "target": "person:kierkegaard",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:schleiermacher",
+      "target": "person:tillich",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:schleiermacher",
+      "target": "person:otto",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:hegel",
+      "target": "person:kant",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:hegel",
+      "target": "person:jesus-of-nazareth",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:hegel",
+      "target": "person:john-evangelist",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:hegel",
+      "target": "person:marx",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:hegel",
+      "target": "person:la-paul",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:hegel",
+      "target": "person:heidegger",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:hegel",
+      "target": "person:paul",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:hegel",
+      "target": "person:tillich",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:hegel",
+      "target": "person:plato",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:hegel",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:hegel",
+      "target": "person:kierkegaard",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:hans-jonas",
+      "target": "person:corbin",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:hans-jonas",
+      "target": "person:paul",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:frankfurt",
+      "target": "person:la-paul",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:frankfurt",
+      "target": "person:heidegger",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:frankfurt",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:corbin",
+      "target": "person:dreyfus",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:corbin",
+      "target": "person:kant",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:corbin",
+      "target": "person:jesus-of-nazareth",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:corbin",
+      "target": "person:heidegger",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:corbin",
+      "target": "person:merleau-ponty",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:corbin",
+      "target": "person:meister-eckhart",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:corbin",
+      "target": "person:barfield",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:corbin",
+      "target": "person:paul",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:corbin",
+      "target": "person:tillich",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:corbin",
+      "target": "person:plato",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:corbin",
+      "target": "person:plotinus",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:corbin",
+      "target": "person:descartes",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:corbin",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:corbin",
+      "target": "person:kierkegaard",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:corbin",
+      "target": "person:cheetham",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:dreyfus",
+      "target": "person:jerry-fodor",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:dreyfus",
+      "target": "person:leo-ferraro",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:dreyfus",
+      "target": "person:ludwig-wittgenstein",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:dreyfus",
+      "target": "person:heidegger",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:dreyfus",
+      "target": "person:merleau-ponty",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:dreyfus",
+      "target": "person:polanyi",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:dreyfus",
+      "target": "person:csikszentmihalyi",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:dreyfus",
+      "target": "person:tillich",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:dreyfus",
+      "target": "person:plotinus",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:dreyfus",
+      "target": "person:descartes",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:dreyfus",
+      "target": "person:cheetham",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:igor-grossmann",
+      "target": "person:iris-murdoch",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:igor-grossmann",
+      "target": "person:juensung-kim",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:igor-grossmann",
+      "target": "person:monika-ardelt",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:igor-grossmann",
+      "target": "person:baltes-staudinger",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:igor-grossmann",
+      "target": "person:plato",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:igor-grossmann",
+      "target": "person:sternberg",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:igor-grossmann",
+      "target": "person:siddhartha-gautama",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:igor-grossmann",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:kant",
+      "target": "person:jesus-of-nazareth",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:kant",
+      "target": "person:heidegger",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:kant",
+      "target": "person:luther",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:kant",
+      "target": "person:meister-eckhart",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:kant",
+      "target": "person:paul",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:kant",
+      "target": "person:tillich",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:kant",
+      "target": "person:plato",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:kant",
+      "target": "person:plotinus",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:kant",
+      "target": "person:descartes",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:kant",
+      "target": "person:otto",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:kant",
+      "target": "person:freud",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:kant",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:kant",
+      "target": "person:kierkegaard",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:kant",
+      "target": "person:cheetham",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:kant",
+      "target": "person:william-james",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:kant",
+      "target": "person:william-of-ockham",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:iris-murdoch",
+      "target": "person:john-wright",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:iris-murdoch",
+      "target": "person:juensung-kim",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:iris-murdoch",
+      "target": "person:la-paul",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:iris-murdoch",
+      "target": "person:leo-ferraro",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:iris-murdoch",
+      "target": "person:csikszentmihalyi",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:iris-murdoch",
+      "target": "person:monika-ardelt",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:iris-murdoch",
+      "target": "person:baltes-staudinger",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:iris-murdoch",
+      "target": "person:plato",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:iris-murdoch",
+      "target": "person:plotinus",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:iris-murdoch",
+      "target": "person:sternberg",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:iris-murdoch",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jerry-fodor",
+      "target": "person:ludwig-wittgenstein",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jesus-of-nazareth",
+      "target": "person:john-evangelist",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jesus-of-nazareth",
+      "target": "person:la-paul",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jesus-of-nazareth",
+      "target": "person:heidegger",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jesus-of-nazareth",
+      "target": "person:barfield",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jesus-of-nazareth",
+      "target": "person:paul",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jesus-of-nazareth",
+      "target": "person:tillich",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jesus-of-nazareth",
+      "target": "person:plato",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jesus-of-nazareth",
+      "target": "person:plotinus",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jesus-of-nazareth",
+      "target": "person:freud",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jesus-of-nazareth",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jesus-of-nazareth",
+      "target": "person:kierkegaard",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:jesus-of-nazareth",
+      "target": "person:aquinas",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:john-evangelist",
+      "target": "person:paul",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:john-evangelist",
+      "target": "person:tillich",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:john-evangelist",
+      "target": "person:plato",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:john-evangelist",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:juensung-kim",
+      "target": "person:la-paul",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:juensung-kim",
+      "target": "person:leo-ferraro",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:juensung-kim",
+      "target": "person:csikszentmihalyi",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:juensung-kim",
+      "target": "person:monika-ardelt",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:juensung-kim",
+      "target": "person:baltes-staudinger",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:juensung-kim",
+      "target": "person:plato",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:juensung-kim",
+      "target": "person:sternberg",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:juensung-kim",
+      "target": "person:siddhartha-gautama",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:juensung-kim",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:juensung-kim",
+      "target": "person:steve-taylor",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:karen-armstrong",
+      "target": "person:karl-jaspers",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:karen-armstrong",
+      "target": "person:robert-bellah",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:karl-jaspers",
+      "target": "person:robert-bellah",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:marx",
+      "target": "person:la-paul",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:marx",
+      "target": "person:paul",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:marx",
+      "target": "person:plato",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:marx",
+      "target": "person:kierkegaard",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:stanovich",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:la-paul",
+      "target": "person:heidegger",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:la-paul",
+      "target": "person:paul",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:la-paul",
+      "target": "person:plato",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:la-paul",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:la-paul",
+      "target": "person:steve-taylor",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:la-paul",
+      "target": "person:kierkegaard",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:leo-ferraro",
+      "target": "person:marc-lewis",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:leo-ferraro",
+      "target": "person:heidegger",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:leo-ferraro",
+      "target": "person:csikszentmihalyi",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:leo-ferraro",
+      "target": "person:baltes-staudinger",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:leo-ferraro",
+      "target": "person:plato",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:leo-ferraro",
+      "target": "person:siddhartha-gautama",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:leo-ferraro",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:leo-ferraro",
+      "target": "person:stephen-batchelor",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:ludwig-wittgenstein",
+      "target": "person:heidegger",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:ludwig-wittgenstein",
+      "target": "person:plato",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:ludwig-wittgenstein",
+      "target": "person:descartes",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:ludwig-wittgenstein",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:marcus-aurelius",
+      "target": "person:tillich",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:marcus-aurelius",
+      "target": "person:stephen-batchelor",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:buber",
+      "target": "person:siddhartha-gautama",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:buber",
+      "target": "person:stephen-batchelor",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:heidegger",
+      "target": "person:merleau-ponty",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:heidegger",
+      "target": "person:barfield",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:heidegger",
+      "target": "person:tillich",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:heidegger",
+      "target": "person:plato",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:heidegger",
+      "target": "person:plotinus",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:heidegger",
+      "target": "person:descartes",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:heidegger",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:heidegger",
+      "target": "person:kierkegaard",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:heidegger",
+      "target": "person:cheetham",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:luther",
+      "target": "person:william-of-ockham",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:matt-rossano",
+      "target": "person:michael-winkelman",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:merleau-ponty",
+      "target": "person:siddhartha-gautama",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:meister-eckhart",
+      "target": "person:paul",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:meister-eckhart",
+      "target": "person:tillich",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:meister-eckhart",
+      "target": "person:plotinus",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:meister-eckhart",
+      "target": "person:descartes",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:meister-eckhart",
+      "target": "person:cheetham",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:meister-eckhart",
+      "target": "person:william-of-ockham",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:michael-anderson",
+      "target": "person:steve-taylor",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:csikszentmihalyi",
+      "target": "person:plato",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:csikszentmihalyi",
+      "target": "person:siddhartha-gautama",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:csikszentmihalyi",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:monika-ardelt",
+      "target": "person:baltes-staudinger",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:monika-ardelt",
+      "target": "person:plato",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:monika-ardelt",
+      "target": "person:sternberg",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:monika-ardelt",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:barfield",
+      "target": "person:tillich",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:barfield",
+      "target": "person:plato",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:barfield",
+      "target": "person:plotinus",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:barfield",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:barfield",
+      "target": "person:kierkegaard",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:barfield",
+      "target": "person:cheetham",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:paul",
+      "target": "person:tillich",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:paul",
+      "target": "person:plato",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:paul",
+      "target": "person:plotinus",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:paul",
+      "target": "person:descartes",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:paul",
+      "target": "person:freud",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:paul",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:paul",
+      "target": "person:kierkegaard",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:paul",
+      "target": "person:aquinas",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:paul",
+      "target": "person:william-of-ockham",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:baltes-staudinger",
+      "target": "person:plato",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:baltes-staudinger",
+      "target": "person:sternberg",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:baltes-staudinger",
+      "target": "person:siddhartha-gautama",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:baltes-staudinger",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:baltes-staudinger",
+      "target": "person:steve-taylor",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:tillich",
+      "target": "person:plato",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:tillich",
+      "target": "person:plotinus",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:tillich",
+      "target": "person:descartes",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:tillich",
+      "target": "person:otto",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:tillich",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:tillich",
+      "target": "person:kierkegaard",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:tillich",
+      "target": "person:cheetham",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:tillich",
+      "target": "person:william-james",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:plato",
+      "target": "person:plotinus",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:plato",
+      "target": "person:pythagoras",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:plato",
+      "target": "person:descartes",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:plato",
+      "target": "person:sternberg",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:plato",
+      "target": "person:siddhartha-gautama",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:plato",
+      "target": "person:freud",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:plato",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:plato",
+      "target": "person:kierkegaard",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:plato",
+      "target": "person:aquinas",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:plato",
+      "target": "person:cheetham",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:plotinus",
+      "target": "person:pythagoras",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:plotinus",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:plotinus",
+      "target": "person:kierkegaard",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:plotinus",
+      "target": "person:aquinas",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:plotinus",
+      "target": "person:cheetham",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:pythagoras",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:descartes",
+      "target": "person:kierkegaard",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:descartes",
+      "target": "person:cheetham",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:sternberg",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:siddhartha-gautama",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:siddhartha-gautama",
+      "target": "person:stephen-batchelor",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:siddhartha-gautama",
+      "target": "person:steve-taylor",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:freud",
+      "target": "person:socrates",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:socrates",
+      "target": "person:kierkegaard",
+      "kind": "co-discussed"
+    },
+    {
+      "source": "person:steve-taylor",
+      "target": "person:william-james",
+      "kind": "co-discussed"
     }
   ]
 }

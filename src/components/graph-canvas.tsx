@@ -25,6 +25,21 @@ interface RenderNode extends GraphNode {
   fy?: number | null;
 }
 
+const CLUSTER_COLORS_LIGHT: Record<string, string> = {
+  "cognitive-science": "#1f3a8a",
+  historical: "#5b3e89",
+  normative: "#1f6f6c",
+  practical: "#a85c1a",
+  methodological: "#1f3a8a",
+};
+const CLUSTER_COLORS_DARK: Record<string, string> = {
+  "cognitive-science": "#7daaff",
+  historical: "#a78bfa",
+  normative: "#5cd2cc",
+  practical: "#f0a667",
+  methodological: "#7daaff",
+};
+
 export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const fgRef = useRef<unknown>(null);
@@ -47,9 +62,7 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1 }
     () => ({
       bg: dark ? "#0c1019" : "#ffffff",
       stroke: dark ? "#6b8cf2" : "#1f3a8a",
-      strokeSoft: dark ? "#3a4670" : "#a8b8e3",
       fill: dark ? "#0c1019" : "#ffffff",
-      fillFlagship: dark ? "#3257d6" : "#1f3a8a",
       fillPerson: dark ? "#1d2747" : "#e6edff",
       strokePerson: dark ? "#6b8cf2" : "#3257d6",
       selected: dark ? "#d4b25c" : "#c08a2c",
@@ -57,6 +70,7 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1 }
       muted: dark ? "#7b8499" : "#6b7488",
       link: dark ? "#2a3548" : "#b8c3d6",
       linkActive: dark ? "#8aa1e3" : "#1f3a8a",
+      cluster: dark ? CLUSTER_COLORS_DARK : CLUSTER_COLORS_LIGHT,
     }),
     [dark]
   );
@@ -79,7 +93,6 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1 }
     return { nodes, links };
   }, [graph, mode, minDegree]);
 
-  // Build neighbor index for highlighting on hover.
   const neighbors = useMemo(() => {
     const n: Record<string, Set<string>> = {};
     for (const l of filteredGraph.links) {
@@ -91,8 +104,57 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1 }
     return n;
   }, [filteredGraph]);
 
-  const activeId = hoverId ?? selectedId ?? null;
+  const activeId = selectedId ?? hoverId ?? null;
   const activeNeighbors = activeId ? neighbors[activeId] ?? new Set() : new Set();
+  const hasFocus = Boolean(activeId);
+
+  // Configure d3 forces once we have a ref. Tuning depends on which mode we're in.
+  useEffect(() => {
+    type FG = {
+      d3Force: (n: string, force?: unknown) => unknown;
+      d3ReheatSimulation?: () => void;
+      zoomToFit?: (ms: number, padding: number) => void;
+    };
+    type Force = { strength?: (v: number | ((d: unknown) => number)) => unknown; distance?: (v: number) => unknown; radius?: (v: number | ((d: unknown) => number)) => unknown };
+    const fg = fgRef.current as FG | null;
+    if (!fg) return;
+    const isConceptsMode = mode === "concepts";
+    const charge = fg.d3Force("charge") as Force | null;
+    charge?.strength?.(isConceptsMode ? -110 : -70);
+    const link = fg.d3Force("link") as Force | null;
+    link?.distance?.(isConceptsMode ? 60 : 50);
+    import("d3-force").then((d3) => {
+      const collide = d3.forceCollide().radius((node: unknown) => {
+        const n = node as RenderNode;
+        const r = (n.kind === "person" ? 5 : 6) + Math.min(5, (n.count ?? 1) * 0.6);
+        return r + 3;
+      }).strength(0.8);
+      (fg.d3Force as unknown as (n: string, f: unknown) => unknown)("collide", collide);
+      fg.d3ReheatSimulation?.();
+      // Refit camera once the simulation has had a moment to settle
+      setTimeout(() => fg.zoomToFit?.(600, 80), 1200);
+    }).catch(() => {});
+  }, [filteredGraph, mode]);
+
+  // Subtle perpetual reheat so nodes drift gently.
+  useEffect(() => {
+    const fg = fgRef.current as { d3ReheatSimulation?: () => void } | null;
+    if (!fg?.d3ReheatSimulation) return;
+    const interval = setInterval(() => {
+      fg.d3ReheatSimulation?.();
+    }, 4000);
+    return () => clearInterval(interval);
+  }, [filteredGraph]);
+
+  function nodeRadius(node: GraphNode): number {
+    return (node.kind === "person" ? 5 : 6) + Math.min(5, (node.count ?? 1) * 0.6);
+  }
+
+  function isLinkActive(l: GraphLink): boolean {
+    const s = typeof l.source === "string" ? l.source : (l.source as GraphNode).id;
+    const t = typeof l.target === "string" ? l.target : (l.target as GraphNode).id;
+    return s === activeId || t === activeId;
+  }
 
   return (
     <div ref={containerRef} className="relative w-full h-full">
@@ -106,66 +168,95 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1 }
         nodeRelSize={4}
         nodeVal={(n) => {
           const node = n as GraphNode;
-          const base = node.kind === "person" ? 1 : 1.2;
-          return base + Math.min(6, (node.count ?? 1) * 0.45);
+          const base = node.kind === "person" ? 1.4 : 1.6;
+          return base + Math.min(8, (node.count ?? 1) * 0.6);
         }}
         nodeLabel={(n) => (n as GraphNode).label}
         nodeCanvasObject={(rawNode, ctx, globalScale) => {
           const node = rawNode as RenderNode;
           if (node.x == null || node.y == null) return;
-          const r = (node.kind === "person" ? 4.5 : 5.5) + Math.min(5, (node.count ?? 1) * 0.6);
+          const r = nodeRadius(node);
           const selected = node.id === selectedId;
           const isActive = activeId === node.id;
-          const isDimmed = activeId && !isActive && !activeNeighbors.has(node.id);
+          const isNeighbor = activeId ? activeNeighbors.has(node.id) : false;
+          const isDimmed = hasFocus && !isActive && !isNeighbor;
 
-          ctx.globalAlpha = isDimmed ? 0.25 : 1;
+          ctx.globalAlpha = isDimmed ? 0.12 : 1;
+
+          // Cluster color for fill (concepts) or stroke ring (persons)
+          const cluster = node.cluster as string | undefined;
+          const clusterColor = cluster ? palette.cluster[cluster] : palette.stroke;
 
           // Draw fill
           ctx.beginPath();
           ctx.arc(node.x, node.y, r, 0, 2 * Math.PI);
           if (node.kind === "concept") {
-            ctx.fillStyle = node.flagship ? palette.fillFlagship : palette.fill;
+            ctx.fillStyle = node.flagship ? (clusterColor ?? palette.stroke) : palette.fill;
           } else {
             ctx.fillStyle = palette.fillPerson;
           }
           ctx.fill();
 
-          // Draw stroke
-          ctx.lineWidth = selected ? 2.4 : isActive ? 2 : 1.4;
-          ctx.strokeStyle = selected
-            ? palette.selected
-            : node.kind === "concept"
-              ? palette.stroke
-              : palette.strokePerson;
+          // Selection ring (outer)
+          if (selected) {
+            ctx.beginPath();
+            ctx.arc(node.x, node.y, r + 4, 0, 2 * Math.PI);
+            ctx.lineWidth = 2;
+            ctx.strokeStyle = palette.selected;
+            ctx.stroke();
+          }
+
+          // Inner stroke
+          ctx.beginPath();
+          ctx.arc(node.x, node.y, r, 0, 2 * Math.PI);
+          ctx.lineWidth = isActive ? 2.2 : 1.4;
+          ctx.strokeStyle = node.kind === "concept"
+            ? (clusterColor ?? palette.stroke)
+            : palette.strokePerson;
           ctx.stroke();
 
-          // Label visible when hovered/selected or zoomed in
-          const showLabel = isActive || selected || globalScale > 1.4;
+          // Labels: always show selected/active/neighbor; otherwise only at higher zoom levels.
+          const showLabel = isActive || selected || isNeighbor || globalScale > 1.8;
           if (showLabel) {
             ctx.font = `${Math.max(9, 11 / globalScale).toFixed(0)}px ui-sans-serif, system-ui`;
             ctx.textAlign = "center";
             ctx.textBaseline = "top";
             ctx.fillStyle = palette.ink;
-            ctx.fillText(node.label, node.x, node.y + r + 2);
+            ctx.globalAlpha = isDimmed ? 0.2 : (isActive || selected ? 1 : 0.75);
+            ctx.fillText(node.label, node.x, node.y + r + 3);
           }
           ctx.globalAlpha = 1;
         }}
+        // Bigger hit area than visual circle, so clicks are forgiving.
+        nodePointerAreaPaint={(rawNode, color, ctx) => {
+          const node = rawNode as RenderNode;
+          if (node.x == null || node.y == null) return;
+          const r = nodeRadius(node);
+          ctx.fillStyle = color;
+          ctx.beginPath();
+          ctx.arc(node.x, node.y, r + 6, 0, 2 * Math.PI);
+          ctx.fill();
+        }}
         linkColor={(l) => {
           const link = l as GraphLink;
-          if (!activeId) return palette.link;
-          const s = typeof link.source === "string" ? link.source : (link.source as GraphNode).id;
-          const t = typeof link.target === "string" ? link.target : (link.target as GraphNode).id;
-          if (s === activeId || t === activeId) return palette.linkActive;
-          return palette.link;
+          if (!hasFocus) return palette.link;
+          return isLinkActive(link) ? palette.linkActive : palette.link;
         }}
         linkWidth={(l) => {
           const link = l as GraphLink;
-          if (!activeId) return 0.8;
-          const s = typeof link.source === "string" ? link.source : (link.source as GraphNode).id;
-          const t = typeof link.target === "string" ? link.target : (link.target as GraphNode).id;
-          return s === activeId || t === activeId ? 1.6 : 0.5;
+          if (!hasFocus) return 0.7;
+          return isLinkActive(link) ? 2.2 : 0.4;
         }}
-        onNodeHover={(n) => setHoverId(n ? ((n as GraphNode).id) : null)}
+        linkVisibility={(l) => {
+          const link = l as GraphLink;
+          // When focused, hide non-relevant links entirely (cleaner than dimming).
+          if (!hasFocus) return true;
+          return isLinkActive(link) || activeNeighbors.size === 0;
+        }}
+        onNodeHover={(n) => {
+          setHoverId(n ? ((n as GraphNode).id) : null);
+          if (containerRef.current) containerRef.current.style.cursor = n ? "pointer" : "default";
+        }}
         onNodeClick={(node) => onSelect(node as unknown as GraphNode)}
         onBackgroundClick={() => onSelect(null)}
         enableNodeDrag={true}
