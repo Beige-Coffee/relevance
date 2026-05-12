@@ -32,9 +32,6 @@ export default function Home() {
   useEffect(() => { setSelected(null); }, [mode]);
 
   function handleSearchSelect(node: GraphNode) {
-    // Switch to the matching mode so the picked node is visible on the graph.
-    if (node.kind === "concept" && mode !== "concepts") setMode("concepts");
-    if (node.kind === "person" && mode !== "persons") setMode("persons");
     setSelected(node);
   }
 
@@ -57,7 +54,7 @@ export default function Home() {
         </div>
 
         <div className="flex-1 min-w-[200px] max-w-[360px]">
-          <NodeSearch concepts={concepts} people={people} onSelect={handleSearchSelect} />
+          <NodeSearch concepts={concepts} people={people} mode={mode} onSelect={handleSearchSelect} />
         </div>
 
         <LegendBar mode={mode} />

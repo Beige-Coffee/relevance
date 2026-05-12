@@ -6,6 +6,7 @@ import type { Concept, Person, GraphNode } from "@/lib/types";
 interface Props {
   concepts: Concept[];
   people: Person[];
+  mode: "concepts" | "persons";
   onSelect: (node: GraphNode) => void;
 }
 
@@ -26,7 +27,7 @@ const CLUSTER_COLORS: Record<string, string> = {
   methodological: "#1f3a8a",
 };
 
-export function NodeSearch({ concepts, people, onSelect }: Props) {
+export function NodeSearch({ concepts, people, mode, onSelect }: Props) {
   const [q, setQ] = useState("");
   const [open, setOpen] = useState(false);
   const [activeIdx, setActiveIdx] = useState(0);
@@ -40,40 +41,48 @@ export function NodeSearch({ concepts, people, onSelect }: Props) {
     return () => document.removeEventListener("mousedown", onDocClick);
   }, []);
 
+  // Reset query whenever the mode toggles so a stale concept query
+  // doesn't sit in the box after switching to Thinkers (and vice versa).
+  useEffect(() => {
+    setQ("");
+    setOpen(false);
+    setActiveIdx(0);
+  }, [mode]);
+
   const matches = useMemo((): Hit[] => {
     const lower = q.trim().toLowerCase();
     if (!lower) return [];
-    const conceptHits: Hit[] = concepts
-      .filter((c) => {
-        if (c.canonicalName.toLowerCase().includes(lower)) return true;
-        if (c.id.includes(lower)) return true;
-        return (c.aliases ?? []).some((a) => a.toLowerCase().includes(lower));
-      })
-      .slice(0, 6)
-      .map((c) => ({
-        kind: "concept",
-        id: c.id,
-        label: c.canonicalName,
-        sub: c.cluster,
-        flagship: c.isFlagship,
-        color: CLUSTER_COLORS[c.cluster],
-      }));
-    const personHits: Hit[] = people
+    if (mode === "concepts") {
+      return concepts
+        .filter((c) => {
+          if (c.canonicalName.toLowerCase().includes(lower)) return true;
+          if (c.id.includes(lower)) return true;
+          return (c.aliases ?? []).some((a) => a.toLowerCase().includes(lower));
+        })
+        .slice(0, 8)
+        .map((c) => ({
+          kind: "concept",
+          id: c.id,
+          label: c.canonicalName,
+          sub: c.cluster,
+          flagship: c.isFlagship,
+          color: CLUSTER_COLORS[c.cluster],
+        }));
+    }
+    return people
       .filter((p) => {
         if (p.canonicalName.toLowerCase().includes(lower)) return true;
         if (p.id.includes(lower)) return true;
         return (p.aliases ?? []).some((a) => a.toLowerCase().includes(lower));
       })
-      .slice(0, 6)
+      .slice(0, 8)
       .map((p) => ({
         kind: "person",
         id: p.id,
         label: p.canonicalName,
         sub: p.shortBio.split(/[.,;]/)[0],
       }));
-    // Interleave: prefer concept matches but keep both
-    return [...conceptHits, ...personHits].slice(0, 8);
-  }, [q, concepts, people]);
+  }, [q, concepts, people, mode]);
 
   function pick(hit: Hit) {
     const node: GraphNode = hit.kind === "concept"
@@ -126,7 +135,7 @@ export function NodeSearch({ concepts, people, onSelect }: Props) {
           onChange={(e) => { setQ(e.target.value); setOpen(true); setActiveIdx(0); }}
           onFocus={() => setOpen(true)}
           onKeyDown={onKeyDown}
-          placeholder="Search concepts or thinkers..."
+          placeholder={mode === "concepts" ? "Search concepts..." : "Search thinkers..."}
           className="w-full pl-8 pr-3 py-1.5 rounded-md border border-[var(--border)] bg-[var(--surface)] text-[var(--ink)] placeholder:text-[var(--muted)] text-[13px] focus:outline-none focus:border-[var(--accent)]"
           spellCheck={false}
           autoComplete="off"
@@ -159,9 +168,6 @@ export function NodeSearch({ concepts, people, onSelect }: Props) {
               <span className="min-w-0 flex-1">
                 <span className="text-[13px] text-[var(--ink)] block truncate">{m.label}</span>
                 {m.sub && <span className="text-[11px] text-[var(--muted)] block truncate">{m.sub}</span>}
-              </span>
-              <span className="text-[10px] uppercase tracking-wider text-[var(--muted)]">
-                {m.kind === "concept" ? "Concept" : "Thinker"}
               </span>
             </button>
           ))}
