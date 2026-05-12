@@ -1,16 +1,26 @@
-import Link from "next/link";
-
 export function CitationPill({ episodes }: { episodes: number[] }) {
   if (episodes.length === 1) {
     return (
-      <Link href={`/episodes#ep-${episodes[0]}`} className="cite-pill" title={`Episode ${episodes[0]}`}>
+      <a
+        href={`/episodes#ep-${episodes[0]}`}
+        target="_blank"
+        rel="noreferrer"
+        className="cite-pill"
+        title={`Episode ${episodes[0]} (opens in a new tab)`}
+      >
         Ep {episodes[0]}
-      </Link>
+      </a>
     );
   }
   return (
-    <span className="cite-pill" title={`Episodes ${episodes.join(", ")}`}>
+    <a
+      href={`/episodes#ep-${episodes[0]}`}
+      target="_blank"
+      rel="noreferrer"
+      className="cite-pill"
+      title={`Episodes ${episodes.join(", ")} (opens in a new tab)`}
+    >
       Eps {episodes.join(", ")}
-    </span>
+    </a>
   );
 }
