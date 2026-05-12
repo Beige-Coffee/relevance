@@ -160,11 +160,21 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1, 
         const { x, y } = seedPosition(n.id);
         return { ...n, x, y, vx: 0, vy: 0 };
       });
-    const links = graph.links.filter((l) => {
-      const s = typeof l.source === "string" ? l.source : (l.source as GraphNode).id;
-      const t = typeof l.target === "string" ? l.target : (l.target as GraphNode).id;
-      return keep.has(s) && keep.has(t);
-    });
+    // Also clone links and reset source/target to string ids. d3-force may
+    // have rewritten these to point at the *previous* node objects on an
+    // earlier render; if we don't reset, none of the new cloned nodes match
+    // the link endpoints and most of the graph appears edgeless.
+    const links = graph.links
+      .filter((l) => {
+        const s = typeof l.source === "string" ? l.source : (l.source as GraphNode).id;
+        const t = typeof l.target === "string" ? l.target : (l.target as GraphNode).id;
+        return keep.has(s) && keep.has(t);
+      })
+      .map((l) => ({
+        ...l,
+        source: typeof l.source === "string" ? l.source : (l.source as GraphNode).id,
+        target: typeof l.target === "string" ? l.target : (l.target as GraphNode).id,
+      }));
     return { nodes, links };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [graph, mode, minDegree]);
