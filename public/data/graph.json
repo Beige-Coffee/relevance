@@ -2063,6 +2063,11 @@
       "kind": "prereq"
     },
     {
+      "source": "concept:absurdity",
+      "target": "concept:worldview-attunement",
+      "kind": "contrasted"
+    },
+    {
       "source": "ep:15",
       "target": "concept:agape",
       "kind": "introduced"
@@ -2201,6 +2206,16 @@
       "source": "concept:agape",
       "target": "concept:anagoge",
       "kind": "related"
+    },
+    {
+      "source": "concept:agape",
+      "target": "concept:eros",
+      "kind": "contrasted"
+    },
+    {
+      "source": "concept:agape",
+      "target": "concept:philia",
+      "kind": "contrasted"
     },
     {
       "source": "ep:7",
@@ -2358,6 +2373,11 @@
       "kind": "prereq"
     },
     {
+      "source": "concept:agent-arena-relationship",
+      "target": "concept:absurdity",
+      "kind": "contrasted"
+    },
+    {
       "source": "ep:6",
       "target": "concept:akrasia",
       "kind": "introduced"
@@ -2421,6 +2441,11 @@
       "source": "concept:akrasia",
       "target": "concept:the-divided-psyche",
       "kind": "prereq"
+    },
+    {
+      "source": "concept:akrasia",
+      "target": "concept:wisdom",
+      "kind": "contrasted"
     },
     {
       "source": "ep:1",
@@ -2691,6 +2716,11 @@
       "source": "concept:anagoge",
       "target": "concept:the-platonic-project",
       "kind": "prereq"
+    },
+    {
+      "source": "concept:anagoge",
+      "target": "concept:reciprocal-narrowing",
+      "kind": "contrasted"
     },
     {
       "source": "ep:42",
@@ -3478,6 +3508,11 @@
       "kind": "related"
     },
     {
+      "source": "concept:dukkha",
+      "target": "concept:the-eightfold-path",
+      "kind": "contrasted"
+    },
+    {
       "source": "ep:36",
       "target": "concept:ecology-of-practices",
       "kind": "introduced"
@@ -3601,6 +3636,16 @@
       "source": "concept:eros",
       "target": "concept:philia",
       "kind": "related"
+    },
+    {
+      "source": "concept:eros",
+      "target": "concept:agape",
+      "kind": "contrasted"
+    },
+    {
+      "source": "concept:eros",
+      "target": "concept:philia",
+      "kind": "contrasted"
     },
     {
       "source": "ep:1",
@@ -3751,6 +3796,16 @@
       "source": "concept:existential-entrapment",
       "target": "concept:the-perennial-problems",
       "kind": "related"
+    },
+    {
+      "source": "concept:existential-entrapment",
+      "target": "concept:gnosis",
+      "kind": "contrasted"
+    },
+    {
+      "source": "concept:existential-entrapment",
+      "target": "concept:anagoge",
+      "kind": "contrasted"
     },
     {
       "source": "ep:7",
@@ -4083,6 +4138,11 @@
       "kind": "related"
     },
     {
+      "source": "concept:foolishness",
+      "target": "concept:wisdom",
+      "kind": "contrasted"
+    },
+    {
       "source": "ep:16",
       "target": "concept:gnosis",
       "kind": "introduced"
@@ -4226,6 +4286,11 @@
       "source": "concept:gnosis",
       "target": "concept:altered-states-of-consciousness",
       "kind": "prereq"
+    },
+    {
+      "source": "concept:gnosis",
+      "target": "concept:existential-entrapment",
+      "kind": "contrasted"
     },
     {
       "source": "ep:17",
@@ -4421,6 +4486,11 @@
       "source": "concept:having-mode-being-mode",
       "target": "concept:existential-mode",
       "kind": "prereq"
+    },
+    {
+      "source": "concept:having-mode-being-mode",
+      "target": "concept:modal-confusion",
+      "kind": "contrasted"
     },
     {
       "source": "ep:10",
@@ -4633,6 +4703,16 @@
       "kind": "related"
     },
     {
+      "source": "concept:horror",
+      "target": "concept:worldview-attunement",
+      "kind": "contrasted"
+    },
+    {
+      "source": "concept:horror",
+      "target": "concept:the-sacred",
+      "kind": "contrasted"
+    },
+    {
       "source": "ep:5",
       "target": "concept:hyperbolic-discounting",
       "kind": "introduced"
@@ -4761,6 +4841,11 @@
       "source": "concept:implicit-learning",
       "target": "concept:procedural-knowing",
       "kind": "related"
+    },
+    {
+      "source": "concept:implicit-learning",
+      "target": "concept:propositional-knowing",
+      "kind": "contrasted"
     },
     {
       "source": "ep:5",
@@ -5103,6 +5188,11 @@
       "kind": "related"
     },
     {
+      "source": "concept:logos",
+      "target": "concept:mythos",
+      "kind": "contrasted"
+    },
+    {
       "source": "ep:15",
       "target": "concept:metanoia",
       "kind": "introduced"
@@ -5368,6 +5458,11 @@
       "kind": "prereq"
     },
     {
+      "source": "concept:modal-confusion",
+      "target": "concept:mindfulness",
+      "kind": "contrasted"
+    },
+    {
       "source": "ep:2",
       "target": "concept:mythos",
       "kind": "introduced"
@@ -5536,6 +5631,11 @@
       "source": "concept:mythos",
       "target": "concept:logos",
       "kind": "related"
+    },
+    {
+      "source": "concept:mythos",
+      "target": "concept:logos",
+      "kind": "contrasted"
     },
     {
       "source": "ep:5",
@@ -5761,6 +5861,11 @@
       "source": "concept:narrative-order",
       "target": "concept:kairos",
       "kind": "prereq"
+    },
+    {
+      "source": "concept:narrative-order",
+      "target": "concept:continuous-cosmos",
+      "kind": "contrasted"
     },
     {
       "source": "ep:18",
@@ -6036,6 +6141,11 @@
       "source": "concept:nomological-order",
       "target": "concept:agent-arena-relationship",
       "kind": "prereq"
+    },
+    {
+      "source": "concept:nomological-order",
+      "target": "concept:absurdity",
+      "kind": "contrasted"
     },
     {
       "source": "ep:19",
@@ -6413,6 +6523,11 @@
       "kind": "prereq"
     },
     {
+      "source": "concept:parasitic-processing",
+      "target": "concept:the-eightfold-path",
+      "kind": "contrasted"
+    },
+    {
       "source": "ep:1",
       "target": "concept:participatory-knowing",
       "kind": "introduced"
@@ -6578,6 +6693,11 @@
       "kind": "related"
     },
     {
+      "source": "concept:participatory-knowing",
+      "target": "concept:propositional-knowing",
+      "kind": "contrasted"
+    },
+    {
       "source": "ep:1",
       "target": "concept:perspectival-knowing",
       "kind": "introduced"
@@ -6688,6 +6808,11 @@
       "kind": "related"
     },
     {
+      "source": "concept:perspectival-knowing",
+      "target": "concept:propositional-knowing",
+      "kind": "contrasted"
+    },
+    {
       "source": "ep:4",
       "target": "concept:philia",
       "kind": "introduced"
@@ -6776,6 +6901,16 @@
       "source": "concept:philia",
       "target": "concept:philia-sophia",
       "kind": "related"
+    },
+    {
+      "source": "concept:philia",
+      "target": "concept:agape",
+      "kind": "contrasted"
+    },
+    {
+      "source": "concept:philia",
+      "target": "concept:eros",
+      "kind": "contrasted"
     },
     {
       "source": "ep:4",
@@ -6871,6 +7006,11 @@
       "source": "concept:philia-sophia",
       "target": "concept:philia",
       "kind": "prereq"
+    },
+    {
+      "source": "concept:philia-sophia",
+      "target": "concept:philia",
+      "kind": "contrasted"
     },
     {
       "source": "ep:14",
@@ -7003,6 +7143,11 @@
       "kind": "related"
     },
     {
+      "source": "concept:procedural-knowing",
+      "target": "concept:propositional-knowing",
+      "kind": "contrasted"
+    },
+    {
       "source": "ep:1",
       "target": "concept:propositional-knowing",
       "kind": "introduced"
@@ -7091,6 +7236,21 @@
       "source": "concept:propositional-knowing",
       "target": "concept:participatory-knowing",
       "kind": "related"
+    },
+    {
+      "source": "concept:propositional-knowing",
+      "target": "concept:participatory-knowing",
+      "kind": "contrasted"
+    },
+    {
+      "source": "concept:propositional-knowing",
+      "target": "concept:perspectival-knowing",
+      "kind": "contrasted"
+    },
+    {
+      "source": "concept:propositional-knowing",
+      "target": "concept:procedural-knowing",
+      "kind": "contrasted"
     },
     {
       "source": "ep:14",
@@ -7433,6 +7593,11 @@
       "kind": "prereq"
     },
     {
+      "source": "concept:rationality",
+      "target": "concept:foolishness",
+      "kind": "contrasted"
+    },
+    {
       "source": "ep:13",
       "target": "concept:reciprocal-narrowing",
       "kind": "introduced"
@@ -7516,6 +7681,11 @@
       "source": "concept:reciprocal-narrowing",
       "target": "concept:agent-arena-relationship",
       "kind": "prereq"
+    },
+    {
+      "source": "concept:reciprocal-narrowing",
+      "target": "concept:anagoge",
+      "kind": "contrasted"
     },
     {
       "source": "ep:27",
@@ -8441,6 +8611,16 @@
       "source": "concept:self-deception",
       "target": "concept:rationality",
       "kind": "related"
+    },
+    {
+      "source": "concept:self-deception",
+      "target": "concept:wisdom",
+      "kind": "contrasted"
+    },
+    {
+      "source": "concept:self-deception",
+      "target": "concept:rationality",
+      "kind": "contrasted"
     },
     {
       "source": "ep:1",
@@ -9563,6 +9743,11 @@
       "kind": "prereq"
     },
     {
+      "source": "concept:the-axial-revolution",
+      "target": "concept:continuous-cosmos",
+      "kind": "contrasted"
+    },
+    {
       "source": "ep:3",
       "target": "concept:continuous-cosmos",
       "kind": "introduced"
@@ -9611,6 +9796,11 @@
       "source": "concept:continuous-cosmos",
       "target": "concept:the-axial-revolution",
       "kind": "related"
+    },
+    {
+      "source": "concept:continuous-cosmos",
+      "target": "concept:two-worlds-mythology",
+      "kind": "contrasted"
     },
     {
       "source": "ep:14",
@@ -9911,6 +10101,16 @@
       "source": "concept:the-eightfold-path",
       "target": "concept:parasitic-processing",
       "kind": "prereq"
+    },
+    {
+      "source": "concept:the-eightfold-path",
+      "target": "concept:parasitic-processing",
+      "kind": "contrasted"
+    },
+    {
+      "source": "concept:the-eightfold-path",
+      "target": "concept:reciprocal-narrowing",
+      "kind": "contrasted"
     },
     {
       "source": "ep:1",
@@ -11673,6 +11873,11 @@
       "kind": "prereq"
     },
     {
+      "source": "concept:two-worlds-mythology",
+      "target": "concept:continuous-cosmos",
+      "kind": "contrasted"
+    },
+    {
       "source": "ep:14",
       "target": "concept:view-from-above",
       "kind": "introduced"
@@ -11801,6 +12006,11 @@
       "source": "concept:virtue",
       "target": "concept:akrasia",
       "kind": "related"
+    },
+    {
+      "source": "concept:virtue",
+      "target": "concept:foolishness",
+      "kind": "contrasted"
     },
     {
       "source": "ep:1",
@@ -12016,6 +12226,11 @@
       "source": "concept:wisdom",
       "target": "concept:religio",
       "kind": "prereq"
+    },
+    {
+      "source": "concept:wisdom",
+      "target": "concept:foolishness",
+      "kind": "contrasted"
     },
     {
       "source": "ep:7",

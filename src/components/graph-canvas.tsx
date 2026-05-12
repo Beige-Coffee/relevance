@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import dynamic from "next/dynamic";
+import { forceCollide } from "d3-force";
 import type { Graph, GraphNode, GraphLink } from "@/lib/types";
 
 const ForceGraph2D = dynamic(() => import("react-force-graph-2d"), { ssr: false });
@@ -157,32 +158,39 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1, 
   const activeNeighbors = activeId ? neighbors[activeId] ?? new Set() : new Set();
   const hasFocus = Boolean(activeId);
 
-  // Configure d3 forces once we have a ref. Tuning depends on which mode we're in.
+  // Configure d3 forces synchronously so the simulation runs with the
+  // correct forces from frame 1, not after an async import resolves.
+  // Stronger charge + collide gives a consistently sparse layout.
   useEffect(() => {
     type FG = {
       d3Force: (n: string, force?: unknown) => unknown;
       d3ReheatSimulation?: () => void;
       zoomToFit?: (ms: number, padding: number) => void;
     };
-    type Force = { strength?: (v: number | ((d: unknown) => number)) => unknown; distance?: (v: number) => unknown; radius?: (v: number | ((d: unknown) => number)) => unknown };
+    type Force = {
+      strength?: (v: number | ((d: unknown) => number)) => unknown;
+      distance?: (v: number) => unknown;
+      radius?: (v: number | ((d: unknown) => number)) => unknown;
+    };
     const fg = fgRef.current as FG | null;
     if (!fg) return;
+
     const isConceptsMode = mode === "concepts";
     const charge = fg.d3Force("charge") as Force | null;
-    charge?.strength?.(isConceptsMode ? -110 : -70);
+    charge?.strength?.(isConceptsMode ? -180 : -110);
     const link = fg.d3Force("link") as Force | null;
-    link?.distance?.(isConceptsMode ? 60 : 50);
-    import("d3-force").then((d3) => {
-      const collide = d3.forceCollide().radius((node: unknown) => {
-        const n = node as RenderNode;
-        const r = (n.kind === "person" ? 5 : 6) + Math.min(5, (n.count ?? 1) * 0.6);
-        return r + 3;
-      }).strength(0.8);
-      (fg.d3Force as unknown as (n: string, f: unknown) => unknown)("collide", collide);
-      fg.d3ReheatSimulation?.();
-      // Refit camera once the simulation has had a moment to settle
-      setTimeout(() => fg.zoomToFit?.(600, 80), 1200);
-    }).catch(() => {});
+    link?.distance?.(isConceptsMode ? 75 : 60);
+
+    const collide = forceCollide<RenderNode>()
+      .radius((node) => {
+        const r = (node.kind === "person" ? 5 : 6) + Math.min(5, (node.count ?? 1) * 0.6);
+        return r + 5;
+      })
+      .strength(0.95)
+      .iterations(2);
+    (fg.d3Force as unknown as (n: string, f: unknown) => unknown)("collide", collide);
+
+    fg.d3ReheatSimulation?.();
   }, [filteredGraph, mode]);
 
   // No perpetual reheat. The simulation settles and stays still so the click
@@ -328,12 +336,30 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1, 
         }}
         onNodeClick={(node) => onSelect(node as unknown as GraphNode)}
         onBackgroundClick={() => onSelect(null)}
+        onEngineStop={() => {
+          // Fit the camera only once the simulation has actually cooled,
+          // so we always frame the settled layout (no more tight-vs-sparse
+          // race condition).
+          const fg = fgRef.current as { zoomToFit?: (ms: number, padding: number) => void } | null;
+          fg?.zoomToFit?.(700, 80);
+        }}
         enableNodeDrag={true}
-        cooldownTicks={400}
-        d3AlphaDecay={0.025}
-        d3VelocityDecay={0.5}
-        d3AlphaMin={0.01}
-        warmupTicks={140}
+        cooldownTicks={600}
+        d3AlphaDecay={0.018}
+        d3VelocityDecay={0.45}
+        d3AlphaMin={0.005}
+        warmupTicks={200}
+        linkLineDash={(l) => {
+          const link = l as GraphLink;
+          if (link.kind === "contrasted") return [4, 4];
+          return null;
+        }}
+        linkDirectionalArrowLength={(l) => {
+          const link = l as GraphLink;
+          return link.kind === "prereq" ? 4.5 : 0;
+        }}
+        linkDirectionalArrowRelPos={0.85}
+        linkDirectionalArrowColor={() => palette.linkActive}
       />
     </div>
   );

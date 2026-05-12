@@ -201,6 +201,9 @@ function buildGraph(concepts: Concept[], people: Person[], metadata: EpisodeMeta
     for (const r of c.prerequisites ?? []) {
       if (r !== c.id) links.push({ source: `concept:${c.id}`, target: `concept:${r}`, kind: "prereq" });
     }
+    for (const r of c.contrastedWith ?? []) {
+      if (r !== c.id) links.push({ source: `concept:${c.id}`, target: `concept:${r}`, kind: "contrasted" });
+    }
   }
   // Episode → person (from per-episode metadata)
   for (const m of metadata) {
