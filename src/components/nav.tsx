@@ -4,8 +4,8 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const links = [
+  { href: "/", label: "Graph" },
   { href: "/conversations", label: "Conversations" },
-  { href: "/episodes", label: "Episodes" },
   { href: "/about", label: "About" },
   { href: "/settings", label: "Settings" },
 ];
@@ -20,7 +20,10 @@ export function Nav() {
         </Link>
         <nav className="flex items-center gap-1 sm:gap-1.5 text-sm">
           {links.map((l) => {
-            const active = pathname === l.href || pathname?.startsWith(l.href + "/");
+            // Exact match for "/" so it does not light up on every page.
+            const active = l.href === "/"
+              ? pathname === "/"
+              : pathname === l.href || pathname?.startsWith(l.href + "/");
             return (
               <Link
                 key={l.href}
