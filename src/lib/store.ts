@@ -112,6 +112,13 @@ export const useChatThreads = create<ChatThreadsState>()(
   ),
 );
 
+// Stable empty-array reference so the useThread selector returns the same
+// value across renders when the thread doesn't exist yet. Returning a fresh
+// `[]` each call makes useSyncExternalStore think the snapshot changed and
+// triggers an infinite render loop (Next.js prints the "getServerSnapshot
+// should be cached" warning).
+const EMPTY_THREAD: readonly ChatMessage[] = Object.freeze([]);
+
 /**
  * Hook that scopes the threaded chat store to a single topic key. Returns
  * the same interface as the old useChat() store so callers only need to
@@ -121,7 +128,9 @@ export const useChatThreads = create<ChatThreadsState>()(
  * the hook returns an inert empty thread without persisting noise.
  */
 export function useThread(key: string | null) {
-  const messages = useChatThreads((s) => (key ? s.threads[key] ?? [] : []));
+  const messages = useChatThreads((s) =>
+    key ? s.threads[key] ?? (EMPTY_THREAD as ChatMessage[]) : (EMPTY_THREAD as ChatMessage[]),
+  );
   const isStreaming = useChatThreads((s) => s.isStreaming);
   const setStreaming = useChatThreads((s) => s.setStreaming);
   const appendTo = useChatThreads((s) => s.appendTo);
