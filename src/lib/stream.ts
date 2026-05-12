@@ -49,8 +49,14 @@ export async function streamText(opts: StreamOpts): Promise<string> {
     signal,
   } = opts;
 
+  // Anthropic's Messages API requires the conversation to start with a user
+  // message. Drop any leading assistant turns (e.g., a seeded module opener
+  // shown in the UI) so the API doesn't reject the request with a generic
+  // "Connection error". We keep them in the UI; they just don't get sent.
+  const firstUser = messages.findIndex((m) => m.role === "user");
+  const trimmed = firstUser >= 0 ? messages.slice(firstUser) : messages;
   // We mutate this working copy as tool rounds add more turns.
-  const working: ChatTurnMessage[] = messages.map((m) => ({ ...m }));
+  const working: ChatTurnMessage[] = trimmed.map((m) => ({ ...m }));
   let finalText = "";
 
   for (let iter = 0; iter < maxIterations; iter++) {
