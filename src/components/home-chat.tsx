@@ -30,6 +30,7 @@ interface Props {
   onClearSelected: () => void;
   collapsed: boolean;
   onToggleCollapsed: () => void;
+  onIsolate?: (conceptId: string) => void;
 }
 
 const STARTER_PROMPTS = [
@@ -48,6 +49,7 @@ export function HomeChat({
   onClearSelected,
   collapsed,
   onToggleCollapsed,
+  onIsolate,
 }: Props) {
   const { provider, activeKey, activeModel, hasKey } = useSettings();
   const { messages, append, setLastContent, patchLast, isStreaming, setStreaming, reset } = useChat();
@@ -400,6 +402,7 @@ export function HomeChat({
               course={selectedCourse}
               loading={loadingCourseId === selectedCourse.id}
               onBegin={() => beginConversation(selectedCourse)}
+              onIsolate={onIsolate ? () => onIsolate(selectedConcept.id) : undefined}
             />
           ) : selectedConcept ? (
             <NodeIntro
@@ -408,6 +411,7 @@ export function HomeChat({
               tag={formatClusterLabel(selectedConcept.cluster)}
               description={selectedConcept.definition}
               href={`/concept/${selectedConcept.id}`}
+              onIsolate={onIsolate ? () => onIsolate(selectedConcept.id) : undefined}
             />
           ) : selectedPerson ? (
             <NodeIntro
@@ -504,6 +508,7 @@ function NodeIntro({
   description,
   extra,
   href,
+  onIsolate,
 }: {
   kind: "concept" | "person";
   name: string;
@@ -511,6 +516,7 @@ function NodeIntro({
   description: string;
   extra?: string;
   href: string;
+  onIsolate?: () => void;
 }) {
   const kindLabel = kind === "concept" ? "Concept" : "Thinker";
   const cardLabel = kind === "concept" ? "Open the concept card →" : "Open the thinker card →";
@@ -535,12 +541,20 @@ function NodeIntro({
             {extra}
           </p>
         )}
-        <Link
-          href={href}
-          className="inline-block mt-2 text-[11px] text-[var(--muted)] hover:text-[var(--accent)]"
-        >
-          {cardLabel}
-        </Link>
+        <div className="mt-2 flex items-center gap-3 text-[11px]">
+          <Link href={href} className="text-[var(--muted)] hover:text-[var(--accent)]">
+            {cardLabel}
+          </Link>
+          {onIsolate && (
+            <button
+              onClick={onIsolate}
+              className="text-[var(--accent)] hover:underline"
+              title="Show this concept's full dependency structure on the graph"
+            >
+              Isolate on graph →
+            </button>
+          )}
+        </div>
       </div>
 
       <p className="text-[11px] text-[var(--muted)] leading-relaxed">
@@ -555,11 +569,13 @@ function ConversationOffer({
   course,
   loading,
   onBegin,
+  onIsolate,
 }: {
   concept: Concept;
   course: CourseSummary;
   loading: boolean;
   onBegin: () => void;
+  onIsolate?: () => void;
 }) {
   return (
     <div className="space-y-4">
@@ -573,12 +589,23 @@ function ConversationOffer({
         <p className="text-[13px] text-[var(--ink-soft)] mt-1.5 leading-relaxed">
           {concept.definition}
         </p>
-        <Link
-          href={`/concept/${concept.id}`}
-          className="inline-block mt-2 text-[11px] text-[var(--muted)] hover:text-[var(--accent)]"
-        >
-          Open the concept card →
-        </Link>
+        <div className="mt-2 flex items-center gap-3 text-[11px]">
+          <Link
+            href={`/concept/${concept.id}`}
+            className="text-[var(--muted)] hover:text-[var(--accent)]"
+          >
+            Open the concept card →
+          </Link>
+          {onIsolate && (
+            <button
+              onClick={onIsolate}
+              className="text-[var(--accent)] hover:underline"
+              title="Show this concept's full dependency structure on the graph"
+            >
+              Isolate on graph →
+            </button>
+          )}
+        </div>
       </div>
 
       <div className="rounded-md border border-[var(--accent)]/30 bg-[var(--accent-tint)] p-3.5">

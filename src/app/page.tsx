@@ -18,6 +18,10 @@ export default function Home() {
   const [hoverLabel, setHoverLabel] = useState<string | null>(null);
   const [mode, setMode] = useState<GraphMode>("concepts");
   const [chatCollapsed, setChatCollapsed] = useState(false);
+  // When set, the graph swaps to an "isolate" layout focused on this concept:
+  // its full transitive prerequisite chain on the left, contrasts on the
+  // right, related concepts below.
+  const [isolatedId, setIsolatedId] = useState<string | null>(null);
 
   const MIN_DEGREE = 2;
 
@@ -29,7 +33,10 @@ export default function Home() {
     );
   }, []);
 
-  useEffect(() => { setSelected(null); }, [mode]);
+  useEffect(() => {
+    setSelected(null);
+    setIsolatedId(null);
+  }, [mode]);
 
   function handleSearchSelect(node: GraphNode) {
     setSelected(node);
@@ -75,12 +82,36 @@ export default function Home() {
                 selectedId={selected?.id ?? null}
                 minDegree={MIN_DEGREE}
                 onHoverLabel={setHoverLabel}
+                isolatedId={isolatedId}
               />
-              {hoverLabel && (
+              {isolatedId && (
+                <div className="absolute top-4 left-1/2 -translate-x-1/2 z-20 flex items-center gap-4 px-5 py-2.5 rounded-full bg-[var(--ink)] text-[var(--bg)] text-sm shadow-lg whitespace-nowrap max-w-[calc(100%-32px)]">
+                  <span className="text-[10px] uppercase tracking-[0.16em] opacity-60 shrink-0">
+                    Isolated
+                  </span>
+                  <span className="font-medium truncate">
+                    {concepts.find((c) => `concept:${c.id}` === isolatedId)?.canonicalName ?? "concept"}
+                  </span>
+                  <button
+                    onClick={() => setIsolatedId(null)}
+                    className="shrink-0 text-xs opacity-70 hover:opacity-100 underline-offset-2 hover:underline"
+                    aria-label="Exit isolation"
+                  >
+                    Exit ✕
+                  </button>
+                </div>
+              )}
+              {hoverLabel && !isolatedId && (
                 <div className="absolute top-6 left-1/2 -translate-x-1/2 z-10 pointer-events-none">
                   <div className="px-4 py-2 rounded-full bg-[var(--ink)] text-[var(--bg)] text-sm font-medium shadow-lg whitespace-nowrap">
                     {hoverLabel}
                   </div>
+                </div>
+              )}
+              {isolatedId && (
+                <div className="absolute inset-x-0 top-16 z-10 pointer-events-none flex justify-between px-12 text-[10px] uppercase tracking-[0.18em] text-[var(--muted)]">
+                  <span>← Prerequisites</span>
+                  <span>Contrasted →</span>
                 </div>
               )}
             </>
@@ -100,6 +131,7 @@ export default function Home() {
           onClearSelected={() => setSelected(null)}
           collapsed={chatCollapsed}
           onToggleCollapsed={() => setChatCollapsed((v) => !v)}
+          onIsolate={(conceptId) => setIsolatedId(`concept:${conceptId}`)}
         />
       </div>
     </div>
