@@ -71,7 +71,7 @@ export const OPENROUTER_MODEL_DETAILS: ModelDetails[] = [
     speedLabel: "Moderate",
     capabilities: { code: 5, toolCalls: 5, reasoning: 5 },
     description: "Highest capability ceiling. Notably slower and more expensive than Sonnet. Worth it for hard reasoning, long Conversation sessions where you want the agent to track many threads, or when you want richer responses to ambiguous philosophical prompts.",
-    recommendedFor: "Deepest reasoning",
+    recommendedFor: "Deepest",
   },
   {
     id: "openai/gpt-5",

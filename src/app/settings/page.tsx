@@ -167,7 +167,7 @@ export default function SettingsPage() {
             <p className="text-sm text-[var(--ink-soft)] mb-2">
               Choose which model Sage uses through OpenRouter. The cost-per-turn is an estimate based on a typical Conversation turn (about 5,000 input tokens and 1,000 output tokens). Prices and speeds shown are best-effort estimates; check <a className="lnk" href="https://openrouter.ai/models" target="_blank" rel="noreferrer">openrouter.ai/models</a> for the current numbers.
             </p>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-5">
+            <div className="flex flex-col gap-2 mt-5">
               {OPENROUTER_MODEL_DETAILS.map((m) => (
                 <ModelCard
                   key={m.id}

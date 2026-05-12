@@ -1,11 +1,6 @@
 "use client";
 
-import {
-  type ModelDetails,
-  COMPARISON_BASELINE_ID,
-  estimateCostPerTurn,
-  OPENROUTER_MODEL_DETAILS,
-} from "@/lib/anthropic";
+import { type ModelDetails, estimateCostPerTurn } from "@/lib/anthropic";
 
 interface Props {
   model: ModelDetails;
@@ -14,91 +9,86 @@ interface Props {
 }
 
 export function ModelCard({ model, active, onSelect }: Props) {
-  const baseline = OPENROUTER_MODEL_DETAILS.find((m) => m.id === COMPARISON_BASELINE_ID);
-  const ratio = baseline ? compareCost(model, baseline) : null;
   const costPerTurn = estimateCostPerTurn(model);
   return (
     <button
       onClick={onSelect}
-      className={`text-left w-full rounded-xl border p-5 transition-colors ${
+      className={`w-full text-left rounded-lg border px-4 py-2.5 transition-colors ${
         active
-          ? "border-[var(--accent)] bg-[var(--accent-tint)] shadow-sm"
-          : "border-[var(--border)] bg-[var(--surface)] hover:bg-[var(--elev)] hover:border-[var(--accent)]/40"
+          ? "border-[var(--accent)] bg-[var(--accent-tint)]"
+          : "border-[var(--border)] bg-[var(--surface)] hover:border-[var(--accent)]/40 hover:bg-[var(--elev)]"
       }`}
     >
-      <header className="flex items-start justify-between gap-3 mb-3">
-        <div className="min-w-0">
-          <h3 className="text-base font-medium text-[var(--ink)] leading-tight">{model.name}</h3>
-          <div className="text-xs text-[var(--muted)] mt-0.5">{model.vendor}</div>
+      <div className="flex items-center gap-4">
+        {/* Name + vendor: fixed minimum width so it can't be squeezed */}
+        <div className="min-w-[180px] max-w-[220px] flex-shrink-0">
+          <div className="text-sm font-medium text-[var(--ink)] truncate leading-tight">{model.name}</div>
+          <div className="text-[11px] text-[var(--muted)] truncate">{model.vendor}</div>
         </div>
-        {active ? (
-          <span className="shrink-0 text-[10px] uppercase tracking-wider px-2 py-0.5 rounded-full bg-[var(--accent)] text-white font-medium">
-            Active
-          </span>
-        ) : model.recommendedFor ? (
-          <span className="shrink-0 text-[10px] uppercase tracking-wider px-2 py-0.5 rounded-full border border-[var(--accent)]/50 text-[var(--accent)]">
-            {model.recommendedFor}
-          </span>
-        ) : null}
-      </header>
 
-      <div className="inline-flex items-center px-2.5 py-1 rounded-md border border-[var(--border)] bg-[var(--bg-tinted)] mono text-xs mb-4">
-        <span className="text-[var(--ink)] font-medium">${costPerTurn.toFixed(3)}</span>
-        <span className="text-[var(--muted)] ml-1">/ turn (est.)</span>
+        {/* Stats strip: just the headline numbers. I/O prices live in the
+            description row below where there's more room. */}
+        <div className="flex items-center gap-3 text-[11px] mono flex-1 min-w-0 overflow-hidden whitespace-nowrap text-[var(--ink-soft)]">
+          <span><span className="text-[var(--ink)] font-medium">${costPerTurn.toFixed(3)}</span><span className="text-[var(--muted)]">/turn</span></span>
+          <span className="text-[var(--muted)]">·</span>
+          <span>{model.contextLabel}</span>
+          <span className="text-[var(--muted)]">·</span>
+          <span>{model.speedLabel}</span>
+        </div>
+
+        {/* Capability dots: fixed width, never wraps */}
+        <div className="flex items-center gap-3 text-[11px] flex-shrink-0">
+          <Cap label="code" filled={model.capabilities.code} />
+          <Cap label="tools" filled={model.capabilities.toolCalls} />
+          <Cap label="reason" filled={model.capabilities.reasoning} />
+        </div>
+
+        {/* Badge slot: reserved width so all rows align */}
+        <div className="w-[88px] flex-shrink-0 flex justify-end">
+          {active ? (
+            <span className="text-[10px] uppercase tracking-wider px-2 py-0.5 rounded-full bg-[var(--accent)] text-white font-medium">
+              Active
+            </span>
+          ) : model.recommendedFor ? (
+            <span className="text-[10px] uppercase tracking-wider px-2 py-0.5 rounded-full border border-[var(--accent)]/50 text-[var(--accent)] whitespace-nowrap">
+              {model.recommendedFor}
+            </span>
+          ) : null}
+        </div>
       </div>
 
-      <div className="grid grid-cols-2 gap-x-5 gap-y-3 text-xs">
-        <Stat label="Input" value={`$${model.inputPerM.toFixed(2)}/M`} />
-        <Stat label="Output" value={`$${model.outputPerM.toFixed(2)}/M`} />
-        <Stat label="Context" value={model.contextLabel} />
-        <Stat label="Speed" value={model.speedLabel} />
-        <Stat label="Code" value={<Dots filled={model.capabilities.code} />} />
-        <Stat label="Tool calls" value={<Dots filled={model.capabilities.toolCalls} />} />
-        <Stat label="Reasoning" value={<Dots filled={model.capabilities.reasoning} />} />
-        {ratio && (
-          <Stat label="vs Sonnet 4.6" value={ratio} />
-        )}
+      {/* Description row: include the I/O prices as a mono prefix so they're
+          available without dominating the headline. */}
+      <div className="flex items-baseline gap-3 mt-1.5 ml-[196px]">
+        <span className="text-[11px] mono text-[var(--muted)] whitespace-nowrap shrink-0">
+          ${formatPrice(model.inputPerM)} <span className="opacity-70">in</span> · ${formatPrice(model.outputPerM)} <span className="opacity-70">out</span> /M
+        </span>
+        <p className="text-[12px] text-[var(--ink-soft)] italic leading-snug">
+          {model.description}
+        </p>
       </div>
-
-      <p className="text-[13px] text-[var(--ink-soft)] leading-relaxed mt-4 italic">
-        {model.description}
-      </p>
     </button>
   );
 }
 
-function Stat({ label, value }: { label: string; value: React.ReactNode }) {
-  return (
-    <div>
-      <div className="text-[10px] uppercase tracking-[0.12em] text-[var(--muted)] mb-0.5">{label}</div>
-      <div className="text-[13px] text-[var(--ink)] font-medium">{value}</div>
-    </div>
-  );
+function formatPrice(n: number): string {
+  return n >= 10 ? n.toFixed(0) : n < 1 ? n.toFixed(2).replace(/\.?0+$/, "") || "0" : n.toFixed(1).replace(/\.0$/, "");
 }
 
-function Dots({ filled, total = 5 }: { filled: number; total?: number }) {
+function Cap({ label, filled, total = 5 }: { label: string; filled: number; total?: number }) {
   return (
-    <span className="inline-flex items-center gap-0.5" aria-label={`${filled} out of ${total}`}>
-      {Array.from({ length: total }, (_, i) => (
-        <span
-          key={i}
-          className={`inline-block w-2 h-2 rounded-full ${
-            i < filled ? "bg-[var(--ink)]" : "border border-[var(--ink)]/30"
-          }`}
-        />
-      ))}
+    <span className="inline-flex items-center gap-1 whitespace-nowrap">
+      <span className="text-[10px] uppercase tracking-wider text-[var(--muted)]">{label}</span>
+      <span className="inline-flex items-center gap-[2px]" aria-label={`${filled} out of ${total}`}>
+        {Array.from({ length: total }, (_, i) => (
+          <span
+            key={i}
+            className={`inline-block w-[5px] h-[5px] rounded-full ${
+              i < filled ? "bg-[var(--ink)]" : "border border-[var(--ink)]/30"
+            }`}
+          />
+        ))}
+      </span>
     </span>
   );
-}
-
-function compareCost(model: ModelDetails, baseline: ModelDetails): string {
-  const mCost = estimateCostPerTurn(model);
-  const bCost = estimateCostPerTurn(baseline);
-  if (Math.abs(mCost - bCost) < 0.0001) return "Same";
-  if (mCost < bCost) {
-    const ratio = bCost / mCost;
-    return `${ratio.toFixed(1)}× cheaper`;
-  }
-  const ratio = mCost / bCost;
-  return `${ratio.toFixed(1)}× pricier`;
 }
