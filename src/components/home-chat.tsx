@@ -73,6 +73,17 @@ export function HomeChat({
     }
   }, []);
 
+  // Re-clamp if the browser window resizes (otherwise a saved wide chat
+  // overflows on a now-narrow window and content is clipped off-screen).
+  useEffect(() => {
+    function onWindowResize() {
+      const max = Math.min(MAX_WIDTH, window.innerWidth - 200);
+      setChatWidth((w) => Math.max(MIN_WIDTH, Math.min(max, w)));
+    }
+    window.addEventListener("resize", onWindowResize);
+    return () => window.removeEventListener("resize", onWindowResize);
+  }, []);
+
   // Persist width after it changes.
   useEffect(() => {
     if (typeof window === "undefined") return;

@@ -36,7 +36,10 @@ export default function Home() {
   }
 
   return (
-    <div className="flex-1 flex flex-col h-[calc(100dvh_-_56px)] overflow-hidden">
+    <div
+      className="flex flex-col overflow-hidden"
+      style={{ height: "calc(100dvh - 56px)" }}
+    >
       {/* Sub-bar below nav: filter pills, search, legend */}
       <div className="relative z-40 border-b border-[var(--border-soft)] bg-[var(--bg)]/85 backdrop-blur px-4 py-2 flex items-center gap-4 flex-wrap">
         <div className="flex items-center gap-1 px-1 py-1 rounded-full border border-[var(--border)] bg-[var(--surface)] shrink-0">
@@ -61,8 +64,8 @@ export default function Home() {
       </div>
 
       {/* Main: graph + chat */}
-      <div className="flex-1 flex overflow-hidden">
-        <div className="flex-1 relative">
+      <div className="flex-1 flex overflow-hidden min-w-0 min-h-0">
+        <div className="flex-1 min-w-0 relative">
           {graph ? (
             <>
               <GraphCanvas
