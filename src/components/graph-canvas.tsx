@@ -409,15 +409,16 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1, 
     const charge = fg.d3Force("charge") as Force | null;
     // In isolate view every node has fx/fy, so we want forces silent (the
     // pinned positions are the layout). Outside isolate, use the usual
-    // exploration forces.
-    charge?.strength?.(isolatedId ? 0 : isConceptsMode ? -180 : -110);
+    // exploration forces. Stronger repulsion + longer link distance in
+    // concepts mode gives the layout more breathing room.
+    charge?.strength?.(isolatedId ? 0 : isConceptsMode ? -280 : -140);
     const link = fg.d3Force("link") as Force | null;
-    link?.distance?.(isolatedId ? 0 : isConceptsMode ? 75 : 60);
+    link?.distance?.(isolatedId ? 0 : isConceptsMode ? 105 : 75);
 
     const collide = forceCollide<RenderNode>()
       .radius((node) => {
         const r = (node.kind === "person" ? 5 : 6) + Math.min(5, (node.count ?? 1) * 0.6);
-        return r + 5;
+        return r + 9;
       })
       .strength(isolatedId ? 0 : 0.95)
       .iterations(2);

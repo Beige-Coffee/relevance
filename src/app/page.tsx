@@ -23,7 +23,10 @@ export default function Home() {
   // right, related concepts below.
   const [isolatedId, setIsolatedId] = useState<string | null>(null);
 
-  const MIN_DEGREE = 2;
+  // Hide the long-tail of weakly-connected concepts so the layout
+  // breathes; nodes with edge degree below this threshold are dropped
+  // before the force simulation runs.
+  const MIN_DEGREE = 7;
 
   useEffect(() => {
     Promise.all([getGraph(), getEpisodes(), getConcepts(), getPeople(), getCourses()]).then(
