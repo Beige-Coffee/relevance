@@ -136,7 +136,7 @@ export default function DialoguePage() {
                 </div>
               ) : (
                 <article className="rounded-lg">
-                  <div className="text-xs uppercase tracking-wider text-[var(--muted)] mb-2">Sage</div>
+                  <div className="text-xs uppercase tracking-wider text-[var(--muted)] mb-2">Dialogue</div>
                   {m.toolEvents && m.toolEvents.length > 0 && <ToolTrace events={m.toolEvents} />}
                   {m.content ? (
                     <RenderedText text={m.content} />

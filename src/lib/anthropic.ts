@@ -58,7 +58,7 @@ export const OPENROUTER_MODEL_DETAILS: ModelDetails[] = [
     contextLabel: "200K",
     speedLabel: "Fast",
     capabilities: { code: 5, toolCalls: 5, reasoning: 5 },
-    description: "The default workhorse for Sage. Best instruction-following of the lot, excellent at corpus-grounded synthesis, very reliable about citing episodes inline. Start here.",
+    description: "The default workhorse. Best instruction-following of the lot, excellent at corpus-grounded synthesis, very reliable about citing episodes inline. Start here.",
     recommendedFor: "Recommended default",
   },
   {

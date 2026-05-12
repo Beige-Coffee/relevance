@@ -134,7 +134,7 @@ export default function SettingsPage() {
         {provider === "anthropic" ? (
           <>
             <p className="text-sm text-[var(--ink-soft)] mb-4">
-              Which Claude model Sage uses for Dialogue and Ask.
+              Which Claude model the dialogue uses for the chat and the Ask page.
             </p>
             <div className="space-y-2">
               {ANTHROPIC_MODELS.map((m) => (
@@ -165,7 +165,7 @@ export default function SettingsPage() {
         ) : (
           <>
             <p className="text-sm text-[var(--ink-soft)] mb-2">
-              Choose which model Sage uses through OpenRouter. The cost-per-turn is an estimate based on a typical Conversation turn (about 5,000 input tokens and 1,000 output tokens). Prices and speeds shown are best-effort estimates; check <a className="lnk" href="https://openrouter.ai/models" target="_blank" rel="noreferrer">openrouter.ai/models</a> for the current numbers.
+              Choose which model the dialogue uses through OpenRouter. The cost-per-turn is an estimate based on a typical Conversation turn (about 5,000 input tokens and 1,000 output tokens). Prices and speeds shown are best-effort estimates; check <a className="lnk" href="https://openrouter.ai/models" target="_blank" rel="noreferrer">openrouter.ai/models</a> for the current numbers.
             </p>
             <div className="flex flex-col gap-2 mt-5">
               {OPENROUTER_MODEL_DETAILS.map((m) => (
@@ -179,7 +179,7 @@ export default function SettingsPage() {
             </div>
 
             <div className="mt-6 rounded-md border border-[var(--border)] bg-[var(--bg-tinted)] p-4 text-sm text-[var(--ink-soft)] leading-relaxed">
-              <strong className="text-[var(--ink)] font-medium">What we recommend.</strong> For most users, Claude Sonnet 4.6 is the right default: Sage holds Socratic rhythm well, citations stay clean, and the cost is reasonable. If you want the cheapest reliable option, Gemini 2.5 Pro is roughly a third the cost and almost as capable on this corpus. Save Opus for longer sessions where you want richer multi-thread reasoning, and pick Llama if you just want to poke around for free-ish.
+              <strong className="text-[var(--ink)] font-medium">What we recommend.</strong> For most users, Claude Sonnet 4.6 is the right default: it holds Socratic rhythm well, citations stay clean, and the cost is reasonable. If you want the cheapest reliable option, Gemini 2.5 Pro is roughly a third the cost and almost as capable on this corpus. Save Opus for longer sessions where you want richer multi-thread reasoning, and pick Llama if you just want to poke around for free-ish.
             </div>
           </>
         )}

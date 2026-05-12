@@ -530,7 +530,7 @@ function ChatThread({ seed, anchor, onBack }: { seed: string; anchor: string; on
               </div>
             ) : (
               <div className="">
-                <div className="text-[10px] uppercase tracking-wider text-[var(--muted)] mb-1.5">Sage</div>
+                <div className="text-[10px] uppercase tracking-wider text-[var(--muted)] mb-1.5">Dialogue</div>
                 {m.toolEvents && m.toolEvents.length > 0 && <ToolTrace events={m.toolEvents} />}
                 {m.content ? (
                   <RenderedText text={m.content} />

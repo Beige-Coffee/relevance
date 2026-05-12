@@ -72,7 +72,7 @@ export function HomeChat({
     if (!text.trim()) return;
     const key = activeKey();
     if (!key) {
-      setError("Add an API key on the Settings page to chat with Sage.");
+      setError("Add an API key on the Settings page to start the dialogue.");
       return;
     }
     setError(null);
@@ -148,7 +148,7 @@ export function HomeChat({
           ‹
         </button>
         <div className="mt-3 vertical-text text-[10px] uppercase tracking-[0.18em] text-[var(--muted)]" style={{ writingMode: "vertical-rl", transform: "rotate(180deg)" }}>
-          Sage
+          Dialogue
         </div>
       </aside>
     );
@@ -166,7 +166,7 @@ export function HomeChat({
           >
             ›
           </button>
-          <span className="text-[11px] uppercase tracking-[0.16em] text-[var(--muted)]">Sage</span>
+          <span className="text-[11px] uppercase tracking-[0.16em] text-[var(--muted)]">Dialogue</span>
         </div>
         {messages.length > 0 && (
           <button
@@ -254,12 +254,12 @@ export function HomeChat({
           }}
           placeholder={
             isStreaming
-              ? "Sage is thinking..."
+              ? "Thinking..."
               : selectedConcept
                 ? `Ask about ${selectedConcept.canonicalName}...`
                 : selectedPerson
                   ? `Ask about ${selectedPerson.canonicalName}...`
-                  : "Ask Sage anything..."
+                  : "Ask anything..."
           }
           rows={1}
           disabled={isStreaming}
@@ -281,9 +281,9 @@ function EmptyState({ onStarter, canChat }: { onStarter: (s: string) => void; ca
   return (
     <div className="space-y-4">
       <div>
-        <p className="serif text-base text-[var(--ink)] leading-snug">Hi, I&rsquo;m Sage.</p>
+        <p className="serif text-base text-[var(--ink)] leading-snug">Welcome.</p>
         <p className="text-sm text-[var(--ink-soft)] mt-1.5 leading-relaxed">
-          Ask me anything about Vervaeke&rsquo;s lecture series, or click a node on the graph to explore that idea together.
+          Ask anything about Vervaeke&rsquo;s lecture series, or click a node on the graph to explore that idea together. The dialogue is grounded in the actual transcripts and will cite episodes inline.
         </p>
       </div>
       {!canChat ? (

@@ -147,7 +147,7 @@ function ModuleChat({
     if (!text.trim()) return;
     const key = activeKey();
     if (!key) {
-      setError("Add an API key on the Settings page to chat with Sage.");
+      setError("Add an API key on the Settings page to start the dialogue.");
       return;
     }
     setError(null);
@@ -251,7 +251,7 @@ function ModuleChat({
                 </div>
               ) : (
                 <div>
-                  <div className="text-[10px] uppercase tracking-wider text-[var(--muted)] mb-1.5">Sage</div>
+                  <div className="text-[10px] uppercase tracking-wider text-[var(--muted)] mb-1.5">Dialogue</div>
                   {m.toolEvents && m.toolEvents.length > 0 && <ToolTrace events={m.toolEvents} />}
                   {m.content ? (
                     <RenderedText text={m.content} />
@@ -287,7 +287,7 @@ function ModuleChat({
                 if (!isStreaming) send(input);
               }
             }}
-            placeholder={isStreaming ? "Sage is thinking..." : "Reply to Sage..."}
+            placeholder={isStreaming ? "Thinking..." : "Reply..."}
             rows={1}
             disabled={isStreaming}
             className="flex-1 px-3 py-2 rounded-md border border-[var(--border)] bg-[var(--bg)] text-[var(--ink)] placeholder:text-[var(--muted)] focus:outline-none focus:border-[var(--accent)] resize-none text-sm"
