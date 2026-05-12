@@ -1,0 +1,5431 @@
+[
+  {
+    "name": "anagoge",
+    "episodes": [
+      3,
+      5,
+      12,
+      13,
+      15,
+      17,
+      18,
+      33,
+      34,
+      35
+    ],
+    "treatments": {
+      "introduced": 1,
+      "developed": 4,
+      "applied": 3,
+      "referenced": 2
+    },
+    "summaries": [
+      {
+        "ep": 3,
+        "text": "Upward ascent from illusion to reality, from everyday world to the real world."
+      },
+      {
+        "ep": 5,
+        "text": "Upward ascent from illusion to enlightenment through progressive self-transformation."
+      },
+      {
+        "ep": 12,
+        "text": "The upward transformative movement toward what is more real, enabled by de-centering and perspective shift."
+      },
+      {
+        "ep": 13,
+        "text": "The countermovement to parasitic processing—reciprocal opening toward greater integration, freedom, and authentic being."
+      },
+      {
+        "ep": 15,
+        "text": "The upward movement toward what is more real, pursued through both Stoic wisdom and Christian agape."
+      },
+      {
+        "ep": 17,
+        "text": "The upward transformative movement toward what is more real, enacted through ritual and participatory knowing."
+      },
+      {
+        "ep": 18,
+        "text": "Upward transformative movement through levels of reality toward The One, where Agent and Arena are simultaneously transformed."
+      },
+      {
+        "ep": 33,
+        "text": "Spiritual elevation and transformation; relates to sensibility transcendence in experiencing sacredness."
+      },
+      {
+        "ep": 34,
+        "text": "Resonance between symbolic engagement and world-disclosure; each deepening opens the other in spiral of transformation."
+      },
+      {
+        "ep": 35,
+        "text": "Spiral of deepening integration and world-disclosure; symbol-mediated transformation of both self and world."
+      }
+    ],
+    "count": 10
+  },
+  {
+    "name": "relevance realization",
+    "episodes": [
+      2,
+      4,
+      10,
+      18,
+      27,
+      28,
+      29,
+      30,
+      40,
+      43
+    ],
+    "treatments": {
+      "referenced": 2,
+      "developed": 7,
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 2,
+        "text": "Capacity to determine what is salient and important in a given situation."
+      },
+      {
+        "ep": 4,
+        "text": "How the mind determines what is salient and important in a situation."
+      },
+      {
+        "ep": 10,
+        "text": "Core function of consciousness is to determine what information is relevant from the vast available data, both from the environment and from memory."
+      },
+      {
+        "ep": 18,
+        "text": "Simultaneous making real of higher levels of reality and becoming more real—actualization both objective and subjective."
+      },
+      {
+        "ep": 27,
+        "text": "The core mechanism of intelligence: the capacity to zero in on relevant information within a combinatorially explosive problem space, making things obvious and salient."
+      },
+      {
+        "ep": 28,
+        "text": "The unified cognitive capacity to zero in on relevant information across all domains of cognition, making salient what matters and obvious what to do."
+      },
+      {
+        "ep": 29,
+        "text": "The fundamental cognitive capacity to zero in on what matters; must be explained through non-intelligent processes that don't themselves presuppose relevance."
+      },
+      {
+        "ep": 30,
+        "text": "Established as a non-representational, self-organizing process distinct from relevance-detection; understood as evolution of cognitive-interactional fitness."
+      },
+      {
+        "ep": 40,
+        "text": "Central cognitive ability to identify what matters in a situation. Underlying significance grasping that distinguishes interpretive knowledge from mere descriptive knowledge."
+      },
+      {
+        "ep": 43,
+        "text": "Central coordinating mechanism for virtue. Determines: which virtue is relevant here? How does this virtue apply in this specific context? Which virtue takes priority in conflicts? Essential to wisdom."
+      }
+    ],
+    "count": 10
+  },
+  {
+    "name": "wisdom",
+    "episodes": [
+      0,
+      1,
+      4,
+      5,
+      6,
+      10,
+      12,
+      38
+    ],
+    "treatments": {
+      "introduced": 2,
+      "developed": 5,
+      "applied": 1
+    },
+    "summaries": [
+      {
+        "ep": 0,
+        "text": "A central concern of the series, to be understood through history, psychology, and cognitive science."
+      },
+      {
+        "ep": 1,
+        "text": "Central human capacity for understanding meaning and reality, cultivated through shamanic and ritual practice."
+      },
+      {
+        "ep": 4,
+        "text": "Integration of self-knowledge, alignment of salience with truth, and cultivated love of what matters."
+      },
+      {
+        "ep": 5,
+        "text": "Internal justice achieved through teaching reason, training spirit, and taming appetite."
+      },
+      {
+        "ep": 6,
+        "text": "Capacity to cultivate character and virtues realizing one's potential as a rational being."
+      },
+      {
+        "ep": 10,
+        "text": "Described as systematic insight that transforms entire salience landscapes rather than solving isolated problems, protecting against systematic illusions."
+      },
+      {
+        "ep": 12,
+        "text": "The ability to maintain balance between trustworthiness and power in explanations, between convergence and elegance in meaning."
+      },
+      {
+        "ep": 38,
+        "text": "Excellence in cognitive coping-caring; systematic capacity to address self-deception and respond to perennial problems."
+      }
+    ],
+    "count": 8
+  },
+  {
+    "name": "agape",
+    "episodes": [
+      11,
+      15,
+      16,
+      19,
+      38,
+      44,
+      45
+    ],
+    "treatments": {
+      "referenced": 2,
+      "developed": 4,
+      "applied": 1
+    },
+    "summaries": [
+      {
+        "ep": 11,
+        "text": "The foundational creative love that enables connection and participatory knowing, mentioned as central to higher states."
+      },
+      {
+        "ep": 15,
+        "text": "God-like creative love that constitutes personhood by investing in non-persons, distinct from erotic or friendship love."
+      },
+      {
+        "ep": 16,
+        "text": "God-like creative love that constitutes personhood through sacrificial participation, for-giving before earned."
+      },
+      {
+        "ep": 19,
+        "text": "The creative love integrating all three orders—God's love creates and sustains the nomological world toward normative good in narrative history."
+      },
+      {
+        "ep": 38,
+        "text": "Love for its own sake; caring for conditions of meaning-making as intrinsically valuable and transjective."
+      },
+      {
+        "ep": 44,
+        "text": "Form of love overcoming egocentrism both attitudinally and motivationally. Ardelt connects it to meaning in life beyond morality, enabling wisdom to guide flourishing."
+      },
+      {
+        "ep": 45,
+        "text": "The excellence of sophrosyne; overcomes egocentrism attitudinally through transformative caring orientation toward flourishing of others."
+      }
+    ],
+    "count": 7
+  },
+  {
+    "name": "participatory knowing",
+    "episodes": [
+      5,
+      15,
+      16,
+      19,
+      20,
+      21,
+      29
+    ],
+    "treatments": {
+      "introduced": 1,
+      "applied": 2,
+      "developed": 2,
+      "referenced": 2
+    },
+    "summaries": [
+      {
+        "ep": 5,
+        "text": "Knowledge requiring self-transformation and conformity with what is being known."
+      },
+      {
+        "ep": 15,
+        "text": "Deep knowing through conformity and identification, exemplified in agapic love and martyrdom."
+      },
+      {
+        "ep": 16,
+        "text": "Deep knowing achieved through conformity and transformation with what is known—exemplified in agapic love."
+      },
+      {
+        "ep": 19,
+        "text": "The mode of knowing through conformity and transformation, increasingly lost as reading and knowing become propositional."
+      },
+      {
+        "ep": 20,
+        "text": "The medieval practice of lectio divina exemplifies how meaning was cultivated through participatory engagement; its replacement by silent, consumptive reading signals the loss of transformative encounter with truth."
+      },
+      {
+        "ep": 21,
+        "text": "Luther's reduction of faith to pure acceptance of propositions—divorced from participatory engagement in tradition, ritual, or community—marks the final loss of participatory knowing from spiritual life."
+      },
+      {
+        "ep": 29,
+        "text": "The fundamental agent-arena relationship where organism and environment are mutually fitted to generate affordances."
+      }
+    ],
+    "count": 7
+  },
+  {
+    "name": "gnosis",
+    "episodes": [
+      17,
+      18,
+      24,
+      35,
+      37,
+      48
+    ],
+    "treatments": {
+      "developed": 3,
+      "applied": 1,
+      "referenced": 1,
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 17,
+        "text": "Transformative participatory knowing achieved through ritual psychotechnologies that enable both cognitive flexibility and character transformation."
+      },
+      {
+        "ep": 18,
+        "text": "Direct knowing of The One through participatory being rather than intellectual thought, the culmination of anagogy."
+      },
+      {
+        "ep": 24,
+        "text": "The culmination of history in Hegel's system, where Geist achieves complete self-awareness—a secularized version of mystical knowledge that requires no personal transformation."
+      },
+      {
+        "ep": 35,
+        "text": "Direct intuitive knowing through repeated return and deepening engagement; ongoing transformation without final form."
+      },
+      {
+        "ep": 37,
+        "text": "Direct transformative knowing through ongoing mythos and higher states of consciousness; addresses existential entrapment."
+      },
+      {
+        "ep": 48,
+        "text": "Transformative knowing through participation, not intellectual understanding. Involves witnessing divine manifestation and inner transformation."
+      }
+    ],
+    "count": 6
+  },
+  {
+    "name": "modal confusion",
+    "episodes": [
+      7,
+      8,
+      10,
+      36,
+      44
+    ],
+    "treatments": {
+      "introduced": 3,
+      "developed": 1,
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 7,
+        "text": "Attempting to meet being needs through having mode strategies."
+      },
+      {
+        "ep": 8,
+        "text": "Being trapped in having mode, attempting to meet being needs through having."
+      },
+      {
+        "ep": 10,
+        "text": "The confusion between different existential modes that consciousness helps to illuminate and navigate."
+      },
+      {
+        "ep": 36,
+        "text": "Confusion between being-mode and having-mode; mistaking possession for identity."
+      },
+      {
+        "ep": 44,
+        "text": "Ardelt's critique: conflating theoretical knowledge about wisdom with actual wisdom. Having studied wisdom extensively doesn't make one wise; transformation through participatory knowing is required."
+      }
+    ],
+    "count": 5
+  },
+  {
+    "name": "parasitic processing",
+    "episodes": [
+      10,
+      12,
+      13,
+      17,
+      36
+    ],
+    "treatments": {
+      "introduced": 2,
+      "referenced": 2,
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 10,
+        "text": "Self-deceptive, self-destructive cognitive processes that emerge from the same adaptive mechanisms that enable consciousness."
+      },
+      {
+        "ep": 12,
+        "text": "Self-reinforcing negative loops that higher states help interrupt through de-centering and reframing."
+      },
+      {
+        "ep": 13,
+        "text": "Self-reinforcing negative feedback loops where adaptive mechanisms become pathological, fragmenting agency and meaning."
+      },
+      {
+        "ep": 17,
+        "text": "Self-reinforcing pathological cognitive patterns that gnosis helps interrupt through de-automation and reframing."
+      },
+      {
+        "ep": 36,
+        "text": "Self-reinforcing cycles of self-deception that resist intervention; spiraling patterns harmful to meaning-making."
+      }
+    ],
+    "count": 5
+  },
+  {
+    "name": "consciousness",
+    "episodes": [
+      10,
+      21,
+      22,
+      32
+    ],
+    "treatments": {
+      "developed": 3,
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 10,
+        "text": "Consciousness is analyzed as an optimization mechanism for zeroing in on relevant information, creating dynamic salience landscapes that enable adaptive behavior and problem-solving."
+      },
+      {
+        "ep": 21,
+        "text": "Descartes' cogito ergo sum establishes consciousness—the mind touching itself—as the only certain contact with reality, deepening the isolation of mind from world initiated by Galileo."
+      },
+      {
+        "ep": 22,
+        "text": "Defined as mind touching itself in the cogito ergo sum, consciousness becomes both the only certainty and the deepest mystery—how it arises from or relates to matter remains Descartes' final unsolved problem."
+      },
+      {
+        "ep": 32,
+        "text": "Grounded in relevance realization and small-world network organization; phenomenology includes hereness, nowness, togetherness."
+      }
+    ],
+    "count": 4
+  },
+  {
+    "name": "flow",
+    "episodes": [
+      2,
+      10,
+      32,
+      37
+    ],
+    "treatments": {
+      "introduced": 1,
+      "referenced": 2,
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 2,
+        "text": "Optimal psychological state where demands and skills are balanced, generating insight and meaning."
+      },
+      {
+        "ep": 10,
+        "text": "Connected to consciousness in terms of optimal engagement where the self-consciousness disappears and skills meet situational demands."
+      },
+      {
+        "ep": 32,
+        "text": "State of optimal consciousness where salience landscaping and cognitive optimization are maximally aligned."
+      },
+      {
+        "ep": 37,
+        "text": "State dynamically integrating immersion and reflective flexibility; resolves reflectiveness gap through optimal engagement."
+      }
+    ],
+    "count": 4
+  },
+  {
+    "name": "insight",
+    "episodes": [
+      9,
+      10,
+      27,
+      32
+    ],
+    "treatments": {
+      "developed": 3,
+      "applied": 1
+    },
+    "summaries": [
+      {
+        "ep": 9,
+        "text": "Sudden restructuring of understanding through integration of previously disconnected patterns."
+      },
+      {
+        "ep": 10,
+        "text": "Analyzed as a flash of heightened consciousness where the salience landscape suddenly reorganizes, allowing new solutions to become visible."
+      },
+      {
+        "ep": 27,
+        "text": "The process by which poor problem formulation is converted into good problem formulation; the dynamic restructuring of salience that makes a solution become obvious."
+      },
+      {
+        "ep": 32,
+        "text": "Sudden optimization of cognitive fitness when SOC restructures networks into small-world configuration."
+      }
+    ],
+    "count": 4
+  },
+  {
+    "name": "kairos",
+    "episodes": [
+      3,
+      15,
+      16,
+      25
+    ],
+    "treatments": {
+      "introduced": 2,
+      "applied": 1,
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 3,
+        "text": "Crucial turning point or opportune moment in cosmic history."
+      },
+      {
+        "ep": 15,
+        "text": "The right moment or decisive turning point when history can be redirected through proper action."
+      },
+      {
+        "ep": 16,
+        "text": "The decisive moment and turning point embodied in Jesus as God's creative intervention in history."
+      },
+      {
+        "ep": 25,
+        "text": "The Christian concept of the decisive moment of history is secularized into the revolutionary turning point that Marxists and Nazis each claim to embody."
+      }
+    ],
+    "count": 4
+  },
+  {
+    "name": "religio",
+    "episodes": [
+      33,
+      35,
+      39,
+      46
+    ],
+    "treatments": {
+      "introduced": 1,
+      "developed": 3
+    },
+    "summaries": [
+      {
+        "ep": 33,
+        "text": "The binding-together of agent and arena through relevance realization; the machinery and experience of connectivity itself."
+      },
+      {
+        "ep": 35,
+        "text": "Binding-together of self and world; the machinery of meaning-making; what mythos activates and celebrates."
+      },
+      {
+        "ep": 39,
+        "text": "Participatory binding of agent and arena; the machinery of meaning-making; primary target of spiritual practice."
+      },
+      {
+        "ep": 46,
+        "text": "Dynamic connection to what matters, what is sacred. Not dogmatic religion but participatory relationship to meaning-making. Enhanced through wisdom and contemplative practice."
+      }
+    ],
+    "count": 4
+  },
+  {
+    "name": "sati",
+    "episodes": [
+      8,
+      13,
+      33,
+      37
+    ],
+    "treatments": {
+      "introduced": 1,
+      "referenced": 2,
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 8,
+        "text": "Deep remembering or recovery of a lost existential mode or way of being."
+      },
+      {
+        "ep": 13,
+        "text": "Remembrance or mindfulness that enables awareness of being mode and recognition of self-deceptive patterns."
+      },
+      {
+        "ep": 33,
+        "text": "Buddhist mindfulness; remembering being-mode as opposed to having-mode cognition."
+      },
+      {
+        "ep": 37,
+        "text": "Mindfulness practice remembering being-mode; access to participatory knowing beyond conceptual overlay."
+      }
+    ],
+    "count": 4
+  },
+  {
+    "name": "self-transcendence",
+    "episodes": [
+      0,
+      3,
+      23,
+      24
+    ],
+    "treatments": {
+      "introduced": 1,
+      "developed": 2,
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 0,
+        "text": "The ability to transcend narrow self-interest, central to meaning and wisdom."
+      },
+      {
+        "ep": 3,
+        "text": "Capacity to rise above oneself, central to Axial-age wisdom and transformation."
+      },
+      {
+        "ep": 23,
+        "text": "Nietzsche's attempt to recover this Axial concept through the will to power, reframing it as creative self-overcoming rather than negation of self."
+      },
+      {
+        "ep": 24,
+        "text": "Hegel offers epistemic self-transcendence (coming to know how we know) but lacks ethical self-transcendence (becoming radically transformed persons), a distinction Kierkegaard and others identify as fatal."
+      }
+    ],
+    "count": 4
+  },
+  {
+    "name": "being mode",
+    "episodes": [
+      7,
+      8,
+      47
+    ],
+    "treatments": {
+      "introduced": 1,
+      "developed": 1,
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 7,
+        "text": "Existential mode focused on development, growth, and meaning-making."
+      },
+      {
+        "ep": 8,
+        "text": "Existential mode focused on becoming, development, and expressive participation."
+      },
+      {
+        "ep": 47,
+        "text": "Participatory, contemplative stance toward being. Contrasts with having mode of manipulation and control."
+      }
+    ],
+    "count": 3
+  },
+  {
+    "name": "exaptation",
+    "episodes": [
+      1,
+      34,
+      35
+    ],
+    "treatments": {
+      "introduced": 1,
+      "developed": 2
+    },
+    "summaries": [
+      {
+        "ep": 1,
+        "text": "Evolutionary mechanism where traits evolved for one purpose are repurposed for another."
+      },
+      {
+        "ep": 34,
+        "text": "Reusing neural circuits evolved for one function to enable novel cognitive capacities; reversible unlike evolutionary exaptation."
+      },
+      {
+        "ep": 35,
+        "text": "Bi-directional use of embodied circuits: activating them through symbol, then using their activation for abstract understanding."
+      }
+    ],
+    "count": 3
+  },
+  {
+    "name": "higher states",
+    "episodes": [
+      9,
+      11,
+      18
+    ],
+    "treatments": {
+      "introduced": 1,
+      "developed": 1,
+      "applied": 1
+    },
+    "summaries": [
+      {
+        "ep": 9,
+        "text": "Mystical state of consciousness without content, achieved through extreme scaling down."
+      },
+      {
+        "ep": 11,
+        "text": "States of enhanced conscious experience characterized by clarity, beauty, peace, and a profound sense of connection to reality and authentic self."
+      },
+      {
+        "ep": 18,
+        "text": "Direct participatory engagement with higher levels of reality through transformation and conformity, integrated with rational understanding."
+      }
+    ],
+    "count": 3
+  },
+  {
+    "name": "intelligence",
+    "episodes": [
+      26,
+      31,
+      41
+    ],
+    "treatments": {
+      "developed": 3
+    },
+    "summaries": [
+      {
+        "ep": 26,
+        "text": "The capacity to be a general problem solver across diverse domains, making the study of problem-solving central to understanding cognition."
+      },
+      {
+        "ep": 31,
+        "text": "Unified phenomenon grounded in relevance realization; evidenced by strong positive manifold in intelligence testing."
+      },
+      {
+        "ep": 41,
+        "text": "Capacity to deal with computational limitations, measurable through working memory and general factor g. At best weakly correlated (0.3) with rationality, showing intelligence is necessary but insufficient for rational behavior."
+      }
+    ],
+    "count": 3
+  },
+  {
+    "name": "metanoia",
+    "episodes": [
+      15,
+      16,
+      19
+    ],
+    "treatments": {
+      "developed": 2,
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 15,
+        "text": "Radical awakening and reorientation of consciousness, not mere belief conversion but transformation of existential mode."
+      },
+      {
+        "ep": 16,
+        "text": "Radical awakening of consciousness and reorientation of fundamental identity through encounter with agapic love."
+      },
+      {
+        "ep": 19,
+        "text": "The transformative awakening that Augustine experiences through understanding love as the heart of reason."
+      }
+    ],
+    "count": 3
+  },
+  {
+    "name": "mindfulness",
+    "episodes": [
+      1,
+      8,
+      42
+    ],
+    "treatments": {
+      "introduced": 2,
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 1,
+        "text": "Contemporary cultural movement toward meditation and awareness practices as response to meaning crisis."
+      },
+      {
+        "ep": 8,
+        "text": "Psycho-technology training flexible attentional scaling for insight and existential transformation."
+      },
+      {
+        "ep": 42,
+        "text": "Cognitive style foregrounding S1 while constraining S2, facilitating insight and meta-cognitive breakthrough. Meditation exemplifies mindfulness practice. Opponent to active open-mindedness."
+      }
+    ],
+    "count": 3
+  },
+  {
+    "name": "absurdity",
+    "episodes": [
+      34,
+      36
+    ],
+    "treatments": {
+      "referenced": 1,
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 34,
+        "text": "Clash of incompatible perspectives; often humorous when resolvable, horrifying when irresoluble."
+      },
+      {
+        "ep": 36,
+        "text": "Clash of perspectives undermining cognitive grip on reality; not generated by arguments but by perspectival incoherence."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "active open-mindedness",
+    "episodes": [
+      41,
+      42
+    ],
+    "treatments": {
+      "introduced": 1,
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 41,
+        "text": "Cognitive style of training oneself to recognize and actively counteract cognitive biases. Baron's contribution: optimize rather than maximize to avoid overwhelming oneself. Predictable by need for cognition."
+      },
+      {
+        "ep": 42,
+        "text": "Cognitive style of learning biases and actively counteracting them. Baron emphasizes optimal rather than maximal correction. Crucial for theoretical reasoning but suppresses the leaping needed for insight."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "altered states",
+    "episodes": [
+      0,
+      1
+    ],
+    "treatments": {
+      "referenced": 1,
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 0,
+        "text": "States beyond normal waking consciousness accessed through shamanism, meditation, and mystical experience."
+      },
+      {
+        "ep": 1,
+        "text": "Non-ordinary states accessed through shamanic practice, generating insight and self-transcendence."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "aporia",
+    "episodes": [
+      4,
+      14
+    ],
+    "treatments": {
+      "introduced": 1,
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 4,
+        "text": "State of puzzlement or being stuck that results from recognizing one's ignorance."
+      },
+      {
+        "ep": 14,
+        "text": "The shocking confrontation that breaks up fixed framings, used by Cynics through provocative confrontation."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "complexification",
+    "episodes": [
+      12,
+      31
+    ],
+    "treatments": {
+      "introduced": 2
+    },
+    "summaries": [
+      {
+        "ep": 12,
+        "text": "The process of increasing both integration and differentiation in a system, enabling emergence of new functional abilities."
+      },
+      {
+        "ep": 31,
+        "text": "Process where simultaneous integration and differentiation produce emergent capacities and self-transcendence."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "dasein",
+    "episodes": [
+      46,
+      47
+    ],
+    "treatments": {
+      "introduced": 1,
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 46,
+        "text": "Heidegger's term for human being: being whose being is in question. Not biological fact but existential condition. Requires participation in and interrogation of being itself."
+      },
+      {
+        "ep": 47,
+        "text": "Being whose being is in question. Existential condition of human existence. Identity not fixed but continually interrogated. Central to Heidegger's phenomenology."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "de-centering",
+    "episodes": [
+      11,
+      12
+    ],
+    "treatments": {
+      "introduced": 1,
+      "applied": 1
+    },
+    "summaries": [
+      {
+        "ep": 11,
+        "text": "The shift from egocentric to allocentric perspective where reality's salience can finally eclipse the narcissistic glow of the ego."
+      },
+      {
+        "ep": 12,
+        "text": "A transformative cognitive shift from first-person egocentric to third-person allocentric perspective that reveals systematic biases."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "logos",
+    "episodes": [
+      3,
+      7
+    ],
+    "treatments": {
+      "introduced": 1,
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 3,
+        "text": "Divine principle or cosmic law; fundamental order of reality."
+      },
+      {
+        "ep": 7,
+        "text": "Structural-functional organization; the pattern constituting what something is."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "metaphor",
+    "episodes": [
+      2,
+      34
+    ],
+    "treatments": {
+      "introduced": 1,
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 2,
+        "text": "Cognitive mechanism connecting disparate domains, enabling creative problem-solving and insight."
+      },
+      {
+        "ep": 34,
+        "text": "Not ornamental but structuring; involves bidirectional linking between domains; both bottom-up projection and top-down emanation."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "metastability",
+    "episodes": [
+      11,
+      12
+    ],
+    "treatments": {
+      "introduced": 1,
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 11,
+        "text": "A brain state of simultaneous integration and differentiation that enables complexification and emergence of new cognitive abilities."
+      },
+      {
+        "ep": 12,
+        "text": "A neurological state where integration and differentiation occur simultaneously, enabling complexification and new emergent abilities."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "nomological order",
+    "episodes": [
+      7,
+      19
+    ],
+    "treatments": {
+      "introduced": 1,
+      "applied": 1
+    },
+    "summaries": [
+      {
+        "ep": 7,
+        "text": "State where scientific understanding and existential meaning are harmoniously aligned."
+      },
+      {
+        "ep": 19,
+        "text": "The Aristotelian order of how reality is structured, how things conform to intelligible patterns—provides coherence."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "numinous",
+    "episodes": [
+      33,
+      34
+    ],
+    "treatments": {
+      "introduced": 1,
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 33,
+        "text": "Aspect of sacredness involving fascination and horror; experience of reality's ultimate inadequacy to frames."
+      },
+      {
+        "ep": 34,
+        "text": "Otto's term for the transcendent pole of sacredness; fascinating and horrifying; beyond moral categories."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "onto-theology",
+    "episodes": [
+      46,
+      47
+    ],
+    "treatments": {
+      "referenced": 1,
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 46,
+        "text": "Metaphysical framework treating being as a being. History of metaphysics as progressive forgetting of being itself. Heidegger's diagnosis of nihilism."
+      },
+      {
+        "ep": 47,
+        "text": "Metaphysical error treating being as a being, subject to rational analysis. Metaphysics forgets being itself in this reduction."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "opponent processing",
+    "episodes": [
+      9,
+      30
+    ],
+    "treatments": {
+      "introduced": 1,
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 9,
+        "text": "Training flexible oscillation between opposing processes for optimal engagement and problem-solving."
+      },
+      {
+        "ep": 30,
+        "text": "Systems with opposed goals but integrated function (e.g., sympathetic and parasympathetic); enables dynamic optimization."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "perspectival knowing",
+    "episodes": [
+      29,
+      32
+    ],
+    "treatments": {
+      "developed": 2
+    },
+    "summaries": [
+      {
+        "ep": 29,
+        "text": "Context-dependent, first-person awareness of how to apply skills; depends asymmetrically on participatory agent-arena fit."
+      },
+      {
+        "ep": 32,
+        "text": "Consciousness as dynamic situational awareness; grounded in participatory knowing and afforded by salience landscaping."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "plausibility",
+    "episodes": [
+      12,
+      26
+    ],
+    "treatments": {
+      "introduced": 2
+    },
+    "summaries": [
+      {
+        "ep": 12,
+        "text": "A key criterion of rationality distinct from certainty, built on convergence, elegance, and fluency in processing information."
+      },
+      {
+        "ep": 26,
+        "text": "Not probability but reasonableness—a construct's quality of being worthy of serious consideration, requiring both convergent evidence and wide applicability."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "pragmatic self-contradiction",
+    "episodes": [
+      40,
+      43
+    ],
+    "treatments": {
+      "introduced": 1,
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 40,
+        "text": "A performative inconsistency where stating something contradicts the perspective from which it is stated. Example: 'I am asleep' paradoxically requires being awake. Wisdom exhibits this property since claiming 'I am wise' seems to indicate one is not."
+      },
+      {
+        "ep": 43,
+        "text": "Performative inconsistency where claiming wisdom seems to contradict the perspective of wisdom. Hints at wisdom's perspectival and participatory dimensions."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "prosoche",
+    "episodes": [
+      14,
+      15
+    ],
+    "treatments": {
+      "introduced": 1,
+      "applied": 1
+    },
+    "summaries": [
+      {
+        "ep": 14,
+        "text": "Stoic practice of paying attention to how one is paying attention, learning to distinguish meaning from event."
+      },
+      {
+        "ep": 15,
+        "text": "Stoic attention-practice applied by Marcus Aurelius to distinguish between events and their meaning."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "pseudo-religious ideology",
+    "episodes": [
+      24,
+      25
+    ],
+    "treatments": {
+      "developed": 2
+    },
+    "summaries": [
+      {
+        "ep": 24,
+        "text": "Hegel becomes the archetype for totalizing systems that promise to explain everything and deliver meaning through intellectual assent and historical participation, without requiring genuine spiritual practice."
+      },
+      {
+        "ep": 25,
+        "text": "Totalizing systems that promise secular utopia through ideology rather than transformation, replacing religion's psycho-technologies with abstract doctrine and violent politics."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "sacredness",
+    "episodes": [
+      20,
+      33
+    ],
+    "treatments": {
+      "referenced": 1,
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 20,
+        "text": "The sacred dimension of reality, once integrated through Neoplatonic and Christian traditions, is progressively withdrawn from the natural world as science reframes reality in exclusively mathematical terms."
+      },
+      {
+        "ep": 33,
+        "text": "Experience of the machinery of relevance realization; meta-assimilation (homecoming) and meta-accommodation (transgression)."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "salience landscaping",
+    "episodes": [
+      32,
+      38
+    ],
+    "treatments": {
+      "developed": 2
+    },
+    "summaries": [
+      {
+        "ep": 32,
+        "text": "Dynamic multi-dimensional sculpting of what stands out, with aspectuality, centrality, and temporality."
+      },
+      {
+        "ep": 38,
+        "text": "Emotions sculpt what stands out; emotions make relevance realization apparent in agent-arena relationship."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "self-deception",
+    "episodes": [
+      16,
+      21
+    ],
+    "treatments": {
+      "referenced": 1,
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 16,
+        "text": "The human tendency to deny agape's reality and imagine oneself self-made, against which agape challenges us."
+      },
+      {
+        "ep": 21,
+        "text": "Luther's account of the self as radically self-obsessed and self-defeating becomes central to understanding how we systematically deceive ourselves, requiring the scientific method as a psycho-technology to overcome."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "sophrosyne",
+    "episodes": [
+      44,
+      45
+    ],
+    "treatments": {
+      "introduced": 1,
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 44,
+        "text": "Optimization of perspectival knowing making virtue second nature. Temperance misses it; rather, a transformed salience landscape naturally orients toward truth and virtue without struggle."
+      },
+      {
+        "ep": 45,
+        "text": "Optimization of perspectival knowing. Transformed salience landscape naturally tempts toward truth and virtue. Second nature excellence, not effortful self-restraint (enkrateia). Golden mean generating enough options without excessive excess."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "symbol",
+    "episodes": [
+      34,
+      48
+    ],
+    "treatments": {
+      "developed": 2
+    },
+    "summaries": [
+      {
+        "ep": 34,
+        "text": "Exemplifies through participatory engagement, not merely refers; activates cognitive machinery for integration and world-disclosure."
+      },
+      {
+        "ep": 48,
+        "text": "Participatory vehicle enabling crossing between realms. Not reducible to conceptual meaning; involves transformative encounter."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "transframing",
+    "episodes": [
+      17,
+      40
+    ],
+    "treatments": {
+      "introduced": 2
+    },
+    "summaries": [
+      {
+        "ep": 17,
+        "text": "Transformation of the entire framing process itself, not just reframing particular problems—simultaneous Agent and Arena change."
+      },
+      {
+        "ep": 40,
+        "text": "A form of insight that goes beyond reframing by transforming actual cognitive competence. Like Piagetian developmental leaps, it provides sensibility transcendence—systematic breakthrough rather than surface correction."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "transjective",
+    "episodes": [
+      31,
+      35
+    ],
+    "treatments": {
+      "introduced": 1,
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 31,
+        "text": "A transactional relationship neither subjective nor objective; characteristics of relevance realization's nature."
+      },
+      {
+        "ep": 35,
+        "text": "The inexhaustibility of reality meets the inexhaustibility of relevance realization in co-emergent fashion."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "two worlds mythology",
+    "episodes": [
+      3,
+      20
+    ],
+    "treatments": {
+      "introduced": 1,
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 3,
+        "text": "Axial-age mythological framework distinguishing illusory everyday world from real transcendent reality."
+      },
+      {
+        "ep": 20,
+        "text": "Aquinas revived the two worlds framework to integrate Aristotelian science with theological truth, separating a natural world of reason from a supernatural world of faith—a division that ultimately erodes as faith becomes unviable."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "virtue",
+    "episodes": [
+      6,
+      43
+    ],
+    "treatments": {
+      "introduced": 1,
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 6,
+        "text": "Cultivated excellence expressed through habitual right action."
+      },
+      {
+        "ep": 43,
+        "text": "Human excellence requiring both what you do and how you do it. Virtues form interdependent system, not independent checklist. Cannot maximize individual virtues without creating conflict. Optimal balance requires wisdom."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "absolute idealism",
+    "episodes": [
+      24
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 24,
+        "text": "The view that reality itself is constituted by patterns of intelligibility, making the separation of mind from world impossible—reality realizes itself as Geist becomes self-aware."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "accommodation",
+    "episodes": [
+      31
+    ],
+    "treatments": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 31,
+        "text": "Piaget's term; maps to particularization and differentiation; restructuring schemas in response to novelty."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "actuality",
+    "episodes": [
+      6
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 6,
+        "text": "State of being realized or active, as opposed to potential."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "agent arena relationship",
+    "episodes": [
+      7
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 7,
+        "text": "Co-identifying self (agent) and context (arena) that creates meaningful action."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "akrasia",
+    "episodes": [
+      6
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 6,
+        "text": "Foolishness stemming from inadequate character, not mere ignorance."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "aletheia",
+    "episodes": [
+      47
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 47,
+        "text": "Greek conception of truth as unconcealment, revelation. Contrasts with correspondence theory. Being reveals and withdraws simultaneously."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "algorithm",
+    "episodes": [
+      27
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 27,
+        "text": "A problem-solving technique guaranteed to find a solution or prove it impossible; pursues certainty and requires searching the entire problem space, making it cognitively infeasible for complex real-world problems."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "anima/animus",
+    "episodes": [
+      49
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 49,
+        "text": "Contrasexual imaginal figures within psyche. Feminine in men, masculine in women. Recognition and dialogue essential to wholeness."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "anxiety",
+    "episodes": [
+      14
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 14,
+        "text": "Distinguished from fear; a nebulous threat where one doesn't know what to do, central to the Hellenistic crisis."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "applicability",
+    "episodes": [
+      31
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 31,
+        "text": "How flexibly a cognitive function can be applied across contexts; shaped by general vs. special purpose processing."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "archetype",
+    "episodes": [
+      49
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 49,
+        "text": "Primordial imaginal patterns in collective unconscious. Connect personal psyche to transpersonal, sacred dimensions. Hero, Shadow, Self, etc."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "artificial intelligence",
+    "episodes": [
+      22
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 22,
+        "text": "Hobbes' proposal to create mind through computational material systems emerges directly from Galileo's physics and challenges Descartes' insistence that cognition requires non-material substance."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "aspect",
+    "episodes": [
+      28
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 28,
+        "text": "A set of relevant features that cohere together and are salient for a particular purpose, project, or context."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "aspectuality",
+    "episodes": [
+      29
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 29,
+        "text": "A representation is aspectual: it selects relevant features from infinite possibilities and structures them for relevance to an agent."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "assimilation",
+    "episodes": [
+      31
+    ],
+    "treatments": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 31,
+        "text": "Piaget's term; maps to compression and integration; treating new information as continuous with existing schemas."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "asynchrony",
+    "episodes": [
+      32
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 32,
+        "text": "Neurons firing independently; introduces variation and differentiation."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "attention",
+    "episodes": [
+      9
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 9,
+        "text": "Complex optimization process operating through layered focal-subsidiary and feature-gestalt dynamics."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "authentic discourse",
+    "episodes": [
+      37
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 37,
+        "text": "Communication practice recovering real dialogue and understanding; addresses alienation through genuine relating."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "authenticity",
+    "episodes": [
+      47
+    ],
+    "treatments": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 47,
+        "text": "Genuine confrontation with dasein's being-in-question. Anxiety and thrownness connect to authentic existence."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "autonomy of reason",
+    "episodes": [
+      41
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 41,
+        "text": "Philosophical principle from Plato through Kant that reason cannot be bound by external authority. Standards for rationality must originate from within us, not be commanded. Underpins why humans cannot be wholly irrational."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "autopoetic system",
+    "episodes": [
+      29
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 29,
+        "text": "A self-organizing, self-maintaining system (characteristic of living things) with constitutive goals that preserve its own self-organization."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "autopoietic",
+    "episodes": [
+      38
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 38,
+        "text": "Self-making systems that self-organize to protect and promote agency; unlike tornadoes, systems seek viable conditions."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "awakening",
+    "episodes": [
+      0
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 0,
+        "text": "The central metaphor of the series for transformative experiences that restore meaning and connect us to reality."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "awe",
+    "episodes": [
+      33
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 33,
+        "text": "Wonder bordering on horror; opening up to mysteries while recognizing limits; combines fascination with humility."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "axial revolution",
+    "episodes": [
+      2
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 2,
+        "text": "Fundamental transformation in human consciousness and culture between 800-300 BCE."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "balance theory",
+    "episodes": [
+      44
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 44,
+        "text": "Sternberg's account: wisdom balances intrapersonal interests with interpersonal relationships and extrapersonal world connection. Tacit understanding enables optimal fit to context."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "belief perseverance",
+    "episodes": [
+      40
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 40,
+        "text": "The experimental phenomenon where people maintain beliefs even after evidence is completely undermined, demonstrating systematic self-deception in how we treat evidence for our conclusions."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "bioeconomy",
+    "episodes": [
+      30
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 30,
+        "text": "The body as a self-organizing system distributing metabolic and cognitive resources toward maintaining its own organization."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "bullshit",
+    "episodes": [
+      4
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 4,
+        "text": "Divorce of salience from truth, making things seem important while being indifferent to their reality."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "cartesian graphing",
+    "episodes": [
+      21
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 21,
+        "text": "Descartes' invention of coordinate systems and analytic geometry enables abstract mathematical representation divorced from sensory similarity, making computation the new model for mind."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "categorization",
+    "episodes": [
+      28
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 28,
+        "text": "The ability to group things by recognizing their psychological similarity (relevant shared features) rather than logical similarity (which is infinite for any two objects)."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "character",
+    "episodes": [
+      6
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 6,
+        "text": "Cultivated virtual engine of virtues regulating personal development and growth."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "co-identification",
+    "episodes": [
+      14
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 14,
+        "text": "The process of assuming and assigning identities—the Agent:Arena relationship that the Stoics identify as the heart of transformation."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "cognitive commitment",
+    "episodes": [
+      29
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 29,
+        "text": "The act of choosing which of the combinatorially explosive implications to use in reasoning; presupposes relevance realization."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "cognitive interactional fitedness",
+    "episodes": [
+      30
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 30,
+        "text": "The continuous evolution of an organism's cognitive and behavioral coupling to its environment through virtual engines of opponent processing."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "cognitive leaping",
+    "episodes": [
+      42
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 42,
+        "text": "Ability to complete patterns using few cues accurately. Directly predictive of insight. Distinguished from logical fallacy; it's pattern completion through minimal information. Essential for transformative breakthroughs."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "cognitive prioritization",
+    "episodes": [
+      31
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 31,
+        "text": "Flexible gambling among cost functions; allocating attentional and metabolic resources based on context."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "cognitive scope",
+    "episodes": [
+      31
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 31,
+        "text": "The dynamic trade-off between compression and particularization; enables varying generality vs. specificity."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "cognitive tempering",
+    "episodes": [
+      31
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 31,
+        "text": "Dynamic balance between exploitation (reward error reduction) and exploration (reward error increase)."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "combinatorial explosion",
+    "episodes": [
+      27
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 27,
+        "text": "The exponential growth of possible pathways (F to the D) in a problem space, making exhaustive search impossible even for the fastest computers without selective attention to relevant information."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "communitas",
+    "episodes": [
+      37
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 37,
+        "text": "Collective flow and genuine communion; shared attention and spirit creating distributed cognition and collective emergence."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "competence vs. performance",
+    "episodes": [
+      41
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 41,
+        "text": "Distinction between what someone is capable of doing versus what they actually do. Errors can be performance errors (implementation failures) or competence errors (capability deficits). Systematic errors indicate competence problems, not mere implementation lapses."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "compression",
+    "episodes": [
+      31
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 31,
+        "text": "Bioeconomic process of data compression via integration; emphasizes invariance for generalization and efficiency."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "computation",
+    "episodes": [
+      29
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 29,
+        "text": "The manipulation of symbols according to rules; presupposes relevance because it requires choosing relevant implications and interpreting rules in context."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "confirmation bias",
+    "episodes": [
+      13
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 13,
+        "text": "The tendency to seek information confirming current beliefs, which can trap consciousness in parasitic processing spirals."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "conformity",
+    "episodes": [
+      18
+    ],
+    "treatments": {
+      "applied": 1
+    },
+    "summaries": [
+      {
+        "ep": 18,
+        "text": "The foundational mode of knowing where one achieves understanding through making oneself similar in structure and function to what is known."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "conformity theory",
+    "episodes": [
+      7
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 7,
+        "text": "Epistemology where knowing involves conforming one's mind to reality's form."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "constitutive goal",
+    "episodes": [
+      29
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 29,
+        "text": "A goal that is internal to a system and helps constitute it as what it is; for living things, the goal of preserving self-organization."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "contemplation",
+    "episodes": [
+      8
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 8,
+        "text": "Scaling up practice that finds wider patterns and integrates into larger wholes."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "continuity hypothesis",
+    "episodes": [
+      11
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 11,
+        "text": "The proposal that fluency, insight, flow, and mystical experience exist on a continuum of the same cognitive machinery, increasingly exapted."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "continuous cosmos",
+    "episodes": [
+      3
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 3,
+        "text": "Pre-Axial worldview of cyclical time, power-based difference, and cosmic continuity."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "convergence",
+    "episodes": [
+      26
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 26,
+        "text": "Evidence from multiple independent sources supporting the same construct, reducing the chance that bias in one source distorts the conclusion."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "conversational implicature",
+    "episodes": [
+      28
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 28,
+        "text": "What is conveyed beyond what is directly said; depends on the recipient inferring what is relevant from context."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "counteractive dynamical system",
+    "episodes": [
+      37
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 37,
+        "text": "Interdependent set of practices that reinforce each other to counter parasitic cycles; exemplified by eightfold path."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "credal dominance",
+    "episodes": [
+      39
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 39,
+        "text": "Treating credo as propositional truth system to believe; obscures criterion-setting function and breeds fundamentalism."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "credo",
+    "episodes": [
+      39
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 39,
+        "text": "Paradigmatic propositions and pictures; function is setting decision criteria for accessing religio, not asserting essences."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "criterion-setting",
+    "episodes": [
+      39
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 39,
+        "text": "Decision line for including signal and excluding noise; contextually sensitive; no universally optimal placement."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "da'ath",
+    "episodes": [
+      33
+    ],
+    "treatments": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 33,
+        "text": "Hebrew mystical term; intimate experiential knowing akin to participatory knowing of religio."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "deepity",
+    "episodes": [
+      26
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 26,
+        "text": "A pseudo-profound statement that equivocates between a trivial and a profound meaning, allowing people to feel they've grasped something significant without actual understanding."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "dialectic",
+    "episodes": [
+      24
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 24,
+        "text": "The process of differentiation and integration through which opposing ideas resolve into higher unities, driving all historical development toward complete rationalization."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "disillusionment",
+    "episodes": [
+      8
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 8,
+        "text": "Loss of illusion, painful awakening to reality and loss of former existential mode."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "disruptive strategies",
+    "episodes": [
+      11
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 11,
+        "text": "Intentional practices like meditation, fasting, and psychedelics that disrupt normal cognitive patterns to enable insight and higher states."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "divine double",
+    "episodes": [
+      48
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 48,
+        "text": "Connection to transcendent dimension of self. Reflection of divine reality in human soul. Encountering divine double addresses existential meaning."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "domicide",
+    "episodes": [
+      14
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 14,
+        "text": "The destruction of home—not physical dwelling but cultural rootedness, shared language, ancestry, and community identity."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "dual processing",
+    "episodes": [
+      42
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 42,
+        "text": "Two different modes of information processing. S1: intuitive, associational, implicit, fast, automatic, minimal working memory demand. S2: deliberate, inferential, explicit, slow, intentional, heavy working memory demand. Both necessary; neither sufficient alone."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "dukkha",
+    "episodes": [
+      13
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 13,
+        "text": "The fundamental existential threat to freedom and agency through self-destructive cognitive spirals, not reducible to pain."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "dynamical systems",
+    "episodes": [
+      30
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 30,
+        "text": "Framework for understanding relevance realization as a self-organizing, multi-scale process analogous to evolutionary dynamics."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "ecstasis",
+    "episodes": [
+      34
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 34,
+        "text": "Standing beyond oneself; symbols help consciousness expand beyond current framings."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "efficiency",
+    "episodes": [
+      30
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 30,
+        "text": "Logistical norm favoring resource conservation through generalization; tendency to compress and integrate."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "eidos",
+    "episodes": [
+      5
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 5,
+        "text": "Form; the structural-functional organization that constitutes what something is and how we know it."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "elegance",
+    "episodes": [
+      26
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 26,
+        "text": "The multi-aptness of a theoretical construct, its ability to bridge multiple domains and explain diverse phenomena from a unified perspective."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "embeddedness",
+    "episodes": [
+      38
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 38,
+        "text": "Agent embedded in environment; transjective coupling through niche construction and evolutionary dynamics."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "embodiment",
+    "episodes": [
+      38
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 38,
+        "text": "Mind arises through immediate coping with world; deep continuity between abstract cognition and sensory-motor action."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "emergence",
+    "episodes": [
+      38
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 38,
+        "text": "System properties emerge from organization that component parts lack; mind emerges from brain-body-world coupling."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "enactive",
+    "episodes": [
+      38
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 38,
+        "text": "Cognition as inherently enacted; mind emerges through coupled agent-environment interaction."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "enactive analogy",
+    "episodes": [
+      17
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 17,
+        "text": "Experiential simulation through serious play that enables comparison between current and desired worldviews without irreversible commitment."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "enactive demonstrative reference",
+    "episodes": [
+      29
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 29,
+        "text": "The mental analogue of linguistic demonstratives like 'this'; the capacity to put your mind in contact with objects through salience tagging."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "encoding specificity",
+    "episodes": [
+      13
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 13,
+        "text": "The phenomenon where memories are more accessible in states similar to when they were encoded, enabling parasitic processing loops."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "enlightenment",
+    "episodes": [
+      9
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 9,
+        "text": "Complete awakening characterized by integrated insight into being and agency."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "equivocation",
+    "episodes": [
+      26
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 26,
+        "text": "The confusion of different meanings of the same word, preventing genuine understanding—the mechanism through which we unconsciously bullshit ourselves."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "eros",
+    "episodes": [
+      4
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 4,
+        "text": "Love understood broadly as caring rightly about what matters."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "existential inertia",
+    "episodes": [
+      17
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 17,
+        "text": "The inability to enter into or make viable an alternative worldview despite deep desire, due to lack of sensibility transcendence."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "exploitation",
+    "episodes": [
+      31
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 31,
+        "text": "Remaining in current situation to maximize resource extraction; opportunistic but costly if environment changes."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "exploration",
+    "episodes": [
+      31
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 31,
+        "text": "Seeking new environments and possibilities; costly upfront but enables discovery of better niches."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "expression",
+    "episodes": [
+      23
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 23,
+        "text": "The Romantic view that the mind presses itself onto the world rather than receiving impressions from it, making art and creation central to meaning-making."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "extended mind",
+    "episodes": [
+      38
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 38,
+        "text": "Cognition extends beyond brain through psychotechnologies, tools, and distributed social processes."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "fallacy vs. misunderstanding",
+    "episodes": [
+      41
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 41,
+        "text": "Two independent sources of wrong answers: fallacy (correct interpretation but incorrect reasoning) versus misunderstanding (incorrect interpretation but correct reasoning). Cannot be cleanly separated in experiments."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "fallibilism",
+    "episodes": [
+      43
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 43,
+        "text": "Epistemological position that no belief has certainty guarantee. Better understanding of Baltes and Staudinger's criterion than moral relativism. Attributed to Socrates, consistent with acknowledgment of limits."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "finitary predicament",
+    "episodes": [
+      41
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 41,
+        "text": "Cherniak's term for the combinatorial explosion humans face. We cannot algorithmically derive all implications or consider all assumptions. Standard algorithmic rationality is impossible; we must rely on relevance realization."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "finsting",
+    "episodes": [
+      29
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 29,
+        "text": "Fingers of Instantiation—the pre-categorical capacity to track the here-nowness of objects through salience tagging, preceding all conceptual cognition."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "fluency",
+    "episodes": [
+      11
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 11,
+        "text": "The efficiency and accessibility of cognitive processing, which correlates with perceived realness and guides truthful engagement with reality."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "forgiveness",
+    "episodes": [
+      16
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 16,
+        "text": "Not mere pardon but agapic for-giving that precedes earned reconciliation, central to Christian transformation."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "frame problem",
+    "episodes": [
+      28
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 28,
+        "text": "The technical and deeper relevance problem: determining which side effects of action matter and which can be ignored."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "geist",
+    "episodes": [
+      24
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 24,
+        "text": "The extended mind-spirit (both meanings of the German word) as the system of patterns of intelligibility through which reality is structured and realizes itself historically."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "general problem solver",
+    "episodes": [
+      28
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 28,
+        "text": "The capacity to solve diverse problems across domains; emerges from the underlying ability to do relevance realization."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "gnosis agape",
+    "episodes": [
+      16
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 16,
+        "text": "Knowing through being transformed by agapic participation, not through propositional belief or intellectual understanding."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "gnosticism",
+    "episodes": [
+      25
+    ],
+    "treatments": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 25,
+        "text": "The ancient heresy resurrected in Nazi ideology: the belief that an enlightened elite possesses secret knowledge of a divine reality hidden by demonic overlords (the Jews)."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "god beyond god",
+    "episodes": [
+      50
+    ],
+    "treatments": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 50,
+        "text": "Tillich's transcendence of theistic concepts toward Being itself. Participates in Gnostic and apophatic traditions."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "golden mean",
+    "episodes": [
+      6
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 6,
+        "text": "Optimal mean between excess and deficiency in cultivating virtue."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "having mode",
+    "episodes": [
+      7
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 7,
+        "text": "Existential mode focused on categorization, control, and problem-solving."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "heuristic",
+    "episodes": [
+      27
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 27,
+        "text": "A problem-solving method not guaranteed to find a solution but reliable for increasing chances of success; necessarily biased because it limits the search space to presumed relevant regions."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "heuristics",
+    "episodes": [
+      13
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 13,
+        "text": "Adaptive cognitive shortcuts that enable rapid decision-making but can systematically mislead in certain contexts."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "holding in mind",
+    "episodes": [
+      35
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 35,
+        "text": "Using symbols to contemplate abstract concepts through embodied-participatory engagement rather than propositional definition."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "horror",
+    "episodes": [
+      34
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 34,
+        "text": "Perspectival clash causing loss of cognitive grip; categorization breakdown threatening intelligibility."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "hyperbolic discounting",
+    "episodes": [
+      5
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 5,
+        "text": "Cognitive bias making immediate consequences salient while discounting distant future consequences."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "ill-defined problem",
+    "episodes": [
+      27
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 27,
+        "text": "Problems where the relevant information about Initial State, Goal State, Operators, and Path Constraints is unknown, characterizing most real-world challenges."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "imaginal realm",
+    "episodes": [
+      48
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 48,
+        "text": "Intermediate ontological dimension between physical and transcendent. Not imaginary (subjective) but real imaginal participation. Accessible through symbol and vision."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "imagination",
+    "episodes": [
+      23
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 23,
+        "text": "The faculty between perception and reason where mind imposes structure on raw experience; Romantics elevate it as the gateway to deeper reality and meaning beyond rational concepts."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "implication",
+    "episodes": [
+      29
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 29,
+        "text": "A logical relationship between propositions; the number of implications any proposition has is combinatorially explosive."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "implicit learning",
+    "episodes": [
+      2
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 2,
+        "text": "Unconscious acquisition of complex patterns from environment without explicit awareness."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "indispensability",
+    "episodes": [
+      36
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 36,
+        "text": "Contextual necessity of symbols/mythos for individual or community; distinct from metaphysical necessity."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "individuation",
+    "episodes": [
+      49
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 49,
+        "text": "Jungian process of becoming who one truly is. Integrating conscious ego with unconscious depths, shadow, anima/animus, and archetypal dimensions."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "indwelling",
+    "episodes": [
+      37
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 37,
+        "text": "Polanyi's concept; practicing to see as the sage does, inhabiting another's perspective through serious play."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "inertial motion",
+    "episodes": [
+      20
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 20,
+        "text": "Galileo's discovery that objects move only when struck by external force and require no internal purpose or drive fundamentally reframes matter as dead and passive, severing the connection between physical and spiritual purpose."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "inexhaustible coupling",
+    "episodes": [
+      36
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 36,
+        "text": "Deep identity between reality's combinatorial explosiveness and RR's evolving no-thingness; grounds sacredness without essentialism."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "inference",
+    "episodes": [
+      29
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 29,
+        "text": "The use of implication relations to change beliefs; presupposes relevance because it requires choosing which implications are relevant to the context."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "infinite regress problem",
+    "episodes": [
+      35
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 35,
+        "text": "The I can never see itself; framing can never frame itself; creates phenomenological mystery at core of consciousness."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "inner conflict",
+    "episodes": [
+      5
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 5,
+        "text": "Tension between different motivational systems in the psyche."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "insight cascade",
+    "episodes": [
+      2
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 2,
+        "text": "Continuous sequence of insights generated during flow, extending perception and understanding."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "integration",
+    "episodes": [
+      18
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 18,
+        "text": "The unity and structural organization that constitutes realness; higher integration means greater reality and deeper understanding."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "inter-categorical",
+    "episodes": [
+      34
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 34,
+        "text": "Things violating categorical boundaries (e.g., zombies, ghosts); uncanny because they disrupt sense-making."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "internalizing the sage",
+    "episodes": [
+      45
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 45,
+        "text": "Cognitive style cultivating higher-order regulation of active open-mindedness and mindfulness. Internalize Socrates, Buddha, Jesus. Metacognitively effective perspectival shift overcoming egocentrism."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "interpretive knowledge",
+    "episodes": [
+      44
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 44,
+        "text": "Kekes' distinction developed by Ardelt: grasping the significance of knowledge, not just possessing facts. Central to wisdom; has to do with understanding."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "lectio divina",
+    "episodes": [
+      19
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 19,
+        "text": "Medieval practice of contemplative reading designed to transform the reader through participatory engagement with sacred text."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "logistical norms",
+    "episodes": [
+      30
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 30,
+        "text": "Efficiency and resiliency as governing constraints on bioeconomic resource allocation, distinct from semantic truth norms."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "maxims of conversation",
+    "episodes": [
+      28
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 28,
+        "text": "Grice's principles (quality, quantity, manner, relevance) that enable communication; all reduce to the single principle of relevance."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "meaning crisis",
+    "episodes": [
+      0
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 0,
+        "text": "A fundamental cultural and cognitive crisis in which people feel disconnected from meaning, self, each other, and the world."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "meaning making",
+    "episodes": [
+      1
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 1,
+        "text": "Fundamental human capacity to create significance and coherence through symbols, ritual, and narratives."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "meditation",
+    "episodes": [
+      8
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 8,
+        "text": "Scaling down practice that breaks up inappropriate frames and de-automatizes cognition."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "meta-psychotechnology",
+    "episodes": [
+      39
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 39,
+        "text": "Explicit practices for collectively creating and refining ecologies of psychotechnologies; enables coordination and evolution."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "metacrisis",
+    "episodes": [
+      25
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 25,
+        "text": "The interlocking ecological, economic, political, and spiritual crises of modernity that cannot be solved through political struggle alone because they stem from fragmented meaning-making."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "metaheuristic",
+    "episodes": [
+      43
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 43,
+        "text": "A heuristic for managing and optimizing multiple heuristics. Baltes and Staudinger's term for wisdom's coordinating role. Pragmatic optimization within dynamical systems, managing tradeoffs between values."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "method of correlation",
+    "episodes": [
+      50
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 50,
+        "text": "Tillich's theological method bridging eternal principles with contemporary experience. Questions asked by culture answered by tradition in dialogue."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "middle path",
+    "episodes": [
+      8
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 8,
+        "text": "Transcendence of opposites through optimization rather than negation."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "mind-sight",
+    "episodes": [
+      1
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 1,
+        "text": "Capacity to perceive and understand others' mental states and one's own mind."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "mindset",
+    "episodes": [
+      42
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 42,
+        "text": "Fixed mindset treats intelligence as unchangeable, making errors permanent revelations of inadequacy. Malleable mindset treats intelligence as developable, making errors signals to improve skills and effort. Shapes need for cognition and problem-solving behavior."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "miss-signal error",
+    "episodes": [
+      39
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 39,
+        "text": "Failing to detect actual signal; often costlier than false alarms, drives conservative criterion placement."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "mistake-noise error",
+    "episodes": [
+      39
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 39,
+        "text": "False alarm; treating noise as signal; costly but typically less catastrophic than missing signal."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "mortality",
+    "episodes": [
+      15
+    ],
+    "treatments": {
+      "applied": 1
+    },
+    "summaries": [
+      {
+        "ep": 15,
+        "text": "Distinguished from fatality; essential acceptance enables freedom from anxiety rather than pursuit of immortality."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "music",
+    "episodes": [
+      34
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 34,
+        "text": "Paradigmatic symbol; pure engagement with salience and relevance machinery for its own sake; no external reference."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "mystery",
+    "episodes": [
+      33
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 33,
+        "text": "Phenomenological irreducibility of the framing process; not theoretical inexplicability but perspectival unavailability."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "mythos",
+    "episodes": [
+      35
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 35,
+        "text": "Symbol + story + ritual together; enactive mythology for activating religio through serious play."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "narrative order",
+    "episodes": [
+      19
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 19,
+        "text": "The Christian historical order where God's agapic creativity unfolds through time toward consummation—provides purpose."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "nationalism",
+    "episodes": [
+      25
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 25,
+        "text": "A pseudo-religious ideology making the nation-state the source of meaning, belonging, and sacred duty, replacing God with the nation and patriotic sacrifice for religious commitment."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "nature/supernatural distinction",
+    "episodes": [
+      19
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 19,
+        "text": "Aquinas's division of reality into natural (knowable by reason) and supernatural (accessible only by faith), breaking medieval synthesis."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "need for cognition",
+    "episodes": [
+      42
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 42,
+        "text": "Motivation to seek and solve problems, generating learning opportunities. Two aspects: curiosity (having-mode, manipulative) and wonder (being-mode, transformative). Predicts cultivation of both active open-mindedness and problem finding."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "neural avalanche",
+    "episodes": [
+      32
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 32,
+        "text": "Cascading desynchronization that breaks up overly ordered patterns, enabling restructuring."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "niche construction",
+    "episodes": [
+      38
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 38,
+        "text": "Organism shapes environment while environment shapes organism; reciprocal evolutionary coupling."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "nihilism",
+    "episodes": [
+      23
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 23,
+        "text": "The philosophical position that meaning is impossible, emerging from Schopenhauer's recognition that the will to live is restless, relentless, and ultimately pointless."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "noise",
+    "episodes": [
+      39
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 39,
+        "text": "Information unwanted; distracting or misleading information confused with signal."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "nominalism",
+    "episodes": [
+      20
+    ],
+    "treatments": {
+      "applied": 1
+    },
+    "summaries": [
+      {
+        "ep": 20,
+        "text": "Ockham's principle that universals are mental constructs, not features of reality, becomes foundational to Galileo's worldview where mathematical laws impose arbitrary order on an inherently disordered cosmos."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "non duality",
+    "episodes": [
+      9
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 9,
+        "text": "Mystical state uniting pure consciousness and resonant at-onement, generating comprehensive insight."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "non-duality",
+    "episodes": [
+      37
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 37,
+        "text": "State where maximal making-frame and breaking-frame are dynamically optimal; overcomes perspectival clash."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "normative order",
+    "episodes": [
+      19
+    ],
+    "treatments": {
+      "applied": 1
+    },
+    "summaries": [
+      {
+        "ep": 19,
+        "text": "The Neoplatonic order of ascending toward The Good through increasingly integrated and real modes of being—provides significance."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "normativity on construal",
+    "episodes": [
+      41
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 41,
+        "text": "Standards for how people should interpret, make sense of, and size up problems. Must be independent of inferential norms. Insight and problem formulation provide this non-inferential normativity."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "nous",
+    "episodes": [
+      18
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 18,
+        "text": "Intellect or intelligence as the level of reality immediately below The One, where multiplicity begins to emerge from unity."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "objective attractiveness",
+    "episodes": [
+      38
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 38,
+        "text": "Value independent of personal valuing; undermined by scientific worldview but replaced by transjective conditions."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "ontonormativity",
+    "episodes": [
+      14
+    ],
+    "treatments": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 14,
+        "text": "How experiences of the really-real demand transformation of life, driving philosophical responses to meaning crisis."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "open-ended optimization",
+    "episodes": [
+      38
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 38,
+        "text": "Continual improvement without fixed telos; replaces narrative order with post-narrative depth-seeking."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "optimal grip",
+    "episodes": [
+      11
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 11,
+        "text": "The sweet spot in perception and cognition where one balances comprehensive awareness with detail, enabling meaningful contact with objects and situations."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "overfitting",
+    "episodes": [
+      12
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 12,
+        "text": "In neural networks and learning, the problem of detecting patterns in samples that don't generalize, prevented by strategic disruption."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "participatory imagination",
+    "episodes": [
+      50
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 50,
+        "text": "Barfield's recovery of unified consciousness. Subject and object participatory connected through imagination. Opposes abstraction's subject-object split."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "particularization",
+    "episodes": [
+      31
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 31,
+        "text": "Bioeconomic process emphasizing context-specific variation; increases resiliency and context-sensitivity."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "perennial problems",
+    "episodes": [
+      36
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 36,
+        "text": "Inherent vulnerabilities in adaptive machinery affecting all cultures; encompass functional, structural, and developmental pathologies."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "phenomenology",
+    "episodes": [
+      46
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 46,
+        "text": "Disciplined reflective, experimental attention to perspectival knowing. Contact epistemology retrieving relationship to world through intentionality and world disclosure. Husserl's foundational approach."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "philia",
+    "episodes": [
+      14
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 14,
+        "text": "The love of cooperation and reciprocity, which Epicureans identify as the deepest source of meaning accessible until death."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "phronesis",
+    "episodes": [
+      43
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 43,
+        "text": "Practical wisdom. Contextually sensitive judgment enabling virtuous action. Procedural and perspectival knowledge of what fits this situation. Domain-general ability to apply virtues appropriately across life contexts."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "physis (the rose)",
+    "episodes": [
+      48
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 48,
+        "text": "Symbol of divine manifestation and nature's sacred depth. Represents participatory relationship to natural world."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "poiesis",
+    "episodes": [
+      50
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 50,
+        "text": "Greek concept of making/shaping. Imagination actively engages and shapes reality. Contrasts with passive reception or abstract analysis."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "potentiality",
+    "episodes": [
+      6
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 6,
+        "text": "Capacity to be or become; possibility shaped by constraints."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "prajña",
+    "episodes": [
+      37
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 37,
+        "text": "Intuitive wisdom state achieving non-duality through simultaneous maximal inward and outward scaling; resolves absurdity."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "premeditatio",
+    "episodes": [
+      15
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 15,
+        "text": "Stoic practice of contemplating potential losses to understand that physics and meaning are distinct."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "primary qualities",
+    "episodes": [
+      22
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 22,
+        "text": "Mathematical properties (extension, motion) that exist in objects themselves, forming the objective basis of scientific knowledge but unable to account for the subjective world of meaning and value."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "problem finding",
+    "episodes": [
+      42
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 42,
+        "text": "Capacity to identify problems others haven't yet recognized. Arlin argues this is essential to wisdom and creativity. Good problem finders generate problem nexuses—core problems whose solution impacts multiple surface problems."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "problem formulation",
+    "episodes": [
+      27
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 27,
+        "text": "The process of determining what information is relevant to a problem; the skillful reframing that transforms ill-defined problems into well-defined ones through relevance realization."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "problem space",
+    "episodes": [
+      27
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 27,
+        "text": "A formal representation of a problem consisting of an initial state, goal state, operators (actions), and path constraints, whose search space grows combinatorially explosive."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "procedural skill",
+    "episodes": [
+      29
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 29,
+        "text": "Knowing how to do something; depends asymmetrically on perspectival awareness and situational judgment."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "process theory vs. product theory",
+    "episodes": [
+      44
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 44,
+        "text": "Product theory describes what wisdom is (Baltes, Sternberg). Process theory explains how one becomes wise (Ardelt points toward this). Ancient theories integrated both; modern psychology favors product."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "profound understanding",
+    "episodes": [
+      45
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 45,
+        "text": "Beyond grasping relevance connections: generating plausibility horizontally (transfer across domains) and aligning propositional, procedural, perspectival, participatory knowing vertically."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "proleptic rationality",
+    "episodes": [
+      45
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 45,
+        "text": "Rationality appropriate to aspiration. My aspiring to wisdom cannot itself be irrational; aspiration must be rational despite non-inferential nature. Avoids performative contradiction."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "propositional cognition",
+    "episodes": [
+      29
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 29,
+        "text": "Cognition involving concepts, propositions, representations; depends asymmetrically on procedural skill."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "propositional knowing",
+    "episodes": [
+      20
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 20,
+        "text": "As participatory ways of knowing fade, knowledge becomes the coherence of propositions in the mind rather than conformity of mind to world, initiating a pattern of increasing detachment from reality."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "psychedelic experience",
+    "episodes": [
+      0
+    ],
+    "treatments": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 0,
+        "text": "Transformative altered states accessed through psychedelics, with therapeutic potential."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "psycho-technology",
+    "episodes": [
+      1
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 1,
+        "text": "Systematic tools that enhance cognitive and mental capacities, standardized and transmissible."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "psychological similarity",
+    "episodes": [
+      28
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 28,
+        "text": "Similarity based on relevant comparisons and relevant features; context-dependent and aspect-dependent, unlike logical similarity which is perspective-independent."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "purity codes",
+    "episodes": [
+      14
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 14,
+        "text": "Culturally contingent boundaries designed to maintain social categories, distinguished from universal moral principles."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "qualia",
+    "episodes": [
+      22
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 22,
+        "text": "The subjective, qualitative properties of experience (what things feel like) that cannot be captured by objective, mathematical description—a gap Descartes identifies as proof that matter cannot generate mind."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "quantum change",
+    "episodes": [
+      9
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 9,
+        "text": "Radical life transformation following mystical experience and insight."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "rationality",
+    "episodes": [
+      40
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 40,
+        "text": "Reliably and systematically overcoming self-deception while affording flourishing through cognitive optimization. Not reducible to logic, intelligence, or facility with syllogisms. Deeply existential, touching identity and moral status."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "reciprocal narrowing",
+    "episodes": [
+      13
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 13,
+        "text": "The dynamic where cognitive flexibility loss causes world options to contract, further reducing agency in a downward spiral."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "reflectiveness gap",
+    "episodes": [
+      36
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 36,
+        "text": "Trade-off between immersive action and reflective oversight; optimization problem balancing agency and understanding."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "representation",
+    "episodes": [
+      29
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 29,
+        "text": "Mental entities that stand for objects in the world; inherently aspectual and therefore presuppose rather than explain relevance realization."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "resiliency",
+    "episodes": [
+      30
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 30,
+        "text": "Logistical norm enabling adaptation to unexpected change through maintaining slack; tendency to particularize and differentiate."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "resonant at onement",
+    "episodes": [
+      9
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 9,
+        "text": "Mystical state of flowing unity with all things, achieved through extreme scaling up."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "reverse engineering enlightenment",
+    "episodes": [
+      36
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 36,
+        "text": "Defining enlightenment as reliable amelioration of perennial problems through naturalistic understanding, not mystical achievement."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "romanticism",
+    "episodes": [
+      23
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 23,
+        "text": "A movement attempting to recover meaning through imagination and art by reversing the Kantian direction—moving into irrationality rather than abstraction to touch reality."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "s1 and s2 processing",
+    "episodes": [
+      42
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 42,
+        "text": "S1 handles rapid coping through implicit learning and association; S2 enables deliberate reflection through inference. In opponent relationship, S2 corrects S1's leaping to conclusions through critical detachment. Cannot function without both."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "sacred second self",
+    "episodes": [
+      49
+    ],
+    "treatments": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 49,
+        "text": "Connection to transpersonal dimension of self through archetypal encounter. Parallels Corbin's divine double."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "salience",
+    "episodes": [
+      27
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 27,
+        "text": "What stands out to you, what is obvious and grabbing your attention; how information becomes psychologically prominent through relevance realization."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "salience landscape",
+    "episodes": [
+      10
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 10,
+        "text": "The dynamic texturing of consciousness that makes certain features and patterns stand out more prominently than others, constantly shifting in response to context."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "salience network",
+    "episodes": [
+      32
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 32,
+        "text": "Brain network mediating what is salient, stands out, and captures attention."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "salience tagging",
+    "episodes": [
+      29
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 29,
+        "text": "The most basic form of relevance realization: making here-nowness salient and salient; a contact with reality that precedes representation."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "sapiential obsolescence",
+    "episodes": [
+      21
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 21,
+        "text": "The closing of monasteries as centers of wisdom cultivation leaves knowledge attached to the State and politics, creating a vacuum of institutional guidance for self-transcendence."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "scaling down",
+    "episodes": [
+      9
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 9,
+        "text": "Attentional movement toward mind's center, breaking gestalts into features and de-automatizing cognition."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "scaling up",
+    "episodes": [
+      9
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 9,
+        "text": "Attentional movement outward and upward, integrating features into wider patterns and gestalts."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "scientia intuitiva",
+    "episodes": [
+      37
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 37,
+        "text": "Spinoza's term for deeply intuitive knowing; interpenetration of individual thought with cosmic perspective."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "second order thinking",
+    "episodes": [
+      2
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 2,
+        "text": "Metacognitive ability to reflect on and correct one's own thinking."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "secondary qualities",
+    "episodes": [
+      22
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 22,
+        "text": "Non-mathematical properties (color, taste, beauty) existing only in the mind, revealing the radical separation between objective nature and subjective consciousness."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "seeing through illusion",
+    "episodes": [
+      39
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 39,
+        "text": "Core of wisdom; systematic perception of self-deception and into more-real; converges across philosophical and psychological theories."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "self knowledge",
+    "episodes": [
+      4
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 4,
+        "text": "Understanding how one operates psychologically, one's capacities and limitations."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "self-organizing criticality",
+    "episodes": [
+      32
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 32,
+        "text": "Neural systems cycling between ordered (synchronous) and disordered (asynchronous) states, enabling adaptive flexibility."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "sensibility transcendence",
+    "episodes": [
+      17
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 17,
+        "text": "The mutual transformation of Agent (self) and Arena (world) through participatory knowing, enabling new viability."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "serious play",
+    "episodes": [
+      17
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 17,
+        "text": "Ritual engagement not for mere fun but for deep existential transformation, liminal space between ordinary and sacred."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "shadow",
+    "episodes": [
+      49
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 49,
+        "text": "Disowned, repressed aspects of self. Integration through imaginative dialogue essential to wholeness and consciousness expansion."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "shamanism",
+    "episodes": [
+      1
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 1,
+        "text": "Psycho-technology involving ritual, altered states, and specialized knowledge for healing and insight."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "side effects",
+    "episodes": [
+      28
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 28,
+        "text": "Unintended consequences of action that proliferate combinatorially; intelligence requires determining which are relevant to attend to."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "sign",
+    "episodes": [
+      34
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 34,
+        "text": "Merely refers; points through rather than exemplifies; doesn't activate participatory machinery."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "signal",
+    "episodes": [
+      39
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 39,
+        "text": "Information wanted or needed; defined relationally through relevance realization."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "signal detection theory",
+    "episodes": [
+      39
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 39,
+        "text": "Framework showing inherent overlap between desired signal and irrelevant noise; criterion-setting is risky gamble."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "situational awareness",
+    "episodes": [
+      29
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 29,
+        "text": "The capacity to adapt skill application to changing circumstances through salience landscaping."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "skill of judgment",
+    "episodes": [
+      29
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 29,
+        "text": "The procedural capacity to interpret rules and determine what is appropriate or relevant in a specific context."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "small world networks",
+    "episodes": [
+      32
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 32,
+        "text": "Network topology with short average path lengths and high clustering; optimal for balancing efficiency and resiliency."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "socratic method",
+    "episodes": [
+      4
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 4,
+        "text": "Philosophical method of questioning designed to expose contradiction and generate self-knowledge."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "solomon effect",
+    "episodes": [
+      43
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 43,
+        "text": "Grossman's phenomenon: people generate wiser reflections on others' problems than their own. Third-person perspective reduces first-person bias and fixation. Internalized dialogue partners provide metacognitive ability to overcome bias."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "sophia",
+    "episodes": [
+      43
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 43,
+        "text": "Theoretical wisdom. Deep ontological depth perception identifying cross-contextual principles and invariants. Not mere propositional knowledge but awareness of underlying structure. Needs relationship with phronesis."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "subjective attraction",
+    "episodes": [
+      38
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 38,
+        "text": "Personal draw toward something; requires meeting objective attractiveness for meaning in a transjective relationship."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "symbol resonance",
+    "episodes": [
+      35
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 35,
+        "text": "Oscillating between participatory integration and perspectival disclosure; each pole strengthens the other."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "synchronicity",
+    "episodes": [
+      49
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 49,
+        "text": "Meaningful coincidence suggesting acausal connection between psyche and world. Points to participatory relationship beyond mechanistic causation."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "synchrony",
+    "episodes": [
+      32
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 32,
+        "text": "Neurons firing together; implements compression and integration of information."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "synoptic integration",
+    "episodes": [
+      26
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 26,
+        "text": "A disciplinary approach that bridges different fields without reducing one to another, creating philosophical bridges across vocabularies to avoid equivocation and fragmentation."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "systematic seeing through illusion",
+    "episodes": [
+      40
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 40,
+        "text": "Core feature of wisdom identified by McKee and Barber. The capacity to transcend systematic errors and misframings to perceive reality more accurately, demonstrated through transframing insights that change underlying competence."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "tacit understanding",
+    "episodes": [
+      44
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 44,
+        "text": "Implicit grasp of significance enabling practical wisdom. Not rules or propositions but intuitive knowing how to apply knowledge effectively across contexts."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "the one",
+    "episodes": [
+      18
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 18,
+        "text": "The transcendent source and principle of all reality, beyond thought and being, toward which all existence tends."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "the spirit of finesse",
+    "episodes": [
+      22
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 22,
+        "text": "Pascal's alternative to the spirit of geometry (mathematics), representing knowing how, perspectival knowing, and participatory engagement—all lost in Descartes' pursuit of propositional certainty."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "the way",
+    "episodes": [
+      16
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 16,
+        "text": "Jesus's teaching understood not as doctrine but as a path and affordance for experiencing personal kairos."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "theonomous",
+    "episodes": [
+      50
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 50,
+        "text": "Culture where spirit works through reason. Contrasts with heteronomous (external authority imposed) and autonomous (reason alone). Ideal synthesis."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "theosis",
+    "episodes": [
+      33
+    ],
+    "treatments": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 33,
+        "text": "Transformation into God's likeness; parallels participatory knowing in religio."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "three-level mythos",
+    "episodes": [
+      39
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 39,
+        "text": "Mythos operating across unconscious participation, conscious perspectival-procedural, and cultural-propositional levels."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "thymos",
+    "episodes": [
+      5
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 5,
+        "text": "Spirited part of the psyche motivated by honor, shame, and social validation."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "transcendence into",
+    "episodes": [
+      38
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 38,
+        "text": "Movement into depths of nature and psyche rather than transcendence above; integrated with reciprocal realization."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "transformative experience",
+    "episodes": [
+      45
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 45,
+        "text": "Identity change through participatory knowing. Either sudden (inspiration) or incremental (aspiration). Grounded in gnosis and wonder. Cannot be achieved inferentially; requires transformation of self and world relation."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "ultimate concern",
+    "episodes": [
+      50
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 50,
+        "text": "Tillich's term for what grounds life meaning unconditionally. Not particular beliefs but participation in Being itself. Faith as openness to Being."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "understanding",
+    "episodes": [
+      45
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 45,
+        "text": "Grasping significance of knowledge beyond mere facts. Involves optimal grip (structural-functional organization) and plausibility generation (convergence enabling transfer across domains). Contextually relative and contextually sensitive."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "virtual engine",
+    "episodes": [
+      30
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 30,
+        "text": "A self-organizing dynamical system (like selection-variation in evolution) that optimizes a system without requiring external intelligence."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "well-defined problem",
+    "episodes": [
+      27
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 27,
+        "text": "A problem where the Initial State, Goal State, and Operators are clearly specified, allowing systematic solution methods."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "wiki-credo",
+    "episodes": [
+      39
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 39,
+        "text": "Collective, evolving credo structured like Wikipedia; allows adaptive criterion-setting across distributed communities."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "will to live",
+    "episodes": [
+      23
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 23,
+        "text": "Schopenhauer's concept of blind, irrational drive underlying all existence—replacing Kant's rational categories with an arbitrary force that makes life ultimately purposeless and tragic."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "will to power",
+    "episodes": [
+      25
+    ],
+    "treatments": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 25,
+        "text": "Nietzsche's concept weaponized by Nazi propaganda into justification for racial domination and the creation of the Aryan superman."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "wise cultivation of enlightenment",
+    "episodes": [
+      46
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 46,
+        "text": "Integration of wisdom and enlightenment within enabling worldview and community infrastructure. Enhances religio, sacredness, and meaning in life. Approach to collectively awakening from meaning crisis."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "wonder",
+    "episodes": [
+      33
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 33,
+        "text": "Non-focal, participatory state of opening to the inexhaustibility of reality; being mode."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "working memory",
+    "episodes": [
+      28
+    ],
+    "treatments": {
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 28,
+        "text": "The cognitive system that acts as a relevance filter, screening off irrelevant information and allowing relevant information into deeper processing."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "worldview",
+    "episodes": [
+      7
+    ],
+    "treatments": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 7,
+        "text": "Integrated understanding of how world and mind relate, mutually supporting epistemology and existential meaning."
+      }
+    ],
+    "count": 1
+  }
+]

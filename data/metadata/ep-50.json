@@ -1,0 +1,91 @@
+{
+  "num": 50,
+  "slug": "tillich-and-barfield",
+  "title": "Tillich and Barfield",
+  "essence": "Paul Tillich and Owen Barfield offer complementary responses to meaning crisis through ultimate concern and participatory imagination. Tillich's theology transcends theism toward God beyond God; ultimate concern directs life toward what is unconditionally valuable. Courage to be requires faith grounded in Being itself rather than particular beliefs. Method of correlation bridges eternal principles with contemporary experience. Theonomous culture (spirit working through reason) contrasts with heteronomous (external authority) and autonomous (reason alone). Barfield's participatory imagination recovers unity of subject and object through symbolic participation. Poiesis (making/shaping reality through imagination) versus logical analysis. Early language was participatory; abstraction increasingly alienated consciousness from world. Recovery requires imaginative re-participation in nature and meaning. Barfield influenced by Coleridge, romanticism, and Steiner. Both thinkers show meaning arises through engaged participation, not passive reception or abstract analysis. Symbol, imagination, and ultimate concern enable living in scientific worldview while maintaining sacred connection. Vervaeke situates them as showing how wisdom cultivation and enlightenment connect through imagination and faith grounded in being itself.",
+  "keyClaims": [
+    "Ultimate concern (Tillich) grounded in Being itself provides meaning beyond particular beliefs and institutional religion",
+    "Theonomous culture requires spirit working through reason, avoiding both heteronomous authority and autonomous reduction",
+    "Participatory imagination (Barfield) recovers unity with reality beyond subject-object split of abstract thinking",
+    "Poiesis (imaginative participation) enables meaningful engagement with world even within scientific worldview",
+    "Meaning requires lived participation through symbol and imagination, not passive reception or pure analysis"
+  ],
+  "concepts": [
+    {
+      "name": "ultimate concern",
+      "treatment": "introduced",
+      "summary": "Tillich's term for what grounds life meaning unconditionally. Not particular beliefs but participation in Being itself. Faith as openness to Being."
+    },
+    {
+      "name": "theonomous",
+      "treatment": "introduced",
+      "summary": "Culture where spirit works through reason. Contrasts with heteronomous (external authority imposed) and autonomous (reason alone). Ideal synthesis."
+    },
+    {
+      "name": "method of correlation",
+      "treatment": "introduced",
+      "summary": "Tillich's theological method bridging eternal principles with contemporary experience. Questions asked by culture answered by tradition in dialogue."
+    },
+    {
+      "name": "participatory imagination",
+      "treatment": "introduced",
+      "summary": "Barfield's recovery of unified consciousness. Subject and object participatory connected through imagination. Opposes abstraction's subject-object split."
+    },
+    {
+      "name": "poiesis",
+      "treatment": "introduced",
+      "summary": "Greek concept of making/shaping. Imagination actively engages and shapes reality. Contrasts with passive reception or abstract analysis."
+    },
+    {
+      "name": "God beyond God",
+      "treatment": "referenced",
+      "summary": "Tillich's transcendence of theistic concepts toward Being itself. Participates in Gnostic and apophatic traditions."
+    }
+  ],
+  "people": [
+    {
+      "name": "Paul Tillich",
+      "role": "developed",
+      "summary": "Theologian of meaning crisis and ultimate concern. Courage To Be announces crisis and proposes theonomous response. Gnostic elements in God-beyond-God."
+    },
+    {
+      "name": "Owen Barfield",
+      "role": "introduced",
+      "summary": "Philosopher of language and imagination. Recovers participatory consciousness and poiesis. Influenced by Coleridge and romanticism."
+    },
+    {
+      "name": "Samuel Taylor Coleridge",
+      "role": "referenced",
+      "summary": "Romantic poet and philosopher influencing Barfield's imagination philosophy."
+    },
+    {
+      "name": "Rudolf Steiner",
+      "role": "referenced",
+      "summary": "Anthroposophist influencing Barfield's participatory imagination framework."
+    },
+    {
+      "name": "Martin Heidegger",
+      "role": "referenced",
+      "summary": "Philosophical predecessor to Tillich and Barfield on being and language."
+    }
+  ],
+  "crossRefs": [
+    {"episode": 46, "reason": "Introduces Tillich and Barfield as prophetic responders to meaning crisis"},
+    {"episode": 48, "reason": "Corbin's symbols parallel Barfield's poiesis and participatory imagination"},
+    {"episode": 49, "reason": "Jungian sacred psyche parallels Tillich's ultimate concern"}
+  ],
+  "quotableMoments": [
+    {
+      "quote": "Ultimate concern grounds meaning in participation with Being itself, beyond particular beliefs and institutions.",
+      "context": "Tillich's transcendence of theism toward sacred ground of being."
+    },
+    {
+      "quote": "Participatory imagination recovers unity with reality; abstraction's subject-object split alienates us from world.",
+      "context": "Barfield's diagnosis of modern consciousness fragmentation and recovery through poiesis."
+    },
+    {
+      "quote": "Theonomous culture enables spirit working through reason, avoiding both authoritarian imposition and reductive rationalism.",
+      "context": "Tillich's synthesis healing false opposition between faith and reason."
+    }
+  ]
+}

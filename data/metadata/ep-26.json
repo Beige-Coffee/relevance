@@ -1,0 +1,105 @@
+{
+  "num": 26,
+  "slug": "cognitive-science",
+  "title": "Cognitive Science",
+  "essence": "Vervaeke proposes that cognitive science offers an alternative path to responding to the meaning crisis: not through pseudo-religious ideology but through understanding the machinery of meaning-making itself. He defines cognitive science as 'profound synoptic integration'—a disciplinary approach that bridges neuroscience, psychology, artificial intelligence, linguistics, and anthropology without reducing one to another or equivocating about terms. The central problem is that 'mind' has become equivocal across disciplines, fragmenting our understanding of ourselves. Cognitive science must use philosophical insight to create plausible theoretical constructs that are both trustworthy (converging evidence from multiple sources) and powerful (applicable across many domains). Through examples of conspiracy theories and trivial statements masquerading as profound, Vervaeke illustrates how we bullshit ourselves and others. The goal is to create constructs about meaning cultivation that are neither farfetched nor trivial but genuinely profound—and to use this understanding to develop new psycho-technologies for self-transcendence.",
+  "keyClaims": [
+    "The fragmentation of 'mind' across different disciplines reflects and perpetuates the fragmentation of the self caused by the meaning crisis.",
+    "Cognitive science must avoid equivocation by philosophically bridging different disciplines' vocabularies, creating multi-apt constructs that work across levels of analysis.",
+    "Plausibility requires both convergence (trustworthiness from multiple sources) and elegance (power to explain diverse phenomena), making 'profound' constructs those balancing both.",
+    "Conspiracy theories and motte-and-bailey strategies show how we use language to appear deep while actually bullshitting ourselves about meaning.",
+    "Intelligence should be understood as general problem-solving capacity, making the study of how we avoid combinatorial explosion central to understanding meaning and wisdom."
+  ],
+  "concepts": [
+    {
+      "name": "synoptic integration",
+      "treatment": "introduced",
+      "summary": "A disciplinary approach that bridges different fields without reducing one to another, creating philosophical bridges across vocabularies to avoid equivocation and fragmentation."
+    },
+    {
+      "name": "equivocation",
+      "treatment": "developed",
+      "summary": "The confusion of different meanings of the same word, preventing genuine understanding—the mechanism through which we unconsciously bullshit ourselves."
+    },
+    {
+      "name": "plausibility",
+      "treatment": "introduced",
+      "summary": "Not probability but reasonableness—a construct's quality of being worthy of serious consideration, requiring both convergent evidence and wide applicability."
+    },
+    {
+      "name": "convergence",
+      "treatment": "introduced",
+      "summary": "Evidence from multiple independent sources supporting the same construct, reducing the chance that bias in one source distorts the conclusion."
+    },
+    {
+      "name": "elegance",
+      "treatment": "introduced",
+      "summary": "The multi-aptness of a theoretical construct, its ability to bridge multiple domains and explain diverse phenomena from a unified perspective."
+    },
+    {
+      "name": "deepity",
+      "treatment": "introduced",
+      "summary": "A pseudo-profound statement that equivocates between a trivial and a profound meaning, allowing people to feel they've grasped something significant without actual understanding."
+    },
+    {
+      "name": "intelligence",
+      "treatment": "developed",
+      "summary": "The capacity to be a general problem solver across diverse domains, making the study of problem-solving central to understanding cognition."
+    }
+  ],
+  "people": [
+    {
+      "name": "John Vervaeke",
+      "role": "subject",
+      "summary": "Proposes cognitive science as the framework for understanding meaning-making machinery and developing responses to the meaning crisis grounded in science rather than ideology."
+    },
+    {
+      "name": "Allen Newell",
+      "role": "referenced",
+      "summary": "Co-founder with Simon of the cognitive science of problem-solving, whose work on general problem solvers provides the foundation for understanding intelligence."
+    },
+    {
+      "name": "Herbert Simon",
+      "role": "referenced",
+      "summary": "Co-founder of cognitive problem-solving research, whose formalization of problem spaces reveals the machinery of how we solve problems."
+    },
+    {
+      "name": "Daniel Dennett",
+      "role": "referenced",
+      "summary": "His concept of 'deepity' helps identify how we use language to appear profound while actually bullshitting ourselves about meaning."
+    },
+    {
+      "name": "Elijah Millgram",
+      "role": "referenced",
+      "summary": "His work on practical induction and the balance between convergence and elegance provides philosophical foundations for understanding plausibility."
+    }
+  ],
+  "crossRefs": [
+    {
+      "episode": 27,
+      "context": "Problem formulation and relevance realization emerge as central to the cognitive machinery of meaning cultivation."
+    },
+    {
+      "episode": 28,
+      "context": "Relevance realization converges from multiple cognitive phenomena—categorization, communication, action—revealing it as the core of intelligence."
+    },
+    {
+      "episode": 25,
+      "context": "Cognitive science offers an alternative to the pseudo-religious ideologies by understanding meaning-making as a natural phenomenon."
+    }
+  ],
+  "quotableMoments": [
+    {
+      "quote": "Both of these models: the mind of a blank slate is just overwhelmingly wrong! Way too much argument and evidence against it. And this model of the world as a blank slate that we merely express ourSelf onto is also wrong.",
+      "context": "Vervaeke rejecting both empiricism and pure Romanticism, pointing toward a more nuanced understanding of how mind and world interact."
+    },
+    {
+      "quote": "You're trying to make this machinery of the imagination carry all of the Neoplatonic weight that religion and tradition and philosophy and history carried. You try to make your romantic partner take the role of all of that. No person can bear that.",
+      "context": "How romantic love becomes impossible when asked to provide all the meaning that religion once provided."
+    },
+    {
+      "quote": "Love is only a four letter word... Love is just a four letter word, and when I'm equivocating, I'm not actually giving you any information about love as a thing!",
+      "context": "Example of a deepity showing how we use language to feel profound while avoiding genuine understanding."
+    }
+  ]
+}

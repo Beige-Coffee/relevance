@@ -1,0 +1,7693 @@
+{
+  "nodes": [
+    {
+      "id": "ep:0",
+      "kind": "episode",
+      "label": "0. What is the Awakening from the Meaning Crisis Series",
+      "num": 0
+    },
+    {
+      "id": "ep:1",
+      "kind": "episode",
+      "label": "1. Introduction",
+      "num": 1
+    },
+    {
+      "id": "ep:2",
+      "kind": "episode",
+      "label": "2. Flow, Metaphor, and the Axial Revolution",
+      "num": 2
+    },
+    {
+      "id": "ep:3",
+      "kind": "episode",
+      "label": "3. Continuous Cosmos and Modern World Grammar",
+      "num": 3
+    },
+    {
+      "id": "ep:4",
+      "kind": "episode",
+      "label": "4. Socrates and the Quest for Wisdom",
+      "num": 4
+    },
+    {
+      "id": "ep:5",
+      "kind": "episode",
+      "label": "5. Plato and the Cave",
+      "num": 5
+    },
+    {
+      "id": "ep:6",
+      "kind": "episode",
+      "label": "6. Aristotle, Kant, and Evolution",
+      "num": 6
+    },
+    {
+      "id": "ep:7",
+      "kind": "episode",
+      "label": "7. Aristotle's World View and Erich Fromm",
+      "num": 7
+    },
+    {
+      "id": "ep:8",
+      "kind": "episode",
+      "label": "8. The Buddha and Mindfulness",
+      "num": 8
+    },
+    {
+      "id": "ep:9",
+      "kind": "episode",
+      "label": "9. Insight",
+      "num": 9
+    },
+    {
+      "id": "ep:10",
+      "kind": "episode",
+      "label": "10. Consciousness",
+      "num": 10
+    },
+    {
+      "id": "ep:11",
+      "kind": "episode",
+      "label": "11. Higher States of Consciousness, Part 1",
+      "num": 11
+    },
+    {
+      "id": "ep:12",
+      "kind": "episode",
+      "label": "12. Higher States of Consciousness, Part 2",
+      "num": 12
+    },
+    {
+      "id": "ep:13",
+      "kind": "episode",
+      "label": "13. Buddhism and Parasitic Processing",
+      "num": 13
+    },
+    {
+      "id": "ep:14",
+      "kind": "episode",
+      "label": "14. Epicureans, Cynics, and Stoics",
+      "num": 14
+    },
+    {
+      "id": "ep:15",
+      "kind": "episode",
+      "label": "15. Marcus Aurelius and Jesus",
+      "num": 15
+    },
+    {
+      "id": "ep:16",
+      "kind": "episode",
+      "label": "16. Christianity and Agape",
+      "num": 16
+    },
+    {
+      "id": "ep:17",
+      "kind": "episode",
+      "label": "17. Gnosis and Existential Inertia",
+      "num": 17
+    },
+    {
+      "id": "ep:18",
+      "kind": "episode",
+      "label": "18. Plotinus and Neoplatonism",
+      "num": 18
+    },
+    {
+      "id": "ep:19",
+      "kind": "episode",
+      "label": "19. Augustine and Aquinas",
+      "num": 19
+    },
+    {
+      "id": "ep:20",
+      "kind": "episode",
+      "label": "20. Death of the Universe",
+      "num": 20
+    },
+    {
+      "id": "ep:21",
+      "kind": "episode",
+      "label": "21. Martin Luther and Descartes",
+      "num": 21
+    },
+    {
+      "id": "ep:22",
+      "kind": "episode",
+      "label": "22. Descartes vs. Hobbes",
+      "num": 22
+    },
+    {
+      "id": "ep:23",
+      "kind": "episode",
+      "label": "23. Romanticism",
+      "num": 23
+    },
+    {
+      "id": "ep:24",
+      "kind": "episode",
+      "label": "24. Hegel",
+      "num": 24
+    },
+    {
+      "id": "ep:25",
+      "kind": "episode",
+      "label": "25. The Clash",
+      "num": 25
+    },
+    {
+      "id": "ep:26",
+      "kind": "episode",
+      "label": "26. Cognitive Science",
+      "num": 26
+    },
+    {
+      "id": "ep:27",
+      "kind": "episode",
+      "label": "27. Problem Formulation",
+      "num": 27
+    },
+    {
+      "id": "ep:28",
+      "kind": "episode",
+      "label": "28. Convergence To Relevance Realization",
+      "num": 28
+    },
+    {
+      "id": "ep:29",
+      "kind": "episode",
+      "label": "29. Getting to the Depths of Relevance Realization",
+      "num": 29
+    },
+    {
+      "id": "ep:30",
+      "kind": "episode",
+      "label": "30. Relevance Realization Meets Dynamical Systems Theory",
+      "num": 30
+    },
+    {
+      "id": "ep:31",
+      "kind": "episode",
+      "label": "31. Embodied-Embedded RR as Dynamical-Developmental GI",
+      "num": 31
+    },
+    {
+      "id": "ep:32",
+      "kind": "episode",
+      "label": "32. RR in the Brain, Insight, and Consciousness",
+      "num": 32
+    },
+    {
+      "id": "ep:33",
+      "kind": "episode",
+      "label": "33. The Spirituality of RR: Wonder/Awe/Mystery/Sacredness",
+      "num": 33
+    },
+    {
+      "id": "ep:34",
+      "kind": "episode",
+      "label": "34. Sacredness: Horror, Music, and the Symbol",
+      "num": 34
+    },
+    {
+      "id": "ep:35",
+      "kind": "episode",
+      "label": "35. The Symbol, Sacredness, and the Sacred",
+      "num": 35
+    },
+    {
+      "id": "ep:36",
+      "kind": "episode",
+      "label": "36. Religio/Perennial Problems/Reverse Eng. Enlightenment",
+      "num": 36
+    },
+    {
+      "id": "ep:37",
+      "kind": "episode",
+      "label": "37. Reverse Engineering Enlightenment: Part 2",
+      "num": 37
+    },
+    {
+      "id": "ep:38",
+      "kind": "episode",
+      "label": "38. Agape and 4E Cognitive Science",
+      "num": 38
+    },
+    {
+      "id": "ep:39",
+      "kind": "episode",
+      "label": "39. The Religion of No Religion",
+      "num": 39
+    },
+    {
+      "id": "ep:40",
+      "kind": "episode",
+      "label": "40. Wisdom and Rationality",
+      "num": 40
+    },
+    {
+      "id": "ep:41",
+      "kind": "episode",
+      "label": "41. What is Rationality?",
+      "num": 41
+    },
+    {
+      "id": "ep:42",
+      "kind": "episode",
+      "label": "42. Intelligence, Rationality, and Wisdom",
+      "num": 42
+    },
+    {
+      "id": "ep:43",
+      "kind": "episode",
+      "label": "43. Wisdom and Virtue",
+      "num": 43
+    },
+    {
+      "id": "ep:44",
+      "kind": "episode",
+      "label": "44. Theories of Wisdom",
+      "num": 44
+    },
+    {
+      "id": "ep:45",
+      "kind": "episode",
+      "label": "45. The Nature of Wisdom",
+      "num": 45
+    },
+    {
+      "id": "ep:46",
+      "kind": "episode",
+      "label": "46. Conclusion and the Prophets of the Meaning Crisis",
+      "num": 46
+    },
+    {
+      "id": "ep:47",
+      "kind": "episode",
+      "label": "47. Heidegger",
+      "num": 47
+    },
+    {
+      "id": "ep:48",
+      "kind": "episode",
+      "label": "48. Corbin and the Divine Double",
+      "num": 48
+    },
+    {
+      "id": "ep:49",
+      "kind": "episode",
+      "label": "49. Corbin and Jung",
+      "num": 49
+    },
+    {
+      "id": "ep:50",
+      "kind": "episode",
+      "label": "50. Tillich and Barfield",
+      "num": 50
+    },
+    {
+      "id": "concept:anagoge",
+      "kind": "concept",
+      "label": "anagoge",
+      "count": 10
+    },
+    {
+      "id": "concept:relevance realization",
+      "kind": "concept",
+      "label": "relevance realization",
+      "count": 10
+    },
+    {
+      "id": "concept:wisdom",
+      "kind": "concept",
+      "label": "wisdom",
+      "count": 8
+    },
+    {
+      "id": "concept:agape",
+      "kind": "concept",
+      "label": "agape",
+      "count": 7
+    },
+    {
+      "id": "concept:participatory knowing",
+      "kind": "concept",
+      "label": "participatory knowing",
+      "count": 7
+    },
+    {
+      "id": "concept:gnosis",
+      "kind": "concept",
+      "label": "gnosis",
+      "count": 6
+    },
+    {
+      "id": "concept:modal confusion",
+      "kind": "concept",
+      "label": "modal confusion",
+      "count": 5
+    },
+    {
+      "id": "concept:parasitic processing",
+      "kind": "concept",
+      "label": "parasitic processing",
+      "count": 5
+    },
+    {
+      "id": "concept:consciousness",
+      "kind": "concept",
+      "label": "consciousness",
+      "count": 4
+    },
+    {
+      "id": "concept:flow",
+      "kind": "concept",
+      "label": "flow",
+      "count": 4
+    },
+    {
+      "id": "concept:insight",
+      "kind": "concept",
+      "label": "insight",
+      "count": 4
+    },
+    {
+      "id": "concept:kairos",
+      "kind": "concept",
+      "label": "kairos",
+      "count": 4
+    },
+    {
+      "id": "concept:religio",
+      "kind": "concept",
+      "label": "religio",
+      "count": 4
+    },
+    {
+      "id": "concept:sati",
+      "kind": "concept",
+      "label": "sati",
+      "count": 4
+    },
+    {
+      "id": "concept:self-transcendence",
+      "kind": "concept",
+      "label": "self-transcendence",
+      "count": 4
+    },
+    {
+      "id": "concept:being mode",
+      "kind": "concept",
+      "label": "being mode",
+      "count": 3
+    },
+    {
+      "id": "concept:exaptation",
+      "kind": "concept",
+      "label": "exaptation",
+      "count": 3
+    },
+    {
+      "id": "concept:higher states",
+      "kind": "concept",
+      "label": "higher states",
+      "count": 3
+    },
+    {
+      "id": "concept:intelligence",
+      "kind": "concept",
+      "label": "intelligence",
+      "count": 3
+    },
+    {
+      "id": "concept:metanoia",
+      "kind": "concept",
+      "label": "metanoia",
+      "count": 3
+    },
+    {
+      "id": "concept:mindfulness",
+      "kind": "concept",
+      "label": "mindfulness",
+      "count": 3
+    },
+    {
+      "id": "concept:absurdity",
+      "kind": "concept",
+      "label": "absurdity",
+      "count": 2
+    },
+    {
+      "id": "concept:active open-mindedness",
+      "kind": "concept",
+      "label": "active open-mindedness",
+      "count": 2
+    },
+    {
+      "id": "concept:altered states",
+      "kind": "concept",
+      "label": "altered states",
+      "count": 2
+    },
+    {
+      "id": "concept:aporia",
+      "kind": "concept",
+      "label": "aporia",
+      "count": 2
+    },
+    {
+      "id": "concept:complexification",
+      "kind": "concept",
+      "label": "complexification",
+      "count": 2
+    },
+    {
+      "id": "concept:dasein",
+      "kind": "concept",
+      "label": "dasein",
+      "count": 2
+    },
+    {
+      "id": "concept:de-centering",
+      "kind": "concept",
+      "label": "de-centering",
+      "count": 2
+    },
+    {
+      "id": "concept:logos",
+      "kind": "concept",
+      "label": "logos",
+      "count": 2
+    },
+    {
+      "id": "concept:metaphor",
+      "kind": "concept",
+      "label": "metaphor",
+      "count": 2
+    },
+    {
+      "id": "concept:metastability",
+      "kind": "concept",
+      "label": "metastability",
+      "count": 2
+    },
+    {
+      "id": "concept:nomological order",
+      "kind": "concept",
+      "label": "nomological order",
+      "count": 2
+    },
+    {
+      "id": "concept:numinous",
+      "kind": "concept",
+      "label": "numinous",
+      "count": 2
+    },
+    {
+      "id": "concept:onto-theology",
+      "kind": "concept",
+      "label": "onto-theology",
+      "count": 2
+    },
+    {
+      "id": "concept:opponent processing",
+      "kind": "concept",
+      "label": "opponent processing",
+      "count": 2
+    },
+    {
+      "id": "concept:perspectival knowing",
+      "kind": "concept",
+      "label": "perspectival knowing",
+      "count": 2
+    },
+    {
+      "id": "concept:plausibility",
+      "kind": "concept",
+      "label": "plausibility",
+      "count": 2
+    },
+    {
+      "id": "concept:pragmatic self-contradiction",
+      "kind": "concept",
+      "label": "pragmatic self-contradiction",
+      "count": 2
+    },
+    {
+      "id": "concept:prosoche",
+      "kind": "concept",
+      "label": "prosoche",
+      "count": 2
+    },
+    {
+      "id": "concept:pseudo-religious ideology",
+      "kind": "concept",
+      "label": "pseudo-religious ideology",
+      "count": 2
+    },
+    {
+      "id": "concept:sacredness",
+      "kind": "concept",
+      "label": "sacredness",
+      "count": 2
+    },
+    {
+      "id": "concept:salience landscaping",
+      "kind": "concept",
+      "label": "salience landscaping",
+      "count": 2
+    },
+    {
+      "id": "concept:self-deception",
+      "kind": "concept",
+      "label": "self-deception",
+      "count": 2
+    },
+    {
+      "id": "concept:sophrosyne",
+      "kind": "concept",
+      "label": "sophrosyne",
+      "count": 2
+    },
+    {
+      "id": "concept:symbol",
+      "kind": "concept",
+      "label": "symbol",
+      "count": 2
+    },
+    {
+      "id": "concept:transframing",
+      "kind": "concept",
+      "label": "transframing",
+      "count": 2
+    },
+    {
+      "id": "concept:transjective",
+      "kind": "concept",
+      "label": "transjective",
+      "count": 2
+    },
+    {
+      "id": "concept:two worlds mythology",
+      "kind": "concept",
+      "label": "two worlds mythology",
+      "count": 2
+    },
+    {
+      "id": "concept:virtue",
+      "kind": "concept",
+      "label": "virtue",
+      "count": 2
+    },
+    {
+      "id": "concept:absolute idealism",
+      "kind": "concept",
+      "label": "absolute idealism",
+      "count": 1
+    },
+    {
+      "id": "concept:accommodation",
+      "kind": "concept",
+      "label": "accommodation",
+      "count": 1
+    },
+    {
+      "id": "concept:actuality",
+      "kind": "concept",
+      "label": "actuality",
+      "count": 1
+    },
+    {
+      "id": "concept:agent arena relationship",
+      "kind": "concept",
+      "label": "agent arena relationship",
+      "count": 1
+    },
+    {
+      "id": "concept:akrasia",
+      "kind": "concept",
+      "label": "akrasia",
+      "count": 1
+    },
+    {
+      "id": "concept:aletheia",
+      "kind": "concept",
+      "label": "aletheia",
+      "count": 1
+    },
+    {
+      "id": "concept:algorithm",
+      "kind": "concept",
+      "label": "algorithm",
+      "count": 1
+    },
+    {
+      "id": "concept:anima/animus",
+      "kind": "concept",
+      "label": "anima/animus",
+      "count": 1
+    },
+    {
+      "id": "concept:anxiety",
+      "kind": "concept",
+      "label": "anxiety",
+      "count": 1
+    },
+    {
+      "id": "concept:applicability",
+      "kind": "concept",
+      "label": "applicability",
+      "count": 1
+    },
+    {
+      "id": "concept:archetype",
+      "kind": "concept",
+      "label": "archetype",
+      "count": 1
+    },
+    {
+      "id": "concept:artificial intelligence",
+      "kind": "concept",
+      "label": "artificial intelligence",
+      "count": 1
+    },
+    {
+      "id": "concept:aspect",
+      "kind": "concept",
+      "label": "aspect",
+      "count": 1
+    },
+    {
+      "id": "concept:aspectuality",
+      "kind": "concept",
+      "label": "aspectuality",
+      "count": 1
+    },
+    {
+      "id": "concept:assimilation",
+      "kind": "concept",
+      "label": "assimilation",
+      "count": 1
+    },
+    {
+      "id": "concept:asynchrony",
+      "kind": "concept",
+      "label": "asynchrony",
+      "count": 1
+    },
+    {
+      "id": "concept:attention",
+      "kind": "concept",
+      "label": "attention",
+      "count": 1
+    },
+    {
+      "id": "concept:authentic discourse",
+      "kind": "concept",
+      "label": "authentic discourse",
+      "count": 1
+    },
+    {
+      "id": "concept:authenticity",
+      "kind": "concept",
+      "label": "authenticity",
+      "count": 1
+    },
+    {
+      "id": "concept:autonomy of reason",
+      "kind": "concept",
+      "label": "autonomy of reason",
+      "count": 1
+    },
+    {
+      "id": "concept:autopoetic system",
+      "kind": "concept",
+      "label": "autopoetic system",
+      "count": 1
+    },
+    {
+      "id": "concept:autopoietic",
+      "kind": "concept",
+      "label": "autopoietic",
+      "count": 1
+    },
+    {
+      "id": "concept:awakening",
+      "kind": "concept",
+      "label": "awakening",
+      "count": 1
+    },
+    {
+      "id": "concept:awe",
+      "kind": "concept",
+      "label": "awe",
+      "count": 1
+    },
+    {
+      "id": "concept:axial revolution",
+      "kind": "concept",
+      "label": "axial revolution",
+      "count": 1
+    },
+    {
+      "id": "concept:balance theory",
+      "kind": "concept",
+      "label": "balance theory",
+      "count": 1
+    },
+    {
+      "id": "concept:belief perseverance",
+      "kind": "concept",
+      "label": "belief perseverance",
+      "count": 1
+    },
+    {
+      "id": "concept:bioeconomy",
+      "kind": "concept",
+      "label": "bioeconomy",
+      "count": 1
+    },
+    {
+      "id": "concept:bullshit",
+      "kind": "concept",
+      "label": "bullshit",
+      "count": 1
+    },
+    {
+      "id": "concept:cartesian graphing",
+      "kind": "concept",
+      "label": "cartesian graphing",
+      "count": 1
+    },
+    {
+      "id": "concept:categorization",
+      "kind": "concept",
+      "label": "categorization",
+      "count": 1
+    },
+    {
+      "id": "concept:character",
+      "kind": "concept",
+      "label": "character",
+      "count": 1
+    },
+    {
+      "id": "concept:co-identification",
+      "kind": "concept",
+      "label": "co-identification",
+      "count": 1
+    },
+    {
+      "id": "concept:cognitive commitment",
+      "kind": "concept",
+      "label": "cognitive commitment",
+      "count": 1
+    },
+    {
+      "id": "concept:cognitive interactional fitedness",
+      "kind": "concept",
+      "label": "cognitive interactional fitedness",
+      "count": 1
+    },
+    {
+      "id": "concept:cognitive leaping",
+      "kind": "concept",
+      "label": "cognitive leaping",
+      "count": 1
+    },
+    {
+      "id": "concept:cognitive prioritization",
+      "kind": "concept",
+      "label": "cognitive prioritization",
+      "count": 1
+    },
+    {
+      "id": "concept:cognitive scope",
+      "kind": "concept",
+      "label": "cognitive scope",
+      "count": 1
+    },
+    {
+      "id": "concept:cognitive tempering",
+      "kind": "concept",
+      "label": "cognitive tempering",
+      "count": 1
+    },
+    {
+      "id": "concept:combinatorial explosion",
+      "kind": "concept",
+      "label": "combinatorial explosion",
+      "count": 1
+    },
+    {
+      "id": "concept:communitas",
+      "kind": "concept",
+      "label": "communitas",
+      "count": 1
+    },
+    {
+      "id": "concept:competence vs. performance",
+      "kind": "concept",
+      "label": "competence vs. performance",
+      "count": 1
+    },
+    {
+      "id": "concept:compression",
+      "kind": "concept",
+      "label": "compression",
+      "count": 1
+    },
+    {
+      "id": "concept:computation",
+      "kind": "concept",
+      "label": "computation",
+      "count": 1
+    },
+    {
+      "id": "concept:confirmation bias",
+      "kind": "concept",
+      "label": "confirmation bias",
+      "count": 1
+    },
+    {
+      "id": "concept:conformity",
+      "kind": "concept",
+      "label": "conformity",
+      "count": 1
+    },
+    {
+      "id": "concept:conformity theory",
+      "kind": "concept",
+      "label": "conformity theory",
+      "count": 1
+    },
+    {
+      "id": "concept:constitutive goal",
+      "kind": "concept",
+      "label": "constitutive goal",
+      "count": 1
+    },
+    {
+      "id": "concept:contemplation",
+      "kind": "concept",
+      "label": "contemplation",
+      "count": 1
+    },
+    {
+      "id": "concept:continuity hypothesis",
+      "kind": "concept",
+      "label": "continuity hypothesis",
+      "count": 1
+    },
+    {
+      "id": "concept:continuous cosmos",
+      "kind": "concept",
+      "label": "continuous cosmos",
+      "count": 1
+    },
+    {
+      "id": "concept:convergence",
+      "kind": "concept",
+      "label": "convergence",
+      "count": 1
+    },
+    {
+      "id": "concept:conversational implicature",
+      "kind": "concept",
+      "label": "conversational implicature",
+      "count": 1
+    },
+    {
+      "id": "concept:counteractive dynamical system",
+      "kind": "concept",
+      "label": "counteractive dynamical system",
+      "count": 1
+    },
+    {
+      "id": "concept:credal dominance",
+      "kind": "concept",
+      "label": "credal dominance",
+      "count": 1
+    },
+    {
+      "id": "concept:credo",
+      "kind": "concept",
+      "label": "credo",
+      "count": 1
+    },
+    {
+      "id": "concept:criterion-setting",
+      "kind": "concept",
+      "label": "criterion-setting",
+      "count": 1
+    },
+    {
+      "id": "concept:da'ath",
+      "kind": "concept",
+      "label": "da'ath",
+      "count": 1
+    },
+    {
+      "id": "concept:deepity",
+      "kind": "concept",
+      "label": "deepity",
+      "count": 1
+    },
+    {
+      "id": "concept:dialectic",
+      "kind": "concept",
+      "label": "dialectic",
+      "count": 1
+    },
+    {
+      "id": "concept:disillusionment",
+      "kind": "concept",
+      "label": "disillusionment",
+      "count": 1
+    },
+    {
+      "id": "concept:disruptive strategies",
+      "kind": "concept",
+      "label": "disruptive strategies",
+      "count": 1
+    },
+    {
+      "id": "concept:divine double",
+      "kind": "concept",
+      "label": "divine double",
+      "count": 1
+    },
+    {
+      "id": "concept:domicide",
+      "kind": "concept",
+      "label": "domicide",
+      "count": 1
+    },
+    {
+      "id": "concept:dual processing",
+      "kind": "concept",
+      "label": "dual processing",
+      "count": 1
+    },
+    {
+      "id": "concept:dukkha",
+      "kind": "concept",
+      "label": "dukkha",
+      "count": 1
+    },
+    {
+      "id": "concept:dynamical systems",
+      "kind": "concept",
+      "label": "dynamical systems",
+      "count": 1
+    },
+    {
+      "id": "concept:ecstasis",
+      "kind": "concept",
+      "label": "ecstasis",
+      "count": 1
+    },
+    {
+      "id": "concept:efficiency",
+      "kind": "concept",
+      "label": "efficiency",
+      "count": 1
+    },
+    {
+      "id": "concept:eidos",
+      "kind": "concept",
+      "label": "eidos",
+      "count": 1
+    },
+    {
+      "id": "concept:elegance",
+      "kind": "concept",
+      "label": "elegance",
+      "count": 1
+    },
+    {
+      "id": "concept:embeddedness",
+      "kind": "concept",
+      "label": "embeddedness",
+      "count": 1
+    },
+    {
+      "id": "concept:embodiment",
+      "kind": "concept",
+      "label": "embodiment",
+      "count": 1
+    },
+    {
+      "id": "concept:emergence",
+      "kind": "concept",
+      "label": "emergence",
+      "count": 1
+    },
+    {
+      "id": "concept:enactive",
+      "kind": "concept",
+      "label": "enactive",
+      "count": 1
+    },
+    {
+      "id": "concept:enactive analogy",
+      "kind": "concept",
+      "label": "enactive analogy",
+      "count": 1
+    },
+    {
+      "id": "concept:enactive demonstrative reference",
+      "kind": "concept",
+      "label": "enactive demonstrative reference",
+      "count": 1
+    },
+    {
+      "id": "concept:encoding specificity",
+      "kind": "concept",
+      "label": "encoding specificity",
+      "count": 1
+    },
+    {
+      "id": "concept:enlightenment",
+      "kind": "concept",
+      "label": "enlightenment",
+      "count": 1
+    },
+    {
+      "id": "concept:equivocation",
+      "kind": "concept",
+      "label": "equivocation",
+      "count": 1
+    },
+    {
+      "id": "concept:eros",
+      "kind": "concept",
+      "label": "eros",
+      "count": 1
+    },
+    {
+      "id": "concept:existential inertia",
+      "kind": "concept",
+      "label": "existential inertia",
+      "count": 1
+    },
+    {
+      "id": "concept:exploitation",
+      "kind": "concept",
+      "label": "exploitation",
+      "count": 1
+    },
+    {
+      "id": "concept:exploration",
+      "kind": "concept",
+      "label": "exploration",
+      "count": 1
+    },
+    {
+      "id": "concept:expression",
+      "kind": "concept",
+      "label": "expression",
+      "count": 1
+    },
+    {
+      "id": "concept:extended mind",
+      "kind": "concept",
+      "label": "extended mind",
+      "count": 1
+    },
+    {
+      "id": "concept:fallacy vs. misunderstanding",
+      "kind": "concept",
+      "label": "fallacy vs. misunderstanding",
+      "count": 1
+    },
+    {
+      "id": "concept:fallibilism",
+      "kind": "concept",
+      "label": "fallibilism",
+      "count": 1
+    },
+    {
+      "id": "concept:finitary predicament",
+      "kind": "concept",
+      "label": "finitary predicament",
+      "count": 1
+    },
+    {
+      "id": "concept:finsting",
+      "kind": "concept",
+      "label": "finsting",
+      "count": 1
+    },
+    {
+      "id": "concept:fluency",
+      "kind": "concept",
+      "label": "fluency",
+      "count": 1
+    },
+    {
+      "id": "concept:forgiveness",
+      "kind": "concept",
+      "label": "forgiveness",
+      "count": 1
+    },
+    {
+      "id": "concept:frame problem",
+      "kind": "concept",
+      "label": "frame problem",
+      "count": 1
+    },
+    {
+      "id": "concept:geist",
+      "kind": "concept",
+      "label": "geist",
+      "count": 1
+    },
+    {
+      "id": "concept:general problem solver",
+      "kind": "concept",
+      "label": "general problem solver",
+      "count": 1
+    },
+    {
+      "id": "concept:gnosis agape",
+      "kind": "concept",
+      "label": "gnosis agape",
+      "count": 1
+    },
+    {
+      "id": "concept:gnosticism",
+      "kind": "concept",
+      "label": "gnosticism",
+      "count": 1
+    },
+    {
+      "id": "concept:god beyond god",
+      "kind": "concept",
+      "label": "god beyond god",
+      "count": 1
+    },
+    {
+      "id": "concept:golden mean",
+      "kind": "concept",
+      "label": "golden mean",
+      "count": 1
+    },
+    {
+      "id": "concept:having mode",
+      "kind": "concept",
+      "label": "having mode",
+      "count": 1
+    },
+    {
+      "id": "concept:heuristic",
+      "kind": "concept",
+      "label": "heuristic",
+      "count": 1
+    },
+    {
+      "id": "concept:heuristics",
+      "kind": "concept",
+      "label": "heuristics",
+      "count": 1
+    },
+    {
+      "id": "concept:holding in mind",
+      "kind": "concept",
+      "label": "holding in mind",
+      "count": 1
+    },
+    {
+      "id": "concept:horror",
+      "kind": "concept",
+      "label": "horror",
+      "count": 1
+    },
+    {
+      "id": "concept:hyperbolic discounting",
+      "kind": "concept",
+      "label": "hyperbolic discounting",
+      "count": 1
+    },
+    {
+      "id": "concept:ill-defined problem",
+      "kind": "concept",
+      "label": "ill-defined problem",
+      "count": 1
+    },
+    {
+      "id": "concept:imaginal realm",
+      "kind": "concept",
+      "label": "imaginal realm",
+      "count": 1
+    },
+    {
+      "id": "concept:imagination",
+      "kind": "concept",
+      "label": "imagination",
+      "count": 1
+    },
+    {
+      "id": "concept:implication",
+      "kind": "concept",
+      "label": "implication",
+      "count": 1
+    },
+    {
+      "id": "concept:implicit learning",
+      "kind": "concept",
+      "label": "implicit learning",
+      "count": 1
+    },
+    {
+      "id": "concept:indispensability",
+      "kind": "concept",
+      "label": "indispensability",
+      "count": 1
+    },
+    {
+      "id": "concept:individuation",
+      "kind": "concept",
+      "label": "individuation",
+      "count": 1
+    },
+    {
+      "id": "concept:indwelling",
+      "kind": "concept",
+      "label": "indwelling",
+      "count": 1
+    },
+    {
+      "id": "concept:inertial motion",
+      "kind": "concept",
+      "label": "inertial motion",
+      "count": 1
+    },
+    {
+      "id": "concept:inexhaustible coupling",
+      "kind": "concept",
+      "label": "inexhaustible coupling",
+      "count": 1
+    },
+    {
+      "id": "concept:inference",
+      "kind": "concept",
+      "label": "inference",
+      "count": 1
+    },
+    {
+      "id": "concept:infinite regress problem",
+      "kind": "concept",
+      "label": "infinite regress problem",
+      "count": 1
+    },
+    {
+      "id": "concept:inner conflict",
+      "kind": "concept",
+      "label": "inner conflict",
+      "count": 1
+    },
+    {
+      "id": "concept:insight cascade",
+      "kind": "concept",
+      "label": "insight cascade",
+      "count": 1
+    },
+    {
+      "id": "concept:integration",
+      "kind": "concept",
+      "label": "integration",
+      "count": 1
+    },
+    {
+      "id": "concept:inter-categorical",
+      "kind": "concept",
+      "label": "inter-categorical",
+      "count": 1
+    },
+    {
+      "id": "concept:internalizing the sage",
+      "kind": "concept",
+      "label": "internalizing the sage",
+      "count": 1
+    },
+    {
+      "id": "concept:interpretive knowledge",
+      "kind": "concept",
+      "label": "interpretive knowledge",
+      "count": 1
+    },
+    {
+      "id": "concept:lectio divina",
+      "kind": "concept",
+      "label": "lectio divina",
+      "count": 1
+    },
+    {
+      "id": "concept:logistical norms",
+      "kind": "concept",
+      "label": "logistical norms",
+      "count": 1
+    },
+    {
+      "id": "concept:maxims of conversation",
+      "kind": "concept",
+      "label": "maxims of conversation",
+      "count": 1
+    },
+    {
+      "id": "concept:meaning crisis",
+      "kind": "concept",
+      "label": "meaning crisis",
+      "count": 1
+    },
+    {
+      "id": "concept:meaning making",
+      "kind": "concept",
+      "label": "meaning making",
+      "count": 1
+    },
+    {
+      "id": "concept:meditation",
+      "kind": "concept",
+      "label": "meditation",
+      "count": 1
+    },
+    {
+      "id": "concept:meta-psychotechnology",
+      "kind": "concept",
+      "label": "meta-psychotechnology",
+      "count": 1
+    },
+    {
+      "id": "concept:metacrisis",
+      "kind": "concept",
+      "label": "metacrisis",
+      "count": 1
+    },
+    {
+      "id": "concept:metaheuristic",
+      "kind": "concept",
+      "label": "metaheuristic",
+      "count": 1
+    },
+    {
+      "id": "concept:method of correlation",
+      "kind": "concept",
+      "label": "method of correlation",
+      "count": 1
+    },
+    {
+      "id": "concept:middle path",
+      "kind": "concept",
+      "label": "middle path",
+      "count": 1
+    },
+    {
+      "id": "concept:mind-sight",
+      "kind": "concept",
+      "label": "mind-sight",
+      "count": 1
+    },
+    {
+      "id": "concept:mindset",
+      "kind": "concept",
+      "label": "mindset",
+      "count": 1
+    },
+    {
+      "id": "concept:miss-signal error",
+      "kind": "concept",
+      "label": "miss-signal error",
+      "count": 1
+    },
+    {
+      "id": "concept:mistake-noise error",
+      "kind": "concept",
+      "label": "mistake-noise error",
+      "count": 1
+    },
+    {
+      "id": "concept:mortality",
+      "kind": "concept",
+      "label": "mortality",
+      "count": 1
+    },
+    {
+      "id": "concept:music",
+      "kind": "concept",
+      "label": "music",
+      "count": 1
+    },
+    {
+      "id": "concept:mystery",
+      "kind": "concept",
+      "label": "mystery",
+      "count": 1
+    },
+    {
+      "id": "concept:mythos",
+      "kind": "concept",
+      "label": "mythos",
+      "count": 1
+    },
+    {
+      "id": "concept:narrative order",
+      "kind": "concept",
+      "label": "narrative order",
+      "count": 1
+    },
+    {
+      "id": "concept:nationalism",
+      "kind": "concept",
+      "label": "nationalism",
+      "count": 1
+    },
+    {
+      "id": "concept:nature/supernatural distinction",
+      "kind": "concept",
+      "label": "nature/supernatural distinction",
+      "count": 1
+    },
+    {
+      "id": "concept:need for cognition",
+      "kind": "concept",
+      "label": "need for cognition",
+      "count": 1
+    },
+    {
+      "id": "concept:neural avalanche",
+      "kind": "concept",
+      "label": "neural avalanche",
+      "count": 1
+    },
+    {
+      "id": "concept:niche construction",
+      "kind": "concept",
+      "label": "niche construction",
+      "count": 1
+    },
+    {
+      "id": "concept:nihilism",
+      "kind": "concept",
+      "label": "nihilism",
+      "count": 1
+    },
+    {
+      "id": "concept:noise",
+      "kind": "concept",
+      "label": "noise",
+      "count": 1
+    },
+    {
+      "id": "concept:nominalism",
+      "kind": "concept",
+      "label": "nominalism",
+      "count": 1
+    },
+    {
+      "id": "concept:non duality",
+      "kind": "concept",
+      "label": "non duality",
+      "count": 1
+    },
+    {
+      "id": "concept:non-duality",
+      "kind": "concept",
+      "label": "non-duality",
+      "count": 1
+    },
+    {
+      "id": "concept:normative order",
+      "kind": "concept",
+      "label": "normative order",
+      "count": 1
+    },
+    {
+      "id": "concept:normativity on construal",
+      "kind": "concept",
+      "label": "normativity on construal",
+      "count": 1
+    },
+    {
+      "id": "concept:nous",
+      "kind": "concept",
+      "label": "nous",
+      "count": 1
+    },
+    {
+      "id": "concept:objective attractiveness",
+      "kind": "concept",
+      "label": "objective attractiveness",
+      "count": 1
+    },
+    {
+      "id": "concept:ontonormativity",
+      "kind": "concept",
+      "label": "ontonormativity",
+      "count": 1
+    },
+    {
+      "id": "concept:open-ended optimization",
+      "kind": "concept",
+      "label": "open-ended optimization",
+      "count": 1
+    },
+    {
+      "id": "concept:optimal grip",
+      "kind": "concept",
+      "label": "optimal grip",
+      "count": 1
+    },
+    {
+      "id": "concept:overfitting",
+      "kind": "concept",
+      "label": "overfitting",
+      "count": 1
+    },
+    {
+      "id": "concept:participatory imagination",
+      "kind": "concept",
+      "label": "participatory imagination",
+      "count": 1
+    },
+    {
+      "id": "concept:particularization",
+      "kind": "concept",
+      "label": "particularization",
+      "count": 1
+    },
+    {
+      "id": "concept:perennial problems",
+      "kind": "concept",
+      "label": "perennial problems",
+      "count": 1
+    },
+    {
+      "id": "concept:phenomenology",
+      "kind": "concept",
+      "label": "phenomenology",
+      "count": 1
+    },
+    {
+      "id": "concept:philia",
+      "kind": "concept",
+      "label": "philia",
+      "count": 1
+    },
+    {
+      "id": "concept:phronesis",
+      "kind": "concept",
+      "label": "phronesis",
+      "count": 1
+    },
+    {
+      "id": "concept:physis (the rose)",
+      "kind": "concept",
+      "label": "physis (the rose)",
+      "count": 1
+    },
+    {
+      "id": "concept:poiesis",
+      "kind": "concept",
+      "label": "poiesis",
+      "count": 1
+    },
+    {
+      "id": "concept:potentiality",
+      "kind": "concept",
+      "label": "potentiality",
+      "count": 1
+    },
+    {
+      "id": "concept:prajña",
+      "kind": "concept",
+      "label": "prajña",
+      "count": 1
+    },
+    {
+      "id": "concept:premeditatio",
+      "kind": "concept",
+      "label": "premeditatio",
+      "count": 1
+    },
+    {
+      "id": "concept:primary qualities",
+      "kind": "concept",
+      "label": "primary qualities",
+      "count": 1
+    },
+    {
+      "id": "concept:problem finding",
+      "kind": "concept",
+      "label": "problem finding",
+      "count": 1
+    },
+    {
+      "id": "concept:problem formulation",
+      "kind": "concept",
+      "label": "problem formulation",
+      "count": 1
+    },
+    {
+      "id": "concept:problem space",
+      "kind": "concept",
+      "label": "problem space",
+      "count": 1
+    },
+    {
+      "id": "concept:procedural skill",
+      "kind": "concept",
+      "label": "procedural skill",
+      "count": 1
+    },
+    {
+      "id": "concept:process theory vs. product theory",
+      "kind": "concept",
+      "label": "process theory vs. product theory",
+      "count": 1
+    },
+    {
+      "id": "concept:profound understanding",
+      "kind": "concept",
+      "label": "profound understanding",
+      "count": 1
+    },
+    {
+      "id": "concept:proleptic rationality",
+      "kind": "concept",
+      "label": "proleptic rationality",
+      "count": 1
+    },
+    {
+      "id": "concept:propositional cognition",
+      "kind": "concept",
+      "label": "propositional cognition",
+      "count": 1
+    },
+    {
+      "id": "concept:propositional knowing",
+      "kind": "concept",
+      "label": "propositional knowing",
+      "count": 1
+    },
+    {
+      "id": "concept:psychedelic experience",
+      "kind": "concept",
+      "label": "psychedelic experience",
+      "count": 1
+    },
+    {
+      "id": "concept:psycho-technology",
+      "kind": "concept",
+      "label": "psycho-technology",
+      "count": 1
+    },
+    {
+      "id": "concept:psychological similarity",
+      "kind": "concept",
+      "label": "psychological similarity",
+      "count": 1
+    },
+    {
+      "id": "concept:purity codes",
+      "kind": "concept",
+      "label": "purity codes",
+      "count": 1
+    },
+    {
+      "id": "concept:qualia",
+      "kind": "concept",
+      "label": "qualia",
+      "count": 1
+    },
+    {
+      "id": "concept:quantum change",
+      "kind": "concept",
+      "label": "quantum change",
+      "count": 1
+    },
+    {
+      "id": "concept:rationality",
+      "kind": "concept",
+      "label": "rationality",
+      "count": 1
+    },
+    {
+      "id": "concept:reciprocal narrowing",
+      "kind": "concept",
+      "label": "reciprocal narrowing",
+      "count": 1
+    },
+    {
+      "id": "concept:reflectiveness gap",
+      "kind": "concept",
+      "label": "reflectiveness gap",
+      "count": 1
+    },
+    {
+      "id": "concept:representation",
+      "kind": "concept",
+      "label": "representation",
+      "count": 1
+    },
+    {
+      "id": "concept:resiliency",
+      "kind": "concept",
+      "label": "resiliency",
+      "count": 1
+    },
+    {
+      "id": "concept:resonant at onement",
+      "kind": "concept",
+      "label": "resonant at onement",
+      "count": 1
+    },
+    {
+      "id": "concept:reverse engineering enlightenment",
+      "kind": "concept",
+      "label": "reverse engineering enlightenment",
+      "count": 1
+    },
+    {
+      "id": "concept:romanticism",
+      "kind": "concept",
+      "label": "romanticism",
+      "count": 1
+    },
+    {
+      "id": "concept:s1 and s2 processing",
+      "kind": "concept",
+      "label": "s1 and s2 processing",
+      "count": 1
+    },
+    {
+      "id": "concept:sacred second self",
+      "kind": "concept",
+      "label": "sacred second self",
+      "count": 1
+    },
+    {
+      "id": "concept:salience",
+      "kind": "concept",
+      "label": "salience",
+      "count": 1
+    },
+    {
+      "id": "concept:salience landscape",
+      "kind": "concept",
+      "label": "salience landscape",
+      "count": 1
+    },
+    {
+      "id": "concept:salience network",
+      "kind": "concept",
+      "label": "salience network",
+      "count": 1
+    },
+    {
+      "id": "concept:salience tagging",
+      "kind": "concept",
+      "label": "salience tagging",
+      "count": 1
+    },
+    {
+      "id": "concept:sapiential obsolescence",
+      "kind": "concept",
+      "label": "sapiential obsolescence",
+      "count": 1
+    },
+    {
+      "id": "concept:scaling down",
+      "kind": "concept",
+      "label": "scaling down",
+      "count": 1
+    },
+    {
+      "id": "concept:scaling up",
+      "kind": "concept",
+      "label": "scaling up",
+      "count": 1
+    },
+    {
+      "id": "concept:scientia intuitiva",
+      "kind": "concept",
+      "label": "scientia intuitiva",
+      "count": 1
+    },
+    {
+      "id": "concept:second order thinking",
+      "kind": "concept",
+      "label": "second order thinking",
+      "count": 1
+    },
+    {
+      "id": "concept:secondary qualities",
+      "kind": "concept",
+      "label": "secondary qualities",
+      "count": 1
+    },
+    {
+      "id": "concept:seeing through illusion",
+      "kind": "concept",
+      "label": "seeing through illusion",
+      "count": 1
+    },
+    {
+      "id": "concept:self knowledge",
+      "kind": "concept",
+      "label": "self knowledge",
+      "count": 1
+    },
+    {
+      "id": "concept:self-organizing criticality",
+      "kind": "concept",
+      "label": "self-organizing criticality",
+      "count": 1
+    },
+    {
+      "id": "concept:sensibility transcendence",
+      "kind": "concept",
+      "label": "sensibility transcendence",
+      "count": 1
+    },
+    {
+      "id": "concept:serious play",
+      "kind": "concept",
+      "label": "serious play",
+      "count": 1
+    },
+    {
+      "id": "concept:shadow",
+      "kind": "concept",
+      "label": "shadow",
+      "count": 1
+    },
+    {
+      "id": "concept:shamanism",
+      "kind": "concept",
+      "label": "shamanism",
+      "count": 1
+    },
+    {
+      "id": "concept:side effects",
+      "kind": "concept",
+      "label": "side effects",
+      "count": 1
+    },
+    {
+      "id": "concept:sign",
+      "kind": "concept",
+      "label": "sign",
+      "count": 1
+    },
+    {
+      "id": "concept:signal",
+      "kind": "concept",
+      "label": "signal",
+      "count": 1
+    },
+    {
+      "id": "concept:signal detection theory",
+      "kind": "concept",
+      "label": "signal detection theory",
+      "count": 1
+    },
+    {
+      "id": "concept:situational awareness",
+      "kind": "concept",
+      "label": "situational awareness",
+      "count": 1
+    },
+    {
+      "id": "concept:skill of judgment",
+      "kind": "concept",
+      "label": "skill of judgment",
+      "count": 1
+    },
+    {
+      "id": "concept:small world networks",
+      "kind": "concept",
+      "label": "small world networks",
+      "count": 1
+    },
+    {
+      "id": "concept:socratic method",
+      "kind": "concept",
+      "label": "socratic method",
+      "count": 1
+    },
+    {
+      "id": "concept:solomon effect",
+      "kind": "concept",
+      "label": "solomon effect",
+      "count": 1
+    },
+    {
+      "id": "concept:sophia",
+      "kind": "concept",
+      "label": "sophia",
+      "count": 1
+    },
+    {
+      "id": "concept:subjective attraction",
+      "kind": "concept",
+      "label": "subjective attraction",
+      "count": 1
+    },
+    {
+      "id": "concept:symbol resonance",
+      "kind": "concept",
+      "label": "symbol resonance",
+      "count": 1
+    },
+    {
+      "id": "concept:synchronicity",
+      "kind": "concept",
+      "label": "synchronicity",
+      "count": 1
+    },
+    {
+      "id": "concept:synchrony",
+      "kind": "concept",
+      "label": "synchrony",
+      "count": 1
+    },
+    {
+      "id": "concept:synoptic integration",
+      "kind": "concept",
+      "label": "synoptic integration",
+      "count": 1
+    },
+    {
+      "id": "concept:systematic seeing through illusion",
+      "kind": "concept",
+      "label": "systematic seeing through illusion",
+      "count": 1
+    },
+    {
+      "id": "concept:tacit understanding",
+      "kind": "concept",
+      "label": "tacit understanding",
+      "count": 1
+    },
+    {
+      "id": "concept:the one",
+      "kind": "concept",
+      "label": "the one",
+      "count": 1
+    },
+    {
+      "id": "concept:the spirit of finesse",
+      "kind": "concept",
+      "label": "the spirit of finesse",
+      "count": 1
+    },
+    {
+      "id": "concept:the way",
+      "kind": "concept",
+      "label": "the way",
+      "count": 1
+    },
+    {
+      "id": "concept:theonomous",
+      "kind": "concept",
+      "label": "theonomous",
+      "count": 1
+    },
+    {
+      "id": "concept:theosis",
+      "kind": "concept",
+      "label": "theosis",
+      "count": 1
+    },
+    {
+      "id": "concept:three-level mythos",
+      "kind": "concept",
+      "label": "three-level mythos",
+      "count": 1
+    },
+    {
+      "id": "concept:thymos",
+      "kind": "concept",
+      "label": "thymos",
+      "count": 1
+    },
+    {
+      "id": "concept:transcendence into",
+      "kind": "concept",
+      "label": "transcendence into",
+      "count": 1
+    },
+    {
+      "id": "concept:transformative experience",
+      "kind": "concept",
+      "label": "transformative experience",
+      "count": 1
+    },
+    {
+      "id": "concept:ultimate concern",
+      "kind": "concept",
+      "label": "ultimate concern",
+      "count": 1
+    },
+    {
+      "id": "concept:understanding",
+      "kind": "concept",
+      "label": "understanding",
+      "count": 1
+    },
+    {
+      "id": "concept:virtual engine",
+      "kind": "concept",
+      "label": "virtual engine",
+      "count": 1
+    },
+    {
+      "id": "concept:well-defined problem",
+      "kind": "concept",
+      "label": "well-defined problem",
+      "count": 1
+    },
+    {
+      "id": "concept:wiki-credo",
+      "kind": "concept",
+      "label": "wiki-credo",
+      "count": 1
+    },
+    {
+      "id": "concept:will to live",
+      "kind": "concept",
+      "label": "will to live",
+      "count": 1
+    },
+    {
+      "id": "concept:will to power",
+      "kind": "concept",
+      "label": "will to power",
+      "count": 1
+    },
+    {
+      "id": "concept:wise cultivation of enlightenment",
+      "kind": "concept",
+      "label": "wise cultivation of enlightenment",
+      "count": 1
+    },
+    {
+      "id": "concept:wonder",
+      "kind": "concept",
+      "label": "wonder",
+      "count": 1
+    },
+    {
+      "id": "concept:working memory",
+      "kind": "concept",
+      "label": "working memory",
+      "count": 1
+    },
+    {
+      "id": "concept:worldview",
+      "kind": "concept",
+      "label": "worldview",
+      "count": 1
+    },
+    {
+      "id": "person:Plato",
+      "kind": "person",
+      "label": "Plato",
+      "count": 7
+    },
+    {
+      "id": "person:Aristotle",
+      "kind": "person",
+      "label": "Aristotle",
+      "count": 5
+    },
+    {
+      "id": "person:Heidegger",
+      "kind": "person",
+      "label": "Heidegger",
+      "count": 5
+    },
+    {
+      "id": "person:Leo Ferraro",
+      "kind": "person",
+      "label": "Leo Ferraro",
+      "count": 5
+    },
+    {
+      "id": "person:Carl Jung",
+      "kind": "person",
+      "label": "Carl Jung",
+      "count": 4
+    },
+    {
+      "id": "person:John Vervaeke",
+      "kind": "person",
+      "label": "John Vervaeke",
+      "count": 4
+    },
+    {
+      "id": "person:Meister Eckhart",
+      "kind": "person",
+      "label": "Meister Eckhart",
+      "count": 4
+    },
+    {
+      "id": "person:Nietzsche",
+      "kind": "person",
+      "label": "Nietzsche",
+      "count": 4
+    },
+    {
+      "id": "person:Paul Tillich",
+      "kind": "person",
+      "label": "Paul Tillich",
+      "count": 4
+    },
+    {
+      "id": "person:Robert Sternberg",
+      "kind": "person",
+      "label": "Robert Sternberg",
+      "count": 4
+    },
+    {
+      "id": "person:Socrates",
+      "kind": "person",
+      "label": "Socrates",
+      "count": 4
+    },
+    {
+      "id": "person:the Buddha",
+      "kind": "person",
+      "label": "the Buddha",
+      "count": 4
+    },
+    {
+      "id": "person:Agnes Callard",
+      "kind": "person",
+      "label": "Agnes Callard",
+      "count": 3
+    },
+    {
+      "id": "person:Charles Taylor",
+      "kind": "person",
+      "label": "Charles Taylor",
+      "count": 3
+    },
+    {
+      "id": "person:Harry Frankfurt",
+      "kind": "person",
+      "label": "Harry Frankfurt",
+      "count": 3
+    },
+    {
+      "id": "person:Herbert Simon",
+      "kind": "person",
+      "label": "Herbert Simon",
+      "count": 3
+    },
+    {
+      "id": "person:Hubert Dreyfus",
+      "kind": "person",
+      "label": "Hubert Dreyfus",
+      "count": 3
+    },
+    {
+      "id": "person:Jesus",
+      "kind": "person",
+      "label": "Jesus",
+      "count": 3
+    },
+    {
+      "id": "person:Kant",
+      "kind": "person",
+      "label": "Kant",
+      "count": 3
+    },
+    {
+      "id": "person:Keith Stanovich",
+      "kind": "person",
+      "label": "Keith Stanovich",
+      "count": 3
+    },
+    {
+      "id": "person:L.A. Paul",
+      "kind": "person",
+      "label": "L.A. Paul",
+      "count": 3
+    },
+    {
+      "id": "person:Michael Polanyi",
+      "kind": "person",
+      "label": "Michael Polanyi",
+      "count": 3
+    },
+    {
+      "id": "person:Owen Barfield",
+      "kind": "person",
+      "label": "Owen Barfield",
+      "count": 3
+    },
+    {
+      "id": "person:Paul",
+      "kind": "person",
+      "label": "Paul",
+      "count": 3
+    },
+    {
+      "id": "person:Susan Wolf",
+      "kind": "person",
+      "label": "Susan Wolf",
+      "count": 3
+    },
+    {
+      "id": "person:Allen Newell",
+      "kind": "person",
+      "label": "Allen Newell",
+      "count": 2
+    },
+    {
+      "id": "person:Antonio Damasio",
+      "kind": "person",
+      "label": "Antonio Damasio",
+      "count": 2
+    },
+    {
+      "id": "person:Arthur Schopenhauer",
+      "kind": "person",
+      "label": "Arthur Schopenhauer",
+      "count": 2
+    },
+    {
+      "id": "person:Augustine",
+      "kind": "person",
+      "label": "Augustine",
+      "count": 2
+    },
+    {
+      "id": "person:Blaise Pascal",
+      "kind": "person",
+      "label": "Blaise Pascal",
+      "count": 2
+    },
+    {
+      "id": "person:Blake Richards",
+      "kind": "person",
+      "label": "Blake Richards",
+      "count": 2
+    },
+    {
+      "id": "person:Charles Darwin",
+      "kind": "person",
+      "label": "Charles Darwin",
+      "count": 2
+    },
+    {
+      "id": "person:Christopher Cherniak",
+      "kind": "person",
+      "label": "Christopher Cherniak",
+      "count": 2
+    },
+    {
+      "id": "person:Christopher Mole",
+      "kind": "person",
+      "label": "Christopher Mole",
+      "count": 2
+    },
+    {
+      "id": "person:Clifford Geertz",
+      "kind": "person",
+      "label": "Clifford Geertz",
+      "count": 2
+    },
+    {
+      "id": "person:D.T. Suzuki",
+      "kind": "person",
+      "label": "D.T. Suzuki",
+      "count": 2
+    },
+    {
+      "id": "person:Daniel Dennett",
+      "kind": "person",
+      "label": "Daniel Dennett",
+      "count": 2
+    },
+    {
+      "id": "person:Dreyfus",
+      "kind": "person",
+      "label": "Dreyfus",
+      "count": 2
+    },
+    {
+      "id": "person:Edmund Husserl",
+      "kind": "person",
+      "label": "Edmund Husserl",
+      "count": 2
+    },
+    {
+      "id": "person:Ellen Langer",
+      "kind": "person",
+      "label": "Ellen Langer",
+      "count": 2
+    },
+    {
+      "id": "person:Eric Perl",
+      "kind": "person",
+      "label": "Eric Perl",
+      "count": 2
+    },
+    {
+      "id": "person:Henry Corbin",
+      "kind": "person",
+      "label": "Henry Corbin",
+      "count": 2
+    },
+    {
+      "id": "person:J.D. Velleman",
+      "kind": "person",
+      "label": "J.D. Velleman",
+      "count": 2
+    },
+    {
+      "id": "person:Jean Piaget",
+      "kind": "person",
+      "label": "Jean Piaget",
+      "count": 2
+    },
+    {
+      "id": "person:John Kekes",
+      "kind": "person",
+      "label": "John Kekes",
+      "count": 2
+    },
+    {
+      "id": "person:John Searle",
+      "kind": "person",
+      "label": "John Searle",
+      "count": 2
+    },
+    {
+      "id": "person:Jonathan Baron",
+      "kind": "person",
+      "label": "Jonathan Baron",
+      "count": 2
+    },
+    {
+      "id": "person:Jordan Hall",
+      "kind": "person",
+      "label": "Jordan Hall",
+      "count": 2
+    },
+    {
+      "id": "person:Karl Marx",
+      "kind": "person",
+      "label": "Karl Marx",
+      "count": 2
+    },
+    {
+      "id": "person:L. Jonathan Cohen",
+      "kind": "person",
+      "label": "L. Jonathan Cohen",
+      "count": 2
+    },
+    {
+      "id": "person:Ludwig Wittgenstein",
+      "kind": "person",
+      "label": "Ludwig Wittgenstein",
+      "count": 2
+    },
+    {
+      "id": "person:Markus Brede",
+      "kind": "person",
+      "label": "Markus Brede",
+      "count": 2
+    },
+    {
+      "id": "person:Martin Luther",
+      "kind": "person",
+      "label": "Martin Luther",
+      "count": 2
+    },
+    {
+      "id": "person:Michael Anderson",
+      "kind": "person",
+      "label": "Michael Anderson",
+      "count": 2
+    },
+    {
+      "id": "person:Pamela Arlin",
+      "kind": "person",
+      "label": "Pamela Arlin",
+      "count": 2
+    },
+    {
+      "id": "person:Paul Baltes",
+      "kind": "person",
+      "label": "Paul Baltes",
+      "count": 2
+    },
+    {
+      "id": "person:Pierre Hadot",
+      "kind": "person",
+      "label": "Pierre Hadot",
+      "count": 2
+    },
+    {
+      "id": "person:Plotinus",
+      "kind": "person",
+      "label": "Plotinus",
+      "count": 2
+    },
+    {
+      "id": "person:Pythagoras",
+      "kind": "person",
+      "label": "Pythagoras",
+      "count": 2
+    },
+    {
+      "id": "person:René Descartes",
+      "kind": "person",
+      "label": "René Descartes",
+      "count": 2
+    },
+    {
+      "id": "person:Spinoza",
+      "kind": "person",
+      "label": "Spinoza",
+      "count": 2
+    },
+    {
+      "id": "person:Stephen Batchelor",
+      "kind": "person",
+      "label": "Stephen Batchelor",
+      "count": 2
+    },
+    {
+      "id": "person:Thomas Nagel",
+      "kind": "person",
+      "label": "Thomas Nagel",
+      "count": 2
+    },
+    {
+      "id": "person:Tomas Björkman",
+      "kind": "person",
+      "label": "Tomas Björkman",
+      "count": 2
+    },
+    {
+      "id": "person:Ursula Staudinger",
+      "kind": "person",
+      "label": "Ursula Staudinger",
+      "count": 2
+    },
+    {
+      "id": "person:Adolf Hitler",
+      "kind": "person",
+      "label": "Adolf Hitler",
+      "count": 1
+    },
+    {
+      "id": "person:Ainslie",
+      "kind": "person",
+      "label": "Ainslie",
+      "count": 1
+    },
+    {
+      "id": "person:Alain de Botton",
+      "kind": "person",
+      "label": "Alain de Botton",
+      "count": 1
+    },
+    {
+      "id": "person:Alicia Juarrero",
+      "kind": "person",
+      "label": "Alicia Juarrero",
+      "count": 1
+    },
+    {
+      "id": "person:Ammonius Saccas",
+      "kind": "person",
+      "label": "Ammonius Saccas",
+      "count": 1
+    },
+    {
+      "id": "person:Andrew Newberg",
+      "kind": "person",
+      "label": "Andrew Newberg",
+      "count": 1
+    },
+    {
+      "id": "person:Andrew Ortony",
+      "kind": "person",
+      "label": "Andrew Ortony",
+      "count": 1
+    },
+    {
+      "id": "person:Andy Clark",
+      "kind": "person",
+      "label": "Andy Clark",
+      "count": 1
+    },
+    {
+      "id": "person:Antisthenes",
+      "kind": "person",
+      "label": "Antisthenes",
+      "count": 1
+    },
+    {
+      "id": "person:Aquinas",
+      "kind": "person",
+      "label": "Aquinas",
+      "count": 1
+    },
+    {
+      "id": "person:Arne Cherniak",
+      "kind": "person",
+      "label": "Arne Cherniak",
+      "count": 1
+    },
+    {
+      "id": "person:Arthur Reber",
+      "kind": "person",
+      "label": "Arthur Reber",
+      "count": 1
+    },
+    {
+      "id": "person:Arthur Versluis",
+      "kind": "person",
+      "label": "Arthur Versluis",
+      "count": 1
+    },
+    {
+      "id": "person:Barry Schwartz",
+      "kind": "person",
+      "label": "Barry Schwartz",
+      "count": 1
+    },
+    {
+      "id": "person:Bernard Baars",
+      "kind": "person",
+      "label": "Bernard Baars",
+      "count": 1
+    },
+    {
+      "id": "person:Buddhism/Buddhist tradition",
+      "kind": "person",
+      "label": "Buddhism/Buddhist tradition",
+      "count": 1
+    },
+    {
+      "id": "person:Carol Dweck",
+      "kind": "person",
+      "label": "Carol Dweck",
+      "count": 1
+    },
+    {
+      "id": "person:Charles Spearman",
+      "kind": "person",
+      "label": "Charles Spearman",
+      "count": 1
+    },
+    {
+      "id": "person:Clifton Barber",
+      "kind": "person",
+      "label": "Clifton Barber",
+      "count": 1
+    },
+    {
+      "id": "person:Copernicus",
+      "kind": "person",
+      "label": "Copernicus",
+      "count": 1
+    },
+    {
+      "id": "person:Cosmeliet al.",
+      "kind": "person",
+      "label": "Cosmeliet al.",
+      "count": 1
+    },
+    {
+      "id": "person:Craig Kaplan",
+      "kind": "person",
+      "label": "Craig Kaplan",
+      "count": 1
+    },
+    {
+      "id": "person:Csikszentmihalyi",
+      "kind": "person",
+      "label": "Csikszentmihalyi",
+      "count": 1
+    },
+    {
+      "id": "person:Dan Sperber",
+      "kind": "person",
+      "label": "Dan Sperber",
+      "count": 1
+    },
+    {
+      "id": "person:Daniel Kahneman",
+      "kind": "person",
+      "label": "Daniel Kahneman",
+      "count": 1
+    },
+    {
+      "id": "person:David Chalmers",
+      "kind": "person",
+      "label": "David Chalmers",
+      "count": 1
+    },
+    {
+      "id": "person:David Lewis-Williams",
+      "kind": "person",
+      "label": "David Lewis-Williams",
+      "count": 1
+    },
+    {
+      "id": "person:David Yaden",
+      "kind": "person",
+      "label": "David Yaden",
+      "count": 1
+    },
+    {
+      "id": "person:Deirdre Wilson",
+      "kind": "person",
+      "label": "Deirdre Wilson",
+      "count": 1
+    },
+    {
+      "id": "person:Dennis Walsh",
+      "kind": "person",
+      "label": "Dennis Walsh",
+      "count": 1
+    },
+    {
+      "id": "person:Diogenes",
+      "kind": "person",
+      "label": "Diogenes",
+      "count": 1
+    },
+    {
+      "id": "person:Elijah Millgram",
+      "kind": "person",
+      "label": "Elijah Millgram",
+      "count": 1
+    },
+    {
+      "id": "person:Epictetus",
+      "kind": "person",
+      "label": "Epictetus",
+      "count": 1
+    },
+    {
+      "id": "person:Epicurus",
+      "kind": "person",
+      "label": "Epicurus",
+      "count": 1
+    },
+    {
+      "id": "person:Erasmus",
+      "kind": "person",
+      "label": "Erasmus",
+      "count": 1
+    },
+    {
+      "id": "person:Erich Fromm",
+      "kind": "person",
+      "label": "Erich Fromm",
+      "count": 1
+    },
+    {
+      "id": "person:Evan Thompson",
+      "kind": "person",
+      "label": "Evan Thompson",
+      "count": 1
+    },
+    {
+      "id": "person:Francisco Varela",
+      "kind": "person",
+      "label": "Francisco Varela",
+      "count": 1
+    },
+    {
+      "id": "person:Friedrich Schleiermacher",
+      "kind": "person",
+      "label": "Friedrich Schleiermacher",
+      "count": 1
+    },
+    {
+      "id": "person:Gabriel Marcel",
+      "kind": "person",
+      "label": "Gabriel Marcel",
+      "count": 1
+    },
+    {
+      "id": "person:Galileo",
+      "kind": "person",
+      "label": "Galileo",
+      "count": 1
+    },
+    {
+      "id": "person:Georg Wilhelm Friedrich Hegel",
+      "kind": "person",
+      "label": "Georg Wilhelm Friedrich Hegel",
+      "count": 1
+    },
+    {
+      "id": "person:George Lakoff",
+      "kind": "person",
+      "label": "George Lakoff",
+      "count": 1
+    },
+    {
+      "id": "person:George Pólya",
+      "kind": "person",
+      "label": "George Pólya",
+      "count": 1
+    },
+    {
+      "id": "person:Gibson",
+      "kind": "person",
+      "label": "Gibson",
+      "count": 1
+    },
+    {
+      "id": "person:Gregg Jacobs",
+      "kind": "person",
+      "label": "Gregg Jacobs",
+      "count": 1
+    },
+    {
+      "id": "person:H.P. Grice",
+      "kind": "person",
+      "label": "H.P. Grice",
+      "count": 1
+    },
+    {
+      "id": "person:Harold Brown",
+      "kind": "person",
+      "label": "Harold Brown",
+      "count": 1
+    },
+    {
+      "id": "person:Henk de Regt",
+      "kind": "person",
+      "label": "Henk de Regt",
+      "count": 1
+    },
+    {
+      "id": "person:Herbert Dreyfus",
+      "kind": "person",
+      "label": "Herbert Dreyfus",
+      "count": 1
+    },
+    {
+      "id": "person:Hess and Gross",
+      "kind": "person",
+      "label": "Hess and Gross",
+      "count": 1
+    },
+    {
+      "id": "person:Hilger et al.",
+      "kind": "person",
+      "label": "Hilger et al.",
+      "count": 1
+    },
+    {
+      "id": "person:Huston Smith",
+      "kind": "person",
+      "label": "Huston Smith",
+      "count": 1
+    },
+    {
+      "id": "person:Igor Grossman",
+      "kind": "person",
+      "label": "Igor Grossman",
+      "count": 1
+    },
+    {
+      "id": "person:Igor Grossmann",
+      "kind": "person",
+      "label": "Igor Grossmann",
+      "count": 1
+    },
+    {
+      "id": "person:Iris Murdoch",
+      "kind": "person",
+      "label": "Iris Murdoch",
+      "count": 1
+    },
+    {
+      "id": "person:Jacquelyn Baker-Sennett",
+      "kind": "person",
+      "label": "Jacquelyn Baker-Sennett",
+      "count": 1
+    },
+    {
+      "id": "person:James",
+      "kind": "person",
+      "label": "James",
+      "count": 1
+    },
+    {
+      "id": "person:James Carse",
+      "kind": "person",
+      "label": "James Carse",
+      "count": 1
+    },
+    {
+      "id": "person:Jerry Fodor",
+      "kind": "person",
+      "label": "Jerry Fodor",
+      "count": 1
+    },
+    {
+      "id": "person:Johann Wolfgang von Goethe",
+      "kind": "person",
+      "label": "Johann Wolfgang von Goethe",
+      "count": 1
+    },
+    {
+      "id": "person:John",
+      "kind": "person",
+      "label": "John",
+      "count": 1
+    },
+    {
+      "id": "person:John Dourley",
+      "kind": "person",
+      "label": "John Dourley",
+      "count": 1
+    },
+    {
+      "id": "person:John Kennedy",
+      "kind": "person",
+      "label": "John Kennedy",
+      "count": 1
+    },
+    {
+      "id": "person:John Stuart Mill",
+      "kind": "person",
+      "label": "John Stuart Mill",
+      "count": 1
+    },
+    {
+      "id": "person:John Teasdale",
+      "kind": "person",
+      "label": "John Teasdale",
+      "count": 1
+    },
+    {
+      "id": "person:Jonathan Pageau",
+      "kind": "person",
+      "label": "Jonathan Pageau",
+      "count": 1
+    },
+    {
+      "id": "person:Jorn Smedslund",
+      "kind": "person",
+      "label": "Jorn Smedslund",
+      "count": 1
+    },
+    {
+      "id": "person:Karen Armstrong",
+      "kind": "person",
+      "label": "Karen Armstrong",
+      "count": 1
+    },
+    {
+      "id": "person:Karl Jaspers",
+      "kind": "person",
+      "label": "Karl Jaspers",
+      "count": 1
+    },
+    {
+      "id": "person:Keiji Nishitani",
+      "kind": "person",
+      "label": "Keiji Nishitani",
+      "count": 1
+    },
+    {
+      "id": "person:Keith Holyoak",
+      "kind": "person",
+      "label": "Keith Holyoak",
+      "count": 1
+    },
+    {
+      "id": "person:Kelso and Tognoli",
+      "kind": "person",
+      "label": "Kelso and Tognoli",
+      "count": 1
+    },
+    {
+      "id": "person:Kenneth Sharpe",
+      "kind": "person",
+      "label": "Kenneth Sharpe",
+      "count": 1
+    },
+    {
+      "id": "person:Kitaro Nishida",
+      "kind": "person",
+      "label": "Kitaro Nishida",
+      "count": 1
+    },
+    {
+      "id": "person:Lakoff",
+      "kind": "person",
+      "label": "Lakoff",
+      "count": 1
+    },
+    {
+      "id": "person:Langer et al.",
+      "kind": "person",
+      "label": "Langer et al.",
+      "count": 1
+    },
+    {
+      "id": "person:Lau",
+      "kind": "person",
+      "label": "Lau",
+      "count": 1
+    },
+    {
+      "id": "person:Lau (neuroscientist)",
+      "kind": "person",
+      "label": "Lau (neuroscientist)",
+      "count": 1
+    },
+    {
+      "id": "person:Lawrence Barsalou",
+      "kind": "person",
+      "label": "Lawrence Barsalou",
+      "count": 1
+    },
+    {
+      "id": "person:Leonardo Ferraro",
+      "kind": "person",
+      "label": "Leonardo Ferraro",
+      "count": 1
+    },
+    {
+      "id": "person:Ludwig Feuerbach",
+      "kind": "person",
+      "label": "Ludwig Feuerbach",
+      "count": 1
+    },
+    {
+      "id": "person:Ludwig van Beethoven",
+      "kind": "person",
+      "label": "Ludwig van Beethoven",
+      "count": 1
+    },
+    {
+      "id": "person:Lynn Hasher",
+      "kind": "person",
+      "label": "Lynn Hasher",
+      "count": 1
+    },
+    {
+      "id": "person:Marc Lewis",
+      "kind": "person",
+      "label": "Marc Lewis",
+      "count": 1
+    },
+    {
+      "id": "person:Marcus Aurelius",
+      "kind": "person",
+      "label": "Marcus Aurelius",
+      "count": 1
+    },
+    {
+      "id": "person:Mark Johnson",
+      "kind": "person",
+      "label": "Mark Johnson",
+      "count": 1
+    },
+    {
+      "id": "person:Mark Rowlands",
+      "kind": "person",
+      "label": "Mark Rowlands",
+      "count": 1
+    },
+    {
+      "id": "person:Mark Taylor",
+      "kind": "person",
+      "label": "Mark Taylor",
+      "count": 1
+    },
+    {
+      "id": "person:Martin Buber",
+      "kind": "person",
+      "label": "Martin Buber",
+      "count": 1
+    },
+    {
+      "id": "person:Mary Douglas",
+      "kind": "person",
+      "label": "Mary Douglas",
+      "count": 1
+    },
+    {
+      "id": "person:Matt Rossano",
+      "kind": "person",
+      "label": "Matt Rossano",
+      "count": 1
+    },
+    {
+      "id": "person:Maurice Merleau-Ponty",
+      "kind": "person",
+      "label": "Maurice Merleau-Ponty",
+      "count": 1
+    },
+    {
+      "id": "person:Max Black",
+      "kind": "person",
+      "label": "Max Black",
+      "count": 1
+    },
+    {
+      "id": "person:Max Weber",
+      "kind": "person",
+      "label": "Max Weber",
+      "count": 1
+    },
+    {
+      "id": "person:McKee and Barber",
+      "kind": "person",
+      "label": "McKee and Barber",
+      "count": 1
+    },
+    {
+      "id": "person:Michael Winkelman",
+      "kind": "person",
+      "label": "Michael Winkelman",
+      "count": 1
+    },
+    {
+      "id": "person:Monica",
+      "kind": "person",
+      "label": "Monica",
+      "count": 1
+    },
+    {
+      "id": "person:Monika Ardelt",
+      "kind": "person",
+      "label": "Monika Ardelt",
+      "count": 1
+    },
+    {
+      "id": "person:Monti et al.",
+      "kind": "person",
+      "label": "Monti et al.",
+      "count": 1
+    },
+    {
+      "id": "person:Murray Shanahan",
+      "kind": "person",
+      "label": "Murray Shanahan",
+      "count": 1
+    },
+    {
+      "id": "person:Nelson Goodman",
+      "kind": "person",
+      "label": "Nelson Goodman",
+      "count": 1
+    },
+    {
+      "id": "person:Ockham",
+      "kind": "person",
+      "label": "Ockham",
+      "count": 1
+    },
+    {
+      "id": "person:Otto von Bismarck",
+      "kind": "person",
+      "label": "Otto von Bismarck",
+      "count": 1
+    },
+    {
+      "id": "person:Paolo Costa",
+      "kind": "person",
+      "label": "Paolo Costa",
+      "count": 1
+    },
+    {
+      "id": "person:Patrick McKee",
+      "kind": "person",
+      "label": "Patrick McKee",
+      "count": 1
+    },
+    {
+      "id": "person:Per Bak",
+      "kind": "person",
+      "label": "Per Bak",
+      "count": 1
+    },
+    {
+      "id": "person:Read Montague",
+      "kind": "person",
+      "label": "Read Montague",
+      "count": 1
+    },
+    {
+      "id": "person:Reicher",
+      "kind": "person",
+      "label": "Reicher",
+      "count": 1
+    },
+    {
+      "id": "person:Richard Dawkins",
+      "kind": "person",
+      "label": "Richard Dawkins",
+      "count": 1
+    },
+    {
+      "id": "person:Robert Fuller",
+      "kind": "person",
+      "label": "Robert Fuller",
+      "count": 1
+    },
+    {
+      "id": "person:Robin Hogarth",
+      "kind": "person",
+      "label": "Robin Hogarth",
+      "count": 1
+    },
+    {
+      "id": "person:Rudolf Otto",
+      "kind": "person",
+      "label": "Rudolf Otto",
+      "count": 1
+    },
+    {
+      "id": "person:Rudolf Steiner",
+      "kind": "person",
+      "label": "Rudolf Steiner",
+      "count": 1
+    },
+    {
+      "id": "person:Samuel Taylor Coleridge",
+      "kind": "person",
+      "label": "Samuel Taylor Coleridge",
+      "count": 1
+    },
+    {
+      "id": "person:Schilling",
+      "kind": "person",
+      "label": "Schilling",
+      "count": 1
+    },
+    {
+      "id": "person:Sebastian Watzl",
+      "kind": "person",
+      "label": "Sebastian Watzl",
+      "count": 1
+    },
+    {
+      "id": "person:Søren Kierkegaard",
+      "kind": "person",
+      "label": "Søren Kierkegaard",
+      "count": 1
+    },
+    {
+      "id": "person:Stephen",
+      "kind": "person",
+      "label": "Stephen",
+      "count": 1
+    },
+    {
+      "id": "person:Stephen and Dixon",
+      "kind": "person",
+      "label": "Stephen and Dixon",
+      "count": 1
+    },
+    {
+      "id": "person:Stephen Ceci",
+      "kind": "person",
+      "label": "Stephen Ceci",
+      "count": 1
+    },
+    {
+      "id": "person:Thatcher et al.",
+      "kind": "person",
+      "label": "Thatcher et al.",
+      "count": 1
+    },
+    {
+      "id": "person:Thomas Hobbes",
+      "kind": "person",
+      "label": "Thomas Hobbes",
+      "count": 1
+    },
+    {
+      "id": "person:Tim Lilicrap",
+      "kind": "person",
+      "label": "Tim Lilicrap",
+      "count": 1
+    },
+    {
+      "id": "person:Tim Lillicrap",
+      "kind": "person",
+      "label": "Tim Lillicrap",
+      "count": 1
+    },
+    {
+      "id": "person:Tom Cheetham",
+      "kind": "person",
+      "label": "Tom Cheetham",
+      "count": 1
+    },
+    {
+      "id": "person:Tononi",
+      "kind": "person",
+      "label": "Tononi",
+      "count": 1
+    },
+    {
+      "id": "person:Ursula Goodenough",
+      "kind": "person",
+      "label": "Ursula Goodenough",
+      "count": 1
+    },
+    {
+      "id": "person:Victor Turner",
+      "kind": "person",
+      "label": "Victor Turner",
+      "count": 1
+    },
+    {
+      "id": "person:Vilayanur Ramachandran",
+      "kind": "person",
+      "label": "Vilayanur Ramachandran",
+      "count": 1
+    },
+    {
+      "id": "person:Willard Quine",
+      "kind": "person",
+      "label": "Willard Quine",
+      "count": 1
+    },
+    {
+      "id": "person:William James",
+      "kind": "person",
+      "label": "William James",
+      "count": 1
+    },
+    {
+      "id": "person:Wolfgang Pauli",
+      "kind": "person",
+      "label": "Wolfgang Pauli",
+      "count": 1
+    },
+    {
+      "id": "person:Woodward",
+      "kind": "person",
+      "label": "Woodward",
+      "count": 1
+    },
+    {
+      "id": "person:Zeno of Citium",
+      "kind": "person",
+      "label": "Zeno of Citium",
+      "count": 1
+    },
+    {
+      "id": "person:Zenon Pylyshyn",
+      "kind": "person",
+      "label": "Zenon Pylyshyn",
+      "count": 1
+    }
+  ],
+  "links": [
+    {
+      "source": "ep:0",
+      "target": "concept:meaning crisis",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:0",
+      "target": "concept:wisdom",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:0",
+      "target": "concept:self-transcendence",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:0",
+      "target": "concept:altered states",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:0",
+      "target": "concept:psychedelic experience",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:0",
+      "target": "concept:awakening",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:0",
+      "target": "person:Socrates",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:0",
+      "target": "person:Plato",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:0",
+      "target": "person:Aristotle",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:0",
+      "target": "person:Jesus",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:0",
+      "target": "person:the Buddha",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:0",
+      "target": "person:Carl Jung",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:1",
+      "target": "concept:mindfulness",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:1",
+      "target": "concept:wisdom",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:1",
+      "target": "concept:altered states",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:1",
+      "target": "concept:shamanism",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:1",
+      "target": "concept:psycho-technology",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:1",
+      "target": "concept:exaptation",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:1",
+      "target": "concept:meaning making",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:1",
+      "target": "concept:mind-sight",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:1",
+      "target": "person:David Lewis-Williams",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:1",
+      "target": "person:Matt Rossano",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:1",
+      "target": "person:Michael Winkelman",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:1",
+      "target": "person:Michael Anderson",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:1",
+      "target": "person:Andy Clark",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:1",
+      "target": "ep:2",
+      "kind": "references",
+      "label": "Flow state and altered consciousness will be further developed"
+    },
+    {
+      "source": "ep:1",
+      "target": "ep:3",
+      "kind": "references",
+      "label": "Shamanic practices lead into the Axial Revolution"
+    },
+    {
+      "source": "ep:2",
+      "target": "concept:flow",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:2",
+      "target": "concept:insight cascade",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:2",
+      "target": "concept:implicit learning",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:2",
+      "target": "concept:metaphor",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:2",
+      "target": "concept:axial revolution",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:2",
+      "target": "concept:second order thinking",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:2",
+      "target": "concept:relevance realization",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:2",
+      "target": "person:Csikszentmihalyi",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:2",
+      "target": "person:Lakoff",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:2",
+      "target": "person:Arthur Reber",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:2",
+      "target": "person:Robin Hogarth",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:2",
+      "target": "person:Karl Jaspers",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:2",
+      "target": "person:Karen Armstrong",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:2",
+      "target": "ep:1",
+      "kind": "references",
+      "label": "Builds on shamanic psycho-technologies from Upper Paleolithic"
+    },
+    {
+      "source": "ep:2",
+      "target": "ep:3",
+      "kind": "references",
+      "label": "Axial Revolution's transformation of worldview continues"
+    },
+    {
+      "source": "ep:3",
+      "target": "concept:continuous cosmos",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:3",
+      "target": "concept:two worlds mythology",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:3",
+      "target": "concept:anagoge",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:3",
+      "target": "concept:self-transcendence",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:3",
+      "target": "concept:kairos",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:3",
+      "target": "concept:logos",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:3",
+      "target": "person:Charles Taylor",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:3",
+      "target": "person:Pythagoras",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:3",
+      "target": "person:Socrates",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:3",
+      "target": "person:Nietzsche",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:3",
+      "target": "ep:2",
+      "kind": "references",
+      "label": "Continues discussion of Axial Revolution introduced in episode 2"
+    },
+    {
+      "source": "ep:3",
+      "target": "ep:4",
+      "kind": "references",
+      "label": "Socratic method and quest for wisdom explored in depth"
+    },
+    {
+      "source": "ep:3",
+      "target": "ep:5",
+      "kind": "references",
+      "label": "Platonic two-worlds mythology further developed"
+    },
+    {
+      "source": "ep:4",
+      "target": "concept:socratic method",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:4",
+      "target": "concept:wisdom",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:4",
+      "target": "concept:self knowledge",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:4",
+      "target": "concept:eros",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:4",
+      "target": "concept:bullshit",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:4",
+      "target": "concept:relevance realization",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:4",
+      "target": "concept:aporia",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:4",
+      "target": "person:Socrates",
+      "kind": "subject"
+    },
+    {
+      "source": "ep:4",
+      "target": "person:Plato",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:4",
+      "target": "person:Harry Frankfurt",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:4",
+      "target": "person:Dreyfus",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:4",
+      "target": "ep:3",
+      "kind": "references",
+      "label": "Socratic revolution as part of Greek Axial transformation"
+    },
+    {
+      "source": "ep:4",
+      "target": "ep:5",
+      "kind": "references",
+      "label": "Plato's development of Socratic ideas into systematic philosophy"
+    },
+    {
+      "source": "ep:5",
+      "target": "concept:eidos",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:5",
+      "target": "concept:anagoge",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:5",
+      "target": "concept:thymos",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:5",
+      "target": "concept:hyperbolic discounting",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:5",
+      "target": "concept:inner conflict",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:5",
+      "target": "concept:wisdom",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:5",
+      "target": "concept:participatory knowing",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:5",
+      "target": "person:Plato",
+      "kind": "subject"
+    },
+    {
+      "source": "ep:5",
+      "target": "person:Socrates",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:5",
+      "target": "person:Pythagoras",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:5",
+      "target": "person:Ainslie",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:5",
+      "target": "ep:4",
+      "kind": "references",
+      "label": "Plato applies Socratic method to solve problem of foolishness and inner conflict"
+    },
+    {
+      "source": "ep:5",
+      "target": "ep:6",
+      "kind": "references",
+      "label": "Aristotle builds on Platonic psychology with theory of development and character"
+    },
+    {
+      "source": "ep:6",
+      "target": "concept:actuality",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:6",
+      "target": "concept:potentiality",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:6",
+      "target": "concept:character",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:6",
+      "target": "concept:virtue",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:6",
+      "target": "concept:golden mean",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:6",
+      "target": "concept:wisdom",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:6",
+      "target": "concept:akrasia",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:6",
+      "target": "person:Aristotle",
+      "kind": "subject"
+    },
+    {
+      "source": "ep:6",
+      "target": "person:Plato",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:6",
+      "target": "person:Alicia Juarrero",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:6",
+      "target": "person:Kant",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:6",
+      "target": "person:Eric Perl",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:6",
+      "target": "person:Charles Darwin",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:6",
+      "target": "ep:5",
+      "kind": "references",
+      "label": "Builds on Platonic psychology and form theory"
+    },
+    {
+      "source": "ep:6",
+      "target": "ep:7",
+      "kind": "references",
+      "label": "Aristotle's worldview and conformity theory further developed"
+    },
+    {
+      "source": "ep:7",
+      "target": "concept:conformity theory",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:7",
+      "target": "concept:logos",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:7",
+      "target": "concept:worldview",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:7",
+      "target": "concept:nomological order",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:7",
+      "target": "concept:agent arena relationship",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:7",
+      "target": "concept:having mode",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:7",
+      "target": "concept:being mode",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:7",
+      "target": "concept:modal confusion",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:7",
+      "target": "person:Aristotle",
+      "kind": "subject"
+    },
+    {
+      "source": "ep:7",
+      "target": "person:Erich Fromm",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:7",
+      "target": "person:Charles Taylor",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:7",
+      "target": "person:Hubert Dreyfus",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:7",
+      "target": "person:Clifford Geertz",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:7",
+      "target": "person:Martin Buber",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:7",
+      "target": "person:the Buddha",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:7",
+      "target": "ep:6",
+      "kind": "references",
+      "label": "Builds on Aristotelian philosophy of character and development"
+    },
+    {
+      "source": "ep:7",
+      "target": "ep:8",
+      "kind": "references",
+      "label": "Siddhartha's escape from palace and modal confusion continues"
+    },
+    {
+      "source": "ep:8",
+      "target": "concept:sati",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:8",
+      "target": "concept:mindfulness",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:8",
+      "target": "concept:being mode",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:8",
+      "target": "concept:modal confusion",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:8",
+      "target": "concept:middle path",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:8",
+      "target": "concept:meditation",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:8",
+      "target": "concept:contemplation",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:8",
+      "target": "concept:disillusionment",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:8",
+      "target": "person:the Buddha",
+      "kind": "subject"
+    },
+    {
+      "source": "ep:8",
+      "target": "person:Stephen Batchelor",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:8",
+      "target": "person:Ellen Langer",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:8",
+      "target": "person:Christopher Mole",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:8",
+      "target": "ep:7",
+      "kind": "references",
+      "label": "Siddhartha's palace and modal confusion illustrated here"
+    },
+    {
+      "source": "ep:8",
+      "target": "ep:9",
+      "kind": "references",
+      "label": "Mindfulness practices and attentional scaling developed further"
+    },
+    {
+      "source": "ep:9",
+      "target": "concept:insight",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:9",
+      "target": "concept:attention",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:9",
+      "target": "concept:scaling down",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:9",
+      "target": "concept:scaling up",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:9",
+      "target": "concept:opponent processing",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:9",
+      "target": "concept:higher states",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:9",
+      "target": "concept:resonant at onement",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:9",
+      "target": "concept:non duality",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:9",
+      "target": "concept:quantum change",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:9",
+      "target": "concept:enlightenment",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:9",
+      "target": "person:Michael Polanyi",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:9",
+      "target": "person:Ellen Langer",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:9",
+      "target": "person:Christopher Mole",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:9",
+      "target": "person:Sebastian Watzl",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:9",
+      "target": "person:the Buddha",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:9",
+      "target": "ep:8",
+      "kind": "references",
+      "label": "Builds on mindfulness and attentional training from episode 8"
+    },
+    {
+      "source": "ep:10",
+      "target": "concept:consciousness",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:10",
+      "target": "concept:relevance realization",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:10",
+      "target": "concept:salience landscape",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:10",
+      "target": "concept:flow",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:10",
+      "target": "concept:insight",
+      "kind": "applied"
+    },
+    {
+      "source": "ep:10",
+      "target": "concept:wisdom",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:10",
+      "target": "concept:modal confusion",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:10",
+      "target": "concept:parasitic processing",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:10",
+      "target": "person:David Chalmers",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:10",
+      "target": "person:Bernard Baars",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:10",
+      "target": "person:Tononi",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:10",
+      "target": "person:Gibson",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:10",
+      "target": "ep:11",
+      "kind": "references",
+      "label": "Episode 11 continues this analysis, applying the understanding of consciousness to examine higher states of consciousness and mystical experiences."
+    },
+    {
+      "source": "ep:11",
+      "target": "concept:higher states",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:11",
+      "target": "concept:continuity hypothesis",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:11",
+      "target": "concept:fluency",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:11",
+      "target": "concept:optimal grip",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:11",
+      "target": "concept:de-centering",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:11",
+      "target": "concept:agape",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:11",
+      "target": "concept:disruptive strategies",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:11",
+      "target": "concept:metastability",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:11",
+      "target": "person:Andrew Newberg",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:11",
+      "target": "person:David Yaden",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:11",
+      "target": "person:Charles Taylor",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:11",
+      "target": "person:Herbert Dreyfus",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:11",
+      "target": "ep:10",
+      "kind": "references",
+      "label": "Extends the consciousness analysis from episode 10 by examining how the machinery can intensify into transformative experiences."
+    },
+    {
+      "source": "ep:11",
+      "target": "ep:12",
+      "kind": "references",
+      "label": "Continues the examination of higher states with the prescriptive analysis of plausibility and rationality."
+    },
+    {
+      "source": "ep:12",
+      "target": "concept:de-centering",
+      "kind": "applied"
+    },
+    {
+      "source": "ep:12",
+      "target": "concept:plausibility",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:12",
+      "target": "concept:parasitic processing",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:12",
+      "target": "concept:metastability",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:12",
+      "target": "concept:complexification",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:12",
+      "target": "concept:overfitting",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:12",
+      "target": "concept:anagoge",
+      "kind": "applied"
+    },
+    {
+      "source": "ep:12",
+      "target": "concept:wisdom",
+      "kind": "applied"
+    },
+    {
+      "source": "ep:12",
+      "target": "person:Igor Grossmann",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:12",
+      "target": "person:Woodward",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:12",
+      "target": "person:Kelso and Tognoli",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:12",
+      "target": "person:Reicher",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:12",
+      "target": "ep:11",
+      "kind": "references",
+      "label": "Provides the cognitive mechanisms and neural basis for the phenomenology described in episode 11."
+    },
+    {
+      "source": "ep:12",
+      "target": "ep:13",
+      "kind": "references",
+      "label": "The understanding of disruption and parasitic processing will be essential for understanding Buddhist concepts of dukkha."
+    },
+    {
+      "source": "ep:13",
+      "target": "concept:dukkha",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:13",
+      "target": "concept:parasitic processing",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:13",
+      "target": "concept:reciprocal narrowing",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:13",
+      "target": "concept:encoding specificity",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:13",
+      "target": "concept:confirmation bias",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:13",
+      "target": "concept:heuristics",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:13",
+      "target": "concept:anagoge",
+      "kind": "applied"
+    },
+    {
+      "source": "ep:13",
+      "target": "concept:sati",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:13",
+      "target": "person:Stephen Batchelor",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:13",
+      "target": "person:Marc Lewis",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:13",
+      "target": "person:Leo Ferraro",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:13",
+      "target": "ep:10",
+      "kind": "references",
+      "label": "The machinery of attention and salience from episode 10 becomes pathological in parasitic processing."
+    },
+    {
+      "source": "ep:13",
+      "target": "ep:12",
+      "kind": "references",
+      "label": "The cognitive science framework from episode 12 is applied to understand Buddhist psychological insights."
+    },
+    {
+      "source": "ep:13",
+      "target": "ep:14",
+      "kind": "references",
+      "label": "The Buddhist response to existential suffering parallels and contrasts with Stoic and Epicurean approaches in the West."
+    },
+    {
+      "source": "ep:14",
+      "target": "concept:domicide",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:14",
+      "target": "concept:anxiety",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:14",
+      "target": "concept:ontonormativity",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:14",
+      "target": "concept:philia",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:14",
+      "target": "concept:purity codes",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:14",
+      "target": "concept:co-identification",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:14",
+      "target": "concept:prosoche",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:14",
+      "target": "concept:aporia",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:14",
+      "target": "person:Epicurus",
+      "kind": "subject"
+    },
+    {
+      "source": "ep:14",
+      "target": "person:Diogenes",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:14",
+      "target": "person:Zeno of Citium",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:14",
+      "target": "person:Paul Tillich",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:14",
+      "target": "person:Antisthenes",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:14",
+      "target": "ep:9",
+      "kind": "references",
+      "label": "Builds on understanding of Axial Revolution in India to show parallel Western developments in response to similar crises."
+    },
+    {
+      "source": "ep:14",
+      "target": "ep:15",
+      "kind": "references",
+      "label": "Stoic psychotechnologies will be shown integrated into later Christian theological practice."
+    },
+    {
+      "source": "ep:15",
+      "target": "concept:prosoche",
+      "kind": "applied"
+    },
+    {
+      "source": "ep:15",
+      "target": "concept:premeditatio",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:15",
+      "target": "concept:kairos",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:15",
+      "target": "concept:agape",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:15",
+      "target": "concept:metanoia",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:15",
+      "target": "concept:participatory knowing",
+      "kind": "applied"
+    },
+    {
+      "source": "ep:15",
+      "target": "concept:anagoge",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:15",
+      "target": "concept:mortality",
+      "kind": "applied"
+    },
+    {
+      "source": "ep:15",
+      "target": "person:Marcus Aurelius",
+      "kind": "subject"
+    },
+    {
+      "source": "ep:15",
+      "target": "person:Jesus",
+      "kind": "subject"
+    },
+    {
+      "source": "ep:15",
+      "target": "person:Paul",
+      "kind": "subject"
+    },
+    {
+      "source": "ep:15",
+      "target": "person:Epictetus",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:15",
+      "target": "person:Pierre Hadot",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:15",
+      "target": "ep:14",
+      "kind": "references",
+      "label": "Applies Stoic psychotechnologies developed in response to Hellenistic crisis to individual transformation."
+    },
+    {
+      "source": "ep:15",
+      "target": "ep:16",
+      "kind": "references",
+      "label": "Continues exploration of Christianity and agape in cultural and historical context."
+    },
+    {
+      "source": "ep:16",
+      "target": "concept:agape",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:16",
+      "target": "concept:metanoia",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:16",
+      "target": "concept:kairos",
+      "kind": "applied"
+    },
+    {
+      "source": "ep:16",
+      "target": "concept:gnosis agape",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:16",
+      "target": "concept:participatory knowing",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:16",
+      "target": "concept:self-deception",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:16",
+      "target": "concept:the way",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:16",
+      "target": "concept:forgiveness",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:16",
+      "target": "person:Jesus",
+      "kind": "subject"
+    },
+    {
+      "source": "ep:16",
+      "target": "person:Paul",
+      "kind": "subject"
+    },
+    {
+      "source": "ep:16",
+      "target": "person:Stephen",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:16",
+      "target": "person:John",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:16",
+      "target": "ep:15",
+      "kind": "references",
+      "label": "Continues from Jesus introduction and Paul's transformation in episode 15 with deeper exploration of agape."
+    },
+    {
+      "source": "ep:16",
+      "target": "ep:17",
+      "kind": "references",
+      "label": "Leads into Gnosticism which will further explore gnosis and the darker possibilities of psychological projection."
+    },
+    {
+      "source": "ep:17",
+      "target": "concept:gnosis",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:17",
+      "target": "concept:existential inertia",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:17",
+      "target": "concept:transframing",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:17",
+      "target": "concept:sensibility transcendence",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:17",
+      "target": "concept:enactive analogy",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:17",
+      "target": "concept:anagoge",
+      "kind": "applied"
+    },
+    {
+      "source": "ep:17",
+      "target": "concept:serious play",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:17",
+      "target": "concept:parasitic processing",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:17",
+      "target": "person:Harry Frankfurt",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:17",
+      "target": "person:L.A. Paul",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:17",
+      "target": "person:Iris Murdoch",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:17",
+      "target": "person:Carl Jung",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:17",
+      "target": "ep:13",
+      "kind": "references",
+      "label": "Buddhist psychotechnologies exemplify enactive analogy and counter-active dynamical systems that address existential inertia."
+    },
+    {
+      "source": "ep:17",
+      "target": "ep:18",
+      "kind": "references",
+      "label": "Gnostic mythology and Neoplatonism will provide different frameworks for gnosis and anagogic transformation."
+    },
+    {
+      "source": "ep:18",
+      "target": "concept:the one",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:18",
+      "target": "concept:anagoge",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:18",
+      "target": "concept:conformity",
+      "kind": "applied"
+    },
+    {
+      "source": "ep:18",
+      "target": "concept:relevance realization",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:18",
+      "target": "concept:integration",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:18",
+      "target": "concept:gnosis",
+      "kind": "applied"
+    },
+    {
+      "source": "ep:18",
+      "target": "concept:nous",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:18",
+      "target": "concept:higher states",
+      "kind": "applied"
+    },
+    {
+      "source": "ep:18",
+      "target": "person:Plotinus",
+      "kind": "subject"
+    },
+    {
+      "source": "ep:18",
+      "target": "person:Plato",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:18",
+      "target": "person:Aristotle",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:18",
+      "target": "person:Ammonius Saccas",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:18",
+      "target": "person:Eric Perl",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:18",
+      "target": "ep:11",
+      "kind": "references",
+      "label": "Higher states of consciousness discussed in episode 11 find their systematic philosophical articulation in Neoplatonism."
+    },
+    {
+      "source": "ep:18",
+      "target": "ep:17",
+      "kind": "references",
+      "label": "Gnosticism and Neoplatonism represent different responses to the same philosophical problems, both seeking gnosis but with different cosmologies."
+    },
+    {
+      "source": "ep:18",
+      "target": "ep:19",
+      "kind": "references",
+      "label": "Augustine will integrate Neoplatonic philosophy into Christian theology, creating the medieval synthesis."
+    },
+    {
+      "source": "ep:19",
+      "target": "concept:nomological order",
+      "kind": "applied"
+    },
+    {
+      "source": "ep:19",
+      "target": "concept:normative order",
+      "kind": "applied"
+    },
+    {
+      "source": "ep:19",
+      "target": "concept:narrative order",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:19",
+      "target": "concept:lectio divina",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:19",
+      "target": "concept:agape",
+      "kind": "applied"
+    },
+    {
+      "source": "ep:19",
+      "target": "concept:metanoia",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:19",
+      "target": "concept:nature/supernatural distinction",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:19",
+      "target": "concept:participatory knowing",
+      "kind": "applied"
+    },
+    {
+      "source": "ep:19",
+      "target": "person:Augustine",
+      "kind": "subject"
+    },
+    {
+      "source": "ep:19",
+      "target": "person:Aquinas",
+      "kind": "subject"
+    },
+    {
+      "source": "ep:19",
+      "target": "person:Monica",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:19",
+      "target": "person:Plotinus",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:19",
+      "target": "person:Paul",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:19",
+      "target": "person:Pierre Hadot",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:19",
+      "target": "ep:18",
+      "kind": "references",
+      "label": "Augustine directly incorporates Neoplatonic insights from Plotinus into Christian framework."
+    },
+    {
+      "source": "ep:19",
+      "target": "ep:16",
+      "kind": "references",
+      "label": "Paul's teachings on agape directly influence Augustine's theological synthesis."
+    },
+    {
+      "source": "ep:20",
+      "target": "concept:two worlds mythology",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:20",
+      "target": "concept:nominalism",
+      "kind": "applied"
+    },
+    {
+      "source": "ep:20",
+      "target": "concept:inertial motion",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:20",
+      "target": "concept:sacredness",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:20",
+      "target": "concept:participatory knowing",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:20",
+      "target": "concept:propositional knowing",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:20",
+      "target": "person:Copernicus",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:20",
+      "target": "person:Galileo",
+      "kind": "subject"
+    },
+    {
+      "source": "ep:20",
+      "target": "person:Ockham",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:20",
+      "target": "person:Augustine",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:20",
+      "target": "person:Mark Taylor",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:20",
+      "target": "ep:21",
+      "kind": "references",
+      "label": "Martin Luther's reinterpretation of faith and grace emerges as a parallel response to the same crisis that Galileo addresses through science"
+    },
+    {
+      "source": "ep:20",
+      "target": "ep:22",
+      "kind": "references",
+      "label": "Descartes responds to Hobbes by defending the soul against materialism, revealing the persistent tension between mind and matter that Galileo initiated"
+    },
+    {
+      "source": "ep:20",
+      "target": "ep:19",
+      "kind": "references",
+      "label": "Augustine's integration of reason and love through the three orders provides the medieval synthesis that the scientific revolution will destroy"
+    },
+    {
+      "source": "ep:21",
+      "target": "concept:self-deception",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:21",
+      "target": "concept:participatory knowing",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:21",
+      "target": "concept:sapiential obsolescence",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:21",
+      "target": "concept:cartesian graphing",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:21",
+      "target": "concept:consciousness",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:21",
+      "target": "person:Martin Luther",
+      "kind": "subject"
+    },
+    {
+      "source": "ep:21",
+      "target": "person:René Descartes",
+      "kind": "subject"
+    },
+    {
+      "source": "ep:21",
+      "target": "person:Erasmus",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:21",
+      "target": "person:Blaise Pascal",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:21",
+      "target": "person:Max Weber",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:21",
+      "target": "ep:20",
+      "kind": "references",
+      "label": "Luther and Descartes both respond to the cosmos-killing implications of Galileo's physics and the nominalist worldview."
+    },
+    {
+      "source": "ep:21",
+      "target": "ep:22",
+      "kind": "references",
+      "label": "Descartes' response to Hobbes clarifies the philosophical commitments underlying his attempt to preserve the soul against materialism."
+    },
+    {
+      "source": "ep:21",
+      "target": "ep:25",
+      "kind": "references",
+      "label": "The fragmentation of Protestantism and rise of secular ideologies trace back to Luther's severing of individual conscience from tradition."
+    },
+    {
+      "source": "ep:22",
+      "target": "concept:qualia",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:22",
+      "target": "concept:consciousness",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:22",
+      "target": "concept:primary qualities",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:22",
+      "target": "concept:secondary qualities",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:22",
+      "target": "concept:artificial intelligence",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:22",
+      "target": "concept:the spirit of finesse",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:22",
+      "target": "person:René Descartes",
+      "kind": "subject"
+    },
+    {
+      "source": "ep:22",
+      "target": "person:Thomas Hobbes",
+      "kind": "subject"
+    },
+    {
+      "source": "ep:22",
+      "target": "person:Blaise Pascal",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:22",
+      "target": "person:John Searle",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:22",
+      "target": "person:Thomas Nagel",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:22",
+      "target": "person:Antonio Damasio",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:22",
+      "target": "ep:21",
+      "kind": "references",
+      "label": "Both Luther and Descartes attempt to rescue something essential about human dignity against mechanical/arbitrary forces, creating parallel theoretical problems."
+    },
+    {
+      "source": "ep:22",
+      "target": "ep:20",
+      "kind": "references",
+      "label": "Descartes and Hobbes both respond to the radical disconnection between mind and world initiated by Galileo and Copernicus."
+    },
+    {
+      "source": "ep:22",
+      "target": "ep:23",
+      "kind": "references",
+      "label": "The oscillation between Descartes' objectivity and romantic subjectivity becomes the central tension of 19th-century thought."
+    },
+    {
+      "source": "ep:23",
+      "target": "concept:romanticism",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:23",
+      "target": "concept:imagination",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:23",
+      "target": "concept:expression",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:23",
+      "target": "concept:will to live",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:23",
+      "target": "concept:self-transcendence",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:23",
+      "target": "concept:nihilism",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:23",
+      "target": "person:Kant",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:23",
+      "target": "person:Johann Wolfgang von Goethe",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:23",
+      "target": "person:Ludwig van Beethoven",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:23",
+      "target": "person:Arthur Schopenhauer",
+      "kind": "subject"
+    },
+    {
+      "source": "ep:23",
+      "target": "person:Nietzsche",
+      "kind": "subject"
+    },
+    {
+      "source": "ep:23",
+      "target": "person:Friedrich Schleiermacher",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:23",
+      "target": "ep:24",
+      "kind": "references",
+      "label": "Hegel responds to both Romanticism and Kant, attempting to integrate them through dialectical development rather than oscillation."
+    },
+    {
+      "source": "ep:23",
+      "target": "ep:25",
+      "kind": "references",
+      "label": "The failure of Romanticism as a pseudo-religious ideology sets the stage for more dangerous totalitarian ideologies in 19th-century Germany."
+    },
+    {
+      "source": "ep:23",
+      "target": "ep:22",
+      "kind": "references",
+      "label": "Romanticism is the cultural movement corresponding to the subjective side of Descartes' division between consciousness and objectivity."
+    },
+    {
+      "source": "ep:24",
+      "target": "concept:geist",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:24",
+      "target": "concept:absolute idealism",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:24",
+      "target": "concept:dialectic",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:24",
+      "target": "concept:self-transcendence",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:24",
+      "target": "concept:gnosis",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:24",
+      "target": "concept:pseudo-religious ideology",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:24",
+      "target": "person:Georg Wilhelm Friedrich Hegel",
+      "kind": "subject"
+    },
+    {
+      "source": "ep:24",
+      "target": "person:Kant",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:24",
+      "target": "person:Søren Kierkegaard",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:24",
+      "target": "person:Arthur Schopenhauer",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:24",
+      "target": "person:Karl Marx",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:24",
+      "target": "person:Ludwig Feuerbach",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:24",
+      "target": "ep:25",
+      "kind": "references",
+      "label": "Hegel's synthesis becomes the intellectual basis for the pseudo-religious ideologies of Marxism and Nationalism that dominate 20th-century history."
+    },
+    {
+      "source": "ep:24",
+      "target": "ep:23",
+      "kind": "references",
+      "label": "Hegel responds to Romanticism by re-conceptualizing the irrational as a developmental stage toward greater rationality."
+    },
+    {
+      "source": "ep:24",
+      "target": "ep:22",
+      "kind": "references",
+      "label": "Hegel's resolution of the mind-body problem through absolute idealism represents an alternative to Descartes' dualism."
+    },
+    {
+      "source": "ep:25",
+      "target": "concept:pseudo-religious ideology",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:25",
+      "target": "concept:nationalism",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:25",
+      "target": "concept:kairos",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:25",
+      "target": "concept:metacrisis",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:25",
+      "target": "concept:gnosticism",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:25",
+      "target": "concept:will to power",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:25",
+      "target": "person:Otto von Bismarck",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:25",
+      "target": "person:Adolf Hitler",
+      "kind": "subject"
+    },
+    {
+      "source": "ep:25",
+      "target": "person:Karl Marx",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:25",
+      "target": "person:Martin Luther",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:25",
+      "target": "person:Tomas Björkman",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:25",
+      "target": "ep:24",
+      "kind": "references",
+      "label": "Hegel's totalizing system becomes the intellectual template that Marxism and Nazism both claim to fulfill and perfect."
+    },
+    {
+      "source": "ep:25",
+      "target": "ep:26",
+      "kind": "references",
+      "label": "The traumatization from pseudo-religious ideologies drives the turn to cognitive science as a non-ideological approach to meaning-making."
+    },
+    {
+      "source": "ep:25",
+      "target": "ep:23",
+      "kind": "references",
+      "label": "Decadent Romanticism and the will to power converge in the Nazi ideology that Vervaeke calls a 'Gnostic nightmare.'"
+    },
+    {
+      "source": "ep:25",
+      "target": "ep:21",
+      "kind": "references",
+      "label": "Luther's theological framework and anti-Semitism provide deep cultural currents that Nazism exploits."
+    },
+    {
+      "source": "ep:26",
+      "target": "concept:synoptic integration",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:26",
+      "target": "concept:equivocation",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:26",
+      "target": "concept:plausibility",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:26",
+      "target": "concept:convergence",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:26",
+      "target": "concept:elegance",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:26",
+      "target": "concept:deepity",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:26",
+      "target": "concept:intelligence",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:26",
+      "target": "person:John Vervaeke",
+      "kind": "subject"
+    },
+    {
+      "source": "ep:26",
+      "target": "person:Allen Newell",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:26",
+      "target": "person:Herbert Simon",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:26",
+      "target": "person:Daniel Dennett",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:26",
+      "target": "person:Elijah Millgram",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:26",
+      "target": "ep:27",
+      "kind": "references",
+      "label": "Problem formulation and relevance realization emerge as central to the cognitive machinery of meaning cultivation."
+    },
+    {
+      "source": "ep:26",
+      "target": "ep:28",
+      "kind": "references",
+      "label": "Relevance realization converges from multiple cognitive phenomena—categorization, communication, action—revealing it as the core of intelligence."
+    },
+    {
+      "source": "ep:26",
+      "target": "ep:25",
+      "kind": "references",
+      "label": "Cognitive science offers an alternative to the pseudo-religious ideologies by understanding meaning-making as a natural phenomenon."
+    },
+    {
+      "source": "ep:27",
+      "target": "concept:problem space",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:27",
+      "target": "concept:combinatorial explosion",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:27",
+      "target": "concept:relevance realization",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:27",
+      "target": "concept:well-defined problem",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:27",
+      "target": "concept:ill-defined problem",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:27",
+      "target": "concept:problem formulation",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:27",
+      "target": "concept:heuristic",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:27",
+      "target": "concept:algorithm",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:27",
+      "target": "concept:insight",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:27",
+      "target": "concept:salience",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:27",
+      "target": "person:John Vervaeke",
+      "kind": "subject"
+    },
+    {
+      "source": "ep:27",
+      "target": "person:Allen Newell",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:27",
+      "target": "person:Herbert Simon",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:27",
+      "target": "person:Craig Kaplan",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:27",
+      "target": "person:Keith Holyoak",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:27",
+      "target": "person:George Pólya",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:27",
+      "target": "ep:28",
+      "kind": "references",
+      "label": "Problem formulation and relevance realization extend across categorization, communication, and action—all converging on relevance as the core mechanism of intelligence."
+    },
+    {
+      "source": "ep:27",
+      "target": "ep:26",
+      "kind": "references",
+      "label": "Cognitive science must avoid equivocation and fragmentation by creating plausible constructs; problem formulation is a key application of synoptic integration across cognitive phenomena."
+    },
+    {
+      "source": "ep:27",
+      "target": "ep:13",
+      "kind": "references",
+      "label": "Flow and higher states of consciousness involve the kind of dynamic, seamless relevance realization seen in genuine insight and problem formulation."
+    },
+    {
+      "source": "ep:28",
+      "target": "concept:relevance realization",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:28",
+      "target": "concept:categorization",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:28",
+      "target": "concept:psychological similarity",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:28",
+      "target": "concept:aspect",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:28",
+      "target": "concept:frame problem",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:28",
+      "target": "concept:side effects",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:28",
+      "target": "concept:conversational implicature",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:28",
+      "target": "concept:maxims of conversation",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:28",
+      "target": "concept:working memory",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:28",
+      "target": "concept:general problem solver",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:28",
+      "target": "person:John Vervaeke",
+      "kind": "subject"
+    },
+    {
+      "source": "ep:28",
+      "target": "person:Nelson Goodman",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:28",
+      "target": "person:Lawrence Barsalou",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:28",
+      "target": "person:Daniel Dennett",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:28",
+      "target": "person:Murray Shanahan",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:28",
+      "target": "person:H.P. Grice",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:28",
+      "target": "person:Dan Sperber",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:28",
+      "target": "person:Deirdre Wilson",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:28",
+      "target": "person:Lynn Hasher",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:28",
+      "target": "ep:27",
+      "kind": "references",
+      "label": "Problem formulation and insight are instances of relevance realization across the problem-solving domain; multiple domains show the same mechanism at work."
+    },
+    {
+      "source": "ep:28",
+      "target": "ep:29",
+      "kind": "references",
+      "label": "The convergence on relevance realization motivates moving beyond representational, computational, and modular accounts toward participatory and enactive ones."
+    },
+    {
+      "source": "ep:28",
+      "target": "ep:13",
+      "kind": "references",
+      "label": "Flow states, where you are absorbed in optimal challenge, depend on exquisite calibration of relevance realization to the task at hand."
+    },
+    {
+      "source": "ep:29",
+      "target": "concept:relevance realization",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:29",
+      "target": "concept:aspectuality",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:29",
+      "target": "concept:representation",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:29",
+      "target": "concept:computation",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:29",
+      "target": "concept:implication",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:29",
+      "target": "concept:inference",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:29",
+      "target": "concept:cognitive commitment",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:29",
+      "target": "concept:finsting",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:29",
+      "target": "concept:salience tagging",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:29",
+      "target": "concept:enactive demonstrative reference",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:29",
+      "target": "concept:propositional cognition",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:29",
+      "target": "concept:procedural skill",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:29",
+      "target": "concept:perspectival knowing",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:29",
+      "target": "concept:situational awareness",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:29",
+      "target": "concept:participatory knowing",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:29",
+      "target": "concept:autopoetic system",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:29",
+      "target": "concept:constitutive goal",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:29",
+      "target": "concept:skill of judgment",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:29",
+      "target": "person:John Vervaeke",
+      "kind": "subject"
+    },
+    {
+      "source": "ep:29",
+      "target": "person:Tim Lillicrap",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:29",
+      "target": "person:Blake Richards",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:29",
+      "target": "person:Leonardo Ferraro",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:29",
+      "target": "person:Jerry Fodor",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:29",
+      "target": "person:John Searle",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:29",
+      "target": "person:Zenon Pylyshyn",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:29",
+      "target": "person:Ludwig Wittgenstein",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:29",
+      "target": "person:Christopher Cherniak",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:29",
+      "target": "person:Harold Brown",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:29",
+      "target": "ep:28",
+      "kind": "references",
+      "label": "The convergence on relevance realization motivates investigating what natural processes could explain it without circularity."
+    },
+    {
+      "source": "ep:29",
+      "target": "ep:27",
+      "kind": "references",
+      "label": "Problem formulation as insight depends on the pre-categorical salience realization that operates at multiple cognitive levels simultaneously."
+    },
+    {
+      "source": "ep:29",
+      "target": "ep:13",
+      "kind": "references",
+      "label": "Higher states of consciousness involve the kind of non-conceptual, here-now awareness that characterizes the deepest level of relevance realization."
+    },
+    {
+      "source": "ep:30",
+      "target": "concept:relevance realization",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:30",
+      "target": "concept:dynamical systems",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:30",
+      "target": "concept:cognitive interactional fitedness",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:30",
+      "target": "concept:opponent processing",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:30",
+      "target": "concept:logistical norms",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:30",
+      "target": "concept:bioeconomy",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:30",
+      "target": "concept:virtual engine",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:30",
+      "target": "concept:efficiency",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:30",
+      "target": "concept:resiliency",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:30",
+      "target": "person:Charles Darwin",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:30",
+      "target": "person:John Stuart Mill",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:30",
+      "target": "person:Willard Quine",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:30",
+      "target": "person:Ludwig Wittgenstein",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:30",
+      "target": "person:Markus Brede",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:30",
+      "target": "ep:6",
+      "kind": "references",
+      "label": "Earlier discussion of Darwin, dynamical systems, and Aristotle; foundations being drawn upon."
+    },
+    {
+      "source": "ep:30",
+      "target": "ep:29",
+      "kind": "references",
+      "label": "Previous episode on relevance realization; this extends the theoretical machinery."
+    },
+    {
+      "source": "ep:30",
+      "target": "ep:31",
+      "kind": "references",
+      "label": "Next episode will expand on embodied, embedded relevance realization as dynamical-developmental."
+    },
+    {
+      "source": "ep:31",
+      "target": "concept:transjective",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:31",
+      "target": "concept:compression",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:31",
+      "target": "concept:particularization",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:31",
+      "target": "concept:cognitive scope",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:31",
+      "target": "concept:applicability",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:31",
+      "target": "concept:exploitation",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:31",
+      "target": "concept:exploration",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:31",
+      "target": "concept:cognitive tempering",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:31",
+      "target": "concept:cognitive prioritization",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:31",
+      "target": "concept:complexification",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:31",
+      "target": "concept:intelligence",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:31",
+      "target": "concept:assimilation",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:31",
+      "target": "concept:accommodation",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:31",
+      "target": "person:Markus Brede",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:31",
+      "target": "person:Tim Lilicrap",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:31",
+      "target": "person:Blake Richards",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:31",
+      "target": "person:Jean Piaget",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:31",
+      "target": "person:Charles Spearman",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:31",
+      "target": "person:Leo Ferraro",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:31",
+      "target": "ep:30",
+      "kind": "references",
+      "label": "Previous episode introduced dynamical systems framework; this applies it to embodied, embedded cognition."
+    },
+    {
+      "source": "ep:31",
+      "target": "ep:32",
+      "kind": "references",
+      "label": "Next episode applies these concepts to neural implementation and consciousness."
+    },
+    {
+      "source": "ep:32",
+      "target": "concept:self-organizing criticality",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:32",
+      "target": "concept:small world networks",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:32",
+      "target": "concept:synchrony",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:32",
+      "target": "concept:asynchrony",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:32",
+      "target": "concept:neural avalanche",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:32",
+      "target": "concept:insight",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:32",
+      "target": "concept:salience network",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:32",
+      "target": "concept:salience landscaping",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:32",
+      "target": "concept:consciousness",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:32",
+      "target": "concept:perspectival knowing",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:32",
+      "target": "concept:flow",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:32",
+      "target": "person:Per Bak",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:32",
+      "target": "person:Thatcher et al.",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:32",
+      "target": "person:Hess and Gross",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:32",
+      "target": "person:Langer et al.",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:32",
+      "target": "person:Hilger et al.",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:32",
+      "target": "person:Cosmeliet al.",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:32",
+      "target": "person:Monti et al.",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:32",
+      "target": "person:Stephen and Dixon",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:32",
+      "target": "person:Schilling",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:32",
+      "target": "person:Heidegger",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:32",
+      "target": "person:Dreyfus",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:32",
+      "target": "person:Read Montague",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:32",
+      "target": "ep:31",
+      "kind": "references",
+      "label": "Previous episode on dynamical-developmental processes; this shows their neural implementation."
+    },
+    {
+      "source": "ep:32",
+      "target": "ep:6",
+      "kind": "references",
+      "label": "Earlier episode on Darwin; neural dynamics parallel evolutionary dynamics."
+    },
+    {
+      "source": "ep:32",
+      "target": "ep:33",
+      "kind": "references",
+      "label": "Next episode applies this machinery to understanding spirituality and wonder."
+    },
+    {
+      "source": "ep:33",
+      "target": "concept:religio",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:33",
+      "target": "concept:wonder",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:33",
+      "target": "concept:awe",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:33",
+      "target": "concept:mystery",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:33",
+      "target": "concept:sacredness",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:33",
+      "target": "concept:numinous",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:33",
+      "target": "concept:theosis",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:33",
+      "target": "concept:anagoge",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:33",
+      "target": "concept:da'ath",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:33",
+      "target": "concept:sati",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:33",
+      "target": "person:Paolo Costa",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:33",
+      "target": "person:Robert Fuller",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:33",
+      "target": "person:Clifford Geertz",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:33",
+      "target": "person:Rudolf Otto",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:33",
+      "target": "person:Gabriel Marcel",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:33",
+      "target": "person:William James",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:33",
+      "target": "person:Heidegger",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:33",
+      "target": "person:Huston Smith",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:33",
+      "target": "ep:32",
+      "kind": "references",
+      "label": "Previous episode on consciousness and salience landscaping; this explores its experiential spiritual dimensions."
+    },
+    {
+      "source": "ep:33",
+      "target": "ep:34",
+      "kind": "references",
+      "label": "Next episode develops numinous and horror, symbol, and sacredness further."
+    },
+    {
+      "source": "ep:33",
+      "target": "ep:10",
+      "kind": "references",
+      "label": "Earlier episode on existentialism; Heideggerian themes developed here."
+    },
+    {
+      "source": "ep:34",
+      "target": "concept:numinous",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:34",
+      "target": "concept:horror",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:34",
+      "target": "concept:absurdity",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:34",
+      "target": "concept:inter-categorical",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:34",
+      "target": "concept:symbol",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:34",
+      "target": "concept:sign",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:34",
+      "target": "concept:exaptation",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:34",
+      "target": "concept:metaphor",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:34",
+      "target": "concept:anagoge",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:34",
+      "target": "concept:music",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:34",
+      "target": "concept:ecstasis",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:34",
+      "target": "person:Mary Douglas",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:34",
+      "target": "person:Max Black",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:34",
+      "target": "person:Andrew Ortony",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:34",
+      "target": "person:George Lakoff",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:34",
+      "target": "person:Mark Johnson",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:34",
+      "target": "person:Owen Barfield",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:34",
+      "target": "person:John Kennedy",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:34",
+      "target": "person:Michael Anderson",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:34",
+      "target": "person:Nietzsche",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:34",
+      "target": "person:Jonathan Pageau",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:34",
+      "target": "ep:33",
+      "kind": "references",
+      "label": "Previous episode on numinous and horror; this develops them through symbol and music."
+    },
+    {
+      "source": "ep:34",
+      "target": "ep:35",
+      "kind": "references",
+      "label": "Next episode continues symbol analysis, relating it to sacredness and sacred."
+    },
+    {
+      "source": "ep:34",
+      "target": "ep:1",
+      "kind": "references",
+      "label": "Opening episode on meaning crisis; symbols and music as responses to meaninglessness."
+    },
+    {
+      "source": "ep:35",
+      "target": "concept:anagoge",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:35",
+      "target": "concept:holding in mind",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:35",
+      "target": "concept:exaptation",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:35",
+      "target": "concept:symbol resonance",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:35",
+      "target": "concept:mythos",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:35",
+      "target": "concept:religio",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:35",
+      "target": "concept:gnosis",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:35",
+      "target": "concept:infinite regress problem",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:35",
+      "target": "concept:transjective",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:35",
+      "target": "person:Michael Polanyi",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:35",
+      "target": "person:Vilayanur Ramachandran",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:35",
+      "target": "person:James",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:35",
+      "target": "person:Spinoza",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:35",
+      "target": "person:D.T. Suzuki",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:35",
+      "target": "person:Meister Eckhart",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:35",
+      "target": "person:Plato",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:35",
+      "target": "person:Nietzsche",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:35",
+      "target": "ep:34",
+      "kind": "references",
+      "label": "Previous episode on symbol and music; this deepens the theoretical framework."
+    },
+    {
+      "source": "ep:35",
+      "target": "ep:33",
+      "kind": "references",
+      "label": "Earlier episode on sacredness; this develops metaphysical implications."
+    },
+    {
+      "source": "ep:35",
+      "target": "ep:36",
+      "kind": "references",
+      "label": "Next episode addresses perennial problems and reverse engineering enlightenment using this machinery."
+    },
+    {
+      "source": "ep:36",
+      "target": "concept:inexhaustible coupling",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:36",
+      "target": "concept:indispensability",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:36",
+      "target": "concept:parasitic processing",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:36",
+      "target": "concept:modal confusion",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:36",
+      "target": "concept:reflectiveness gap",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:36",
+      "target": "concept:absurdity",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:36",
+      "target": "concept:perennial problems",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:36",
+      "target": "concept:reverse engineering enlightenment",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:36",
+      "target": "person:J.D. Velleman",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:36",
+      "target": "person:Harry Frankfurt",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:36",
+      "target": "person:Thomas Nagel",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:36",
+      "target": "person:Susan Wolf",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:36",
+      "target": "person:Plato",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:36",
+      "target": "person:Buddhism/Buddhist tradition",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:36",
+      "target": "ep:35",
+      "kind": "references",
+      "label": "Previous episode deepened symbol analysis and transjective identity; this applies those insights to perennial problems."
+    },
+    {
+      "source": "ep:36",
+      "target": "ep:37",
+      "kind": "references",
+      "label": "Next episode continues reverse-engineering enlightenment with specific practices for each perennial problem."
+    },
+    {
+      "source": "ep:36",
+      "target": "ep:33",
+      "kind": "references",
+      "label": "Earlier episode on sacredness; this develops it away from supernaturalism toward inexhaustibility."
+    },
+    {
+      "source": "ep:37",
+      "target": "concept:counteractive dynamical system",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:37",
+      "target": "concept:sati",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:37",
+      "target": "concept:flow",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:37",
+      "target": "concept:prajña",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:37",
+      "target": "concept:scientia intuitiva",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:37",
+      "target": "concept:non-duality",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:37",
+      "target": "concept:indwelling",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:37",
+      "target": "concept:communitas",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:37",
+      "target": "concept:authentic discourse",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:37",
+      "target": "concept:gnosis",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:37",
+      "target": "person:J.D. Velleman",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:37",
+      "target": "person:Spinoza",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:37",
+      "target": "person:D.T. Suzuki",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:37",
+      "target": "person:Meister Eckhart",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:37",
+      "target": "person:Michael Polanyi",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:37",
+      "target": "person:L.A. Paul",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:37",
+      "target": "person:Agnes Callard",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:37",
+      "target": "person:Victor Turner",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:37",
+      "target": "person:Jordan Hall",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:37",
+      "target": "ep:36",
+      "kind": "references",
+      "label": "Previous episode identified perennial problems; this provides psychotechnologies to address each."
+    },
+    {
+      "source": "ep:37",
+      "target": "ep:38",
+      "kind": "references",
+      "label": "Next episode situates these practices within wisdom framing and 4E cognitive science worldview attunement."
+    },
+    {
+      "source": "ep:37",
+      "target": "ep:32",
+      "kind": "references",
+      "label": "Earlier neural basis of consciousness; small-world networks and flow states grounded in brain dynamics."
+    },
+    {
+      "source": "ep:38",
+      "target": "concept:agape",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:38",
+      "target": "concept:subjective attraction",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:38",
+      "target": "concept:objective attractiveness",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:38",
+      "target": "concept:embodiment",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:38",
+      "target": "concept:embeddedness",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:38",
+      "target": "concept:enactive",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:38",
+      "target": "concept:extended mind",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:38",
+      "target": "concept:emergence",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:38",
+      "target": "concept:autopoietic",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:38",
+      "target": "concept:niche construction",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:38",
+      "target": "concept:salience landscaping",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:38",
+      "target": "concept:wisdom",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:38",
+      "target": "concept:transcendence into",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:38",
+      "target": "concept:open-ended optimization",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:38",
+      "target": "person:Susan Wolf",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:38",
+      "target": "person:Francisco Varela",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:38",
+      "target": "person:Evan Thompson",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:38",
+      "target": "person:Dennis Walsh",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:38",
+      "target": "person:Antonio Damasio",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:38",
+      "target": "person:Ursula Goodenough",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:38",
+      "target": "person:Mark Rowlands",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:38",
+      "target": "person:Robert Sternberg",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:38",
+      "target": "person:Lau (neuroscientist)",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:38",
+      "target": "ep:37",
+      "kind": "references",
+      "label": "Previous episode presented psychotechnologies; this situates them in naturalized worldview."
+    },
+    {
+      "source": "ep:38",
+      "target": "ep:39",
+      "kind": "references",
+      "label": "Next episode addresses religion-not-religion and wisdom as meta-virtue coordinating all responses."
+    },
+    {
+      "source": "ep:38",
+      "target": "ep:32",
+      "kind": "references",
+      "label": "Earlier neural implementation of RR; consciousness tied to salience landscaping and relevance."
+    },
+    {
+      "source": "ep:39",
+      "target": "concept:religio",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:39",
+      "target": "concept:credo",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:39",
+      "target": "concept:credal dominance",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:39",
+      "target": "concept:signal detection theory",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:39",
+      "target": "concept:signal",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:39",
+      "target": "concept:noise",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:39",
+      "target": "concept:criterion-setting",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:39",
+      "target": "concept:miss-signal error",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:39",
+      "target": "concept:mistake-noise error",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:39",
+      "target": "concept:three-level mythos",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:39",
+      "target": "concept:meta-psychotechnology",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:39",
+      "target": "concept:wiki-credo",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:39",
+      "target": "concept:seeing through illusion",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:39",
+      "target": "person:James Carse",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:39",
+      "target": "person:Alain de Botton",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:39",
+      "target": "person:Richard Dawkins",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:39",
+      "target": "person:Arthur Versluis",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:39",
+      "target": "person:Tomas Björkman",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:39",
+      "target": "person:Robert Sternberg",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:39",
+      "target": "person:McKee and Barber",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:39",
+      "target": "person:Lau",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:39",
+      "target": "person:Leo Ferraro",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:39",
+      "target": "person:Jordan Hall",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:39",
+      "target": "ep:38",
+      "kind": "references",
+      "label": "Previous episode provided 4E cognitive science framework; this operationalizes it as religion-not-religion."
+    },
+    {
+      "source": "ep:39",
+      "target": "ep:37",
+      "kind": "references",
+      "label": "Earlier episodes detailed psychotechnologies; this shows how to coordinate them through meta-psychotechnology."
+    },
+    {
+      "source": "ep:39",
+      "target": "ep:1",
+      "kind": "references",
+      "label": "Opening episode on meaning crisis; this series-long response culminates in practical framework and wisdom cultivation."
+    },
+    {
+      "source": "ep:40",
+      "target": "concept:systematic seeing through illusion",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:40",
+      "target": "concept:transframing",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:40",
+      "target": "concept:pragmatic self-contradiction",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:40",
+      "target": "concept:rationality",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:40",
+      "target": "concept:relevance realization",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:40",
+      "target": "concept:belief perseverance",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:40",
+      "target": "person:Patrick McKee",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:40",
+      "target": "person:Clifton Barber",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:40",
+      "target": "person:Keith Stanovich",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:40",
+      "target": "person:Jean Piaget",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:40",
+      "target": "person:John Kekes",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:40",
+      "target": "person:L. Jonathan Cohen",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:40",
+      "target": "person:Agnes Callard",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:40",
+      "target": "ep:41",
+      "kind": "references"
+    },
+    {
+      "source": "ep:40",
+      "target": "ep:42",
+      "kind": "references"
+    },
+    {
+      "source": "ep:40",
+      "target": "ep:43",
+      "kind": "references"
+    },
+    {
+      "source": "ep:40",
+      "target": "ep:45",
+      "kind": "references"
+    },
+    {
+      "source": "ep:41",
+      "target": "concept:competence vs. performance",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:41",
+      "target": "concept:autonomy of reason",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:41",
+      "target": "concept:finitary predicament",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:41",
+      "target": "concept:fallacy vs. misunderstanding",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:41",
+      "target": "concept:normativity on construal",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:41",
+      "target": "concept:intelligence",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:41",
+      "target": "concept:active open-mindedness",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:41",
+      "target": "person:L. Jonathan Cohen",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:41",
+      "target": "person:Keith Stanovich",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:41",
+      "target": "person:Christopher Cherniak",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:41",
+      "target": "person:Arne Cherniak",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:41",
+      "target": "person:Jorn Smedslund",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:41",
+      "target": "person:Jonathan Baron",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:41",
+      "target": "person:Herbert Simon",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:41",
+      "target": "ep:40",
+      "kind": "references"
+    },
+    {
+      "source": "ep:41",
+      "target": "ep:42",
+      "kind": "references"
+    },
+    {
+      "source": "ep:41",
+      "target": "ep:43",
+      "kind": "references"
+    },
+    {
+      "source": "ep:42",
+      "target": "concept:dual processing",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:42",
+      "target": "concept:s1 and s2 processing",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:42",
+      "target": "concept:cognitive leaping",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:42",
+      "target": "concept:active open-mindedness",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:42",
+      "target": "concept:mindfulness",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:42",
+      "target": "concept:need for cognition",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:42",
+      "target": "concept:problem finding",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:42",
+      "target": "concept:mindset",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:42",
+      "target": "person:Keith Stanovich",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:42",
+      "target": "person:Daniel Kahneman",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:42",
+      "target": "person:Jonathan Baron",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:42",
+      "target": "person:Jacquelyn Baker-Sennett",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:42",
+      "target": "person:Stephen Ceci",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:42",
+      "target": "person:Gregg Jacobs",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:42",
+      "target": "person:John Teasdale",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:42",
+      "target": "person:Carol Dweck",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:42",
+      "target": "person:Pamela Arlin",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:42",
+      "target": "ep:40",
+      "kind": "references"
+    },
+    {
+      "source": "ep:42",
+      "target": "ep:41",
+      "kind": "references"
+    },
+    {
+      "source": "ep:42",
+      "target": "ep:43",
+      "kind": "references"
+    },
+    {
+      "source": "ep:43",
+      "target": "concept:virtue",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:43",
+      "target": "concept:phronesis",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:43",
+      "target": "concept:sophia",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:43",
+      "target": "concept:relevance realization",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:43",
+      "target": "concept:metaheuristic",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:43",
+      "target": "concept:pragmatic self-contradiction",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:43",
+      "target": "concept:solomon effect",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:43",
+      "target": "concept:fallibilism",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:43",
+      "target": "person:Barry Schwartz",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:43",
+      "target": "person:Kenneth Sharpe",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:43",
+      "target": "person:Paul Baltes",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:43",
+      "target": "person:Ursula Staudinger",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:43",
+      "target": "person:Aristotle",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:43",
+      "target": "person:Igor Grossman",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:43",
+      "target": "person:Robert Sternberg",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:43",
+      "target": "person:Hubert Dreyfus",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:43",
+      "target": "ep:40",
+      "kind": "references"
+    },
+    {
+      "source": "ep:43",
+      "target": "ep:41",
+      "kind": "references"
+    },
+    {
+      "source": "ep:43",
+      "target": "ep:42",
+      "kind": "references"
+    },
+    {
+      "source": "ep:43",
+      "target": "ep:44",
+      "kind": "references"
+    },
+    {
+      "source": "ep:44",
+      "target": "concept:modal confusion",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:44",
+      "target": "concept:process theory vs. product theory",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:44",
+      "target": "concept:sophrosyne",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:44",
+      "target": "concept:agape",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:44",
+      "target": "concept:interpretive knowledge",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:44",
+      "target": "concept:balance theory",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:44",
+      "target": "concept:tacit understanding",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:44",
+      "target": "person:Monika Ardelt",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:44",
+      "target": "person:Paul Baltes",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:44",
+      "target": "person:Ursula Staudinger",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:44",
+      "target": "person:Robert Sternberg",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:44",
+      "target": "person:John Kekes",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:44",
+      "target": "person:Leo Ferraro",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:44",
+      "target": "person:Susan Wolf",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:44",
+      "target": "ep:43",
+      "kind": "references"
+    },
+    {
+      "source": "ep:44",
+      "target": "ep:45",
+      "kind": "references"
+    },
+    {
+      "source": "ep:45",
+      "target": "concept:sophrosyne",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:45",
+      "target": "concept:internalizing the sage",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:45",
+      "target": "concept:understanding",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:45",
+      "target": "concept:profound understanding",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:45",
+      "target": "concept:transformative experience",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:45",
+      "target": "concept:proleptic rationality",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:45",
+      "target": "concept:agape",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:45",
+      "target": "person:Leo Ferraro",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:45",
+      "target": "person:L.A. Paul",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:45",
+      "target": "person:Agnes Callard",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:45",
+      "target": "person:Henk de Regt",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:45",
+      "target": "person:Pamela Arlin",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:45",
+      "target": "ep:42",
+      "kind": "references"
+    },
+    {
+      "source": "ep:45",
+      "target": "ep:43",
+      "kind": "references"
+    },
+    {
+      "source": "ep:45",
+      "target": "ep:44",
+      "kind": "references"
+    },
+    {
+      "source": "ep:46",
+      "target": "concept:wise cultivation of enlightenment",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:46",
+      "target": "concept:religio",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:46",
+      "target": "concept:phenomenology",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:46",
+      "target": "concept:dasein",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:46",
+      "target": "concept:onto-theology",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:46",
+      "target": "person:Heidegger",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:46",
+      "target": "person:Edmund Husserl",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:46",
+      "target": "person:Meister Eckhart",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:46",
+      "target": "person:Paul Tillich",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:46",
+      "target": "person:Henry Corbin",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:46",
+      "target": "person:Carl Jung",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:46",
+      "target": "person:Owen Barfield",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:46",
+      "target": "person:Kitaro Nishida",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:46",
+      "target": "person:Keiji Nishitani",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:46",
+      "target": "ep:45",
+      "kind": "references"
+    },
+    {
+      "source": "ep:46",
+      "target": "ep:47",
+      "kind": "references"
+    },
+    {
+      "source": "ep:46",
+      "target": "ep:48",
+      "kind": "references"
+    },
+    {
+      "source": "ep:46",
+      "target": "ep:49",
+      "kind": "references"
+    },
+    {
+      "source": "ep:47",
+      "target": "concept:dasein",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:47",
+      "target": "concept:onto-theology",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:47",
+      "target": "concept:aletheia",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:47",
+      "target": "concept:authenticity",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:47",
+      "target": "concept:being mode",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:47",
+      "target": "person:Heidegger",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:47",
+      "target": "person:Edmund Husserl",
+      "kind": "discussed"
+    },
+    {
+      "source": "ep:47",
+      "target": "person:Hubert Dreyfus",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:47",
+      "target": "person:Maurice Merleau-Ponty",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:47",
+      "target": "ep:46",
+      "kind": "references"
+    },
+    {
+      "source": "ep:47",
+      "target": "ep:48",
+      "kind": "references"
+    },
+    {
+      "source": "ep:48",
+      "target": "concept:imaginal realm",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:48",
+      "target": "concept:divine double",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:48",
+      "target": "concept:symbol",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:48",
+      "target": "concept:gnosis",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:48",
+      "target": "concept:physis (the rose)",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:48",
+      "target": "person:Henry Corbin",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:48",
+      "target": "person:Meister Eckhart",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:48",
+      "target": "person:Tom Cheetham",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:48",
+      "target": "ep:46",
+      "kind": "references"
+    },
+    {
+      "source": "ep:48",
+      "target": "ep:47",
+      "kind": "references"
+    },
+    {
+      "source": "ep:48",
+      "target": "ep:49",
+      "kind": "references"
+    },
+    {
+      "source": "ep:49",
+      "target": "concept:individuation",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:49",
+      "target": "concept:archetype",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:49",
+      "target": "concept:shadow",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:49",
+      "target": "concept:synchronicity",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:49",
+      "target": "concept:anima/animus",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:49",
+      "target": "concept:sacred second self",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:49",
+      "target": "person:Carl Jung",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:49",
+      "target": "person:John Dourley",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:49",
+      "target": "person:Paul Tillich",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:49",
+      "target": "person:Wolfgang Pauli",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:49",
+      "target": "ep:46",
+      "kind": "references"
+    },
+    {
+      "source": "ep:49",
+      "target": "ep:48",
+      "kind": "references"
+    },
+    {
+      "source": "ep:49",
+      "target": "ep:50",
+      "kind": "references"
+    },
+    {
+      "source": "ep:50",
+      "target": "concept:ultimate concern",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:50",
+      "target": "concept:theonomous",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:50",
+      "target": "concept:method of correlation",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:50",
+      "target": "concept:participatory imagination",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:50",
+      "target": "concept:poiesis",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:50",
+      "target": "concept:god beyond god",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:50",
+      "target": "person:Paul Tillich",
+      "kind": "developed"
+    },
+    {
+      "source": "ep:50",
+      "target": "person:Owen Barfield",
+      "kind": "introduced"
+    },
+    {
+      "source": "ep:50",
+      "target": "person:Samuel Taylor Coleridge",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:50",
+      "target": "person:Rudolf Steiner",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:50",
+      "target": "person:Heidegger",
+      "kind": "referenced"
+    },
+    {
+      "source": "ep:50",
+      "target": "ep:46",
+      "kind": "references"
+    },
+    {
+      "source": "ep:50",
+      "target": "ep:48",
+      "kind": "references"
+    },
+    {
+      "source": "ep:50",
+      "target": "ep:49",
+      "kind": "references"
+    }
+  ]
+}

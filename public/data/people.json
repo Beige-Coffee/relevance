@@ -1,0 +1,3806 @@
+[
+  {
+    "name": "Plato",
+    "episodes": [
+      0,
+      4,
+      5,
+      6,
+      18,
+      35,
+      36
+    ],
+    "roles": {
+      "referenced": 4,
+      "subject": 1,
+      "discussed": 2
+    },
+    "summaries": [
+      {
+        "ep": 0,
+        "text": "Student of Socrates whose works will be foundational to understanding wisdom and meaning."
+      },
+      {
+        "ep": 4,
+        "text": "Student of Socrates who records his teachings and philosophy."
+      },
+      {
+        "ep": 5,
+        "text": "Ancient Greek philosopher who developed comprehensive theory of psyche and enlightenment."
+      },
+      {
+        "ep": 6,
+        "text": "Aristotle's teacher whose ideas he builds upon and revises."
+      },
+      {
+        "ep": 18,
+        "text": "Philosophical ancestor whose anagogy and theory of forms are integrated into Neoplatonic metaphysics."
+      },
+      {
+        "ep": 35,
+        "text": "Exemplar of sacred inexhaustibility for Vervaeke; endless return and deepening without final form."
+      },
+      {
+        "ep": 36,
+        "text": "Inner conflict and multiple motivational centers; foundational to understanding anxiety and modal confusion."
+      }
+    ],
+    "count": 7
+  },
+  {
+    "name": "Aristotle",
+    "episodes": [
+      0,
+      6,
+      7,
+      18,
+      43
+    ],
+    "roles": {
+      "referenced": 2,
+      "subject": 2,
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 0,
+        "text": "Ancient Greek philosopher whose work on meaning and flourishing will be discussed."
+      },
+      {
+        "ep": 6,
+        "text": "Ancient Greek philosopher who developed theory of growth, character, and human development."
+      },
+      {
+        "ep": 7,
+        "text": "Ancient philosopher whose conformity theory and worldview are detailed."
+      },
+      {
+        "ep": 18,
+        "text": "Whose conformity theory of knowing and levels of actuality/potentiality become central to Neoplatonic epistemology."
+      },
+      {
+        "ep": 43,
+        "text": "Ancient Greek philosopher. Distinction between sophia and phronesis foundational to contemporary wisdom research. Vervaeke argues for their opponent relationship."
+      }
+    ],
+    "count": 5
+  },
+  {
+    "name": "Heidegger",
+    "episodes": [
+      32,
+      33,
+      46,
+      47,
+      50
+    ],
+    "roles": {
+      "referenced": 3,
+      "introduced": 1,
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 32,
+        "text": "Foundational caring and dasein concepts resonant with relevance realization understanding."
+      },
+      {
+        "ep": 33,
+        "text": "On primordiality of being-in-the-world and foundational caring; influences understanding of religio."
+      },
+      {
+        "ep": 46,
+        "text": "Central prophetic figure. Philosopher of phenomenology and being. Diagnoses metaphysical tradition as history of nihilism. Proposes phenomenological exploration of dasein as response."
+      },
+      {
+        "ep": 47,
+        "text": "Central figure. Deepens phenomenology beyond Husserl through participatory knowing, dasein, and ontology. Diagnoses metaphysics as nihilism."
+      },
+      {
+        "ep": 50,
+        "text": "Philosophical predecessor to Tillich and Barfield on being and language."
+      }
+    ],
+    "count": 5
+  },
+  {
+    "name": "Leo Ferraro",
+    "episodes": [
+      13,
+      31,
+      39,
+      44,
+      45
+    ],
+    "roles": {
+      "discussed": 1,
+      "referenced": 3,
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 13,
+        "text": "Collaborator on cognitive modeling of parasitic processing in Buddhist psychology."
+      },
+      {
+        "ep": 31,
+        "text": "Psychometrist collaborator on connecting relevance realization to general intelligence."
+      },
+      {
+        "ep": 39,
+        "text": "Co-author with Vervaeke; wisdom involves seeing through illusion into more-real."
+      },
+      {
+        "ep": 44,
+        "text": "Collaborative theorist with Vervaeke on wisdom. Together developing convergence argument showing relevance realization at core of wisdom."
+      },
+      {
+        "ep": 45,
+        "text": "Co-developer with Vervaeke of 2013 wisdom model. Collaborative work on flow, mindfulness, and wisdom integration through relevance realization."
+      }
+    ],
+    "count": 5
+  },
+  {
+    "name": "Carl Jung",
+    "episodes": [
+      0,
+      17,
+      46,
+      49
+    ],
+    "roles": {
+      "referenced": 2,
+      "introduced": 1,
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 0,
+        "text": "Modern psychologist whose work on consciousness and meaning will be referenced."
+      },
+      {
+        "ep": 17,
+        "text": "Psychologist who identified stuckness and existential inertia as primary reasons people enter therapy."
+      },
+      {
+        "ep": 46,
+        "text": "Psychologist responding to meaning crisis through integration of shadow, individuation, and archetypal symbolism. Influenced by gnostics and Kant."
+      },
+      {
+        "ep": 49,
+        "text": "Analytical psychologist discovering sacred depths of psyche through archetypes and individuation. Gnostic and alchemical influences inform psychological framework."
+      }
+    ],
+    "count": 4
+  },
+  {
+    "name": "John Vervaeke",
+    "episodes": [
+      26,
+      27,
+      28,
+      29
+    ],
+    "roles": {
+      "subject": 4
+    },
+    "summaries": [
+      {
+        "ep": 26,
+        "text": "Proposes cognitive science as the framework for understanding meaning-making machinery and developing responses to the meaning crisis grounded in science rather than ideology."
+      },
+      {
+        "ep": 27,
+        "text": "Demonstrates how problem formulation and insight are central to understanding intelligence and rationality, not as algorithms but as skillful navigation of combinatorial complexity."
+      },
+      {
+        "ep": 28,
+        "text": "Orchestrates a convergence analysis showing relevance realization is central to intelligence, consciousness, and meaning-making."
+      },
+      {
+        "ep": 29,
+        "text": "Constructs a naturalistic theory of relevance realization grounded in enactive cognition, salience tagging, and autopoetic systems."
+      }
+    ],
+    "count": 4
+  },
+  {
+    "name": "Meister Eckhart",
+    "episodes": [
+      35,
+      37,
+      46,
+      48
+    ],
+    "roles": {
+      "referenced": 4
+    },
+    "summaries": [
+      {
+        "ep": 35,
+        "text": "Neoplatonic Christian mystic; 'the eye by which I see God is the eye by which God sees me.'"
+      },
+      {
+        "ep": 37,
+        "text": "Neoplatonic Christian mystic; eye of seeing and being seen as reciprocal cosmic perspective."
+      },
+      {
+        "ep": 46,
+        "text": "Rhineland mystic influencing German gnosis tradition. Gnostic elements entering through Heidegger connecting mysticism to philosophical phenomenology."
+      },
+      {
+        "ep": 48,
+        "text": "Rhineland mystic whose union mysticism parallels Sufi themes in Corbin's work."
+      }
+    ],
+    "count": 4
+  },
+  {
+    "name": "Nietzsche",
+    "episodes": [
+      3,
+      23,
+      34,
+      35
+    ],
+    "roles": {
+      "referenced": 3,
+      "subject": 1
+    },
+    "summaries": [
+      {
+        "ep": 3,
+        "text": "Philosopher quoted on the persistence of grammatical God-language."
+      },
+      {
+        "ep": 23,
+        "text": "Takes Schopenhauer's will to power and attempts to redeem it as creative self-transcendence, but remains trapped within the Romantic irrationalism he inherits."
+      },
+      {
+        "ep": 34,
+        "text": "On looking into abyss; sacredness of transgressive experience."
+      },
+      {
+        "ep": 35,
+        "text": "On staring into abyss; transgressive aspect of sacredness."
+      }
+    ],
+    "count": 4
+  },
+  {
+    "name": "Paul Tillich",
+    "episodes": [
+      14,
+      46,
+      49,
+      50
+    ],
+    "roles": {
+      "discussed": 1,
+      "introduced": 1,
+      "referenced": 1,
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 14,
+        "text": "Modern theologian whose The Courage To Be articulates the distinction between fear and anxiety central to understanding these philosophies."
+      },
+      {
+        "ep": 46,
+        "text": "Theologian of the meaning crisis. The Courage To Be announces crisis and revises theology through existential philosophy. God beyond theism; connection to gnosis."
+      },
+      {
+        "ep": 49,
+        "text": "Theologian whose God-beyond-theism parallels Jung's sacred psyche concept."
+      },
+      {
+        "ep": 50,
+        "text": "Theologian of meaning crisis and ultimate concern. Courage To Be announces crisis and proposes theonomous response. Gnostic elements in God-beyond-God."
+      }
+    ],
+    "count": 4
+  },
+  {
+    "name": "Robert Sternberg",
+    "episodes": [
+      38,
+      39,
+      43,
+      44
+    ],
+    "roles": {
+      "referenced": 3,
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 38,
+        "text": "Wisdom in psychology; pioneering cognitive scientific study of wisdom."
+      },
+      {
+        "ep": 39,
+        "text": "Pioneered cognitive science of wisdom; convergence between philosophical and psychological theories."
+      },
+      {
+        "ep": 43,
+        "text": "Psychologist with work on wisdom theories and cognitive styles involved in wise judgment. Referenced in Berlin paradigm discussion."
+      },
+      {
+        "ep": 44,
+        "text": "Pivotal wisdom researcher connecting psychology to pedagogy. Balance theory shows wisdom as tacit understanding optimizing fit to context. Connects wisdom to meaning in life through virtue and mastery."
+      }
+    ],
+    "count": 4
+  },
+  {
+    "name": "Socrates",
+    "episodes": [
+      0,
+      3,
+      4,
+      5
+    ],
+    "roles": {
+      "referenced": 2,
+      "introduced": 1,
+      "subject": 1
+    },
+    "summaries": [
+      {
+        "ep": 0,
+        "text": "Ancient Greek philosopher central to the Western tradition of wisdom and self-knowledge."
+      },
+      {
+        "ep": 3,
+        "text": "Greek philosopher who epitomized the Axial Revolution through the pursuit of wisdom and self-knowledge."
+      },
+      {
+        "ep": 4,
+        "text": "Ancient Greek philosopher whose life and death exemplify the Axial quest for wisdom and self-knowledge."
+      },
+      {
+        "ep": 5,
+        "text": "Plato's teacher whose death inspired Plato's philosophical project."
+      }
+    ],
+    "count": 4
+  },
+  {
+    "name": "the Buddha",
+    "episodes": [
+      0,
+      7,
+      8,
+      9
+    ],
+    "roles": {
+      "referenced": 2,
+      "introduced": 1,
+      "subject": 1
+    },
+    "summaries": [
+      {
+        "ep": 0,
+        "text": "The Buddha, whose insights into suffering and meaning are central to the series."
+      },
+      {
+        "ep": 7,
+        "text": "The Buddha whose mythological journey illustrates modal confusion and transformation."
+      },
+      {
+        "ep": 8,
+        "text": "The Buddha-to-be whose mythological journey illustrates the Axial Revolution in India."
+      },
+      {
+        "ep": 9,
+        "text": "The Buddha whose enlightenment exemplifies non-dual consciousness."
+      }
+    ],
+    "count": 4
+  },
+  {
+    "name": "Agnes Callard",
+    "episodes": [
+      37,
+      40,
+      45
+    ],
+    "roles": {
+      "referenced": 2,
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 37,
+        "text": "Aspiration; overcoming existential ignorance through developmental process of becoming."
+      },
+      {
+        "ep": 40,
+        "text": "Philosopher discussing aspirational rationality and how optimization of cognition tends to shift and change goals we pursue. Expands Stanovich's account."
+      },
+      {
+        "ep": 45,
+        "text": "Philosopher developing aspiration theory. Incremental transformative process acquiring values one doesn't yet possess. Proleptic rationality makes aspiration itself rational."
+      }
+    ],
+    "count": 3
+  },
+  {
+    "name": "Charles Taylor",
+    "episodes": [
+      3,
+      7,
+      11
+    ],
+    "roles": {
+      "discussed": 2,
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 3,
+        "text": "Philosopher who analyzed the great dis-embedding of the Axial Revolution."
+      },
+      {
+        "ep": 7,
+        "text": "Philosopher who analyzes conformity theory and worldview."
+      },
+      {
+        "ep": 11,
+        "text": "Philosopher of contact epistemology whose work underlies the understanding of optimal grip as conformity to reality."
+      }
+    ],
+    "count": 3
+  },
+  {
+    "name": "Harry Frankfurt",
+    "episodes": [
+      4,
+      17,
+      36
+    ],
+    "roles": {
+      "discussed": 2,
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 4,
+        "text": "Contemporary philosopher who analyzed bullshit as distinct from lying."
+      },
+      {
+        "ep": 17,
+        "text": "Philosopher who articulated the concept of the unthinkable—viable alternatives we cannot make livable to ourselves."
+      },
+      {
+        "ep": 36,
+        "text": "Concept of wanton behavior; motivation through conflicting desires undermining agency."
+      }
+    ],
+    "count": 3
+  },
+  {
+    "name": "Herbert Simon",
+    "episodes": [
+      26,
+      27,
+      41
+    ],
+    "roles": {
+      "referenced": 3
+    },
+    "summaries": [
+      {
+        "ep": 26,
+        "text": "Co-founder of cognitive problem-solving research, whose formalization of problem spaces reveals the machinery of how we solve problems."
+      },
+      {
+        "ep": 27,
+        "text": "Co-founder of cognitive science of problem-solving; conducted research showing that problem formulation (not just solution application) is crucial to solving complex problems."
+      },
+      {
+        "ep": 41,
+        "text": "Economist and cognitive scientist introducing bounded rationality concept, showing humans cannot be purely computational or algorithmic due to realistic constraints."
+      }
+    ],
+    "count": 3
+  },
+  {
+    "name": "Hubert Dreyfus",
+    "episodes": [
+      7,
+      43,
+      47
+    ],
+    "roles": {
+      "referenced": 3
+    },
+    "summaries": [
+      {
+        "ep": 7,
+        "text": "Philosopher of embodied understanding and expertise."
+      },
+      {
+        "ep": 43,
+        "text": "Phenomenologist influencing wisdom research on problem finding and relevance realization as core cognitive mechanisms."
+      },
+      {
+        "ep": 47,
+        "text": "Contemporary interpreter of Heidegger helping translate his ideas into cognitive science framework."
+      }
+    ],
+    "count": 3
+  },
+  {
+    "name": "Jesus",
+    "episodes": [
+      0,
+      15,
+      16
+    ],
+    "roles": {
+      "referenced": 1,
+      "subject": 2
+    },
+    "summaries": [
+      {
+        "ep": 0,
+        "text": "Religious figure whose teachings relate to meaning and transformation."
+      },
+      {
+        "ep": 15,
+        "text": "Introduces agape as God's creative love and offers metanoia—radical personal awakening—as path to transformation."
+      },
+      {
+        "ep": 16,
+        "text": "Incarnates kairos and embodies agape as the way to personal transformation and constitution of personhood."
+      }
+    ],
+    "count": 3
+  },
+  {
+    "name": "Kant",
+    "episodes": [
+      6,
+      23,
+      24
+    ],
+    "roles": {
+      "discussed": 1,
+      "referenced": 2
+    },
+    "summaries": [
+      {
+        "ep": 6,
+        "text": "Philosopher who identified the problem of circular explanation in biology."
+      },
+      {
+        "ep": 23,
+        "text": "His framework that the mind filters reality through categories sets the stage for Romantic inversion—seeking reality by moving into the irrational rather than the rational."
+      },
+      {
+        "ep": 24,
+        "text": "Hegel responds to Kant's critical philosophy by rejecting the thing-in-itself and making reality identical to intelligibility."
+      }
+    ],
+    "count": 3
+  },
+  {
+    "name": "Keith Stanovich",
+    "episodes": [
+      40,
+      41,
+      42
+    ],
+    "roles": {
+      "discussed": 1,
+      "developed": 2
+    },
+    "summaries": [
+      {
+        "ep": 40,
+        "text": "Cognitive scientist arguing rationality involves valuing cognitive processes in addition to products. Central to the rationality debate, distinguishing rationality from both intelligence and logic. Work frames rationality as overcoming self-deception."
+      },
+      {
+        "ep": 41,
+        "text": "Central figure responding brilliantly to Cohen, Cherniak, and Smedslund. Distinguishes intelligence from rationality, proposes dual processing model, and identifies psychotechnology and cognitive style as missing pieces of rationality."
+      },
+      {
+        "ep": 42,
+        "text": "Proposes dual processing model where S2 has corrective function for S1. Identifies psychotechnology and active open-mindedness as missing pieces for rationality. Vervaeke critiques as incomplete regarding insight."
+      }
+    ],
+    "count": 3
+  },
+  {
+    "name": "L.A. Paul",
+    "episodes": [
+      17,
+      37,
+      45
+    ],
+    "roles": {
+      "discussed": 1,
+      "referenced": 2
+    },
+    "summaries": [
+      {
+        "ep": 17,
+        "text": "Philosopher of transformative experience who shows how major life changes create epistemic impossibility of rational decision."
+      },
+      {
+        "ep": 37,
+        "text": "Transformative experience; cannot reason through epistemic gaps; need anagoge."
+      },
+      {
+        "ep": 45,
+        "text": "Philosopher of transformative experience. Sudden, non-inferential transformation. Inspires aspiration but doesn't explain incremental path."
+      }
+    ],
+    "count": 3
+  },
+  {
+    "name": "Michael Polanyi",
+    "episodes": [
+      9,
+      35,
+      37
+    ],
+    "roles": {
+      "discussed": 1,
+      "referenced": 2
+    },
+    "summaries": [
+      {
+        "ep": 9,
+        "text": "Philosopher who developed theory of focal and subsidiary awareness in attention."
+      },
+      {
+        "ep": 35,
+        "text": "On subsidiary and focal awareness; on indwelling; on holding things in mind through participatory engagement."
+      },
+      {
+        "ep": 37,
+        "text": "Indwelling; proceeding through the tool toward participatory knowing."
+      }
+    ],
+    "count": 3
+  },
+  {
+    "name": "Owen Barfield",
+    "episodes": [
+      34,
+      46,
+      50
+    ],
+    "roles": {
+      "referenced": 1,
+      "introduced": 2
+    },
+    "summaries": [
+      {
+        "ep": 34,
+        "text": "On linguistic evolution and changing meaning; metaphor as fundamental to language."
+      },
+      {
+        "ep": 46,
+        "text": "Philosopher of participation influenced by romantics. Participatory imagination central to recovering meaning and sacred dimension."
+      },
+      {
+        "ep": 50,
+        "text": "Philosopher of language and imagination. Recovers participatory consciousness and poiesis. Influenced by Coleridge and romanticism."
+      }
+    ],
+    "count": 3
+  },
+  {
+    "name": "Paul",
+    "episodes": [
+      15,
+      16,
+      19
+    ],
+    "roles": {
+      "subject": 2,
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 15,
+        "text": "Personalizes Jesus's teachings, projecting inner psychological conflict onto cosmic narrative of divine struggle and redemption."
+      },
+      {
+        "ep": 16,
+        "text": "Undergoes transformative experience on Damascus road, personalizes agape-metanoia, but projects inner conflict onto cosmic structure."
+      },
+      {
+        "ep": 19,
+        "text": "Apostle whose letters Augustine encounters, showing how agape heals inner conflict and constitutes transformation."
+      }
+    ],
+    "count": 3
+  },
+  {
+    "name": "Susan Wolf",
+    "episodes": [
+      36,
+      38,
+      44
+    ],
+    "roles": {
+      "referenced": 2,
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 36,
+        "text": "Meaning in life as connectedness to something larger; symbolic expressions of deeper transjective yearning."
+      },
+      {
+        "ep": 38,
+        "text": "Meaning in life as connectedness; identifies crisis of objective attractiveness in scientific worldview."
+      },
+      {
+        "ep": 44,
+        "text": "Philosopher on meaning in life. Her argument that meaning is irreducible to morality influences Ardelt and Sternberg's accounts."
+      }
+    ],
+    "count": 3
+  },
+  {
+    "name": "Allen Newell",
+    "episodes": [
+      26,
+      27
+    ],
+    "roles": {
+      "referenced": 2
+    },
+    "summaries": [
+      {
+        "ep": 26,
+        "text": "Co-founder with Simon of the cognitive science of problem-solving, whose work on general problem solvers provides the foundation for understanding intelligence."
+      },
+      {
+        "ep": 27,
+        "text": "Co-founder of cognitive science; proposed the general problem solver model and formalization of problem spaces."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "Antonio Damasio",
+    "episodes": [
+      22,
+      38
+    ],
+    "roles": {
+      "referenced": 1,
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 22,
+        "text": "His book Descartes' Error critiques Descartes' separation of reason from emotion, though Vervaeke argues Descartes actually anticipated these criticisms."
+      },
+      {
+        "ep": 38,
+        "text": "Descartes' Error; emotions essential to cognition; without emotion, incapacitation despite intact calculation."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "Arthur Schopenhauer",
+    "episodes": [
+      23,
+      24
+    ],
+    "roles": {
+      "subject": 1,
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 23,
+        "text": "Inverts Kant to argue that will, not reason, is fundamental, making existence inherently tragic and nihilistic."
+      },
+      {
+        "ep": 24,
+        "text": "His critique that Hegel ignores the will and the irrational aspects of human existence points to what systematic reason cannot capture."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "Augustine",
+    "episodes": [
+      19,
+      20
+    ],
+    "roles": {
+      "subject": 1,
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 19,
+        "text": "Church father who synthesizes Neoplatonism and Christianity, creating framework for medieval understanding of meaning, reality, and transformation."
+      },
+      {
+        "ep": 20,
+        "text": "His synthesis of Christian theology with Platonic and Aristotelian thought exemplifies the three orders framework that the scientific revolution will dismantle."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "Blaise Pascal",
+    "episodes": [
+      21,
+      22
+    ],
+    "roles": {
+      "referenced": 1,
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 21,
+        "text": "His recognition that the new cosmos is terrifying and that certainty cannot alleviate existential dread foreshadows the inadequacy of Descartes' response."
+      },
+      {
+        "ep": 22,
+        "text": "Recognizes that both Descartes' certainty-seeking and Hobbes' computationalism miss something essential—the transformative, embodied, participatory dimensions of knowing."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "Blake Richards",
+    "episodes": [
+      29,
+      31
+    ],
+    "roles": {
+      "referenced": 1,
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 29,
+        "text": "Collaborator on the Journal of Logic and Computation article on relevance realization and emergent frameworks in cognitive science."
+      },
+      {
+        "ep": 31,
+        "text": "Co-author on relevance realization paper showing AI convergence with cognitive science theory."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "Charles Darwin",
+    "episodes": [
+      6,
+      30
+    ],
+    "roles": {
+      "referenced": 2
+    },
+    "summaries": [
+      {
+        "ep": 6,
+        "text": "Naturalist whose evolution theory exemplifies dynamical systems."
+      },
+      {
+        "ep": 30,
+        "text": "Theory of evolution via natural selection provides the foundational analogy for understanding relevance realization as non-essentialist, process-driven optimization."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "Christopher Cherniak",
+    "episodes": [
+      29,
+      41
+    ],
+    "roles": {
+      "referenced": 1,
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 29,
+        "text": "Argued that rationality consists in selecting relevant implications from the combinatorially explosive set of possible ones."
+      },
+      {
+        "ep": 41,
+        "text": "Neuroscientist arguing we face finitary predicament making algorithmic rationality impossible. Rationality must accommodate computational limitations. Stanovich accepts this but relocates it to intelligence rather than rationality."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "Christopher Mole",
+    "episodes": [
+      8,
+      9
+    ],
+    "roles": {
+      "discussed": 2
+    },
+    "summaries": [
+      {
+        "ep": 8,
+        "text": "Philosopher of attention who explains attention as optimization rather than spotlight."
+      },
+      {
+        "ep": 9,
+        "text": "Philosopher of attention who explained attention as optimization of other processes."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "Clifford Geertz",
+    "episodes": [
+      7,
+      33
+    ],
+    "roles": {
+      "discussed": 1,
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 7,
+        "text": "Anthropologist who developed concept of existential mode."
+      },
+      {
+        "ep": 33,
+        "text": "On religion's meta-meaning function protecting against domicide; meta-assimilation aspect of sacredness."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "D.T. Suzuki",
+    "episodes": [
+      35,
+      37
+    ],
+    "roles": {
+      "referenced": 2
+    },
+    "summaries": [
+      {
+        "ep": 35,
+        "text": "On prajña and non-duality; scaling up and down simultaneously; perspective interpenetration."
+      },
+      {
+        "ep": 37,
+        "text": "On prajña and simultaneous scaling up and down; perspective interpenetration in non-dual wisdom."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "Daniel Dennett",
+    "episodes": [
+      26,
+      28
+    ],
+    "roles": {
+      "referenced": 2
+    },
+    "summaries": [
+      {
+        "ep": 26,
+        "text": "His concept of 'deepity' helps identify how we use language to appear profound while actually bullshitting ourselves about meaning."
+      },
+      {
+        "ep": 28,
+        "text": "Provided the robot example illustrating how action requires determining relevant side effects."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "Dreyfus",
+    "episodes": [
+      4,
+      32
+    ],
+    "roles": {
+      "referenced": 2
+    },
+    "summaries": [
+      {
+        "ep": 4,
+        "text": "Cognitive scientist who studied implicit knowing and expertise."
+      },
+      {
+        "ep": 32,
+        "text": "Third-generation cognitive science; emphasizes optimal gripping and being-in-the-world."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "Edmund Husserl",
+    "episodes": [
+      46,
+      47
+    ],
+    "roles": {
+      "developed": 1,
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 46,
+        "text": "Founder of phenomenology. Pursued contact epistemology through intentionality and world disclosure. Heidegger deepens by adding participatory knowing and existential modes."
+      },
+      {
+        "ep": 47,
+        "text": "Heidegger's teacher and critic. Phenomenology remains Cartesian; lacks participatory knowing and ontological grounding."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "Ellen Langer",
+    "episodes": [
+      8,
+      9
+    ],
+    "roles": {
+      "discussed": 2
+    },
+    "summaries": [
+      {
+        "ep": 8,
+        "text": "Cognitive psychologist who studied soft vigilance and mindful attention."
+      },
+      {
+        "ep": 9,
+        "text": "Psychologist who studied soft vigilance as alternative to concentrated attention."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "Eric Perl",
+    "episodes": [
+      6,
+      18
+    ],
+    "roles": {
+      "discussed": 2
+    },
+    "summaries": [
+      {
+        "ep": 6,
+        "text": "Scholar of Aristotle on purpose and structural functional organization."
+      },
+      {
+        "ep": 18,
+        "text": "Contemporary philosopher whose interpretation illuminates how Neoplatonism integrates being with knowing and realness with understanding."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "Henry Corbin",
+    "episodes": [
+      46,
+      48
+    ],
+    "roles": {
+      "introduced": 1,
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 46,
+        "text": "Scholar of Islamic philosophy and symbolism. Addresses meaning crisis through imaginal realm and symbolic thinking. Deeply influenced by gnosis."
+      },
+      {
+        "ep": 48,
+        "text": "Islamic philosophy scholar and mystical theologian. Recovers imaginal realm against materialist scientism. Integrates Sufi, Gnostic, and Neoplatonic traditions."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "J.D. Velleman",
+    "episodes": [
+      36,
+      37
+    ],
+    "roles": {
+      "referenced": 2
+    },
+    "summaries": [
+      {
+        "ep": 36,
+        "text": "On reflectiveness gap and the optimization problem between immersion (wanton action) and reflection (Hamlet's paralysis)."
+      },
+      {
+        "ep": 37,
+        "text": "On solving reflectiveness gap through Daoism and flow; dynamic integration rather than static balance."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "Jean Piaget",
+    "episodes": [
+      31,
+      40
+    ],
+    "roles": {
+      "referenced": 2
+    },
+    "summaries": [
+      {
+        "ep": 31,
+        "text": "Developmental psychology founder; assimilation and accommodation parallel compression and particularization."
+      },
+      {
+        "ep": 40,
+        "text": "Developmental psychologist whose conservation task experiments reveal systematic errors reflecting competence deficits, not performance errors. Provides model for understanding transframing as developmental breakthrough."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "John Kekes",
+    "episodes": [
+      40,
+      44
+    ],
+    "roles": {
+      "referenced": 2
+    },
+    "summaries": [
+      {
+        "ep": 40,
+        "text": "Philosopher of wisdom distinguishing descriptive knowledge from interpretive knowledge. Interpretive knowledge involves grasping significance, essential to understanding."
+      },
+      {
+        "ep": 44,
+        "text": "Philosopher whose distinction between descriptive and interpretive knowledge is central to Ardelt's theory. Interpretive knowledge relates understanding and significance grasping."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "John Searle",
+    "episodes": [
+      22,
+      29
+    ],
+    "roles": {
+      "referenced": 2
+    },
+    "summaries": [
+      {
+        "ep": 22,
+        "text": "His distinction between weak and strong AI clarifies that computational power alone may not explain consciousness."
+      },
+      {
+        "ep": 29,
+        "text": "Identified that representations are aspectual—they select relevant features rather than capturing all properties."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "Jonathan Baron",
+    "episodes": [
+      41,
+      42
+    ],
+    "roles": {
+      "referenced": 1,
+      "developed": 1
+    },
+    "summaries": [
+      {
+        "ep": 41,
+        "text": "Originator of active open-mindedness concept. Emphasizes optimization rather than maximization of bias correction, since overdoing it creates its own problems. Need for cognition predicts cultivating this style."
+      },
+      {
+        "ep": 42,
+        "text": "Originator of active open-mindedness. Emphasizes optimization principle: don't maximize bias correction or you'll overwhelm yourself. Clarifies need for cognition as problem-seeking motivation."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "Jordan Hall",
+    "episodes": [
+      37,
+      39
+    ],
+    "roles": {
+      "referenced": 2
+    },
+    "summaries": [
+      {
+        "ep": 37,
+        "text": "Coherence; freeing communication from cultural grammar; distributed cognition and collective intelligence."
+      },
+      {
+        "ep": 39,
+        "text": "Coherence and meta-psychotechnology; freeing communication from constraining cultural grammar."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "Karl Marx",
+    "episodes": [
+      24,
+      25
+    ],
+    "roles": {
+      "discussed": 1,
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 24,
+        "text": "His rejection of Hegel's idealism and turn to material conditions and class struggle reveals the passivity and abstraction of Hegelian thought."
+      },
+      {
+        "ep": 25,
+        "text": "His dialectical materialism offers competing secular utopia to Nazism, equally totalizing and equally devastating in historical consequence."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "L. Jonathan Cohen",
+    "episodes": [
+      40,
+      41
+    ],
+    "roles": {
+      "discussed": 2
+    },
+    "summaries": [
+      {
+        "ep": 40,
+        "text": "Philosopher in rationality debate arguing humans cannot be fundamentally irrational. Proposes competence-performance distinction, suggesting all experimental errors are performance errors, not competence failures."
+      },
+      {
+        "ep": 41,
+        "text": "Philosopher in rationality debate arguing autonomy of reason prevents us from being fundamentally irrational. Standards must originate from us. However, this doesn't prevent competence-level errors when we have multiple competencies."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "Ludwig Wittgenstein",
+    "episodes": [
+      29,
+      30
+    ],
+    "roles": {
+      "referenced": 2
+    },
+    "summaries": [
+      {
+        "ep": 29,
+        "text": "Argued that rules cannot fully specify their own application and that skill of judgment is fundamental to following rules."
+      },
+      {
+        "ep": 30,
+        "text": "On family resemblance and categories without essences; critiques essentialism for natural language concepts."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "Markus Brede",
+    "episodes": [
+      30,
+      31
+    ],
+    "roles": {
+      "referenced": 2
+    },
+    "summaries": [
+      {
+        "ep": 30,
+        "text": "Mathematical work showing optimization between efficiency and resiliency in networks."
+      },
+      {
+        "ep": 31,
+        "text": "Mathematical proof that networks optimize trade-offs between efficiency and resiliency."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "Martin Luther",
+    "episodes": [
+      21,
+      25
+    ],
+    "roles": {
+      "subject": 1,
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 21,
+        "text": "His doctrine of sola fide and attack on tradition radicalizes the isolation of the self while paradoxically training culture in narcissism through the promise of unearned positive regard."
+      },
+      {
+        "ep": 25,
+        "text": "His anti-Semitism provides theological precedent and language for Nazi ideology, showing how religious fragmentation enables totalitarian manipulation."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "Michael Anderson",
+    "episodes": [
+      1,
+      34
+    ],
+    "roles": {
+      "discussed": 2
+    },
+    "summaries": [
+      {
+        "ep": 1,
+        "text": "Cognitive scientist who developed theory of exaptation in brain function."
+      },
+      {
+        "ep": 34,
+        "text": "On exaptation in brain; neural reuse and circuit reconfiguration for new functions."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "Pamela Arlin",
+    "episodes": [
+      42,
+      45
+    ],
+    "roles": {
+      "referenced": 2
+    },
+    "summaries": [
+      {
+        "ep": 42,
+        "text": "Researcher arguing problem finding is central to wisdom and creativity. Good problem finders identify nexuses—core problems whose solution impacts multiple domains."
+      },
+      {
+        "ep": 45,
+        "text": "Researcher on problem finding. Central to wisdom and creativity; good finders identify problem nexuses."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "Paul Baltes",
+    "episodes": [
+      43,
+      44
+    ],
+    "roles": {
+      "introduced": 1,
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 43,
+        "text": "Lifespan developmental psychologist. Co-creator of Berlin paradigm for wisdom. Initiated empirical investigation of wisdom through five criteria and experimental tasks."
+      },
+      {
+        "ep": 44,
+        "text": "Lifespan psychologist with Staudinger developing Berlin paradigm. Vervaeke criticizes focus on product theory without process theory accounting for transformational development."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "Pierre Hadot",
+    "episodes": [
+      15,
+      19
+    ],
+    "roles": {
+      "discussed": 2
+    },
+    "summaries": [
+      {
+        "ep": 15,
+        "text": "Philosopher who recovered understanding of ancient philosophy as spiritual exercises rather than abstract doctrines."
+      },
+      {
+        "ep": 19,
+        "text": "Philosopher whose work on ancient philosophy as spiritual practice influences Vervaeke's understanding of medieval transformation."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "Plotinus",
+    "episodes": [
+      18,
+      19
+    ],
+    "roles": {
+      "subject": 1,
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 18,
+        "text": "Third-century philosopher who created integrated spiritual and philosophical system integrating Plato, Aristotle, and Stoicism."
+      },
+      {
+        "ep": 19,
+        "text": "Neoplatonist whose mystical experience Augustine discovers, providing path of agapic transformation through love."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "Pythagoras",
+    "episodes": [
+      3,
+      5
+    ],
+    "roles": {
+      "introduced": 1,
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 3,
+        "text": "Greek philosopher who discovered mathematical patterns and invented the term 'cosmos'."
+      },
+      {
+        "ep": 5,
+        "text": "Influenced Plato's understanding of self-transcendence and mathematical reality."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "René Descartes",
+    "episodes": [
+      21,
+      22
+    ],
+    "roles": {
+      "subject": 2
+    },
+    "summaries": [
+      {
+        "ep": 21,
+        "text": "His attempt to solve the meaning crisis through mathematical method and computational certainty provides an alternative to Luther's faith, but one equally divorced from embodied, participatory reality."
+      },
+      {
+        "ep": 22,
+        "text": "Defends the immaterial mind against Hobbes using arguments derived from the scientific revolution itself, revealing deep contradictions in how science frames the mind-body relationship."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "Spinoza",
+    "episodes": [
+      35,
+      37
+    ],
+    "roles": {
+      "discussed": 2
+    },
+    "summaries": [
+      {
+        "ep": 35,
+        "text": "Ethics as extended meditation for scientia intuitiva; symbols as means to cosmic perspective."
+      },
+      {
+        "ep": 37,
+        "text": "Scientia intuitiva and Ethics as extended meditation; recovering sacredness within Cartesian worldview."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "Stephen Batchelor",
+    "episodes": [
+      8,
+      13
+    ],
+    "roles": {
+      "referenced": 1,
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 8,
+        "text": "Contemporary Buddhist scholar who understands mindfulness as recovery of being mode."
+      },
+      {
+        "ep": 13,
+        "text": "Buddhist scholar who argues for understanding Buddhism existentially rather than as belief system, influencing Vervaeke's reinterpretation."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "Thomas Nagel",
+    "episodes": [
+      22,
+      36
+    ],
+    "roles": {
+      "referenced": 1,
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 22,
+        "text": "His work on qualia and subjective experience extends Descartes' argument that consciousness poses problems for purely material theories of mind."
+      },
+      {
+        "ep": 36,
+        "text": "Analysis of absurdity; arguments for absurdity are after-the-fact expressions rather than generators; perspectival clash is root."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "Tomas Björkman",
+    "episodes": [
+      25,
+      39
+    ],
+    "roles": {
+      "referenced": 2
+    },
+    "summaries": [
+      {
+        "ep": 25,
+        "text": "His concept of the metacrisis identifies how ecological, economic, and spiritual crises are interconnected and cannot be solved through politics alone."
+      },
+      {
+        "ep": 39,
+        "text": "Meta-crisis concept; integrated crises requiring coordinated response."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "Ursula Staudinger",
+    "episodes": [
+      43,
+      44
+    ],
+    "roles": {
+      "introduced": 1,
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 43,
+        "text": "Developmental psychologist with Baltes. Co-developed Berlin wisdom paradigm. Created empirical methodology for measuring wisdom in experimental contexts."
+      },
+      {
+        "ep": 44,
+        "text": "Co-developer of Berlin paradigm empirical approach to wisdom. Emphasizes metaheuristics and pragmatic orchestration of mind and virtue."
+      }
+    ],
+    "count": 2
+  },
+  {
+    "name": "Adolf Hitler",
+    "episodes": [
+      25
+    ],
+    "roles": {
+      "subject": 1
+    },
+    "summaries": [
+      {
+        "ep": 25,
+        "text": "His synthesis of Romanticism, Gnosticism, will to power, and nationalist mythology into a totalitarian pseudo-religious ideology that exterminates millions."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Ainslie",
+    "episodes": [
+      5
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 5,
+        "text": "Researcher who studied hyperbolic discounting."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Alain de Botton",
+    "episodes": [
+      39
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 39,
+        "text": "Religion for Atheists; secular exploration of religion's psychotechnological functions."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Alicia Juarrero",
+    "episodes": [
+      6
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 6,
+        "text": "Contemporary philosopher whose dynamical systems theory was inspired by Aristotle."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Ammonius Saccas",
+    "episodes": [
+      18
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 18,
+        "text": "Plotinus's teacher in the Platonic tradition from whom he developed his comprehensive philosophical system."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Andrew Newberg",
+    "episodes": [
+      11
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 11,
+        "text": "Neuroscientist whose research on enlightenment experiences and brain imaging provides empirical backing for continuity between insight and mystical states."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Andrew Ortony",
+    "episodes": [
+      34
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 34,
+        "text": "On salience imbalance in metaphorical understanding."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Andy Clark",
+    "episodes": [
+      1
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 1,
+        "text": "Philosopher and cognitive scientist on human use of tools."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Antisthenes",
+    "episodes": [
+      14
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 14,
+        "text": "Socratic student who learns to converse with himself, pioneering the internalization of Socratic elenchus that becomes Stoic practice."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Aquinas",
+    "episodes": [
+      19
+    ],
+    "roles": {
+      "subject": 1
+    },
+    "summaries": [
+      {
+        "ep": 19,
+        "text": "Medieval theologian who attempts to preserve medieval synthesis against Aristotle's challenge by introducing nature/supernatural division."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Arne Cherniak",
+    "episodes": [
+      41
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 41,
+        "text": "Introduces finitary predicament concept showing formal logic and probability cannot be comprehensively applied in life due to combinatorial explosion."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Arthur Reber",
+    "episodes": [
+      2
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 2,
+        "text": "Cognitive psychologist who studied implicit learning."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Arthur Versluis",
+    "episodes": [
+      39
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 39,
+        "text": "The New Inquisitions; history of heresy persecution foreshadowing totalitarian regimes."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Barry Schwartz",
+    "episodes": [
+      43
+    ],
+    "roles": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 43,
+        "text": "Psychologist studying practical wisdom. With Sharpe, argues virtues form interdependent system centered on relevance. Advocates phronesis over legislation. Critical of replacing wisdom cultivation with rules."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Bernard Baars",
+    "episodes": [
+      10
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 10,
+        "text": "Proposer of global workspace theory, which provides a key account of consciousness as a mechanism for bringing information into coordinated processing."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Buddhism/Buddhist tradition",
+    "episodes": [
+      36
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 36,
+        "text": "Addresses perennial problems through psychotechnologies; duka and modal confusion as core targets."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Carol Dweck",
+    "episodes": [
+      42
+    ],
+    "roles": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 42,
+        "text": "Psychologist studying mindset. Shows fixed versus malleable beliefs about intelligence profoundly affect need for cognition, problem-solving, and tendency toward self-deception. Makes rationality existential rather than merely cognitive."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Charles Spearman",
+    "episodes": [
+      31
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 31,
+        "text": "Discovered general intelligence factor (g) and strong positive manifold; foundational to psychometrics."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Clifton Barber",
+    "episodes": [
+      40
+    ],
+    "roles": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 40,
+        "text": "Co-author with McKee establishing that wisdom centrally involves systematic insight and transframing, drawing on Piagetian developmental psychology to explain competence shifts."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Copernicus",
+    "episodes": [
+      20
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 20,
+        "text": "His heliocentric model, defended not on empirical grounds but on mathematical elegance, marks the first major shift toward prioritizing abstract symbolism over sensory experience."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Cosmeliet al.",
+    "episodes": [
+      32
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 32,
+        "text": "2004 binocular rivalry experiments linking consciousness to neural synchrony-asynchrony transitions."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Craig Kaplan",
+    "episodes": [
+      27
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 27,
+        "text": "Collaborated with Simon on the mutilated chessboard experiment demonstrating how reframing turns combinatorially explosive problems into tractable ones."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Csikszentmihalyi",
+    "episodes": [
+      2
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 2,
+        "text": "Psychologist who developed flow theory and studied optimal experience."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Dan Sperber",
+    "episodes": [
+      28
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 28,
+        "text": "Co-author of Relevance Theory; argues that all conversational maxims reduce to the single principle of being relevant."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Daniel Kahneman",
+    "episodes": [
+      42
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 42,
+        "text": "Cognitive psychologist developing dual process theory with book Thinking, Fast and Slow. Provides empirical basis for S1/S2 distinction."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "David Chalmers",
+    "episodes": [
+      10
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 10,
+        "text": "Famous for formulating the hard problem of consciousness, which Vervaeke acknowledges but does not attempt to solve."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "David Lewis-Williams",
+    "episodes": [
+      1
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 1,
+        "text": "Scholar of Upper Paleolithic transition and shamanism."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "David Yaden",
+    "episodes": [
+      11
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 11,
+        "text": "Researcher who demonstrated through surveys that people reporting higher state experiences show significant improvement in multiple life dimensions."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Deirdre Wilson",
+    "episodes": [
+      28
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 28,
+        "text": "Co-author of Relevance Theory with Sperber; advanced the view that relevance is central to both communication and cognition."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Dennis Walsh",
+    "episodes": [
+      38
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 38,
+        "text": "Philosophy of biology; niche construction and extended evolutionary synthesis."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Diogenes",
+    "episodes": [
+      14
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 14,
+        "text": "Cynic philosopher whose provocative demonstrations (lamp search for honest man, public masturbation) challenge cultural assumptions."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Elijah Millgram",
+    "episodes": [
+      26
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 26,
+        "text": "His work on practical induction and the balance between convergence and elegance provides philosophical foundations for understanding plausibility."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Epictetus",
+    "episodes": [
+      15
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 15,
+        "text": "Stoic philosopher whose distinction of control and non-control becomes foundational to understanding wisdom in any circumstances."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Epicurus",
+    "episodes": [
+      14
+    ],
+    "roles": {
+      "subject": 1
+    },
+    "summaries": [
+      {
+        "ep": 14,
+        "text": "Epicurean philosopher who diagnoses anxiety about death and proposes acceptance of mortality combined with philosophical friendship."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Erasmus",
+    "episodes": [
+      21
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 21,
+        "text": "His proposal of 'synergy' between human and divine effort in salvation is rejected by Luther, crystallizing the Lutheran rejection of participatory collaboration."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Erich Fromm",
+    "episodes": [
+      7
+    ],
+    "roles": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 7,
+        "text": "20th-century psychoanalyst who distinguished having and being modes."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Evan Thompson",
+    "episodes": [
+      38
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 38,
+        "text": "Deep continuity hypothesis; mind-in-life framework; development of 4E cognitive science."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Francisco Varela",
+    "episodes": [
+      38
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 38,
+        "text": "Third-generation 4E cognitive science founder; deep resonance between neuroscience and Buddhist dharma."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Friedrich Schleiermacher",
+    "episodes": [
+      23
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 23,
+        "text": "Applies Romantic thinking to theology, attempting to reconstruct religion around feeling and imagination."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Gabriel Marcel",
+    "episodes": [
+      33
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 33,
+        "text": "On mystery and sensibility transcendence; transframing as trajectory of opening."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Galileo",
+    "episodes": [
+      20
+    ],
+    "roles": {
+      "subject": 1
+    },
+    "summaries": [
+      {
+        "ep": 20,
+        "text": "The central figure in the lecture, Galileo's use of abstract mathematics to describe physical reality and his discovery of inertial motion fundamentally reframe the universe as mechanistic and meaning-free."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Georg Wilhelm Friedrich Hegel",
+    "episodes": [
+      24
+    ],
+    "roles": {
+      "subject": 1
+    },
+    "summaries": [
+      {
+        "ep": 24,
+        "text": "The central figure attempting a total synthesis of science, faith, and philosophy; his system becomes the template for modern totalizing ideologies."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "George Lakoff",
+    "episodes": [
+      34
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 34,
+        "text": "On metaphors we live by; conceptual metaphor theory; critiqued for oversimplifying projection mechanism."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "George Pólya",
+    "episodes": [
+      27
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 27,
+        "text": "Author of 'How to Solve It'; distinguished between algorithms and heuristics in the context of problem-solving techniques."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Gibson",
+    "episodes": [
+      10
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 10,
+        "text": "Visual perception theorist whose concept of affordances is central to understanding how consciousness reveals what is actionable in the world."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Gregg Jacobs",
+    "episodes": [
+      42
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 42,
+        "text": "Author of The Ancestral Mind. Argues in therapy you need to trigger insight through S1 processing, not infer your way through transformative change."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "H.P. Grice",
+    "episodes": [
+      28
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 28,
+        "text": "Developed the theory of conversational implicature showing that communication depends on conveying more than is said through relevance."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Harold Brown",
+    "episodes": [
+      29
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 29,
+        "text": "Developed the concept of the skill of judgment as fundamental to rationality and rule-following."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Henk de Regt",
+    "episodes": [
+      45
+    ],
+    "roles": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 45,
+        "text": "Philosopher of understanding. Standard of effectiveness: understanding enables application and problem finding across domains. Context-relative and contextually sensitive."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Herbert Dreyfus",
+    "episodes": [
+      11
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 11,
+        "text": "Cognitive scientist who articulated the concept of optimal grip and its role in skilled expertise across all domains of human engagement."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Hess and Gross",
+    "episodes": [
+      32
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 32,
+        "text": "2014 comprehensive review establishing self-organizing criticality as fundamental neural property."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Hilger et al.",
+    "episodes": [
+      32
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 32,
+        "text": "2016 research on efficient hubs in salience network correlation with general intelligence."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Huston Smith",
+    "episodes": [
+      33
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 33,
+        "text": "Perennial philosophy perspective on shared spiritual themes across traditions."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Igor Grossman",
+    "episodes": [
+      43
+    ],
+    "roles": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 43,
+        "text": "Contemporary psychologist discovering the Solomon effect. Shows wiser reasoning on others' problems through third-person perspective. Demonstrates perspectival dimension of wisdom."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Igor Grossmann",
+    "episodes": [
+      12
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 12,
+        "text": "Researcher on the Solomon effect showing how de-centering enables wisdom and insight into interpersonal problems."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Iris Murdoch",
+    "episodes": [
+      17
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 17,
+        "text": "Philosopher whose work on sensibility transcendence (via John Wright) articulates mutual transformation in Agent-Arena relations."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Jacquelyn Baker-Sennett",
+    "episodes": [
+      42
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 42,
+        "text": "Researcher with Ceci on cognitive leaping. Showed ability to complete patterns accurately with few cues is directly predictive of insight."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "James",
+    "episodes": [
+      35
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 35,
+        "text": "On I-me distinction; provides philosophical grounding for participatory symbol theory."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "James Carse",
+    "episodes": [
+      39
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 39,
+        "text": "The Religious Case Against Belief; exploring religion beyond creeds."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Jerry Fodor",
+    "episodes": [
+      29
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 29,
+        "text": "Major defender of computational theory of mind who pointed out that inference presupposes relevance and that this undermines purely computational accounts."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Johann Wolfgang von Goethe",
+    "episodes": [
+      23
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 23,
+        "text": "A founding figure of Romanticism whose The Sorrows of Young Werther exemplifies Romantic irrationalism and its cultural influence."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "John",
+    "episodes": [
+      16
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 16,
+        "text": "Gospel writer who identifies agape with God itself, understanding Christian reality as participation in God's creative love."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "John Dourley",
+    "episodes": [
+      49
+    ],
+    "roles": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 49,
+        "text": "Jungian analyst and theologian showing convergence between Jung and Tillich. The Psyche as Sacrament framework."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "John Kennedy",
+    "episodes": [
+      34
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 34,
+        "text": "Co-authored work showing metaphor involves both bottom-up and top-down mechanisms."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "John Stuart Mill",
+    "episodes": [
+      30
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 30,
+        "text": "On systematic import and inductive generalization; demonstrates why relevance cannot be made scientific."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "John Teasdale",
+    "episodes": [
+      42
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 42,
+        "text": "Researcher on metacognitive insight in therapy. Argues mindfulness triggers insight by constraining S2 and foregrounding S1 processing."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Jonathan Pageau",
+    "episodes": [
+      34
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 34,
+        "text": "On symbolic world; remembering functional and participatory nature of symbols."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Jorn Smedslund",
+    "episodes": [
+      41
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 41,
+        "text": "Scandinavian psychologist distinguishing fallacy from misunderstanding. Shows these aren't cleanly separable, and determining which one occurred depends on understanding construal—a non-inferential process."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Karen Armstrong",
+    "episodes": [
+      2
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 2,
+        "text": "Historian who explored the Axial Revolution."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Karl Jaspers",
+    "episodes": [
+      2
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 2,
+        "text": "Philosopher who identified the Axial Age."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Keiji Nishitani",
+    "episodes": [
+      46
+    ],
+    "roles": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 46,
+        "text": "Kyoto School philosopher. Religion and Nothingness rated among top responses to meaning crisis. Integrates Heidegger, James, Buddhist thought."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Keith Holyoak",
+    "episodes": [
+      27
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 27,
+        "text": "Cognitive psychologist who provided the foundational example demonstrating combinatorial explosion in chess-playing."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Kelso and Tognoli",
+    "episodes": [
+      12
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 12,
+        "text": "Neuroscientists whose work on metastability explains how the brain achieves simultaneous integration and differentiation."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Kenneth Sharpe",
+    "episodes": [
+      43
+    ],
+    "roles": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 43,
+        "text": "Co-author with Schwartz on practical wisdom. Emphasizes contextual sensitivity and judgment. Co-authored book Practical Wisdom."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Kitaro Nishida",
+    "episodes": [
+      46
+    ],
+    "roles": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 46,
+        "text": "Founder of Kyoto School. Engages Heidegger, James, and Buddhism to respond to meaning crisis through absolute nothingness."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Lakoff",
+    "episodes": [
+      2
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 2,
+        "text": "Cognitive scientist who studies metaphor in human thought."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Langer et al.",
+    "episodes": [
+      32
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 32,
+        "text": "2012-2013 research showing small-world network organization correlates with working memory and intelligence."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Lau",
+    "episodes": [
+      39
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 39,
+        "text": "Consciousness sets decision criteria for perception; perspectival knowing is primary guidance."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Lau (neuroscientist)",
+    "episodes": [
+      38
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 38,
+        "text": "Consciousness functions to set decision criteria for perception based on situational awareness."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Lawrence Barsalou",
+    "episodes": [
+      28
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 28,
+        "text": "Demonstrated that categories are not stable across contexts; a set belongs together as a category in one context but not another, depending on what is relevant."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Leonardo Ferraro",
+    "episodes": [
+      29
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 29,
+        "text": "Collaborator on research connecting relevance realization to meaning and wisdom."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Ludwig Feuerbach",
+    "episodes": [
+      24
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 24,
+        "text": "His critique that theology is the projection of human essence paves the way for Marx's materialist reinterpretation of Hegelian dialectics."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Ludwig van Beethoven",
+    "episodes": [
+      23
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 23,
+        "text": "His music exemplifies Romanticism and its breaking of traditional forms, initially inspired by Napoleon as the embodiment of will."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Lynn Hasher",
+    "episodes": [
+      28
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 28,
+        "text": "Her research shows that working memory functions as a relevance filter to screen off irrelevant information."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Marc Lewis",
+    "episodes": [
+      13
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 13,
+        "text": "Neuroscientist whose model of reciprocal narrowing in addiction illuminates the structure of dukkha and parasitic processing."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Marcus Aurelius",
+    "episodes": [
+      15
+    ],
+    "roles": {
+      "subject": 1
+    },
+    "summaries": [
+      {
+        "ep": 15,
+        "text": "Roman emperor whose Meditations exemplify Stoic practice as spiritual exercises for transformation within circumstances of unlimited power."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Mark Johnson",
+    "episodes": [
+      34
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 34,
+        "text": "Co-author on metaphorical structure of cognition; embodied metaphor theory."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Mark Rowlands",
+    "episodes": [
+      38
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 38,
+        "text": "New Science of Mind; extended mind and embodied phenomenology convergence."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Mark Taylor",
+    "episodes": [
+      20
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 20,
+        "text": "His book After God provides a philosophical framework for understanding how the scientific revolution secularizes and fragments the integrated worldview Augustine had created."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Martin Buber",
+    "episodes": [
+      7
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 7,
+        "text": "Philosopher who distinguished I-It and I-Thou relationships."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Mary Douglas",
+    "episodes": [
+      34
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 34,
+        "text": "On inter-categorical things as unclean/monstrous; purity codes based on categorical coherence."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Matt Rossano",
+    "episodes": [
+      1
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 1,
+        "text": "Researcher on shamanism and its role in human cognitive development."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Maurice Merleau-Ponty",
+    "episodes": [
+      47
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 47,
+        "text": "Phenomenologist integrating embodiment and embeddedness, closer to Heidegger's participatory knowing than Husserl."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Max Black",
+    "episodes": [
+      34
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 34,
+        "text": "On metaphor as more than comparison; involves interaction theory and salience imbalance."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Max Weber",
+    "episodes": [
+      21
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 21,
+        "text": "His analysis of the Protestant Work Ethic shows how Luther's doctrine of arbitrary salvation drives obsessive labor as an unconscious sign of election."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "McKee and Barber",
+    "episodes": [
+      39
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 39,
+        "text": "Reflective equilibrium method; all wisdom theories converge on seeing through illusion into reality."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Michael Winkelman",
+    "episodes": [
+      1
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 1,
+        "text": "Scholar of shamanism across cultures and its neurological basis."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Monica",
+    "episodes": [
+      19
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 19,
+        "text": "Augustine's Christian mother whose faith and the Bible she introduces become instruments of his transformation."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Monika Ardelt",
+    "episodes": [
+      44
+    ],
+    "roles": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 44,
+        "text": "Psychological researcher critiquing Baltes and Staudinger's product theory of wisdom. Argues wisdom requires self-transcendence and participatory transformation. Identifies cognitive, reflective, and affective dimensions of wise persons."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Monti et al.",
+    "episodes": [
+      32
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 32,
+        "text": "2013 research showing consciousness linked to small-world network formation during anesthesia."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Murray Shanahan",
+    "episodes": [
+      28
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 28,
+        "text": "Argues that the frame problem has a technical solution but a deeper relevance problem remains: how do we know what matters?"
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Nelson Goodman",
+    "episodes": [
+      28
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 28,
+        "text": "His point about logical similarity (any two objects are indefinitely similar) reveals why categorization depends on psychological, not logical, similarity."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Ockham",
+    "episodes": [
+      20
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 20,
+        "text": "His nominalist principle—that universals are only mental constructs—provides the philosophical foundation that Galileo activates in physics, making arbitrary will primary to reason."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Otto von Bismarck",
+    "episodes": [
+      25
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 25,
+        "text": "His creation of the German nation-state unifies fragmented territories, creating the conditions for fierce nationalism to fill the vacuum left by failed idealism."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Paolo Costa",
+    "episodes": [
+      33
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 33,
+        "text": "On 'secular wonder' and the atmospheric bubble of significance that grounds meaning."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Patrick McKee",
+    "episodes": [
+      40
+    ],
+    "roles": {
+      "introduced": 1
+    },
+    "summaries": [
+      {
+        "ep": 40,
+        "text": "Co-author of foundational convergence argument showing philosophical and psychological theories of wisdom converge on systematic seeing through illusion. Work bridges Axial Age wisdom with contemporary cognitive science."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Per Bak",
+    "episodes": [
+      32
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 32,
+        "text": "Originated self-organized criticality concept; foundational to understanding neural dynamics."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Read Montague",
+    "episodes": [
+      32
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 32,
+        "text": "Neuroscientist on caring as fundamental difference between humans and computers."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Reicher",
+    "episodes": [
+      12
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 12,
+        "text": "Philosopher who articulated how trustworthiness, convergence, and elegance contribute to plausibility judgments."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Richard Dawkins",
+    "episodes": [
+      39
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 39,
+        "text": "Advocates cultivating poetic capacity for wonder and awe consonant with scientific worldview."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Robert Fuller",
+    "episodes": [
+      33
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 33,
+        "text": "On wonder as emotion-to-spirituality transition; being mode vs. having mode curiosity."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Robin Hogarth",
+    "episodes": [
+      2
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 2,
+        "text": "Researcher on intuition and implicit learning in decision-making."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Rudolf Otto",
+    "episodes": [
+      33
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 33,
+        "text": "On the numinous as core of holiness; fascination and horror as polarities of sacredness."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Rudolf Steiner",
+    "episodes": [
+      50
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 50,
+        "text": "Anthroposophist influencing Barfield's participatory imagination framework."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Samuel Taylor Coleridge",
+    "episodes": [
+      50
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 50,
+        "text": "Romantic poet and philosopher influencing Barfield's imagination philosophy."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Schilling",
+    "episodes": [
+      32
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 32,
+        "text": "2005 mathematical model linking insight to conversion from regular to small-world networks."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Sebastian Watzl",
+    "episodes": [
+      9
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 9,
+        "text": "Cognitive scientist studying prioritization in attention."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Søren Kierkegaard",
+    "episodes": [
+      24
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 24,
+        "text": "His critique that Hegel has made a system and then sat down beside it identifies the missing personal, transformative dimension."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Stephen",
+    "episodes": [
+      16
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 16,
+        "text": "First Christian martyr whose death and the forgiveness extended to Saul exemplify agapic transformation."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Stephen and Dixon",
+    "episodes": [
+      32
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 32,
+        "text": "Work on disruptive strategies and entropy in insight; relates insight to SOC."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Stephen Ceci",
+    "episodes": [
+      42
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 42,
+        "text": "Co-researcher on pattern completion and insight prediction. Shows cognitive leaping is measurable and central to problem-solving."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Thatcher et al.",
+    "episodes": [
+      32
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 32,
+        "text": "2008-2009 research linking neural self-organization to intelligence measures."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Thomas Hobbes",
+    "episodes": [
+      22
+    ],
+    "roles": {
+      "subject": 1
+    },
+    "summaries": [
+      {
+        "ep": 22,
+        "text": "Proposes artificial intelligence as the logical endpoint of the scientific worldview, arguing that matter rearranged sufficiently becomes mind."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Tim Lilicrap",
+    "episodes": [
+      31
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 31,
+        "text": "Colleague who showed these strategies align with cutting-edge AI; co-authored paper on relevance realization."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Tim Lillicrap",
+    "episodes": [
+      29
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 29,
+        "text": "Collaborator on work showing relevance realization as central to intelligence and cognition."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Tom Cheetham",
+    "episodes": [
+      48
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 48,
+        "text": "Contemporary interpreter of Corbin in Western context. Author of trilogy on Corbin's thought."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Tononi",
+    "episodes": [
+      10
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 10,
+        "text": "Developer of integrated information theory, which explains consciousness in terms of how powerfully integrated pieces of information are."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Ursula Goodenough",
+    "episodes": [
+      38
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 38,
+        "text": "Sacred Depths of Nature; transcendence into nature; recovering sacredness in scientific worldview."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Victor Turner",
+    "episodes": [
+      37
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 37,
+        "text": "Communitas; unstructured community experiencing shared spirit and equality."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Vilayanur Ramachandran",
+    "episodes": [
+      35
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 35,
+        "text": "Buba-Kiki experiments showing synesthetic symbol perception; participatory nature of symbol engagement."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Willard Quine",
+    "episodes": [
+      30
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 30,
+        "text": "On essence and inductive generalization; distinguishes deductive from inductive essences."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "William James",
+    "episodes": [
+      33
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 33,
+        "text": "On I-me distinction; the 'I' can never be captured as focal object, only known subsidiarily."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Wolfgang Pauli",
+    "episodes": [
+      49
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 49,
+        "text": "Physicist and Jung's collaborator on synchronicity, exploring connections between physics and psychology."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Woodward",
+    "episodes": [
+      12
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 12,
+        "text": "Machine learning researcher whose work shows disruption and noise are essential to self-optimization in neural networks."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Zeno of Citium",
+    "episodes": [
+      14
+    ],
+    "roles": {
+      "discussed": 1
+    },
+    "summaries": [
+      {
+        "ep": 14,
+        "text": "Founder of Stoicism who integrates Cynic provocativeness with Platonic rationality, focusing on the process of co-identification."
+      }
+    ],
+    "count": 1
+  },
+  {
+    "name": "Zenon Pylyshyn",
+    "episodes": [
+      29
+    ],
+    "roles": {
+      "referenced": 1
+    },
+    "summaries": [
+      {
+        "ep": 29,
+        "text": "Developed the theory of FINSTING (Fingers of Instantiation) showing how pre-categorical salience tagging precedes conceptual cognition."
+      }
+    ],
+    "count": 1
+  }
+]

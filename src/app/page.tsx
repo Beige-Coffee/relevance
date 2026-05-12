@@ -1,65 +1,88 @@
-import Image from "next/image";
+import Link from "next/link";
+
+const modes = [
+  {
+    href: "/dialogue",
+    title: "Dialogue",
+    blurb:
+      "Think through Vervaeke's ideas in Socratic exchange. The AI asks questions back, draws on the corpus, and cites episodes — it does not impersonate Vervaeke.",
+    cta: "Begin a dialogue",
+  },
+  {
+    href: "/ask",
+    title: "Ask",
+    blurb:
+      "Where did he discuss X? Get a synthesized answer with passages and episode citations, drawn from the full corpus.",
+    cta: "Ask a question",
+  },
+  {
+    href: "/graph",
+    title: "Graph",
+    blurb:
+      "Explore the lecture series as a web of concepts, thinkers, and episodes. Click a node to see what bridges to what.",
+    cta: "Open the graph",
+  },
+];
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
+    <div className="flex-1">
+      <section className="max-w-3xl mx-auto px-6 pt-20 pb-12">
+        <p className="ep-num text-xs uppercase tracking-[0.22em] mb-6">A study companion · 50 lectures · ~395k words</p>
+        <h1 className="serif text-5xl sm:text-6xl leading-[1.02] tracking-tight text-[var(--ink)]">
+          Awakening <span className="text-[var(--gold)]">Atlas</span>
+        </h1>
+        <p className="serif italic text-xl sm:text-2xl text-[var(--ink-soft)] mt-3 leading-snug">
+          Search, dialogue, and map the ideas in John Vervaeke&rsquo;s lecture series{" "}
+          <span className="whitespace-nowrap">&ldquo;Awakening from the Meaning Crisis.&rdquo;</span>
+        </p>
+
+        <div className="hr-soft my-10" />
+
+        <p className="prose-reader max-w-2xl">
+          This is an educational tool. It indexes the 50 hand-edited transcripts at meaningcrisis.co, extracts the concepts
+          and thinkers Vervaeke discusses, and lets you engage with them in three ways &mdash; through Socratic dialogue,
+          targeted lookup, and a graph of how the ideas connect. The dialogue partner is an AI helper, not Vervaeke, and is
+          designed to ask you questions rather than perform him.
+        </p>
+      </section>
+
+      <section className="max-w-5xl mx-auto px-6 pb-16">
+        <div className="grid sm:grid-cols-3 gap-4 sm:gap-6">
+          {modes.map((m) => (
+            <Link
+              key={m.href}
+              href={m.href}
+              className="group block rounded-xl border border-[var(--border)] bg-[var(--surface)] p-6 hover:border-[var(--accent)] transition-colors"
             >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+              <h2 className="serif text-2xl text-[var(--ink)] group-hover:text-[var(--accent)] transition-colors">
+                {m.title}
+              </h2>
+              <p className="text-sm text-[var(--ink-soft)] mt-3 leading-relaxed">{m.blurb}</p>
+              <span className="text-xs mono mt-5 inline-block text-[var(--accent)] group-hover:underline">
+                {m.cta} →
+              </span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <section className="max-w-3xl mx-auto px-6 pb-24">
+        <div className="text-sm text-[var(--muted)] space-y-3 leading-relaxed">
+          <p>
+            <strong className="text-[var(--ink-soft)] font-medium">Bring your own key.</strong> Dialogue and Ask use the
+            Anthropic API. Paste your key once on the{" "}
+            <Link href="/settings" className="lnk">
+              Settings page
+            </Link>{" "}
+            &mdash; it stays in your browser and is never sent to this site&rsquo;s server.
+          </p>
+          <p>
+            <strong className="text-[var(--ink-soft)] font-medium">Graph &amp; search work offline.</strong> The corpus is
+            indexed in your browser. No API key needed to browse.
           </p>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
+      </section>
     </div>
   );
 }

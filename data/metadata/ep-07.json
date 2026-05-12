@@ -1,0 +1,112 @@
+{
+  "num": 7,
+  "slug": "aristotles-worldview-erich-fromm",
+  "title": "Aristotle's World View and Erich Fromm",
+  "essence": "Aristotle's conformity theory of knowledge explains how mind and world are fundamentally integrated: to truly know something is to possess its structural-functional organization, to conform to it. Unlike the detached, representational epistemology of modern philosophy, Aristotle understands knowing-being as inseparable. The architect knows the building by possessing its logos; the craftsperson actualizes potential through conformity with form. Vervaeke explains Aristotle's geocentric cosmos where everything moves purposefully toward its natural place, describing a worldview offering deep meaning. Yet more importantly, Aristotle shows how worldview and epistemology mutually support each other through what Vervaeke calls a 'nomological order'—when scientific understanding aligns with existential meaning. The Agent-Arena relationship describes how identity and context co-define each other, creating meaningful action. When this breaks down, existence becomes absurd. Vervaeke then shifts to the Axial Revolution in India through Erich Fromm's distinction between 'having mode' (categorical, controlling, problem-solving) and 'being mode' (developmental, expressive, meaning-making). Modern consumer society induces modal confusion by encouraging being needs to be pursued through having. Siddhartha's palace myth exemplifies this confusion and the necessity of transcending it.",
+  "keyClaims": [
+    "Knowledge is conformity with reality's structural-functional organization, not detached representation",
+    "Worldview and epistemology mutually reinforce each other creating a nomological order of meaning",
+    "The Agent-Arena relationship co-identifies the self and world, generating meaning through existential modes",
+    "Modern culture induces modal confusion by encouraging being needs to be met through having",
+    "Transcendence requires moving beyond modal confusion toward authentic being modes"
+  ],
+  "concepts": [
+    {
+      "name": "conformity theory",
+      "treatment": "introduced",
+      "summary": "Epistemology where knowing involves conforming one's mind to reality's form."
+    },
+    {
+      "name": "logos",
+      "treatment": "developed",
+      "summary": "Structural-functional organization; the pattern constituting what something is."
+    },
+    {
+      "name": "worldview",
+      "treatment": "introduced",
+      "summary": "Integrated understanding of how world and mind relate, mutually supporting epistemology and existential meaning."
+    },
+    {
+      "name": "nomological order",
+      "treatment": "introduced",
+      "summary": "State where scientific understanding and existential meaning are harmoniously aligned."
+    },
+    {
+      "name": "agent arena relationship",
+      "treatment": "introduced",
+      "summary": "Co-identifying self (agent) and context (arena) that creates meaningful action."
+    },
+    {
+      "name": "having mode",
+      "treatment": "introduced",
+      "summary": "Existential mode focused on categorization, control, and problem-solving."
+    },
+    {
+      "name": "being mode",
+      "treatment": "introduced",
+      "summary": "Existential mode focused on development, growth, and meaning-making."
+    },
+    {
+      "name": "modal confusion",
+      "treatment": "introduced",
+      "summary": "Attempting to meet being needs through having mode strategies."
+    }
+  ],
+  "people": [
+    {
+      "name": "Aristotle",
+      "role": "subject",
+      "summary": "Ancient philosopher whose conformity theory and worldview are detailed."
+    },
+    {
+      "name": "Erich Fromm",
+      "role": "introduced",
+      "summary": "20th-century psychoanalyst who distinguished having and being modes."
+    },
+    {
+      "name": "Charles Taylor",
+      "role": "referenced",
+      "summary": "Philosopher who analyzes conformity theory and worldview."
+    },
+    {
+      "name": "Hubert Dreyfus",
+      "role": "referenced",
+      "summary": "Philosopher of embodied understanding and expertise."
+    },
+    {
+      "name": "Clifford Geertz",
+      "role": "discussed",
+      "summary": "Anthropologist who developed concept of existential mode."
+    },
+    {
+      "name": "Martin Buber",
+      "role": "referenced",
+      "summary": "Philosopher who distinguished I-It and I-Thou relationships."
+    },
+    {
+      "name": "Siddhartha Gautama",
+      "role": "introduced",
+      "summary": "The Buddha whose mythological journey illustrates modal confusion and transformation."
+    }
+  ],
+  "crossRefs": [
+    {
+      "episode": 6,
+      "context": "Builds on Aristotelian philosophy of character and development"
+    },
+    {
+      "episode": 8,
+      "context": "Siddhartha's escape from palace and modal confusion continues"
+    }
+  ],
+  "quotableMoments": [
+    {
+      "quote": "To know something is to be in contact with it, is to actually participate in the same form as the thing.",
+      "context": "Explaining the conformity theory of knowledge"
+    },
+    {
+      "quote": "Modal confusion. Deep existential confusion. And what happens when you're mortally confused is that your need for maturity isn't being met by having the car, your need for love is not being met by having sex.",
+      "context": "Explaining how market society exploits modal confusion"
+    }
+  ]
+}

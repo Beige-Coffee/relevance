@@ -1,0 +1,76 @@
+{
+  "num": 47,
+  "slug": "heidegger",
+  "title": "Heidegger",
+  "essence": "Heidegger critiques Husserl's phenomenology for failing to develop participatory knowing, leaving consciousness trapped in Cartesian subjectivity. True contact with reality requires exploring dasein—the being whose being is in question. This existential realization opens participatory knowing grounding perspectival knowing within broader ontological structure. Heidegger diagnoses metaphysical tradition as history of nihilism: progressive forgetting of being itself in favor of treating being as a being (onto-theology). Medieval scholasticism, Descartes' cogito, and scientific rationalism progressively cut off contact with being. Yet history of metaphysics paradoxically reveals being through its absence. Phenomenological exploration of dasein—who and what we are—becomes interrogation of being itself. Authenticity involves confronting anxiety and thrownness, remembering being mode over having mode. Aletheia (truth as unconcealment) versus correspondence theory. Language reveals and conceals being. Through careful reading of Heidegger's texts, Vervaeke shows how phenomenology reconnects us to fundamental participation in being, opening transformation beyond technological manipulation toward authentic dwelling.",
+  "keyClaims": [
+    "Husserl's phenomenology remains trapped in Cartesian subjectivity; participatory knowing must ground perspectival knowing",
+    "Metaphysical tradition is history of nihilism—progressive forgetting of being in pursuit of being as a being",
+    "Dasein (being whose being is in question) reveals that human existence is fundamentally interrogative and self-defining",
+    "Aletheia (truth as unconcealment) differs from correspondence theory; being reveals and conceals itself",
+    "Phenomenological exploration of dasein opens authentic being mode and transformation beyond technological domination"
+  ],
+  "concepts": [
+    {
+      "name": "dasein",
+      "treatment": "developed",
+      "summary": "Being whose being is in question. Existential condition of human existence. Identity not fixed but continually interrogated. Central to Heidegger's phenomenology."
+    },
+    {
+      "name": "onto-theology",
+      "treatment": "introduced",
+      "summary": "Metaphysical error treating being as a being, subject to rational analysis. Metaphysics forgets being itself in this reduction."
+    },
+    {
+      "name": "aletheia",
+      "treatment": "introduced",
+      "summary": "Greek conception of truth as unconcealment, revelation. Contrasts with correspondence theory. Being reveals and withdraws simultaneously."
+    },
+    {
+      "name": "authenticity",
+      "treatment": "referenced",
+      "summary": "Genuine confrontation with dasein's being-in-question. Anxiety and thrownness connect to authentic existence."
+    },
+    {
+      "name": "being mode",
+      "treatment": "referenced",
+      "summary": "Participatory, contemplative stance toward being. Contrasts with having mode of manipulation and control."
+    }
+  ],
+  "people": [
+    {
+      "name": "Martin Heidegger",
+      "role": "developed",
+      "summary": "Central figure. Deepens phenomenology beyond Husserl through participatory knowing, dasein, and ontology. Diagnoses metaphysics as nihilism."
+    },
+    {
+      "name": "Edmund Husserl",
+      "role": "discussed",
+      "summary": "Heidegger's teacher and critic. Phenomenology remains Cartesian; lacks participatory knowing and ontological grounding."
+    },
+    {
+      "name": "Hubert Dreyfus",
+      "role": "referenced",
+      "summary": "Contemporary interpreter of Heidegger helping translate his ideas into cognitive science framework."
+    },
+    {
+      "name": "Maurice Merleau-Ponty",
+      "role": "referenced",
+      "summary": "Phenomenologist integrating embodiment and embeddedness, closer to Heidegger's participatory knowing than Husserl."
+    }
+  ],
+  "crossRefs": [
+    {"episode": 46, "reason": "Introduces Heidegger as central prophet of meaning crisis"},
+    {"episode": 48, "reason": "Corbin's response to Heidegger through imaginal realm"}
+  ],
+  "quotableMoments": [
+    {
+      "quote": "We are the beings whose being is in question—this interrogative structure is fundamental to human existence.",
+      "context": "Core existential insight distinguishing dasein from other beings; opens to participatory knowing."
+    },
+    {
+      "quote": "The history of metaphysics is the history of nihilism—progressive forgetting of being itself.",
+      "context": "Heidegger's diagnostic framework showing how Western thought systematically lost contact with being."
+    }
+  ]
+}

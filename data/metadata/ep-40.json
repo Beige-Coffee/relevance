@@ -1,0 +1,106 @@
+{
+  "num": 40,
+  "slug": "wisdom-and-rationality",
+  "title": "Wisdom and Rationality",
+  "essence": "Wisdom emerges as the systematic ability to see through illusion and into reality, a capacity fundamentally aligned with overcoming self-deception. Drawing on McKee and Barber's convergence argument, Vervaeke establishes that wisdom operates through transframing—transformative insight that shifts not just our framing but our underlying competence itself. Wisdom differs from knowledge in emphasizing process over product: it concerns how we come to know rather than what we know. Crucially, wisdom exhibits perspectival and participatory dimensions, creating pragmatic self-contradiction when claimed directly. The rationality debate reveals that humans systematically fail reasoning tasks despite acknowledging correct principles, suggesting errors stem from competence rather than performance. This necessitates rehabilitating rationality beyond mere logic, defining it as the reliable and systematic overcoming of self-deception. Rationality proves existential rather than merely theoretical, touching on identity and moral status. The capacity for systematic rationality emerges as civilization's solution to overcoming self-deception at scale, linking wisdom directly to enlightenment and meaning.",
+  "keyClaims": [
+    "Wisdom is systematic seeing through illusion and into reality, analogous to how adults transcend children's cognitive limitations",
+    "Wisdom emphasizes process (how you know) over product (what you know), making it fundamentally procedural rather than propositional",
+    "Wisdom exhibits perspectival and participatory dimensions, involving pragmatic self-contradiction when directly claimed",
+    "Rationality must be rehabilitated beyond logic or intelligence to mean reliable systematic overcoming of self-deception",
+    "The rationality debate reveals systematic errors reflect competence deficits, not merely performance failures"
+  ],
+  "concepts": [
+    {
+      "name": "systematic seeing through illusion",
+      "treatment": "introduced",
+      "summary": "Core feature of wisdom identified by McKee and Barber. The capacity to transcend systematic errors and misframings to perceive reality more accurately, demonstrated through transframing insights that change underlying competence."
+    },
+    {
+      "name": "transframing",
+      "treatment": "introduced",
+      "summary": "A form of insight that goes beyond reframing by transforming actual cognitive competence. Like Piagetian developmental leaps, it provides sensibility transcendence—systematic breakthrough rather than surface correction."
+    },
+    {
+      "name": "pragmatic self-contradiction",
+      "treatment": "introduced",
+      "summary": "A performative inconsistency where stating something contradicts the perspective from which it is stated. Example: 'I am asleep' paradoxically requires being awake. Wisdom exhibits this property since claiming 'I am wise' seems to indicate one is not."
+    },
+    {
+      "name": "rationality",
+      "treatment": "developed",
+      "summary": "Reliably and systematically overcoming self-deception while affording flourishing through cognitive optimization. Not reducible to logic, intelligence, or facility with syllogisms. Deeply existential, touching identity and moral status."
+    },
+    {
+      "name": "relevance realization",
+      "treatment": "referenced",
+      "summary": "Central cognitive ability to identify what matters in a situation. Underlying significance grasping that distinguishes interpretive knowledge from mere descriptive knowledge."
+    },
+    {
+      "name": "belief perseverance",
+      "treatment": "introduced",
+      "summary": "The experimental phenomenon where people maintain beliefs even after evidence is completely undermined, demonstrating systematic self-deception in how we treat evidence for our conclusions."
+    }
+  ],
+  "people": [
+    {
+      "name": "Patrick McKee",
+      "role": "introduced",
+      "summary": "Co-author of foundational convergence argument showing philosophical and psychological theories of wisdom converge on systematic seeing through illusion. Work bridges Axial Age wisdom with contemporary cognitive science."
+    },
+    {
+      "name": "Clifton Barber",
+      "role": "introduced",
+      "summary": "Co-author with McKee establishing that wisdom centrally involves systematic insight and transframing, drawing on Piagetian developmental psychology to explain competence shifts."
+    },
+    {
+      "name": "Keith Stanovich",
+      "role": "discussed",
+      "summary": "Cognitive scientist arguing rationality involves valuing cognitive processes in addition to products. Central to the rationality debate, distinguishing rationality from both intelligence and logic. Work frames rationality as overcoming self-deception."
+    },
+    {
+      "name": "Jean Piaget",
+      "role": "referenced",
+      "summary": "Developmental psychologist whose conservation task experiments reveal systematic errors reflecting competence deficits, not performance errors. Provides model for understanding transframing as developmental breakthrough."
+    },
+    {
+      "name": "John Kekes",
+      "role": "referenced",
+      "summary": "Philosopher of wisdom distinguishing descriptive knowledge from interpretive knowledge. Interpretive knowledge involves grasping significance, essential to understanding."
+    },
+    {
+      "name": "L. Jonathan Cohen",
+      "role": "discussed",
+      "summary": "Philosopher in rationality debate arguing humans cannot be fundamentally irrational. Proposes competence-performance distinction, suggesting all experimental errors are performance errors, not competence failures."
+    },
+    {
+      "name": "Agnes Callard",
+      "role": "referenced",
+      "summary": "Philosopher discussing aspirational rationality and how optimization of cognition tends to shift and change goals we pursue. Expands Stanovich's account."
+    }
+  ],
+  "crossRefs": [
+    {"episode": 41, "reason": "Continues rationality debate, examining Stanovich and West's response to Cohen and the distinction between competence and performance"},
+    {"episode": 42, "reason": "Develops connection between intelligence, rationality and wisdom through dual processing theory"},
+    {"episode": 43, "reason": "Explores wisdom-virtue connection and phronesis as practical expression of wisdom"},
+    {"episode": 45, "reason": "Vervaeke and Ferraro's 2013 model building on systematic seeing through illusion"}
+  ],
+  "quotableMoments": [
+    {
+      "quote": "Wisdom is not about what you know, wisdom has to do with how you know it.",
+      "context": "Explaining the process-product distinction fundamental to wisdom, contrasting it with knowledge as mere possession of facts."
+    },
+    {
+      "quote": "I am wise carries with it a sense of very strong intuition of a pragmatic self-contradiction.",
+      "context": "Discussing the perspectival dimension of wisdom where stating one's wisdom contradicts the perspective from which the statement is made."
+    },
+    {
+      "quote": "Rationality is a capacity to overcome self-deception in a reliable manner.",
+      "context": "Defining rationality broadly, going beyond logic and intelligence to the fundamental ability to break through systematic self-deception."
+    },
+    {
+      "quote": "Rationality is deeply existential. It is not just an informational processing thing.",
+      "context": "Emphasizing that rationality is constitutive of identity and moral status, not merely theoretical."
+    }
+  ]
+}

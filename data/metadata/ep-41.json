@@ -1,0 +1,110 @@
+{
+  "num": 41,
+  "slug": "what-is-rationality",
+  "title": "What is Rationality?",
+  "essence": "The rationality debate centers on whether humans are fundamentally irrational, a question with existential implications for moral and legal responsibility. Cohen argues we cannot be comprehensively irrational because reason must be autonomous—standards cannot come from external authority but must originate from us. His competence-performance distinction suggests experimental errors are merely performance failures, not competence deficits. Yet Stanovich and West demonstrate through systematic error analysis that these errors form a positive manifold, indicating they are competence-level failures. The resolution recognizes we possess multiple, dynamic, and developing competencies in rationality, not a single static one. Cherniak's finitary predicament argument shows we cannot apply algorithmic standards comprehensively. Smedslund distinguishes fallacy from misunderstanding, revealing that understanding the problem itself involves normativity on construal independent of inferential norms. This non-inferential aspect of rationality—insight and problem formulation—proves central. Stanovich identifies the missing pieces: psychotechnology (mindware) and cognitive style, particularly active open-mindedness cultivated through need for cognition.",
+  "keyClaims": [
+    "The rationality debate questions whether humans are fundamentally irrational, with implications for moral and legal status",
+    "Cohen's autonomy argument shows standards must originate from us, but this doesn't guarantee all experimental errors are performance errors",
+    "Stanovich and West show errors form systematic patterns indicating competence deficits rather than performance failures",
+    "Multiple, dynamic competencies in rationality exist, not a single static one, allowing competence-level irrationality despite autonomy",
+    "Understanding problems (construal) requires independent normativity separate from inferential norms, making insight central to rationality"
+  ],
+  "concepts": [
+    {
+      "name": "competence vs. performance",
+      "treatment": "developed",
+      "summary": "Distinction between what someone is capable of doing versus what they actually do. Errors can be performance errors (implementation failures) or competence errors (capability deficits). Systematic errors indicate competence problems, not mere implementation lapses."
+    },
+    {
+      "name": "autonomy of reason",
+      "treatment": "introduced",
+      "summary": "Philosophical principle from Plato through Kant that reason cannot be bound by external authority. Standards for rationality must originate from within us, not be commanded. Underpins why humans cannot be wholly irrational."
+    },
+    {
+      "name": "finitary predicament",
+      "treatment": "introduced",
+      "summary": "Cherniak's term for the combinatorial explosion humans face. We cannot algorithmically derive all implications or consider all assumptions. Standard algorithmic rationality is impossible; we must rely on relevance realization."
+    },
+    {
+      "name": "fallacy vs. misunderstanding",
+      "treatment": "introduced",
+      "summary": "Two independent sources of wrong answers: fallacy (correct interpretation but incorrect reasoning) versus misunderstanding (incorrect interpretation but correct reasoning). Cannot be cleanly separated in experiments."
+    },
+    {
+      "name": "normativity on construal",
+      "treatment": "introduced",
+      "summary": "Standards for how people should interpret, make sense of, and size up problems. Must be independent of inferential norms. Insight and problem formulation provide this non-inferential normativity."
+    },
+    {
+      "name": "intelligence",
+      "treatment": "developed",
+      "summary": "Capacity to deal with computational limitations, measurable through working memory and general factor g. At best weakly correlated (0.3) with rationality, showing intelligence is necessary but insufficient for rational behavior."
+    },
+    {
+      "name": "active open-mindedness",
+      "treatment": "introduced",
+      "summary": "Cognitive style of training oneself to recognize and actively counteract cognitive biases. Baron's contribution: optimize rather than maximize to avoid overwhelming oneself. Predictable by need for cognition."
+    }
+  ],
+  "people": [
+    {
+      "name": "L. Jonathan Cohen",
+      "role": "discussed",
+      "summary": "Philosopher in rationality debate arguing autonomy of reason prevents us from being fundamentally irrational. Standards must originate from us. However, this doesn't prevent competence-level errors when we have multiple competencies."
+    },
+    {
+      "name": "Keith Stanovich",
+      "role": "developed",
+      "summary": "Central figure responding brilliantly to Cohen, Cherniak, and Smedslund. Distinguishes intelligence from rationality, proposes dual processing model, and identifies psychotechnology and cognitive style as missing pieces of rationality."
+    },
+    {
+      "name": "Christopher Cherniak",
+      "role": "discussed",
+      "summary": "Neuroscientist arguing we face finitary predicament making algorithmic rationality impossible. Rationality must accommodate computational limitations. Stanovich accepts this but relocates it to intelligence rather than rationality."
+    },
+    {
+      "name": "Arne Cherniak",
+      "role": "discussed",
+      "summary": "Introduces finitary predicament concept showing formal logic and probability cannot be comprehensively applied in life due to combinatorial explosion."
+    },
+    {
+      "name": "Jorn Smedslund",
+      "role": "discussed",
+      "summary": "Scandinavian psychologist distinguishing fallacy from misunderstanding. Shows these aren't cleanly separable, and determining which one occurred depends on understanding construal—a non-inferential process."
+    },
+    {
+      "name": "Jonathan Baron",
+      "role": "referenced",
+      "summary": "Originator of active open-mindedness concept. Emphasizes optimization rather than maximization of bias correction, since overdoing it creates its own problems. Need for cognition predicts cultivating this style."
+    },
+    {
+      "name": "Herbert Simon",
+      "role": "referenced",
+      "summary": "Economist and cognitive scientist introducing bounded rationality concept, showing humans cannot be purely computational or algorithmic due to realistic constraints."
+    }
+  ],
+  "crossRefs": [
+    {"episode": 40, "reason": "Sets up the rationality debate that dominates this episode's analysis"},
+    {"episode": 42, "reason": "Continues with Stanovich's dual processing theory and explores cognitive leaping versus open-mindedness"},
+    {"episode": 43, "reason": "Connects rationality debate conclusions to wisdom and virtue through phronesis"}
+  ],
+  "quotableMoments": [
+    {
+      "quote": "Reason has to be the source of the very norms that constitute and govern reason.",
+      "context": "Cohen's autonomy argument showing standards cannot come from external authority but must originate internally, making comprehensive irrationality logically impossible."
+    },
+    {
+      "quote": "Intelligence is necessary but nowhere near sufficient for being rational.",
+      "context": "Stanovich and West's empirical finding that correlation between g and reasoning tasks is only 0.3, showing intelligence alone doesn't predict rationality."
+    },
+    {
+      "quote": "We are in a finitary predicament. We cannot consider all our assumptions or derive all implications.",
+      "context": "Cherniak's foundational argument showing algorithmic rationality is impossible and we must rely on relevance realization."
+    },
+    {
+      "quote": "We have to understand the role of both insight and inference in rationality.",
+      "context": "Vervaeke synthesizing the debate to show non-inferential aspects like problem formulation are central to rational thought, not subordinate."
+    }
+  ]
+}

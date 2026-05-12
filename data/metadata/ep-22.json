@@ -1,0 +1,105 @@
+{
+  "num": 22,
+  "slug": "descartes-vs-hobbes",
+  "title": "Descartes vs. Hobbes",
+  "essence": "Descartes and Hobbes present the fundamental tension at the heart of modernity: whether mind requires a non-material substance or whether all cognition is computation performed by material systems. Descartes argues that cognition requires purpose, meaning, normativity, and consciousness—properties that matter, being inert and valueless, cannot possess. Hobbes responds that if matter can be arranged in the right way, computation alone suffices for mind. But Descartes' defense of the soul creates its own crisis: if mind and matter share no properties, how can they causally interact? This mind-body problem cascades into problems of other minds, consciousness, and contact with reality itself. The episode maps how these two positions—both attempting to preserve something essential about human dignity—spiral into deepening paradoxes that haunt cognitive science and philosophy of mind to this day.",
+  "keyClaims": [
+    "Descartes' defense of the soul against materialism inadvertently severs mind from body so completely that causal interaction becomes impossible, creating the mind-body problem.",
+    "Hobbes' proposal for artificial intelligence is motivated by the same scientific principles Descartes invokes, making it logically continuous with rather than opposed to the scientific worldview.",
+    "The distinction between 'weak' and 'strong' AI hinges on whether one can explain how material computation produces consciousness, a question Descartes shows may be unanswerable within a materialist framework.",
+    "Our culture oscillates between positivistic objectivity (Descartes' math) and romantic subjectivity (consciousness touching itself) because both are incomplete frameworks left unstable by Descartes' own arguments.",
+    "Pascal's recognition that neither certainty-seeking nor romantic irrationality can solve the meaning crisis points toward something missing in both Descartes and Hobbes."
+  ],
+  "concepts": [
+    {
+      "name": "qualia",
+      "treatment": "introduced",
+      "summary": "The subjective, qualitative properties of experience (what things feel like) that cannot be captured by objective, mathematical description—a gap Descartes identifies as proof that matter cannot generate mind."
+    },
+    {
+      "name": "consciousness",
+      "treatment": "developed",
+      "summary": "Defined as mind touching itself in the cogito ergo sum, consciousness becomes both the only certainty and the deepest mystery—how it arises from or relates to matter remains Descartes' final unsolved problem."
+    },
+    {
+      "name": "primary qualities",
+      "treatment": "introduced",
+      "summary": "Mathematical properties (extension, motion) that exist in objects themselves, forming the objective basis of scientific knowledge but unable to account for the subjective world of meaning and value."
+    },
+    {
+      "name": "secondary qualities",
+      "treatment": "introduced",
+      "summary": "Non-mathematical properties (color, taste, beauty) existing only in the mind, revealing the radical separation between objective nature and subjective consciousness."
+    },
+    {
+      "name": "artificial intelligence",
+      "treatment": "developed",
+      "summary": "Hobbes' proposal to create mind through computational material systems emerges directly from Galileo's physics and challenges Descartes' insistence that cognition requires non-material substance."
+    },
+    {
+      "name": "the spirit of finesse",
+      "treatment": "introduced",
+      "summary": "Pascal's alternative to the spirit of geometry (mathematics), representing knowing how, perspectival knowing, and participatory engagement—all lost in Descartes' pursuit of propositional certainty."
+    }
+  ],
+  "people": [
+    {
+      "name": "René Descartes",
+      "role": "subject",
+      "summary": "Defends the immaterial mind against Hobbes using arguments derived from the scientific revolution itself, revealing deep contradictions in how science frames the mind-body relationship."
+    },
+    {
+      "name": "Thomas Hobbes",
+      "role": "subject",
+      "summary": "Proposes artificial intelligence as the logical endpoint of the scientific worldview, arguing that matter rearranged sufficiently becomes mind."
+    },
+    {
+      "name": "Blaise Pascal",
+      "role": "discussed",
+      "summary": "Recognizes that both Descartes' certainty-seeking and Hobbes' computationalism miss something essential—the transformative, embodied, participatory dimensions of knowing."
+    },
+    {
+      "name": "John Searle",
+      "role": "referenced",
+      "summary": "His distinction between weak and strong AI clarifies that computational power alone may not explain consciousness."
+    },
+    {
+      "name": "Thomas Nagel",
+      "role": "referenced",
+      "summary": "His work on qualia and subjective experience extends Descartes' argument that consciousness poses problems for purely material theories of mind."
+    },
+    {
+      "name": "Antonio Damasio",
+      "role": "referenced",
+      "summary": "His book Descartes' Error critiques Descartes' separation of reason from emotion, though Vervaeke argues Descartes actually anticipated these criticisms."
+    }
+  ],
+  "crossRefs": [
+    {
+      "episode": 21,
+      "context": "Both Luther and Descartes attempt to rescue something essential about human dignity against mechanical/arbitrary forces, creating parallel theoretical problems."
+    },
+    {
+      "episode": 20,
+      "context": "Descartes and Hobbes both respond to the radical disconnection between mind and world initiated by Galileo and Copernicus."
+    },
+    {
+      "episode": 23,
+      "context": "The oscillation between Descartes' objectivity and romantic subjectivity becomes the central tension of 19th-century thought."
+    }
+  ],
+  "quotableMoments": [
+    {
+      "quote": "How do they causally interact? Here: I'm going to show you mind over matter. I'm thirsty! I desire water because water is good... How can it do that? Mind has no energy. It doesn't take up space. It doesn't have any force!",
+      "context": "Descartes' argument revealing that his solution to Hobbes creates an even deeper problem—how immaterial mind can move material body."
+    },
+    {
+      "quote": "The most intimate aspects of your experience—the taste of this water for example—is absurd because there's no way that the taste, which is a mental thing, and the water, which is a physical thing, could in any way be related to each other.",
+      "context": "How the mind-body gap makes consciousness itself a mystery, illustrating the cost of Descartes' defense against Hobbes."
+    },
+    {
+      "quote": "I wish I had made Descartes' mistakes! Descartes is Titanically brilliant, and the mistakes he makes are so foundational to our culture.",
+      "context": "Vervaeke's assessment that Descartes' errors are not incidental but constitute the very grammar through which we still think."
+    }
+  ]
+}

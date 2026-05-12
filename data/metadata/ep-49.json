@@ -1,0 +1,82 @@
+{
+  "num": 49,
+  "slug": "corbin-and-jung",
+  "title": "Corbin and Jung",
+  "essence": "Carl Jung's psychology reveals psyche as sacred, parallel to Corbin's imaginal realm. Individuation—becoming who one truly is—involves encountering archetypes and shadow. Sacred dimension of unconscious provides meaning beyond ego's conscious plans. Archetypes are imaginal patterns connecting personal psyche to collective, transpersonal dimensions. Shadow—disowned aspects of self—must be integrated through imaginative dialogue. Dreams, imagination, and active imagination access imaginal depths. Anima/animus represent contrasexual dimensions requiring recognition. Synchronicity points to meaningful coincidence beyond causal mechanics, suggesting participatory relationship between psyche and world. John Dourley shows deep similarity between Tillich's theology and Jung's psychology: both treat psyche/spirit as sacrament. Non-theistic spirituality grounded in sacred interiority rather than external authority. Jungian gnosis involves recognizing divine depths within psyche through symbol and imagination. Vervaeke situates Jung and Corbin as offering psychologically sophisticated responses to meaning crisis through recovery of imaginal-symbolic dimensions.",
+  "keyClaims": [
+    "Psyche is inherently sacred; individuation involves recognizing divine depths within through imagination",
+    "Archetypes are imaginal patterns connecting personal unconscious to transpersonal sacred dimensions",
+    "Shadow integration requires imaginative dialogue with disowned aspects; essential to wholeness",
+    "Synchronicity suggests participatory relationship between psyche and world beyond mechanistic causation",
+    "Jung and Tillich converge on treating psyche/spirit as sacrament, offering non-theistic spirituality"
+  ],
+  "concepts": [
+    {
+      "name": "individuation",
+      "treatment": "developed",
+      "summary": "Jungian process of becoming who one truly is. Integrating conscious ego with unconscious depths, shadow, anima/animus, and archetypal dimensions."
+    },
+    {
+      "name": "archetype",
+      "treatment": "introduced",
+      "summary": "Primordial imaginal patterns in collective unconscious. Connect personal psyche to transpersonal, sacred dimensions. Hero, Shadow, Self, etc."
+    },
+    {
+      "name": "shadow",
+      "treatment": "introduced",
+      "summary": "Disowned, repressed aspects of self. Integration through imaginative dialogue essential to wholeness and consciousness expansion."
+    },
+    {
+      "name": "synchronicity",
+      "treatment": "introduced",
+      "summary": "Meaningful coincidence suggesting acausal connection between psyche and world. Points to participatory relationship beyond mechanistic causation."
+    },
+    {
+      "name": "anima/animus",
+      "treatment": "introduced",
+      "summary": "Contrasexual imaginal figures within psyche. Feminine in men, masculine in women. Recognition and dialogue essential to wholeness."
+    },
+    {
+      "name": "sacred second self",
+      "treatment": "referenced",
+      "summary": "Connection to transpersonal dimension of self through archetypal encounter. Parallels Corbin's divine double."
+    }
+  ],
+  "people": [
+    {
+      "name": "Carl Jung",
+      "role": "developed",
+      "summary": "Analytical psychologist discovering sacred depths of psyche through archetypes and individuation. Gnostic and alchemical influences inform psychological framework."
+    },
+    {
+      "name": "John Dourley",
+      "role": "introduced",
+      "summary": "Jungian analyst and theologian showing convergence between Jung and Tillich. The Psyche as Sacrament framework."
+    },
+    {
+      "name": "Paul Tillich",
+      "role": "referenced",
+      "summary": "Theologian whose God-beyond-theism parallels Jung's sacred psyche concept."
+    },
+    {
+      "name": "Wolfgang Pauli",
+      "role": "referenced",
+      "summary": "Physicist and Jung's collaborator on synchronicity, exploring connections between physics and psychology."
+    }
+  ],
+  "crossRefs": [
+    {"episode": 46, "reason": "Jung introduced as prophetic responder to meaning crisis"},
+    {"episode": 48, "reason": "Corbin and Jung parallels: imaginal realm and archetype, divine double and sacred self"},
+    {"episode": 50, "reason": "Tillich and Barfield connections to Jungian spirituality"}
+  ],
+  "quotableMoments": [
+    {
+      "quote": "The psyche is sacred; individuation involves recognizing divine depths through imaginative encounter with archetypes.",
+      "context": "Core Jungian insight treating psychological development as spiritual transformation."
+    },
+    {
+      "quote": "The shadow must be integrated through imaginative dialogue, not denied; wholeness requires encountering disowned aspects.",
+      "context": "Shadow work as essential Jungian practice paralleling gnosis and confronting egocentrism."
+    }
+  ]
+}

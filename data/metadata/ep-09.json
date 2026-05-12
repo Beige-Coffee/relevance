@@ -1,0 +1,116 @@
+{
+  "num": 9,
+  "slug": "insight",
+  "title": "Insight",
+  "essence": "This episode provides a comprehensive theory of insight through attentional structure and the integration of meditation (scaling down) and contemplation (scaling up). Vervaeke introduces Michael Polanyi's framework showing that attention operates through layered from-to structures: focal awareness of objects through subsidiary awareness of instruments (probe through fingers through feelings). Both axes—transparency-opacity (stepping back from) and feature-gestalt (breaking down versus integrating)—operate dynamically to optimize cognition. The nine-dot problem exemplifies how insight requires breaking inappropriate frames (scaling down) and finding novel patterns (scaling up). However, both extremes create problems: pure scaling down causes choking, pure scaling up causes fixation. Optimal insight requires training flexibility to flow between both, called 'opponent processing.' Different mystical states result: the pure consciousness event (extreme scaling down), resonant at-onement (extreme scaling up), and non-duality (balanced oscillation). This third state, achieved through practices like alternating meditation and contemplation, generates systematic insight into existential modes themselves. This culminates in enlightenment and quantum change—radical life transformation following mystical experience. The episode establishes that meaning and awakening are intimately connected through improved capacity for insight and the recovery of authentic existential modes.",
+  "keyClaims": [
+    "Attention operates through layered focal-subsidiary and feature-gestalt structures, not as a spotlight",
+    "Insight requires both breaking frames (scaling down) and finding novel patterns (scaling up)",
+    "Optimal insight develops through opponent processing: training flexibility to oscillate between both",
+    "Three distinct mystical states correspond to scaling extremes: pure consciousness, resonant at-onement, and non-duality",
+    "Enlightenment and quantum change generate systematic insight into existential modes and existential being"
+  ],
+  "concepts": [
+    {
+      "name": "insight",
+      "treatment": "developed",
+      "summary": "Sudden restructuring of understanding through integration of previously disconnected patterns."
+    },
+    {
+      "name": "attention",
+      "treatment": "developed",
+      "summary": "Complex optimization process operating through layered focal-subsidiary and feature-gestalt dynamics."
+    },
+    {
+      "name": "scaling down",
+      "treatment": "introduced",
+      "summary": "Attentional movement toward mind's center, breaking gestalts into features and de-automatizing cognition."
+    },
+    {
+      "name": "scaling up",
+      "treatment": "introduced",
+      "summary": "Attentional movement outward and upward, integrating features into wider patterns and gestalts."
+    },
+    {
+      "name": "opponent processing",
+      "treatment": "introduced",
+      "summary": "Training flexible oscillation between opposing processes for optimal engagement and problem-solving."
+    },
+    {
+      "name": "pure consciousness event",
+      "treatment": "introduced",
+      "summary": "Mystical state of consciousness without content, achieved through extreme scaling down."
+    },
+    {
+      "name": "resonant at onement",
+      "treatment": "introduced",
+      "summary": "Mystical state of flowing unity with all things, achieved through extreme scaling up."
+    },
+    {
+      "name": "non duality",
+      "treatment": "introduced",
+      "summary": "Mystical state uniting pure consciousness and resonant at-onement, generating comprehensive insight."
+    },
+    {
+      "name": "quantum change",
+      "treatment": "introduced",
+      "summary": "Radical life transformation following mystical experience and insight."
+    },
+    {
+      "name": "enlightenment",
+      "treatment": "introduced",
+      "summary": "Complete awakening characterized by integrated insight into being and agency."
+    }
+  ],
+  "people": [
+    {
+      "name": "Michael Polanyi",
+      "role": "discussed",
+      "summary": "Philosopher who developed theory of focal and subsidiary awareness in attention."
+    },
+    {
+      "name": "Ellen Langer",
+      "role": "discussed",
+      "summary": "Psychologist who studied soft vigilance as alternative to concentrated attention."
+    },
+    {
+      "name": "Christopher Mole",
+      "role": "discussed",
+      "summary": "Philosopher of attention who explained attention as optimization of other processes."
+    },
+    {
+      "name": "Sebastian Watzl",
+      "role": "referenced",
+      "summary": "Cognitive scientist studying prioritization in attention."
+    },
+    {
+      "name": "Siddhartha Gautama",
+      "role": "referenced",
+      "summary": "The Buddha whose enlightenment exemplifies non-dual consciousness."
+    }
+  ],
+  "crossRefs": [
+    {
+      "episode": 8,
+      "context": "Builds on mindfulness and attentional training from episode 8"
+    },
+    {
+      "episode": null,
+      "context": "Will continue exploration of consciousness and enlightenment in future episodes"
+    }
+  ],
+  "quotableMoments": [
+    {
+      "quote": "Notice that the feature list does not have the idos, and by not having the idos, or not looking for the idos, it's not asking any of these questions. These causal and constitutive questions.",
+      "context": "Explaining why feature lists miss the structural-functional organization needed for real understanding"
+    },
+    {
+      "quote": "I am awake. That's how he gets his title. He moves from talking about an identity he could have to a fundamental way of being – 'I am awake'.",
+      "context": "Explaining how Siddhartha's enlightenment represents fundamental transformation of being"
+    },
+    {
+      "quote": "There's a deep connection between how often you flow and how meaningful you find your life. That is also more radically the case for these states.",
+      "context": "Connecting mystical experience to meaning in life"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "num": 19,
+  "slug": "augustine-aquinas",
+  "title": "Augustine and Aquinas",
+  "essence": "Vervaeke culminates this historical arc by examining Augustine and Aquinas, who synthesize Buddhism, Stoicism, Platonism (Neoplatonism), Gnosticism, and Christianity into medieval worldview. Augustine, struggling with addiction and inner conflict, encounters Plotinus's transformative insight but falls back into despair until discovering Paul's teaching that healing comes through agape-love. He integrates three orders of meaning: Nomological (how reality is structured, from Aristotle), Normative (how to move toward the Good through wise transformation, from Plotinus), and Narrative (history as the course of God's creative love, from Christianity). This synthesis gives meaning coherence, significance, and purpose—addressing human needs for sense-making, depth, and direction. However, the medieval worldview begins to fracture when Aristotle is rediscovered and reading practices shift from lectio divina (transformative meditation) to silent propositional analysis. Aquinas attempts to save the synthesis by introducing the nature/supernatural distinction—natural reason governs the material world, faith alone accesses the supernatural—but this divorce from agapic participation threatens the entire edifice. As science becomes increasingly successful and the supernatural world becomes less viable, the mythological framework collapses, leaving modern people with the grammar of meaning but no mythology to house it. The episode traces how the crisis emerges from the conditions of its own success—the triumph of reason.",
+  "keyClaims": [
+    "Augustine synthesizes Neoplatonic spirituality and Christian agape to create unified account of meaning addressing suffering and evil.",
+    "Three orders of meaning—Nomological (coherence), Normative (significance), and Narrative (purpose)—correspond to the three primary dimensions of meaning in human experience.",
+    "The shift from communal, contemplative reading (lectio divina) to individual, analytical reading marks the beginning of the Western fragmentation of meaning.",
+    "Aquinas's nature/supernatural distinction preserves intellectual authority but severs the continuity between reason and love, science and spirituality.",
+    "The viability of the supernatural world depends on participatory knowing and agapic engagement, which become increasingly impossible in a purely propositional worldview."
+  ],
+  "concepts": [
+    {
+      "name": "nomological order",
+      "treatment": "applied",
+      "summary": "The Aristotelian order of how reality is structured, how things conform to intelligible patterns—provides coherence."
+    },
+    {
+      "name": "normative order",
+      "treatment": "applied",
+      "summary": "The Neoplatonic order of ascending toward The Good through increasingly integrated and real modes of being—provides significance."
+    },
+    {
+      "name": "narrative order",
+      "treatment": "introduced",
+      "summary": "The Christian historical order where God's agapic creativity unfolds through time toward consummation—provides purpose."
+    },
+    {
+      "name": "lectio divina",
+      "treatment": "introduced",
+      "summary": "Medieval practice of contemplative reading designed to transform the reader through participatory engagement with sacred text."
+    },
+    {
+      "name": "agape",
+      "treatment": "applied",
+      "summary": "The creative love integrating all three orders—God's love creates and sustains the nomological world toward normative good in narrative history."
+    },
+    {
+      "name": "metanoia",
+      "treatment": "referenced",
+      "summary": "The transformative awakening that Augustine experiences through understanding love as the heart of reason."
+    },
+    {
+      "name": "nature/supernatural distinction",
+      "treatment": "introduced",
+      "summary": "Aquinas's division of reality into natural (knowable by reason) and supernatural (accessible only by faith), breaking medieval synthesis."
+    },
+    {
+      "name": "participatory knowing",
+      "treatment": "applied",
+      "summary": "The mode of knowing through conformity and transformation, increasingly lost as reading and knowing become propositional."
+    }
+  ],
+  "people": [
+    {
+      "name": "Augustine",
+      "role": "subject",
+      "summary": "Church father who synthesizes Neoplatonism and Christianity, creating framework for medieval understanding of meaning, reality, and transformation."
+    },
+    {
+      "name": "Thomas Aquinas",
+      "role": "subject",
+      "summary": "Medieval theologian who attempts to preserve medieval synthesis against Aristotle's challenge by introducing nature/supernatural division."
+    },
+    {
+      "name": "Monica",
+      "role": "referenced",
+      "summary": "Augustine's Christian mother whose faith and the Bible she introduces become instruments of his transformation."
+    },
+    {
+      "name": "Plotinus",
+      "role": "discussed",
+      "summary": "Neoplatonist whose mystical experience Augustine discovers, providing path of agapic transformation through love."
+    },
+    {
+      "name": "Paul",
+      "role": "discussed",
+      "summary": "Apostle whose letters Augustine encounters, showing how agape heals inner conflict and constitutes transformation."
+    },
+    {
+      "name": "Pierre Hadot",
+      "role": "discussed",
+      "summary": "Philosopher whose work on ancient philosophy as spiritual practice influences Vervaeke's understanding of medieval transformation."
+    }
+  ],
+  "crossRefs": [
+    {
+      "episode": 18,
+      "context": "Augustine directly incorporates Neoplatonic insights from Plotinus into Christian framework."
+    },
+    {
+      "episode": 16,
+      "context": "Paul's teachings on agape directly influence Augustine's theological synthesis."
+    },
+    {
+      "episode": null,
+      "context": "The crisis that emerges from Aquinas's synthesis will be addressed in subsequent episodes examining the modern meaning crisis."
+    }
+  ],
+  "quotableMoments": [
+    {
+      "quote": "In Plotinus, Plato lived again.",
+      "context": "Augustine's recognition that Neoplatonism preserves Platonic spirituality while offering path to transformation through love."
+    },
+    {
+      "quote": "The whole point is not to have the propositions... It is to let the text, as much as possible, speak to you!",
+      "context": "Describing lectio divina as participatory, transformative practice versus propositional knowledge extraction."
+    },
+    {
+      "quote": "Science and Spirituality are now being divorced from each other in a profound way, such that if it's scientific, it's not spiritual.",
+      "context": "Articulating how Aquinas's nature/supernatural distinction initiates the Western fragmentation of meaning into separate domains."
+    }
+  ]
+}

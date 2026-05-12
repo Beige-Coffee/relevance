@@ -1,0 +1,144 @@
+{
+  "num": 28,
+  "slug": "convergence-relevance-realization",
+  "title": "Convergence To Relevance Realization",
+  "essence": "Vervaeke performs a comprehensive convergence analysis to show that relevance realization emerges as the core mechanism of intelligence across multiple cognitive domains. Multiple independent lines of investigation—problem formulation, categorization, action, and communication—all converge on the same conclusion: human intelligence fundamentally depends on the capacity to zero in on relevant information and make it salient. Through Goodman's analysis of similarity, Vervaeke shows that any attempt to ground categorization in logical similarity fails (any two objects are indefinitely similar) and therefore depends on psychological similarity—selecting which features matter. The robot example demonstrates how action requires determining which side effects are relevant, not just intended effects. Communication, through Grice's maxims, reduces to the principle of relevance: conveying the right amount of relevant information in the right format. Consciousness itself appears to function as a relevance filter in complex situations. By mapping how selective attention, working memory, combinatorial explosion, side-effect evaluation, and long-term memory organization all hinge on relevance realization, Vervaeke establishes relevance as central to what makes humans intelligent, conscious, and capable of wisdom.",
+  "keyClaims": [
+    "Relevance realization is the unified mechanism underlying problem-solving, categorization, action, communication, and consciousness—indicating it is fundamental to human intelligence.",
+    "Any two objects are logically indefinitely similar or dissimilar; categorization depends on psychological similarity—selecting which features are relevant, not logical properties.",
+    "The frame problem (determining which side effects matter when acting) and the proliferation of side effects are fundamentally the relevance problem: how do you know what to pay attention to?",
+    "Communication through language depends on conveying much more than you can say, which requires recipients to fill in what is relevant through conversational implicature.",
+    "Consciousness may function as the mechanism for doing relevance realization in complex, ill-defined situations where agency is directly involved."
+  ],
+  "concepts": [
+    {
+      "name": "relevance realization",
+      "treatment": "developed",
+      "summary": "The unified cognitive capacity to zero in on relevant information across all domains of cognition, making salient what matters and obvious what to do."
+    },
+    {
+      "name": "categorization",
+      "treatment": "developed",
+      "summary": "The ability to group things by recognizing their psychological similarity (relevant shared features) rather than logical similarity (which is infinite for any two objects)."
+    },
+    {
+      "name": "psychological similarity",
+      "treatment": "introduced",
+      "summary": "Similarity based on relevant comparisons and relevant features; context-dependent and aspect-dependent, unlike logical similarity which is perspective-independent."
+    },
+    {
+      "name": "aspect",
+      "treatment": "introduced",
+      "summary": "A set of relevant features that cohere together and are salient for a particular purpose, project, or context."
+    },
+    {
+      "name": "frame problem",
+      "treatment": "developed",
+      "summary": "The technical and deeper relevance problem: determining which side effects of action matter and which can be ignored."
+    },
+    {
+      "name": "side effects",
+      "treatment": "introduced",
+      "summary": "Unintended consequences of action that proliferate combinatorially; intelligence requires determining which are relevant to attend to."
+    },
+    {
+      "name": "conversational implicature",
+      "treatment": "introduced",
+      "summary": "What is conveyed beyond what is directly said; depends on the recipient inferring what is relevant from context."
+    },
+    {
+      "name": "maxims of conversation",
+      "treatment": "developed",
+      "summary": "Grice's principles (quality, quantity, manner, relevance) that enable communication; all reduce to the single principle of relevance."
+    },
+    {
+      "name": "working memory",
+      "treatment": "developed",
+      "summary": "The cognitive system that acts as a relevance filter, screening off irrelevant information and allowing relevant information into deeper processing."
+    },
+    {
+      "name": "general problem solver",
+      "treatment": "developed",
+      "summary": "The capacity to solve diverse problems across domains; emerges from the underlying ability to do relevance realization."
+    }
+  ],
+  "people": [
+    {
+      "name": "John Vervaeke",
+      "role": "subject",
+      "summary": "Orchestrates a convergence analysis showing relevance realization is central to intelligence, consciousness, and meaning-making."
+    },
+    {
+      "name": "Nelson Goodman",
+      "role": "referenced",
+      "summary": "His point about logical similarity (any two objects are indefinitely similar) reveals why categorization depends on psychological, not logical, similarity."
+    },
+    {
+      "name": "Lawrence Barsalou",
+      "role": "referenced",
+      "summary": "Demonstrated that categories are not stable across contexts; a set belongs together as a category in one context but not another, depending on what is relevant."
+    },
+    {
+      "name": "Daniel Dennett",
+      "role": "referenced",
+      "summary": "Provided the robot example illustrating how action requires determining relevant side effects."
+    },
+    {
+      "name": "Murray Shanahan",
+      "role": "referenced",
+      "summary": "Argues that the frame problem has a technical solution but a deeper relevance problem remains: how do we know what matters?"
+    },
+    {
+      "name": "H.P. Grice",
+      "role": "referenced",
+      "summary": "Developed the theory of conversational implicature showing that communication depends on conveying more than is said through relevance."
+    },
+    {
+      "name": "Dan Sperber",
+      "role": "referenced",
+      "summary": "Co-author of Relevance Theory; argues that all conversational maxims reduce to the single principle of being relevant."
+    },
+    {
+      "name": "Deirdre Wilson",
+      "role": "referenced",
+      "summary": "Co-author of Relevance Theory with Sperber; advanced the view that relevance is central to both communication and cognition."
+    },
+    {
+      "name": "Lynn Hasher",
+      "role": "referenced",
+      "summary": "Her research shows that working memory functions as a relevance filter to screen off irrelevant information."
+    }
+  ],
+  "crossRefs": [
+    {
+      "episode": 27,
+      "context": "Problem formulation and insight are instances of relevance realization across the problem-solving domain; multiple domains show the same mechanism at work."
+    },
+    {
+      "episode": 29,
+      "context": "The convergence on relevance realization motivates moving beyond representational, computational, and modular accounts toward participatory and enactive ones."
+    },
+    {
+      "episode": 13,
+      "context": "Flow states, where you are absorbed in optimal challenge, depend on exquisite calibration of relevance realization to the task at hand."
+    }
+  ],
+  "quotableMoments": [
+    {
+      "quote": "You're telling me that I haven't zeroed in on the relevant properties, the ones that are obvious to you, the ones that stand out to you as salient.",
+      "context": "After demonstrating that a bison and lawnmower share indefinitely many logical properties, showing why psychological relevance differs from logical similarity."
+    },
+    {
+      "quote": "The number of side effects is combinatorially explosive. You cannot ever determine all of the possible side effects. You have to somehow intelligently ignore all the irrelevance and zero in, making the relevant stuff salient.",
+      "context": "The robot example showing why action requires relevance realization rather than comprehensive calculation."
+    },
+    {
+      "quote": "All of these reduce to the one maximum: be relevant.",
+      "context": "Sperber and Wilson's insight that all Gricean maxims of communication collapse into a single principle of relevance."
+    },
+    {
+      "quote": "What's at the core of your intelligence again and again, and again, is your capacity for relevance realization.",
+      "context": "The central claim emerging from the convergence analysis across problem-solving, categorization, communication, and action."
+    }
+  ]
+}

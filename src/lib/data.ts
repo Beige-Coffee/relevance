@@ -1,0 +1,30 @@
+"use client";
+
+import type { Episode, Concept, Person, Passage, Quote, Graph } from "./types";
+
+type Cache = Partial<{
+  episodes: Episode[];
+  concepts: Concept[];
+  people: Person[];
+  passages: Passage[];
+  quotes: Quote[];
+  graph: Graph;
+}>;
+
+const cache: Cache = {};
+
+async function load<K extends keyof Cache, T>(key: K, url: string): Promise<T> {
+  if (cache[key] !== undefined) return cache[key] as T;
+  const res = await fetch(url, { cache: "force-cache" });
+  if (!res.ok) throw new Error(`Failed to load ${url}: ${res.status}`);
+  const data = (await res.json()) as T;
+  (cache as Record<string, unknown>)[key] = data;
+  return data;
+}
+
+export const getEpisodes = () => load<"episodes", Episode[]>("episodes", "/data/episodes.json");
+export const getConcepts = () => load<"concepts", Concept[]>("concepts", "/data/concepts.json");
+export const getPeople = () => load<"people", Person[]>("people", "/data/people.json");
+export const getPassages = () => load<"passages", Passage[]>("passages", "/data/passages.json");
+export const getQuotes = () => load<"quotes", Quote[]>("quotes", "/data/quotes.json");
+export const getGraph = () => load<"graph", Graph>("graph", "/data/graph.json");

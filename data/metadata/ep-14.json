@@ -1,0 +1,106 @@
+{
+  "num": 14,
+  "slug": "epicureans-cynics-stoics",
+  "title": "Epicureans, Cynics, and Stoics",
+  "essence": "Vervaeke shifts to the Western response to the Hellenistic meaning crisis—a period of domicide where people lost connection to home, history, and community. He traces how Epicureanism, Cynicism, and Stoicism each address existential anxiety through different psychotechnologies. The Epicureans diagnose anxiety about death and loss, proposing acceptance of mortality through philosophical friendship rather than pursuing immortality. The Cynics challenge attachment to culturally contingent values, distinguishing moral principles from purity codes and advocating alignment with natural law. The Stoics, synthesizing Cynic and Platonic insights, focus on the co-identification process—how we assume and assign identities—arguing that wisdom lies not in controlling events but in recognizing what is and isn't within our control. Together these schools show how Western philosophy developed therapeutic psychotechnologies to address meaning and suffering, establishing the physician-of-the-soul model that will persist through Christianity. The episode demonstrates the Axial Revolution's application to psychological transformation and existential distress.",
+  "keyClaims": [
+    "The Hellenistic meaning crisis created domicide—loss of rootedness to place, language, religion, and community—requiring therapeutic philosophy.",
+    "The Epicureans address anxiety about death and loss by radically accepting mortality while cultivating friendship and wisdom.",
+    "The Cynics challenge all culturally contingent values and attachments, distinguishing moral laws from purity codes through provocative practice.",
+    "The Stoics recognize that wisdom lies in understanding what is within our control (meaning-making) versus what isn't (events).",
+    "All three schools represent the Axial Revolution becoming therapeutic: philosophy as the cure for existential suffering, not just intellectual truth-seeking."
+  ],
+  "concepts": [
+    {
+      "name": "domicide",
+      "treatment": "introduced",
+      "summary": "The destruction of home—not physical dwelling but cultural rootedness, shared language, ancestry, and community identity."
+    },
+    {
+      "name": "anxiety",
+      "treatment": "developed",
+      "summary": "Distinguished from fear; a nebulous threat where one doesn't know what to do, central to the Hellenistic crisis."
+    },
+    {
+      "name": "ontonormativity",
+      "treatment": "referenced",
+      "summary": "How experiences of the really-real demand transformation of life, driving philosophical responses to meaning crisis."
+    },
+    {
+      "name": "philia",
+      "treatment": "introduced",
+      "summary": "The love of cooperation and reciprocity, which Epicureans identify as the deepest source of meaning accessible until death."
+    },
+    {
+      "name": "purity codes",
+      "treatment": "introduced",
+      "summary": "Culturally contingent boundaries designed to maintain social categories, distinguished from universal moral principles."
+    },
+    {
+      "name": "co-identification",
+      "treatment": "introduced",
+      "summary": "The process of assuming and assigning identities—the Agent:Arena relationship that the Stoics identify as the heart of transformation."
+    },
+    {
+      "name": "prosoche",
+      "treatment": "introduced",
+      "summary": "Stoic practice of paying attention to how one is paying attention, learning to distinguish meaning from event."
+    },
+    {
+      "name": "aporia",
+      "treatment": "referenced",
+      "summary": "The shocking confrontation that breaks up fixed framings, used by Cynics through provocative confrontation."
+    }
+  ],
+  "people": [
+    {
+      "name": "Epicurus",
+      "role": "subject",
+      "summary": "Epicurean philosopher who diagnoses anxiety about death and proposes acceptance of mortality combined with philosophical friendship."
+    },
+    {
+      "name": "Diogenes",
+      "role": "discussed",
+      "summary": "Cynic philosopher whose provocative demonstrations (lamp search for honest man, public masturbation) challenge cultural assumptions."
+    },
+    {
+      "name": "Zeno of Citium",
+      "role": "discussed",
+      "summary": "Founder of Stoicism who integrates Cynic provocativeness with Platonic rationality, focusing on the process of co-identification."
+    },
+    {
+      "name": "Paul Tillich",
+      "role": "discussed",
+      "summary": "Modern theologian whose The Courage To Be articulates the distinction between fear and anxiety central to understanding these philosophies."
+    },
+    {
+      "name": "Antisthenes",
+      "role": "discussed",
+      "summary": "Socratic student who learns to converse with himself, pioneering the internalization of Socratic elenchus that becomes Stoic practice."
+    }
+  ],
+  "crossRefs": [
+    {
+      "episode": 9,
+      "context": "Builds on understanding of Axial Revolution in India to show parallel Western developments in response to similar crises."
+    },
+    {
+      "episode": 15,
+      "context": "Stoic psychotechnologies will be shown integrated into later Christian theological practice."
+    }
+  ],
+  "quotableMoments": [
+    {
+      "quote": "The philosopher is the physician of the soul.",
+      "context": "Expressing how Hellenistic philosophy shifts from pure truth-seeking to therapeutic intervention in existential suffering."
+    },
+    {
+      "quote": "Where I am, Death is not. Where death is, I am not.",
+      "context": "Epicurean argument showing that death itself cannot be experienced as a loss, only partial losses that can be managed."
+    },
+    {
+      "quote": "It's not What you set your heart on. It's how you set your heart.",
+      "context": "Zeno's Stoic insight that the process of co-identification, not its objects, is where transformation occurs."
+    }
+  ]
+}

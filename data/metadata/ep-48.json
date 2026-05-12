@@ -1,0 +1,72 @@
+{
+  "num": 48,
+  "slug": "corbin-divine-double",
+  "title": "Corbin and the Divine Double",
+  "essence": "Henry Corbin responds to Heidegger's diagnosis through imaginative theophany and symbolic participation. Against materialist scientism, Corbin recovers imaginal realm (not imaginary but ontologically real intermediate realm). Divine double—connection to transcendent dimension of self—addresses meaning crisis through symbolic relationship. Islamic Sufism, Gnosticism, and Neoplatonism reveal participatory ontology where human soul mirrors divine reality. Rose (physis) as symbol of divine manifestation; knowledge as witnessing transformation. Imaginal vision involves perspectival shift recognizing correspondence between inner and outer, microcosm and macrocosm. Eckhart's mysticism and Corbin's Sufism converge on union of lover and beloved, self and divine. Gnosis emerges not as intellectual knowledge but as transformative encounter with sacred depths. Symbol enables crossing between transcendent and immanent realms. Vervaeke situates Corbin as showing how contemplative traditions maintain reality of sacred imagination essential for meaning and wisdom.",
+  "keyClaims": [
+    "Imaginal realm is ontologically real intermediate dimension between physical and transcendent, not mere imagination",
+    "Divine double (connection to transcendent self) addresses meaning crisis through participatory mysticism",
+    "Symbols enable communication across realms and perspectives; not reducible to concepts",
+    "Gnosis is transformative encounter with sacred, not intellectual knowledge",
+    "Imaginal vision involves perspectival shift recognizing divine correspondence and participation"
+  ],
+  "concepts": [
+    {
+      "name": "imaginal realm",
+      "treatment": "introduced",
+      "summary": "Intermediate ontological dimension between physical and transcendent. Not imaginary (subjective) but real imaginal participation. Accessible through symbol and vision."
+    },
+    {
+      "name": "divine double",
+      "treatment": "introduced",
+      "summary": "Connection to transcendent dimension of self. Reflection of divine reality in human soul. Encountering divine double addresses existential meaning."
+    },
+    {
+      "name": "symbol",
+      "treatment": "developed",
+      "summary": "Participatory vehicle enabling crossing between realms. Not reducible to conceptual meaning; involves transformative encounter."
+    },
+    {
+      "name": "gnosis",
+      "treatment": "developed",
+      "summary": "Transformative knowing through participation, not intellectual understanding. Involves witnessing divine manifestation and inner transformation."
+    },
+    {
+      "name": "physis (the rose)",
+      "treatment": "introduced",
+      "summary": "Symbol of divine manifestation and nature's sacred depth. Represents participatory relationship to natural world."
+    }
+  ],
+  "people": [
+    {
+      "name": "Henry Corbin",
+      "role": "developed",
+      "summary": "Islamic philosophy scholar and mystical theologian. Recovers imaginal realm against materialist scientism. Integrates Sufi, Gnostic, and Neoplatonic traditions."
+    },
+    {
+      "name": "Meister Eckhart",
+      "role": "referenced",
+      "summary": "Rhineland mystic whose union mysticism parallels Sufi themes in Corbin's work."
+    },
+    {
+      "name": "Tom Cheetham",
+      "role": "referenced",
+      "summary": "Contemporary interpreter of Corbin in Western context. Author of trilogy on Corbin's thought."
+    }
+  ],
+  "crossRefs": [
+    {"episode": 46, "reason": "Introduces Corbin as prophetic responder to meaning crisis"},
+    {"episode": 47, "reason": "Corbin responds to Heidegger through imaginal participation"},
+    {"episode": 49, "reason": "Jung's psychology parallels Corbin's imaginal realm and sacred psyche"}
+  ],
+  "quotableMoments": [
+    {
+      "quote": "The imaginal realm is not imaginary but ontologically real—an intermediate dimension between physical and transcendent.",
+      "context": "Distinguishing Corbin's recovery of imaginal from dismissal as mere imagination or subjective fantasy."
+    },
+    {
+      "quote": "Symbol is participatory vehicle enabling transformation across realms, not reducible to conceptual meaning.",
+      "context": "Emphasizing active role of symbol in gnosis and divine encounter."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "num": 15,
+  "slug": "marcus-aurelius-and-jesus",
+  "title": "Marcus Aurelius and Jesus",
+  "essence": "Vervaeke examines how Stoicism and Christianity offer complementary responses to existential anxiety and the search for meaning. Marcus Aurelius exemplifies the Stoic path: as Roman emperor facing domicide and dislocation, he practices prosoche and premeditatio—distinguishing event from meaning, recognizing what is and isn't controllable—to achieve wisdom even within impossible circumstances. Crucially, his Meditations are not belief-statements but spiritual exercises designed to transform consciousness and identity. Meanwhile, Jesus introduces kairos—the decisive moment—and agape—creative love that constitutes personhood. Where Stoics focus on discerning control and reframing meaning, Jesus proposes a radical participatory transformation through love. Paul's letters express this agapic metanoia (awakening), the complete reorientation of one's fundamental existence. Yet the episode reveals a dark side: in personalizing the spiritual journey, Paul projects inner conflict onto cosmic history, positing God itself as internally divided. This projection will shape Christianity's understanding of justice, guilt, and redemption, creating an existential burden—the expectation of grace and transformation without the mythological machinery to sustain it. The episode traces how wisdom traditions address both external meaninglessness and internal psychological fragmentation.",
+  "keyClaims": [
+    "Stoicism and Christianity offer distinct but compatible paths: Stoicism through wise discernment of control, Christianity through transformative agapic love.",
+    "Marcus Aurelius demonstrates that wisdom can be achieved even in the most challenging circumstances through recognition of what is controllable.",
+    "Agape is not an emotion but a way of being—the creative love that transforms non-persons into full moral agents.",
+    "Metanoia is not conversion in a belief sense but a radical reorientation of one's fundamental salience landscape and identity.",
+    "The projection of inner psychological conflict onto cosmic structure creates both the power and danger of Christianity's mythology."
+  ],
+  "concepts": [
+    {
+      "name": "prosoche",
+      "treatment": "applied",
+      "summary": "Stoic attention-practice applied by Marcus Aurelius to distinguish between events and their meaning."
+    },
+    {
+      "name": "premeditatio",
+      "treatment": "introduced",
+      "summary": "Stoic practice of contemplating potential losses to understand that physics and meaning are distinct."
+    },
+    {
+      "name": "kairos",
+      "treatment": "introduced",
+      "summary": "The right moment or decisive turning point when history can be redirected through proper action."
+    },
+    {
+      "name": "agape",
+      "treatment": "developed",
+      "summary": "God-like creative love that constitutes personhood by investing in non-persons, distinct from erotic or friendship love."
+    },
+    {
+      "name": "metanoia",
+      "treatment": "developed",
+      "summary": "Radical awakening and reorientation of consciousness, not mere belief conversion but transformation of existential mode."
+    },
+    {
+      "name": "participatory knowing",
+      "treatment": "applied",
+      "summary": "Deep knowing through conformity and identification, exemplified in agapic love and martyrdom."
+    },
+    {
+      "name": "anagoge",
+      "treatment": "referenced",
+      "summary": "The upward movement toward what is more real, pursued through both Stoic wisdom and Christian agape."
+    },
+    {
+      "name": "mortality",
+      "treatment": "applied",
+      "summary": "Distinguished from fatality; essential acceptance enables freedom from anxiety rather than pursuit of immortality."
+    }
+  ],
+  "people": [
+    {
+      "name": "Marcus Aurelius",
+      "role": "subject",
+      "summary": "Roman emperor whose Meditations exemplify Stoic practice as spiritual exercises for transformation within circumstances of unlimited power."
+    },
+    {
+      "name": "Jesus of Nazareth",
+      "role": "subject",
+      "summary": "Introduces agape as God's creative love and offers metanoia—radical personal awakening—as path to transformation."
+    },
+    {
+      "name": "Paul",
+      "role": "subject",
+      "summary": "Personalizes Jesus's teachings, projecting inner psychological conflict onto cosmic narrative of divine struggle and redemption."
+    },
+    {
+      "name": "Epictetus",
+      "role": "discussed",
+      "summary": "Stoic philosopher whose distinction of control and non-control becomes foundational to understanding wisdom in any circumstances."
+    },
+    {
+      "name": "Pierre Hadot",
+      "role": "discussed",
+      "summary": "Philosopher who recovered understanding of ancient philosophy as spiritual exercises rather than abstract doctrines."
+    }
+  ],
+  "crossRefs": [
+    {
+      "episode": 14,
+      "context": "Applies Stoic psychotechnologies developed in response to Hellenistic crisis to individual transformation."
+    },
+    {
+      "episode": 16,
+      "context": "Continues exploration of Christianity and agape in cultural and historical context."
+    }
+  ],
+  "quotableMoments": [
+    {
+      "quote": "It is possible to be happy, even in a palace.",
+      "context": "Marcus Aurelius's assertion that wisdom and happiness depend on discernment, not circumstances."
+    },
+    {
+      "quote": "Love is patient, love is kind. It does not envy. It does not boast. It is not proud. It is not rude. It is not self-seeking.",
+      "context": "Paul's description of agape as the features necessary for helping non-persons come into full personhood."
+    },
+    {
+      "quote": "Everybody dies, but not everybody has lived.",
+      "context": "Marcus Aurelius expressing the distinction between duration and depth of life, between having lived and merely existing."
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "num": 29,
+  "slug": "depths-of-relevance-realization",
+  "title": "Getting to the Depths of Relevance Realization",
+  "essence": "Vervaeke begins to construct a naturalistic theory of relevance realization that can explain spirituality, meaning-making, consciousness, and wisdom without circular explanation. He establishes a methodological principle: whatever explains relevance cannot itself presuppose relevance. Examining three candidate explanations—representation, computation, and modularity—he shows why each fails. Representations are inherently aspectual (they select relevant features from infinite possibilities), so they presuppose rather than generate relevance. Computation requires choosing which implications to use (a cognitive commitment), meaning inference presupposes relevance. Rules of computation require interpretation and application—a skill of judgment in context—which ultimately depends on relevance. Through Pylyshyn's work on multiple object tracking (FINSTING), Vervaeke argues that the most basic form of relevance is salience tagging of here-nowness: a pre-categorical, pre-conceptual contact with reality that precedes all representational cognition. He proposes a hierarchy of dependence: propositional cognition depends on procedural skill, procedural skill depends on perspectival awareness, and perspectival awareness depends on the participatory agent-arena relationship. Relevance realization must be understood as operating through autopoetic (self-maintaining) systems working across multiple levels simultaneously, fundamentally self-organizing.",
+  "keyClaims": [
+    "Any theory of relevance must avoid circularity: the explaining mechanism cannot itself presuppose relevance, requiring explanation in terms of non-intelligent processes.",
+    "Representations cannot explain relevance because they are inherently aspectual—they select relevant features from an infinite set, presupposing the very relevance they are meant to explain.",
+    "Computation presupposes relevance because inference requires choosing which implications to use (a cognitive commitment) and rules require context-dependent interpretation and skill.",
+    "The basic mechanism of relevance realization is pre-categorical salience tagging of here-nowness (FINSTING) that precedes conceptual cognition.",
+    "Relevance realization operates through an asymmetric dependence hierarchy: propositional depends on procedural, procedural on perspectival, perspectival on participatory agent-arena fit."
+  ],
+  "concepts": [
+    {
+      "name": "relevance realization",
+      "treatment": "developed",
+      "summary": "The fundamental cognitive capacity to zero in on what matters; must be explained through non-intelligent processes that don't themselves presuppose relevance."
+    },
+    {
+      "name": "aspectuality",
+      "treatment": "introduced",
+      "summary": "A representation is aspectual: it selects relevant features from infinite possibilities and structures them for relevance to an agent."
+    },
+    {
+      "name": "representation",
+      "treatment": "developed",
+      "summary": "Mental entities that stand for objects in the world; inherently aspectual and therefore presuppose rather than explain relevance realization."
+    },
+    {
+      "name": "computation",
+      "treatment": "developed",
+      "summary": "The manipulation of symbols according to rules; presupposes relevance because it requires choosing relevant implications and interpreting rules in context."
+    },
+    {
+      "name": "implication",
+      "treatment": "introduced",
+      "summary": "A logical relationship between propositions; the number of implications any proposition has is combinatorially explosive."
+    },
+    {
+      "name": "inference",
+      "treatment": "introduced",
+      "summary": "The use of implication relations to change beliefs; presupposes relevance because it requires choosing which implications are relevant to the context."
+    },
+    {
+      "name": "cognitive commitment",
+      "treatment": "introduced",
+      "summary": "The act of choosing which of the combinatorially explosive implications to use in reasoning; presupposes relevance realization."
+    },
+    {
+      "name": "FINSTING",
+      "treatment": "introduced",
+      "summary": "Fingers of Instantiation—the pre-categorical capacity to track the here-nowness of objects through salience tagging, preceding all conceptual cognition."
+    },
+    {
+      "name": "salience tagging",
+      "treatment": "introduced",
+      "summary": "The most basic form of relevance realization: making here-nowness salient and salient; a contact with reality that precedes representation."
+    },
+    {
+      "name": "enactive demonstrative reference",
+      "treatment": "introduced",
+      "summary": "The mental analogue of linguistic demonstratives like 'this'; the capacity to put your mind in contact with objects through salience tagging."
+    },
+    {
+      "name": "propositional cognition",
+      "treatment": "developed",
+      "summary": "Cognition involving concepts, propositions, representations; depends asymmetrically on procedural skill."
+    },
+    {
+      "name": "procedural skill",
+      "treatment": "developed",
+      "summary": "Knowing how to do something; depends asymmetrically on perspectival awareness and situational judgment."
+    },
+    {
+      "name": "perspectival knowing",
+      "treatment": "developed",
+      "summary": "Context-dependent, first-person awareness of how to apply skills; depends asymmetrically on participatory agent-arena fit."
+    },
+    {
+      "name": "situational awareness",
+      "treatment": "introduced",
+      "summary": "The capacity to adapt skill application to changing circumstances through salience landscaping."
+    },
+    {
+      "name": "participatory knowing",
+      "treatment": "developed",
+      "summary": "The fundamental agent-arena relationship where organism and environment are mutually fitted to generate affordances."
+    },
+    {
+      "name": "autopoetic system",
+      "treatment": "developed",
+      "summary": "A self-organizing, self-maintaining system (characteristic of living things) with constitutive goals that preserve its own self-organization."
+    },
+    {
+      "name": "constitutive goal",
+      "treatment": "introduced",
+      "summary": "A goal that is internal to a system and helps constitute it as what it is; for living things, the goal of preserving self-organization."
+    },
+    {
+      "name": "skill of judgment",
+      "treatment": "introduced",
+      "summary": "The procedural capacity to interpret rules and determine what is appropriate or relevant in a specific context."
+    }
+  ],
+  "people": [
+    {
+      "name": "John Vervaeke",
+      "role": "subject",
+      "summary": "Constructs a naturalistic theory of relevance realization grounded in enactive cognition, salience tagging, and autopoetic systems."
+    },
+    {
+      "name": "Tim Lillicrap",
+      "role": "referenced",
+      "summary": "Collaborator on work showing relevance realization as central to intelligence and cognition."
+    },
+    {
+      "name": "Blake Richards",
+      "role": "referenced",
+      "summary": "Collaborator on the Journal of Logic and Computation article on relevance realization and emergent frameworks in cognitive science."
+    },
+    {
+      "name": "Leonardo Ferraro",
+      "role": "referenced",
+      "summary": "Collaborator on research connecting relevance realization to meaning and wisdom."
+    },
+    {
+      "name": "Jerry Fodor",
+      "role": "referenced",
+      "summary": "Major defender of computational theory of mind who pointed out that inference presupposes relevance and that this undermines purely computational accounts."
+    },
+    {
+      "name": "John Searle",
+      "role": "referenced",
+      "summary": "Identified that representations are aspectual—they select relevant features rather than capturing all properties."
+    },
+    {
+      "name": "Zenon Pylyshyn",
+      "role": "referenced",
+      "summary": "Developed the theory of FINSTING (Fingers of Instantiation) showing how pre-categorical salience tagging precedes conceptual cognition."
+    },
+    {
+      "name": "Ludwig Wittgenstein",
+      "role": "referenced",
+      "summary": "Argued that rules cannot fully specify their own application and that skill of judgment is fundamental to following rules."
+    },
+    {
+      "name": "Christopher Cherniak",
+      "role": "referenced",
+      "summary": "Argued that rationality consists in selecting relevant implications from the combinatorially explosive set of possible ones."
+    },
+    {
+      "name": "Harold Brown",
+      "role": "referenced",
+      "summary": "Developed the concept of the skill of judgment as fundamental to rationality and rule-following."
+    }
+  ],
+  "crossRefs": [
+    {
+      "episode": 28,
+      "context": "The convergence on relevance realization motivates investigating what natural processes could explain it without circularity."
+    },
+    {
+      "episode": 27,
+      "context": "Problem formulation as insight depends on the pre-categorical salience realization that operates at multiple cognitive levels simultaneously."
+    },
+    {
+      "episode": 13,
+      "context": "Higher states of consciousness involve the kind of non-conceptual, here-now awareness that characterizes the deepest level of relevance realization."
+    }
+  ],
+  "quotableMoments": [
+    {
+      "quote": "Whatever process or entity that I'm trying to use to explain relevance should not itself require relevance. If I have something 'X' and I'm using 'X' to explain relevance, then 'X' cannot itself presuppose relevance for its function.",
+      "context": "The guiding methodological principle for avoiding circular explanation of relevance."
+    },
+    {
+      "quote": "Aspectuality deeply presupposes your ability to zero in on relevance, to do Relevance Realisation. That means that representations can't ultimately be the generators, creators of relevance.",
+      "context": "Why representations presuppose rather than explain relevance."
+    },
+    {
+      "quote": "All I'm tracking is what you might call the hereness, where is it, and the nowness. Where is it? Everything else, its shape, its colour, its categorical identity, all get lost!",
+      "context": "Describing FINSTING as pre-categorical contact with reality through salience tagging of here-nowness."
+    },
+    {
+      "quote": "Propositional depends on procedural, procedural depends on perspectival, perspectival ultimately depends on participatory.",
+      "context": "The asymmetric dependence hierarchy showing how higher-order cognition rests on more fundamental, embodied forms of knowing."
+    },
+    {
+      "quote": "Relevance Realization has to be happening at multiple levels of cognition in a simultaneous, self-organizing fashion. You can't point to one place and say 'that's where Relevance Realization is going on.'",
+      "context": "Why modularity and localization fail to explain relevance realization."
+    }
+  ]
+}
