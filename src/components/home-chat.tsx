@@ -495,6 +495,41 @@ export function HomeChat({
   );
 }
 
+function IsolateButton({ onIsolate }: { onIsolate: () => void }) {
+  return (
+    <button
+      onClick={onIsolate}
+      className="w-full flex items-center justify-between gap-3 px-3.5 py-2.5 rounded-md border border-[var(--border)] bg-[var(--surface)] hover:border-[var(--accent)] hover:bg-[var(--accent-tint)] transition-colors text-left"
+      title="Show this concept's full dependency structure on the graph"
+    >
+      <span className="flex flex-col">
+        <span className="text-[13px] font-medium text-[var(--ink)]">Isolate on graph</span>
+        <span className="text-[11px] text-[var(--muted)] leading-snug">
+          See every prerequisite, contrast, and related idea laid out around this concept.
+        </span>
+      </span>
+      <svg
+        width="18"
+        height="18"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="shrink-0 text-[var(--accent)]"
+        aria-hidden
+      >
+        <circle cx="12" cy="12" r="3" />
+        <path d="M3 12h6" />
+        <path d="M15 12h6" />
+        <path d="M12 3v6" />
+        <path d="M12 15v6" />
+      </svg>
+    </button>
+  );
+}
+
 function formatClusterLabel(cluster: string): string {
   // "cognitive-science" -> "Cognitive science"
   const spaced = cluster.replace(/-/g, " ");
@@ -541,21 +576,15 @@ function NodeIntro({
             {extra}
           </p>
         )}
-        <div className="mt-2 flex items-center gap-3 text-[11px]">
-          <Link href={href} className="text-[var(--muted)] hover:text-[var(--accent)]">
-            {cardLabel}
-          </Link>
-          {onIsolate && (
-            <button
-              onClick={onIsolate}
-              className="text-[var(--accent)] hover:underline"
-              title="Show this concept's full dependency structure on the graph"
-            >
-              Isolate on graph →
-            </button>
-          )}
-        </div>
+        <Link
+          href={href}
+          className="inline-block mt-2 text-[11px] text-[var(--muted)] hover:text-[var(--accent)]"
+        >
+          {cardLabel}
+        </Link>
       </div>
+
+      {onIsolate && <IsolateButton onIsolate={onIsolate} />}
 
       <p className="text-[11px] text-[var(--muted)] leading-relaxed">
         Type a question below to chat about {name}, grounded in the corpus.
@@ -589,24 +618,15 @@ function ConversationOffer({
         <p className="text-[13px] text-[var(--ink-soft)] mt-1.5 leading-relaxed">
           {concept.definition}
         </p>
-        <div className="mt-2 flex items-center gap-3 text-[11px]">
-          <Link
-            href={`/concept/${concept.id}`}
-            className="text-[var(--muted)] hover:text-[var(--accent)]"
-          >
-            Open the concept card →
-          </Link>
-          {onIsolate && (
-            <button
-              onClick={onIsolate}
-              className="text-[var(--accent)] hover:underline"
-              title="Show this concept's full dependency structure on the graph"
-            >
-              Isolate on graph →
-            </button>
-          )}
-        </div>
+        <Link
+          href={`/concept/${concept.id}`}
+          className="inline-block mt-2 text-[11px] text-[var(--muted)] hover:text-[var(--accent)]"
+        >
+          Open the concept card →
+        </Link>
       </div>
+
+      {onIsolate && <IsolateButton onIsolate={onIsolate} />}
 
       <div className="rounded-md border border-[var(--accent)]/30 bg-[var(--accent-tint)] p-3.5">
         <p className="text-[13px] text-[var(--ink)] leading-relaxed">
