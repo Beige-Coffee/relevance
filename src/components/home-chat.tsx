@@ -58,7 +58,6 @@ export function HomeChat({
   // and which module is currently in focus.
   const [activeConversation, setActiveConversation] = useState<{ course: Course; moduleIndex: number } | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
-  const inputRef = useRef<HTMLTextAreaElement>(null);
 
   useEffect(() => {
     scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: "smooth" });
@@ -202,7 +201,7 @@ export function HomeChat({
 
   if (collapsed) {
     return (
-      <aside className="h-full w-12 shrink-0 border-l border-[var(--border-soft)] bg-[var(--surface)]/95 flex flex-col items-center py-3">
+      <aside className="h-full w-12 shrink-0 border-l border-[var(--border)] bg-[var(--surface)]/95 flex flex-col items-center py-3">
         <button
           onClick={onToggleCollapsed}
           aria-label="Expand chat"
@@ -219,7 +218,7 @@ export function HomeChat({
   }
 
   return (
-    <aside className="h-full w-full sm:w-[400px] shrink-0 border-l border-[var(--border-soft)] bg-[var(--surface)] flex flex-col">
+    <aside className="h-full w-full sm:w-[400px] shrink-0 border-l border-[var(--border)] bg-[var(--surface)] flex flex-col">
       <header className="px-4 py-3 border-b border-[var(--border-soft)] flex items-center justify-between gap-2">
         <div className="flex items-center gap-2 min-w-0">
           <button
@@ -325,7 +324,6 @@ export function HomeChat({
               course={selectedCourse}
               loading={loadingCourseId === selectedCourse.id}
               onBegin={() => beginConversation(selectedCourse)}
-              onAskInstead={() => inputRef.current?.focus()}
             />
           ) : selectedConcept ? (
             <NodeIntro
@@ -334,7 +332,6 @@ export function HomeChat({
               tag={formatClusterLabel(selectedConcept.cluster)}
               description={selectedConcept.definition}
               href={`/concept/${selectedConcept.id}`}
-              onAskInstead={() => inputRef.current?.focus()}
             />
           ) : selectedPerson ? (
             <NodeIntro
@@ -344,7 +341,6 @@ export function HomeChat({
               description={selectedPerson.shortBio}
               extra={selectedPerson.roleInArgument}
               href={`/person/${selectedPerson.id}`}
-              onAskInstead={() => inputRef.current?.focus()}
             />
           ) : (
             <EmptyState onStarter={send} canChat={Boolean(hasKey())} />
@@ -383,7 +379,6 @@ export function HomeChat({
         className="border-t border-[var(--border-soft)] px-3 py-3 flex items-end gap-2"
       >
         <textarea
-          ref={inputRef}
           value={input}
           onChange={(e) => setInput(e.target.value)}
           onKeyDown={(e) => {
@@ -432,7 +427,6 @@ function NodeIntro({
   description,
   extra,
   href,
-  onAskInstead,
 }: {
   kind: "concept" | "person";
   name: string;
@@ -440,12 +434,11 @@ function NodeIntro({
   description: string;
   extra?: string;
   href: string;
-  onAskInstead: () => void;
 }) {
   const kindLabel = kind === "concept" ? "Concept" : "Thinker";
   const cardLabel = kind === "concept" ? "Open the concept card →" : "Open the thinker card →";
   return (
-    <div className="space-y-4">
+    <div className="space-y-3">
       <div>
         <div className="text-[10px] uppercase tracking-[0.16em] text-[var(--muted)] mb-1">
           {kindLabel}
@@ -473,15 +466,9 @@ function NodeIntro({
         </Link>
       </div>
 
-      <button
-        onClick={onAskInstead}
-        className="block w-full text-left text-sm px-3.5 py-2.5 rounded-md border border-[var(--border)] bg-[var(--bg-tinted)] hover:border-[var(--accent)] hover:bg-[var(--elev)] transition-colors"
-      >
-        <span className="text-[var(--ink)] font-medium">Ask a question here</span>
-        <span className="block text-[12px] text-[var(--muted)] mt-0.5">
-          Freeform chat about {name}, grounded in the corpus.
-        </span>
-      </button>
+      <p className="text-[11px] text-[var(--muted)] leading-relaxed">
+        Type a question below to chat about {name}, grounded in the corpus.
+      </p>
     </div>
   );
 }
@@ -491,13 +478,11 @@ function ConversationOffer({
   course,
   loading,
   onBegin,
-  onAskInstead,
 }: {
   concept: Concept;
   course: CourseSummary;
   loading: boolean;
   onBegin: () => void;
-  onAskInstead: () => void;
 }) {
   return (
     <div className="space-y-4">
@@ -532,21 +517,9 @@ function ConversationOffer({
         </button>
       </div>
 
-      <div className="flex items-center gap-3">
-        <div className="flex-1 h-px bg-[var(--border-soft)]" />
-        <span className="text-[10px] uppercase tracking-wider text-[var(--muted)]">or</span>
-        <div className="flex-1 h-px bg-[var(--border-soft)]" />
-      </div>
-
-      <button
-        onClick={onAskInstead}
-        className="block w-full text-left text-sm px-3.5 py-2.5 rounded-md border border-[var(--border)] bg-[var(--bg-tinted)] hover:border-[var(--accent)] hover:bg-[var(--elev)] transition-colors"
-      >
-        <span className="text-[var(--ink)] font-medium">Ask a question here</span>
-        <span className="block text-[12px] text-[var(--muted)] mt-0.5">
-          Freeform chat about {concept.canonicalName}, grounded in the corpus.
-        </span>
-      </button>
+      <p className="text-[11px] text-[var(--muted)] leading-relaxed">
+        Or type a question below for freeform chat about {concept.canonicalName}.
+      </p>
     </div>
   );
 }
