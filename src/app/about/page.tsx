@@ -120,24 +120,41 @@ export default function AboutPage() {
             <div>
               <h3 className="text-[11px] uppercase tracking-[0.16em] text-[var(--muted)] mb-2">The chat&rsquo;s grounding architecture</h3>
               <p>
-                When you chat, the model does not improvise from memory. It is bound to a system prompt that enforces a five-rule grounding protocol: read on this turn, quote inline, every citation carries metadata, fail loudly when the corpus does not support the claim, and self-audit before replying.
+                When you chat, the model does not improvise from memory. It is bound to a system prompt that enforces a five-rule grounding protocol designed to make hallucinated Vervaeke quotes harder to produce than honest ones:
               </p>
-              <p>
-                It is also given three tools, with a per-turn budget so it cannot spam them:
-              </p>
-              <ul className="list-disc pl-5 space-y-1 mt-2">
+              <ol className="list-decimal pl-5 space-y-2 mt-3">
                 <li>
-                  <code className="mono text-[12px]">look_up(query)</code>: BM25 search over the 780 passages, returns the top matches with episode metadata.
+                  <strong>Read on this turn.</strong> Before composing a reply that cites anything, the model must call one of its tools on the current turn. It is not allowed to lean on what it &ldquo;remembers&rdquo; from earlier in the session, or from training. That training memory is exactly the surface that generates plausible-sounding but fabricated Vervaeke quotes; this rule routes around it.
                 </li>
                 <li>
-                  <code className="mono text-[12px]">read_concept(id)</code>: fetch the full canonical entry for a concept or thinker (definition, related entities, source episodes, verbatim passages).
+                  <strong>Quote inline, never send out.</strong> When the model quotes, it puts the verbatim text directly in the reply. It is forbidden from deflecting with &ldquo;go read Episode 28.&rdquo; Verbatim quotes are used sparingly, only for genuinely striking lines; the default is paraphrase plus an episode citation.
                 </li>
                 <li>
-                  <code className="mono text-[12px]">verify_quote(phrase)</code>: check whether a quote actually exists in the corpus, with fuzzy matching, so the model can confirm before citing.
+                  <strong>Every citation carries metadata.</strong> A bare &ldquo;Vervaeke says...&rdquo; without an episode number is treated as a claim, not a citation. Every reference to the corpus is tagged inline as &ldquo;(Episode N).&rdquo; If the model cannot tag it, it cannot make the claim.
+                </li>
+                <li>
+                  <strong>Failure mode: say so.</strong> When <code className="mono text-[12px]">look_up</code> returns nothing useful, or <code className="mono text-[12px]">verify_quote</code> returns <code className="mono text-[12px]">found=false</code>, the model is required to tell you plainly: &ldquo;I do not see that in the transcripts I can access.&rdquo; It is explicitly not allowed to fill the gap with a plausible-sounding line. A missing citation is always better than a wrong one.
+                </li>
+                <li>
+                  <strong>Pre-reply self-audit.</strong> Before sending, the model silently walks a checklist: every quoted phrase has a <code className="mono text-[12px]">verify_quote</code> result from this turn; every claim that Vervaeke discussed a thinker in a particular way has a <code className="mono text-[12px]">look_up</code> or <code className="mono text-[12px]">read_concept</code> from this turn; every &ldquo;(Episode N)&rdquo; tag traces back to a tool result from this turn. If any answer is no, the model is instructed to fix the reply or retract the claim before sending.
+                </li>
+              </ol>
+              <p className="mt-4">
+                To make the rules actually enforceable, the model is given three tools instead of being asked to introspect. The tools live behind a per-turn budget: each user turn instantiates a fresh budget object that counts calls per tool and caches results within the turn, so an identical call returns instantly without consuming budget. When the limit for a tool is exhausted, the next call returns an error telling the model to work with what it already has.
+              </p>
+              <ul className="list-disc pl-5 space-y-1.5 mt-3">
+                <li>
+                  <code className="mono text-[12px]">look_up(query)</code>: BM25 search over the 780 passages, returns up to 6 ranked matches with episode metadata. <span className="text-[var(--muted)]">Limit: 2 calls per turn.</span>
+                </li>
+                <li>
+                  <code className="mono text-[12px]">read_concept(id)</code>: fetch the full canonical entry for a concept or thinker (definition, related entities, source episodes, verbatim passages). <span className="text-[var(--muted)]">Limit: 5 calls per turn.</span>
+                </li>
+                <li>
+                  <code className="mono text-[12px]">verify_quote(phrase, episode)</code>: check whether a verbatim phrase actually appears in a given episode, with fuzzy matching that tolerates minor punctuation differences. <span className="text-[var(--muted)]">Limit: 8 calls per turn.</span>
                 </li>
               </ul>
-              <p className="mt-2">
-                Inside a Conversation the system prompt is swapped for one scoped to the current module: the learning objective, exposition passages, Socratic seeds, and misconception branches are baked in, so the dialogue stays inside that module&rsquo;s lesson plan.
+              <p className="mt-4">
+                Inside a Conversation the system prompt is swapped for one scoped to the current module: the learning objective, exposition passages, Socratic seeds, and misconception branches are baked in, so the dialogue stays inside that module&rsquo;s lesson plan. The five rules still apply.
               </p>
             </div>
 
