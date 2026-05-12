@@ -59,6 +59,54 @@ export function HomeChat({
   const [activeConversation, setActiveConversation] = useState<{ course: Course; moduleIndex: number } | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
 
+  // Resizable panel width. Default 400px; persisted to localStorage.
+  const MIN_WIDTH = 320;
+  const MAX_WIDTH = 900;
+  const [chatWidth, setChatWidth] = useState<number>(400);
+  const isResizingRef = useRef(false);
+
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    const saved = Number(localStorage.getItem("home-chat-width"));
+    if (Number.isFinite(saved) && saved >= MIN_WIDTH) {
+      setChatWidth(Math.min(saved, Math.min(MAX_WIDTH, window.innerWidth - 200)));
+    }
+  }, []);
+
+  useEffect(() => {
+    function onMouseMove(e: MouseEvent) {
+      if (!isResizingRef.current) return;
+      const maxForViewport = Math.min(MAX_WIDTH, window.innerWidth - 200);
+      const next = Math.max(MIN_WIDTH, Math.min(maxForViewport, window.innerWidth - e.clientX));
+      setChatWidth(next);
+    }
+    function onMouseUp() {
+      if (!isResizingRef.current) return;
+      isResizingRef.current = false;
+      document.body.style.cursor = "";
+      document.body.style.userSelect = "";
+    }
+    document.addEventListener("mousemove", onMouseMove);
+    document.addEventListener("mouseup", onMouseUp);
+    return () => {
+      document.removeEventListener("mousemove", onMouseMove);
+      document.removeEventListener("mouseup", onMouseUp);
+    };
+  }, []);
+
+  // Persist width after it changes (debounced via the natural mouseup pause).
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+    localStorage.setItem("home-chat-width", String(chatWidth));
+  }, [chatWidth]);
+
+  function startResize(e: React.MouseEvent) {
+    e.preventDefault();
+    isResizingRef.current = true;
+    document.body.style.cursor = "col-resize";
+    document.body.style.userSelect = "none";
+  }
+
   useEffect(() => {
     scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: "smooth" });
   }, [messages]);
@@ -218,7 +266,21 @@ export function HomeChat({
   }
 
   return (
-    <aside className="h-full w-full sm:w-[400px] shrink-0 border-l border-[var(--border)] bg-[var(--surface)] flex flex-col">
+    <aside
+      className="relative h-full shrink-0 bg-[var(--surface)] flex flex-col min-h-0"
+      style={{ width: chatWidth }}
+    >
+      {/* Resize handle doubles as the left border. 8px transparent hit zone
+          with a 1px visible line on the inside edge that highlights on hover. */}
+      <div
+        onMouseDown={startResize}
+        onDoubleClick={() => setChatWidth(400)}
+        className="absolute left-0 top-0 bottom-0 w-2 cursor-col-resize z-20 group"
+        aria-label="Resize chat panel (double-click to reset)"
+        title="Drag to resize. Double-click to reset."
+      >
+        <span className="absolute inset-y-0 left-0 w-px bg-[var(--border)] group-hover:bg-[var(--accent)] group-hover:w-[2px] transition-all" />
+      </div>
       <header className="px-4 py-3 border-b border-[var(--border-soft)] flex items-center justify-between gap-2">
         <div className="flex items-center gap-2 min-w-0">
           <button
@@ -316,7 +378,7 @@ export function HomeChat({
         </div>
       )}
 
-      <div ref={scrollRef} className="flex-1 overflow-y-auto px-4 py-4">
+      <div ref={scrollRef} className="flex-1 min-h-0 overflow-y-auto px-4 py-4">
         {messages.length === 0 ? (
           selectedConcept && selectedCourse ? (
             <ConversationOffer
