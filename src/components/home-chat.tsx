@@ -1,0 +1,348 @@
+"use client";
+
+import { useEffect, useRef, useState } from "react";
+import Link from "next/link";
+import { useChat, useSettings } from "@/lib/store";
+import { makeClientForProvider } from "@/lib/anthropic";
+import { streamText } from "@/lib/stream";
+import { SOCRATIC_SYSTEM_PROMPT } from "@/lib/prompts";
+import { TOOLS, ToolBudget, executeTool as runTool } from "@/lib/tools";
+import type {
+  ChatMessage,
+  ToolEventLog,
+  GraphNode,
+  Concept,
+  Person,
+  CourseSummary,
+} from "@/lib/types";
+import type { GraphMode } from "./graph-canvas";
+import { RenderedText } from "./rendered-text";
+import { ToolTrace } from "./tool-trace";
+
+interface Props {
+  selected: GraphNode | null;
+  mode: GraphMode;
+  concepts: Concept[];
+  people: Person[];
+  courses: CourseSummary[];
+  onClearSelected: () => void;
+  collapsed: boolean;
+  onToggleCollapsed: () => void;
+}
+
+const STARTER_PROMPTS = [
+  "What is relevance realization, in a sentence?",
+  "Where does Vervaeke contrast agape with eros?",
+  "How does he define the meaning crisis?",
+  "Suggest a place to start if I have not watched the series.",
+];
+
+export function HomeChat({
+  selected,
+  mode,
+  concepts,
+  people,
+  courses,
+  onClearSelected,
+  collapsed,
+  onToggleCollapsed,
+}: Props) {
+  const { provider, activeKey, activeModel, hasKey } = useSettings();
+  const { messages, append, setLastContent, patchLast, isStreaming, setStreaming, reset } = useChat();
+  const [input, setInput] = useState("");
+  const [error, setError] = useState<string | null>(null);
+  const scrollRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: "smooth" });
+  }, [messages]);
+
+  // Resolve the selected GraphNode to its concept or person record.
+  const selectedConcept = selected?.kind === "concept"
+    ? concepts.find((c) => c.id === selected.id.replace(/^concept:/, "")) ?? null
+    : null;
+  const selectedPerson = selected?.kind === "person"
+    ? people.find((p) => p.id === selected.id.replace(/^person:/, "")) ?? null
+    : null;
+  const selectedCourse = selectedConcept
+    ? courses.find((cr) => cr.conceptId === selectedConcept.id)
+    : null;
+
+  async function send(text: string) {
+    if (!text.trim()) return;
+    const key = activeKey();
+    if (!key) {
+      setError("Add an API key on the Settings page to chat with Sage.");
+      return;
+    }
+    setError(null);
+
+    const userMsg: ChatMessage = {
+      id: crypto.randomUUID(),
+      role: "user",
+      content: text.trim(),
+      createdAt: Date.now(),
+    };
+    append(userMsg);
+    setInput("");
+
+    const assistantMsg: ChatMessage = {
+      id: crypto.randomUUID(),
+      role: "assistant",
+      content: "",
+      toolEvents: [],
+      createdAt: Date.now(),
+    };
+    append(assistantMsg);
+    setStreaming(true);
+
+    const budget = new ToolBudget();
+    const toolEvents: ToolEventLog[] = [];
+
+    try {
+      const client = makeClientForProvider(provider, key);
+      const system = buildSystem({ mode, selectedConcept, selectedPerson });
+      const history = [...messages, userMsg].map((m) => ({
+        role: m.role,
+        content: m.content,
+      }));
+
+      let buf = "";
+      await streamText({
+        client,
+        model: activeModel(),
+        system,
+        messages: history,
+        tools: TOOLS,
+        executeTool: (call) => runTool(call, budget),
+        onDelta: (d) => { buf += d; setLastContent(buf); },
+        onToolEvent: (ev) => {
+          if (ev.kind === "start") {
+            toolEvents.push({ id: ev.id, name: ev.name, input: ev.input, done: false });
+          } else {
+            const idx = toolEvents.findIndex((e) => e.id === ev.id);
+            if (idx >= 0) toolEvents[idx] = { ...toolEvents[idx], done: true, result: ev.result, cached: ev.cached };
+          }
+          patchLast({ toolEvents: [...toolEvents] });
+        },
+        maxTokens: 1600,
+      });
+    } catch (e) {
+      const msg = e instanceof Error ? e.message : String(e);
+      const looksLikeAuth = /401|invalid|unauthor|api.key/i.test(msg);
+      setError(looksLikeAuth ? `${msg} (check your API key on the Settings page)` : msg);
+    } finally {
+      setStreaming(false);
+    }
+  }
+
+  if (collapsed) {
+    return (
+      <aside className="h-full w-12 border-l border-[var(--border-soft)] bg-[var(--surface)]/95 flex flex-col items-center py-3">
+        <button
+          onClick={onToggleCollapsed}
+          aria-label="Expand chat"
+          className="w-9 h-9 rounded-md text-[var(--muted)] hover:text-[var(--accent)] hover:bg-[var(--elev)] flex items-center justify-center"
+          title="Expand chat"
+        >
+          ‹
+        </button>
+        <div className="mt-3 vertical-text text-[10px] uppercase tracking-[0.18em] text-[var(--muted)]" style={{ writingMode: "vertical-rl", transform: "rotate(180deg)" }}>
+          Sage
+        </div>
+      </aside>
+    );
+  }
+
+  return (
+    <aside className="h-full w-full sm:w-[400px] border-l border-[var(--border-soft)] bg-[var(--surface)] flex flex-col">
+      <header className="px-4 py-3 border-b border-[var(--border-soft)] flex items-center justify-between gap-2">
+        <div className="flex items-center gap-2">
+          <button
+            onClick={onToggleCollapsed}
+            aria-label="Collapse chat"
+            className="w-7 h-7 rounded-md text-[var(--muted)] hover:text-[var(--accent)] hover:bg-[var(--elev)] flex items-center justify-center"
+            title="Collapse"
+          >
+            ›
+          </button>
+          <span className="text-[11px] uppercase tracking-[0.16em] text-[var(--muted)]">Sage</span>
+        </div>
+        {messages.length > 0 && (
+          <button
+            onClick={() => { reset(); setError(null); }}
+            className="text-[11px] text-[var(--muted)] hover:text-[var(--accent)]"
+          >
+            Clear
+          </button>
+        )}
+      </header>
+
+      {(selectedConcept || selectedPerson) && (
+        <div className="px-4 py-2 border-b border-[var(--border-soft)] bg-[var(--bg-tinted)] flex items-center gap-2 text-xs">
+          <span className="text-[var(--muted)]">Discussing:</span>
+          {selectedConcept && (
+            <Link href={`/concept/${selectedConcept.id}`} className="text-[var(--accent)] font-medium hover:underline truncate">
+              {selectedConcept.canonicalName}
+            </Link>
+          )}
+          {selectedPerson && (
+            <Link href={`/person/${selectedPerson.id}`} className="text-[var(--accent)] font-medium hover:underline truncate">
+              {selectedPerson.canonicalName}
+            </Link>
+          )}
+          {selectedCourse && (
+            <Link href={`/conversation/${selectedCourse.id}`} className="ml-auto text-[10px] uppercase tracking-wider text-[var(--accent)] hover:underline whitespace-nowrap">
+              Begin the Conversation →
+            </Link>
+          )}
+          <button
+            onClick={onClearSelected}
+            aria-label="Clear anchor"
+            className="ml-auto w-5 h-5 rounded text-[var(--muted)] hover:text-[var(--accent)] hover:bg-[var(--elev)] flex items-center justify-center"
+            title="Clear anchor"
+          >
+            ×
+          </button>
+        </div>
+      )}
+
+      <div ref={scrollRef} className="flex-1 overflow-y-auto px-4 py-4">
+        {messages.length === 0 ? (
+          <EmptyState onStarter={send} canChat={Boolean(hasKey())} />
+        ) : (
+          <div className="space-y-4">
+            {messages.map((m) => (
+              <div key={m.id} className={m.role === "user" ? "flex justify-end" : ""}>
+                {m.role === "user" ? (
+                  <div className="max-w-[88%] rounded-2xl rounded-br-sm bg-[var(--accent)] text-white px-3.5 py-2 text-[14px] leading-relaxed whitespace-pre-wrap">
+                    {m.content}
+                  </div>
+                ) : (
+                  <div>
+                    {m.toolEvents && m.toolEvents.length > 0 && <ToolTrace events={m.toolEvents} />}
+                    {m.content ? (
+                      <RenderedText text={m.content} />
+                    ) : !m.toolEvents?.length ? (
+                      <div className="dot-pulse"><span /><span /><span /></div>
+                    ) : null}
+                  </div>
+                )}
+              </div>
+            ))}
+            {error && (
+              <div className="rounded-md border border-[var(--accent)]/40 bg-[var(--accent-tint)] p-3 text-sm text-[var(--ink)]">
+                {error}
+              </div>
+            )}
+          </div>
+        )}
+      </div>
+
+      <form
+        onSubmit={(e) => { e.preventDefault(); if (!isStreaming) send(input); }}
+        className="border-t border-[var(--border-soft)] px-3 py-3 flex items-end gap-2"
+      >
+        <textarea
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+          onKeyDown={(e) => {
+            if ((e.metaKey || e.ctrlKey) && e.key === "Enter") {
+              e.preventDefault();
+              if (!isStreaming) send(input);
+            }
+          }}
+          placeholder={
+            isStreaming
+              ? "Sage is thinking..."
+              : selectedConcept
+                ? `Ask about ${selectedConcept.canonicalName}...`
+                : selectedPerson
+                  ? `Ask about ${selectedPerson.canonicalName}...`
+                  : "Ask Sage anything..."
+          }
+          rows={1}
+          disabled={isStreaming}
+          className="flex-1 px-3 py-2 rounded-md border border-[var(--border)] bg-[var(--bg)] text-[var(--ink)] placeholder:text-[var(--muted)] focus:outline-none focus:border-[var(--accent)] resize-none text-sm"
+        />
+        <button
+          type="submit"
+          disabled={!input.trim() || isStreaming}
+          className="px-3 py-2 rounded-md bg-[var(--accent)] text-white text-sm font-medium hover:bg-[var(--accent-bright)] transition-colors disabled:opacity-40"
+        >
+          Send
+        </button>
+      </form>
+    </aside>
+  );
+}
+
+function EmptyState({ onStarter, canChat }: { onStarter: (s: string) => void; canChat: boolean }) {
+  return (
+    <div className="space-y-4">
+      <div>
+        <p className="serif text-base text-[var(--ink)] leading-snug">Hi, I&rsquo;m Sage.</p>
+        <p className="text-sm text-[var(--ink-soft)] mt-1.5 leading-relaxed">
+          Ask me anything about Vervaeke&rsquo;s lecture series, or click a node on the graph to explore that idea together.
+        </p>
+      </div>
+      {!canChat ? (
+        <div className="rounded-md border border-[var(--accent)]/30 bg-[var(--accent-tint)] p-3 text-xs text-[var(--ink-soft)]">
+          Add an API key on the{" "}
+          <Link href="/settings" className="text-[var(--accent)] underline">
+            Settings page
+          </Link>{" "}
+          to start chatting. Your key stays in your browser.
+        </div>
+      ) : (
+        <div className="space-y-1.5">
+          <div className="text-[10px] uppercase tracking-wider text-[var(--muted)]">Try one of these</div>
+          {STARTER_PROMPTS.map((p) => (
+            <button
+              key={p}
+              onClick={() => onStarter(p)}
+              className="block w-full text-left text-xs px-3 py-2 rounded-md border border-[var(--border)] bg-[var(--bg-tinted)] hover:border-[var(--accent)] hover:bg-[var(--elev)] text-[var(--ink-soft)] transition-colors"
+            >
+              {p}
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+function buildSystem({
+  mode,
+  selectedConcept,
+  selectedPerson,
+}: {
+  mode: GraphMode;
+  selectedConcept: Concept | null;
+  selectedPerson: Person | null;
+}): string {
+  const orientation = `\n\nSITE ORIENTATION:
+You live inside the "relevance" app, an unaffiliated educational study tool for John Vervaeke's lecture series "Awakening from the Meaning Crisis." The student is currently viewing a force-directed graph of concepts and thinkers in the corpus.
+
+- Current graph view: ${mode === "concepts" ? "Concepts" : "Thinkers"}.
+- The student can also browse Conversations (pre-curated multi-module walkthroughs on flagship concepts at /conversation/[id]), individual episode overviews (/episode/[num]), and full concept or thinker pages (/concept/[id], /person/[id]).
+- They may ask about specific nodes they have clicked, or ask freeform questions about the corpus. Either is fine.`;
+
+  let anchor = "";
+  if (selectedConcept) {
+    anchor = `\n\nCURRENTLY SELECTED NODE (concept):
+The student clicked the concept "${selectedConcept.canonicalName}" (id: ${selectedConcept.id}, cluster: ${selectedConcept.cluster}, depth: ${selectedConcept.depth}).
+Brief definition: ${selectedConcept.definition}
+${selectedConcept.isFlagship ? "This is a flagship concept; a pre-curated Conversation exists for it." : ""}
+If they want to discuss it, call read_concept('${selectedConcept.id}') to get the full canonical entry first.`;
+  } else if (selectedPerson) {
+    anchor = `\n\nCURRENTLY SELECTED NODE (thinker):
+The student clicked the thinker "${selectedPerson.canonicalName}" (id: ${selectedPerson.id}).
+Brief bio: ${selectedPerson.shortBio}
+Role in Vervaeke's argument: ${selectedPerson.roleInArgument}
+Episodes where Vervaeke discusses them: ${selectedPerson.discussedIn.join(", ")}.
+If they want to discuss this thinker, ground your answer in the corpus via the tools.`;
+  }
+
+  return SOCRATIC_SYSTEM_PROMPT + orientation + anchor;
+}
