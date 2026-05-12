@@ -118,8 +118,13 @@ export async function streamText(opts: StreamOpts): Promise<string> {
       } else if (event.type === "content_block_delta") {
         const d = event.delta as { type: string; text?: string; partial_json?: string };
         if (d.type === "text_delta" && d.text) {
-          finalText += d.text;
-          onDelta(d.text);
+          // Belt-and-suspenders enforcement of the no-em-dashes rule: even
+          // when the system prompt tells the model not to use them, models
+          // sometimes slip. Strip em / en dashes as the stream comes in so
+          // the user never sees them in the rendered reply.
+          const cleaned = d.text.replace(/[—–]/g, ", ");
+          finalText += cleaned;
+          onDelta(cleaned);
         } else if (d.type === "input_json_delta" && d.partial_json) {
           const b = blocks[event.index];
           if (b && b.type === "tool_use") {
