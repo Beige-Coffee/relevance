@@ -327,6 +327,25 @@ export function HomeChat({
               onBegin={() => beginConversation(selectedCourse)}
               onAskInstead={() => inputRef.current?.focus()}
             />
+          ) : selectedConcept ? (
+            <NodeIntro
+              kind="concept"
+              name={selectedConcept.canonicalName}
+              tag={formatClusterLabel(selectedConcept.cluster)}
+              description={selectedConcept.definition}
+              href={`/concept/${selectedConcept.id}`}
+              onAskInstead={() => inputRef.current?.focus()}
+            />
+          ) : selectedPerson ? (
+            <NodeIntro
+              kind="person"
+              name={selectedPerson.canonicalName}
+              tag={null}
+              description={selectedPerson.shortBio}
+              extra={selectedPerson.roleInArgument}
+              href={`/person/${selectedPerson.id}`}
+              onAskInstead={() => inputRef.current?.focus()}
+            />
           ) : (
             <EmptyState onStarter={send} canChat={Boolean(hasKey())} />
           )
@@ -397,6 +416,73 @@ export function HomeChat({
         </button>
       </form>
     </aside>
+  );
+}
+
+function formatClusterLabel(cluster: string): string {
+  // "cognitive-science" -> "Cognitive science"
+  const spaced = cluster.replace(/-/g, " ");
+  return spaced.charAt(0).toUpperCase() + spaced.slice(1);
+}
+
+function NodeIntro({
+  kind,
+  name,
+  tag,
+  description,
+  extra,
+  href,
+  onAskInstead,
+}: {
+  kind: "concept" | "person";
+  name: string;
+  tag: string | null;
+  description: string;
+  extra?: string;
+  href: string;
+  onAskInstead: () => void;
+}) {
+  const kindLabel = kind === "concept" ? "Concept" : "Thinker";
+  const cardLabel = kind === "concept" ? "Open the concept card →" : "Open the thinker card →";
+  return (
+    <div className="space-y-4">
+      <div>
+        <div className="text-[10px] uppercase tracking-[0.16em] text-[var(--muted)] mb-1">
+          {kindLabel}
+          {tag && (
+            <>
+              <span className="mx-1.5 text-[var(--muted)]">·</span>
+              <span>{tag}</span>
+            </>
+          )}
+        </div>
+        <h3 className="serif text-xl text-[var(--ink)] leading-tight">{name}</h3>
+        <p className="text-[13px] text-[var(--ink-soft)] mt-1.5 leading-relaxed">
+          {description}
+        </p>
+        {extra && (
+          <p className="text-[12px] text-[var(--muted)] mt-2 leading-relaxed italic">
+            {extra}
+          </p>
+        )}
+        <Link
+          href={href}
+          className="inline-block mt-2 text-[11px] text-[var(--muted)] hover:text-[var(--accent)]"
+        >
+          {cardLabel}
+        </Link>
+      </div>
+
+      <button
+        onClick={onAskInstead}
+        className="block w-full text-left text-sm px-3.5 py-2.5 rounded-md border border-[var(--border)] bg-[var(--bg-tinted)] hover:border-[var(--accent)] hover:bg-[var(--elev)] transition-colors"
+      >
+        <span className="text-[var(--ink)] font-medium">Ask a question here</span>
+        <span className="block text-[12px] text-[var(--muted)] mt-0.5">
+          Freeform chat about {name}, grounded in the corpus.
+        </span>
+      </button>
+    </div>
   );
 }
 
