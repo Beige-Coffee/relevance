@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import type { Concept, Person, Episode, CourseSummary, ChatMessage, GraphNode } from "@/lib/types";
 import { useChat, useSettings } from "@/lib/store";
@@ -440,16 +440,19 @@ function ChatThread({ seed, anchor, onBack }: { seed: string; anchor: string; on
   const { messages, append, setLastContent, isStreaming, setStreaming, reset } = useChat();
   const [input, setInput] = useState("");
   const [error, setError] = useState<string | null>(null);
+  const seededRef = useRef(false);
 
-  // Seed the conversation if it's empty.
+  // Seed the conversation once when this thread first mounts.
+  // Guarded with a ref so React StrictMode's dev-only double-mount doesn't
+  // fire two parallel streams.
   useEffect(() => {
+    if (seededRef.current) return;
+    seededRef.current = true;
     if (messages.length === 0 && seed) {
       send(seed);
     }
-    return () => {
-      reset();
-      setError(null);
-    };
+    // No cleanup reset here: that was wiping the chat history between
+    // StrictMode unmount and remount, racing the two seed calls.
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
@@ -503,7 +506,10 @@ function ChatThread({ seed, anchor, onBack }: { seed: string; anchor: string; on
         maxTokens: 1400,
       });
     } catch (e) {
-      setError(e instanceof Error ? e.message : String(e));
+      const msg = e instanceof Error ? e.message : String(e);
+      // Surface the underlying API error verbatim plus a hint if it's a key issue.
+      const looksLikeAuth = /401|invalid|unauthor|api.key/i.test(msg);
+      setError(looksLikeAuth ? `${msg} (check your API key on the Settings page)` : msg);
     } finally {
       setStreaming(false);
     }
@@ -525,7 +531,7 @@ function ChatThread({ seed, anchor, onBack }: { seed: string; anchor: string; on
               </div>
             ) : (
               <div className="">
-                <div className="text-[10px] uppercase tracking-wider text-[var(--muted)] mb-1.5">Interlocutor</div>
+                <div className="text-[10px] uppercase tracking-wider text-[var(--muted)] mb-1.5">Atlas</div>
                 {m.content ? (
                   <RenderedText text={m.content} />
                 ) : (

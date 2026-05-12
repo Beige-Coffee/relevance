@@ -113,7 +113,7 @@ export default function DialoguePage() {
       <div className="max-w-3xl mx-auto w-full px-6 pt-8 pb-2">
         <h1 className="serif text-4xl text-[var(--ink)]">Dialogue</h1>
         <p className="text-[var(--ink-soft)] mt-1 text-sm">
-          A Socratic interlocutor that draws on the corpus. <span className="text-[var(--muted)]">It is not John Vervaeke and does not speak as him.</span>
+          A Socratic study partner that draws on the corpus. <span className="text-[var(--muted)]">It is not John Vervaeke and does not speak as him.</span>
         </p>
       </div>
 
@@ -146,7 +146,7 @@ export default function DialoguePage() {
                 </div>
               ) : (
                 <article className="rounded-lg">
-                  <div className="text-xs uppercase tracking-wider text-[var(--muted)] mb-2">Interlocutor</div>
+                  <div className="text-xs uppercase tracking-wider text-[var(--muted)] mb-2">Atlas</div>
                   {m.content ? (
                     <RenderedText text={m.content} />
                   ) : (
