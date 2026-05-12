@@ -2,12 +2,12 @@
   "num": 21,
   "slug": "martin-luther-descartes",
   "title": "Martin Luther and Descartes",
-  "essence": "Episode 21 examines how Luther and Descartes each accelerate modernity's meaning crisis in complementary ways. Luther radicalizes Ockham's voluntarism and Eckhart's self-loathing into sola fide—salvation by faith alone—reducing faith from the Hebraic participatory Da'ath to mere propositional assent about Christ's substitutionary sacrifice. By simultaneously abolishing the monasteries he destroys sapiential culture: the communities of practice that had transmitted transformative psycho-technologies for cultivating wisdom and self-transcendence disappear overnight, leaving behind a world where knowledge is paired with political power rather than with wisdom. Descartes then attempts to rescue certainty in this destabilized world by inventing a new mathematical tool (Cartesian coordinates) and coupling it to a new philosophical method: systematic doubt, the cogito, and the isolation of the thinking self. His method privileges propositional knowing to such a degree that perspectival and participatory knowing are effectively expelled from legitimate cognition. The episode shows how these moves reinforce each other: Luther's sola fide reduces religious transformation to a propositional transaction, and Descartes's method makes propositional certainty the whole of knowledge, together constructing the modern trap of the disembodied, disconnected rational self.",
+  "essence": "Episode 21 examines how Luther and Descartes each accelerate modernity's meaning crisis in complementary ways. Luther radicalizes Ockham's voluntarism and Eckhart's self-loathing into sola fide, salvation by faith alone, reducing faith from the Hebraic participatory Da'ath to mere propositional assent about Christ's substitutionary sacrifice. By simultaneously abolishing the monasteries he destroys sapiential culture: the communities of practice that had transmitted transformative psycho-technologies for cultivating wisdom and self-transcendence disappear overnight, leaving behind a world where knowledge is paired with political power rather than with wisdom. Descartes then attempts to rescue certainty in this destabilized world by inventing a new mathematical tool (Cartesian coordinates) and coupling it to a new philosophical method: systematic doubt, the cogito, and the isolation of the thinking self. His method privileges propositional knowing to such a degree that perspectival and participatory knowing are effectively expelled from legitimate cognition. The episode shows how these moves reinforce each other: Luther's sola fide reduces religious transformation to a propositional transaction, and Descartes's method makes propositional certainty the whole of knowledge, together constructing the modern trap of the disembodied, disconnected rational self.",
   "keyClaims": [
-    "Luther's sola fide collapses faith from participatory Da'ath—a lived reciprocal engagement with the divine—to the mere propositional assent to Christ's substitutionary sacrifice.",
+    "Luther's sola fide collapses faith from participatory Da'ath, a lived reciprocal engagement with the divine, to the mere propositional assent to Christ's substitutionary sacrifice.",
     "Luther's abolition of the monasteries destroys the institutional ecology of sapiential psycho-technologies: contemplative practice, wisdom transmission, and communities devoted to self-transcendence cease to exist as live options.",
     "The knowledge-wisdom coupling that had characterized the ancient and medieval traditions is replaced by a knowledge-power coupling that defines modern political and scientific culture.",
-    "Descartes invents Cartesian coordinates as a mathematical tool, then extends the method of analytic geometry—breaking wholes into parts, seeking certain foundations—into a general epistemological program.",
+    "Descartes invents Cartesian coordinates as a mathematical tool, then extends the method of analytic geometry, breaking wholes into parts, seeking certain foundations, into a general epistemological program.",
     "The Cartesian cogito isolates the self as pure thinking substance, making it the one unshakeable certainty and thereby severing the self from body, world, and other minds.",
     "Together Luther and Descartes construct the modern epistemic trap: salvation and truth alike are reduced to propositional transactions, evacuating the perspectival and participatory dimensions of knowing."
   ],
@@ -15,7 +15,7 @@
     {
       "id": "propositional-knowing",
       "treatment": "developed",
-      "summary": "Both Luther's sola fide and Descartes's method elevate propositional knowing to supremacy: faith becomes propositional assent, knowledge becomes Cartesian certainty—excluding all other forms of knowing."
+      "summary": "Both Luther's sola fide and Descartes's method elevate propositional knowing to supremacy: faith becomes propositional assent, knowledge becomes Cartesian certainty, excluding all other forms of knowing."
     },
     {
       "id": "participatory-knowing",
@@ -30,7 +30,7 @@
     {
       "id": "wisdom",
       "treatment": "developed",
-      "summary": "The knowledge-wisdom pairing that organized medieval intellectual life is severed; in its place comes the knowledge-power pairing that defines modernity—wisdom becomes a private virtue rather than a public institution."
+      "summary": "The knowledge-wisdom pairing that organized medieval intellectual life is severed; in its place comes the knowledge-power pairing that defines modernity, wisdom becomes a private virtue rather than a public institution."
     },
     {
       "id": "self-deception",
@@ -40,7 +40,7 @@
     {
       "id": "narrative-order",
       "treatment": "developed",
-      "summary": "Luther's transformation of faith from participatory engagement to propositional assent fundamentally disrupts the narrative order—the living sense of being on course in a cosmic story."
+      "summary": "Luther's transformation of faith from participatory engagement to propositional assent fundamentally disrupts the narrative order, the living sense of being on course in a cosmic story."
     }
   ],
   "people": [
@@ -52,7 +52,7 @@
     {
       "id": "descartes",
       "role": "subject",
-      "summary": "Co-central figure: inventor of Cartesian coordinates and the method of systematic doubt, his philosophical project is the attempt to find certainty for the isolated rational self—completing the expulsion of perspectival and participatory knowing."
+      "summary": "Co-central figure: inventor of Cartesian coordinates and the method of systematic doubt, his philosophical project is the attempt to find certainty for the isolated rational self, completing the expulsion of perspectival and participatory knowing."
     },
     {
       "id": "meister-eckhart",

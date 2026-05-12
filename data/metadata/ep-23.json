@@ -2,12 +2,12 @@
   "num": 23,
   "slug": "romanticism",
   "title": "Romanticism",
-  "essence": "Episode 23 examines how Kant's Copernican revolution in philosophy—inverting the Platonic relationship between mind and world—generates the Romantic movement and then cascades into the twin godfathers of modernity's darkest currents. Kant's discovery that the categories of understanding are imposed by the mind onto experience, rather than derived from reality, is a genuine philosophical achievement; but it entails that rationality moves away from reality rather than toward it, trapping us behind a veil of our own cognitive constructs. Romanticism emerges as a pseudo-religious ideology: if reason cannot reach reality, then imagination, feeling, and creative will must. But Romanticism lacks the anti-self-deception machinery of genuine wisdom traditions, so it is vulnerable to self-serving fantasy and ideological capture. Schopenhauer inherits Kant's framework and concludes that behind the veil of phenomena lies the Will to Live—a blind, insatiable, purposeless striving—making him the godfather of nihilism. Nietzsche, responding to Schopenhauer, transforms the Will to Live into the Will to Power as self-overcoming: the self can transcend itself not by turning to God or reason but by creating its own values. This makes Nietzsche the godfather of postmodernism—and of every pseudo-religious ideology that claims the right to create reality by asserting will, untethered from genuine self-corrective wisdom.",
+  "essence": "Episode 23 examines how Kant's Copernican revolution in philosophy, inverting the Platonic relationship between mind and world, generates the Romantic movement and then cascades into the twin godfathers of modernity's darkest currents. Kant's discovery that the categories of understanding are imposed by the mind onto experience, rather than derived from reality, is a genuine philosophical achievement; but it entails that rationality moves away from reality rather than toward it, trapping us behind a veil of our own cognitive constructs. Romanticism emerges as a pseudo-religious ideology: if reason cannot reach reality, then imagination, feeling, and creative will must. But Romanticism lacks the anti-self-deception machinery of genuine wisdom traditions, so it is vulnerable to self-serving fantasy and ideological capture. Schopenhauer inherits Kant's framework and concludes that behind the veil of phenomena lies the Will to Live, a blind, insatiable, purposeless striving, making him the godfather of nihilism. Nietzsche, responding to Schopenhauer, transforms the Will to Live into the Will to Power as self-overcoming: the self can transcend itself not by turning to God or reason but by creating its own values. This makes Nietzsche the godfather of postmodernism, and of every pseudo-religious ideology that claims the right to create reality by asserting will, untethered from genuine self-corrective wisdom.",
   "keyClaims": [
-    "Kant's Copernican revolution inverts the Platonic relationship between mind and reality: rather than the mind conforming to the world, the world as experienced conforms to the mind's categories—making rationality move away from reality.",
+    "Kant's Copernican revolution inverts the Platonic relationship between mind and reality: rather than the mind conforming to the world, the world as experienced conforms to the mind's categories, making rationality move away from reality.",
     "Romanticism is a pseudo-religious ideology that attempts to recover contact with reality through imagination and feeling after Kant has closed the door to reason, but it lacks the anti-self-deception machinery of genuine wisdom traditions.",
-    "Schopenhauer diagnoses the thing-in-itself behind Kant's veil as the Will to Live—a blind, insatiable, purposeless striving—making the universe intrinsically meaningless and making him the philosophical godfather of nihilism.",
-    "Nietzsche transforms Schopenhauer's Will to Live into Will to Power as self-overcoming: genuine self-transcendence through the creative assertion of values—but without the anti-self-deception safeguards of participatory wisdom traditions.",
+    "Schopenhauer diagnoses the thing-in-itself behind Kant's veil as the Will to Live, a blind, insatiable, purposeless striving, making the universe intrinsically meaningless and making him the philosophical godfather of nihilism.",
+    "Nietzsche transforms Schopenhauer's Will to Live into Will to Power as self-overcoming: genuine self-transcendence through the creative assertion of values, but without the anti-self-deception safeguards of participatory wisdom traditions.",
     "Nietzsche's insight that self-transcendence is possible without the supernatural makes him philosophically profound; his failure to provide anti-self-deception machinery makes him the godfather of postmodernism and ultimately of fascism.",
     "The Romantic-Nietzschean trajectory reveals a recurring pattern: the attempt to recover self-transcendence after the destruction of the axial worldview generates pseudo-religious ideologies that amplify rather than cure the meaning crisis."
   ],
@@ -30,24 +30,24 @@
     {
       "id": "the-meaning-crisis",
       "treatment": "developed",
-      "summary": "The Romantic-Nietzschean trajectory is presented as a series of failed responses to the meaning crisis—each generating pseudo-religious ideologies that deepen rather than resolve the crisis."
+      "summary": "The Romantic-Nietzschean trajectory is presented as a series of failed responses to the meaning crisis, each generating pseudo-religious ideologies that deepen rather than resolve the crisis."
     },
     {
       "id": "participatory-knowing",
       "treatment": "developed",
-      "summary": "Kant's framework destroys participatory knowing by making the mind's categories constitute rather than conform to reality—a deeper version of the Cartesian veil that severs the conformity relation."
+      "summary": "Kant's framework destroys participatory knowing by making the mind's categories constitute rather than conform to reality, a deeper version of the Cartesian veil that severs the conformity relation."
     },
     {
       "id": "transframing",
       "treatment": "referenced",
-      "summary": "Nietzsche's revaluation of values is analyzed as a form of radical transframing: shattering the inherited frame of Christian-Platonic meaning and claiming the right to create a new one—but without the machinery to ensure the new frame is not worse."
+      "summary": "Nietzsche's revaluation of values is analyzed as a form of radical transframing: shattering the inherited frame of Christian-Platonic meaning and claiming the right to create a new one, but without the machinery to ensure the new frame is not worse."
     }
   ],
   "people": [
     {
       "id": "kant",
       "role": "subject",
-      "summary": "Kant's Copernican revolution—the mind imposes categories on experience rather than deriving them from reality—is the philosophical pivot of the episode, generating both Romanticism and its nihilistic consequences."
+      "summary": "Kant's Copernican revolution, the mind imposes categories on experience rather than deriving them from reality, is the philosophical pivot of the episode, generating both Romanticism and its nihilistic consequences."
     },
     {
       "id": "schopenhauer",
@@ -62,7 +62,7 @@
     {
       "id": "plato",
       "role": "referenced",
-      "summary": "Plato's Myth of the Cave—in which the mind ascends toward reality—is the foil for Kant's inversion: Kant's mind does not ascend toward reality but imposes its own structure on appearances."
+      "summary": "Plato's Myth of the Cave, in which the mind ascends toward reality, is the foil for Kant's inversion: Kant's mind does not ascend toward reality but imposes its own structure on appearances."
     }
   ],
   "crossRefs": [
@@ -72,7 +72,7 @@
     },
     {
       "episode": 24,
-      "context": "Hegel's response to Kant—Absolute Idealism—directly answers the problems opened by Kant's Copernican revolution and the Romantic crisis that follows it."
+      "context": "Hegel's response to Kant, Absolute Idealism, directly answers the problems opened by Kant's Copernican revolution and the Romantic crisis that follows it."
     },
     {
       "episode": 25,

@@ -2,12 +2,12 @@
   "num": 42,
   "slug": "intelligence-rationality-wisdom",
   "title": "Intelligence, Rationality, and Wisdom",
-  "essence": "Vervaeke develops a recursive hierarchy: intelligence uses rationality, and rationality uses wisdom — each level is needed to properly exercise the level below it. Intelligence is the capacity for flexible problem-solving, but without rationality it misfires through self-deception; rationality is the capacity to systematically overcome self-deception, but without wisdom it cannot navigate the deepest self-deceptions about what matters. This hierarchy is grounded in Stanovich's dual processing account, which is deepened here: System 1 (algorithmic) is fast and automatic while System 2 (reflective) is slow and deliberate, and their coordination requires the kind of cognitive leaping identified by Baker-Sennett and Ceci. Vervaeke also introduces Patricia Arlin's notion of problem finding — the capacity to discover what the real problem is — as a higher-order cognitive ability beyond problem-solving, and frames wonder as the motivational engine of problem finding. Aspiration, via Callard, enters here: rationality is itself aspirational — one must aspire to become rational. The episode culminates in the claim that intelligence and logicality are categorically distinct from rationality, which in turn is distinct from wisdom.",
+  "essence": "Vervaeke develops a recursive hierarchy: intelligence uses rationality, and rationality uses wisdom, each level is needed to properly exercise the level below it. Intelligence is the capacity for flexible problem-solving, but without rationality it misfires through self-deception; rationality is the capacity to systematically overcome self-deception, but without wisdom it cannot navigate the deepest self-deceptions about what matters. This hierarchy is grounded in Stanovich's dual processing account, which is deepened here: System 1 (algorithmic) is fast and automatic while System 2 (reflective) is slow and deliberate, and their coordination requires the kind of cognitive leaping identified by Baker-Sennett and Ceci. Vervaeke also introduces Patricia Arlin's notion of problem finding, the capacity to discover what the real problem is, as a higher-order cognitive ability beyond problem-solving, and frames wonder as the motivational engine of problem finding. Aspiration, via Callard, enters here: rationality is itself aspirational, one must aspire to become rational. The episode culminates in the claim that intelligence and logicality are categorically distinct from rationality, which in turn is distinct from wisdom.",
   "keyClaims": [
-    "Intelligence, rationality, and wisdom form a recursive hierarchy: each higher level is needed to properly exercise the level below it — wisdom governs rationality, rationality governs intelligence.",
-    "Problem finding — discovering what the real problem is — is a higher-order cognitive ability than problem-solving, and wonder is its motivational engine.",
+    "Intelligence, rationality, and wisdom form a recursive hierarchy: each higher level is needed to properly exercise the level below it, wisdom governs rationality, rationality governs intelligence.",
+    "Problem finding, discovering what the real problem is, is a higher-order cognitive ability than problem-solving, and wonder is its motivational engine.",
     "Active open-mindedness and mindfulness are opponent cognitive styles: one counteracts motivated reasoning, the other suspends judgment; wisdom requires both in appropriate proportion.",
-    "Aspiration is constitutive of rationality, not supplementary — one aspires to rationality from a position that is not yet fully rational, making proleptic rationality irreducible.",
+    "Aspiration is constitutive of rationality, not supplementary, one aspires to rationality from a position that is not yet fully rational, making proleptic rationality irreducible.",
     "Intelligence does not entail rationality, and rationality does not entail logicality; the conflation of these is a persistent cultural error that wisdom must correct."
   ],
   "concepts": [
@@ -24,7 +24,7 @@
     {
       "id": "aspiration",
       "treatment": "introduced",
-      "summary": "Introduced via Callard as proleptic rationality — the aspiration to become rational must itself be rational, or rationality is self-undermining."
+      "summary": "Introduced via Callard as proleptic rationality, the aspiration to become rational must itself be rational, or rationality is self-undermining."
     },
     {
       "id": "relevance-realization",
@@ -34,12 +34,12 @@
     {
       "id": "insight",
       "treatment": "developed",
-      "summary": "Cognitive leaping (Baker-Sennett and Ceci) is analyzed as the insight-based operation by which one moves between cognitive levels — from problem-solving to problem-finding."
+      "summary": "Cognitive leaping (Baker-Sennett and Ceci) is analyzed as the insight-based operation by which one moves between cognitive levels, from problem-solving to problem-finding."
     },
     {
       "id": "self-deception",
       "treatment": "applied",
-      "summary": "The recursive hierarchy is motivated by the need to address self-deception at successively deeper levels — wisdom addresses the deepest, existential forms."
+      "summary": "The recursive hierarchy is motivated by the need to address self-deception at successively deeper levels, wisdom addresses the deepest, existential forms."
     },
     {
       "id": "mindfulness",
@@ -49,19 +49,19 @@
     {
       "id": "transformative-experience",
       "treatment": "applied",
-      "summary": "The qualitative change between cognitive levels is understood as transformative experience — you cannot infer your way from one level to the next."
+      "summary": "The qualitative change between cognitive levels is understood as transformative experience, you cannot infer your way from one level to the next."
     }
   ],
   "people": [
     {
       "id": "stanovich",
       "role": "subject",
-      "summary": "His dual processing framework — algorithmic S1 and reflective S2 — is the scaffold for the intelligence-rationality distinction; the CART (Comprehensive Assessment of Rational Thinking) is mentioned."
+      "summary": "His dual processing framework, algorithmic S1 and reflective S2, is the scaffold for the intelligence-rationality distinction; the CART (Comprehensive Assessment of Rational Thinking) is mentioned."
     },
     {
       "id": "callard",
       "role": "introduced",
-      "summary": "Her notion of proleptic rationality is introduced as establishing that aspiration to rationality must itself be rational — opening the connection between rationality and wisdom."
+      "summary": "Her notion of proleptic rationality is introduced as establishing that aspiration to rationality must itself be rational, opening the connection between rationality and wisdom."
     },
     {
       "id": "la-paul",

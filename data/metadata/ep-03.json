@@ -2,39 +2,39 @@
   "num": 3,
   "slug": "continuous-cosmos-modern-world-grammar",
   "title": "Continuous Cosmos and the Modern World Grammar",
-  "essence": "Vervaeke reconstructs the pre-axial worldview — the continuous cosmos — as a coherent and integrated framework in which the human, the natural, and the divine were not separate ontological domains but a single graduated reality. In this world, participation in the cosmos was the primary mode of being; psycho-technologies worked by deepening rather than escaping this participation. The Axial Revolution shattered this continuity by introducing what Charles Taylor calls the 'two-worlds mythology': the idea that ordinary reality is deficient and that a higher, more real world exists beyond it. This move was simultaneously liberating — it created the space for criticism, morality, and self-transcendence — and potentially pathological. Vervaeke traces three distinct Axial currents: the Greek philosophical tradition culminating in Plato, the Hebrew prophetic tradition introducing kairos (the morally charged moment), and the Indian tradition of Buddhism. He uses Pythagoras as a pivotal transitional figure who combined mathematical rationality, ascetic practice, and mystical community. Nietzsche's 'death of God' is introduced as the modern culmination of the two-worlds mythology collapsing under its own weight, leaving nihilism as the result.",
+  "essence": "Vervaeke reconstructs the pre-axial worldview, the continuous cosmos, as a coherent and integrated framework in which the human, the natural, and the divine were not separate ontological domains but a single graduated reality. In this world, participation in the cosmos was the primary mode of being; psycho-technologies worked by deepening rather than escaping this participation. The Axial Revolution shattered this continuity by introducing what Charles Taylor calls the 'two-worlds mythology': the idea that ordinary reality is deficient and that a higher, more real world exists beyond it. This move was simultaneously liberating, it created the space for criticism, morality, and self-transcendence, and potentially pathological. Vervaeke traces three distinct Axial currents: the Greek philosophical tradition culminating in Plato, the Hebrew prophetic tradition introducing kairos (the morally charged moment), and the Indian tradition of Buddhism. He uses Pythagoras as a pivotal transitional figure who combined mathematical rationality, ascetic practice, and mystical community. Nietzsche's 'death of God' is introduced as the modern culmination of the two-worlds mythology collapsing under its own weight, leaving nihilism as the result.",
   "keyClaims": [
-    "The continuous cosmos — the pre-axial worldview — was an integrated ontological framework in which human, natural, and divine participated in a single graduated reality.",
+    "The continuous cosmos, the pre-axial worldview, was an integrated ontological framework in which human, natural, and divine participated in a single graduated reality.",
     "The Axial Revolution introduced the two-worlds mythology: ordinary reality as deficient, and a higher reality as the true locus of meaning and value.",
     "The two-worlds mythology was both liberating (enabling criticism and self-transcendence) and potentially catastrophic (enabling nihilism when the higher world is abandoned).",
-    "Kairos — the morally charged, pregnant moment — names the Hebrew prophetic contribution to the Axial transformation: time becomes qualitatively differentiated.",
+    "Kairos, the morally charged, pregnant moment, names the Hebrew prophetic contribution to the Axial transformation: time becomes qualitatively differentiated.",
     "Nietzsche's 'death of God' is the modern collapse of the two-worlds mythology, leaving the meaning crisis as its aftermath."
   ],
   "concepts": [
     {
       "id": "continuous-cosmos",
       "treatment": "introduced",
-      "summary": "The pre-axial integrated worldview in which human, natural, and divine participated in a single graduated reality — the baseline shattered by the Axial Revolution."
+      "summary": "The pre-axial integrated worldview in which human, natural, and divine participated in a single graduated reality, the baseline shattered by the Axial Revolution."
     },
     {
       "id": "two-worlds-mythology",
       "treatment": "introduced",
-      "summary": "The axial bifurcation of reality into an ordinary deficient world and a higher more-real world — simultaneously enabling self-transcendence and creating vulnerability to nihilism."
+      "summary": "The axial bifurcation of reality into an ordinary deficient world and a higher more-real world, simultaneously enabling self-transcendence and creating vulnerability to nihilism."
     },
     {
       "id": "the-axial-revolution",
       "treatment": "developed",
-      "summary": "Analyzed into three distinct currents: Greek philosophical, Hebrew prophetic, and Indian Buddhist — each contributing differently to the two-worlds structure."
+      "summary": "Analyzed into three distinct currents: Greek philosophical, Hebrew prophetic, and Indian Buddhist, each contributing differently to the two-worlds structure."
     },
     {
       "id": "kairos",
       "treatment": "introduced",
-      "summary": "The morally charged pregnant moment from Hebrew prophetic tradition — time becomes qualitatively differentiated, not merely sequential."
+      "summary": "The morally charged pregnant moment from Hebrew prophetic tradition, time becomes qualitatively differentiated, not merely sequential."
     },
     {
       "id": "mythos",
       "treatment": "developed",
-      "summary": "Contrasted with logos as the mode of being characteristic of the continuous cosmos — participatory engagement rather than spectator critique."
+      "summary": "Contrasted with logos as the mode of being characteristic of the continuous cosmos, participatory engagement rather than spectator critique."
     },
     {
       "id": "self-transcendence",
@@ -54,7 +54,7 @@
     {
       "id": "the-meaning-crisis",
       "treatment": "developed",
-      "summary": "Framed as the aftermath of the two-worlds mythology collapsing — when the higher world is abandoned (Nietzsche's death of God) the meaning structure collapses."
+      "summary": "Framed as the aftermath of the two-worlds mythology collapsing, when the higher world is abandoned (Nietzsche's death of God) the meaning structure collapses."
     }
   ],
   "people": [
@@ -66,7 +66,7 @@
     {
       "id": "pythagoras",
       "role": "introduced",
-      "summary": "Presented as a pivotal transitional figure combining mathematical rationality, ascetic community, and mystical practice — a proto-axial figure bridging continuous cosmos and two-worlds mythology."
+      "summary": "Presented as a pivotal transitional figure combining mathematical rationality, ascetic community, and mystical practice, a proto-axial figure bridging continuous cosmos and two-worlds mythology."
     },
     {
       "id": "nietzsche",
@@ -91,7 +91,7 @@
     },
     {
       "episode": 4,
-      "context": "Socrates emerges directly from the Greek Axial current traced here — his philosophy presupposes the two-worlds mythology established in this episode."
+      "context": "Socrates emerges directly from the Greek Axial current traced here, his philosophy presupposes the two-worlds mythology established in this episode."
     },
     {
       "episode": 5,

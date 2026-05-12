@@ -2,39 +2,39 @@
   "num": 4,
   "slug": "socrates-quest-for-wisdom",
   "title": "Socrates and the Quest for Wisdom",
-  "essence": "Socrates stands as the paradigmatic figure of the Greek Axial current — the philosopher who turned second-order thinking into a way of life and paid for it with his death. Vervaeke reconstructs Socrates not as a doctrine-giver but as a living demonstration of what philosophia — the love of wisdom — demands. The Socratic method (elenchus) is a psycho-technology for exposing the gap between what people think they know and what they actually know; it works by provoking the cognitive dissonance that forces self-examination. Central to this episode is Harry Frankfurt's distinction between lying and bullshitting: the liar knows the truth and conceals it; the bullshitter is indifferent to truth altogether, disconnecting speech from any claim to truth. Socrates sees the Sophists as institutional bullshitters, and sees self-deception — bullshitting oneself — as the deeper danger. The natural philosophers (Thales, Anaxagoras) sought propositional knowledge of nature; the sophists commodified procedural knowledge of persuasion; Socrates pursued something deeper: perspectival and participatory transformation of the self. The episode closes with the Apology as Socrates' refusal to bullshit even to save his life — a demonstration that wisdom is not merely theoretical but enacted in the choices of a whole life.",
+  "essence": "Socrates stands as the paradigmatic figure of the Greek Axial current, the philosopher who turned second-order thinking into a way of life and paid for it with his death. Vervaeke reconstructs Socrates not as a doctrine-giver but as a living demonstration of what philosophia, the love of wisdom, demands. The Socratic method (elenchus) is a psycho-technology for exposing the gap between what people think they know and what they actually know; it works by provoking the cognitive dissonance that forces self-examination. Central to this episode is Harry Frankfurt's distinction between lying and bullshitting: the liar knows the truth and conceals it; the bullshitter is indifferent to truth altogether, disconnecting speech from any claim to truth. Socrates sees the Sophists as institutional bullshitters, and sees self-deception, bullshitting oneself, as the deeper danger. The natural philosophers (Thales, Anaxagoras) sought propositional knowledge of nature; the sophists commodified procedural knowledge of persuasion; Socrates pursued something deeper: perspectival and participatory transformation of the self. The episode closes with the Apology as Socrates' refusal to bullshit even to save his life, a demonstration that wisdom is not merely theoretical but enacted in the choices of a whole life.",
   "keyClaims": [
     "Socratic philosophy is a psycho-technology: the elenchus provokes cognitive dissonance to force genuine self-examination.",
     "Frankfurt's distinction between lying (concealing truth) and bullshitting (indifference to truth) identifies what Socrates found most dangerous in the Sophists.",
     "Self-deception is self-bullshitting: one can become indifferent to truth about oneself, and this is what Socrates' method targets.",
     "The natural philosophers pursued propositional knowledge of nature; the sophists commodified procedural knowledge; Socrates uniquely pursued perspectival and participatory self-transformation.",
-    "The Apology demonstrates that Socratic wisdom is not a doctrine but an enacted commitment — a willingness to die rather than abandon the examined life."
+    "The Apology demonstrates that Socratic wisdom is not a doctrine but an enacted commitment, a willingness to die rather than abandon the examined life."
   ],
   "concepts": [
     {
       "id": "wisdom",
       "treatment": "developed",
-      "summary": "The goal of philosophia — not a body of knowledge but a kind of perspectival and participatory self-transformation. Socrates demonstrates that wisdom is enacted, not merely known."
+      "summary": "The goal of philosophia, not a body of knowledge but a kind of perspectival and participatory self-transformation. Socrates demonstrates that wisdom is enacted, not merely known."
     },
     {
       "id": "foolishness",
       "treatment": "introduced",
-      "summary": "The opposite of wisdom — not mere ignorance but the active failure of self-examination; bullshitting oneself about one's own cognitive state."
+      "summary": "The opposite of wisdom, not mere ignorance but the active failure of self-examination; bullshitting oneself about one's own cognitive state."
     },
     {
       "id": "bullshit",
       "treatment": "developed",
-      "summary": "Frankfurt's concept applied: the Sophists' disconnection of speech from truth-claim; and self-deception as bullshitting oneself — indifference to truth about one's own inner state."
+      "summary": "Frankfurt's concept applied: the Sophists' disconnection of speech from truth-claim; and self-deception as bullshitting oneself, indifference to truth about one's own inner state."
     },
     {
       "id": "self-deception",
       "treatment": "introduced",
-      "summary": "Bullshitting oneself — becoming indifferent to truth about one's own cognitive and moral state. Socrates' elenchus aims to make self-deception cognitively costly."
+      "summary": "Bullshitting oneself, becoming indifferent to truth about one's own cognitive and moral state. Socrates' elenchus aims to make self-deception cognitively costly."
     },
     {
       "id": "second-order-thinking",
       "treatment": "developed",
-      "summary": "Socratic practice as institutionalized second-order thinking — applying reflection not just to the world but to the quality of one's own cognition."
+      "summary": "Socratic practice as institutionalized second-order thinking, applying reflection not just to the world but to the quality of one's own cognition."
     },
     {
       "id": "psycho-technology",
@@ -44,12 +44,12 @@
     {
       "id": "perspectival-knowing",
       "treatment": "developed",
-      "summary": "Socrates pursues perspectival knowing — what it is like to be a person genuinely oriented toward wisdom — not merely propositional knowledge of definitions."
+      "summary": "Socrates pursues perspectival knowing, what it is like to be a person genuinely oriented toward wisdom, not merely propositional knowledge of definitions."
     },
     {
       "id": "participatory-knowing",
       "treatment": "developed",
-      "summary": "The Apology shows participatory knowing: Socrates' choices are continuous with his philosophical commitments — he knows wisdom by enacting it."
+      "summary": "The Apology shows participatory knowing: Socrates' choices are continuous with his philosophical commitments, he knows wisdom by enacting it."
     }
   ],
   "people": [
@@ -90,7 +90,7 @@
     },
     {
       "episode": 5,
-      "context": "Plato's response to Socrates' death — the philosophical systematization of anagoge — is the subject of episode 5."
+      "context": "Plato's response to Socrates' death, the philosophical systematization of anagoge, is the subject of episode 5."
     }
   ],
   "quotableMoments": []

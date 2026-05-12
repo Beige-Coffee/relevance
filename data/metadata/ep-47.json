@@ -2,12 +2,12 @@
   "num": 47,
   "slug": "heidegger",
   "title": "Heidegger",
-  "essence": "Vervaeke examines Heidegger's philosophical project as a prophetic response to the meaning crisis. The central thread is Heidegger's critique of the history of metaphysics as the history of nihilism — the systematic forgetfulness of being that results from becoming trapped in the having mode. From Heidegger's essay on the essence of truth, Vervaeke draws the key insight that truth as correctness (correspondence between statements and reality) is grounded in a deeper attunement — a comportment toward things that makes the agent-arena relationship possible in the first place. This attunement is identified with relevance realization, and its forgetfulness is identified as modal confusion. The essay on Angelus Silesius's rose poem illustrates the alternative: physis, the self-grounding blossoming of things that simultaneously shine into our experience and withdraw beyond our framing — the thing beyond itself. Truth as aletheia — unconcealment, a deep remembering that is simultaneously a disclosure of things shining and withdrawing — is the response to forgetfulness. Dreyfus is identified as the interpreter who connects Heidegger's thought to 4E cognitive science through the notion of optimal grip. Corbin's reading of Heidegger as anticipating gnosis — the transformative participatory knowing in which self-knowledge and world-knowledge are coupled — is introduced. The problem of onto-theology — understanding being in terms of a supreme being — is identified as the metaphysical error that deepens nihilism.",
+  "essence": "Vervaeke examines Heidegger's philosophical project as a prophetic response to the meaning crisis. The central thread is Heidegger's critique of the history of metaphysics as the history of nihilism, the systematic forgetfulness of being that results from becoming trapped in the having mode. From Heidegger's essay on the essence of truth, Vervaeke draws the key insight that truth as correctness (correspondence between statements and reality) is grounded in a deeper attunement, a comportment toward things that makes the agent-arena relationship possible in the first place. This attunement is identified with relevance realization, and its forgetfulness is identified as modal confusion. The essay on Angelus Silesius's rose poem illustrates the alternative: physis, the self-grounding blossoming of things that simultaneously shine into our experience and withdraw beyond our framing, the thing beyond itself. Truth as aletheia, unconcealment, a deep remembering that is simultaneously a disclosure of things shining and withdrawing, is the response to forgetfulness. Dreyfus is identified as the interpreter who connects Heidegger's thought to 4E cognitive science through the notion of optimal grip. Corbin's reading of Heidegger as anticipating gnosis, the transformative participatory knowing in which self-knowledge and world-knowledge are coupled, is introduced. The problem of onto-theology, understanding being in terms of a supreme being, is identified as the metaphysical error that deepens nihilism.",
   "keyClaims": [
-    "The history of metaphysics is the history of nihilism: a systematic forgetfulness of being produced by modal confusion — getting trapped in the having mode and forgetting the being mode.",
-    "Truth as correspondence between statements and reality is grounded in a deeper attunement that Heidegger calls the essence of truth — aletheia, an unconcealment that must be actively remembered.",
-    "The thing beyond itself — simultaneously shining into experience and withdrawing from our framing — is the ontological structure that grounds both relevance realization and sacredness.",
-    "Onto-theology — understanding being in terms of a supreme being — is the modal confusion that deepens nihilism by trying to capture the inexhaustible in a propositional object.",
+    "The history of metaphysics is the history of nihilism: a systematic forgetfulness of being produced by modal confusion, getting trapped in the having mode and forgetting the being mode.",
+    "Truth as correspondence between statements and reality is grounded in a deeper attunement that Heidegger calls the essence of truth, aletheia, an unconcealment that must be actively remembered.",
+    "The thing beyond itself, simultaneously shining into experience and withdrawing from our framing, is the ontological structure that grounds both relevance realization and sacredness.",
+    "Onto-theology, understanding being in terms of a supreme being, is the modal confusion that deepens nihilism by trying to capture the inexhaustible in a propositional object.",
     "Corbin reads Heidegger as anticipating gnosis: the transformative participatory knowing where self-knowledge and world-knowledge are coupled in a dynamical conformity."
   ],
   "concepts": [
@@ -19,7 +19,7 @@
     {
       "id": "modal-confusion",
       "treatment": "applied",
-      "summary": "The history of metaphysics is identified as the deepening of modal confusion — trying to grasp being within the having mode — leading to nihilism."
+      "summary": "The history of metaphysics is identified as the deepening of modal confusion, trying to grasp being within the having mode, leading to nihilism."
     },
     {
       "id": "transjective-relations",
@@ -34,7 +34,7 @@
     {
       "id": "gnosis",
       "treatment": "applied",
-      "summary": "Corbin reads Heidegger's participatory knowing as gnosis — salvic, redemptive participatory knowing in which self and world are transformed together."
+      "summary": "Corbin reads Heidegger's participatory knowing as gnosis, salvic, redemptive participatory knowing in which self and world are transformed together."
     },
     {
       "id": "worldview-attunement",
@@ -76,7 +76,7 @@
     {
       "id": "meister-eckhart",
       "role": "referenced",
-      "summary": "Heidegger's commentary on Angelus Silesius's rose poem — itself an interpretation of Eckhart — connects Heidegger to the Rhineland mystical tradition."
+      "summary": "Heidegger's commentary on Angelus Silesius's rose poem, itself an interpretation of Eckhart, connects Heidegger to the Rhineland mystical tradition."
     },
     {
       "id": "merleau-ponty",
@@ -86,7 +86,7 @@
     {
       "id": "plato",
       "role": "referenced",
-      "summary": "Philia sophia vs. philia nikia — the love of wisdom vs. the love of victory — is invoked as the Platonic framing for Heidegger's critique of propositional metaphysics."
+      "summary": "Philia sophia vs. philia nikia, the love of wisdom vs. the love of victory, is invoked as the Platonic framing for Heidegger's critique of propositional metaphysics."
     },
     {
       "id": "charles-taylor",

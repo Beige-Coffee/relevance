@@ -2,14 +2,14 @@
   "num": 28,
   "slug": "convergence-relevance-realization",
   "title": "Convergence To Relevance Realization",
-  "essence": "Episode 28 executes the convergence argument that gives the episode its title: multiple independent domains of cognitive inquiry—problem solving, categorization, communication, and action—all converge on relevance realization as the core of intelligence. Categorization requires selecting relevant features of similarity from an infinite logical space (Nelson Goodman's proof that any two objects are indefinitely similar); Barsalou's context-sensitivity of categories shows that categorization is not feature-matching but relevance-sensitive grouping. Communication requires conveying far more than is said (Grice's maxims of quality, quantity, manner, and relevance—which Sperber and Wilson reduce to relevance alone): what is meant always outstrips what is stated, and intelligence is literally 'inter-legere,' reading between the lines. Dennett's robot with a bomb on its wagon demonstrates the frame problem in action: checking all side effects generates combinatorial explosion, while a definition of relevance cannot help because applying the definition also explodes. Shanahan's analysis shows that this deeper relevance problem survives the technical resolution of the logical frame problem—and that consciousness may be the way humans solve it. Finally, Vervaeke synthesizes: relevance realization operates simultaneously across selective attention, working memory, problem space navigation, side-effect screening, and long-term memory organization—a self-organizing dynamic that is at the core of meaning, wisdom, and self-transcendence.",
+  "essence": "Episode 28 executes the convergence argument that gives the episode its title: multiple independent domains of cognitive inquiry, problem solving, categorization, communication, and action, all converge on relevance realization as the core of intelligence. Categorization requires selecting relevant features of similarity from an infinite logical space (Nelson Goodman's proof that any two objects are indefinitely similar); Barsalou's context-sensitivity of categories shows that categorization is not feature-matching but relevance-sensitive grouping. Communication requires conveying far more than is said (Grice's maxims of quality, quantity, manner, and relevance, which Sperber and Wilson reduce to relevance alone): what is meant always outstrips what is stated, and intelligence is literally 'inter-legere,' reading between the lines. Dennett's robot with a bomb on its wagon demonstrates the frame problem in action: checking all side effects generates combinatorial explosion, while a definition of relevance cannot help because applying the definition also explodes. Shanahan's analysis shows that this deeper relevance problem survives the technical resolution of the logical frame problem, and that consciousness may be the way humans solve it. Finally, Vervaeke synthesizes: relevance realization operates simultaneously across selective attention, working memory, problem space navigation, side-effect screening, and long-term memory organization, a self-organizing dynamic that is at the core of meaning, wisdom, and self-transcendence.",
   "keyClaims": [
     "Categorization requires selecting relevant features of similarity from an infinite logical space: Nelson Goodman proves that any two objects are indefinitely similar, so categorization must be grounded in psychological (relevance-sensitive) rather than logical similarity.",
     "Barsalou's context-sensitivity of categories shows that what counts as a category changes with context (fire changes the grouping of wife, children, pets, gasoline), proving that categorization is dynamic relevance-sensitive grouping, not static feature-matching.",
-    "Gricean communication requires conveying far more than is said: the four maxims (quality, quantity, manner, relevance) collapse into the single maxim of relevance, as Sperber and Wilson argue—intelligence is literally reading between the lines.",
-    "Dennett's robot demonstrates the frame problem in its action-theoretic form: neither ignoring all side effects nor checking all side effects is viable—the agent must somehow zero in on relevant side effects without a prior definition of relevance.",
-    "Shanahan's analysis shows that the deeper relevance problem survives technical solutions to the logical frame problem—and that consciousness may be the cognitive mechanism by which humans navigate this problem.",
-    "Relevance realization operates simultaneously across selective attention, working memory, problem space navigation, side-effect screening, and long-term memory organization—a self-organizing dynamic that is the core of intelligence and the key to meaning cultivation."
+    "Gricean communication requires conveying far more than is said: the four maxims (quality, quantity, manner, relevance) collapse into the single maxim of relevance, as Sperber and Wilson argue, intelligence is literally reading between the lines.",
+    "Dennett's robot demonstrates the frame problem in its action-theoretic form: neither ignoring all side effects nor checking all side effects is viable, the agent must somehow zero in on relevant side effects without a prior definition of relevance.",
+    "Shanahan's analysis shows that the deeper relevance problem survives technical solutions to the logical frame problem, and that consciousness may be the cognitive mechanism by which humans navigate this problem.",
+    "Relevance realization operates simultaneously across selective attention, working memory, problem space navigation, side-effect screening, and long-term memory organization, a self-organizing dynamic that is the core of intelligence and the key to meaning cultivation."
   ],
   "concepts": [
     {
@@ -25,7 +25,7 @@
     {
       "id": "salience-landscape",
       "treatment": "developed",
-      "summary": "Relevance realization dynamically reshapes the salience landscape across multiple cognitive systems simultaneously—attention, working memory, long-term memory—in a self-organizing fashion that enables both intelligence and insight."
+      "summary": "Relevance realization dynamically reshapes the salience landscape across multiple cognitive systems simultaneously, attention, working memory, long-term memory, in a self-organizing fashion that enables both intelligence and insight."
     },
     {
       "id": "consciousness",
@@ -35,12 +35,12 @@
     {
       "id": "insight",
       "treatment": "applied",
-      "summary": "Relevance realization's self-corrective nature—its capacity to reform its own framing—explains insight: the shift from poor to good problem formulation is the salience landscape reorganizing itself."
+      "summary": "Relevance realization's self-corrective nature, its capacity to reform its own framing, explains insight: the shift from poor to good problem formulation is the salience landscape reorganizing itself."
     },
     {
       "id": "wisdom",
       "treatment": "referenced",
-      "summary": "Vervaeke sketches the connection from relevance realization to wisdom: wisdom is precisely the capacity to zero in on the relevant information in ill-defined, messy real-world situations—the expert version of what intelligence does in general."
+      "summary": "Vervaeke sketches the connection from relevance realization to wisdom: wisdom is precisely the capacity to zero in on the relevant information in ill-defined, messy real-world situations, the expert version of what intelligence does in general."
     }
   ],
   "people": [
@@ -67,17 +67,17 @@
     },
     {
       "episode": 29,
-      "context": "The convergence argument for relevance realization completed here is followed in episode 29 by the analysis of why relevance cannot be given a scientific theory—and why relevance realization can and must."
+      "context": "The convergence argument for relevance realization completed here is followed in episode 29 by the analysis of why relevance cannot be given a scientific theory, and why relevance realization can and must."
     },
     {
       "episode": 10,
-      "context": "Consciousness as relevance filter, briefly introduced here via Shanahan, was explored phenomenologically in the flow and altered states episodes—now receiving its cognitive-scientific grounding."
+      "context": "Consciousness as relevance filter, briefly introduced here via Shanahan, was explored phenomenologically in the flow and altered states episodes, now receiving its cognitive-scientific grounding."
     }
   ],
   "quotableMoments": [
     {
       "quote": "Perhaps there's a deep reason why manipulating relevance realization affords self-transcendence and wisdom and insight precisely because relevance realization is the ability to make the connections that are at the core of meaning.",
-      "context": "The bridge from cognitive science back to the meaning crisis: relevance realization is what makes connections between mind and body, mind and world, mind and mind—and these connections are what the meaning crisis destroys."
+      "context": "The bridge from cognitive science back to the meaning crisis: relevance realization is what makes connections between mind and body, mind and world, mind and mind, and these connections are what the meaning crisis destroys."
     }
   ]
 }

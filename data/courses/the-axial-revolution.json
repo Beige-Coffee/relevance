@@ -2,7 +2,7 @@
   "id": "the-axial-revolution",
   "title": "The Axial Revolution",
   "conceptId": "the-axial-revolution",
-  "abstract": "This course develops Vervaeke's account of the axial revolution — the pivotal cognitive-cultural transformation from roughly 800 to 300 BCE when new psycho-technologies (alphabetic literacy, coinage) generated an unprecedented capacity for second-order thinking and an awareness of both self-deception and self-transcendence. Students will be able to explain how the Bronze Age collapse created the conditions for the axial breakthrough, articulate how literacy and coinage enabled second-order thinking, and describe the emergence of the two-worlds mythology that replaced the continuous cosmos. In the series arc, the axial revolution is the formative event for Western and world civilization — the origin of the philosophical, religious, and wisdom traditions that constitute the inheritance Vervaeke is both drawing upon and seeing as itself in crisis.",
+  "abstract": "This course develops Vervaeke's account of the axial revolution, the pivotal cognitive-cultural transformation from roughly 800 to 300 BCE when new psycho-technologies (alphabetic literacy, coinage) generated an unprecedented capacity for second-order thinking and an awareness of both self-deception and self-transcendence. Students will be able to explain how the Bronze Age collapse created the conditions for the axial breakthrough, articulate how literacy and coinage enabled second-order thinking, and describe the emergence of the two-worlds mythology that replaced the continuous cosmos. In the series arc, the axial revolution is the formative event for Western and world civilization, the origin of the philosophical, religious, and wisdom traditions that constitute the inheritance Vervaeke is both drawing upon and seeing as itself in crisis.",
   "prerequisites": [
     "psycho-technology"
   ],
@@ -26,30 +26,30 @@
       ],
       "socraticSeeds": [
         {
-          "prompt": "Why would a civilizational catastrophe — the collapse of Bronze Age palace economies — be a precondition for a cognitive revolution rather than simply a tragedy? What does destruction open up that stability would prevent?",
+          "prompt": "Why would a civilizational catastrophe, the collapse of Bronze Age palace economies, be a precondition for a cognitive revolution rather than simply a tragedy? What does destruction open up that stability would prevent?",
           "expectedThemes": ["catastrophe creates space for experiment", "rigid structures prevent innovation", "small societies freed to experiment", "creative destruction"]
         },
         {
-          "prompt": "Vervaeke compares the axial revolution to the Upper Paleolithic transition — both are software changes enabled by bottleneck conditions. What does it mean to say civilization runs on 'software' that can be updated by crisis?",
+          "prompt": "Vervaeke compares the axial revolution to the Upper Paleolithic transition, both are software changes enabled by bottleneck conditions. What does it mean to say civilization runs on 'software' that can be updated by crisis?",
           "expectedThemes": ["psycho-technologies as cognitive software", "crises force upgrade", "cultural not genetic change", "institutions as cognitive scaffolding"]
         },
         {
-          "prompt": "The axial revolution occurred simultaneously in Greece, Israel, India, and China with no direct connection between them. What does this cross-cultural simultaneity suggest about what was driving the change — was it contingent or necessary?",
+          "prompt": "The axial revolution occurred simultaneously in Greece, Israel, India, and China with no direct connection between them. What does this cross-cultural simultaneity suggest about what was driving the change, was it contingent or necessary?",
           "expectedThemes": ["convergent development", "shared pressures not direct contact", "functional necessity", "universals of cognition"]
         },
         {
-          "prompt": "After a total civilizational collapse, what kinds of cognitive resources would survivors rely on most heavily — and how might that drive the search for more portable, flexible, internalized forms of knowing?",
+          "prompt": "After a total civilizational collapse, what kinds of cognitive resources would survivors rely on most heavily, and how might that drive the search for more portable, flexible, internalized forms of knowing?",
           "expectedThemes": ["need for portable wisdom", "internal resources when institutions destroyed", "literacy as portable knowledge", "psycho-technologies freed from institutions"]
         }
       ],
       "misconceptionBranches": [
         {
-          "misconception": "The axial revolution is the same as the Axial Age as a chronological label — a period identified by Jaspers.",
+          "misconception": "The axial revolution is the same as the Axial Age as a chronological label, a period identified by Jaspers.",
           "correction": "Vervaeke uses 'Revolution' specifically to mark a cognitive-cultural transformation driven by new psycho-technologies, not merely the time period; the revolution is about a change in how minds worked, not simply when certain thinkers lived."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "Why does Vervaeke argue that the Bronze Age collapse, despite its catastrophic nature, was the necessary condition for the psycho-technological innovations of the axial revolution — and what does this suggest about the relationship between cognitive innovation and social stability?",
+        "prompt": "Why does Vervaeke argue that the Bronze Age collapse, despite its catastrophic nature, was the necessary condition for the psycho-technological innovations of the axial revolution, and what does this suggest about the relationship between cognitive innovation and social stability?",
         "expectedThemes": ["catastrophe as creative condition", "stability can prevent cognitive innovation", "necessity of disruption", "cognitive breakthrough requires conditions"]
       }
     },
@@ -67,15 +67,15 @@
       ],
       "socraticSeeds": [
         {
-          "prompt": "Writing allows you to look at your own thought from the outside — to read what you wrote and ask whether it makes sense. How does this externalization of thought enable a kind of self-examination that is very difficult without writing?",
+          "prompt": "Writing allows you to look at your own thought from the outside, to read what you wrote and ask whether it makes sense. How does this externalization of thought enable a kind of self-examination that is very difficult without writing?",
           "expectedThemes": ["externalizing thought enables examination", "text as mirror for thought", "literacy and critical thinking", "self-correction through inscription"]
         },
         {
-          "prompt": "Second-order thinking is thinking about your own thinking. Before systematic literacy, was this impossible — or just rarer and harder? What does literacy specifically enable that oral culture makes more difficult?",
+          "prompt": "Second-order thinking is thinking about your own thinking. Before systematic literacy, was this impossible, or just rarer and harder? What does literacy specifically enable that oral culture makes more difficult?",
           "expectedThemes": ["oral limits on self-reflection", "writing slows and externalizes thought", "critical examination easier in text", "metacognition and literacy"]
         },
         {
-          "prompt": "Vervaeke argues that when alphabetic literacy was internalized into metacognition it produced a qualitative shift — not just more storage but different thinking. What would it mean to internalize literacy so deeply that it changes how you think even when not writing?",
+          "prompt": "Vervaeke argues that when alphabetic literacy was internalized into metacognition it produced a qualitative shift, not just more storage but different thinking. What would it mean to internalize literacy so deeply that it changes how you think even when not writing?",
           "expectedThemes": ["internalized psychotechnology", "literacy reshaping cognition", "thinking in literate mode", "beyond tool to constitutive change"]
         },
         {
@@ -85,12 +85,12 @@
       ],
       "misconceptionBranches": [
         {
-          "misconception": "Second-order thinking is just being more analytical or reflective — it is available to anyone without literacy.",
+          "misconception": "Second-order thinking is just being more analytical or reflective, it is available to anyone without literacy.",
           "correction": "Second-order thinking in Vervaeke's sense is the specific product of internalizing a psycho-technology (like alphabetic literacy) into one's metacognitive processing; it is not merely reflectiveness but a systematic enhancement of the capacity to examine and correct one's own cognitive processing."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "How does the internalization of alphabetic literacy into metacognition represent a different kind of cognitive change than simply acquiring more information or more skills — and why does Vervaeke call this change formative of Western civilization?",
+        "prompt": "How does the internalization of alphabetic literacy into metacognition represent a different kind of cognitive change than simply acquiring more information or more skills, and why does Vervaeke call this change formative of Western civilization?",
         "expectedThemes": ["qualitative not quantitative change", "metacognition transformed", "capacity for self-correction", "civilizational scale impact"]
       }
     },
@@ -108,11 +108,11 @@
       ],
       "socraticSeeds": [
         {
-          "prompt": "A coin is a piece of metal that 'stands for' a value — it is not the value itself. What kind of cognitive training does daily use of such symbols provide? How might this habituate people to abstract representation?",
+          "prompt": "A coin is a piece of metal that 'stands for' a value, it is not the value itself. What kind of cognitive training does daily use of such symbols provide? How might this habituate people to abstract representation?",
           "expectedThemes": ["coins as abstract symbols", "symbol stands for value", "habituation to abstraction", "daily training in symbolic reasoning"]
         },
         {
-          "prompt": "Coinage requires numeracy — the ability to reckon with abstract quantities. How does quantitative abstraction (thinking in numbers) relate to other forms of abstract thought? Does learning arithmetic train capacities that transfer to philosophical reasoning?",
+          "prompt": "Coinage requires numeracy, the ability to reckon with abstract quantities. How does quantitative abstraction (thinking in numbers) relate to other forms of abstract thought? Does learning arithmetic train capacities that transfer to philosophical reasoning?",
           "expectedThemes": ["numeracy and abstraction", "transferable cognitive skills", "quantitative to qualitative abstraction", "mathematics as cognitive training"]
         },
         {
@@ -120,18 +120,18 @@
           "expectedThemes": ["self-deception awareness", "self-transcendence awareness", "combination enables both", "meta-awareness of cognitive limits and capacities"]
         },
         {
-          "prompt": "Both literacy and coinage are invented technologies that reshape cognition when internalized. Is this a coincidence — or does it reveal something general about how civilizations develop their cognitive capacities through their material culture?",
+          "prompt": "Both literacy and coinage are invented technologies that reshape cognition when internalized. Is this a coincidence, or does it reveal something general about how civilizations develop their cognitive capacities through their material culture?",
           "expectedThemes": ["material culture and cognition", "psychotechnologies from technology", "cognition extended into culture", "tools that transform mind"]
         }
       ],
       "misconceptionBranches": [
         {
           "misconception": "The axial revolution is a single event or the achievement of a single brilliant thinker.",
-          "correction": "The axial revolution is a set of mutually reinforcing developments — alphabetic literacy, coinage, second-order thinking, and the two-worlds mythology — that arose together as an interlocking system, not as the invention of any single person or moment."
+          "correction": "The axial revolution is a set of mutually reinforcing developments, alphabetic literacy, coinage, second-order thinking, and the two-worlds mythology, that arose together as an interlocking system, not as the invention of any single person or moment."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "How do alphabetic literacy and coinage work together as complementary psycho-technologies — and what cognitive capacity emerges from their combination that neither alone would produce?",
+        "prompt": "How do alphabetic literacy and coinage work together as complementary psycho-technologies, and what cognitive capacity emerges from their combination that neither alone would produce?",
         "expectedThemes": ["literacy and coinage synergy", "second order plus abstract symbolic", "awareness of self-deception and transcendence", "combination produces axial cognition"]
       }
     },
@@ -159,7 +159,7 @@
       ],
       "socraticSeeds": [
         {
-          "prompt": "Before the axial revolution, people lived in a 'continuous cosmos' where the natural, cultural, and divine were all part of one seamless world. Why would the discovery that one's own mind can systematically deceive itself break that seamlessness — and what kind of 'second world' would the awakened mind inhabit?",
+          "prompt": "Before the axial revolution, people lived in a 'continuous cosmos' where the natural, cultural, and divine were all part of one seamless world. Why would the discovery that one's own mind can systematically deceive itself break that seamlessness, and what kind of 'second world' would the awakened mind inhabit?",
           "expectedThemes": ["self-deception breaks naive continuity", "mind as both deceiver and transcender", "two-worlds mythology from metacognition", "discontinuity between naive and trained mind"]
         },
         {
@@ -167,11 +167,11 @@
           "expectedThemes": ["cross-cultural convergence", "same cognitive discovery", "functional necessity of two-worlds structure", "universal feature of axial transformation"]
         },
         {
-          "prompt": "Wisdom in the two-worlds framework is the capacity to move from the 'everyday world' of illusion and self-deception to the 'more real world' accessible to the trained mind. What kind of transformation is required — is it simply learning more, or something deeper?",
+          "prompt": "Wisdom in the two-worlds framework is the capacity to move from the 'everyday world' of illusion and self-deception to the 'more real world' accessible to the trained mind. What kind of transformation is required, is it simply learning more, or something deeper?",
           "expectedThemes": ["wisdom as transformation not information", "trained mind vs. untrained", "self-transcendence as qualitative shift", "all four kinds of knowing required"]
         },
         {
-          "prompt": "The axial revolution makes both self-deception and self-transcendence visible for the first time as explicit cognitive categories. Why might this double awareness — of both the fall and the ascent — be the defining feature of the axial legacy?",
+          "prompt": "The axial revolution makes both self-deception and self-transcendence visible for the first time as explicit cognitive categories. Why might this double awareness, of both the fall and the ascent, be the defining feature of the axial legacy?",
           "expectedThemes": ["double awareness as axial legacy", "self-deception and transcendence paired", "responsibility for cognition", "wisdom tradition as navigation between two"]
         }
       ],
@@ -186,7 +186,7 @@
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "Why does Vervaeke argue that the meaning crisis is partly a crisis of the axial legacy — the erosion of the two-worlds mythology and the psycho-technologies that sustained it — and why can neither simply restoring the old mythology nor abandoning it altogether address what has been lost?",
+        "prompt": "Why does Vervaeke argue that the meaning crisis is partly a crisis of the axial legacy, the erosion of the two-worlds mythology and the psycho-technologies that sustained it, and why can neither simply restoring the old mythology nor abandoning it altogether address what has been lost?",
         "expectedThemes": ["meaning crisis as axial legacy crisis", "two-worlds mythology eroded by modernity", "can't simply restore old forms", "need new way to sustain axial insight"]
       }
     },
@@ -209,19 +209,19 @@
       ],
       "socraticSeeds": [
         {
-          "prompt": "Before the axial revolution, people could certainly be wrong about things — but were they aware that their own mind was systematically deceiving them? What changes when you realize not just that you made an error, but that your cognitive machinery has a built-in tendency to deceive you?",
+          "prompt": "Before the axial revolution, people could certainly be wrong about things, but were they aware that their own mind was systematically deceiving them? What changes when you realize not just that you made an error, but that your cognitive machinery has a built-in tendency to deceive you?",
           "expectedThemes": ["error vs systematic self-deception", "cognitive machinery as unreliable", "responsibility for one's cognition", "need for methods of correction"]
         },
         {
-          "prompt": "Socrates famously said 'I know that I know nothing.' Why is this not simply an expression of humility but a profound cognitive achievement — and what had to change in how Socrates related to his own thinking to make this statement meaningful?",
+          "prompt": "Socrates famously said 'I know that I know nothing.' Why is this not simply an expression of humility but a profound cognitive achievement, and what had to change in how Socrates related to his own thinking to make this statement meaningful?",
           "expectedThemes": ["Socratic ignorance as meta-awareness", "knowing one's not-knowing requires second-order thinking", "cognitive humility as achievement", "axial consciousness in practice"]
         },
         {
-          "prompt": "The axial traditions all develop practices — Socratic dialogue, Buddhist meditation, Hebrew prophecy, Indian yoga — for moving from the 'everyday world' to the 'more real world.' What do all these practices have in common at the cognitive level?",
+          "prompt": "The axial traditions all develop practices, Socratic dialogue, Buddhist meditation, Hebrew prophecy, Indian yoga, for moving from the 'everyday world' to the 'more real world.' What do all these practices have in common at the cognitive level?",
           "expectedThemes": ["practices target self-deception", "developing trained mind", "common cognitive structure", "wisdom as reliable self-correction"]
         },
         {
-          "prompt": "Vervaeke says the axial revolution gives people 'a sense of responsibility for their own cognition.' What does it mean to be responsible for how you think — and how is this different from just being responsible for what you do?",
+          "prompt": "Vervaeke says the axial revolution gives people 'a sense of responsibility for their own cognition.' What does it mean to be responsible for how you think, and how is this different from just being responsible for what you do?",
           "expectedThemes": ["epistemic responsibility", "culpability for cognitive habits", "caring about truth-tracking", "rationality as virtue"]
         }
       ],
@@ -232,7 +232,7 @@
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "Why does Vervaeke describe the axial revolution as the origin of the perennial philosophy — the shared aspiration across cultures toward wisdom, self-transcendence, and contact with a 'more real world' — and what does this shared origin reveal about what the meaning crisis has put at stake?",
+        "prompt": "Why does Vervaeke describe the axial revolution as the origin of the perennial philosophy, the shared aspiration across cultures toward wisdom, self-transcendence, and contact with a 'more real world', and what does this shared origin reveal about what the meaning crisis has put at stake?",
         "expectedThemes": ["perennial philosophy from axial breakthrough", "shared structure across traditions", "meaning crisis as crisis of this legacy", "self-deception and transcendence as perennial poles"]
       }
     }

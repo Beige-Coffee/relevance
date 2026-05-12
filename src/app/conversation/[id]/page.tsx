@@ -31,9 +31,9 @@ export default function CoursePage({ params }: { params: Promise<{ id: string }>
   return (
     <div className="flex-1 flex flex-col">
       <div className="max-w-5xl mx-auto px-6 pt-10 pb-4 w-full">
-        <Link href="/courses" className="text-xs text-[var(--muted)] hover:text-[var(--accent)]">← All courses</Link>
+        <Link href="/conversations" className="text-xs text-[var(--muted)] hover:text-[var(--accent)]">← All Conversations</Link>
         <div className="text-xs uppercase tracking-wider text-[var(--muted)] mt-3 mb-2">
-          Mini-course · {concept?.cluster ?? ""}{concept ? ` · depth ${concept.depth}` : ""}
+          Conversation · {concept?.cluster ?? ""}{concept ? ` · depth ${concept.depth}` : ""}
         </div>
         <h1 className="serif text-5xl text-[var(--ink)] leading-tight">{course.title}</h1>
         <p className="prose-reader mt-4 max-w-3xl">{course.abstract}</p>
@@ -44,7 +44,7 @@ export default function CoursePage({ params }: { params: Promise<{ id: string }>
             {course.prerequisites.map((p, i) => {
               const tc = concepts?.find((c) => c.id === p);
               return tc ? (
-                <Link key={p} href={`/course/${p}`} className="lnk mr-2">
+                <Link key={p} href={`/conversation/${p}`} className="lnk mr-2">
                   {tc.canonicalName}
                 </Link>
               ) : (
@@ -115,14 +115,14 @@ export default function CoursePage({ params }: { params: Promise<{ id: string }>
             <h3 className="text-xs uppercase tracking-wider text-[var(--muted)] mb-3">Socratic prompts</h3>
             <div className="space-y-3">
               {mod.socraticSeeds.map((s, i) => (
-                <div key={i} className="border-l-2 border-[var(--gold)] pl-4 py-1">
+                <div key={i} className="border-l-2 border-[var(--accent)] pl-4 py-1">
                   <p className="serif text-[17px] italic text-[var(--ink)]">{s.prompt}</p>
                   {s.expectedThemes && s.expectedThemes.length > 0 && (
                     <details className="mt-1.5 text-xs text-[var(--muted)]">
                       <summary className="cursor-pointer hover:text-[var(--ink)]">expected themes</summary>
                       <ul className="mt-1 ml-3 space-y-0.5">
                         {s.expectedThemes.map((t, j) => (
-                          <li key={j}>— {t}</li>
+                          <li key={j}>, {t}</li>
                         ))}
                       </ul>
                     </details>
@@ -146,15 +146,15 @@ export default function CoursePage({ params }: { params: Promise<{ id: string }>
             </section>
           )}
 
-          <section className="mt-10 rounded-lg border-2 border-[var(--gold)] bg-[var(--elev)] p-5">
-            <h3 className="text-xs uppercase tracking-wider text-[var(--gold)] mb-2">Check for understanding</h3>
+          <section className="mt-10 rounded-lg border-2 border-[var(--accent)] bg-[var(--elev)] p-5">
+            <h3 className="text-xs uppercase tracking-wider text-[var(--accent)] mb-2">Check for understanding</h3>
             <p className="serif text-[17px] italic text-[var(--ink)]">{mod.checkForUnderstanding.prompt}</p>
             {mod.checkForUnderstanding.expectedThemes && mod.checkForUnderstanding.expectedThemes.length > 0 && (
               <details className="mt-2 text-xs text-[var(--muted)]">
                 <summary className="cursor-pointer hover:text-[var(--ink)]">a good answer touches on…</summary>
                 <ul className="mt-1 ml-3 space-y-0.5">
                   {mod.checkForUnderstanding.expectedThemes.map((t, i) => (
-                    <li key={i}>— {t}</li>
+                    <li key={i}>, {t}</li>
                   ))}
                 </ul>
               </details>

@@ -3,7 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import { useSettings, useChat } from "@/lib/store";
 import { retrieve, type RetrievalResult } from "@/lib/retrieve";
-import { makeClient } from "@/lib/anthropic";
+import { makeClientForProvider } from "@/lib/anthropic";
 import { streamText } from "@/lib/stream";
 import { SOCRATIC_SYSTEM_PROMPT, buildContextBlock } from "@/lib/prompts";
 import { RenderedText } from "@/components/rendered-text";
@@ -12,13 +12,13 @@ import type { Citation, ChatMessage } from "@/lib/types";
 
 const STARTER_PROMPTS = [
   "What is relevance realization, and why does it matter?",
-  "I keep hearing 'agape' — help me understand what makes it different from love-as-feeling.",
+  "I keep hearing 'agape', help me understand what makes it different from love-as-feeling.",
   "How does Vervaeke argue that science alone can't address the meaning crisis?",
-  "Walk me through the cave allegory — but in his framing, not Plato's.",
+  "Walk me through the cave allegory, but in his framing, not Plato's.",
 ];
 
 export default function DialoguePage() {
-  const { apiKey, model } = useSettings();
+  const { provider, activeKey, activeModel } = useSettings();
   const { messages, append, setLastContent, isStreaming, setStreaming, reset } = useChat();
   const [input, setInput] = useState("");
   const [retrieved, setRetrieved] = useState<RetrievalResult[]>([]);
@@ -32,8 +32,9 @@ export default function DialoguePage() {
 
   async function send(text: string) {
     if (!text.trim()) return;
-    if (!apiKey) {
-      setError("Add an Anthropic API key in Settings to start a dialogue.");
+    const key = activeKey();
+    if (!key) {
+      setError("Add an API key on the Settings page to start a dialogue.");
       return;
     }
     setError(null);
@@ -74,7 +75,7 @@ export default function DialoguePage() {
     setStreaming(true);
 
     try {
-      const client = makeClient(apiKey);
+      const client = makeClientForProvider(provider, key);
       const context = buildContextBlock(results.map((r) => ({ episode: r.passage.episode, text: r.passage.text })));
       const historyMessages = [...messages, userMsg].map((m) => ({
         role: m.role,
@@ -90,7 +91,7 @@ export default function DialoguePage() {
       let buf = "";
       await streamText({
         client,
-        model,
+        model: activeModel(),
         system: SOCRATIC_SYSTEM_PROMPT,
         messages: historyMessages,
         onDelta: (d) => {
@@ -101,7 +102,7 @@ export default function DialoguePage() {
       });
     } catch (err) {
       setError(err instanceof Error ? err.message : String(err));
-      setLastContent("(error generating response — see banner above)", citations);
+      setLastContent("(error generating response, see banner above)", citations);
     } finally {
       setStreaming(false);
     }

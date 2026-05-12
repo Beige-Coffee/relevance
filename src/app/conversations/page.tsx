@@ -27,28 +27,26 @@ export default function CoursesPage() {
 
   return (
     <div className="max-w-4xl mx-auto px-6 py-10 w-full">
-      <p className="ep-num text-xs uppercase tracking-[0.22em] mb-3">Pre-curated Socratic mini-courses</p>
-      <h1 className="serif text-5xl text-[var(--ink)] leading-tight">Courses</h1>
+      <p className="mono text-xs uppercase tracking-[0.18em] text-[var(--accent)] mb-3">Pre-curated Socratic walkthroughs</p>
+      <h1 className="serif text-5xl text-[var(--ink)] leading-tight">Conversations</h1>
       <p className="serif italic text-xl text-[var(--ink-soft)] mt-3 leading-snug">
-        Hand-grounded mini-courses on the flagship concepts of Vervaeke&rsquo;s argument. Each one is built from verbatim
-        transcript passages, with sub-modules that walk you through the idea via Socratic dialogue.
+        Hand-grounded walkthroughs of the flagship concepts in Vervaeke&rsquo;s argument. Each one is built from verbatim
+        transcript passages, broken into modules that hold the dialogue to the text.
       </p>
 
       <div className="hr-soft my-10" />
 
-      {!courses && <p className="text-[var(--muted)]">Loading…</p>}
+      {!courses && <p className="text-[var(--muted)]">Loading...</p>}
 
       {courses && courses.length === 0 && (
-        <p className="text-[var(--muted)]">
-          No courses have been generated yet. Run Pass 5 to produce them.
-        </p>
+        <p className="text-[var(--muted)]">No Conversations have been generated yet.</p>
       )}
 
       {courses && clusterOrder.filter((c) => groupByCluster.has(c)).map((cluster) => (
         <section key={cluster} className="mb-12">
           <h2 className="serif text-2xl text-[var(--ink)] mb-1 capitalize">{cluster.replace("-", " ")}</h2>
           <p className="text-xs text-[var(--muted)] mb-4">
-            {groupByCluster.get(cluster)!.length} course{groupByCluster.get(cluster)!.length === 1 ? "" : "s"}
+            {groupByCluster.get(cluster)!.length} Conversation{groupByCluster.get(cluster)!.length === 1 ? "" : "s"}
           </p>
           <div className="grid sm:grid-cols-2 gap-3">
             {groupByCluster.get(cluster)!.map((c) => {
@@ -56,7 +54,7 @@ export default function CoursesPage() {
               return (
                 <Link
                   key={c.id}
-                  href={`/course/${c.id}`}
+                  href={`/conversation/${c.id}`}
                   className="block rounded-lg border border-[var(--border)] bg-[var(--surface)] p-5 hover:border-[var(--accent)] transition-colors group"
                 >
                   <h3 className="serif text-xl text-[var(--ink)] group-hover:text-[var(--accent)] transition-colors mb-1">

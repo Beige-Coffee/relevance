@@ -2,7 +2,7 @@
   "id": "altered-states-of-consciousness",
   "title": "Altered States of Consciousness",
   "conceptId": "altered-states-of-consciousness",
-  "abstract": "This course examines altered states of consciousness — the radical transformations of the salience, presence, and depth landscapes that shamanic and contemplative traditions deliberately cultivated and that modern research has begun to study scientifically. After completing this course, you will be able to explain how altered states differ from ordinary insight (they are insights of consciousness rather than in it), how disruptive strategies produce cross-neural integration that enables cognitive exaptation, and how the Upper Paleolithic cognitive revolution may have been driven by shamanic psychotechnologies. Altered states are a foundational concept in the series arc: they are the vehicle by which higher states of consciousness are reached, and understanding their cognitive mechanics is essential for evaluating whether the religious transformations Vervaeke traces throughout history have any naturalistic warrant.",
+  "abstract": "This course examines altered states of consciousness, the radical transformations of the salience, presence, and depth landscapes that shamanic and contemplative traditions deliberately cultivated and that modern research has begun to study scientifically. After completing this course, you will be able to explain how altered states differ from ordinary insight (they are insights of consciousness rather than in it), how disruptive strategies produce cross-neural integration that enables cognitive exaptation, and how the Upper Paleolithic cognitive revolution may have been driven by shamanic psychotechnologies. Altered states are a foundational concept in the series arc: they are the vehicle by which higher states of consciousness are reached, and understanding their cognitive mechanics is essential for evaluating whether the religious transformations Vervaeke traces throughout history have any naturalistic warrant.",
   "prerequisites": [],
   "modules": [
     {
@@ -14,12 +14,12 @@
         {
           "episode": 10,
           "phrase": "The core function of consciousness seems to be to help you realize, become aware of, actualize, put into action, 'Relevance': relevant information.",
-          "note": "Consciousness as relevance realization — the basis for understanding what it means to alter it"
+          "note": "Consciousness as relevance realization, the basis for understanding what it means to alter it"
         }
       ],
       "socraticSeeds": [
         {
-          "prompt": "Vervaeke distinguishes insight 'in' consciousness from insight 'of' consciousness. What do you think the difference is — can you think of an experience where your whole way of noticing things changed, not just your solution to one problem?",
+          "prompt": "Vervaeke distinguishes insight 'in' consciousness from insight 'of' consciousness. What do you think the difference is, can you think of an experience where your whole way of noticing things changed, not just your solution to one problem?",
           "expectedThemes": [
             "local reframing vs. systemic restructuring",
             "salience landscape as a whole",
@@ -27,7 +27,7 @@
           ]
         },
         {
-          "prompt": "If consciousness is fundamentally about relevance realization — about what is salient, what stands out as important — what would it mean to alter consciousness at the deepest level?",
+          "prompt": "If consciousness is fundamentally about relevance realization, about what is salient, what stands out as important, what would it mean to alter consciousness at the deepest level?",
           "expectedThemes": [
             "altering what registers as important",
             "transformation of the filtering process",
@@ -35,7 +35,7 @@
           ]
         },
         {
-          "prompt": "Someone on psychedelics reports that colors seem impossibly vivid and unrelated things seem deeply connected. Is that a failure of perception, an enhancement of it, or something else entirely — and how might you decide?",
+          "prompt": "Someone on psychedelics reports that colors seem impossibly vivid and unrelated things seem deeply connected. Is that a failure of perception, an enhancement of it, or something else entirely, and how might you decide?",
           "expectedThemes": [
             "cross-neural integration making new connections",
             "question of whether altered = distorted",
@@ -46,11 +46,11 @@
       "misconceptionBranches": [
         {
           "misconception": "Altered states are just a degraded or impaired version of normal consciousness.",
-          "correction": "Vervaeke argues that altered states can afford genuine cognitive enhancement — cross-neural integration, cognitive exaptation — when embedded in appropriate practice contexts; the value depends on how the state is used, not the state alone."
+          "correction": "Vervaeke argues that altered states can afford genuine cognitive enhancement, cross-neural integration, cognitive exaptation, when embedded in appropriate practice contexts; the value depends on how the state is used, not the state alone."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "Explain the difference between insight in consciousness and insight of consciousness — and why the latter is more radical than any ordinary 'aha' moment.",
+        "prompt": "Explain the difference between insight in consciousness and insight of consciousness, and why the latter is more radical than any ordinary 'aha' moment.",
         "expectedThemes": [
           "in-consciousness is local reframing",
           "of-consciousness restructures the framing capacity",
@@ -66,7 +66,7 @@
       "expositionPassages": [],
       "socraticSeeds": [
         {
-          "prompt": "Why would you ever deliberately disrupt your own cognition — lose sleep, fast, or use substances that alter your brain function? What could possibly be the benefit of destabilizing how you normally think?",
+          "prompt": "Why would you ever deliberately disrupt your own cognition, lose sleep, fast, or use substances that alter your brain function? What could possibly be the benefit of destabilizing how you normally think?",
           "expectedThemes": [
             "breaking default patterns creates new possibilities",
             "habits of salience can be maladaptive",
@@ -74,7 +74,7 @@
           ]
         },
         {
-          "prompt": "Notice that the disruptive strategies Vervaeke lists span very different types — physical (fasting), social (isolation), chemical (psychedelics), and rhythmic (chanting). What do they all have in common that makes them effective for the same purpose?",
+          "prompt": "Notice that the disruptive strategies Vervaeke lists span very different types, physical (fasting), social (isolation), chemical (psychedelics), and rhythmic (chanting). What do they all have in common that makes them effective for the same purpose?",
           "expectedThemes": [
             "all alter attention and neural coordination",
             "all destabilize normal filtering",
@@ -82,7 +82,7 @@
           ]
         },
         {
-          "prompt": "Disruption alone is not enough — plenty of people have disrupted cognitive states (from sleep deprivation or illness) without having transformative insights. What else is needed for disruption to be productive rather than merely chaotic?",
+          "prompt": "Disruption alone is not enough, plenty of people have disrupted cognitive states (from sleep deprivation or illness) without having transformative insights. What else is needed for disruption to be productive rather than merely chaotic?",
           "expectedThemes": [
             "ritual context needed",
             "trained practitioner to guide integration",
@@ -93,11 +93,11 @@
       "misconceptionBranches": [
         {
           "misconception": "Using psychedelics or other disruptive strategies automatically produces insight or transformation.",
-          "correction": "Vervaeke is explicit that the value of altered states depends entirely on what is done with the cross-neural integration they make available — disruption without the right practice context, community, and integration produces chaos, not wisdom."
+          "correction": "Vervaeke is explicit that the value of altered states depends entirely on what is done with the cross-neural integration they make available, disruption without the right practice context, community, and integration produces chaos, not wisdom."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "What is the cognitive purpose of disruptive strategies in shamanic and contemplative traditions — and why is the same disruption sometimes transformative and sometimes merely harmful?",
+        "prompt": "What is the cognitive purpose of disruptive strategies in shamanic and contemplative traditions, and why is the same disruption sometimes transformative and sometimes merely harmful?",
         "expectedThemes": [
           "disruption breaks default salience patterns",
           "creates space for cross-neural integration",
@@ -124,7 +124,7 @@
       ],
       "socraticSeeds": [
         {
-          "prompt": "In normal waking cognition, different brain regions are relatively modular — they specialize. What might be the advantage of that specialization in everyday life, and what might be lost by it?",
+          "prompt": "In normal waking cognition, different brain regions are relatively modular, they specialize. What might be the advantage of that specialization in everyday life, and what might be lost by it?",
           "expectedThemes": [
             "modularity enables efficiency",
             "specialization may prevent novel connections",
@@ -140,7 +140,7 @@
           ]
         },
         {
-          "prompt": "If the brain is making new connections across its normal boundaries, does that mean the resulting thoughts are more reliable or less reliable than ordinary cognition — and how would you evaluate the output of cross-neural integration?",
+          "prompt": "If the brain is making new connections across its normal boundaries, does that mean the resulting thoughts are more reliable or less reliable than ordinary cognition, and how would you evaluate the output of cross-neural integration?",
           "expectedThemes": [
             "not automatically more reliable",
             "some connections will be noise",
@@ -150,12 +150,12 @@
       ],
       "misconceptionBranches": [
         {
-          "misconception": "The brain connections made during altered states are permanent — altered states literally rewire the brain.",
+          "misconception": "The brain connections made during altered states are permanent, altered states literally rewire the brain.",
           "correction": "Cross-neural integration during altered states makes new connections available, but which connections become lasting depends on how insights are integrated into ongoing practice; the state enables, practice consolidates."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "What is cross-neural integration, and why does Vervaeke argue it can produce genuine cognitive enhancement rather than mere hallucination — and what does that require beyond the altered state itself?",
+        "prompt": "What is cross-neural integration, and why does Vervaeke argue it can produce genuine cognitive enhancement rather than mere hallucination, and what does that require beyond the altered state itself?",
         "expectedThemes": [
           "normally-segregated brain regions communicate",
           "novel pattern-bridging becomes possible",
@@ -177,7 +177,7 @@
       ],
       "socraticSeeds": [
         {
-          "prompt": "Exaptation in biology means a feature that evolved for one purpose gets used for another — the way feathers evolved for insulation and were later exapted for flight. What would 'cognitive exaptation' look like — can you think of a human mental capacity that gets used for purposes it was not originally for?",
+          "prompt": "Exaptation in biology means a feature that evolved for one purpose gets used for another, the way feathers evolved for insulation and were later exapted for flight. What would 'cognitive exaptation' look like, can you think of a human mental capacity that gets used for purposes it was not originally for?",
           "expectedThemes": [
             "repurposing evolved capacities",
             "language exapting social cognition circuits",
@@ -185,7 +185,7 @@
           ]
         },
         {
-          "prompt": "Around 40,000 years ago there was a sudden explosion of symbolic art, ritual objects, and complex tools in human culture — the Upper Paleolithic transition. Why might altered states of consciousness, rather than genetic changes, explain this sudden leap?",
+          "prompt": "Around 40,000 years ago there was a sudden explosion of symbolic art, ritual objects, and complex tools in human culture, the Upper Paleolithic transition. Why might altered states of consciousness, rather than genetic changes, explain this sudden leap?",
           "expectedThemes": [
             "no genetic change required if cultural technology explained it",
             "shamanic psychotechnologies enabled new cognitive uses",
@@ -203,12 +203,12 @@
       ],
       "misconceptionBranches": [
         {
-          "misconception": "The Upper Paleolithic cognitive revolution required genetic mutation — a biological change in the human brain.",
-          "correction": "Vervaeke's argument is that cultural psychotechnologies — specifically shamanic practices for altering consciousness — can explain the cognitive revolution without requiring new genetics; the tools changed how existing capacities were used."
+          "misconception": "The Upper Paleolithic cognitive revolution required genetic mutation, a biological change in the human brain.",
+          "correction": "Vervaeke's argument is that cultural psychotechnologies, specifically shamanic practices for altering consciousness, can explain the cognitive revolution without requiring new genetics; the tools changed how existing capacities were used."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "What is Vervaeke's argument for why shamanism was the engine of the Upper Paleolithic cognitive transition — and what does 'cognitive exaptation' mean in this context?",
+        "prompt": "What is Vervaeke's argument for why shamanism was the engine of the Upper Paleolithic cognitive transition, and what does 'cognitive exaptation' mean in this context?",
         "expectedThemes": [
           "shamanism as psychotechnology for altered states",
           "altered states enable repurposing of evolved capacities",

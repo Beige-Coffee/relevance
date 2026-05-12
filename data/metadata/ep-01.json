@@ -2,11 +2,11 @@
   "num": 1,
   "slug": "introduction",
   "title": "Introduction",
-  "essence": "Vervaeke locates the origin of the meaning crisis in the Upper Paleolithic transition (~40,000 BCE), when Homo sapiens underwent a cognitive revolution producing the first symbolic culture, ritual practice, and shamanic worldview. He argues shamanism was not superstition but a genuine psycho-technology: a standardized cognitive practice that exploited altered states of consciousness to train capacities for insight, healing, and relevance realization. This introduces the four kinds of knowing — propositional (knowing that), procedural (knowing how), perspectival (knowing what it is like), and participatory (knowing by being in contact with) — and locates shamanism's power in its cultivation of the deeper, non-propositional modes. The meaning crisis, Vervaeke suggests, is downstream of progressively losing the institutions and practices that once transmitted perspectival and participatory knowing. He traces this to a 'domino effect': shamanism gives way to the Axial Revolution, which gives way to Christianity, which gives way to the Scientific Revolution, each transition preserving some and dismantling other elements of the meaning-making infrastructure. The episode closes by framing the entire series as investigating what was lost and what might be recovered.",
+  "essence": "Vervaeke locates the origin of the meaning crisis in the Upper Paleolithic transition (~40,000 BCE), when Homo sapiens underwent a cognitive revolution producing the first symbolic culture, ritual practice, and shamanic worldview. He argues shamanism was not superstition but a genuine psycho-technology: a standardized cognitive practice that exploited altered states of consciousness to train capacities for insight, healing, and relevance realization. This introduces the four kinds of knowing, propositional (knowing that), procedural (knowing how), perspectival (knowing what it is like), and participatory (knowing by being in contact with), and locates shamanism's power in its cultivation of the deeper, non-propositional modes. The meaning crisis, Vervaeke suggests, is downstream of progressively losing the institutions and practices that once transmitted perspectival and participatory knowing. He traces this to a 'domino effect': shamanism gives way to the Axial Revolution, which gives way to Christianity, which gives way to the Scientific Revolution, each transition preserving some and dismantling other elements of the meaning-making infrastructure. The episode closes by framing the entire series as investigating what was lost and what might be recovered.",
   "keyClaims": [
     "The Upper Paleolithic cognitive revolution produced symbolic culture, ritual, and shamanism as humanity's first systematic meaning-making technology.",
     "Shamanism is best understood as a psycho-technology: a standardized practice exploiting altered states of consciousness to cultivate insight and relevance realization.",
-    "There are four irreducible kinds of knowing — propositional, procedural, perspectival, and participatory — and the meaning crisis involves the marginalization of the latter two.",
+    "There are four irreducible kinds of knowing, propositional, procedural, perspectival, and participatory, and the meaning crisis involves the marginalization of the latter two.",
     "The meaning crisis results from a historical domino effect in which successive transformations (Axial Revolution, Christianity, Scientific Revolution) progressively dismantled the institutions that transmitted deeper modes of knowing.",
     "Recovering meaning requires recovering or reconstructing the practices that cultivate perspectival and participatory knowing."
   ],
@@ -19,12 +19,12 @@
     {
       "id": "psycho-technology",
       "treatment": "introduced",
-      "summary": "Defined as a standardized cognitive practice that enhances brain operation — shamanism is the first example discussed."
+      "summary": "Defined as a standardized cognitive practice that enhances brain operation, shamanism is the first example discussed."
     },
     {
       "id": "the-four-kinds-of-knowing",
       "treatment": "introduced",
-      "summary": "The four irreducible epistemic modes — propositional, procedural, perspectival, participatory — introduced as the framework for understanding what meaning requires."
+      "summary": "The four irreducible epistemic modes, propositional, procedural, perspectival, participatory, introduced as the framework for understanding what meaning requires."
     },
     {
       "id": "perspectival-knowing",
@@ -39,7 +39,7 @@
     {
       "id": "the-axial-revolution",
       "treatment": "referenced",
-      "summary": "First mention as the next major transformation after shamanism — to be developed in episode 2."
+      "summary": "First mention as the next major transformation after shamanism, to be developed in episode 2."
     },
     {
       "id": "altered-states-of-consciousness",
@@ -49,12 +49,12 @@
     {
       "id": "the-upper-paleolithic-transition",
       "treatment": "introduced",
-      "summary": "The ~40,000 BCE cognitive revolution that produced symbolic culture, burial practices, and shamanism — the origin point for the series' historical narrative."
+      "summary": "The ~40,000 BCE cognitive revolution that produced symbolic culture, burial practices, and shamanism, the origin point for the series' historical narrative."
     },
     {
       "id": "shamanism",
       "treatment": "introduced",
-      "summary": "Framed not as superstition but as humanity's first psycho-technology — exploiting altered states to cultivate participatory knowing and relevance realization."
+      "summary": "Framed not as superstition but as humanity's first psycho-technology, exploiting altered states to cultivate participatory knowing and relevance realization."
     }
   ],
   "people": [
@@ -71,7 +71,7 @@
     {
       "id": "andy-clark",
       "role": "referenced",
-      "summary": "Referenced in the context of 4E cognition — the cognitive science framing that supports the idea that knowing is embodied and embedded."
+      "summary": "Referenced in the context of 4E cognition, the cognitive science framing that supports the idea that knowing is embodied and embedded."
     },
     {
       "id": "frankfurt",

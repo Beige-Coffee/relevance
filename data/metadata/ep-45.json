@@ -2,13 +2,13 @@
   "num": 45,
   "slug": "nature-of-wisdom",
   "title": "The Nature of Wisdom",
-  "essence": "This episode delivers the capstone of Vervaeke's theory of wisdom, presenting his 2013 model developed with Leo Ferraro. The model identifies three tiers of interacting capacities: at the inferential level, wisdom requires active open-mindedness to counteract motivated reasoning; at the insight level, mindfulness cultivates the attentional flexibility needed to break inappropriate frames; and at the perspectival level, wisdom involves the internalization of a sage — an imaginal model of a wiser self whose perspective restructures one's salience landscape. Sophrosyne is analyzed as the optimal expression of perspectival knowing: the condition in which one's salience landscape is so well cultivated that it naturally tracks the good, as distinguished from enkratia, in which one must effortfully override contrary impulses. The three M's of wisdom are introduced — morality, meaning in life, and mastery — as the domains in which wisdom is applied. Aspiration is given its full role via Callard's proleptic rationality: wisdom is not a state one arrives at but a process one aspires through. Understanding is reconceived as optimal grip plus problem finding, and profound understanding as the plausibility generation that aligns with all four kinds of knowing. The episode culminates in the claim that wisdom is a dynamical system — self-organizing and counteractive to the machinery of self-deception — that affords transformation into the life of flourishing.",
+  "essence": "This episode delivers the capstone of Vervaeke's theory of wisdom, presenting his 2013 model developed with Leo Ferraro. The model identifies three tiers of interacting capacities: at the inferential level, wisdom requires active open-mindedness to counteract motivated reasoning; at the insight level, mindfulness cultivates the attentional flexibility needed to break inappropriate frames; and at the perspectival level, wisdom involves the internalization of a sage, an imaginal model of a wiser self whose perspective restructures one's salience landscape. Sophrosyne is analyzed as the optimal expression of perspectival knowing: the condition in which one's salience landscape is so well cultivated that it naturally tracks the good, as distinguished from enkratia, in which one must effortfully override contrary impulses. The three M's of wisdom are introduced, morality, meaning in life, and mastery, as the domains in which wisdom is applied. Aspiration is given its full role via Callard's proleptic rationality: wisdom is not a state one arrives at but a process one aspires through. Understanding is reconceived as optimal grip plus problem finding, and profound understanding as the plausibility generation that aligns with all four kinds of knowing. The episode culminates in the claim that wisdom is a dynamical system, self-organizing and counteractive to the machinery of self-deception, that affords transformation into the life of flourishing.",
   "keyClaims": [
     "Wisdom is a dynamical system integrating active open-mindedness, insight, and perspectival internalization of a sage, operating at inferential, insight, and perspectival levels respectively.",
     "Sophrosyne is the optimal form of perspectival knowing: the salience landscape so cultivated that virtue is natural rather than requiring effortful enkratic override.",
-    "Profound understanding involves optimal grip plus problem finding across all four kinds of knowing — propositional, procedural, perspectival, and participatory.",
+    "Profound understanding involves optimal grip plus problem finding across all four kinds of knowing, propositional, procedural, perspectival, and participatory.",
     "Wisdom is aspirational and proleptic: one aspires to wisdom from a position not yet wise, and that very aspiration must be wise to avoid self-refutation.",
-    "Gnosis — transformative participatory knowing — is necessary for a complete account of wisdom; without it, wisdom remains a product theory that cannot explain the self-organized transformation it produces."
+    "Gnosis, transformative participatory knowing, is necessary for a complete account of wisdom; without it, wisdom remains a product theory that cannot explain the self-organized transformation it produces."
   ],
   "concepts": [
     {
@@ -34,7 +34,7 @@
     {
       "id": "insight",
       "treatment": "developed",
-      "summary": "The second tier of the wisdom model: mindfulness cultivates the attentional flexibility required for insight — the ability to break inappropriate frames at the right moment."
+      "summary": "The second tier of the wisdom model: mindfulness cultivates the attentional flexibility required for insight, the ability to break inappropriate frames at the right moment."
     },
     {
       "id": "mindfulness",
@@ -49,12 +49,12 @@
     {
       "id": "self-deception",
       "treatment": "applied",
-      "summary": "Wisdom as a dynamical system is defined by its counteraction of the machinery of self-deception — this is the thread that unifies all three tiers of the model."
+      "summary": "Wisdom as a dynamical system is defined by its counteraction of the machinery of self-deception, this is the thread that unifies all three tiers of the model."
     },
     {
       "id": "participatory-knowing",
       "treatment": "applied",
-      "summary": "The deepest level of wisdom — gnosis and sage-internalization — operates through participatory knowing: one is transformed by what one comes to know."
+      "summary": "The deepest level of wisdom, gnosis and sage-internalization, operates through participatory knowing: one is transformed by what one comes to know."
     },
     {
       "id": "anagoge",
@@ -92,7 +92,7 @@
   "quotableMoments": [
     {
       "quote": "We're seeing that wisdom is a dynamical system. A dynamical system that is counteractive to the machinery of self-deception. And that helps to afford the self-organized transformation into the life of flourishing.",
-      "context": "Vervaeke's capstone summary of the wisdom model — wisdom as a self-organizing counteractive system, not a knowledge state."
+      "context": "Vervaeke's capstone summary of the wisdom model, wisdom as a self-organizing counteractive system, not a knowledge state."
     }
   ]
 }

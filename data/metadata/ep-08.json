@@ -2,54 +2,54 @@
   "num": 8,
   "slug": "buddha-and-mindfulness",
   "title": "Buddha and Mindfulness",
-  "essence": "Vervaeke examines the Buddhist tradition as a parallel and complementary diagnosis of the meaning crisis to the Greek and Hebrew Axial currents. The life of Siddhartha Gautama is presented not as hagiography but as a structural myth: the prince who discovers suffering, impermanence, and the possibility of liberation through a middle path between indulgence and asceticism. The episode's central philosophical move is a radical reinterpretation of mindfulness (sati). Against the dominant Western import of mindfulness as focused, nonjudgmental attention to the present moment, Vervaeke argues that sati is literally remembering — but a specific kind of remembering: recalling the being-mode, pulling oneself back from the having-mode absorption that constitutes dukkha. This connects Buddhist practice directly to Fromm's modal distinction from episode 7. Mindfulness is not a spotlight attention technique but a practice of attentional scaling — the ability to move dynamically between gestalt and feature, between the whole context and its components. Vervaeke draws on Ellen Langer's work on mindlessness (automatized, context-blind cognition) and Christopher Mole's attention scholarship to show that attention is not a single faculty but a complex of cognitive functions. The middle path is not compromise but a third option beyond the modal binary: neither indulgence (having-mode) nor ascetic self-denial (a different having-mode trap) but cultivated engagement with reality.",
+  "essence": "Vervaeke examines the Buddhist tradition as a parallel and complementary diagnosis of the meaning crisis to the Greek and Hebrew Axial currents. The life of Siddhartha Gautama is presented not as hagiography but as a structural myth: the prince who discovers suffering, impermanence, and the possibility of liberation through a middle path between indulgence and asceticism. The episode's central philosophical move is a radical reinterpretation of mindfulness (sati). Against the dominant Western import of mindfulness as focused, nonjudgmental attention to the present moment, Vervaeke argues that sati is literally remembering, but a specific kind of remembering: recalling the being-mode, pulling oneself back from the having-mode absorption that constitutes dukkha. This connects Buddhist practice directly to Fromm's modal distinction from episode 7. Mindfulness is not a spotlight attention technique but a practice of attentional scaling, the ability to move dynamically between gestalt and feature, between the whole context and its components. Vervaeke draws on Ellen Langer's work on mindlessness (automatized, context-blind cognition) and Christopher Mole's attention scholarship to show that attention is not a single faculty but a complex of cognitive functions. The middle path is not compromise but a third option beyond the modal binary: neither indulgence (having-mode) nor ascetic self-denial (a different having-mode trap) but cultivated engagement with reality.",
   "keyClaims": [
-    "Sati (mindfulness) means remembering — specifically, remembering the being-mode and pulling oneself out of the having-mode absorption that constitutes suffering.",
+    "Sati (mindfulness) means remembering, specifically, remembering the being-mode and pulling oneself out of the having-mode absorption that constitutes suffering.",
     "Mindfulness is not spotlight attention to the present moment but attentional scaling: the dynamic capacity to move between gestalt and feature, whole and component.",
     "The middle path is not compromise between extremes but a third option: neither indulgence nor asceticism, but cultivated engagement with reality in the being-mode.",
-    "Langer's mindlessness — automatized, context-blind cognition — is the Buddhist analog of modal confusion: the failure of attentional scaling that traps us in the having-mode.",
-    "Buddhist mindfulness practice and Aristotelian virtue cultivation are parallel this-worldly alternatives to Platonic two-worlds escape — both aim at modal reorientation through practice."
+    "Langer's mindlessness, automatized, context-blind cognition, is the Buddhist analog of modal confusion: the failure of attentional scaling that traps us in the having-mode.",
+    "Buddhist mindfulness practice and Aristotelian virtue cultivation are parallel this-worldly alternatives to Platonic two-worlds escape, both aim at modal reorientation through practice."
   ],
   "concepts": [
     {
       "id": "mindfulness",
       "treatment": "developed",
-      "summary": "Sati reinterpreted: not spotlight attention but remembering the being-mode through attentional scaling — the dynamic movement between gestalt and feature levels."
+      "summary": "Sati reinterpreted: not spotlight attention but remembering the being-mode through attentional scaling, the dynamic movement between gestalt and feature levels."
     },
     {
       "id": "having-mode-being-mode",
       "treatment": "developed",
-      "summary": "The Buddhist analysis of dukkha as having-mode absorption — clinging, craving, grasping — maps directly onto Fromm's modal distinction. The middle path is recovery of the being-mode."
+      "summary": "The Buddhist analysis of dukkha as having-mode absorption, clinging, craving, grasping, maps directly onto Fromm's modal distinction. The middle path is recovery of the being-mode."
     },
     {
       "id": "modal-confusion",
       "treatment": "developed",
-      "summary": "Buddhist suffering (dukkha) analyzed as a form of modal confusion — the attempt to satisfy being-mode needs through having-mode strategies of clinging and craving."
+      "summary": "Buddhist suffering (dukkha) analyzed as a form of modal confusion, the attempt to satisfy being-mode needs through having-mode strategies of clinging and craving."
     },
     {
       "id": "attention",
       "treatment": "developed",
-      "summary": "Attention analyzed as not a single spotlight faculty but a complex of scaling functions — drawn on Langer and Mole. Mindfulness cultivates the dynamic scaling of attention."
+      "summary": "Attention analyzed as not a single spotlight faculty but a complex of scaling functions, drawn on Langer and Mole. Mindfulness cultivates the dynamic scaling of attention."
     },
     {
       "id": "dukkha",
       "treatment": "introduced",
-      "summary": "The Buddhist diagnosis of the human condition: not merely pain but the pervasive unsatisfactoriness of having-mode existence — clinging, craving, and the suffering these produce."
+      "summary": "The Buddhist diagnosis of the human condition: not merely pain but the pervasive unsatisfactoriness of having-mode existence, clinging, craving, and the suffering these produce."
     },
     {
       "id": "the-eightfold-path",
       "treatment": "referenced",
-      "summary": "The Buddhist psycho-technology for recovering the being-mode — a systematic practice of attentional and behavioral reorientation."
+      "summary": "The Buddhist psycho-technology for recovering the being-mode, a systematic practice of attentional and behavioral reorientation."
     },
     {
       "id": "psycho-technology",
       "treatment": "applied",
-      "summary": "Buddhist practice framed as a psycho-technology parallel to Platonic logos — a systematic practice for modal reorientation and attentional scaling."
+      "summary": "Buddhist practice framed as a psycho-technology parallel to Platonic logos, a systematic practice for modal reorientation and attentional scaling."
     },
     {
       "id": "self-transcendence",
       "treatment": "applied",
-      "summary": "The Buddhist middle path as a form of self-transcendence — moving beyond the having-mode self toward non-attached engagement with reality."
+      "summary": "The Buddhist middle path as a form of self-transcendence, moving beyond the having-mode self toward non-attached engagement with reality."
     }
   ],
   "people": [
@@ -66,12 +66,12 @@
     {
       "id": "stephen-batchelor",
       "role": "discussed",
-      "summary": "Stephen Batchelor's secular Buddhist interpretation referenced — mindfulness as a this-worldly practice of attentional reorientation rather than a metaphysical claim about nirvana."
+      "summary": "Stephen Batchelor's secular Buddhist interpretation referenced, mindfulness as a this-worldly practice of attentional reorientation rather than a metaphysical claim about nirvana."
     },
     {
       "id": "ellen-langer",
       "role": "discussed",
-      "summary": "Ellen Langer's research on mindlessness — automatized, context-blind cognition — used as empirical support for the Buddhist diagnosis of habitual having-mode absorption."
+      "summary": "Ellen Langer's research on mindlessness, automatized, context-blind cognition, used as empirical support for the Buddhist diagnosis of habitual having-mode absorption."
     },
     {
       "id": "christopher-mole",
@@ -87,7 +87,7 @@
   "crossRefs": [
     {
       "episode": 7,
-      "context": "Fromm's having/being distinction introduced in episode 7 is applied directly to the Buddhist diagnosis — sati as practice of being-mode recovery."
+      "context": "Fromm's having/being distinction introduced in episode 7 is applied directly to the Buddhist diagnosis, sati as practice of being-mode recovery."
     },
     {
       "episode": 1,
@@ -95,7 +95,7 @@
     },
     {
       "episode": 9,
-      "context": "The attentional scaling introduced here — gestalt to feature movement — is extended in episode 9 through Polanyi's from-to structure and the analysis of insight."
+      "context": "The attentional scaling introduced here, gestalt to feature movement, is extended in episode 9 through Polanyi's from-to structure and the analysis of insight."
     }
   ],
   "quotableMoments": []

@@ -2,7 +2,7 @@
   "id": "4e-cognition",
   "title": "4E Cognition",
   "conceptId": "4e-cognition",
-  "abstract": "This course introduces the third-generation cognitive science framework that underlies Vervaeke's entire response to the meaning crisis. You will be able to articulate why mind is not a computer running symbol-manipulation software, and instead how cognition is embodied (arising through sensorimotor coping), embedded (co-constituted with environment through niche construction), enacted (something organisms do rather than passively receive), and extended (distributed through psychotechnologies and social networks). Understanding 4E cognition is essential because it provides the naturalistic worldview in which concepts like relevance realization, participatory knowing, and religio can be coherently situated — replacing the Cartesian ghost-in-machine picture that has made the meaning crisis harder to diagnose and harder to solve.",
+  "abstract": "This course introduces the third-generation cognitive science framework that underlies Vervaeke's entire response to the meaning crisis. You will be able to articulate why mind is not a computer running symbol-manipulation software, and instead how cognition is embodied (arising through sensorimotor coping), embedded (co-constituted with environment through niche construction), enacted (something organisms do rather than passively receive), and extended (distributed through psychotechnologies and social networks). Understanding 4E cognition is essential because it provides the naturalistic worldview in which concepts like relevance realization, participatory knowing, and religio can be coherently situated, replacing the Cartesian ghost-in-machine picture that has made the meaning crisis harder to diagnose and harder to solve.",
   "prerequisites": [],
   "modules": [
     {
@@ -35,7 +35,7 @@
           ]
         },
         {
-          "prompt": "Vervaeke argues that mind 'arises through immediate coping.' What do you think 'immediate' means in this context — and why would directness matter to what cognition is?",
+          "prompt": "Vervaeke argues that mind 'arises through immediate coping.' What do you think 'immediate' means in this context, and why would directness matter to what cognition is?",
           "expectedThemes": [
             "no mediating symbolic layer required",
             "direct sensorimotor engagement",
@@ -43,7 +43,7 @@
           ]
         },
         {
-          "prompt": "How does the idea that mind is embodied change how you would think about improving your thinking — would you change your practices, not just your beliefs?",
+          "prompt": "How does the idea that mind is embodied change how you would think about improving your thinking, would you change your practices, not just your beliefs?",
           "expectedThemes": [
             "practice transforms cognition",
             "body-level habituation matters",
@@ -54,15 +54,15 @@
       "misconceptionBranches": [
         {
           "misconception": "Embodiment means the brain is important to cognition, which everyone already knew.",
-          "correction": "Vervaeke's claim is stronger: cognition is constitutively dependent on sensorimotor interaction with the world — the body is not just the hardware but partly constitutes what thinking is."
+          "correction": "Vervaeke's claim is stronger: cognition is constitutively dependent on sensorimotor interaction with the world, the body is not just the hardware but partly constitutes what thinking is."
         },
         {
           "misconception": "4E cognition denies that the brain uses any internal representations.",
-          "correction": "The claim is not that representations are unimportant, but that they are not the origin or sufficient basis for cognition — representations arise from and serve the coping loop, not the other way around."
+          "correction": "The claim is not that representations are unimportant, but that they are not the origin or sufficient basis for cognition, representations arise from and serve the coping loop, not the other way around."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "In your own words, what is wrong with thinking of the mind as a program and the brain as its computer — and what picture does embodied cognition offer instead?",
+        "prompt": "In your own words, what is wrong with thinking of the mind as a program and the brain as its computer, and what picture does embodied cognition offer instead?",
         "expectedThemes": [
           "rule-manipulation cannot ground immediate coping",
           "mind arises through sensorimotor engagement",
@@ -84,7 +84,7 @@
       ],
       "socraticSeeds": [
         {
-          "prompt": "A fish shapes the water it lives in and is shaped by it — its fins form in response to currents, and its movement creates eddies that other fish respond to. In what sense is the fish 'in' its environment versus 'one with' its environment?",
+          "prompt": "A fish shapes the water it lives in and is shaped by it, its fins form in response to currents, and its movement creates eddies that other fish respond to. In what sense is the fish 'in' its environment versus 'one with' its environment?",
           "expectedThemes": [
             "organism-environment boundary is porous",
             "co-constitution not mere interaction",
@@ -100,7 +100,7 @@
           ]
         },
         {
-          "prompt": "Vervaeke distinguishes being 'in' an environment from being 'embedded' in it. What work does that distinction do — and why might it matter for understanding meaning?",
+          "prompt": "Vervaeke distinguishes being 'in' an environment from being 'embedded' in it. What work does that distinction do, and why might it matter for understanding meaning?",
           "expectedThemes": [
             "embedded means co-constituting",
             "meaning is relational not internal",
@@ -110,16 +110,16 @@
       ],
       "misconceptionBranches": [
         {
-          "misconception": "Embeddedness just means the environment affects behavior — like how a cold room makes you think more slowly.",
+          "misconception": "Embeddedness just means the environment affects behavior, like how a cold room makes you think more slowly.",
           "correction": "Embeddedness in Vervaeke's sense is a co-constituting loop: organism and environment shape and select each other through niche construction, not merely influence each other causally."
         },
         {
           "misconception": "Niche construction is only a biological concept relevant to evolution, not to everyday cognition.",
-          "correction": "Vervaeke applies niche construction to cognition itself — every use of a tool, every psychotechnology, and every cultural institution is a form of cognitive niche construction that co-shapes the mind using it."
+          "correction": "Vervaeke applies niche construction to cognition itself, every use of a tool, every psychotechnology, and every cultural institution is a form of cognitive niche construction that co-shapes the mind using it."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "How does niche construction illustrate the difference between being environmentally influenced and being embedded — and why does this difference matter for how we understand cognition?",
+        "prompt": "How does niche construction illustrate the difference between being environmentally influenced and being embedded, and why does this difference matter for how we understand cognition?",
         "expectedThemes": [
           "bidirectional shaping and selection",
           "co-constituting loop not one-way causation",
@@ -168,11 +168,11 @@
       "misconceptionBranches": [
         {
           "misconception": "Enaction means that all knowledge is constructed by the individual mind and therefore there is no objective reality.",
-          "correction": "Enaction does not deny a real world — it argues that cognition is constituted in the transaction between organism and world, not that the world is invented by the mind."
+          "correction": "Enaction does not deny a real world, it argues that cognition is constituted in the transaction between organism and world, not that the world is invented by the mind."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "Why does Vervaeke say cognition is 'something we enact' rather than something that happens to us — and what consequences does that have for thinking about learning and transformation?",
+        "prompt": "Why does Vervaeke say cognition is 'something we enact' rather than something that happens to us, and what consequences does that have for thinking about learning and transformation?",
         "expectedThemes": [
           "cognition is active not receptive",
           "sensorimotor loop constitutive",
@@ -202,7 +202,7 @@
           ]
         },
         {
-          "prompt": "Language itself is a psychotechnology — it shapes what you can think and remember. In what sense might language be part of your mind rather than just a medium your mind uses?",
+          "prompt": "Language itself is a psychotechnology, it shapes what you can think and remember. In what sense might language be part of your mind rather than just a medium your mind uses?",
           "expectedThemes": [
             "psychotechnology co-constitutes cognition",
             "language restructures salience",
@@ -210,7 +210,7 @@
           ]
         },
         {
-          "prompt": "If your cognition is extended through your social networks and cultural tools, what does that say about what is lost when those networks are disrupted — say, during social isolation or cultural collapse?",
+          "prompt": "If your cognition is extended through your social networks and cultural tools, what does that say about what is lost when those networks are disrupted, say, during social isolation or cultural collapse?",
           "expectedThemes": [
             "extended cognition socially dependent",
             "loss of psychotechnologies damages cognition",
@@ -220,16 +220,16 @@
       ],
       "misconceptionBranches": [
         {
-          "misconception": "Cognitive extension is just a metaphor — in reality the brain is where all real thinking happens.",
+          "misconception": "Cognitive extension is just a metaphor, in reality the brain is where all real thinking happens.",
           "correction": "Vervaeke, following Andy Clark, argues this is a substantive claim: if the functional role of a process in cognition is what makes it cognitive, then external tools performing that function are genuinely part of cognition."
         },
         {
           "misconception": "Extension makes the four E's independent competing theories rather than aspects of one framework.",
-          "correction": "The four E's mutually presuppose the organism-environment loop — each highlights a different aspect of the same fundamental relational structure of cognition."
+          "correction": "The four E's mutually presuppose the organism-environment loop, each highlights a different aspect of the same fundamental relational structure of cognition."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "In what sense is cognitive extension a naturalistic explanation of how wisdom traditions and psychotechnologies work — and how does this differ from a merely sociological account?",
+        "prompt": "In what sense is cognitive extension a naturalistic explanation of how wisdom traditions and psychotechnologies work, and how does this differ from a merely sociological account?",
         "expectedThemes": [
           "psychotechnologies extend and restructure cognition",
           "naturalistic not just cultural",
@@ -251,7 +251,7 @@
       ],
       "socraticSeeds": [
         {
-          "prompt": "Descartes argued that mind and matter are fundamentally different substances. What problems does that create for understanding how we know anything about the world — and how does 4E cognition respond?",
+          "prompt": "Descartes argued that mind and matter are fundamentally different substances. What problems does that create for understanding how we know anything about the world, and how does 4E cognition respond?",
           "expectedThemes": [
             "Cartesian gap between mind and world",
             "4E dissolves the gap via participation",
@@ -259,7 +259,7 @@
           ]
         },
         {
-          "prompt": "If mind is continuous with life and life with self-organizing physical processes, does that reduce mind to mere mechanism — or does it invite a richer understanding of mechanism itself?",
+          "prompt": "If mind is continuous with life and life with self-organizing physical processes, does that reduce mind to mere mechanism, or does it invite a richer understanding of mechanism itself?",
           "expectedThemes": [
             "continuity is not reduction",
             "self-organization has genuine normativity",
@@ -267,7 +267,7 @@
           ]
         },
         {
-          "prompt": "Vervaeke argues that 4E cognition provides the worldview within which religio — the reconnection that addresses the meaning crisis — can be situated naturalistically. What would a non-naturalistic account of religio look like, and why might it be unsatisfying?",
+          "prompt": "Vervaeke argues that 4E cognition provides the worldview within which religio, the reconnection that addresses the meaning crisis, can be situated naturalistically. What would a non-naturalistic account of religio look like, and why might it be unsatisfying?",
           "expectedThemes": [
             "non-naturalistic account requires supernatural",
             "4E naturalizes participation",
@@ -278,11 +278,11 @@
       "misconceptionBranches": [
         {
           "misconception": "4E cognition is anti-scientific because it challenges the computational model that mainstream cognitive science uses.",
-          "correction": "4E cognition is a third-generation cognitive science — it expands the scientific account of mind beyond computational internalism using empirically motivated frameworks from dynamical systems, phenomenology, and enactivism."
+          "correction": "4E cognition is a third-generation cognitive science, it expands the scientific account of mind beyond computational internalism using empirically motivated frameworks from dynamical systems, phenomenology, and enactivism."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "Why does Vervaeke need a 4E cognitive science framework to address the meaning crisis — what would be inadequate about a traditional computational account of mind as a backdrop for his project?",
+        "prompt": "Why does Vervaeke need a 4E cognitive science framework to address the meaning crisis, what would be inadequate about a traditional computational account of mind as a backdrop for his project?",
         "expectedThemes": [
           "computational internalism cannot account for participatory knowing",
           "4E provides naturalistic basis for religio",

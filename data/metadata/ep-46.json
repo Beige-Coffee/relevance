@@ -2,13 +2,13 @@
   "num": 46,
   "slug": "conclusion-prophets-of-meaning-crisis",
   "title": "Conclusion and the Prophets of the Meaning Crisis",
-  "essence": "Vervaeke integrates the wisdom account with his earlier theory of enlightenment and religio, proposing Wise Cultivation of Enlightenment (WCE) as the practical response to the meaning crisis: a cooperative network of communities of practice, embedded within a 4E cognitive science worldview, supported by a wisdom wiki, and engaged in ongoing dialogue with the prophets of the meaning crisis. He draws a detailed roadmap of those prophets — with Heidegger at the center, connected to Tillich, to Jung and Corbin through the gnosis underground, to Barfield through the Romantics, and to speculative realists (Harman) and the Kyoto school (Nishitani) through adjacent movements. The episode then turns to Husserl and phenomenology: intentionality (noesis-noema structure) as the precursor to Heidegger's ontological project, and Vervaeke draws the parallel between the noesis/noema correlation and the agent-arena relationship. He then explains Heidegger's core criticism of Husserl: phenomenology fails to adequately ground participatory knowing in ontology — it remains trapped in Cartesian subjectivity. Merleau-Ponty is credited with partially addressing this through embodiment. The notion of Dasein is introduced: we are the being whose being is in question, and by questing into our own being, we come into contact with being itself.",
+  "essence": "Vervaeke integrates the wisdom account with his earlier theory of enlightenment and religio, proposing Wise Cultivation of Enlightenment (WCE) as the practical response to the meaning crisis: a cooperative network of communities of practice, embedded within a 4E cognitive science worldview, supported by a wisdom wiki, and engaged in ongoing dialogue with the prophets of the meaning crisis. He draws a detailed roadmap of those prophets, with Heidegger at the center, connected to Tillich, to Jung and Corbin through the gnosis underground, to Barfield through the Romantics, and to speculative realists (Harman) and the Kyoto school (Nishitani) through adjacent movements. The episode then turns to Husserl and phenomenology: intentionality (noesis-noema structure) as the precursor to Heidegger's ontological project, and Vervaeke draws the parallel between the noesis/noema correlation and the agent-arena relationship. He then explains Heidegger's core criticism of Husserl: phenomenology fails to adequately ground participatory knowing in ontology, it remains trapped in Cartesian subjectivity. Merleau-Ponty is credited with partially addressing this through embodiment. The notion of Dasein is introduced: we are the being whose being is in question, and by questing into our own being, we come into contact with being itself.",
   "keyClaims": [
     "Wise Cultivation of Enlightenment (WCE) integrates the wisdom account with religio to propose a practical response to the meaning crisis: a cooperative network of communities of practice within a 4E worldview.",
     "Heidegger occupies the center of the prophets diagram, with Tillich, Jung, Corbin, Barfield, speculative realists, and the Kyoto school as connected nodes.",
     "Husserl's phenomenology (noesis-noema intentional structure) is a partial recovery of contact epistemology but remains trapped in Cartesian subjectivity.",
-    "Heidegger's criticism of Husserl is that phenomenology fails to adequately ground participatory knowing in ontology — the agent-arena relationship is not yet set within a deeper understanding of being.",
-    "Dasein — the being whose being is in question — is Heidegger's starting point: by questing into our own being, we simultaneously quest into the mystery of being itself."
+    "Heidegger's criticism of Husserl is that phenomenology fails to adequately ground participatory knowing in ontology, the agent-arena relationship is not yet set within a deeper understanding of being.",
+    "Dasein, the being whose being is in question, is Heidegger's starting point: by questing into our own being, we simultaneously quest into the mystery of being itself."
   ],
   "concepts": [
     {
@@ -19,12 +19,12 @@
     {
       "id": "religio",
       "treatment": "applied",
-      "summary": "The WCE framework centers on religio — the binding back of agent and arena — as enhanced by wisdom practices within communities of practice."
+      "summary": "The WCE framework centers on religio, the binding back of agent and arena, as enhanced by wisdom practices within communities of practice."
     },
     {
       "id": "the-prophets-of-the-meaning-crisis",
       "treatment": "introduced",
-      "summary": "Vervaeke's roadmap of the prophets — Heidegger, Tillich, Jung, Corbin, Barfield, and others — and their connections to each other and to the WCE framework."
+      "summary": "Vervaeke's roadmap of the prophets, Heidegger, Tillich, Jung, Corbin, Barfield, and others, and their connections to each other and to the WCE framework."
     },
     {
       "id": "religion-that-is-not-a-religion",
@@ -39,7 +39,7 @@
     {
       "id": "participatory-knowing",
       "treatment": "applied",
-      "summary": "Heidegger's criticism of Husserl is precisely that phenomenology does not adequately ground participatory knowing — and Vervaeke frames this as the core issue the prophets address."
+      "summary": "Heidegger's criticism of Husserl is precisely that phenomenology does not adequately ground participatory knowing, and Vervaeke frames this as the core issue the prophets address."
     },
     {
       "id": "agent-arena-relationship",

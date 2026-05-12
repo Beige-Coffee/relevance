@@ -2,12 +2,12 @@
   "num": 10,
   "slug": "consciousness",
   "title": "Consciousness",
-  "essence": "Vervaeke opens with a challenge that runs through the rest of the lecture series: the orthodox scientific picture of consciousness as merely epiphenomenal cannot account for why higher states of consciousness feel ontologically superior to ordinary waking life. To address this, he first builds a positive, functional account of consciousness itself. Consciousness, he argues, is not just awareness but the machinery by which relevance realization is made available to the whole cognitive system — the spotlight that lets salience from one domain be integrated and deployed across all domains. He then distinguishes three layered dimensions of the salience landscape: the outer level of perceptual salience ('presence'), the intermediate level of relational depth ('depth'), and the inner level of how salient reality itself is ('realness'). Higher states of consciousness, he proposes, shift all three simultaneously, making the world more present, more deep, and more real. This generates the problem of 'ontonormativity': why do these states not merely feel real but feel normatively demanding — placing a requirement to transform? The episode thus frames the paradox that the coming episodes must resolve: higher states are not mere subjective delusions, yet their authority cannot be grounded in naive realism. Their justification requires a new account of the relationship between consciousness and reality.",
+  "essence": "Vervaeke opens with a challenge that runs through the rest of the lecture series: the orthodox scientific picture of consciousness as merely epiphenomenal cannot account for why higher states of consciousness feel ontologically superior to ordinary waking life. To address this, he first builds a positive, functional account of consciousness itself. Consciousness, he argues, is not just awareness but the machinery by which relevance realization is made available to the whole cognitive system, the spotlight that lets salience from one domain be integrated and deployed across all domains. He then distinguishes three layered dimensions of the salience landscape: the outer level of perceptual salience ('presence'), the intermediate level of relational depth ('depth'), and the inner level of how salient reality itself is ('realness'). Higher states of consciousness, he proposes, shift all three simultaneously, making the world more present, more deep, and more real. This generates the problem of 'ontonormativity': why do these states not merely feel real but feel normatively demanding, placing a requirement to transform? The episode thus frames the paradox that the coming episodes must resolve: higher states are not mere subjective delusions, yet their authority cannot be grounded in naive realism. Their justification requires a new account of the relationship between consciousness and reality.",
   "keyClaims": [
     "Consciousness is the functional capacity to make relevance realization globally available across the whole cognitive system, not a mere by-product of information processing.",
-    "The salience landscape has three nested dimensions — presence (perceptual salience), depth (relational richness), and realness (how salient reality itself appears) — and higher states shift all three simultaneously.",
+    "The salience landscape has three nested dimensions, presence (perceptual salience), depth (relational richness), and realness (how salient reality itself appears), and higher states shift all three simultaneously.",
     "Higher states of consciousness present themselves as ontonormative: they feel more real than ordinary experience and place a demand on the agent to transform in response to that heightened reality.",
-    "The problem of ontonormativity — why HSC feel more real and morally demanding — cannot be explained by ordinary consciousness science and requires a new theoretical framework.",
+    "The problem of ontonormativity, why HSC feel more real and morally demanding, cannot be explained by ordinary consciousness science and requires a new theoretical framework.",
     "Any adequate account of higher states must explain both their distinctive phenomenology and their apparent justificatory force without collapsing into either naive supernaturalism or dismissive reductionism."
   ],
   "concepts": [
@@ -19,12 +19,12 @@
     {
       "id": "relevance-realization",
       "treatment": "developed",
-      "summary": "Identified as the core function that consciousness serves — making relevant information actionable — with the claim that 'The core function of consciousness seems to be to help you realize, become aware of, actualize... Relevance.'"
+      "summary": "Identified as the core function that consciousness serves, making relevant information actionable, with the claim that 'The core function of consciousness seems to be to help you realize, become aware of, actualize... Relevance.'"
     },
     {
       "id": "salience-landscape",
       "treatment": "developed",
-      "summary": "Elaborated into three nested levels: presence (outer perceptual salience), depth (relational richness), and realness (how salient reality itself is) — all three shift in higher states."
+      "summary": "Elaborated into three nested levels: presence (outer perceptual salience), depth (relational richness), and realness (how salient reality itself is), all three shift in higher states."
     },
     {
       "id": "higher-states-of-consciousness",
@@ -39,12 +39,12 @@
     {
       "id": "ontonormativity",
       "treatment": "introduced",
-      "summary": "Named and defined as the dual property of HSC — they feel ontologically more real AND normatively demanding, requiring the agent to transform in response to that heightened reality."
+      "summary": "Named and defined as the dual property of HSC, they feel ontologically more real AND normatively demanding, requiring the agent to transform in response to that heightened reality."
     },
     {
       "id": "the-four-kinds-of-knowing",
       "treatment": "applied",
-      "summary": "Used to explain why consciousness cannot be reduced to propositional knowing — it is the machinery that integrates perspectival and participatory knowing across the system."
+      "summary": "Used to explain why consciousness cannot be reduced to propositional knowing, it is the machinery that integrates perspectival and participatory knowing across the system."
     },
     {
       "id": "transjective-relations",
@@ -80,7 +80,7 @@
     },
     {
       "episode": 12,
-      "context": "The prescriptive account of how HSC are generated — and Newberg's brain model — answers the explanatory gap opened in this episode."
+      "context": "The prescriptive account of how HSC are generated, and Newberg's brain model, answers the explanatory gap opened in this episode."
     }
   ],
   "quotableMoments": [

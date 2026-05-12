@@ -49,7 +49,7 @@ export function RenderedText({ text }: { text: string }) {
 }
 
 function wrapStrings(children: ReactNode): ReactNode {
-  // ReactMarkdown gives us mixed children — we only decorate plain string leaves.
+  // ReactMarkdown gives us mixed children, we only decorate plain string leaves.
   if (Array.isArray(children)) {
     return children.map((c, i) => (typeof c === "string" ? <span key={i}>{decorate(c)}</span> : c));
   }

@@ -2,49 +2,49 @@
   "num": 6,
   "slug": "aristotle-kant-evolution",
   "title": "Aristotle, Kant, and Evolution",
-  "essence": "Aristotle accepts Plato's diagnosis — the psyche is divided, inner conflict is real — but rejects the two-worlds solution. Instead of anagoge toward a separate realm of Forms, Aristotle proposes a this-worldly developmental account: virtue is acquired through practice, not contemplation of transcendent truth; the soul's actualization occurs through engagement with the world, not escape from it. Vervaeke uses Aristotle's concepts of form/matter and actuality/potentiality to show that Aristotle's metaphysics is fundamentally about development — things have an inherent trajectory toward their proper actualization. The challenge is explaining why development fails: why do people fail to actualize their potential? Here Vervaeke introduces Alicia Juarrero's dynamical systems account of complex adaptive systems and the concept of the 'virtual engine' — a system of enabling and selective constraints that creates a feedback loop between organism and environment, making growth and self-organization possible. Akrasia (weakness of will, acting against one's better judgment) is analyzed as a failure of the virtual engine — a breakdown in the constraint system that normally coordinates appetite and reason. Character, for Aristotle, is the stabilized pattern of virtual engine functioning that makes reliable virtue possible. The episode bridges ancient virtue ethics to contemporary complexity theory and cognitive science.",
+  "essence": "Aristotle accepts Plato's diagnosis, the psyche is divided, inner conflict is real, but rejects the two-worlds solution. Instead of anagoge toward a separate realm of Forms, Aristotle proposes a this-worldly developmental account: virtue is acquired through practice, not contemplation of transcendent truth; the soul's actualization occurs through engagement with the world, not escape from it. Vervaeke uses Aristotle's concepts of form/matter and actuality/potentiality to show that Aristotle's metaphysics is fundamentally about development, things have an inherent trajectory toward their proper actualization. The challenge is explaining why development fails: why do people fail to actualize their potential? Here Vervaeke introduces Alicia Juarrero's dynamical systems account of complex adaptive systems and the concept of the 'virtual engine', a system of enabling and selective constraints that creates a feedback loop between organism and environment, making growth and self-organization possible. Akrasia (weakness of will, acting against one's better judgment) is analyzed as a failure of the virtual engine, a breakdown in the constraint system that normally coordinates appetite and reason. Character, for Aristotle, is the stabilized pattern of virtual engine functioning that makes reliable virtue possible. The episode bridges ancient virtue ethics to contemporary complexity theory and cognitive science.",
   "keyClaims": [
     "Aristotle accepts Plato's diagnosis of psychic division but rejects the two-worlds solution in favor of this-worldly developmental actualization.",
     "Form and matter in Aristotle's metaphysics describe a developmental trajectory: things have an inherent direction toward their proper actualization.",
-    "Juarrero's virtual engine — a system of enabling and selective constraints in a feedback loop — provides a dynamical systems account of how growth and self-organization are possible.",
+    "Juarrero's virtual engine, a system of enabling and selective constraints in a feedback loop, provides a dynamical systems account of how growth and self-organization are possible.",
     "Akrasia is a failure of the virtual engine: a breakdown in the constraint system that normally coordinates appetite and reason toward good action.",
-    "Character is the stabilized pattern of virtual engine functioning that makes reliable virtue possible — it is a kind of second nature."
+    "Character is the stabilized pattern of virtual engine functioning that makes reliable virtue possible, it is a kind of second nature."
   ],
   "concepts": [
     {
       "id": "virtue",
       "treatment": "introduced",
-      "summary": "Aristotelian virtue as acquired through practice rather than contemplation of Forms — a second nature achieved through habituated action that stabilizes the virtual engine."
+      "summary": "Aristotelian virtue as acquired through practice rather than contemplation of Forms, a second nature achieved through habituated action that stabilizes the virtual engine."
     },
     {
       "id": "akrasia",
       "treatment": "introduced",
-      "summary": "Weakness of will — acting against one's better judgment — analyzed as a failure of the virtual engine, a breakdown in the constraint system coordinating appetite and reason."
+      "summary": "Weakness of will, acting against one's better judgment, analyzed as a failure of the virtual engine, a breakdown in the constraint system coordinating appetite and reason."
     },
     {
       "id": "wisdom",
       "treatment": "developed",
-      "summary": "Phronesis (practical wisdom) as Aristotle's alternative to Platonic anagoge — the capacity to discern the right action in context, developed through habituation and experience."
+      "summary": "Phronesis (practical wisdom) as Aristotle's alternative to Platonic anagoge, the capacity to discern the right action in context, developed through habituation and experience."
     },
     {
       "id": "inner-conflict",
       "treatment": "introduced",
-      "summary": "Aristotle accepts Plato's diagnosis that the psyche is genuinely divided — the task is integrating the parts through virtuous practice, not escaping to a higher realm."
+      "summary": "Aristotle accepts Plato's diagnosis that the psyche is genuinely divided, the task is integrating the parts through virtuous practice, not escaping to a higher realm."
     },
     {
       "id": "structural-functional-organization",
       "treatment": "introduced",
-      "summary": "The form/matter distinction reread as describing the structural-functional organization of things — what something is organized to do, its proper trajectory of actualization."
+      "summary": "The form/matter distinction reread as describing the structural-functional organization of things, what something is organized to do, its proper trajectory of actualization."
     },
     {
       "id": "4e-cognition",
       "treatment": "referenced",
-      "summary": "Juarrero's dynamical systems account connects Aristotle's development to contemporary 4E cognition — cognition as embodied, embedded, enacted, and extended."
+      "summary": "Juarrero's dynamical systems account connects Aristotle's development to contemporary 4E cognition, cognition as embodied, embedded, enacted, and extended."
     },
     {
       "id": "the-meaning-crisis",
       "treatment": "developed",
-      "summary": "Aristotle's developmental account represents an alternative meaning-making framework to Plato's — but one that will also be disrupted by historical transformations."
+      "summary": "Aristotle's developmental account represents an alternative meaning-making framework to Plato's, but one that will also be disrupted by historical transformations."
     }
   ],
   "people": [
@@ -61,7 +61,7 @@
     {
       "id": "kant",
       "role": "discussed",
-      "summary": "Kant's categorical imperative discussed as an attempt to ground morality in pure practical reason — contrasted with Aristotle's virtue ethics as competing responses to the same problem."
+      "summary": "Kant's categorical imperative discussed as an attempt to ground morality in pure practical reason, contrasted with Aristotle's virtue ethics as competing responses to the same problem."
     },
     {
       "id": "varela",
@@ -90,7 +90,7 @@
     },
     {
       "episode": 4,
-      "context": "Akrasia is the philosophical analysis of what Socratic practice aimed to cure — the failure to act in accordance with one's better judgment."
+      "context": "Akrasia is the philosophical analysis of what Socratic practice aimed to cure, the failure to act in accordance with one's better judgment."
     }
   ],
   "quotableMoments": []

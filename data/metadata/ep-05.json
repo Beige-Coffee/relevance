@@ -2,19 +2,19 @@
   "num": 5,
   "slug": "plato-and-the-cave",
   "title": "Plato and the Cave",
-  "essence": "Plato responds to the murder of Socrates by systematizing his teacher's practice into a comprehensive metaphysics — and, crucially, a theory of education and self-transformation. The key concept is anagoge: the reciprocal acceleration of contact with reality and inner integration, the ascent that is simultaneously an outward movement toward the real and an inward movement toward psychic wholeness. The divided psyche — reason, spirit, appetite — is not a tripartite faculty theory but a description of the conditions of inner conflict and integration; the person ruled by appetite is the person most enslaved to the cave's shadows. Vervaeke uses hyperbolic discounting to explain why the cave is not Plato's condescension toward ordinary people but a cognitive-science-grounded diagnosis: we are built to treat vivid, immediate, socially reinforced stimuli as more real than abstract, temporally distant truths. The myth of the cave is therefore a description of how humans are cognitively constituted, not merely a moral fable. Logos — rational, dialogic discourse — is the psycho-technology of anagoge; it is opposed to mythos not as truth to fiction but as a mode of transformation to a mode of participation. The episode introduces Aristotle as the student who will contest Plato's two-worlds solution while sharing his diagnosis of the problem.",
+  "essence": "Plato responds to the murder of Socrates by systematizing his teacher's practice into a comprehensive metaphysics, and, crucially, a theory of education and self-transformation. The key concept is anagoge: the reciprocal acceleration of contact with reality and inner integration, the ascent that is simultaneously an outward movement toward the real and an inward movement toward psychic wholeness. The divided psyche, reason, spirit, appetite, is not a tripartite faculty theory but a description of the conditions of inner conflict and integration; the person ruled by appetite is the person most enslaved to the cave's shadows. Vervaeke uses hyperbolic discounting to explain why the cave is not Plato's condescension toward ordinary people but a cognitive-science-grounded diagnosis: we are built to treat vivid, immediate, socially reinforced stimuli as more real than abstract, temporally distant truths. The myth of the cave is therefore a description of how humans are cognitively constituted, not merely a moral fable. Logos, rational, dialogic discourse, is the psycho-technology of anagoge; it is opposed to mythos not as truth to fiction but as a mode of transformation to a mode of participation. The episode introduces Aristotle as the student who will contest Plato's two-worlds solution while sharing his diagnosis of the problem.",
   "keyClaims": [
-    "Anagoge is Plato's central concept: the reciprocal acceleration of contact with reality and inner psychic integration — ascent is simultaneously outward (toward the real) and inward (toward wholeness).",
+    "Anagoge is Plato's central concept: the reciprocal acceleration of contact with reality and inner psychic integration, ascent is simultaneously outward (toward the real) and inward (toward wholeness).",
     "The myth of the cave is grounded in the cognitive reality of hyperbolic discounting: humans are built to treat vivid, immediate stimuli as more real than abstract truths.",
     "The divided psyche (reason, spirit, appetite) describes conditions of inner conflict and integration, not a faculty psychology; slavery to appetite is slavery to the cave.",
-    "Logos is the psycho-technology of anagoge — not opposed to mythos as truth to fiction but as a mode of transformation to a mode of participation.",
+    "Logos is the psycho-technology of anagoge, not opposed to mythos as truth to fiction but as a mode of transformation to a mode of participation.",
     "Plato's response to Socrates' death is to institutionalize philosophy (the Academy) as the social form of anagoge."
   ],
   "concepts": [
     {
       "id": "anagoge",
       "treatment": "introduced",
-      "summary": "The reciprocal acceleration of contact with reality and inner integration — Plato's core concept of philosophical ascent as both epistemic and psychic transformation."
+      "summary": "The reciprocal acceleration of contact with reality and inner integration, Plato's core concept of philosophical ascent as both epistemic and psychic transformation."
     },
     {
       "id": "the-divided-psyche",
@@ -29,22 +29,22 @@
     {
       "id": "the-platonic-project",
       "treatment": "introduced",
-      "summary": "The comprehensive philosophical program of educating the soul through anagoge — systematizing Socratic self-examination into a theory of knowledge, reality, and transformation."
+      "summary": "The comprehensive philosophical program of educating the soul through anagoge, systematizing Socratic self-examination into a theory of knowledge, reality, and transformation."
     },
     {
       "id": "the-good",
       "treatment": "introduced",
-      "summary": "The Form of the Good — the highest reality in Plato's metaphysics — analogous to the sun in the cave allegory; the endpoint of anagoge."
+      "summary": "The Form of the Good, the highest reality in Plato's metaphysics, analogous to the sun in the cave allegory; the endpoint of anagoge."
     },
     {
       "id": "mythos-vs-logos",
       "treatment": "introduced",
-      "summary": "Logos is the psycho-technology of anagoge — not opposed to mythos as truth to fiction but as a mode that enables self-transcendence versus a mode of participatory embedding."
+      "summary": "Logos is the psycho-technology of anagoge, not opposed to mythos as truth to fiction but as a mode that enables self-transcendence versus a mode of participatory embedding."
     },
     {
       "id": "hyperbolic-discounting",
       "treatment": "applied",
-      "summary": "Used to explain the cave: humans discount abstract, temporally distant truths in favor of vivid, immediate, socially reinforced stimuli — making the cave a cognitive-science fact, not a moral fable."
+      "summary": "Used to explain the cave: humans discount abstract, temporally distant truths in favor of vivid, immediate, socially reinforced stimuli, making the cave a cognitive-science fact, not a moral fable."
     },
     {
       "id": "two-worlds-mythology",
@@ -54,7 +54,7 @@
     {
       "id": "wisdom",
       "treatment": "developed",
-      "summary": "The philosopher-king is the person whose anagoge is complete — whose psychic integration and epistemic contact with the Forms are mutually reinforcing."
+      "summary": "The philosopher-king is the person whose anagoge is complete, whose psychic integration and epistemic contact with the Forms are mutually reinforcing."
     }
   ],
   "people": [
@@ -81,7 +81,7 @@
     {
       "id": "freud",
       "role": "referenced",
-      "summary": "Freud's id/ego/superego structure referenced as a modern parallel to Plato's divided psyche — appetitive/rational/spiritual."
+      "summary": "Freud's id/ego/superego structure referenced as a modern parallel to Plato's divided psyche, appetitive/rational/spiritual."
     }
   ],
   "crossRefs": [
@@ -95,7 +95,7 @@
     },
     {
       "episode": 6,
-      "context": "Aristotle's challenge to Plato's two-worlds solution — and his alternative account of development and virtue — is the subject of episode 6."
+      "context": "Aristotle's challenge to Plato's two-worlds solution, and his alternative account of development and virtue, is the subject of episode 6."
     }
   ],
   "quotableMoments": []

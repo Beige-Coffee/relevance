@@ -2,44 +2,44 @@
   "num": 9,
   "slug": "insight",
   "title": "Insight",
-  "essence": "Vervaeke investigates insight as the cognitive mechanism underlying the transformative experiences at the heart of all the wisdom traditions examined so far. The framework is Michael Polanyi's from-to structure: all knowing involves attending from something transparent (the proximal pole) to something focal (the distal pole). This structure has a scaling dimension — attention can move between gestalt and feature, whole and part. Insight is a radical reorganization of this scaling: what was transparent becomes opaque, figure becomes ground, and a new gestalt suddenly appears. This unifies the Buddhist attentional scaling of episode 8 and Platonic anagoge as different instances of from-to restructuring. Vervaeke then scales upward to higher states of consciousness (HSC) — a subset of altered states felt as more real than ordinary waking life. These include pure consciousness events, resonant at-onement, and non-dual states. Quantum change experiences — studied by Anderson-Todd, Yaden, and Kim — show that insight can reorganize an entire life's meaning structure in a single event. Mystical experience is thus cognitively continuous with ordinary problem-solving insight: both are reorganizations of the from-to structure, differing in scope — the mystical scales to encompass the entire agent-arena relationship.",
+  "essence": "Vervaeke investigates insight as the cognitive mechanism underlying the transformative experiences at the heart of all the wisdom traditions examined so far. The framework is Michael Polanyi's from-to structure: all knowing involves attending from something transparent (the proximal pole) to something focal (the distal pole). This structure has a scaling dimension, attention can move between gestalt and feature, whole and part. Insight is a radical reorganization of this scaling: what was transparent becomes opaque, figure becomes ground, and a new gestalt suddenly appears. This unifies the Buddhist attentional scaling of episode 8 and Platonic anagoge as different instances of from-to restructuring. Vervaeke then scales upward to higher states of consciousness (HSC), a subset of altered states felt as more real than ordinary waking life. These include pure consciousness events, resonant at-onement, and non-dual states. Quantum change experiences, studied by Anderson-Todd, Yaden, and Kim, show that insight can reorganize an entire life's meaning structure in a single event. Mystical experience is thus cognitively continuous with ordinary problem-solving insight: both are reorganizations of the from-to structure, differing in scope, the mystical scales to encompass the entire agent-arena relationship.",
   "keyClaims": [
-    "Polanyi's from-to structure governs all knowing: you attend from proximal, transparent elements to distal focal targets — and this structure has a scaling dimension.",
+    "Polanyi's from-to structure governs all knowing: you attend from proximal, transparent elements to distal focal targets, and this structure has a scaling dimension.",
     "Insight is a radical reorganization of the from-to structure: what was transparent becomes opaque, what was figure becomes ground, and a new gestalt is suddenly apparent.",
-    "Higher states of consciousness are a subset of altered states felt as more real than ordinary waking life — they are experiences of a deeper contact with reality, not less.",
-    "Quantum change — a sudden, permanent restructuring of an entire life's meaning organization — demonstrates that insight can operate at the level of the whole agent-arena relationship.",
+    "Higher states of consciousness are a subset of altered states felt as more real than ordinary waking life, they are experiences of a deeper contact with reality, not less.",
+    "Quantum change, a sudden, permanent restructuring of an entire life's meaning organization, demonstrates that insight can operate at the level of the whole agent-arena relationship.",
     "Mystical experience is cognitively continuous with ordinary insight: it is the from-to structure scaled up to encompass the entirety of the agent-arena relationship."
   ],
   "concepts": [
     {
       "id": "insight",
       "treatment": "developed",
-      "summary": "Analyzed as a radical reorganization of Polanyi's from-to structure — transparency-opacity reversal that generates a new gestalt. The cognitive mechanism underlying wisdom-tradition transformation."
+      "summary": "Analyzed as a radical reorganization of Polanyi's from-to structure, transparency-opacity reversal that generates a new gestalt. The cognitive mechanism underlying wisdom-tradition transformation."
     },
     {
       "id": "attention",
       "treatment": "developed",
-      "summary": "The from-to structure analyzed as attentional scaling — the dynamic movement between gestalt and feature, transparency and opacity. Deepens the attentional analysis from episode 8."
+      "summary": "The from-to structure analyzed as attentional scaling, the dynamic movement between gestalt and feature, transparency and opacity. Deepens the attentional analysis from episode 8."
     },
     {
       "id": "altered-states-of-consciousness",
       "treatment": "developed",
-      "summary": "Examined as a spectrum; not all ASCs are cognitively or spiritually significant. Higher states of consciousness are the significant subset — felt as more real than ordinary waking life."
+      "summary": "Examined as a spectrum; not all ASCs are cognitively or spiritually significant. Higher states of consciousness are the significant subset, felt as more real than ordinary waking life."
     },
     {
       "id": "higher-states-of-consciousness",
       "treatment": "introduced",
-      "summary": "A subset of ASCs felt as more real than ordinary waking life — including pure consciousness events, resonant at-onement, and non-dual states. Cognitively significant, not merely pleasant."
+      "summary": "A subset of ASCs felt as more real than ordinary waking life, including pure consciousness events, resonant at-onement, and non-dual states. Cognitively significant, not merely pleasant."
     },
     {
       "id": "consciousness",
       "treatment": "developed",
-      "summary": "The structure of consciousness analyzed via the from-to framework: consciousness is always consciousness of something via something — the from-to structure is constitutive of experience."
+      "summary": "The structure of consciousness analyzed via the from-to framework: consciousness is always consciousness of something via something, the from-to structure is constitutive of experience."
     },
     {
       "id": "transframing",
       "treatment": "introduced",
-      "summary": "The radical restructuring of the entire frame through which experience is organized — the cognitive description of what mystical insight and quantum change accomplish."
+      "summary": "The radical restructuring of the entire frame through which experience is organized, the cognitive description of what mystical insight and quantum change accomplish."
     },
     {
       "id": "anagoge",
@@ -54,14 +54,14 @@
     {
       "id": "flow",
       "treatment": "applied",
-      "summary": "Flow state connected to the from-to structure: in flow, the entire action-environment complex becomes transparent and one attends from it to the task itself — maximum efficiency."
+      "summary": "Flow state connected to the from-to structure: in flow, the entire action-environment complex becomes transparent and one attends from it to the task itself, maximum efficiency."
     }
   ],
   "people": [
     {
       "id": "polanyi",
       "role": "discussed",
-      "summary": "Michael Polanyi's from-to structure of knowing — the tacit dimension, transparency-opacity, proximal-distal — is the episode's central theoretical framework."
+      "summary": "Michael Polanyi's from-to structure of knowing, the tacit dimension, transparency-opacity, proximal-distal, is the episode's central theoretical framework."
     },
     {
       "id": "christopher-mole",
@@ -86,7 +86,7 @@
     {
       "id": "siddhartha-gautama",
       "role": "referenced",
-      "summary": "The Buddha's enlightenment reread as a maximal instance of quantum change — a complete reorganization of the agent-arena relationship through insight."
+      "summary": "The Buddha's enlightenment reread as a maximal instance of quantum change, a complete reorganization of the agent-arena relationship through insight."
     }
   ],
   "crossRefs": [
@@ -100,7 +100,7 @@
     },
     {
       "episode": 1,
-      "context": "Shamanic altered states of consciousness connect to the higher states of consciousness analyzed here — both involve systematic scaling of the from-to structure beyond ordinary parameters."
+      "context": "Shamanic altered states of consciousness connect to the higher states of consciousness analyzed here, both involve systematic scaling of the from-to structure beyond ordinary parameters."
     },
     {
       "episode": 2,

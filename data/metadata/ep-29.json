@@ -2,14 +2,14 @@
   "num": 29,
   "slug": "depths-of-relevance-realization",
   "title": "Getting to the Depths of Relevance Realization",
-  "essence": "Episode 29 digs beneath the convergence argument to ask: what would a scientific theory of relevance realization look like, and why is one possible even though a theory of relevance itself is not? Vervaeke surveys three candidate explanations of relevance realization—representation, computation, and modularity—and argues all three are inadequate because each presupposes the very relevance-sensitivity it claims to explain. Representations are aspectual: they select relevant features from an infinite space of true properties, already presupposing relevance realization. Computation requires inference rather than mere implication, and choosing which implications to pursue presupposes relevance; rules always require interpretation, and the skill of interpretation is itself relevance realization. Modularity fails because relevance realization must operate simultaneously at multiple scales (feature and gestalt) and cannot be localized to a single module. Pylyshyn's Multiple Object Tracking research establishes a pre-categorical, sub-representational form of cognition—FINSTING (Fingers of Instantiation)—that tracks things by their hereness-nowness alone, before categorization. This sub-semantic, enactive demonstrative reference is the foundational layer on which all representation and categorization depend—pointing toward the participatory as the ground of the propositional. The episode closes with a crucial asymmetry: we cannot have a scientific theory of relevance (what makes things matter), but we can and must have a theory of relevance realization (the process by which organisms zero in)—and this asymmetry turns out to illuminate deep truths about meaning, spirituality, and human transformation.",
+  "essence": "Episode 29 digs beneath the convergence argument to ask: what would a scientific theory of relevance realization look like, and why is one possible even though a theory of relevance itself is not? Vervaeke surveys three candidate explanations of relevance realization, representation, computation, and modularity, and argues all three are inadequate because each presupposes the very relevance-sensitivity it claims to explain. Representations are aspectual: they select relevant features from an infinite space of true properties, already presupposing relevance realization. Computation requires inference rather than mere implication, and choosing which implications to pursue presupposes relevance; rules always require interpretation, and the skill of interpretation is itself relevance realization. Modularity fails because relevance realization must operate simultaneously at multiple scales (feature and gestalt) and cannot be localized to a single module. Pylyshyn's Multiple Object Tracking research establishes a pre-categorical, sub-representational form of cognition, FINSTING (Fingers of Instantiation), that tracks things by their hereness-nowness alone, before categorization. This sub-semantic, enactive demonstrative reference is the foundational layer on which all representation and categorization depend, pointing toward the participatory as the ground of the propositional. The episode closes with a crucial asymmetry: we cannot have a scientific theory of relevance (what makes things matter), but we can and must have a theory of relevance realization (the process by which organisms zero in), and this asymmetry turns out to illuminate deep truths about meaning, spirituality, and human transformation.",
   "keyClaims": [
-    "Representations are aspectual: every representation selects a subset of a thing's infinite true properties, and this selection already presupposes relevance realization—so representations cannot be its causal origin.",
+    "Representations are aspectual: every representation selects a subset of a thing's infinite true properties, and this selection already presupposes relevance realization, so representations cannot be its causal origin.",
     "Computation requires inference (choosing which implications to pursue) rather than mere logical implication; choosing which implications are relevant presupposes relevance, so computation cannot ground relevance realization.",
-    "The skill of following rules always requires interpretation—knowing how to apply the rule in this context—and this interpretive skill (what Wittgenstein calls a form of life) is itself relevance realization, not reducible to any rule.",
-    "Modularity fails because relevance realization must operate simultaneously at local and global scales (feature and gestalt) in a self-organizing fashion—no single brain module can house it.",
-    "Pylyshyn's FINSTING (Multiple Object Tracking) reveals a pre-categorical, sub-representational cognitive capacity: tracking things by hereness-nowness alone, before any categorization—the foundational layer on which all representation depends.",
-    "We cannot have a scientific theory of relevance (what makes things matter) but we can have a theory of relevance realization (the process of zeroing in)—and this distinction is the key to understanding both cognition and spirituality."
+    "The skill of following rules always requires interpretation, knowing how to apply the rule in this context, and this interpretive skill (what Wittgenstein calls a form of life) is itself relevance realization, not reducible to any rule.",
+    "Modularity fails because relevance realization must operate simultaneously at local and global scales (feature and gestalt) in a self-organizing fashion, no single brain module can house it.",
+    "Pylyshyn's FINSTING (Multiple Object Tracking) reveals a pre-categorical, sub-representational cognitive capacity: tracking things by hereness-nowness alone, before any categorization, the foundational layer on which all representation depends.",
+    "We cannot have a scientific theory of relevance (what makes things matter) but we can have a theory of relevance realization (the process of zeroing in), and this distinction is the key to understanding both cognition and spirituality."
   ],
   "concepts": [
     {
@@ -20,27 +20,27 @@
     {
       "id": "the-four-kinds-of-knowing",
       "treatment": "developed",
-      "summary": "The hierarchy of dependence runs propositional → procedural → perspectival → participatory: propositional knowing depends on procedural skill (Wittgenstein), procedural skill on situational awareness (perspectival), and situational awareness on the agent-arena fit (participatory)—grounding all knowing in participatory relevance realization."
+      "summary": "The hierarchy of dependence runs propositional → procedural → perspectival → participatory: propositional knowing depends on procedural skill (Wittgenstein), procedural skill on situational awareness (perspectival), and situational awareness on the agent-arena fit (participatory), grounding all knowing in participatory relevance realization."
     },
     {
       "id": "participatory-knowing",
       "treatment": "developed",
-      "summary": "The participatory level is identified as the ultimate ground of all higher forms of knowing: perspectival knowing depends on agent-arena fit, which is participatory—pointing to participatory relevance realization as the foundation that cannot be further reduced."
+      "summary": "The participatory level is identified as the ultimate ground of all higher forms of knowing: perspectival knowing depends on agent-arena fit, which is participatory, pointing to participatory relevance realization as the foundation that cannot be further reduced."
     },
     {
       "id": "perspectival-knowing",
       "treatment": "developed",
-      "summary": "Situational awareness—the perspectival knowing that shapes how skills are applied—depends on the conformity relation between agent and arena: one cannot exercise skilled judgment without an already-functioning relevance realization at the participatory level."
+      "summary": "Situational awareness, the perspectival knowing that shapes how skills are applied, depends on the conformity relation between agent and arena: one cannot exercise skilled judgment without an already-functioning relevance realization at the participatory level."
     },
     {
       "id": "propositional-knowing",
       "treatment": "developed",
-      "summary": "Fodor's and Wittgenstein's arguments show that propositional knowing (following rules, making inferences) always depends on procedural skill—one cannot apply a proposition without the skill of judgment about what is relevant in this context."
+      "summary": "Fodor's and Wittgenstein's arguments show that propositional knowing (following rules, making inferences) always depends on procedural skill, one cannot apply a proposition without the skill of judgment about what is relevant in this context."
     },
     {
       "id": "consciousness",
       "treatment": "applied",
-      "summary": "Higher states of consciousness are briefly connected to FINSTING and pre-categorical hereness-nowness: the ineffable, non-conceptual, maximally present quality of mystical experience corresponds to pure enactive demonstrative reference—the sub-representational ground of relevance realization."
+      "summary": "Higher states of consciousness are briefly connected to FINSTING and pre-categorical hereness-nowness: the ineffable, non-conceptual, maximally present quality of mystical experience corresponds to pure enactive demonstrative reference, the sub-representational ground of relevance realization."
     }
   ],
   "people": [
@@ -62,7 +62,7 @@
     {
       "id": "plato",
       "role": "referenced",
-      "summary": "Plato's insight that the parts of the psyche must be connected in the right (relevant) way is invoked: relevance realization is the process by which parts of self, parts of world, self and world are correctly connected—echoing Plato's account of wisdom."
+      "summary": "Plato's insight that the parts of the psyche must be connected in the right (relevant) way is invoked: relevance realization is the process by which parts of self, parts of world, self and world are correctly connected, echoing Plato's account of wisdom."
     }
   ],
   "crossRefs": [
@@ -72,7 +72,7 @@
     },
     {
       "episode": 5,
-      "context": "The four kinds of knowing first established in episode 5 are now shown to have an asymmetric dependency structure running from propositional down to participatory—participatory is the ground, not one of four equals."
+      "context": "The four kinds of knowing first established in episode 5 are now shown to have an asymmetric dependency structure running from propositional down to participatory, participatory is the ground, not one of four equals."
     },
     {
       "episode": 12,

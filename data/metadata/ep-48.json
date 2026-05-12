@@ -2,13 +2,13 @@
   "num": 48,
   "slug": "corbin-divine-double",
   "title": "Corbin and the Divine Double",
-  "essence": "Vervaeke turns to Henry Corbin as the thinker who develops Heidegger's gnosis through the specific resources of Persian Sufism and Neoplatonism. Beginning with Heidegger's commentary on the rose poem of Angelus Silesius, Vervaeke draws the contrast between narrative teleology and vertical ontology: the rose blooms without why, grounding itself in itself, and this non-teleological being mode is what physis means. This is exapted from narrative into a vertical movement from the shallower frame of the current self toward the depths of being. Corbin's central contribution is the distinction between the imaginary (subjective mental imagery, merely possessed) and the imaginal: the transjective use of image that mediates between the abstract intelligible world and the concrete sensible world, and between subjective and objective — in an ongoing transformative transframing. The symbol in Corbin's sense is translucent, transjective, trajective, transformative, and transtemporal. Fundamentalism and literalism destroy the imaginal by collapsing it into either the abstract or the concrete, ending gnosis. The divine double is then introduced: the motif prevalent across Hellenistic Mediterranean spirituality (Stang's scholarship) of a superlative self to which one's current self is bound and toward which one aspires. The divine double as imaginal symbol allows one to internalize a more encompassing frame into one's current frame (the shining in) while being drawn toward the indwelling of that larger world (the withdrawing). LA Paul's transformative experience and Callard's aspiration are brought in as the analytic philosophy of the same process.",
+  "essence": "Vervaeke turns to Henry Corbin as the thinker who develops Heidegger's gnosis through the specific resources of Persian Sufism and Neoplatonism. Beginning with Heidegger's commentary on the rose poem of Angelus Silesius, Vervaeke draws the contrast between narrative teleology and vertical ontology: the rose blooms without why, grounding itself in itself, and this non-teleological being mode is what physis means. This is exapted from narrative into a vertical movement from the shallower frame of the current self toward the depths of being. Corbin's central contribution is the distinction between the imaginary (subjective mental imagery, merely possessed) and the imaginal: the transjective use of image that mediates between the abstract intelligible world and the concrete sensible world, and between subjective and objective, in an ongoing transformative transframing. The symbol in Corbin's sense is translucent, transjective, trajective, transformative, and transtemporal. Fundamentalism and literalism destroy the imaginal by collapsing it into either the abstract or the concrete, ending gnosis. The divine double is then introduced: the motif prevalent across Hellenistic Mediterranean spirituality (Stang's scholarship) of a superlative self to which one's current self is bound and toward which one aspires. The divine double as imaginal symbol allows one to internalize a more encompassing frame into one's current frame (the shining in) while being drawn toward the indwelling of that larger world (the withdrawing). LA Paul's transformative experience and Callard's aspiration are brought in as the analytic philosophy of the same process.",
   "keyClaims": [
     "Corbin distinguishes the imaginary (subjective mental imagery) from the imaginal: the transjective use of image that mediates between abstract intelligible and concrete sensible worlds in an ongoing transformative transframing.",
     "Fundamentalism and literalism are pernicious precisely because they collapse the imaginal into either the abstract or the concrete, destroying the capacity for gnosis.",
-    "The divine double is the Hellenistic-Mediterranean motif of a superlative self to which one is bound and toward which one aspires — transgressive of the romantic grammar that treats the true self as something possessed.",
-    "The symbol in Corbin's sense is simultaneously translucent, transjective, trajective, transformative, and transtemporal — the cognitive medium through which gnosis operates.",
-    "Corbin connects Heidegger's attunement to gnosis by showing that the imaginal is the mode through which one remembers being in aletheia — recovering the being mode from forgetfulness."
+    "The divine double is the Hellenistic-Mediterranean motif of a superlative self to which one is bound and toward which one aspires, transgressive of the romantic grammar that treats the true self as something possessed.",
+    "The symbol in Corbin's sense is simultaneously translucent, transjective, trajective, transformative, and transtemporal, the cognitive medium through which gnosis operates.",
+    "Corbin connects Heidegger's attunement to gnosis by showing that the imaginal is the mode through which one remembers being in aletheia, recovering the being mode from forgetfulness."
   ],
   "concepts": [
     {
@@ -29,7 +29,7 @@
     {
       "id": "the-symbol",
       "treatment": "developed",
-      "summary": "Corbin's symbol is analyzed into five properties: translucent, transjective, trajective, transformative, and transtemporal — all required for the symbol to trigger transframing."
+      "summary": "Corbin's symbol is analyzed into five properties: translucent, transjective, trajective, transformative, and transtemporal, all required for the symbol to trigger transframing."
     },
     {
       "id": "transframing",
@@ -76,7 +76,7 @@
     {
       "id": "la-paul",
       "role": "discussed",
-      "summary": "Her transformative experience is used to explain the irreducibility of the divine double aspiration to deliberation — one cannot reason one's way to S2 from S1."
+      "summary": "Her transformative experience is used to explain the irreducibility of the divine double aspiration to deliberation, one cannot reason one's way to S2 from S1."
     },
     {
       "id": "callard",

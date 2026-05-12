@@ -2,12 +2,12 @@
   "num": 12,
   "slug": "higher-states-of-consciousness-part-2",
   "title": "Higher States of Consciousness, Part 2",
-  "essence": "Vervaeke completes the account of higher states of consciousness by shifting from description to prescription and justification. He introduces the Solomon Effect: the same cognitive de-centering that makes the wise counselor see another's problem more clearly is what HSC induce in one's own existential situation — stepping outside the machinery of the self makes the self's situation available for insight, in the same way a machine learning system disrupted from its own internal representations suddenly gains access to a higher-order view of its own processing. He then argues that HSC work by exapting the self-machinery onto the world: the same machinery that normally generates and maintains the sense of self gets redirected toward the world, producing the experience of the world as a unified, deeply realized presence. Newberg's neuroscientific account is integrated: HSC are associated with hyper-frontal activation (intense attention and processing) followed by hypo-parietal activation (dissolution of the self-body boundary) combined with thalamic integration (binding sensory and cognitive streams into a unified salience landscape). The episode closes with a framework for evaluating the plausibility of any experience-derived claim: convergence (many independent lines of evidence point to the same conclusion), elegance (the account is explanatorily parsimonious), and fluency (the account enhances rather than disrupts cognitive processing). HSC, on this framework, are not justified by their authority alone but by what they enable.",
+  "essence": "Vervaeke completes the account of higher states of consciousness by shifting from description to prescription and justification. He introduces the Solomon Effect: the same cognitive de-centering that makes the wise counselor see another's problem more clearly is what HSC induce in one's own existential situation, stepping outside the machinery of the self makes the self's situation available for insight, in the same way a machine learning system disrupted from its own internal representations suddenly gains access to a higher-order view of its own processing. He then argues that HSC work by exapting the self-machinery onto the world: the same machinery that normally generates and maintains the sense of self gets redirected toward the world, producing the experience of the world as a unified, deeply realized presence. Newberg's neuroscientific account is integrated: HSC are associated with hyper-frontal activation (intense attention and processing) followed by hypo-parietal activation (dissolution of the self-body boundary) combined with thalamic integration (binding sensory and cognitive streams into a unified salience landscape). The episode closes with a framework for evaluating the plausibility of any experience-derived claim: convergence (many independent lines of evidence point to the same conclusion), elegance (the account is explanatorily parsimonious), and fluency (the account enhances rather than disrupts cognitive processing). HSC, on this framework, are not justified by their authority alone but by what they enable.",
   "keyClaims": [
     "The Solomon Effect describes how de-centering from one's own self-machinery produces the same wisdom-engendering clarity in existential matters that disinterested perspective produces in advising others.",
-    "Higher states of consciousness work by exapting the self-generating machinery onto the world — the same processes that normally build and sustain the self get redirected toward building a unified world-awareness.",
-    "An altered state of consciousness is not merely a change in consciousness; it is an insight of consciousness — a state in which consciousness gains insight into its own machinery.",
-    "Newberg's brain model — hyper-frontal processing followed by hypo-parietal dissolution and thalamic integration — provides a plausible neural mechanism for the phenomenology of HSC.",
+    "Higher states of consciousness work by exapting the self-generating machinery onto the world, the same processes that normally build and sustain the self get redirected toward building a unified world-awareness.",
+    "An altered state of consciousness is not merely a change in consciousness; it is an insight of consciousness, a state in which consciousness gains insight into its own machinery.",
+    "Newberg's brain model, hyper-frontal processing followed by hypo-parietal dissolution and thalamic integration, provides a plausible neural mechanism for the phenomenology of HSC.",
     "The plausibility framework of convergence, elegance, and fluency provides a non-circular way to evaluate the justificatory weight of HSC: they are not self-justifying but justify by what transformations they enable."
   ],
   "concepts": [
@@ -19,7 +19,7 @@
     {
       "id": "altered-states-of-consciousness",
       "treatment": "developed",
-      "summary": "Distinguished sharply from HSC: an altered state is a change IN consciousness; a higher state is an insight OF consciousness about its own machinery — a fundamentally different kind of transformation."
+      "summary": "Distinguished sharply from HSC: an altered state is a change IN consciousness; a higher state is an insight OF consciousness about its own machinery, a fundamentally different kind of transformation."
     },
     {
       "id": "consciousness",
@@ -39,7 +39,7 @@
     {
       "id": "relevance-realization",
       "treatment": "applied",
-      "summary": "The thalamic integration that Newberg identifies is a physical correlate of relevance realization operating at maximum integration — all salience streams bound into a single landscape."
+      "summary": "The thalamic integration that Newberg identifies is a physical correlate of relevance realization operating at maximum integration, all salience streams bound into a single landscape."
     },
     {
       "id": "salience-landscape",
@@ -59,14 +59,14 @@
     {
       "id": "transframing",
       "treatment": "applied",
-      "summary": "The exaptation of self-machinery onto the world is a form of radical transframing — not just a new frame but a transformation of the framing capacity itself."
+      "summary": "The exaptation of self-machinery onto the world is a form of radical transframing, not just a new frame but a transformation of the framing capacity itself."
     }
   ],
   "people": [
     {
       "id": "newberg",
       "role": "discussed",
-      "summary": "Newberg's neuroscientific account — hyper-frontal activation, hypo-parietal dissolution, thalamic binding — is integrated as the neural mechanism for the phenomenology and functional account developed in eps 10-11."
+      "summary": "Newberg's neuroscientific account, hyper-frontal activation, hypo-parietal dissolution, thalamic binding, is integrated as the neural mechanism for the phenomenology and functional account developed in eps 10-11."
     },
     {
       "id": "jung",
@@ -91,7 +91,7 @@
   "quotableMoments": [
     {
       "quote": "an altered state of consciousness is not a... It's not an insight in consciousness it's an insight of consciousness.",
-      "context": "The key distinction between merely changed consciousness and the meta-cognitive self-insight that constitutes genuine higher states — the hinge on which the whole prescriptive and justificatory account turns."
+      "context": "The key distinction between merely changed consciousness and the meta-cognitive self-insight that constitutes genuine higher states, the hinge on which the whole prescriptive and justificatory account turns."
     }
   ]
 }

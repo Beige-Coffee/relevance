@@ -2,12 +2,12 @@
   "num": 17,
   "slug": "gnosis-existential-inertia",
   "title": "Gnosis and Existential Inertia",
-  "essence": "This episode tackles the deepest form of cognitive-existential stuckness: existential entrapment, which combines being existentially stuck (unable to see how to make an alternative worldview viable) with being existentially stupefied (unable to reason through whether to pursue the transformation). Vervaeke builds toward gnosis as the response by staging the problem through multiple lenses. Iris Murdoch's sensibility transcendence (from John Wright) shows that genuine moral development requires both perceiving the world differently AND becoming a different perceiver — neither can precede the other, so the change must be participatory and simultaneous. Frankfurt's notion of the 'unthinkable' identifies how certain possibilities are not just unpursued but cognitively unthinkable within one's current frame, generating existential inertia. L.A. Paul's transformative experience adds the epistemic dimension: you cannot know what a transformative experience will be like until you have undergone it, which produces existential ignorance — inability to reason about whether to pursue it. Together these produce the stuck-and-stupefied condition for which gnosis is the solution. Gnosis is defined as a set of psycho-technologies that use enactive analogy (dramatic ritual enactment that overcomes existential inertia through participatory knowing) and enactive anagoge (using the enacted drama to pull one upward in levels of self and world) to induce a higher state of consciousness in which existential entrapment is broken from the inside. Serious play — engaging with something as genuinely real even while knowing it is framed — is the key structural feature of the ritual context that makes this possible.",
+  "essence": "This episode tackles the deepest form of cognitive-existential stuckness: existential entrapment, which combines being existentially stuck (unable to see how to make an alternative worldview viable) with being existentially stupefied (unable to reason through whether to pursue the transformation). Vervaeke builds toward gnosis as the response by staging the problem through multiple lenses. Iris Murdoch's sensibility transcendence (from John Wright) shows that genuine moral development requires both perceiving the world differently AND becoming a different perceiver, neither can precede the other, so the change must be participatory and simultaneous. Frankfurt's notion of the 'unthinkable' identifies how certain possibilities are not just unpursued but cognitively unthinkable within one's current frame, generating existential inertia. L.A. Paul's transformative experience adds the epistemic dimension: you cannot know what a transformative experience will be like until you have undergone it, which produces existential ignorance, inability to reason about whether to pursue it. Together these produce the stuck-and-stupefied condition for which gnosis is the solution. Gnosis is defined as a set of psycho-technologies that use enactive analogy (dramatic ritual enactment that overcomes existential inertia through participatory knowing) and enactive anagoge (using the enacted drama to pull one upward in levels of self and world) to induce a higher state of consciousness in which existential entrapment is broken from the inside. Serious play, engaging with something as genuinely real even while knowing it is framed, is the key structural feature of the ritual context that makes this possible.",
   "keyClaims": [
-    "Existential entrapment combines being stuck (unable to make an alternative worldview viable) with being stupefied (unable to reason about transformative possibility) — two mutually reinforcing forms of cognitive paralysis.",
-    "Sensibility transcendence shows that genuine moral transformation requires simultaneously perceiving the world differently and becoming a different perceiver — neither precedes the other.",
-    "Frankfurt's 'unthinkable' identifies how certain possibilities are cognitively inaccessible within one's current frame, not merely unpursued — generating existential inertia rather than mere akrasia.",
-    "L.A. Paul's transformative experience reveals existential ignorance: one cannot know what a transformative salience landscape will be like until one has undergone the transformation — blocking rational deliberation.",
+    "Existential entrapment combines being stuck (unable to make an alternative worldview viable) with being stupefied (unable to reason about transformative possibility), two mutually reinforcing forms of cognitive paralysis.",
+    "Sensibility transcendence shows that genuine moral transformation requires simultaneously perceiving the world differently and becoming a different perceiver, neither precedes the other.",
+    "Frankfurt's 'unthinkable' identifies how certain possibilities are cognitively inaccessible within one's current frame, not merely unpursued, generating existential inertia rather than mere akrasia.",
+    "L.A. Paul's transformative experience reveals existential ignorance: one cannot know what a transformative salience landscape will be like until one has undergone the transformation, blocking rational deliberation.",
     "Gnosis is the set of psycho-technologies (enactive analogy + enactive anagoge + higher states of consciousness) that use serious play in a ritual context to break existential entrapment from the inside."
   ],
   "concepts": [
@@ -19,7 +19,7 @@
     {
       "id": "existential-entrapment",
       "treatment": "introduced",
-      "summary": "Named as the combination of existential stuckness (inability to make alternative worldview viable) and existential stupefaction (inability to reason about transformation) — the clinical target for gnosis."
+      "summary": "Named as the combination of existential stuckness (inability to make alternative worldview viable) and existential stupefaction (inability to reason about transformation), the clinical target for gnosis."
     },
     {
       "id": "transframing",
@@ -29,12 +29,12 @@
     {
       "id": "sensibility-transcendence",
       "treatment": "introduced",
-      "summary": "Wright's term (from Murdoch): the bi-directional transformation in which one perceives the world differently and becomes a different perceiver simultaneously — the structure that gnosis must produce."
+      "summary": "Wright's term (from Murdoch): the bi-directional transformation in which one perceives the world differently and becomes a different perceiver simultaneously, the structure that gnosis must produce."
     },
     {
       "id": "transformative-experience",
       "treatment": "developed",
-      "summary": "L.A. Paul's framework applied: the salience landscape of the transformed self is epistemically unavailable to the untransformed self — blocking rational deliberation about whether to undergo transformation."
+      "summary": "L.A. Paul's framework applied: the salience landscape of the transformed self is epistemically unavailable to the untransformed self, blocking rational deliberation about whether to undergo transformation."
     },
     {
       "id": "anagoge",
@@ -44,7 +44,7 @@
     {
       "id": "participatory-knowing",
       "treatment": "developed",
-      "summary": "Gnosis is fundamentally participatory: it cannot be understood propositionally or procedurally — it requires enactment that changes who one is, not just what one knows or can do."
+      "summary": "Gnosis is fundamentally participatory: it cannot be understood propositionally or procedurally, it requires enactment that changes who one is, not just what one knows or can do."
     },
     {
       "id": "higher-states-of-consciousness",
@@ -59,7 +59,7 @@
     {
       "id": "psycho-technology",
       "treatment": "developed",
-      "summary": "Gnosis is presented as a structured ecology of psycho-technologies — not a single technique but a ritual context combining multiple practices (martial arts, therapy, Jeepform cited as modern parallels)."
+      "summary": "Gnosis is presented as a structured ecology of psycho-technologies, not a single technique but a ritual context combining multiple practices (martial arts, therapy, Jeepform cited as modern parallels)."
     },
     {
       "id": "metanoia",
@@ -76,17 +76,17 @@
     {
       "id": "iris-murdoch",
       "role": "discussed",
-      "summary": "Murdoch's account of moral perception and the mother-in-law example illustrate sensibility transcendence — seeing the daughter-in-law differently requires becoming a different perceiver, not just acquiring new beliefs."
+      "summary": "Murdoch's account of moral perception and the mother-in-law example illustrate sensibility transcendence, seeing the daughter-in-law differently requires becoming a different perceiver, not just acquiring new beliefs."
     },
     {
       "id": "john-wright",
       "role": "introduced",
-      "summary": "Wright's term 'sensibility transcendence' is introduced as naming the structure of transformation that gnosis must achieve — the bi-directional perceptual-personal change that Murdoch illustrates."
+      "summary": "Wright's term 'sensibility transcendence' is introduced as naming the structure of transformation that gnosis must achieve, the bi-directional perceptual-personal change that Murdoch illustrates."
     },
     {
       "id": "frankfurt",
       "role": "discussed",
-      "summary": "Frankfurt's notion of the 'unthinkable' — possibilities that are cognitively inaccessible within one's current frame — is used to define existential inertia and distinguish it from mere weakness of will."
+      "summary": "Frankfurt's notion of the 'unthinkable', possibilities that are cognitively inaccessible within one's current frame, is used to define existential inertia and distinguish it from mere weakness of will."
     },
     {
       "id": "la-paul",
@@ -102,15 +102,15 @@
   "crossRefs": [
     {
       "episode": 13,
-      "context": "Parasitic processing from ep-13 is the cognitive substrate of existential entrapment — the locked-in spiral that gnosis must break from the inside."
+      "context": "Parasitic processing from ep-13 is the cognitive substrate of existential entrapment, the locked-in spiral that gnosis must break from the inside."
     },
     {
       "episode": 16,
-      "context": "Christianity's inner conflict (from ep-16) is analyzed as a form of existential entrapment — and gnosis is presented as the psycho-technology Christianity needs but does not fully articulate."
+      "context": "Christianity's inner conflict (from ep-16) is analyzed as a form of existential entrapment, and gnosis is presented as the psycho-technology Christianity needs but does not fully articulate."
     },
     {
       "episode": 18,
-      "context": "Gnosticism (the historical movement) is introduced in ep-18 as a movement that attempted to systematize gnosis — with its own mythological framework for existential entrapment and liberation."
+      "context": "Gnosticism (the historical movement) is introduced in ep-18 as a movement that attempted to systematize gnosis, with its own mythological framework for existential entrapment and liberation."
     }
   ],
   "quotableMoments": [
@@ -120,7 +120,7 @@
     },
     {
       "quote": "Wright calls this Sensibility Transcendence. Because what's happening, simultaneously, is the daughter-in-law can be something that she couldn't be before and the mother-in-law is becoming somebody she couldn't become before; she couldn't be before.",
-      "context": "The Murdoch/Wright example illustrating the bi-directional structure of genuine transformation — the world and the perceiver change together, neither preceding the other."
+      "context": "The Murdoch/Wright example illustrating the bi-directional structure of genuine transformation, the world and the perceiver change together, neither preceding the other."
     }
   ]
 }

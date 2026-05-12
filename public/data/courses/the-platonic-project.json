@@ -26,7 +26,7 @@
       ],
       "socraticSeeds": [
         {
-          "prompt": "Socrates believed the key to wisdom was self-knowledge — 'know thyself.' Pythagoras believed wisdom came through discovering the mathematical patterns underlying reality. Why would these two projects seem to be in tension — and why does Plato think they are actually complementary?",
+          "prompt": "Socrates believed the key to wisdom was self-knowledge, 'know thyself.' Pythagoras believed wisdom came through discovering the mathematical patterns underlying reality. Why would these two projects seem to be in tension, and why does Plato think they are actually complementary?",
           "expectedThemes": [
             "self-knowledge vs world-knowledge",
             "inner and outer as mirrors",
@@ -35,7 +35,7 @@
           ]
         },
         {
-          "prompt": "Plato says wisdom requires the 'man' (reason) to teach the 'lion' (spirit/thymos) and tame the 'monster' (appetite). Does this ordering mean reason simply suppresses desire — or is something more subtle happening?",
+          "prompt": "Plato says wisdom requires the 'man' (reason) to teach the 'lion' (spirit/thymos) and tame the 'monster' (appetite). Does this ordering mean reason simply suppresses desire, or is something more subtle happening?",
           "expectedThemes": [
             "ordering not suppression",
             "education of spirit and appetite",
@@ -44,7 +44,7 @@
           ]
         },
         {
-          "prompt": "The Myth of the Cave describes people who have never seen the light outside, only shadows on a wall. What kind of cognitive state does life in the cave represent — and why is 'coming into the light' described as both liberation and disorientation?",
+          "prompt": "The Myth of the Cave describes people who have never seen the light outside, only shadows on a wall. What kind of cognitive state does life in the cave represent, and why is 'coming into the light' described as both liberation and disorientation?",
           "expectedThemes": [
             "illusion vs reality",
             "habituation to shadows",
@@ -64,16 +64,16 @@
       ],
       "misconceptionBranches": [
         {
-          "misconception": "The Platonic project is simply idealism — the claim that the physical world is less real than abstract ideas.",
+          "misconception": "The Platonic project is simply idealism, the claim that the physical world is less real than abstract ideas.",
           "correction": "Vervaeke stresses that Plato's forms (idos) are patterns both in the mind and in the world, and that knowing them is a participatory contact epistemology, not an exercise in conceptual abstraction; the project is about coming into deeper contact with reality, not escaping it."
         },
         {
           "misconception": "Plato's Myth of the Cave is a claim that the physical world is unreal.",
-          "correction": "The myth is a parable about the difference between untrained and trained cognition — it illustrates that wisdom is a process of increasingly accurate participatory contact with reality, not a denial of the physical world."
+          "correction": "The myth is a parable about the difference between untrained and trained cognition, it illustrates that wisdom is a process of increasingly accurate participatory contact with reality, not a denial of the physical world."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "How does Plato's synthesis of Socratic and Pythagorean strands produce a more powerful account of wisdom than either alone — and why does Vervaeke regard this synthesis as one of the foundational moves of Western civilization?",
+        "prompt": "How does Plato's synthesis of Socratic and Pythagorean strands produce a more powerful account of wisdom than either alone, and why does Vervaeke regard this synthesis as one of the foundational moves of Western civilization?",
         "expectedThemes": [
           "synthesis more than sum",
           "self-knowledge and world-contact as one",
@@ -96,7 +96,7 @@
         {
           "episode": 5,
           "phrase": "As I get better knowledge of myself, I can better teach the man. To be a good teacher, you have to know your student better.",
-          "note": "Self-knowledge enables better inner teaching — the developmental upward spiral"
+          "note": "Self-knowledge enables better inner teaching, the developmental upward spiral"
         }
       ],
       "socraticSeeds": [
@@ -119,7 +119,7 @@
           ]
         },
         {
-          "prompt": "Plato's tripartite psyche (reason, spirit, appetite) keeps being 'rediscovered' — Freud's id/ego/superego, the triune brain model. What does it mean that Plato identified something about motivational architecture that keeps recurring in scientific theories?",
+          "prompt": "Plato's tripartite psyche (reason, spirit, appetite) keeps being 'rediscovered', Freud's id/ego/superego, the triune brain model. What does it mean that Plato identified something about motivational architecture that keeps recurring in scientific theories?",
           "expectedThemes": [
             "Plato anticipates science",
             "real motivational architecture",
@@ -128,7 +128,7 @@
           ]
         },
         {
-          "prompt": "Why does wisdom require educating spirit (lion/thymos) and not just suppressing appetite (monster)? What role does spirit play in the properly ordered psyche — and what goes wrong if spirit is broken rather than trained?",
+          "prompt": "Why does wisdom require educating spirit (lion/thymos) and not just suppressing appetite (monster)? What role does spirit play in the properly ordered psyche, and what goes wrong if spirit is broken rather than trained?",
           "expectedThemes": [
             "spiritedness as necessary",
             "education not suppression",
@@ -140,11 +140,11 @@
       "misconceptionBranches": [
         {
           "misconception": "The tripartite psyche is a primitive psychology that neuroscience has superseded.",
-          "correction": "Vervaeke argues that Plato's tripartite structure keeps being rediscovered — in Freudian theory, triune-brain models, and dual-process psychology — because Plato identified something genuinely real about motivational architecture that persists across theoretical frameworks."
+          "correction": "Vervaeke argues that Plato's tripartite structure keeps being rediscovered, in Freudian theory, triune-brain models, and dual-process psychology, because Plato identified something genuinely real about motivational architecture that persists across theoretical frameworks."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "Why does Vervaeke argue that Platonic inner ordering is not primarily a moral achievement but an epistemic one — that reducing inner conflict actually improves one's contact with reality rather than just making one a better person?",
+        "prompt": "Why does Vervaeke argue that Platonic inner ordering is not primarily a moral achievement but an epistemic one, that reducing inner conflict actually improves one's contact with reality rather than just making one a better person?",
         "expectedThemes": [
           "moral and epistemic linked",
           "inner conflict distorts perception",
@@ -190,7 +190,7 @@
           ]
         },
         {
-          "prompt": "The myth of the cave ends with the philosopher returning to the cave after seeing the light. Why must the philosopher return rather than staying in the light — and what does the return require of someone who has been transformed?",
+          "prompt": "The myth of the cave ends with the philosopher returning to the cave after seeing the light. Why must the philosopher return rather than staying in the light, and what does the return require of someone who has been transformed?",
           "expectedThemes": [
             "wisdom requires engagement with the world",
             "return as ethical responsibility",
@@ -199,7 +199,7 @@
           ]
         },
         {
-          "prompt": "If the anagogic cycle involves both self-knowledge and contact with reality, can either one be developed in isolation? What happens to someone who pursues relentless self-analysis without engaging with the world — or who engages with the world without self-reflection?",
+          "prompt": "If the anagogic cycle involves both self-knowledge and contact with reality, can either one be developed in isolation? What happens to someone who pursues relentless self-analysis without engaging with the world, or who engages with the world without self-reflection?",
           "expectedThemes": [
             "both directions needed",
             "navel-gazing without world",
@@ -210,12 +210,12 @@
       ],
       "misconceptionBranches": [
         {
-          "misconception": "Anagoge (the upward leading) is simply intellectual progress — learning more about abstract ideas.",
-          "correction": "Anagoge in the Platonic sense is a transformation of the whole person — salience, understanding, and participation must all change together; it is not an increase in information but a shift in how one's entire cognition engages with reality."
+          "misconception": "Anagoge (the upward leading) is simply intellectual progress, learning more about abstract ideas.",
+          "correction": "Anagoge in the Platonic sense is a transformation of the whole person, salience, understanding, and participation must all change together; it is not an increase in information but a shift in how one's entire cognition engages with reality."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "In what sense does Vervaeke's cognitive-science account of wisdom — targeting the salience landscape, reducing inner conflict, enhancing participatory knowing — recapitulate the structure of the Platonic project in a naturalistic register?",
+        "prompt": "In what sense does Vervaeke's cognitive-science account of wisdom, targeting the salience landscape, reducing inner conflict, enhancing participatory knowing, recapitulate the structure of the Platonic project in a naturalistic register?",
         "expectedThemes": [
           "cognitive science as reanimation of Plato",
           "salience landscape as modern tripartite psyche",

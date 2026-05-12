@@ -4,7 +4,7 @@
     "canonicalName": "Agnes Callard",
     "aliases": [],
     "shortBio": "American philosopher (b. 1977), professor at the University of Chicago, author of Aspiration: The Agency of Becoming.",
-    "roleInArgument": "Callard extends Paul's transformative experience into aspiration — the incremental version in which one comes to value things one does not yet fully appreciate. Vervaeke uses her notion of proleptic rationality to argue that aspiration toward rationality and wisdom must itself be rational, or we get into self-refutation.",
+    "roleInArgument": "Callard extends Paul's transformative experience into aspiration, the incremental version in which one comes to value things one does not yet fully appreciate. Vervaeke uses her notion of proleptic rationality to argue that aspiration toward rationality and wisdom must itself be rational, or we get into self-refutation.",
     "introducedIn": 42,
     "discussedIn": [
       42,
@@ -18,7 +18,7 @@
       "rationality"
     ],
     "keyClaimsAbout": [
-      "Aspiration is the incremental form of transformative experience — gradually coming to value something new.",
+      "Aspiration is the incremental form of transformative experience, gradually coming to value something new.",
       "Proleptic rationality: aspiration toward rationality must itself be rational.",
       "You aspire by creating a double-faced symbolic engagement bridging current and future self."
     ],
@@ -44,8 +44,8 @@
       "the-meaning-crisis"
     ],
     "keyClaimsAbout": [
-      "How can I be a saint without there being a God? — the post-Christian question.",
-      "Reality is absurd — the disconnection between our search for meaning and an indifferent universe.",
+      "How can I be a saint without there being a God?, the post-Christian question.",
+      "Reality is absurd, the disconnection between our search for meaning and an indifferent universe.",
       "The Myth of Sisyphus articulates the modern condition."
     ],
     "notes": "Cited as the modern Albert Camus articulation of the meaning crisis."
@@ -55,7 +55,7 @@
     "canonicalName": "Alexander the Great",
     "aliases": [],
     "shortBio": "Macedonian king (356-323 BCE), Aristotle's pupil, conqueror who spread Greek culture from the Mediterranean to India.",
-    "roleInArgument": "Alexander is Aristotle's disciple in the bad sense — bringing about the Hellenistic domicide rather than continuing the philosophical tradition. His conquests destroy the polis-grounded existence that supported the axial revolution in Greece, creating the conditions for the Hellenistic meaning crisis.",
+    "roleInArgument": "Alexander is Aristotle's disciple in the bad sense, bringing about the Hellenistic domicide rather than continuing the philosophical tradition. His conquests destroy the polis-grounded existence that supported the axial revolution in Greece, creating the conditions for the Hellenistic meaning crisis.",
     "introducedIn": 14,
     "discussedIn": [
       14
@@ -66,7 +66,7 @@
     "keyClaimsAbout": [
       "Alexander represents a return to pre-axial god-king mythology.",
       "His conquests destroy the polis and create the Hellenistic Age of Anxiety.",
-      "Diogenes asks him to step out of his sunlight — the philosopher's response."
+      "Diogenes asks him to step out of his sunlight, the philosopher's response."
     ],
     "notes": "A foil for the Greek axial revolution Vervaeke is celebrating."
   },
@@ -120,7 +120,7 @@
     "canonicalName": "Andrew Newberg",
     "aliases": [],
     "shortBio": "American neuroscientist (b. 1966), professor at Thomas Jefferson University, pioneering researcher on the neuroscience of religious and mystical experience.",
-    "roleInArgument": "Newberg supplies the brain-level evidence for Vervaeke's cognitive-science account of higher states of consciousness — the hyperactive-then-hypoactive frontal-parietal shift, the thalamic integration, the priming hypothesis.",
+    "roleInArgument": "Newberg supplies the brain-level evidence for Vervaeke's cognitive-science account of higher states of consciousness, the hyperactive-then-hypoactive frontal-parietal shift, the thalamic integration, the priming hypothesis.",
     "introducedIn": 10,
     "discussedIn": [
       10,
@@ -143,7 +143,7 @@
     "canonicalName": "Andy Clark",
     "aliases": [],
     "shortBio": "British philosopher (b. 1957), author of Natural-Born Cyborgs and proponent of the extended mind hypothesis.",
-    "roleInArgument": "Clark provides Vervaeke with the language of natural-born cyborgs and the extended mind — the brain's evolved capacity to integrate with tools and psycho-technologies — undergirding the entire account of psycho-technology.",
+    "roleInArgument": "Clark provides Vervaeke with the language of natural-born cyborgs and the extended mind, the brain's evolved capacity to integrate with tools and psycho-technologies, undergirding the entire account of psycho-technology.",
     "introducedIn": 1,
     "discussedIn": [
       1,
@@ -158,7 +158,7 @@
       "distributed-cognition"
     ],
     "keyClaimsAbout": [
-      "You are a natural-born cyborg — evolved to integrate with tools and external symbols.",
+      "You are a natural-born cyborg, evolved to integrate with tools and external symbols.",
       "Mind extends beyond the skull through coupling with tools and other minds.",
       "Predictive processing models cognition as the brain's ongoing prediction-error minimization."
     ],
@@ -191,7 +191,7 @@
     "canonicalName": "Aristotle",
     "aliases": [],
     "shortBio": "Ancient Greek philosopher (384-322 BCE), Plato's student, tutor to Alexander the Great, the most encyclopedic philosopher of antiquity.",
-    "roleInArgument": "Aristotle gives us the conformity theory of knowing, the geocentric worldview, the cultivation of character via the virtual engine, the doctrine of potentiality and actuality, and the cognitive-developmental notion that meaning involves growth — all foundations for the Western nomological order and for Vervaeke's account of wisdom as character cultivation.",
+    "roleInArgument": "Aristotle gives us the conformity theory of knowing, the geocentric worldview, the cultivation of character via the virtual engine, the doctrine of potentiality and actuality, and the cognitive-developmental notion that meaning involves growth, all foundations for the Western nomological order and for Vervaeke's account of wisdom as character cultivation.",
     "introducedIn": 5,
     "discussedIn": [
       6,
@@ -221,9 +221,9 @@
     ],
     "keyClaimsAbout": [
       "Aristotle's conformity theory: to know is to share the structural-functional organization with the thing.",
-      "His geocentric worldview created the first true nomological order — a cosmos in which we belonged.",
+      "His geocentric worldview created the first true nomological order, a cosmos in which we belonged.",
       "Aristotle introduces the concept of cultivating character via the cultivation of virtues (virtual engine).",
-      "Aristotle's akrasia: foolishness is doing wrong when you know what's right — a failure of character, not belief."
+      "Aristotle's akrasia: foolishness is doing wrong when you know what's right, a failure of character, not belief."
     ],
     "notes": "Vervaeke notes Aristotle is undergoing a major contemporary revival in 4E cognitive science and process philosophy of biology."
   },
@@ -235,7 +235,7 @@
       "Arthur Reeber"
     ],
     "shortBio": "American cognitive psychologist; founder of the experimental study of implicit learning in the 1960s.",
-    "roleInArgument": "Reber's artificial-grammar-learning experiments are the empirical foundation Vervaeke draws on to ground implicit learning as a non-conscious, statistical pattern-pickup process — the substrate of intuition and skilled flow.",
+    "roleInArgument": "Reber's artificial-grammar-learning experiments are the empirical foundation Vervaeke draws on to ground implicit learning as a non-conscious, statistical pattern-pickup process, the substrate of intuition and skilled flow.",
     "introducedIn": 2,
     "discussedIn": [
       2
@@ -256,7 +256,7 @@
     "canonicalName": "Arthur Schopenhauer",
     "aliases": [],
     "shortBio": "German philosopher (1788-1860), author of The World as Will and Representation, the philosophical godfather of nihilism.",
-    "roleInArgument": "Schopenhauer reads the irrational depth of mind as the Will to Live — the relentless, meaningless driving force underneath rational representation — and concludes that life is suffering. Vervaeke calls him the godfather of nihilism and treats him as the philosopher who articulates the meaning crisis from the inside.",
+    "roleInArgument": "Schopenhauer reads the irrational depth of mind as the Will to Live, the relentless, meaningless driving force underneath rational representation, and concludes that life is suffering. Vervaeke calls him the godfather of nihilism and treats him as the philosopher who articulates the meaning crisis from the inside.",
     "introducedIn": 23,
     "discussedIn": [
       10,
@@ -284,7 +284,7 @@
       "Saint Augustine"
     ],
     "shortBio": "North African theologian and philosopher (354-430 CE), author of Confessions and City of God, foundational figure of Western Christianity.",
-    "roleInArgument": "Augustine integrates Christianity, Gnosticism, and Neoplatonism into the synthetic worldview that grounds the medieval West. He extends Paul's inner conflict, popularizes the narrative order through Confessions (the first autobiography), and lays the foundations on which Aquinas and Luther will build — and which the scientific revolution will destabilize.",
+    "roleInArgument": "Augustine integrates Christianity, Gnosticism, and Neoplatonism into the synthetic worldview that grounds the medieval West. He extends Paul's inner conflict, popularizes the narrative order through Confessions (the first autobiography), and lays the foundations on which Aquinas and Luther will build, and which the scientific revolution will destabilize.",
     "introducedIn": 19,
     "discussedIn": [
       19,
@@ -302,7 +302,7 @@
     ],
     "keyClaimsAbout": [
       "Augustine's sex addiction and inner conflict drive his synthesis of Plotinus and Paul.",
-      "He proposes that love is within reason — that what's damaged is our capacity to love.",
+      "He proposes that love is within reason, that what's damaged is our capacity to love.",
       "Augustine writes the first autobiography (Confessions) as an existential manual.",
       "Augustine builds the three-order (nomological, normative, narrative) synthesis that defines medieval meaning."
     ],
@@ -315,7 +315,7 @@
       "Ibn Sina"
     ],
     "shortBio": "Persian polymath and philosopher (c. 980-1037), author of The Canon of Medicine, key Islamic interpreter of Aristotle.",
-    "roleInArgument": "Avicenna represents the medieval Neoplatonic interpretation of Aristotle — and his replacement by Averroes marks the shift to a purely definitional, propositional reading that Vervaeke argues is part of the loss of participatory knowing.",
+    "roleInArgument": "Avicenna represents the medieval Neoplatonic interpretation of Aristotle, and his replacement by Averroes marks the shift to a purely definitional, propositional reading that Vervaeke argues is part of the loss of participatory knowing.",
     "introducedIn": 19,
     "discussedIn": [
       19
@@ -339,7 +339,7 @@
       "Sharpe"
     ],
     "shortBio": "American psychologist (Schwartz) and political scientist (Sharpe), co-authors of Practical Wisdom: The Right Way to Do the Right Thing.",
-    "roleInArgument": "Schwartz and Sharpe develop a contemporary Aristotelian practical wisdom emphasizing the integration of skills (perception, empathy, judgment) over rule-following — a key reference in Vervaeke's wisdom synthesis.",
+    "roleInArgument": "Schwartz and Sharpe develop a contemporary Aristotelian practical wisdom emphasizing the integration of skills (perception, empathy, judgment) over rule-following, a key reference in Vervaeke's wisdom synthesis.",
     "introducedIn": 40,
     "discussedIn": [
       40,
@@ -363,7 +363,7 @@
     "canonicalName": "Blaise Pascal",
     "aliases": [],
     "shortBio": "French mathematician, physicist, and Christian philosopher (1623-1662), author of the Pensées.",
-    "roleInArgument": "Pascal sees what Descartes is losing: the Spirit of Finesse — perspectival, participatory, transformative knowing — alongside the Spirit of Geometry. He represents the early modern intuition that the loss of transformative knowing is a crisis, and his cri 'those infinite spaces terrify me' captures the new cosmic loneliness.",
+    "roleInArgument": "Pascal sees what Descartes is losing: the Spirit of Finesse, perspectival, participatory, transformative knowing, alongside the Spirit of Geometry. He represents the early modern intuition that the loss of transformative knowing is a crisis, and his cri 'those infinite spaces terrify me' captures the new cosmic loneliness.",
     "introducedIn": 22,
     "discussedIn": [
       21,
@@ -374,10 +374,10 @@
       "the-four-kinds-of-knowing"
     ],
     "keyClaimsAbout": [
-      "Pascal distinguishes the Spirit of Geometry from the Spirit of Finesse — the participatory mode of knowing.",
+      "Pascal distinguishes the Spirit of Geometry from the Spirit of Finesse, the participatory mode of knowing.",
       "His mystical 'fire' experience exemplifies transformative knowing being lost in the modern world.",
       "Pascal articulates the experience of cosmic loneliness ('those infinite spaces terrify me').",
-      "Pascal's heart has reasons reason does not know — the participatory grasp."
+      "Pascal's heart has reasons reason does not know, the participatory grasp."
     ],
     "notes": "Vervaeke uses Pascal as the early modern thinker who diagnosed what the scientific revolution was losing."
   },
@@ -412,7 +412,7 @@
       "Carl Gustav Jung"
     ],
     "shortBio": "Swiss psychiatrist (1875-1961), founder of analytical psychology, theorist of the collective unconscious and archetypes.",
-    "roleInArgument": "Jung is to Gnosticism what cognitive behavioral therapy is to Stoicism — he transforms the Gnostic mythology into a psychotherapeutic framework. Vervaeke treats Jung as a key prophet of the meaning crisis, connected to Corbin via shared influence and concern with the imaginal, symbol, and self-transformation.",
+    "roleInArgument": "Jung is to Gnosticism what cognitive behavioral therapy is to Stoicism, he transforms the Gnostic mythology into a psychotherapeutic framework. Vervaeke treats Jung as a key prophet of the meaning crisis, connected to Corbin via shared influence and concern with the imaginal, symbol, and self-transformation.",
     "introducedIn": 1,
     "discussedIn": [
       1,
@@ -439,7 +439,7 @@
       "Jung renders Gnostic mythology into a psychotherapeutic scaffolding for transformation.",
       "His work on archetypes and the collective unconscious informs Vervaeke's account of myth.",
       "Jung is directly influenced by Kant and the Gnostics.",
-      "Jung emphasizes that people enter therapy because they feel stuck — existential entrapment."
+      "Jung emphasizes that people enter therapy because they feel stuck, existential entrapment."
     ],
     "notes": "Vervaeke draws Jung and Corbin together throughout episodes 48-49."
   },
@@ -448,7 +448,7 @@
     "canonicalName": "Charles Taylor",
     "aliases": [],
     "shortBio": "Canadian philosopher (b. 1931), author of A Secular Age and Sources of the Self.",
-    "roleInArgument": "Taylor gives Vervaeke the term 'continuous cosmos' and 'the Great Disembedding' — the conceptual framework for understanding the axial revolution's structural transformation of meaning, and the diagnosis of secularity.",
+    "roleInArgument": "Taylor gives Vervaeke the term 'continuous cosmos' and 'the Great Disembedding', the conceptual framework for understanding the axial revolution's structural transformation of meaning, and the diagnosis of secularity.",
     "introducedIn": 3,
     "discussedIn": [
       3,
@@ -497,7 +497,7 @@
     "canonicalName": "Christopher Mole",
     "aliases": [],
     "shortBio": "Philosopher of attention, author of Attention is Cognitive Unison.",
-    "roleInArgument": "Mole provides the philosophical account of attention as cognitive unison — not a direct action but an optimization of other actions — which Vervaeke uses to dismantle the spotlight metaphor and undergird the attentional-scaling account of mindfulness.",
+    "roleInArgument": "Mole provides the philosophical account of attention as cognitive unison, not a direct action but an optimization of other actions, which Vervaeke uses to dismantle the spotlight metaphor and undergird the attentional-scaling account of mindfulness.",
     "introducedIn": 8,
     "discussedIn": [
       8,
@@ -508,7 +508,7 @@
       "mindfulness"
     ],
     "keyClaimsAbout": [
-      "Attention is not a direct action — you cannot just attend without attending to something.",
+      "Attention is not a direct action, you cannot just attend without attending to something.",
       "Attention is cognitive unison: coordinating other processes toward a common goal.",
       "The spotlight metaphor fundamentally misrepresents attention."
     ],
@@ -519,7 +519,7 @@
     "canonicalName": "Clifford Geertz",
     "aliases": [],
     "shortBio": "American anthropologist (1926-2006), author of The Interpretation of Cultures, theorist of religion as a system of symbols.",
-    "roleInArgument": "Geertz supplies Vervaeke with the worldview-attunement framework and the meta-meaning function of religion — that religion functions as a meta-meaning system homing us against horror and absurdity.",
+    "roleInArgument": "Geertz supplies Vervaeke with the worldview-attunement framework and the meta-meaning function of religion, that religion functions as a meta-meaning system homing us against horror and absurdity.",
     "introducedIn": 7,
     "discussedIn": [
       7,
@@ -572,7 +572,7 @@
       "Dan Siegel"
     ],
     "shortBio": "American psychiatrist (b. 1957), originator of the concept of mindsight and the field of interpersonal neurobiology.",
-    "roleInArgument": "Siegel supplies the term mindsight — the capacity to pick up on other people's mental states and one's own — used by Vervaeke in the early episodes to explain the cognitive enhancements of trade and initiation rituals.",
+    "roleInArgument": "Siegel supplies the term mindsight, the capacity to pick up on other people's mental states and one's own, used by Vervaeke in the early episodes to explain the cognitive enhancements of trade and initiation rituals.",
     "introducedIn": 1,
     "discussedIn": [
       1,
@@ -592,7 +592,7 @@
     "canonicalName": "David Yaden",
     "aliases": [],
     "shortBio": "American psychologist, researcher on self-transcendent experiences and their effects.",
-    "roleInArgument": "Yaden's research shows that life-altering self-transcendent experiences are followed by measurable improvements in well-being and life satisfaction — empirical support for Vervaeke's claim that higher states of consciousness reliably enhance meaning.",
+    "roleInArgument": "Yaden's research shows that life-altering self-transcendent experiences are followed by measurable improvements in well-being and life satisfaction, empirical support for Vervaeke's claim that higher states of consciousness reliably enhance meaning.",
     "introducedIn": 10,
     "discussedIn": [
       10,
@@ -616,7 +616,7 @@
       "Diogenes"
     ],
     "shortBio": "Greek Cynic philosopher (c. 412-323 BCE), famous for living in a barrel and confronting Athenian conventions.",
-    "roleInArgument": "Diogenes is the practitioner of Cynicism — provocative performance art that exposes the difference between moral codes and purity codes — and the philosopher Alexander asks to step out of his sunlight. A bridge between Socrates and Stoicism.",
+    "roleInArgument": "Diogenes is the practitioner of Cynicism, provocative performance art that exposes the difference between moral codes and purity codes, and the philosopher Alexander asks to step out of his sunlight. A bridge between Socrates and Stoicism.",
     "introducedIn": 14,
     "discussedIn": [
       14
@@ -628,7 +628,7 @@
     "keyClaimsAbout": [
       "Cynicism is provocative confrontation, the inheritor of Socratic elenchus.",
       "Diogenes exposes the difference between moral codes (real) and purity codes (cultural).",
-      "Tells Alexander to step out of his sunlight — the philosopher refuses imperial power."
+      "Tells Alexander to step out of his sunlight, the philosopher refuses imperial power."
     ],
     "notes": "Vervaeke uses Diogenes to explain the genealogy of Stoicism."
   },
@@ -637,7 +637,7 @@
     "canonicalName": "Ellen Langer",
     "aliases": [],
     "shortBio": "American social psychologist (b. 1947), professor at Harvard, author of the 1989 book Mindfulness.",
-    "roleInArgument": "Langer's experimental work on mindfulness as soft vigilance — renewing interest by attending to small differences — gives Vervaeke a complementary track to Buddhist mindfulness and the soft-vigilance training exercise (the finger exercise) becomes pedagogically central.",
+    "roleInArgument": "Langer's experimental work on mindfulness as soft vigilance, renewing interest by attending to small differences, gives Vervaeke a complementary track to Buddhist mindfulness and the soft-vigilance training exercise (the finger exercise) becomes pedagogically central.",
     "introducedIn": 8,
     "discussedIn": [
       8
@@ -647,7 +647,7 @@
       "attention"
     ],
     "keyClaimsAbout": [
-      "Mindfulness as soft vigilance — continually renewing interest, not hard concentration.",
+      "Mindfulness as soft vigilance, continually renewing interest, not hard concentration.",
       "Mindlessness causes us to miss critical situational variation.",
       "Pre-dates the Buddhist mindfulness revolution in the West."
     ],
@@ -658,7 +658,7 @@
     "canonicalName": "Epictetus",
     "aliases": [],
     "shortBio": "Greek Stoic philosopher (c. 50-135 CE), born a slave, author of the Enchiridion.",
-    "roleInArgument": "Epictetus articulates the Stoic insight that wisdom is knowing what is in our control and what is not — a key reference for Vervaeke's connection of Stoicism to contemporary cognitive therapy.",
+    "roleInArgument": "Epictetus articulates the Stoic insight that wisdom is knowing what is in our control and what is not, a key reference for Vervaeke's connection of Stoicism to contemporary cognitive therapy.",
     "introducedIn": 14,
     "discussedIn": [
       14,
@@ -669,7 +669,7 @@
     ],
     "keyClaimsAbout": [
       "The core of wisdom is knowing what's in our control and what's not.",
-      "We do not have control over events — only over our judgments of them.",
+      "We do not have control over events, only over our judgments of them.",
       "Stoic practice as the ancestor of cognitive therapy."
     ],
     "notes": "Cited together with Marcus Aurelius and Beck in the Stoicism chapter."
@@ -701,7 +701,7 @@
     "canonicalName": "Eric Perl",
     "aliases": [],
     "shortBio": "American philosopher, professor at Loyola Marymount, author of Thinking Being: Introduction to Metaphysics in the Classical Tradition.",
-    "roleInArgument": "Perl is Vervaeke's main contemporary interpreter of Plato, Aristotle, and Plotinus — supplying the reading of conformity, oneness as realness, and the realization-from-The-One pattern that anchors the historical-spiritual chapters.",
+    "roleInArgument": "Perl is Vervaeke's main contemporary interpreter of Plato, Aristotle, and Plotinus, supplying the reading of conformity, oneness as realness, and the realization-from-The-One pattern that anchors the historical-spiritual chapters.",
     "introducedIn": 5,
     "discussedIn": [
       5,
@@ -717,7 +717,7 @@
     ],
     "keyClaimsAbout": [
       "The Platonic-Aristotelian tradition is centered on the togetherness of thought and being.",
-      "Realness is oneness — degree of structural-functional integration.",
+      "Realness is oneness, degree of structural-functional integration.",
       "Plotinus is the culmination of the classical metaphysics of being and knowing."
     ],
     "notes": "Vervaeke recommends Thinking Being as a fantastic introduction."
@@ -727,7 +727,7 @@
     "canonicalName": "Erich Fromm",
     "aliases": [],
     "shortBio": "German social psychologist, psychoanalyst, and humanistic philosopher (1900-1980), author of Escape from Freedom and To Have or To Be.",
-    "roleInArgument": "Fromm gives Vervaeke the distinction between having-mode and being-mode and the diagnosis of modal confusion — a foundational schema applied repeatedly to Siddhartha's palace, modern consumerism, addiction, and the meaning crisis.",
+    "roleInArgument": "Fromm gives Vervaeke the distinction between having-mode and being-mode and the diagnosis of modal confusion, a foundational schema applied repeatedly to Siddhartha's palace, modern consumerism, addiction, and the meaning crisis.",
     "introducedIn": 7,
     "discussedIn": [
       7,
@@ -742,7 +742,7 @@
     ],
     "keyClaimsAbout": [
       "Fromm distinguishes having-needs (met by possession and control) from being-needs (met by becoming).",
-      "Modal confusion is trying to meet being-needs in the having-mode — and is exploited by capitalism.",
+      "Modal confusion is trying to meet being-needs in the having-mode, and is exploited by capitalism.",
       "Fromm anticipates Buber's I-thou versus I-it distinction in his account of existential modes."
     ],
     "notes": "Vervaeke pairs Fromm with Buber and Stephen Batchelor throughout the discussion of modal confusion."
@@ -802,7 +802,7 @@
     "canonicalName": "Francisco Varela",
     "aliases": [],
     "shortBio": "Chilean biologist and philosopher (1946-2001), co-author of The Embodied Mind, co-originator of autopoiesis.",
-    "roleInArgument": "Varela (with Thompson and Rosch) gives Vervaeke the technical vocabulary of autopoiesis (self-making) and enactivism — central to the 4E cognitive science framework and to the account of relevance realization as embodied embedded.",
+    "roleInArgument": "Varela (with Thompson and Rosch) gives Vervaeke the technical vocabulary of autopoiesis (self-making) and enactivism, central to the 4E cognitive science framework and to the account of relevance realization as embodied embedded.",
     "introducedIn": 6,
     "discussedIn": [
       6,
@@ -817,7 +817,7 @@
       "transjective-relations"
     ],
     "keyClaimsAbout": [
-      "Living things are autopoietic — self-making — not just self-organizing.",
+      "Living things are autopoietic, self-making, not just self-organizing.",
       "Cognition is enacted in the interaction between organism and environment.",
       "Embodiment is not a peripheral feature of cognition but constitutive."
     ],
@@ -830,7 +830,7 @@
       "Nietzsche"
     ],
     "shortBio": "German philosopher (1844-1900), critic of Christianity and morality, author of Thus Spoke Zarathustra, godfather of postmodernism.",
-    "roleInArgument": "Nietzsche is the prophet of the death of God and the meaning crisis. He attempts to recover self-transcendence via the Will to Power but, in Vervaeke's diagnosis, retains only Self-transcendence without the machinery (rationality, Plato, the cultivation of wisdom) for dealing with self-deception — making the recovery dangerous as well as incomplete.",
+    "roleInArgument": "Nietzsche is the prophet of the death of God and the meaning crisis. He attempts to recover self-transcendence via the Will to Power but, in Vervaeke's diagnosis, retains only Self-transcendence without the machinery (rationality, Plato, the cultivation of wisdom) for dealing with self-deception, making the recovery dangerous as well as incomplete.",
     "introducedIn": 1,
     "discussedIn": [
       1,
@@ -883,7 +883,7 @@
       "Hegel"
     ],
     "shortBio": "German philosopher (1770-1831), foundational figure of German Idealism, author of the Phenomenology of Spirit.",
-    "roleInArgument": "Hegel is the Thomas Aquinas of Protestantism — proposing a grand synthesis that secularizes religion into the historical self-realization of Geist (reason/spirit) via dialectic. Vervaeke treats him as a titanic synthesizer whose system, by reducing everything to propositional/conceptual knowing, becomes the godfather of totalizing ideologies and inadvertently fuels the meaning crisis through its critics (Schopenhauer, Kierkegaard, Marx).",
+    "roleInArgument": "Hegel is the Thomas Aquinas of Protestantism, proposing a grand synthesis that secularizes religion into the historical self-realization of Geist (reason/spirit) via dialectic. Vervaeke treats him as a titanic synthesizer whose system, by reducing everything to propositional/conceptual knowing, becomes the godfather of totalizing ideologies and inadvertently fuels the meaning crisis through its critics (Schopenhauer, Kierkegaard, Marx).",
     "introducedIn": 24,
     "discussedIn": [
       24,
@@ -895,19 +895,19 @@
       "self-transcendence"
     ],
     "keyClaimsAbout": [
-      "Hegel claims 'the real is the rational and the rational is the real' — reality just is the patterns of intelligibility.",
+      "Hegel claims 'the real is the rational and the rational is the real', reality just is the patterns of intelligibility.",
       "Geist (mind/spirit) develops dialectically through articulation and integration.",
       "Hegel sees his philosophy as the self-recognition of Absolute Spirit.",
       "Kierkegaard's critique: Hegel reduces everything to propositional knowing, losing the perspectival, participatory, and ethical."
     ],
-    "notes": "Vervaeke explicitly says: 'Hegel is the Thomas Aquinas of Protestantism.' His system is then critiqued by Schopenhauer, Kierkegaard, and Marx — each fueling a different stream of modern meaning crisis."
+    "notes": "Vervaeke explicitly says: 'Hegel is the Thomas Aquinas of Protestantism.' His system is then critiqued by Schopenhauer, Kierkegaard, and Marx, each fueling a different stream of modern meaning crisis."
   },
   {
     "id": "hans-jonas",
     "canonicalName": "Hans Jonas",
     "aliases": [],
     "shortBio": "German-born American Jewish philosopher (1903-1993), author of The Gnostic Religion and The Phenomenon of Life.",
-    "roleInArgument": "Jonas's The Gnostic Religion provides Vervaeke's framework for reading Gnosticism as deeply relevant to modern nihilism and the meaning crisis — and the link between existential entrapment and the Gnostic mythology.",
+    "roleInArgument": "Jonas's The Gnostic Religion provides Vervaeke's framework for reading Gnosticism as deeply relevant to modern nihilism and the meaning crisis, and the link between existential entrapment and the Gnostic mythology.",
     "introducedIn": 18,
     "discussedIn": [
       18
@@ -941,7 +941,7 @@
     ],
     "keyClaimsAbout": [
       "Bullshit differs from lying: it works by making truth irrelevant rather than asserting falsehood.",
-      "Frankfurt's notion of the unthinkable — worldviews we cannot make viable to ourselves.",
+      "Frankfurt's notion of the unthinkable, worldviews we cannot make viable to ourselves.",
       "Reason and love are inseparable in his Reasons of Love."
     ],
     "notes": "Frankfurt's On Bullshit is Vervaeke's canonical reference for the technical use of 'bullshit' throughout."
@@ -951,7 +951,7 @@
     "canonicalName": "Henry Corbin",
     "aliases": [],
     "shortBio": "French philosopher, theologian, and Islamicist (1903-1978), professor at the École pratique des hautes études, scholar of Persian Sufism.",
-    "roleInArgument": "Corbin is the prophet of the imaginal — the transjective mode of image that mediates between abstract and concrete worlds — and of gnosis as salvific transformative knowledge. He bridges Heidegger (whom he translated into French) and Jung; the divine double, drawn from Persian Sufism, becomes Vervaeke's image of aspirational transformation.",
+    "roleInArgument": "Corbin is the prophet of the imaginal, the transjective mode of image that mediates between abstract and concrete worlds, and of gnosis as salvific transformative knowledge. He bridges Heidegger (whom he translated into French) and Jung; the divine double, drawn from Persian Sufism, becomes Vervaeke's image of aspirational transformation.",
     "introducedIn": 18,
     "discussedIn": [
       18,
@@ -972,9 +972,9 @@
     ],
     "keyClaimsAbout": [
       "Corbin distinguishes the imaginary (subjective mental pictures) from the imaginal (transjective mediating image).",
-      "Gnosis is salvific knowledge that transforms the knowing subject — a participatory, dynamical knowing.",
+      "Gnosis is salvific knowledge that transforms the knowing subject, a participatory, dynamical knowing.",
       "The divine double is the better self that shines into one's current frame from a more encompassing world.",
-      "Persia kept the Neoplatonic and Gnostic strands of spirituality alive — Corbin recovers them."
+      "Persia kept the Neoplatonic and Gnostic strands of spirituality alive, Corbin recovers them."
     ],
     "notes": "Cheetham's books on Corbin are Vervaeke's primary secondary source."
   },
@@ -1002,9 +1002,9 @@
       "4e-cognition"
     ],
     "keyClaimsAbout": [
-      "Skilled coping cannot be captured by propositional rules — pointing to the limits of classical AI.",
+      "Skilled coping cannot be captured by propositional rules, pointing to the limits of classical AI.",
       "Optimal grip names the body's dynamic adjustment to maximize interactional contact.",
-      "Computers lack the Heideggerian machinery of caring — of finding things relevant.",
+      "Computers lack the Heideggerian machinery of caring, of finding things relevant.",
       "Dreyfus's reading of Heidegger feeds directly into 4E cognitive science."
     ],
     "notes": "Vervaeke uses Dreyfus as the key bridge between Heideggerian phenomenology and his own cognitive science."
@@ -1014,7 +1014,7 @@
     "canonicalName": "Igor Grossmann",
     "aliases": [],
     "shortBio": "Canadian psychologist (b. 1981), professor at the University of Waterloo, leading researcher on wisdom.",
-    "roleInArgument": "Grossmann's experimental work on the Solomon effect — de-centering improves wisdom — provides Vervaeke with the contemporary cognitive-science evidence base for de-centering as a key wisdom mechanism.",
+    "roleInArgument": "Grossmann's experimental work on the Solomon effect, de-centering improves wisdom, provides Vervaeke with the contemporary cognitive-science evidence base for de-centering as a key wisdom mechanism.",
     "introducedIn": 12,
     "discussedIn": [
       12,
@@ -1052,7 +1052,7 @@
       "the-meaning-crisis"
     ],
     "keyClaimsAbout": [
-      "Kant frames reality through transcendental categories of mind — the thing-in-itself is unknowable.",
+      "Kant frames reality through transcendental categories of mind, the thing-in-itself is unknowable.",
       "Kant observes that biological self-organization defies the Newtonian causal model.",
       "He sees a deep problem: the morality demands perfection, but we are not perfect.",
       "His framework becomes the starting point for both Romanticism and Hegel."
@@ -1092,7 +1092,7 @@
       "Porteous"
     ],
     "shortBio": "Geographer, co-author with Sandra Smith of Domicide: The Global Destruction of Home.",
-    "roleInArgument": "Porteous (with Smith) coins the term domicide — the destruction of home — which Vervaeke takes up as a central diagnostic concept for the Hellenistic crisis and our own.",
+    "roleInArgument": "Porteous (with Smith) coins the term domicide, the destruction of home, which Vervaeke takes up as a central diagnostic concept for the Hellenistic crisis and our own.",
     "introducedIn": 14,
     "discussedIn": [
       14
@@ -1101,7 +1101,7 @@
       "domicide"
     ],
     "keyClaimsAbout": [
-      "Domicide is the destruction of home — physical and cultural.",
+      "Domicide is the destruction of home, physical and cultural.",
       "Modern globalization produces widespread cultural domicide."
     ],
     "notes": "Cited alongside Sandra Smith and Brian Walsh as the origin of the term."
@@ -1138,7 +1138,7 @@
       "Jesus"
     ],
     "shortBio": "First-century Jewish teacher (c. 4 BCE-30 CE), central figure of Christianity, whom Vervaeke treats with respect while declining to make metaphysical claims.",
-    "roleInArgument": "Jesus is the personalization of Kairos — the turning point of cosmic history embodied in an individual — and the incarnation of agape, the transformative for-giving love that turns non-persons into persons. His teaching of metanoia (radical perspectival transformation) is the Christian psycho-technology for personal Kairos.",
+    "roleInArgument": "Jesus is the personalization of Kairos, the turning point of cosmic history embodied in an individual, and the incarnation of agape, the transformative for-giving love that turns non-persons into persons. His teaching of metanoia (radical perspectival transformation) is the Christian psycho-technology for personal Kairos.",
     "introducedIn": 15,
     "discussedIn": [
       15,
@@ -1171,7 +1171,7 @@
     "canonicalName": "John Wright",
     "aliases": [],
     "shortBio": "Philosopher who developed the concept of sensibility transcendence, drawing on Iris Murdoch.",
-    "roleInArgument": "Wright's article 'Transcendence Without Reality' supplies the term sensibility transcendence — the simultaneous transformation of perceiver and perceived — which Vervaeke uses as the cognitive signature of transframing and viable worldview transition.",
+    "roleInArgument": "Wright's article 'Transcendence Without Reality' supplies the term sensibility transcendence, the simultaneous transformation of perceiver and perceived, which Vervaeke uses as the cognitive signature of transframing and viable worldview transition.",
     "introducedIn": 17,
     "discussedIn": [
       17
@@ -1193,7 +1193,7 @@
       "John (Gospel)"
     ],
     "shortBio": "Traditional author of the Gospel of John and the Johannine epistles in the New Testament.",
-    "roleInArgument": "John supplies the central Christian-Stoic claim 'In the beginning was the Logos' and the radical identification 'God is Agape' — the conceptual identification of God with the process of creative love that becomes foundational for Vervaeke's reading of Christianity.",
+    "roleInArgument": "John supplies the central Christian-Stoic claim 'In the beginning was the Logos' and the radical identification 'God is Agape', the conceptual identification of God with the process of creative love that becomes foundational for Vervaeke's reading of Christianity.",
     "introducedIn": 15,
     "discussedIn": [
       15,
@@ -1205,8 +1205,8 @@
       "logos"
     ],
     "keyClaimsAbout": [
-      "In the beginning was the Logos — Christian Logos doctrine likely lifted from Stoicism.",
-      "God is Agape — the radical Johannine identification.",
+      "In the beginning was the Logos, Christian Logos doctrine likely lifted from Stoicism.",
+      "God is Agape, the radical Johannine identification.",
       "God is identical with the agapic process of person-making."
     ],
     "notes": "John's gospel and epistles are central reference points for Vervaeke's reading of Christianity."
@@ -1216,7 +1216,7 @@
     "canonicalName": "Juensung Kim",
     "aliases": [],
     "shortBio": "Vervaeke's lab manager and collaborator, contributing to research on mystical experience, wisdom, and aspiration.",
-    "roleInArgument": "Juensung Kim works directly with Vervaeke on the experimental investigation of mystical experience, meaning in life, and the psychology of aspiration — extending the cognitive-science of wisdom into new domains.",
+    "roleInArgument": "Juensung Kim works directly with Vervaeke on the experimental investigation of mystical experience, meaning in life, and the psychology of aspiration, extending the cognitive-science of wisdom into new domains.",
     "introducedIn": 9,
     "discussedIn": [
       9,
@@ -1262,7 +1262,7 @@
     "canonicalName": "Karl Jaspers",
     "aliases": [],
     "shortBio": "German-Swiss psychiatrist and philosopher (1883-1969), originator of the concept of the Axial Age.",
-    "roleInArgument": "Jaspers coined the term Axial Age (Achsenzeit) for the period 800-200 BCE in which philosophical and religious traditions emerged that still shape us — the historical framework for Vervaeke's entire genealogy.",
+    "roleInArgument": "Jaspers coined the term Axial Age (Achsenzeit) for the period 800-200 BCE in which philosophical and religious traditions emerged that still shape us, the historical framework for Vervaeke's entire genealogy.",
     "introducedIn": 2,
     "discussedIn": [
       2
@@ -1281,7 +1281,7 @@
     "canonicalName": "Karl Marx",
     "aliases": [],
     "shortBio": "German philosopher, economist, and revolutionary (1818-1883), author of Das Kapital and the Communist Manifesto.",
-    "roleInArgument": "Marx critiques Hegel by inverting his idealism: the dialectic is not of ideas but of socioeconomic forces (Plato's monster, not the man, drives history). Marx supplies the participatory dimension missing in Hegel via revolutionary politics, secularizing the Judeo-Christian narrative of redemptive history into pseudo-religious utopian ideology — a key driver of 20th-century totalitarianism.",
+    "roleInArgument": "Marx critiques Hegel by inverting his idealism: the dialectic is not of ideas but of socioeconomic forces (Plato's monster, not the man, drives history). Marx supplies the participatory dimension missing in Hegel via revolutionary politics, secularizing the Judeo-Christian narrative of redemptive history into pseudo-religious utopian ideology, a key driver of 20th-century totalitarianism.",
     "introducedIn": 24,
     "discussedIn": [
       24,
@@ -1292,9 +1292,9 @@
     ],
     "keyClaimsAbout": [
       "History is driven by socioeconomic forces (Plato's monster), not by reason.",
-      "Religion is projection — a vehicle of self-alienation (drawing on Feuerbach).",
+      "Religion is projection, a vehicle of self-alienation (drawing on Feuerbach).",
       "Class conflict is the secularized dialectic working out the contradictions of capitalism.",
-      "Revolution is the secularized Kairos — the turning point in cosmic history."
+      "Revolution is the secularized Kairos, the turning point in cosmic history."
     ],
     "notes": "Vervaeke is severely critical of Marx as the godfather of pseudo-religious utopian ideologies that have produced enormous suffering."
   },
@@ -1303,7 +1303,7 @@
     "canonicalName": "Keith Stanovich",
     "aliases": [],
     "shortBio": "Canadian psychologist (b. 1950), professor at the University of Toronto, leading researcher on rationality and cognitive style.",
-    "roleInArgument": "Stanovich gives Vervaeke the empirical case for a multi-component theory of rationality distinct from intelligence — and the idea that rationality is fundamentally about cognitive style and the use of psycho-technologies to overcome bias.",
+    "roleInArgument": "Stanovich gives Vervaeke the empirical case for a multi-component theory of rationality distinct from intelligence, and the idea that rationality is fundamentally about cognitive style and the use of psycho-technologies to overcome bias.",
     "introducedIn": 14,
     "discussedIn": [
       14,
@@ -1328,7 +1328,7 @@
       "Laurie Paul"
     ],
     "shortBio": "American philosopher (b. 1966), professor at Yale, best known for her work on transformative experience.",
-    "roleInArgument": "L.A. Paul gives Vervaeke the philosophical analysis of transformative experience — experiences that change both who you are and what you know about being that way, leaving you radically ignorant before and irreversibly changed after — central to Vervaeke's accounts of aspiration, gnosis, and higher states of consciousness.",
+    "roleInArgument": "L.A. Paul gives Vervaeke the philosophical analysis of transformative experience, experiences that change both who you are and what you know about being that way, leaving you radically ignorant before and irreversibly changed after, central to Vervaeke's accounts of aspiration, gnosis, and higher states of consciousness.",
     "introducedIn": 1,
     "discussedIn": [
       1,
@@ -1357,7 +1357,7 @@
     "canonicalName": "Leo Ferraro",
     "aliases": [],
     "shortBio": "Cognitive scientist and frequent collaborator with John Vervaeke on flow, mindfulness, parasitic processing, and wisdom.",
-    "roleInArgument": "Ferraro co-authored with Vervaeke key papers on flow (2013), mindfulness (2016), parasitic processing, and wisdom — supplying the technical scaffolding for several of Vervaeke's core constructs.",
+    "roleInArgument": "Ferraro co-authored with Vervaeke key papers on flow (2013), mindfulness (2016), parasitic processing, and wisdom, supplying the technical scaffolding for several of Vervaeke's core constructs.",
     "introducedIn": 2,
     "discussedIn": [
       2,
@@ -1389,7 +1389,7 @@
     "canonicalName": "Ludwig Feuerbach",
     "aliases": [],
     "shortBio": "German philosopher (1804-1872), author of The Essence of Christianity, critic of religion as projection.",
-    "roleInArgument": "Feuerbach's critique of religion as projection — that God is the projection of our humanity — is what Marx then radicalizes into the political critique. Vervaeke uses Feuerbach to articulate one extreme alternative to his own naturalistic account of sacredness.",
+    "roleInArgument": "Feuerbach's critique of religion as projection, that God is the projection of our humanity, is what Marx then radicalizes into the political critique. Vervaeke uses Feuerbach to articulate one extreme alternative to his own naturalistic account of sacredness.",
     "introducedIn": 24,
     "discussedIn": [
       24
@@ -1428,7 +1428,7 @@
     ],
     "keyClaimsAbout": [
       "Concepts have family-resemblance structure, not necessary-and-sufficient-conditions structure.",
-      "Meaning is constituted by use within a form of life — participatory, not propositional."
+      "Meaning is constituted by use within a form of life, participatory, not propositional."
     ],
     "notes": null
   },
@@ -1437,7 +1437,7 @@
     "canonicalName": "Marc Lewis",
     "aliases": [],
     "shortBio": "Canadian developmental neuroscientist (b. 1951), author of Memoirs of an Addicted Brain and The Biology of Desire.",
-    "roleInArgument": "Marc Lewis gives Vervaeke the model of addiction as reciprocal narrowing — the interactive shrinking of agency and arena — which becomes part of the dual diagnosis of dukkha together with parasitic processing. Lewis's friendship and direct engagement with Vervaeke shape this account.",
+    "roleInArgument": "Marc Lewis gives Vervaeke the model of addiction as reciprocal narrowing, the interactive shrinking of agency and arena, which becomes part of the dual diagnosis of dukkha together with parasitic processing. Lewis's friendship and direct engagement with Vervaeke shape this account.",
     "introducedIn": 13,
     "discussedIn": [
       13,
@@ -1451,9 +1451,9 @@
       "parasitic-processing"
     ],
     "keyClaimsAbout": [
-      "Addiction is reciprocal narrowing — agent and arena tightly co-restrict each other.",
+      "Addiction is reciprocal narrowing, agent and arena tightly co-restrict each other.",
       "The standard chemical-compulsion model of addiction is fundamentally wrong.",
-      "Addiction is a form of existential learning — a learned loss of agency."
+      "Addiction is a form of existential learning, a learned loss of agency."
     ],
     "notes": "Vervaeke and Lewis collaborate on the dual account: parasitic processing (within) plus reciprocal narrowing (without) jointly constitute dukkha."
   },
@@ -1462,7 +1462,7 @@
     "canonicalName": "Marcus Aurelius",
     "aliases": [],
     "shortBio": "Roman emperor (121-180 CE) and Stoic philosopher, author of the Meditations.",
-    "roleInArgument": "Marcus Aurelius represents Stoicism's mature integration — Vervaeke uses him for the line 'It is possible to be happy even in a palace' to capture the Stoic insight that one can be in the having-mode existential trap regardless of external circumstance.",
+    "roleInArgument": "Marcus Aurelius represents Stoicism's mature integration, Vervaeke uses him for the line 'It is possible to be happy even in a palace' to capture the Stoic insight that one can be in the having-mode existential trap regardless of external circumstance.",
     "introducedIn": 7,
     "discussedIn": [
       7,
@@ -1474,7 +1474,7 @@
     ],
     "keyClaimsAbout": [
       "Stoicism's mature integration of Socratic philosophy with imperial responsibility.",
-      "It is possible to be happy even in a palace — circumstance does not determine meaning.",
+      "It is possible to be happy even in a palace, circumstance does not determine meaning.",
       "Father of cognitive behavioral therapy via Beck and Stoic transmission."
     ],
     "notes": "Recurs throughout the Stoic and Hellenistic episodes."
@@ -1484,7 +1484,7 @@
     "canonicalName": "Martin Buber",
     "aliases": [],
     "shortBio": "Austrian-Israeli Jewish philosopher (1878-1965), author of I and Thou.",
-    "roleInArgument": "Buber gives Vervaeke the I-thou versus I-it distinction — the relational modes in which we encounter persons (participatory, transforming) versus things (categorical, manipulable). Used to articulate the participatory dimension of agape and the loss thereof in modal confusion.",
+    "roleInArgument": "Buber gives Vervaeke the I-thou versus I-it distinction, the relational modes in which we encounter persons (participatory, transforming) versus things (categorical, manipulable). Used to articulate the participatory dimension of agape and the loss thereof in modal confusion.",
     "introducedIn": 7,
     "discussedIn": [
       7,
@@ -1497,7 +1497,7 @@
     ],
     "keyClaimsAbout": [
       "I-it relations categorize and instrumentalize; I-thou relations participate and transform.",
-      "Persons are encountered in I-thou, objects in I-it — but moderns reduce I-thou to I-it.",
+      "Persons are encountered in I-thou, objects in I-it, but moderns reduce I-thou to I-it.",
       "Buber anticipates Fromm's distinction of being-mode and having-mode."
     ],
     "notes": "Vervaeke uses I-thou as a quick shorthand for the participatory, transformative mode."
@@ -1533,12 +1533,12 @@
       "the-prophets-of-the-meaning-crisis"
     ],
     "keyClaimsAbout": [
-      "Heidegger's Dasein is inherently transjective — being-in-the-world is not subject-object but co-constitutive.",
+      "Heidegger's Dasein is inherently transjective, being-in-the-world is not subject-object but co-constitutive.",
       "Care is at the core of being and at the core of finding things relevant.",
-      "The meaning crisis is the forgetfulness of being — losing the participatory mode.",
+      "The meaning crisis is the forgetfulness of being, losing the participatory mode.",
       "Aletheia (truth as disclosure) is the recovery of participatory knowing through serious play."
     ],
-    "notes": "Heidegger is the godfather of the prophets Vervaeke ends the series with: Tillich, Jung, Corbin, Barfield. Vervaeke is ambivalent — admiring philosophically but troubled by Heidegger's politics."
+    "notes": "Heidegger is the godfather of the prophets Vervaeke ends the series with: Tillich, Jung, Corbin, Barfield. Vervaeke is ambivalent, admiring philosophically but troubled by Heidegger's politics."
   },
   {
     "id": "luther",
@@ -1559,7 +1559,7 @@
     "keyClaimsAbout": [
       "Luther's sola fide reduces faith to acceptance of unearned arbitrary grace.",
       "His abolition of the monastery destroys the wisdom institution paired with knowledge.",
-      "He inadvertently creates the cultural grammar of narcissism — worthlessness plus craving for unearned positive regard.",
+      "He inadvertently creates the cultural grammar of narcissism, worthlessness plus craving for unearned positive regard.",
       "The Protestant Reformation is co-engine, with the scientific revolution, of the meaning crisis."
     ],
     "notes": "Vervaeke is severely critical of Luther while acknowledging the genuine insight in Luther's wrestling with parasitic processing."
@@ -1569,7 +1569,7 @@
     "canonicalName": "Matt Rossano",
     "aliases": [],
     "shortBio": "American anthropologist of religion, author of Supernatural Selection, theorist of ritual and Upper Paleolithic cognitive evolution.",
-    "roleInArgument": "Rossano provides the argument that meditation-like practices drove the Upper Paleolithic transition — that supernatural selection via ritual cognition shaped the evolution of human meaning-making.",
+    "roleInArgument": "Rossano provides the argument that meditation-like practices drove the Upper Paleolithic transition, that supernatural selection via ritual cognition shaped the evolution of human meaning-making.",
     "introducedIn": 1,
     "discussedIn": [
       1,
@@ -1591,7 +1591,7 @@
     "canonicalName": "Maurice Merleau-Ponty",
     "aliases": [],
     "shortBio": "French phenomenologist (1908-1961), author of Phenomenology of Perception.",
-    "roleInArgument": "Merleau-Ponty supplies the notion of optimal grip and the phenomenological foundation for embodied, embedded cognition — picked up by Dreyfus and central to Vervaeke's account of consciousness's transjective optimization.",
+    "roleInArgument": "Merleau-Ponty supplies the notion of optimal grip and the phenomenological foundation for embodied, embedded cognition, picked up by Dreyfus and central to Vervaeke's account of consciousness's transjective optimization.",
     "introducedIn": 10,
     "discussedIn": [
       10,
@@ -1631,7 +1631,7 @@
       "self-transcendence"
     ],
     "keyClaimsAbout": [
-      "Eckhart inverts ascent spirituality into descent spirituality — God flows into the self that negates itself.",
+      "Eckhart inverts ascent spirituality into descent spirituality, God flows into the self that negates itself.",
       "Love is not what moves the will but the way the will moves when it negates self-assertion.",
       "Eckhart is a favorite author of Vervaeke's, especially for overcoming attachment to thought and self-image.",
       "His self-negation, radicalized by Luther, becomes self-loathing and the cultural seedbed for narcissism."
@@ -1645,7 +1645,7 @@
       "M.L. Anderson"
     ],
     "shortBio": "American cognitive scientist, theorist of neural reuse and exaptation in brain function.",
-    "roleInArgument": "Anderson's theory of cognitive exaptation — that the brain reuses mechanisms evolved for one function in service of new functions — is foundational for Vervaeke's account of how shamanic practices, mystical exaptations of self-machinery, and psycho-technologies could yield new capacities.",
+    "roleInArgument": "Anderson's theory of cognitive exaptation, that the brain reuses mechanisms evolved for one function in service of new functions, is foundational for Vervaeke's account of how shamanic practices, mystical exaptations of self-machinery, and psycho-technologies could yield new capacities.",
     "introducedIn": 1,
     "discussedIn": [
       1,
@@ -1666,7 +1666,7 @@
     "canonicalName": "Michael Polanyi",
     "aliases": [],
     "shortBio": "Hungarian-British polymath (1891-1976), philosopher of science and tacit knowledge, author of Personal Knowledge.",
-    "roleInArgument": "Polanyi gives Vervaeke the structural analysis of attention as subsidiary versus focal awareness — the transparency-opacity shift — which becomes one of the two axes of attentional scaling underlying mindfulness, insight, and the rest of the cognitive-science apparatus.",
+    "roleInArgument": "Polanyi gives Vervaeke the structural analysis of attention as subsidiary versus focal awareness, the transparency-opacity shift, which becomes one of the two axes of attentional scaling underlying mindfulness, insight, and the rest of the cognitive-science apparatus.",
     "introducedIn": 9,
     "discussedIn": [
       9
@@ -1741,7 +1741,7 @@
     "canonicalName": "Monika Ardelt",
     "aliases": [],
     "shortBio": "American sociologist and gerontologist (b. 1955), professor at the University of Florida, developer of a leading three-factor model of wisdom.",
-    "roleInArgument": "Ardelt's three-factor (cognitive, reflective, affective) model of wisdom — emphasizing self-transcendence, compassion, and the integration of mind and heart — is one of Vervaeke's main reference points in his synthesis of wisdom theories.",
+    "roleInArgument": "Ardelt's three-factor (cognitive, reflective, affective) model of wisdom, emphasizing self-transcendence, compassion, and the integration of mind and heart, is one of Vervaeke's main reference points in his synthesis of wisdom theories.",
     "introducedIn": 43,
     "discussedIn": [
       43,
@@ -1815,7 +1815,7 @@
       "Paul's inner conflict between the old Saul and the new Paul gets projected onto God himself.",
       "Paul lays the seedbed for Augustinian-Lutheran narratives of self-loathing requiring unearned grace."
     ],
-    "notes": "Vervaeke is genuinely ambivalent about Paul — celebrating the agape teaching while diagnosing the projected inner conflict as a dangerous cultural template."
+    "notes": "Vervaeke is genuinely ambivalent about Paul, celebrating the agape teaching while diagnosing the projected inner conflict as a dangerous cultural template."
   },
   {
     "id": "baltes-staudinger",
@@ -1848,7 +1848,7 @@
     "canonicalName": "Paul Tillich",
     "aliases": [],
     "shortBio": "German-American Christian existentialist philosopher and theologian (1886-1965), author of The Courage to Be.",
-    "roleInArgument": "Tillich is a key prophet of the meaning crisis for Vervaeke — articulating the response in terms of the courage to be, the ground of being (God beyond the God of theism), and the rediscovery of sacredness as something deeper than supernaturalism. Tillich was the first non-Jewish academic fired by the Nazis and is morally exemplary.",
+    "roleInArgument": "Tillich is a key prophet of the meaning crisis for Vervaeke, articulating the response in terms of the courage to be, the ground of being (God beyond the God of theism), and the rediscovery of sacredness as something deeper than supernaturalism. Tillich was the first non-Jewish academic fired by the Nazis and is morally exemplary.",
     "introducedIn": 14,
     "discussedIn": [
       3,
@@ -1874,7 +1874,7 @@
     ],
     "keyClaimsAbout": [
       "Tillich diagnoses the meaning crisis and proposes the courage to be as the existential response.",
-      "He invokes the God beyond the God of theism — the ground of being.",
+      "He invokes the God beyond the God of theism, the ground of being.",
       "He develops a powerful theory of religious symbols.",
       "He coined the use of Kairos for turning points in history."
     ],
@@ -1885,7 +1885,7 @@
     "canonicalName": "Plato",
     "aliases": [],
     "shortBio": "Ancient Greek philosopher (c. 428-348 BCE), student of Socrates, founder of the Academy in Athens, author of dialogues that shape Western philosophy.",
-    "roleInArgument": "Plato is one of the two foundational feet of Western civilization (with the Bible). His Myth of the Cave, divided psyche, theory of forms (idos), and anagogic notion of wisdom are the conceptual sources Vervaeke returns to throughout. Plato also creates the first psychological theory and is treated as sacred — an inexhaustible font of insight.",
+    "roleInArgument": "Plato is one of the two foundational feet of Western civilization (with the Bible). His Myth of the Cave, divided psyche, theory of forms (idos), and anagogic notion of wisdom are the conceptual sources Vervaeke returns to throughout. Plato also creates the first psychological theory and is treated as sacred, an inexhaustible font of insight.",
     "introducedIn": 4,
     "discussedIn": [
       4,
@@ -1923,8 +1923,8 @@
     "keyClaimsAbout": [
       "Plato traumatized by Socrates's death formulates wisdom as inner harmony plus contact with reality.",
       "Plato gives us the first psychological theory: man-lion-monster tripartite psyche.",
-      "Plato's Myth of the Cave is the paradigm of anagoge — self-transformation as ascent into reality.",
-      "Plato's idos (form, structural-functional organization) is sacred — an inexhaustible font."
+      "Plato's Myth of the Cave is the paradigm of anagoge, self-transformation as ascent into reality.",
+      "Plato's idos (form, structural-functional organization) is sacred, an inexhaustible font."
     ],
     "notes": "Vervaeke uses Plato as his anchor across all 50 episodes. Many of his technical terms (idos, anagoge, logos, the Good) are translations from Plato."
   },
@@ -1933,7 +1933,7 @@
     "canonicalName": "Plotinus",
     "aliases": [],
     "shortBio": "Third-century Hellenistic philosopher (204-270 CE) who lived in Roman Egypt and Rome, founder of Neoplatonism, author of the Enneads.",
-    "roleInArgument": "Plotinus is Vervaeke's exemplar of the grand unified theory of ancient spirituality — integrating Aristotle's worldview, Stoic therapy, and Platonic spirituality into one system in which levels of reality, of consciousness, and of self ascend together toward The One. He provides the normative order Vervaeke contrasts with the nomological and narrative.",
+    "roleInArgument": "Plotinus is Vervaeke's exemplar of the grand unified theory of ancient spirituality, integrating Aristotle's worldview, Stoic therapy, and Platonic spirituality into one system in which levels of reality, of consciousness, and of self ascend together toward The One. He provides the normative order Vervaeke contrasts with the nomological and narrative.",
     "introducedIn": 18,
     "discussedIn": [
       12,
@@ -1956,7 +1956,7 @@
     "keyClaimsAbout": [
       "Plotinus integrates Aristotelian science, Stoic therapy, and Platonic spirituality into a unified system.",
       "The One is that by which all things are realized but which itself can only be united with through being, not knowing.",
-      "Realness is oneness — degree of structural-functional integration.",
+      "Realness is oneness, degree of structural-functional integration.",
       "Vervaeke describes Neoplatonism (following Versluis) as the bedrock of Western spirituality."
     ],
     "notes": "Vervaeke leans heavily on Eric Perl's interpretation of Plotinus in 'Thinking Being.'"
@@ -1966,7 +1966,7 @@
     "canonicalName": "Pythagoras",
     "aliases": [],
     "shortBio": "Ancient Greek philosopher and mathematician (c. 570-495 BCE), founder of a religious-philosophical community, associated with the Pythagorean theorem.",
-    "roleInArgument": "Pythagoras represents the rediscovery of shamanic psycho-technologies — soul flight, ritual transformation — wedded to the new psycho-technologies of mathematical reasoning. He invents the word 'philosophy' (philia-sophia) and the word 'cosmos,' and he sets up the Platonic linkage between rational pattern-recognition and self-transcendence.",
+    "roleInArgument": "Pythagoras represents the rediscovery of shamanic psycho-technologies, soul flight, ritual transformation, wedded to the new psycho-technologies of mathematical reasoning. He invents the word 'philosophy' (philia-sophia) and the word 'cosmos,' and he sets up the Platonic linkage between rational pattern-recognition and self-transcendence.",
     "introducedIn": 3,
     "discussedIn": [
       3,
@@ -1993,7 +1993,7 @@
       "Descartes"
     ],
     "shortBio": "French philosopher and mathematician (1596-1650), foundational figure of modern philosophy, originator of mind-body dualism.",
-    "roleInArgument": "Descartes intensifies the modern entrapment in the mind by making the mind a self-enclosed substance distinct from matter, certifying that we need no transformation to reach truth — only the right method. Vervaeke argues this denies the participatory transformation central to the axial revolution and helps drive the meaning crisis.",
+    "roleInArgument": "Descartes intensifies the modern entrapment in the mind by making the mind a self-enclosed substance distinct from matter, certifying that we need no transformation to reach truth, only the right method. Vervaeke argues this denies the participatory transformation central to the axial revolution and helps drive the meaning crisis.",
     "introducedIn": 21,
     "discussedIn": [
       21,
@@ -2009,7 +2009,7 @@
       "Descartes makes mind a self-enclosed substance separate from matter.",
       "His method excludes the perspectival, participatory transformation central to the axial revolution.",
       "Descartes accelerates the disconnection from reality begun by Copernicus and Galileo.",
-      "He claims contact with ultimate reality requires no transformation — only the right computation."
+      "He claims contact with ultimate reality requires no transformation, only the right computation."
     ],
     "notes": "Pascal's diagnosis of the loss of the Spirit of Finesse is Vervaeke's main framing of what Descartes cost us."
   },
@@ -2018,7 +2018,7 @@
     "canonicalName": "Robert Bellah",
     "aliases": [],
     "shortBio": "American sociologist of religion (1927-2013), author of Religion in Human Evolution.",
-    "roleInArgument": "Bellah supplies the concept of second-order thinking — the metacognitive capacity that emerges when literacy and numeracy are internalized — as the cognitive substrate of the axial revolution.",
+    "roleInArgument": "Bellah supplies the concept of second-order thinking, the metacognitive capacity that emerges when literacy and numeracy are internalized, as the cognitive substrate of the axial revolution.",
     "introducedIn": 2,
     "discussedIn": [
       2
@@ -2038,7 +2038,7 @@
     "canonicalName": "Robert Sternberg",
     "aliases": [],
     "shortBio": "American cognitive psychologist (b. 1949), professor at Cornell, developer of the balance theory of wisdom.",
-    "roleInArgument": "Sternberg's balance theory of wisdom — wisdom as the application of intelligence and creativity toward a common good through the balance of intrapersonal, interpersonal, and extrapersonal interests — feeds into Vervaeke's synthesis of wisdom theories.",
+    "roleInArgument": "Sternberg's balance theory of wisdom, wisdom as the application of intelligence and creativity toward a common good through the balance of intrapersonal, interpersonal, and extrapersonal interests, feeds into Vervaeke's synthesis of wisdom theories.",
     "introducedIn": 44,
     "discussedIn": [
       44,
@@ -2050,7 +2050,7 @@
     "keyClaimsAbout": [
       "Wisdom is the application of intelligence and creativity toward a common good.",
       "Wisdom balances intrapersonal, interpersonal, and extrapersonal interests.",
-      "Wisdom depends on the fit of a wise solution to its context — inherently transjective."
+      "Wisdom depends on the fit of a wise solution to its context, inherently transjective."
     ],
     "notes": "Vervaeke draws on Sternberg's emphasis on fittedness and transjective context-sensitivity."
   },
@@ -2061,7 +2061,7 @@
       "Hogarth"
     ],
     "shortBio": "Cognitive scientist and decision researcher; author of Educating Intuition.",
-    "roleInArgument": "Hogarth provides the naturalistic account Vervaeke endorses: intuition is the felt sense of implicit-learning output, not anything magical — and crucially, intuition can be educated by shaping the learning environment.",
+    "roleInArgument": "Hogarth provides the naturalistic account Vervaeke endorses: intuition is the felt sense of implicit-learning output, not anything magical, and crucially, intuition can be educated by shaping the learning environment.",
     "introducedIn": 2,
     "discussedIn": [
       2
@@ -2072,7 +2072,7 @@
     ],
     "keyClaimsAbout": [
       "Intuition is real but naturalistic: it's the surface of implicit pattern-recognition.",
-      "Intuition can be trained — 'kind' learning environments educate it; 'wicked' environments mislead it."
+      "Intuition can be trained, 'kind' learning environments educate it; 'wicked' environments mislead it."
     ],
     "notes": null
   },
@@ -2081,7 +2081,7 @@
     "canonicalName": "Rudolf Otto",
     "aliases": [],
     "shortBio": "German Lutheran theologian and philosopher of religion (1869-1937), author of The Idea of the Holy.",
-    "roleInArgument": "Otto coins 'the numinous' — the experience of the sacred as simultaneously fascinating and terrifying, with mystery at its core. Vervaeke uses Otto's three aspects of the numinous to extend Geertz's framework of sacredness.",
+    "roleInArgument": "Otto coins 'the numinous', the experience of the sacred as simultaneously fascinating and terrifying, with mystery at its core. Vervaeke uses Otto's three aspects of the numinous to extend Geertz's framework of sacredness.",
     "introducedIn": 34,
     "discussedIn": [
       34,
@@ -2116,8 +2116,8 @@
       "absurdity"
     ],
     "keyClaimsAbout": [
-      "Hell is other people — the existentialist articulation of interpersonal difficulty.",
-      "Existence precedes essence — we exist before we discover what we are.",
+      "Hell is other people, the existentialist articulation of interpersonal difficulty.",
+      "Existence precedes essence, we exist before we discover what we are.",
       "Radical freedom is also radical responsibility."
     ],
     "notes": "Brief but recurring reference."
@@ -2130,7 +2130,7 @@
       "Buddha"
     ],
     "shortBio": "Ancient North Indian prince and spiritual teacher (c. 563-483 BCE), founder of Buddhism, known as the Buddha (the awakened one).",
-    "roleInArgument": "Siddhartha embodies the axial revolution in India. Vervaeke treats his myth — leaving the palace, the middle path, mindfulness as sati, the four noble truths as ennobling provocations, and the eightfold path as a counteractive dynamical system — as a paradigm of the cognitive-scientific reverse engineering of enlightenment.",
+    "roleInArgument": "Siddhartha embodies the axial revolution in India. Vervaeke treats his myth, leaving the palace, the middle path, mindfulness as sati, the four noble truths as ennobling provocations, and the eightfold path as a counteractive dynamical system, as a paradigm of the cognitive-scientific reverse engineering of enlightenment.",
     "introducedIn": 7,
     "discussedIn": [
       7,
@@ -2178,7 +2178,7 @@
     ],
     "keyClaimsAbout": [
       "Freud rediscovers Plato's tripartite psyche as id, ego, superego.",
-      "Freud reads the child-parent relation through eroticism — Vervaeke calls this too simplistic.",
+      "Freud reads the child-parent relation through eroticism, Vervaeke calls this too simplistic.",
       "Psychoanalytic insight into unconscious patterns informs Vervaeke's account of parasitic processing."
     ],
     "notes": "Vervaeke treats Freud respectfully but as a partial recovery of older insights."
@@ -2188,7 +2188,7 @@
     "canonicalName": "Socrates",
     "aliases": [],
     "shortBio": "Ancient Greek philosopher (c. 470-399 BCE) who lived in Athens, was tried and executed for impiety, and left no writings but inspired Plato's dialogues.",
-    "roleInArgument": "Socrates epitomizes the axial revolution in Greece for Vervaeke — the personal incarnation of the demand to align salience with truth and to avoid bullshitting oneself. The Socratic method, Socratic self-knowledge, and Socrates's willingness to die for the examined life are the templates for everything that follows in the Western wisdom tradition.",
+    "roleInArgument": "Socrates epitomizes the axial revolution in Greece for Vervaeke, the personal incarnation of the demand to align salience with truth and to avoid bullshitting oneself. The Socratic method, Socratic self-knowledge, and Socrates's willingness to die for the examined life are the templates for everything that follows in the Western wisdom tradition.",
     "introducedIn": 1,
     "discussedIn": [
       1,
@@ -2221,9 +2221,9 @@
       "Socrates exemplifies the axial demand to keep salience and truth in alignment.",
       "The Socratic Method (elenchus) provokes aporia and self-recognition of one's bullshitting.",
       "The unexamined life is not worth living because it leaves one awash in bullshit.",
-      "Socrates knew TA EROTIKA — knowing how to love well, what to truly care about."
+      "Socrates knew TA EROTIKA, knowing how to love well, what to truly care about."
     ],
-    "notes": "Vervaeke treats Socrates as both a historical figure and the patron embodiment of the cultivation of wisdom — quoted and re-invoked from episode 1 through episode 50."
+    "notes": "Vervaeke treats Socrates as both a historical figure and the patron embodiment of the cultivation of wisdom, quoted and re-invoked from episode 1 through episode 50."
   },
   {
     "id": "stephen-batchelor",
@@ -2244,7 +2244,7 @@
     "keyClaimsAbout": [
       "The four noble truths are better understood as ennobling provocations than as creedal propositions.",
       "Buddhism's value lies in remembering the being-mode, not in beliefs.",
-      "We face an interpretation crisis when importing Buddhism — within-tradition vs. outside-tradition."
+      "We face an interpretation crisis when importing Buddhism, within-tradition vs. outside-tradition."
     ],
     "notes": "Vervaeke and Batchelor have met and dined together; Batchelor's books (Alone with Others, Buddhism Without Beliefs, After Buddhism) are key references."
   },
@@ -2277,7 +2277,7 @@
     "canonicalName": "Søren Kierkegaard",
     "aliases": [],
     "shortBio": "Danish philosopher and theologian (1813-1855), generally considered the first existentialist philosopher.",
-    "roleInArgument": "Kierkegaard critiques Hegel for reducing everything to propositional knowing and losing the personal, perspectival, transformative dimension of existence. He introduces the leap of faith — the existential commitment beyond inference — that Vervaeke argues prefigures L.A. Paul's transformative experience and Callard's proleptic aspiration.",
+    "roleInArgument": "Kierkegaard critiques Hegel for reducing everything to propositional knowing and losing the personal, perspectival, transformative dimension of existence. He introduces the leap of faith, the existential commitment beyond inference, that Vervaeke argues prefigures L.A. Paul's transformative experience and Callard's proleptic aspiration.",
     "introducedIn": 14,
     "discussedIn": [
       14,
@@ -2292,7 +2292,7 @@
       "transformative-experience"
     ],
     "keyClaimsAbout": [
-      "Kierkegaard says 'Hegel made a system and then sat down beside it' — diagnosing the loss of the personal.",
+      "Kierkegaard says 'Hegel made a system and then sat down beside it', diagnosing the loss of the personal.",
       "He uses 'anxiety' as the technical existential term (over fear).",
       "His leap of faith prefigures the rationality of aspiration and transformative experience.",
       "Hegel offers only epistemic self-transcendence, not ethical self-transcendence."
@@ -2306,7 +2306,7 @@
       "Aquinas"
     ],
     "shortBio": "Italian Dominican theologian (1225-1274), author of the Summa Theologica, central figure of medieval Scholasticism.",
-    "roleInArgument": "Aquinas restructures the Augustinian synthesis in response to the rediscovery of Aristotelian science — splitting the world into natural (known by reason) and supernatural (known by faith), with faith as love transforming the will. Vervaeke argues this separation, while solving Aquinas's problem, sets up the modern collapse by making supernatural reality conditional on a viability we eventually lose.",
+    "roleInArgument": "Aquinas restructures the Augustinian synthesis in response to the rediscovery of Aristotelian science, splitting the world into natural (known by reason) and supernatural (known by faith), with faith as love transforming the will. Vervaeke argues this separation, while solving Aquinas's problem, sets up the modern collapse by making supernatural reality conditional on a viability we eventually lose.",
     "introducedIn": 19,
     "discussedIn": [
       19,
@@ -2321,16 +2321,16 @@
       "Aquinas separates the natural world (reason) from the supernatural world (faith).",
       "He understands faith as love transforming the will rather than as participatory knowing.",
       "This separation makes the supernatural world vulnerable when its viability collapses.",
-      "Aquinas is the Thomas Aquinas of medieval Catholicism — what Hegel later attempts for Protestantism."
+      "Aquinas is the Thomas Aquinas of medieval Catholicism, what Hegel later attempts for Protestantism."
     ],
-    "notes": "Vervaeke describes Hegel as the Thomas Aquinas of Protestantism — making the comparison explicit."
+    "notes": "Vervaeke describes Hegel as the Thomas Aquinas of Protestantism, making the comparison explicit."
   },
   {
     "id": "cheetham",
     "canonicalName": "Tom Cheetham",
     "aliases": [],
     "shortBio": "American author of multiple books on Henry Corbin and the imaginal, including All the World an Icon.",
-    "roleInArgument": "Cheetham is Vervaeke's primary contemporary interpreter of Corbin — guiding the discussion of the imaginal, the divine double, and Sufic mysticism in the final episodes.",
+    "roleInArgument": "Cheetham is Vervaeke's primary contemporary interpreter of Corbin, guiding the discussion of the imaginal, the divine double, and Sufic mysticism in the final episodes.",
     "introducedIn": 47,
     "discussedIn": [
       21,
@@ -2382,7 +2382,7 @@
       "Ockham"
     ],
     "shortBio": "English Franciscan friar and philosopher (c. 1287-1347), author of nominalism and Ockham's Razor.",
-    "roleInArgument": "Ockham makes God's will supersede his reason, eliminates real universals (nominalism), and renders any order in the world as something arbitrarily imposed. This proto-modern view trains the cultural grammar that will explode in the scientific revolution and the Protestant Reformation — preparing the conditions for the meaning crisis.",
+    "roleInArgument": "Ockham makes God's will supersede his reason, eliminates real universals (nominalism), and renders any order in the world as something arbitrarily imposed. This proto-modern view trains the cultural grammar that will explode in the scientific revolution and the Protestant Reformation, preparing the conditions for the meaning crisis.",
     "introducedIn": 20,
     "discussedIn": [
       20,
@@ -2391,7 +2391,7 @@
     ],
     "associatedConcepts": [],
     "keyClaimsAbout": [
-      "Ockham makes God's will, not God's reason, primary — God speaks the world into existence arbitrarily.",
+      "Ockham makes God's will, not God's reason, primary, God speaks the world into existence arbitrarily.",
       "Nominalism: there are no universals out there, only individuals and the categories our language imposes.",
       "Reality becomes a chaotic backdrop against which a battle of wills occurs.",
       "Ockham's Razor is misused today: he did not intend it as a tool of dismissive skepticism."
@@ -2405,7 +2405,7 @@
       "Zeno"
     ],
     "shortBio": "Greek-Phoenician philosopher (c. 334-262 BCE), founder of Stoicism, taught on the painted stoa in Athens.",
-    "roleInArgument": "Zeno integrates Cynic confrontation with Platonic argumentation into Stoicism, insisting we are inherently social — the philosopher cannot leave the polis. Originator of Stoic psycho-technologies (prosoche, procheiron) for managing the process of co-identification.",
+    "roleInArgument": "Zeno integrates Cynic confrontation with Platonic argumentation into Stoicism, insisting we are inherently social, the philosopher cannot leave the polis. Originator of Stoic psycho-technologies (prosoche, procheiron) for managing the process of co-identification.",
     "introducedIn": 14,
     "discussedIn": [
       14
@@ -2416,7 +2416,7 @@
     ],
     "keyClaimsAbout": [
       "Cynic confrontation must be integrated with Platonic argumentation.",
-      "We are inherently social — leaving the polis is not an option.",
+      "We are inherently social, leaving the polis is not an option.",
       "Prosoche (paying attention to attention) and procheiron are the core Stoic psycho-technologies.",
       "It's not what you set your heart on, but how you set your heart."
     ],

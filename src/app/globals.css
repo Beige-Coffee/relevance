@@ -1,25 +1,29 @@
 @import "tailwindcss";
 
 @theme {
-  --color-parchment: #faf7f1;
-  --color-parchment-deep: #f2ede0;
-  --color-ink: #1c1a17;
-  --color-ink-soft: #3a3530;
-  --color-muted: #6b6660;
-  --color-border: #e0d9c8;
-  --color-accent: #8b3a3a;
-  --color-accent-soft: #c9756a;
-  --color-gold: #b8893c;
+  --color-bg: #ffffff;
+  --color-bg-tinted: #f7f9fc;
+  --color-surface: #ffffff;
+  --color-elev: #f1f4fa;
+  --color-ink: #0f1623;
+  --color-ink-soft: #2b3548;
+  --color-muted: #6b7488;
+  --color-border: #dbe1ec;
+  --color-border-soft: #ecf0f6;
+  --color-blue: #1f3a8a;
+  --color-blue-bright: #3257d6;
+  --color-blue-soft: #6b8cf2;
+  --color-blue-tint: #e6edff;
 
-  --color-dark-bg: #14120e;
-  --color-dark-surface: #1c1916;
-  --color-dark-elev: #25211c;
-  --color-dark-ink: #ece6d6;
-  --color-dark-ink-soft: #b8b1a1;
-  --color-dark-muted: #7e7768;
-  --color-dark-border: #2e2922;
-  --color-dark-accent: #d28a7e;
-  --color-dark-gold: #d4a85a;
+  --color-dark-bg: #0c1019;
+  --color-dark-surface: #131826;
+  --color-dark-elev: #1b2233;
+  --color-dark-ink: #e8ecf5;
+  --color-dark-ink-soft: #b0b8cb;
+  --color-dark-muted: #7b8499;
+  --color-dark-border: #232b3e;
+  --color-dark-blue: #6b8cf2;
+  --color-dark-blue-tint: #1d2747;
 
   --font-serif: var(--font-eb-garamond), "EB Garamond", Georgia, serif;
   --font-sans: var(--font-inter), system-ui, -apple-system, sans-serif;
@@ -27,30 +31,36 @@
 }
 
 :root {
-  --bg: var(--color-parchment);
-  --surface: #ffffff;
-  --elev: var(--color-parchment-deep);
+  --bg: var(--color-bg);
+  --bg-tinted: var(--color-bg-tinted);
+  --surface: var(--color-surface);
+  --elev: var(--color-elev);
   --ink: var(--color-ink);
   --ink-soft: var(--color-ink-soft);
   --muted: var(--color-muted);
   --border: var(--color-border);
-  --accent: var(--color-accent);
-  --accent-soft: var(--color-accent-soft);
-  --gold: var(--color-gold);
+  --border-soft: var(--color-border-soft);
+  --accent: var(--color-blue);
+  --accent-bright: var(--color-blue-bright);
+  --accent-soft: var(--color-blue-soft);
+  --accent-tint: var(--color-blue-tint);
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: var(--color-dark-bg);
+    --bg-tinted: var(--color-dark-bg);
     --surface: var(--color-dark-surface);
     --elev: var(--color-dark-elev);
     --ink: var(--color-dark-ink);
     --ink-soft: var(--color-dark-ink-soft);
     --muted: var(--color-dark-muted);
     --border: var(--color-dark-border);
-    --accent: var(--color-dark-accent);
-    --accent-soft: var(--color-dark-accent);
-    --gold: var(--color-dark-gold);
+    --border-soft: var(--color-dark-border);
+    --accent: var(--color-dark-blue);
+    --accent-bright: var(--color-dark-blue);
+    --accent-soft: var(--color-dark-blue);
+    --accent-tint: var(--color-dark-blue-tint);
   }
 }
 
@@ -66,54 +76,42 @@ html, body {
 .mono { font-family: var(--font-mono); }
 
 .prose-reader {
-  font-family: var(--font-serif);
-  font-size: 1.0625rem;
-  line-height: 1.75;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.7;
   color: var(--ink);
 }
-.prose-reader p { margin: 1.1em 0; }
+.prose-reader p { margin: 1em 0; }
 .prose-reader p:first-child { margin-top: 0; }
 
-/* A subtle drop-cap-ish small caps treatment for episode-card numbers. */
-.ep-num {
-  font-family: var(--font-serif);
-  font-feature-settings: "lnum";
-  letter-spacing: 0.04em;
-  color: var(--gold);
-}
-
-/* Custom scrollbar — quiet, parchment-friendly. */
 ::-webkit-scrollbar { width: 10px; height: 10px; }
 ::-webkit-scrollbar-track { background: transparent; }
 ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 9999px; }
 ::-webkit-scrollbar-thumb:hover { background: var(--muted); }
 
-/* A faint horizontal rule. */
-.hr-soft { border: none; border-top: 1px solid var(--border); }
+.hr-soft { border: none; border-top: 1px solid var(--border-soft); }
 
-/* Citation pill. */
 .cite-pill {
   display: inline-flex;
   align-items: baseline;
   gap: 0.25rem;
-  padding: 0.05rem 0.45rem;
+  padding: 0.1rem 0.55rem;
   border: 1px solid var(--border);
   border-radius: 9999px;
   font-family: var(--font-mono);
-  font-size: 0.72rem;
+  font-size: 0.7rem;
   color: var(--accent);
   text-decoration: none;
   background: var(--surface);
   vertical-align: baseline;
   white-space: nowrap;
+  transition: all 0.15s ease;
 }
-.cite-pill:hover { background: var(--elev); border-color: var(--accent); }
+.cite-pill:hover { background: var(--accent-tint); border-color: var(--accent); }
 
-/* Subtle text-link styling for content. */
 .lnk { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
 .lnk:hover { text-decoration-thickness: 2px; }
 
-/* Loading dots. */
 @keyframes dotPulse {
   0%, 60%, 100% { opacity: 0.25; }
   30% { opacity: 1; }
@@ -128,3 +126,16 @@ html, body {
 }
 .dot-pulse > span:nth-child(2) { animation-delay: 0.2s; }
 .dot-pulse > span:nth-child(3) { animation-delay: 0.4s; }
+
+/* Slide-in / slide-out for right panel */
+@keyframes slideInRight {
+  from { transform: translateX(100%); opacity: 0; }
+  to { transform: translateX(0); opacity: 1; }
+}
+.slide-in-right { animation: slideInRight 220ms cubic-bezier(0.16, 1, 0.3, 1); }
+
+/* Subtle node pulse for selection highlight */
+@keyframes selectedPulse {
+  0%, 100% { box-shadow: 0 0 0 0 var(--accent-soft); }
+  50% { box-shadow: 0 0 0 6px transparent; }
+}

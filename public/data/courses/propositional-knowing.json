@@ -2,7 +2,7 @@
   "id": "propositional-knowing",
   "title": "Propositional Knowing",
   "conceptId": "propositional-knowing",
-  "abstract": "This course examines what Vervaeke calls propositional knowing — the form of knowledge captured in true or false beliefs and statements — and why the modern reduction of all knowing to this single mode is both historically produced and philosophically problematic. Students will be able to articulate how propositional knowing differs from procedural, perspectival, and participatory knowing, explain why it is the most derivative of the four kinds rather than the most foundational, and identify the cultural and intellectual forces that produced its contemporary dominance. Understanding propositional knowing is the gateway to grasping why the meaning crisis cannot be resolved by acquiring better information alone, and why transformation — not merely new beliefs — is required for genuine wisdom.",
+  "abstract": "This course examines what Vervaeke calls propositional knowing, the form of knowledge captured in true or false beliefs and statements, and why the modern reduction of all knowing to this single mode is both historically produced and philosophically problematic. Students will be able to articulate how propositional knowing differs from procedural, perspectival, and participatory knowing, explain why it is the most derivative of the four kinds rather than the most foundational, and identify the cultural and intellectual forces that produced its contemporary dominance. Understanding propositional knowing is the gateway to grasping why the meaning crisis cannot be resolved by acquiring better information alone, and why transformation, not merely new beliefs, is required for genuine wisdom.",
   "prerequisites": [],
   "modules": [
     {
@@ -29,7 +29,7 @@
       ],
       "socraticSeeds": [
         {
-          "prompt": "When you say you 'know' how to ride a bicycle, what exactly do you mean — and is that the same kind of thing as knowing that the capital of France is Paris?",
+          "prompt": "When you say you 'know' how to ride a bicycle, what exactly do you mean, and is that the same kind of thing as knowing that the capital of France is Paris?",
           "expectedThemes": [
             "knowing-how vs knowing-that",
             "skills irreducible to propositions",
@@ -66,7 +66,7 @@
       "misconceptionBranches": [
         {
           "misconception": "Propositional knowing is the highest or most foundational kind of knowing.",
-          "correction": "Vervaeke argues the opposite: propositional knowing is the most derivative, depending on procedural, perspectival, and participatory knowing beneath it — it presupposes rather than generates the other three."
+          "correction": "Vervaeke argues the opposite: propositional knowing is the most derivative, depending on procedural, perspectival, and participatory knowing beneath it, it presupposes rather than generates the other three."
         },
         {
           "misconception": "Having the right beliefs about a practice (such as mindfulness or virtue) is sufficient for genuine knowledge of it.",
@@ -74,7 +74,7 @@
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "How does the modern equation of 'knowledge' with 'justified true belief' contribute to the meaning crisis — and what does recovering the other three kinds of knowing make possible that propositional knowing alone cannot?",
+        "prompt": "How does the modern equation of 'knowledge' with 'justified true belief' contribute to the meaning crisis, and what does recovering the other three kinds of knowing make possible that propositional knowing alone cannot?",
         "expectedThemes": [
           "limits of information alone",
           "transformation required for meaning",
@@ -118,7 +118,7 @@
           ]
         },
         {
-          "prompt": "Participatory knowing involves being changed by what you come to know. In what contexts does coming to know something genuinely transform who you are — and why can't a list of true propositions do the same thing?",
+          "prompt": "Participatory knowing involves being changed by what you come to know. In what contexts does coming to know something genuinely transform who you are, and why can't a list of true propositions do the same thing?",
           "expectedThemes": [
             "transformation through knowing",
             "identity change",
@@ -139,15 +139,15 @@
       "misconceptionBranches": [
         {
           "misconception": "The reduction of all knowing to propositional knowing is a neutral epistemic choice.",
-          "correction": "Vervaeke argues it is a historically produced outcome of the meaning crisis itself — the same forces that generated the crisis also generated the epistemic reduction, making propositional dominance a symptom as much as a cause."
+          "correction": "Vervaeke argues it is a historically produced outcome of the meaning crisis itself, the same forces that generated the crisis also generated the epistemic reduction, making propositional dominance a symptom as much as a cause."
         },
         {
           "misconception": "Propositional knowing is useless or unimportant in Vervaeke's framework.",
-          "correction": "Propositional knowing is genuinely valuable — Vervaeke's critique is not that it should be discarded but that it must be grounded in and responsive to the lower-order knowings rather than attempting to replace them."
+          "correction": "Propositional knowing is genuinely valuable, Vervaeke's critique is not that it should be discarded but that it must be grounded in and responsive to the lower-order knowings rather than attempting to replace them."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "Suppose someone argues: 'We can solve the meaning crisis with better science education — more accurate propositions about the world.' Using the four-fold distinction, what would Vervaeke say is missing from this proposal, and why?",
+        "prompt": "Suppose someone argues: 'We can solve the meaning crisis with better science education, more accurate propositions about the world.' Using the four-fold distinction, what would Vervaeke say is missing from this proposal, and why?",
         "expectedThemes": [
           "propositional knowing insufficient",
           "procedural perspectival participatory gap",

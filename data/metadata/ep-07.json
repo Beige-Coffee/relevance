@@ -2,29 +2,29 @@
   "num": 7,
   "slug": "aristotles-worldview-erich-fromm",
   "title": "Aristotle's Worldview and Erich Fromm",
-  "essence": "Vervaeke examines the complete Aristotelian worldview — geocentric, teleological, qualitatively differentiated — as an integrated meaning-making framework in which the cosmos itself has a nomological order: a single rational structure that is simultaneously normative and descriptive. For Aristotle, to understand what something is and to understand what it ought to be are the same question answered differently. The agent-arena relationship — developed with Mastropietro and Miscevic — names the co-identifying coupling between agent and environment: you are not in your world as a thing in a container; you are constituted by and constituting your world simultaneously. This makes worldview attunement possible: coming into alignment with the normative structure of reality. Vervaeke then introduces Erich Fromm's distinction between the having-mode and the being-mode as a modern psychological redescription of what Aristotle's worldview enabled: the being-mode is orientation toward growth, sharing, and engagement with reality; the having-mode is orientation toward possession, security, and control. Modal confusion — trying to satisfy being-mode needs through having-mode strategies — is the modern pathology. Fromm's analysis connects the Aristotelian diagnosis to the Buddhist critique developed in the next episode, with Siddhartha Gautama briefly introduced as a parallel figure who reached similar conclusions from a different cultural context.",
+  "essence": "Vervaeke examines the complete Aristotelian worldview, geocentric, teleological, qualitatively differentiated, as an integrated meaning-making framework in which the cosmos itself has a nomological order: a single rational structure that is simultaneously normative and descriptive. For Aristotle, to understand what something is and to understand what it ought to be are the same question answered differently. The agent-arena relationship, developed with Mastropietro and Miscevic, names the co-identifying coupling between agent and environment: you are not in your world as a thing in a container; you are constituted by and constituting your world simultaneously. This makes worldview attunement possible: coming into alignment with the normative structure of reality. Vervaeke then introduces Erich Fromm's distinction between the having-mode and the being-mode as a modern psychological redescription of what Aristotle's worldview enabled: the being-mode is orientation toward growth, sharing, and engagement with reality; the having-mode is orientation toward possession, security, and control. Modal confusion, trying to satisfy being-mode needs through having-mode strategies, is the modern pathology. Fromm's analysis connects the Aristotelian diagnosis to the Buddhist critique developed in the next episode, with Siddhartha Gautama briefly introduced as a parallel figure who reached similar conclusions from a different cultural context.",
   "keyClaims": [
-    "The Aristotelian cosmos has a nomological order: a single rational structure that is simultaneously descriptive and normative — understanding what something is and what it ought to be are the same question.",
+    "The Aristotelian cosmos has a nomological order: a single rational structure that is simultaneously descriptive and normative, understanding what something is and what it ought to be are the same question.",
     "The agent-arena relationship names the co-identifying coupling between agent and environment: you are not in your world as a thing in a container but are constituted by and constituting your world.",
     "Fromm's having-mode and being-mode redescribe in modern psychological terms what Aristotle's worldview enabled: orientation toward growth and engagement vs. orientation toward possession and security.",
-    "Modal confusion — trying to satisfy being-mode needs through having-mode strategies — is the defining modern pathology and a central driver of the meaning crisis.",
+    "Modal confusion, trying to satisfy being-mode needs through having-mode strategies, is the defining modern pathology and a central driver of the meaning crisis.",
     "The Aristotelian worldview was destroyed by the Copernican revolution and subsequent mathematical physics, eliminating the qualitative differentiation and teleological order that made nomological normativity possible."
   ],
   "concepts": [
     {
       "id": "agent-arena-relationship",
       "treatment": "introduced",
-      "summary": "The co-identifying coupling between agent and environment — you are constituted by and constituting your world simultaneously, not a thing in a container."
+      "summary": "The co-identifying coupling between agent and environment, you are constituted by and constituting your world simultaneously, not a thing in a container."
     },
     {
       "id": "worldview-attunement",
       "treatment": "introduced",
-      "summary": "Coming into alignment with the normative structure of reality as Aristotle's cosmos makes possible — the psycho-spiritual analog of theoretical knowledge."
+      "summary": "Coming into alignment with the normative structure of reality as Aristotle's cosmos makes possible, the psycho-spiritual analog of theoretical knowledge."
     },
     {
       "id": "nomological-order",
       "treatment": "introduced",
-      "summary": "The Aristotelian cosmos as a single rational structure that is simultaneously descriptive and normative — understanding what something is and what it ought to be are the same question."
+      "summary": "The Aristotelian cosmos as a single rational structure that is simultaneously descriptive and normative, understanding what something is and what it ought to be are the same question."
     },
     {
       "id": "having-mode-being-mode",
@@ -34,34 +34,34 @@
     {
       "id": "modal-confusion",
       "treatment": "introduced",
-      "summary": "Trying to satisfy being-mode needs through having-mode strategies — the modern pathology Fromm diagnoses as the psychological core of the meaning crisis."
+      "summary": "Trying to satisfy being-mode needs through having-mode strategies, the modern pathology Fromm diagnoses as the psychological core of the meaning crisis."
     },
     {
       "id": "existential-mode",
       "treatment": "introduced",
-      "summary": "The fundamental orientation of a person's existence — whether organized around the having-mode or being-mode — as the deepest level of the agent-arena relationship."
+      "summary": "The fundamental orientation of a person's existence, whether organized around the having-mode or being-mode, as the deepest level of the agent-arena relationship."
     },
     {
       "id": "conformity-theory",
       "treatment": "introduced",
-      "summary": "Aristotle's principle that the knowing mind takes on the form of the known without the matter — the basis for the agent-arena relationship's epistemic dimension."
+      "summary": "Aristotle's principle that the knowing mind takes on the form of the known without the matter, the basis for the agent-arena relationship's epistemic dimension."
     },
     {
       "id": "the-meaning-crisis",
       "treatment": "developed",
-      "summary": "The destruction of the Aristotelian nomological order by Copernican/Galilean science eliminated the worldview that made modal attunement possible — a key step in the meaning crisis."
+      "summary": "The destruction of the Aristotelian nomological order by Copernican/Galilean science eliminated the worldview that made modal attunement possible, a key step in the meaning crisis."
     },
     {
       "id": "participatory-knowing",
       "treatment": "applied",
-      "summary": "The agent-arena relationship is the structure of participatory knowing — being in constitutive contact with reality rather than merely representing it."
+      "summary": "The agent-arena relationship is the structure of participatory knowing, being in constitutive contact with reality rather than merely representing it."
     }
   ],
   "people": [
     {
       "id": "aristotle",
       "role": "subject",
-      "summary": "The Aristotelian worldview — geocentric cosmos, teleological order, conformity theory, agent-arena relationship — examined as a complete meaning-making framework."
+      "summary": "The Aristotelian worldview, geocentric cosmos, teleological order, conformity theory, agent-arena relationship, examined as a complete meaning-making framework."
     },
     {
       "id": "fromm",
@@ -71,17 +71,17 @@
     {
       "id": "christopher-mastropietro",
       "role": "discussed",
-      "summary": "Co-developer with Miscevic of the agent-arena relationship concept — their work with Vervaeke provides the theoretical vocabulary for describing worldview attunement."
+      "summary": "Co-developer with Miscevic of the agent-arena relationship concept, their work with Vervaeke provides the theoretical vocabulary for describing worldview attunement."
     },
     {
       "id": "filip-miscevic",
       "role": "discussed",
-      "summary": "Co-developer with Mastropietro of the agent-arena relationship — their collaboration with Vervaeke on this concept is acknowledged."
+      "summary": "Co-developer with Mastropietro of the agent-arena relationship, their collaboration with Vervaeke on this concept is acknowledged."
     },
     {
       "id": "siddhartha-gautama",
       "role": "introduced",
-      "summary": "Briefly introduced as a parallel figure to Aristotle and Fromm who diagnosed similar modal confusion from within the Indian Axial tradition — to be developed in episode 8."
+      "summary": "Briefly introduced as a parallel figure to Aristotle and Fromm who diagnosed similar modal confusion from within the Indian Axial tradition, to be developed in episode 8."
     },
     {
       "id": "charles-taylor",
@@ -91,7 +91,7 @@
     {
       "id": "buber",
       "role": "introduced",
-      "summary": "Martin Buber's I-Thou vs. I-It distinction introduced as a parallel to Fromm's having/being modes — both describe fundamental orientations of the agent-arena relationship."
+      "summary": "Martin Buber's I-Thou vs. I-It distinction introduced as a parallel to Fromm's having/being modes, both describe fundamental orientations of the agent-arena relationship."
     }
   ],
   "crossRefs": [
@@ -101,11 +101,11 @@
     },
     {
       "episode": 8,
-      "context": "Siddhartha Gautama and the Buddhist analysis of modal confusion — parallel to Fromm's having/being distinction — are developed in episode 8."
+      "context": "Siddhartha Gautama and the Buddhist analysis of modal confusion, parallel to Fromm's having/being distinction, are developed in episode 8."
     },
     {
       "episode": 3,
-      "context": "The destruction of Aristotelian nomological order parallels the collapse of the continuous cosmos analyzed in episode 3 — both describe the removal of a worldview that sustained meaning."
+      "context": "The destruction of Aristotelian nomological order parallels the collapse of the continuous cosmos analyzed in episode 3, both describe the removal of a worldview that sustained meaning."
     }
   ],
   "quotableMoments": []

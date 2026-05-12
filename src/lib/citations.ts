@@ -28,7 +28,7 @@ export function parseCitations(text: string): ParsedCitation[] {
       hits.push({ start: m.index, end: m.index + m[0].length, episodes: nums, raw: m[0] });
     }
   }
-  // Deduplicate overlapping matches — prefer longer / earlier.
+  // Deduplicate overlapping matches, prefer longer / earlier.
   hits.sort((a, b) => a.start - b.start || b.end - b.start - (a.end - a.start));
   const kept: ParsedCitation[] = [];
   for (const h of hits) {

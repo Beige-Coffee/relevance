@@ -2,7 +2,7 @@
   "id": "modal-confusion",
   "title": "Modal Confusion",
   "conceptId": "modal-confusion",
-  "abstract": "After this course, students will be able to articulate why Erich Fromm's distinction between having-needs and being-needs reveals a structural fault-line in modern consumer culture, and why attempting to satisfy being-mode needs through having-mode strategies generates a self-compounding spiral of frustration — what Vervaeke calls modal confusion. Students will understand how the palace myth in the Siddhartha story enacts, not just describes, this confusion, and how mindfulness (sati) is presented as a counteractive response. This concept sits at the intersection of the series' existential and cognitive-science threads: it connects Aristotle's agent-arena coupling to Buddhist diagnosis to the contemporary therapeutic interest in modes of engagement rather than accumulation of beliefs. Understanding modal confusion is essential for grasping why parasitic processing is so tenacious.",
+  "abstract": "After this course, students will be able to articulate why Erich Fromm's distinction between having-needs and being-needs reveals a structural fault-line in modern consumer culture, and why attempting to satisfy being-mode needs through having-mode strategies generates a self-compounding spiral of frustration, what Vervaeke calls modal confusion. Students will understand how the palace myth in the Siddhartha story enacts, not just describes, this confusion, and how mindfulness (sati) is presented as a counteractive response. This concept sits at the intersection of the series' existential and cognitive-science threads: it connects Aristotle's agent-arena coupling to Buddhist diagnosis to the contemporary therapeutic interest in modes of engagement rather than accumulation of beliefs. Understanding modal confusion is essential for grasping why parasitic processing is so tenacious.",
   "prerequisites": ["having-mode-being-mode"],
   "modules": [
     {
@@ -32,7 +32,7 @@
           "expectedThemes": ["love as mutual development", "sex as consumable object", "being-mode resists replacement"]
         },
         {
-          "prompt": "How does the 'palace' in the Siddhartha story serve as a myth — in Vervaeke's technical sense — rather than merely a historical setting?",
+          "prompt": "How does the 'palace' in the Siddhartha story serve as a myth, in Vervaeke's technical sense, rather than merely a historical setting?",
           "expectedThemes": ["palace as perennial existential symbol", "myth activates lived pattern", "palace represents having-mode totality"]
         },
         {
@@ -43,7 +43,7 @@
       "misconceptionBranches": [
         {
           "misconception": "The having mode is inherently bad or selfish.",
-          "correction": "Vervaeke is explicit: the having mode is not wrong — you need water, food, shelter. The problem arises only when being-mode needs are pursued through having-mode strategies."
+          "correction": "Vervaeke is explicit: the having mode is not wrong, you need water, food, shelter. The problem arises only when being-mode needs are pursued through having-mode strategies."
         },
         {
           "misconception": "Modal confusion is just about materialism or greed.",
@@ -64,7 +64,7 @@
         {
           "episode": 38,
           "phrase": "We can address modal confusion by the cultivation of Sati.",
-          "note": "Vervaeke's summary response — sati (mindfulness) as the counteractive practice."
+          "note": "Vervaeke's summary response, sati (mindfulness) as the counteractive practice."
         },
         {
           "episode": 7,
@@ -86,14 +86,14 @@
           "expectedThemes": ["attending to mode of engagement not content", "recovering being-mode orientation", "second-order attention to how one attends"]
         },
         {
-          "prompt": "Vervaeke connects modal confusion to parasitic processing. What is the relationship — how does modal confusion feed self-deceptive spirals?",
+          "prompt": "Vervaeke connects modal confusion to parasitic processing. What is the relationship, how does modal confusion feed self-deceptive spirals?",
           "expectedThemes": ["misfit between need and strategy generates frustration", "frustration activates confirmation bias", "spiral becomes self-organizing"]
         }
       ],
       "misconceptionBranches": [
         {
           "misconception": "Modal confusion is a cognitive error you can fix by understanding it intellectually.",
-          "correction": "Vervaeke's point is that modal confusion is an existential misalignment between mode and need — it operates at the level of participatory and perspectival knowing, not propositional belief, so it requires practice-based cultivation to address."
+          "correction": "Vervaeke's point is that modal confusion is an existential misalignment between mode and need, it operates at the level of participatory and perspectival knowing, not propositional belief, so it requires practice-based cultivation to address."
         }
       ],
       "checkForUnderstanding": {

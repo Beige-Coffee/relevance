@@ -2,13 +2,13 @@
   "num": 24,
   "slug": "hegel",
   "title": "Hegel",
-  "essence": "Episode 24 presents Hegel as modernity's most ambitious attempt to recover the meaning of the Platonic-Christian synthesis without supernaturalism. Hegel's Absolute Idealism identifies Geist—Spirit—as a living system of patterns of intelligibility that actualizes itself through history by means of the dialectic: each position (thesis) generates its opposite (antithesis), and their conflict is resolved in a higher integration (synthesis) that becomes the new thesis. Hegel is, in Vervaeke's phrase, the Thomas Aquinas of Protestantism: as Aquinas synthesized Aristotle with medieval Christianity, Hegel secularizes and systematizes the Christian narrative of divine self-realization as philosophical history. Three critiques structure the episode: Schopenhauer argues that will and irrational striving are missing from Hegel's bloodless rationalism; Kierkegaard argues that Hegel's system omits the perspectival and participatory dimensions of knowing—the subjective existing individual who must commit in uncertainty—thereby evacuating genuine ethical self-transcendence; and Marx inverts the dialectic into dialectical materialism, making class struggle the Kairos of real historical transformation and accusing Hegel of confusing the conceptual with the actual. Each critique pinpoints a dimension of meaning that Hegel's grand synthesis loses even as it attempts to recover it.",
+  "essence": "Episode 24 presents Hegel as modernity's most ambitious attempt to recover the meaning of the Platonic-Christian synthesis without supernaturalism. Hegel's Absolute Idealism identifies Geist, Spirit, as a living system of patterns of intelligibility that actualizes itself through history by means of the dialectic: each position (thesis) generates its opposite (antithesis), and their conflict is resolved in a higher integration (synthesis) that becomes the new thesis. Hegel is, in Vervaeke's phrase, the Thomas Aquinas of Protestantism: as Aquinas synthesized Aristotle with medieval Christianity, Hegel secularizes and systematizes the Christian narrative of divine self-realization as philosophical history. Three critiques structure the episode: Schopenhauer argues that will and irrational striving are missing from Hegel's bloodless rationalism; Kierkegaard argues that Hegel's system omits the perspectival and participatory dimensions of knowing, the subjective existing individual who must commit in uncertainty, thereby evacuating genuine ethical self-transcendence; and Marx inverts the dialectic into dialectical materialism, making class struggle the Kairos of real historical transformation and accusing Hegel of confusing the conceptual with the actual. Each critique pinpoints a dimension of meaning that Hegel's grand synthesis loses even as it attempts to recover it.",
   "keyClaims": [
-    "Hegel's Geist is a living system of patterns of intelligibility that actualizes itself through history via the dialectic—differentiation, opposition, and integration at ever-higher levels of self-awareness.",
+    "Hegel's Geist is a living system of patterns of intelligibility that actualizes itself through history via the dialectic, differentiation, opposition, and integration at ever-higher levels of self-awareness.",
     "The dialectic (thesis-antithesis-synthesis) is not a logical trick but a description of how any living system of intelligence grows by internalizing its own contradictions.",
     "Hegel is the Thomas Aquinas of Protestantism: as Aquinas synthesized Aristotle with medieval Christianity into a grand philosophical system, Hegel secularizes the Christian narrative of divine self-unfolding.",
-    "Schopenhauer's critique identifies what Hegel's rationalism omits: the irrational will, the blind striving that drives life—making Hegel's system a bloodless abstraction disconnected from the actual suffering of existence.",
-    "Kierkegaard's critique identifies the deepest loss: Hegel's system swallows the subjective existing individual—the one who must leap in uncertainty, committing perspectivally and participatorily—leaving no room for genuine ethical self-transcendence.",
+    "Schopenhauer's critique identifies what Hegel's rationalism omits: the irrational will, the blind striving that drives life, making Hegel's system a bloodless abstraction disconnected from the actual suffering of existence.",
+    "Kierkegaard's critique identifies the deepest loss: Hegel's system swallows the subjective existing individual, the one who must leap in uncertainty, committing perspectivally and participatorily, leaving no room for genuine ethical self-transcendence.",
     "Marx's dialectical materialism inverts Hegel: ideas are epiphenomena of material conditions, and the real Kairos of transformation is revolutionary class struggle, not conceptual self-realization."
   ],
   "concepts": [
@@ -20,7 +20,7 @@
     {
       "id": "participatory-knowing",
       "treatment": "developed",
-      "summary": "Kierkegaard identifies participatory knowing—the self-transformation through genuine ethical commitment—as what Hegel's system of objective reason cannot accommodate, since the system observes from outside rather than commits from within."
+      "summary": "Kierkegaard identifies participatory knowing, the self-transformation through genuine ethical commitment, as what Hegel's system of objective reason cannot accommodate, since the system observes from outside rather than commits from within."
     },
     {
       "id": "self-transcendence",
@@ -30,17 +30,17 @@
     {
       "id": "kairos",
       "treatment": "applied",
-      "summary": "Marx secularizes the Kairos concept: revolutionary moments of class conflict are the real turning points of history—not conceptual syntheses—and participation in them is what transforms the existing order."
+      "summary": "Marx secularizes the Kairos concept: revolutionary moments of class conflict are the real turning points of history, not conceptual syntheses, and participation in them is what transforms the existing order."
     },
     {
       "id": "nihilism",
       "treatment": "developed",
-      "summary": "Schopenhauer's charge against Hegel—that his rationalist system has no place for irrational will—accelerates the nihilistic trajectory: if the real is rational, but irrational suffering is the actual substance of life, nothing real has meaning."
+      "summary": "Schopenhauer's charge against Hegel, that his rationalist system has no place for irrational will, accelerates the nihilistic trajectory: if the real is rational, but irrational suffering is the actual substance of life, nothing real has meaning."
     },
     {
       "id": "the-axial-revolution",
       "treatment": "referenced",
-      "summary": "Hegel's synthesis of the Platonic-Christian heritage is interpreted as a secularized retrieval of the axial revolution's core insight—that history has a direction and that self-transcendence is both possible and demanded."
+      "summary": "Hegel's synthesis of the Platonic-Christian heritage is interpreted as a secularized retrieval of the axial revolution's core insight, that history has a direction and that self-transcendence is both possible and demanded."
     }
   ],
   "people": [
@@ -62,22 +62,22 @@
     {
       "id": "marx",
       "role": "discussed",
-      "summary": "Marx's dialectical materialism inverts Hegel—ideas are epiphenomena of material relations, and revolutionary class struggle (not conceptual self-realization) is the real engine of historical transformation."
+      "summary": "Marx's dialectical materialism inverts Hegel, ideas are epiphenomena of material relations, and revolutionary class struggle (not conceptual self-realization) is the real engine of historical transformation."
     },
     {
       "id": "aquinas",
       "role": "referenced",
-      "summary": "Aquinas is the explicit analogy: as he synthesized Aristotle with medieval Christianity, Hegel synthesizes Kant's critical philosophy with the Protestant Christian narrative—both are grand integrative projects."
+      "summary": "Aquinas is the explicit analogy: as he synthesized Aristotle with medieval Christianity, Hegel synthesizes Kant's critical philosophy with the Protestant Christian narrative, both are grand integrative projects."
     }
   ],
   "crossRefs": [
     {
       "episode": 23,
-      "context": "Hegel's project is the direct philosophical response to the Kantian crisis analyzed in episode 23—attempting to recover contact with reality through the dialectic rather than through Romantic imagination or Schopenhauerian will."
+      "context": "Hegel's project is the direct philosophical response to the Kantian crisis analyzed in episode 23, attempting to recover contact with reality through the dialectic rather than through Romantic imagination or Schopenhauerian will."
     },
     {
       "episode": 25,
-      "context": "Marx's and Kierkegaard's critiques of Hegel feed directly into episode 25's analysis of the pseudo-religious ideologies—Marxism and Nationalism—that fill the vacuum left by the collapse of Hegel's synthesis."
+      "context": "Marx's and Kierkegaard's critiques of Hegel feed directly into episode 25's analysis of the pseudo-religious ideologies, Marxism and Nationalism, that fill the vacuum left by the collapse of Hegel's synthesis."
     },
     {
       "episode": 11,

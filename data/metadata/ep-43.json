@@ -2,10 +2,10 @@
   "num": 43,
   "slug": "wisdom-and-virtue",
   "title": "Wisdom and Virtue",
-  "essence": "Vervaeke examines wisdom through the lens of virtue ethics, exploring the claim that wisdom is not merely an intellectual capacity but a moral and character achievement. He engages Schwartz and Sharpe's critique of rule-following approaches to ethics: virtues conflict, their application is context-sensitive, and their development requires a cultivation that cannot be captured by expertise. Phronesis — practical wisdom — is distinguished from theoretical sophia: the former navigates the particular situation, the latter ascends to universal principles. Vervaeke argues that the expertise model of virtue is fundamentally mistaken because virtue conflicts require the perspectival and participatory knowing of the particular situation, not the application of domain-specific knowledge. He then surveys the Berlin wisdom paradigm of Baltes and Staudinger, with its five criteria: rich factual knowledge, rich procedural knowledge, lifespan contextualism, value relativism (recast as fallibilism), and the management of uncertainty. Vervaeke critiques this paradigm as measuring wisdom's product rather than its process, and notes that Igor Grossmann's Solomon effect — we are wiser about others' problems than our own — reveals the crucial role of perspectival distance. The episode closes noting that platonic dialogue itself is a psychotechnology for developing the perspectival distance that wisdom requires.",
+  "essence": "Vervaeke examines wisdom through the lens of virtue ethics, exploring the claim that wisdom is not merely an intellectual capacity but a moral and character achievement. He engages Schwartz and Sharpe's critique of rule-following approaches to ethics: virtues conflict, their application is context-sensitive, and their development requires a cultivation that cannot be captured by expertise. Phronesis, practical wisdom, is distinguished from theoretical sophia: the former navigates the particular situation, the latter ascends to universal principles. Vervaeke argues that the expertise model of virtue is fundamentally mistaken because virtue conflicts require the perspectival and participatory knowing of the particular situation, not the application of domain-specific knowledge. He then surveys the Berlin wisdom paradigm of Baltes and Staudinger, with its five criteria: rich factual knowledge, rich procedural knowledge, lifespan contextualism, value relativism (recast as fallibilism), and the management of uncertainty. Vervaeke critiques this paradigm as measuring wisdom's product rather than its process, and notes that Igor Grossmann's Solomon effect, we are wiser about others' problems than our own, reveals the crucial role of perspectival distance. The episode closes noting that platonic dialogue itself is a psychotechnology for developing the perspectival distance that wisdom requires.",
   "keyClaims": [
-    "Virtue conflicts cannot be resolved by expertise in any single domain; they require practical wisdom — phronesis — which involves perspectival and participatory knowing of the particular situation.",
-    "The Berlin wisdom paradigm (Baltes and Staudinger) captures wisdom's product — rich factual and procedural knowledge with lifespan contextualism — but not its underlying process.",
+    "Virtue conflicts cannot be resolved by expertise in any single domain; they require practical wisdom, phronesis, which involves perspectival and participatory knowing of the particular situation.",
+    "The Berlin wisdom paradigm (Baltes and Staudinger) captures wisdom's product, rich factual and procedural knowledge with lifespan contextualism, but not its underlying process.",
     "The Solomon effect demonstrates that we exercise greater wisdom about others' problems than our own, revealing the constitutive role of perspectival distance in wisdom.",
     "Schwartz and Sharpe's critique shows that virtue cannot be reduced to rule-following or expertise; it requires the cultivated perception of what matters in a situation.",
     "Platonic dialogue is a psychotechnology that develops perspectival distance and thereby enhances wisdom by enabling one to take a third-person view on one's own situation."
@@ -19,7 +19,7 @@
     {
       "id": "virtue",
       "treatment": "developed",
-      "summary": "Schwartz and Sharpe's analysis of virtue conflicts (relevance, conflict, specification, development problems) establishes that virtues require wisdom for their proper exercise — they cannot operate automatically."
+      "summary": "Schwartz and Sharpe's analysis of virtue conflicts (relevance, conflict, specification, development problems) establishes that virtues require wisdom for their proper exercise, they cannot operate automatically."
     },
     {
       "id": "perspectival-knowing",
@@ -29,12 +29,12 @@
     {
       "id": "participatory-knowing",
       "treatment": "applied",
-      "summary": "Practical wisdom's sensitivity to the particular situation involves participatory knowing — being shaped by and responsive to the situation, not applying rules from outside it."
+      "summary": "Practical wisdom's sensitivity to the particular situation involves participatory knowing, being shaped by and responsive to the situation, not applying rules from outside it."
     },
     {
       "id": "self-deception",
       "treatment": "applied",
-      "summary": "The Solomon effect — wiser about others than ourselves — implicates self-deception: our own existential investment blinds us in ways that distance resolves."
+      "summary": "The Solomon effect, wiser about others than ourselves, implicates self-deception: our own existential investment blinds us in ways that distance resolves."
     },
     {
       "id": "psycho-technology",
@@ -61,7 +61,7 @@
     {
       "id": "igor-grossmann",
       "role": "discussed",
-      "summary": "His Solomon effect research — demonstrating that people reason more wisely about others' problems than their own — is used to establish perspectival distance as constitutive of wisdom."
+      "summary": "His Solomon effect research, demonstrating that people reason more wisely about others' problems than their own, is used to establish perspectival distance as constitutive of wisdom."
     },
     {
       "id": "aristotle",

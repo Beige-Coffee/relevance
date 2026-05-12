@@ -2,14 +2,14 @@
   "id": "higher-states-of-consciousness",
   "title": "Higher States of Consciousness",
   "conceptId": "higher-states-of-consciousness",
-  "abstract": "This course examines higher states of consciousness — the subset of altered states experienced as more real than ordinary reality — and explains why they pose a serious philosophical challenge rather than a curiosity for psychiatry. After completing this course, you will be able to describe the characteristic features of higher states (ontonormativity, ineffability, systematic insight), explain why 30–40% of the population reports having had such experiences across all cultures and historical periods, and articulate Vervaeke's account of their rational justification: not through propositional content but by optimizing relevance realization machinery. Higher states are pivotal in the series arc because they are what religious traditions have pointed to as the destination of the transformative practices Vervaeke studies — and understanding them naturalistically is essential for a non-supernaturalist response to the meaning crisis.",
+  "abstract": "This course examines higher states of consciousness, the subset of altered states experienced as more real than ordinary reality, and explains why they pose a serious philosophical challenge rather than a curiosity for psychiatry. After completing this course, you will be able to describe the characteristic features of higher states (ontonormativity, ineffability, systematic insight), explain why 30–40% of the population reports having had such experiences across all cultures and historical periods, and articulate Vervaeke's account of their rational justification: not through propositional content but by optimizing relevance realization machinery. Higher states are pivotal in the series arc because they are what religious traditions have pointed to as the destination of the transformative practices Vervaeke studies, and understanding them naturalistically is essential for a non-supernaturalist response to the meaning crisis.",
   "prerequisites": ["altered-states-of-consciousness"],
   "modules": [
     {
       "id": "hsc-defining-features",
       "title": "What Makes a State 'Higher': Ontonormativity and the Sense of More-Realness",
       "subConceptId": null,
-      "learningObjective": "Articulate the defining feature of higher states of consciousness — that they are experienced as more real than ordinary reality — and what the term 'ontonormativity' captures.",
+      "learningObjective": "Articulate the defining feature of higher states of consciousness, that they are experienced as more real than ordinary reality, and what the term 'ontonormativity' captures.",
       "expositionPassages": [
         {
           "episode": 10,
@@ -24,34 +24,34 @@
       ],
       "socraticSeeds": [
         {
-          "prompt": "Imagine someone returning from a deep meditative retreat who insists that the experience was 'more real than this room.' What would it even mean for one experience to be more real than another — and why might someone make that claim?",
+          "prompt": "Imagine someone returning from a deep meditative retreat who insists that the experience was 'more real than this room.' What would it even mean for one experience to be more real than another, and why might someone make that claim?",
           "expectedThemes": ["heightened sense of reality as phenomenological fact", "not just vividness but ontological seriousness", "challenges ordinary assumptions about what real means"]
         },
         {
-          "prompt": "Vervaeke coins the term 'ontonormativity' — combining ontology (what is real) with normative (what demands change). Why would an experience of heightened reality also carry a demand to transform your life?",
+          "prompt": "Vervaeke coins the term 'ontonormativity', combining ontology (what is real) with normative (what demands change). Why would an experience of heightened reality also carry a demand to transform your life?",
           "expectedThemes": ["contact with deeper reality demands response", "normative force flows from ontological disclosure", "not just insight but imperative"]
         },
         {
-          "prompt": "30–40% of the population across all cultures reports having had a higher state experience. How do you interpret that cross-cultural frequency — does it suggest something real being accessed, something universal in human neurology, or something else?",
+          "prompt": "30–40% of the population across all cultures reports having had a higher state experience. How do you interpret that cross-cultural frequency, does it suggest something real being accessed, something universal in human neurology, or something else?",
           "expectedThemes": ["cross-cultural universality requires explanation", "could be neurological or ontological or both", "not explainable as cultural artifact alone"]
         },
         {
-          "prompt": "People who have higher states consistently describe them as ineffable — beyond language. But they also consistently describe them using similar language (presence, unity, light, peace). Is there a tension in those two facts?",
+          "prompt": "People who have higher states consistently describe them as ineffable, beyond language. But they also consistently describe them using similar language (presence, unity, light, peace). Is there a tension in those two facts?",
           "expectedThemes": ["ineffable yet cross-culturally similar", "language approximates but does not capture", "shared deep structure beneath linguistic differences"]
         }
       ],
       "misconceptionBranches": [
         {
           "misconception": "Higher states are just more intense or vivid versions of normal experience.",
-          "correction": "Vervaeke's point is that higher states involve a qualitative restructuring of the salience landscape and the sense of self — they are not ordinary experience turned up, but a different kind of realness that demands a response."
+          "correction": "Vervaeke's point is that higher states involve a qualitative restructuring of the salience landscape and the sense of self, they are not ordinary experience turned up, but a different kind of realness that demands a response."
         },
         {
-          "misconception": "Higher states are automatically veridical — what they reveal is reliably true.",
+          "misconception": "Higher states are automatically veridical, what they reveal is reliably true.",
           "correction": "Vervaeke is careful to say their epistemic value depends on whether the insights they afford survive critical integration with waking cognition; the experience of heightened reality does not guarantee that the specific content is accurate."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "What does 'ontonormativity' mean — and why does the fact that higher states feel more real than ordinary experience create a philosophical puzzle rather than a simple answer?",
+        "prompt": "What does 'ontonormativity' mean, and why does the fact that higher states feel more real than ordinary experience create a philosophical puzzle rather than a simple answer?",
         "expectedThemes": ["ontonormativity = experiencing heightened reality that demands life transformation", "puzzle is whether the disclosure is veridical", "cannot dismiss as mere feeling because normative demand is too compelling"]
       }
     },
@@ -69,26 +69,26 @@
       ],
       "socraticSeeds": [
         {
-          "prompt": "If something is truly ineffable — beyond language — how can you even report having had it? Is there a paradox in saying 'it was ineffable'?",
+          "prompt": "If something is truly ineffable, beyond language, how can you even report having had it? Is there a paradox in saying 'it was ineffable'?",
           "expectedThemes": ["meta-linguistic reporting possible even if content resists description", "knowing-that it was significant even if knowing-what is beyond words", "perspectival knowing can be reported without propositional capture"]
         },
         {
-          "prompt": "People across cultures describe higher states using spatial metaphors — 'hereness,' 'nowness,' 'presence.' Why might spatial-temporal language be the closest approximation, even when the experience transcends ordinary space and time?",
+          "prompt": "People across cultures describe higher states using spatial metaphors, 'hereness,' 'nowness,' 'presence.' Why might spatial-temporal language be the closest approximation, even when the experience transcends ordinary space and time?",
           "expectedThemes": ["spatial language is the most basic", "presence and immediacy are root categories", "language reaches limit but still approximates through roots"]
         },
         {
-          "prompt": "William James argued that mystical states have 'noetic quality' — they feel like genuine knowledge of something, not just a feeling. But they are also ineffable. How can something be both a form of knowing and beyond propositional capture?",
+          "prompt": "William James argued that mystical states have 'noetic quality', they feel like genuine knowledge of something, not just a feeling. But they are also ineffable. How can something be both a form of knowing and beyond propositional capture?",
           "expectedThemes": ["participatory and perspectival knowing are real but non-propositional", "noetic quality = sense of contact with something real", "four kinds of knowing not reducible to propositional"]
         }
       ],
       "misconceptionBranches": [
         {
           "misconception": "If an experience is ineffable, it cannot be studied scientifically or evaluated rationally.",
-          "correction": "Vervaeke argues that the cross-cultural regularities of higher states — their consistent features, their normative demands, their cognitive effects — are empirically investigable even when their content resists propositional capture."
+          "correction": "Vervaeke argues that the cross-cultural regularities of higher states, their consistent features, their normative demands, their cognitive effects, are empirically investigable even when their content resists propositional capture."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "Why is ineffability a philosophically significant feature of higher states rather than just a failure of vocabulary — and what does it suggest about what kinds of knowing are involved?",
+        "prompt": "Why is ineffability a philosophically significant feature of higher states rather than just a failure of vocabulary, and what does it suggest about what kinds of knowing are involved?",
         "expectedThemes": ["not vocabulary failure but propositional knowing's limit", "participatory and perspectival knowing involved", "noetic quality without propositionality"]
       }
     },
@@ -96,7 +96,7 @@
       "id": "systematic-insight",
       "title": "Systematic Insight: Transframing the Framing Process",
       "subConceptId": "systematic-insight",
-      "learningObjective": "Distinguish systematic (transframing) insight — which transforms the competence for relevance realization — from ordinary insight that reframes a particular problem.",
+      "learningObjective": "Distinguish systematic (transframing) insight, which transforms the competence for relevance realization, from ordinary insight that reframes a particular problem.",
       "expositionPassages": [
         {
           "episode": 40,
@@ -106,26 +106,26 @@
       ],
       "socraticSeeds": [
         {
-          "prompt": "When you solve a puzzle by finding the right framing, that's ordinary insight. But when the experience makes you permanently better at solving puzzles — or more generally at seeing what matters — what kind of change is that?",
+          "prompt": "When you solve a puzzle by finding the right framing, that's ordinary insight. But when the experience makes you permanently better at solving puzzles, or more generally at seeing what matters, what kind of change is that?",
           "expectedThemes": ["competence-transforming vs. problem-solving", "systematic vs. local change", "transframing vs. reframing"]
         },
         {
-          "prompt": "Higher states are often described as making everything make sense — not just one thing, but reality as a whole. How does that phenomenology fit with the idea of a 'systematic' or 'transframing' insight?",
+          "prompt": "Higher states are often described as making everything make sense, not just one thing, but reality as a whole. How does that phenomenology fit with the idea of a 'systematic' or 'transframing' insight?",
           "expectedThemes": ["salience landscape as a whole is restructured", "framing capacity upgraded not just one frame changed", "sense of total intelligibility"]
         },
         {
-          "prompt": "If a higher state produces a systematic insight — transforming your competence for relevance realization — how would you test whether that transformation was real and lasting versus merely temporary feeling?",
+          "prompt": "If a higher state produces a systematic insight, transforming your competence for relevance realization, how would you test whether that transformation was real and lasting versus merely temporary feeling?",
           "expectedThemes": ["behavioral evidence of changed salience", "lasting changes in what is noticed and cared about", "integration into waking cognition needed"]
         }
       ],
       "misconceptionBranches": [
         {
           "misconception": "Higher states are just more intense versions of the insight you get when solving a difficult puzzle.",
-          "correction": "Ordinary insight reframes a particular problem within an existing competence; the systematic insight of higher states transforms the competence itself — it is a transframing, not just a reframing."
+          "correction": "Ordinary insight reframes a particular problem within an existing competence; the systematic insight of higher states transforms the competence itself, it is a transframing, not just a reframing."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "What is the difference between a reframing insight and a transframing insight — and why does Vervaeke argue that higher states of consciousness afford the latter rather than just the former?",
+        "prompt": "What is the difference between a reframing insight and a transframing insight, and why does Vervaeke argue that higher states of consciousness afford the latter rather than just the former?",
         "expectedThemes": ["reframing solves one problem", "transframing transforms the framing competence", "higher states restructure the whole salience landscape"]
       }
     },
@@ -143,11 +143,11 @@
       ],
       "socraticSeeds": [
         {
-          "prompt": "Existential entrapment is being stuck and stupefied — unable to imagine or inhabit an alternative worldview. Why might a higher state of consciousness be more useful for escaping that trap than propositional argument?",
+          "prompt": "Existential entrapment is being stuck and stupefied, unable to imagine or inhabit an alternative worldview. Why might a higher state of consciousness be more useful for escaping that trap than propositional argument?",
           "expectedThemes": ["argument cannot override existential paralysis", "higher states can break out of entrenched framing", "participatory transformation needed not just new beliefs"]
         },
         {
-          "prompt": "Vervaeke says gnosis can be 'empowered' by higher states. What is the relationship — is the higher state the same as gnosis, or the condition for it, or the fuel that drives it?",
+          "prompt": "Vervaeke says gnosis can be 'empowered' by higher states. What is the relationship, is the higher state the same as gnosis, or the condition for it, or the fuel that drives it?",
           "expectedThemes": ["higher state provides cognitive flexibility", "gnosis is the process using that flexibility", "higher state enables but does not guarantee gnosis"]
         },
         {
@@ -158,11 +158,11 @@
       "misconceptionBranches": [
         {
           "misconception": "Higher states are restricted to drug-induced experiences.",
-          "correction": "Vervaeke emphasizes that flow, deep meditation, and ritual practice can all occasion higher states of consciousness — altered states from psychedelics are one pathway, not the defining one."
+          "correction": "Vervaeke emphasizes that flow, deep meditation, and ritual practice can all occasion higher states of consciousness, altered states from psychedelics are one pathway, not the defining one."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "Why does Vervaeke argue that the cultivation of higher states of consciousness is relevant to addressing the meaning crisis — what role do they play in gnosis and in overcoming existential entrapment?",
+        "prompt": "Why does Vervaeke argue that the cultivation of higher states of consciousness is relevant to addressing the meaning crisis, what role do they play in gnosis and in overcoming existential entrapment?",
         "expectedThemes": ["higher states provide the cognitive flexibility that gnosis requires", "break through existential entrapment that argument cannot", "naturalistic basis for the transformations religions sought"]
       }
     }

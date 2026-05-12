@@ -2,19 +2,19 @@
   "num": 14,
   "slug": "epicureans-cynics-stoics",
   "title": "Epicureans, Cynics, and Stoics",
-  "essence": "Vervaeke frames the Hellenistic period as a civilizational meaning crisis precipitated by Alexander the Great's conquests, which destroyed the polis — the self-contained political and cultural community in which Greek identity was embedded. The result was domicide on a civilizational scale: millions of people whose identity had been constituted by their place in a civic community suddenly found themselves displaced, cosmopolitan, and existentially homeless. Three philosophical movements arose as therapeutic responses. The Epicureans, pioneered by Epicurus, withdrew from politics into small communities of friendship, built a hedonic calculus of pleasure management, and practiced philosophical medicine — the 'call no man a philosopher who has not alleviated the suffering of others' criterion. The Cynics radically stripped down: Diogenes performed a kind of philosophical theater of nakedness, demonstrating that what people claim to need (honor, wealth, status) is illusion, and that genuine purity of motivation is all that matters. Zeno of Citium, influenced by the Cynics but reconstructing something more social, founded Stoicism: a school that re-grounded identity not in polis membership but in participation in the universal logos — the rational principle structuring the cosmos — through the psycho-technology of co-identification, by which the individual identifies with the rational order rather than contingent social roles. Each school addresses the same problem of domicide through a different re-grounding strategy: pleasure management, purity of will, or logos-identification.",
+  "essence": "Vervaeke frames the Hellenistic period as a civilizational meaning crisis precipitated by Alexander the Great's conquests, which destroyed the polis, the self-contained political and cultural community in which Greek identity was embedded. The result was domicide on a civilizational scale: millions of people whose identity had been constituted by their place in a civic community suddenly found themselves displaced, cosmopolitan, and existentially homeless. Three philosophical movements arose as therapeutic responses. The Epicureans, pioneered by Epicurus, withdrew from politics into small communities of friendship, built a hedonic calculus of pleasure management, and practiced philosophical medicine, the 'call no man a philosopher who has not alleviated the suffering of others' criterion. The Cynics radically stripped down: Diogenes performed a kind of philosophical theater of nakedness, demonstrating that what people claim to need (honor, wealth, status) is illusion, and that genuine purity of motivation is all that matters. Zeno of Citium, influenced by the Cynics but reconstructing something more social, founded Stoicism: a school that re-grounded identity not in polis membership but in participation in the universal logos, the rational principle structuring the cosmos, through the psycho-technology of co-identification, by which the individual identifies with the rational order rather than contingent social roles. Each school addresses the same problem of domicide through a different re-grounding strategy: pleasure management, purity of will, or logos-identification.",
   "keyClaims": [
-    "Alexander the Great's conquests destroyed the polis, producing civilizational domicide — the loss of the cultural home in which Greek identity was constituted.",
+    "Alexander the Great's conquests destroyed the polis, producing civilizational domicide, the loss of the cultural home in which Greek identity was constituted.",
     "The Epicureans responded with therapeutic friendship communities and hedonic calculus, treating philosophy explicitly as medicine for existential suffering.",
     "The Cynics stripped identity down to purity of motivation, performing philosophical theater to expose the illusoriness of conventional social goods.",
-    "Zeno founded Stoicism by re-grounding identity in the universal logos — the rational principle structuring the cosmos — enabling meaningful existence even without a particular community or home.",
+    "Zeno founded Stoicism by re-grounding identity in the universal logos, the rational principle structuring the cosmos, enabling meaningful existence even without a particular community or home.",
     "All three schools are responses to the same problem of domicide and existential displacement, each offering a different psycho-technology for re-establishing the agent-arena relationship after the collapse of the polis."
   ],
   "concepts": [
     {
       "id": "domicide",
       "treatment": "introduced",
-      "summary": "Named and defined as the destruction of home — not merely physical but cultural: the loss of the community, history, and shared meaning-making in which identity is embedded."
+      "summary": "Named and defined as the destruction of home, not merely physical but cultural: the loss of the community, history, and shared meaning-making in which identity is embedded."
     },
     {
       "id": "psycho-technology",
@@ -34,12 +34,12 @@
     {
       "id": "parasitic-processing",
       "treatment": "developed",
-      "summary": "The existential displacement of the Hellenistic period creates exactly the conditions for parasitic processing — untethered identity, cognitive flexibility overwhelmed by options, no shared frame."
+      "summary": "The existential displacement of the Hellenistic period creates exactly the conditions for parasitic processing, untethered identity, cognitive flexibility overwhelmed by options, no shared frame."
     },
     {
       "id": "wisdom",
       "treatment": "applied",
-      "summary": "Each school defines wisdom differently: Epicurean wisdom as managing pleasure/pain; Cynic wisdom as stripping to purity; Stoic wisdom as aligning with logos — but all share the criterion of alleviating existential suffering."
+      "summary": "Each school defines wisdom differently: Epicurean wisdom as managing pleasure/pain; Cynic wisdom as stripping to purity; Stoic wisdom as aligning with logos, but all share the criterion of alleviating existential suffering."
     },
     {
       "id": "having-mode-being-mode",
@@ -49,7 +49,7 @@
     {
       "id": "the-meaning-crisis",
       "treatment": "applied",
-      "summary": "The Hellenistic period is presented as the first large-scale modern-style meaning crisis — the parallel to modernity after the death of God is made explicit."
+      "summary": "The Hellenistic period is presented as the first large-scale modern-style meaning crisis, the parallel to modernity after the death of God is made explicit."
     }
   ],
   "people": [
@@ -61,7 +61,7 @@
     {
       "id": "epicurus",
       "role": "introduced",
-      "summary": "Founder of Epicureanism: therapeutic philosopher of friendship communities, hedonic calculus, and philosophical medicine. His criterion — 'Call no man a philosopher who has not alleviated the suffering of others' — is quoted."
+      "summary": "Founder of Epicureanism: therapeutic philosopher of friendship communities, hedonic calculus, and philosophical medicine. His criterion, 'Call no man a philosopher who has not alleviated the suffering of others', is quoted."
     },
     {
       "id": "diogenes",

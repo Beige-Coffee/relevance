@@ -2,14 +2,14 @@
   "num": 20,
   "slug": "death-of-the-universe",
   "title": "Death of the Universe",
-  "essence": "Episode 20 traces the collapse of the medieval cosmos through three interlocking shocks. The Rhineland Mystics—above all Meister Eckhart—inverted the Neoplatonic ascent into a descent spirituality of radical self-negation, inadvertently teaching the West to court the annihilation of the self and thereby seeding a cultural grammar of self-loathing. William of Ockham's nominalism severed the rational bond between God and the world: if God's absolute will is not constrained by reason or logos, then nature ceases to be a cosmos and becomes an arbitrary collection of brute particulars knowable only by direct empirical encounter. The Black Death then devastated the institutional Church and triggered economic and social upheaval that accelerated secularism. Finally, Copernicus and Galileo mathematically dismantled the ordered, purpose-laden universe: inertial motion dethroned Aristotle's teleological physics, and Galileo's primary/secondary quality distinction quarantined the mind behind a veil of subjective experience, severing the participatory bond between mind and world. Together these moves transformed the cosmos into a silent, purposeless machine and trapped the self in a spectatorial prison—the deepest structural cause of modernity's meaning crisis.",
+  "essence": "Episode 20 traces the collapse of the medieval cosmos through three interlocking shocks. The Rhineland Mystics, above all Meister Eckhart, inverted the Neoplatonic ascent into a descent spirituality of radical self-negation, inadvertently teaching the West to court the annihilation of the self and thereby seeding a cultural grammar of self-loathing. William of Ockham's nominalism severed the rational bond between God and the world: if God's absolute will is not constrained by reason or logos, then nature ceases to be a cosmos and becomes an arbitrary collection of brute particulars knowable only by direct empirical encounter. The Black Death then devastated the institutional Church and triggered economic and social upheaval that accelerated secularism. Finally, Copernicus and Galileo mathematically dismantled the ordered, purpose-laden universe: inertial motion dethroned Aristotle's teleological physics, and Galileo's primary/secondary quality distinction quarantined the mind behind a veil of subjective experience, severing the participatory bond between mind and world. Together these moves transformed the cosmos into a silent, purposeless machine and trapped the self in a spectatorial prison, the deepest structural cause of modernity's meaning crisis.",
   "keyClaims": [
     "Eckhart's descent spirituality taught radical self-negation as the path to union with the Godhead, creating a cultural template for self-loathing that Luther and later Romanticism would amplify.",
     "Ockham's nominalism made God's will supreme over divine reason, dissolving the rational logos that had made nature a cosmos intelligible to the human mind.",
     "The Black Death killed a third of Europe, discredited Church authority, and accelerated the commercialization and secularization that further eroded the sacred ordering of everyday life.",
     "Copernican heliocentrism removed Earth from the cosmic center; Galilean inertial physics abolished natural place and teleology, leaving motion as uniform and purposeless by default.",
     "Galileo's primary/secondary quality distinction relegated color, warmth, taste, and beauty to subjective illusion, effectively imprisoning the mind behind a veil of experience and severing its participatory contact with reality.",
-    "These cumulative shocks did not merely change beliefs but demolished the nomological order—the lived sense that the cosmos is a meaningful home for human agency."
+    "These cumulative shocks did not merely change beliefs but demolished the nomological order, the lived sense that the cosmos is a meaningful home for human agency."
   ],
   "concepts": [
     {
@@ -35,17 +35,17 @@
     {
       "id": "self-transcendence",
       "treatment": "developed",
-      "summary": "Eckhart's radical self-negation represents a pathological inversion of genuine self-transcendence—annihilation rather than transformation—and inaugurates the cultural pattern Vervaeke calls the 'broken' form of self-transcendence."
+      "summary": "Eckhart's radical self-negation represents a pathological inversion of genuine self-transcendence, annihilation rather than transformation, and inaugurates the cultural pattern Vervaeke calls the 'broken' form of self-transcendence."
     },
     {
       "id": "the-meaning-crisis",
       "treatment": "developed",
-      "summary": "The episode presents the death of the geocentric, purpose-filled cosmos as the central structural event driving the modern meaning crisis—a loss of cosmic home and of participatory connection."
+      "summary": "The episode presents the death of the geocentric, purpose-filled cosmos as the central structural event driving the modern meaning crisis, a loss of cosmic home and of participatory connection."
     },
     {
       "id": "normative-order",
       "treatment": "referenced",
-      "summary": "The Neoplatonic normative order—anagoge, ascent through levels of reality—is simultaneously undermined by Ockham's nominalism and by Rhineland descent spirituality's rejection of upward aspiration."
+      "summary": "The Neoplatonic normative order, anagoge, ascent through levels of reality, is simultaneously undermined by Ockham's nominalism and by Rhineland descent spirituality's rejection of upward aspiration."
     }
   ],
   "people": [
@@ -57,7 +57,7 @@
     {
       "id": "william-of-ockham",
       "role": "subject",
-      "summary": "Ockham's nominalism—rejecting universals, making God's will supreme over reason—dissolves the rational cosmic order that Aquinas had synthesized, completing the intellectual dismantling of the medieval worldview."
+      "summary": "Ockham's nominalism, rejecting universals, making God's will supreme over reason, dissolves the rational cosmic order that Aquinas had synthesized, completing the intellectual dismantling of the medieval worldview."
     },
     {
       "id": "descartes",
@@ -67,7 +67,7 @@
     {
       "id": "aquinas",
       "role": "referenced",
-      "summary": "Aquinas's grand synthesis of Aristotle and Christianity is the implicit backdrop—Ockham dismantles it, and Galileo delivers the fatal empirical blow to its cosmological foundation."
+      "summary": "Aquinas's grand synthesis of Aristotle and Christianity is the implicit backdrop, Ockham dismantles it, and Galileo delivers the fatal empirical blow to its cosmological foundation."
     },
     {
       "id": "plotinus",

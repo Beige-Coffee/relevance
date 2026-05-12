@@ -2,7 +2,7 @@
   "id": "salience-landscape",
   "title": "Salience Landscape",
   "conceptId": "salience-landscape",
-  "abstract": "This course develops Vervaeke's concept of the salience landscape — the dynamically structured field of standing-out and standing-back that consciousness produces through featurization, foregrounding, configuration, and framing. Students will be able to explain how the salience landscape operates as a pre-reflective topography that shapes what enters deliberate cognition, articulate why it is neither a spotlight nor a passive mirror, and connect optimal grip to the agent-arena relationship. In the series arc, the salience landscape is the phenomenological counterpart to relevance realization: where relevance realization names the sub-representational process, the salience landscape names the structured experiential terrain it generates — the field within which wisdom, self-deception, and transformation become possible.",
+  "abstract": "This course develops Vervaeke's concept of the salience landscape, the dynamically structured field of standing-out and standing-back that consciousness produces through featurization, foregrounding, configuration, and framing. Students will be able to explain how the salience landscape operates as a pre-reflective topography that shapes what enters deliberate cognition, articulate why it is neither a spotlight nor a passive mirror, and connect optimal grip to the agent-arena relationship. In the series arc, the salience landscape is the phenomenological counterpart to relevance realization: where relevance realization names the sub-representational process, the salience landscape names the structured experiential terrain it generates, the field within which wisdom, self-deception, and transformation become possible.",
   "prerequisites": [
     "relevance-realization"
   ],
@@ -26,7 +26,7 @@
       ],
       "socraticSeeds": [
         {
-          "prompt": "Right now, in this moment, many things are technically available to your senses — the feeling of your clothes, the ambient sounds, peripheral visual information. Why are most of these not 'standing out' to you, even though they are present? Who or what determined what stands out?",
+          "prompt": "Right now, in this moment, many things are technically available to your senses, the feeling of your clothes, the ambient sounds, peripheral visual information. Why are most of these not 'standing out' to you, even though they are present? Who or what determined what stands out?",
           "expectedThemes": [
             "pre-reflective salience selection",
             "consciousness as topographer not passive recorder",
@@ -35,7 +35,7 @@
           ]
         },
         {
-          "prompt": "The spotlight metaphor of attention suggests a single beam moving across a uniform background. Why is this wrong — what does attention actually do that a spotlight cannot do?",
+          "prompt": "The spotlight metaphor of attention suggests a single beam moving across a uniform background. Why is this wrong, what does attention actually do that a spotlight cannot do?",
           "expectedThemes": [
             "attention as optimization not spotlight",
             "dynamic topology not uniform field",
@@ -53,7 +53,7 @@
           ]
         },
         {
-          "prompt": "The salience landscape is described as 'dynamic' — it shifts as the agent-arena relationship evolves. Can you think of a time when a situation suddenly looked completely different because one element changed? What had shifted in your salience landscape?",
+          "prompt": "The salience landscape is described as 'dynamic', it shifts as the agent-arena relationship evolves. Can you think of a time when a situation suddenly looked completely different because one element changed? What had shifted in your salience landscape?",
           "expectedThemes": [
             "gestalt shift",
             "reframing",
@@ -68,12 +68,12 @@
           "correction": "The salience landscape is a dynamic topography that shifts as the agent-arena relationship evolves; it operates pre-reflectively and shapes what enters reflective cognition, making it prior to voluntary attention rather than a product of it."
         },
         {
-          "misconception": "Salience is purely subjective preference — whatever someone personally cares about becomes salient.",
-          "correction": "Salience tracks real affordances in the environment co-created by organism and world; it is transjective — neither purely in the world nor purely projected by the mind, but co-arising in their dynamic relationship."
+          "misconception": "Salience is purely subjective preference, whatever someone personally cares about becomes salient.",
+          "correction": "Salience tracks real affordances in the environment co-created by organism and world; it is transjective, neither purely in the world nor purely projected by the mind, but co-arising in their dynamic relationship."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "In what sense does the salience landscape both enable and constrain cognition — and why does understanding it as a pre-reflective topography matter for addressing the meaning crisis?",
+        "prompt": "In what sense does the salience landscape both enable and constrain cognition, and why does understanding it as a pre-reflective topography matter for addressing the meaning crisis?",
         "expectedThemes": [
           "landscape enables and constrains",
           "pre-reflective shaping of thought",
@@ -90,7 +90,7 @@
       "expositionPassages": [],
       "socraticSeeds": [
         {
-          "prompt": "Before you can recognize something as a 'cup' you must first pick it out from its background as the thing you are attending to. What is that initial act of picking out — and could it itself be explained in terms of concepts or categories?",
+          "prompt": "Before you can recognize something as a 'cup' you must first pick it out from its background as the thing you are attending to. What is that initial act of picking out, and could it itself be explained in terms of concepts or categories?",
           "expectedThemes": [
             "demonstrative reference prior to concept",
             "indexical acts",
@@ -99,7 +99,7 @@
           ]
         },
         {
-          "prompt": "Salience tagging is described as making 'here-nowness' salient — marking the locus of present experience. What does it mean to be here, now, attending to this? Is that something you can do with words, or does it require something more basic?",
+          "prompt": "Salience tagging is described as making 'here-nowness' salient, marking the locus of present experience. What does it mean to be here, now, attending to this? Is that something you can do with words, or does it require something more basic?",
           "expectedThemes": [
             "indexical vs categorical",
             "present-moment grounding",
@@ -108,7 +108,7 @@
           ]
         },
         {
-          "prompt": "If salience tagging is the foundation of all categorization, could a system that only operates on categories — only on general concepts applied to input — ever genuinely engage with particulars? What would be missing?",
+          "prompt": "If salience tagging is the foundation of all categorization, could a system that only operates on categories, only on general concepts applied to input, ever genuinely engage with particulars? What would be missing?",
           "expectedThemes": [
             "particulars prior to universals",
             "indexical grounding",
@@ -129,11 +129,11 @@
       "misconceptionBranches": [
         {
           "misconception": "Salience tagging is a higher-level cognitive act that happens after perception.",
-          "correction": "Salience tagging is the pre-categorical, pre-conceptual act that makes perception of objects possible at all — it is the condition for categorization, not its product."
+          "correction": "Salience tagging is the pre-categorical, pre-conceptual act that makes perception of objects possible at all, it is the condition for categorization, not its product."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "Why is salience tagging described as 'enactive' rather than 'representational' — and why does this matter for understanding how relevance realization can be non-circular?",
+        "prompt": "Why is salience tagging described as 'enactive' rather than 'representational', and why does this matter for understanding how relevance realization can be non-circular?",
         "expectedThemes": [
           "enaction vs representation",
           "non-circular grounding",
@@ -156,7 +156,7 @@
       ],
       "socraticSeeds": [
         {
-          "prompt": "When you're reading, you don't focus on every individual letter, nor do you stand back so far that you can't see the words. You find an optimal level of grain. Why 'optimal' and not 'maximal' — why is maximum detail not always best?",
+          "prompt": "When you're reading, you don't focus on every individual letter, nor do you stand back so far that you can't see the words. You find an optimal level of grain. Why 'optimal' and not 'maximal', why is maximum detail not always best?",
           "expectedThemes": [
             "optimal vs maximal",
             "grain of perception",
@@ -165,7 +165,7 @@
           ]
         },
         {
-          "prompt": "In a conversation, sometimes you need to track the exact words someone says, and sometimes you need to track the overall emotional tone. How do you shift between these levels of grip — and what happens when you get the level wrong?",
+          "prompt": "In a conversation, sometimes you need to track the exact words someone says, and sometimes you need to track the overall emotional tone. How do you shift between these levels of grip, and what happens when you get the level wrong?",
           "expectedThemes": [
             "level-shifting in attention",
             "wrong grain causes misunderstanding",
@@ -183,7 +183,7 @@
           ]
         },
         {
-          "prompt": "Self-deception often involves having a salience landscape that is systematically distorted — some things loom too large, others are invisible. What would it take to recalibrate a distorted salience landscape? Can propositions do it?",
+          "prompt": "Self-deception often involves having a salience landscape that is systematically distorted, some things loom too large, others are invisible. What would it take to recalibrate a distorted salience landscape? Can propositions do it?",
           "expectedThemes": [
             "self-deception as salience distortion",
             "recalibration through practice",
@@ -195,11 +195,11 @@
       "misconceptionBranches": [
         {
           "misconception": "The salience landscape is not reducible to explicit beliefs about what matters; it operates pre-reflectively.",
-          "correction": "This is correct — but the implication is often missed: recalibrating a distorted salience landscape (as in self-deception or addiction) requires practices that operate at the sub-propositional level of the landscape itself, not merely new explicit beliefs."
+          "correction": "This is correct, but the implication is often missed: recalibrating a distorted salience landscape (as in self-deception or addiction) requires practices that operate at the sub-propositional level of the landscape itself, not merely new explicit beliefs."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "How does the concept of optimal grip illuminate what wisdom practices are trying to achieve — and why must they target the salience landscape at a level below explicit belief?",
+        "prompt": "How does the concept of optimal grip illuminate what wisdom practices are trying to achieve, and why must they target the salience landscape at a level below explicit belief?",
         "expectedThemes": [
           "wisdom targets salience landscape",
           "below belief level",

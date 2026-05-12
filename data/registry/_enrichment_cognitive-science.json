@@ -70,7 +70,7 @@
       },
       {
         "name": "non-circular-explanation-constraint",
-        "description": "Any adequate theory of relevance realization must not presuppose relevance in the mechanisms it invokes—otherwise it commits the homuncular fallacy.",
+        "description": "Any adequate theory of relevance realization must not presuppose relevance in the mechanisms it invokes, otherwise it commits the homuncular fallacy.",
         "keyPassages": [
           {
             "episode": 29,
@@ -81,8 +81,8 @@
       }
     ],
     "commonConfusions": [
-      "Relevance realization is not a conscious process of selecting information—it is a sub-representational, pre-categorical self-organizing process that underlies all conscious cognition.",
-      "Relevance is not a property of objects in the world nor a subjective projection from the mind—it is transjective, emerging in the co-created relationship between organism and environment.",
+      "Relevance realization is not a conscious process of selecting information, it is a sub-representational, pre-categorical self-organizing process that underlies all conscious cognition.",
+      "Relevance is not a property of objects in the world nor a subjective projection from the mind, it is transjective, emerging in the co-created relationship between organism and environment.",
       "Relevance realization cannot be explained by representations, computations, or a central executive because each of those already presupposes relevance to function.",
       "Relevance realization is not a single mechanism located in one brain region but operates self-organizingly at multiple levels simultaneously."
     ],
@@ -130,7 +130,7 @@
       },
       {
         "name": "insight-cascade",
-        "description": "The extended flow of successive insight events that characterizes deep learning—each restructuring primes the next.",
+        "description": "The extended flow of successive insight events that characterizes deep learning, each restructuring primes the next.",
         "keyPassages": [
           {
             "episode": 2,
@@ -141,7 +141,7 @@
       },
       {
         "name": "transframing-insight",
-        "description": "A systematic insight that does not merely reframe a single problem but transforms the competence that generates frames—characteristic of wisdom development.",
+        "description": "A systematic insight that does not merely reframe a single problem but transforms the competence that generates frames, characteristic of wisdom development.",
         "keyPassages": [
           {
             "episode": 40,
@@ -152,7 +152,7 @@
       }
     ],
     "commonConfusions": [
-      "Insight is not merely a lucky guess—it requires first breaking an inappropriate frame and then restructuring how features cohere.",
+      "Insight is not merely a lucky guess, it requires first breaking an inappropriate frame and then restructuring how features cohere.",
       "Insight cannot be forced by deliberate logical search; the de-automatization that enables it often requires indirect practices like mindfulness or flow.",
       "Insight into a single problem is distinct from the systematic, transframing insight associated with wisdom, which transforms whole competences rather than individual solutions."
     ],
@@ -222,7 +222,7 @@
       }
     ],
     "commonConfusions": [
-      "Flow is not simply enjoyment or physical pleasure—it is an altered cognitive state characterized by an insight cascade and enhanced implicit learning.",
+      "Flow is not simply enjoyment or physical pleasure, it is an altered cognitive state characterized by an insight cascade and enhanced implicit learning.",
       "Flow is not effortlessness in the ordinary sense; there is tremendous metabolic effort, yet the effort feels spontaneous and unforced.",
       "Flow is not identical to mindfulness practice, though mindfulness training demonstrably increases the capacity for flow."
     ],
@@ -274,14 +274,14 @@
         "keyPassages": [
           {
             "episode": 38,
-            "phrase": "the organism is shaping the environment, shaping and selecting the environment, and the environment is shaping and selecting the organism … You've got this transjective evolving loop going on—niche construction.",
+            "phrase": "the organism is shaping the environment, shaping and selecting the environment, and the environment is shaping and selecting the organism … You've got this transjective evolving loop going on, niche construction.",
             "role": "definition"
           }
         ]
       },
       {
         "name": "enaction",
-        "description": "Cognition is something organisms do—it is enacted through the sensorimotor loop—rather than a passive reception of inputs.",
+        "description": "Cognition is something organisms do, it is enacted through the sensorimotor loop, rather than a passive reception of inputs.",
         "keyPassages": [
           {
             "episode": 38,
@@ -314,9 +314,9 @@
       }
     ],
     "commonConfusions": [
-      "4E cognition does not deny the importance of internal representations—it denies that representations are the origin or sufficient basis for cognition.",
+      "4E cognition does not deny the importance of internal representations, it denies that representations are the origin or sufficient basis for cognition.",
       "Embeddedness is not the same as mere environmental influence; it refers to the co-constituting loop between organism and environment in niche construction.",
-      "4E cognition is not anti-scientific—it is a third-generation cognitive science that expands the scientific account of mind beyond computational internalism.",
+      "4E cognition is not anti-scientific, it is a third-generation cognitive science that expands the scientific account of mind beyond computational internalism.",
       "The four E's are distinct emphases within a unified framework, not independent theories; they mutually presuppose the organism-environment loop."
     ],
     "keyPassages": [
@@ -374,7 +374,7 @@
       },
       {
         "name": "optimal-grip-coupling",
-        "description": "The salience landscape is dynamically adjusted to achieve optimal grip—a balance of abstraction and detail suited to the current task.",
+        "description": "The salience landscape is dynamically adjusted to achieve optimal grip, a balance of abstraction and detail suited to the current task.",
         "keyPassages": [
           {
             "episode": 10,
@@ -386,7 +386,7 @@
     ],
     "commonConfusions": [
       "A salience landscape is not a fixed spotlight of attention; it is a dynamic topography that shifts as the agent-arena relationship evolves.",
-      "Salience is not purely subjective preference—it tracks real affordances in the environment co-created by organism and world.",
+      "Salience is not purely subjective preference, it tracks real affordances in the environment co-created by organism and world.",
       "The salience landscape is not reducible to explicit beliefs about what matters; it operates pre-reflectively and shapes what enters reflective cognition."
     ],
     "keyPassages": [
@@ -455,7 +455,7 @@
       }
     ],
     "commonConfusions": [
-      "Parasitic processing is not simply bad habit—it is self-organizing and self-reinforcing, borrowing the adaptive machinery of relevance realization against the agent's interests.",
+      "Parasitic processing is not simply bad habit, it is self-organizing and self-reinforcing, borrowing the adaptive machinery of relevance realization against the agent's interests.",
       "The perennial problems Vervaeke identifies are not moral failures; they are structural vulnerabilities built into the very machinery that makes intelligent agency possible.",
       "Addressing parasitic processing requires a counteractive dynamical system, not merely willpower or propositional insight, because the process operates below the level of deliberate control."
     ],
@@ -515,7 +515,7 @@
     ],
     "commonConfusions": [
       "Modal confusion is not simply a cognitive error about facts; it is an existential misalignment between the mode of engagement and the need being pursued.",
-      "Having-mode engagement is not inherently wrong—the problem arises only when being-mode needs are pursued through having-mode strategies."
+      "Having-mode engagement is not inherently wrong, the problem arises only when being-mode needs are pursued through having-mode strategies."
     ],
     "keyPassages": [
       {
@@ -550,7 +550,7 @@
     "subConcepts": [
       {
         "name": "transformation-of-framing-process",
-        "description": "Transframing operates on the meta-level: it alters not just a current frame but the whole framing process—both ends of the act of making sense.",
+        "description": "Transframing operates on the meta-level: it alters not just a current frame but the whole framing process, both ends of the act of making sense.",
         "keyPassages": [
           {
             "episode": 17,
@@ -572,7 +572,7 @@
       },
       {
         "name": "gnosis-as-transframing-context",
-        "description": "Gnosis is the psychotechnology that creates a ritual context enabling transframing—overcoming existential stuckness through participatory transformation.",
+        "description": "Gnosis is the psychotechnology that creates a ritual context enabling transframing, overcoming existential stuckness through participatory transformation.",
         "keyPassages": [
           {
             "episode": 17,
@@ -642,20 +642,20 @@
       },
       {
         "name": "transjectivity-and-meaning",
-        "description": "Meaning is not made by the subject nor found in the object but cultivated in the transjective relation—neither romantic imposition nor empiricist reception.",
+        "description": "Meaning is not made by the subject nor found in the object but cultivated in the transjective relation, neither romantic imposition nor empiricist reception.",
         "keyPassages": [
           {
             "episode": 38,
-            "phrase": "the transjectivity here—that it's actually in here, that the meaning is to be found and notice also the connectivity and how much of this is, you know, the relevance realizing, the deep connection, the deep caring, the deep involvement, the deep participation",
+            "phrase": "the transjectivity here, that it's actually in here, that the meaning is to be found and notice also the connectivity and how much of this is, you know, the relevance realizing, the deep connection, the deep caring, the deep involvement, the deep participation",
             "role": "application"
           }
         ]
       }
     ],
     "commonConfusions": [
-      "Transjective does not mean intersubjective (agreed upon by multiple subjects)—it refers to the real relational structure between organism and environment, independent of agreement.",
+      "Transjective does not mean intersubjective (agreed upon by multiple subjects), it refers to the real relational structure between organism and environment, independent of agreement.",
       "Acknowledging that relevance is transjective is not a retreat to subjectivism; it is a claim that the relationship itself has real structure.",
-      "Transjectivity does not require any mystical or non-physical ontology—it is grounded in the biological and cognitive science of niche construction and enaction."
+      "Transjectivity does not require any mystical or non-physical ontology, it is grounded in the biological and cognitive science of niche construction and enaction."
     ],
     "keyPassages": [
       {
@@ -734,7 +734,7 @@
       },
       {
         "name": "alienation",
-        "description": "The breakdown of communitas—feeling fundamentally separated from others and from the conditions that make shared meaning possible.",
+        "description": "The breakdown of communitas, feeling fundamentally separated from others and from the conditions that make shared meaning possible.",
         "keyPassages": [
           {
             "episode": 38,
@@ -745,7 +745,7 @@
       }
     ],
     "commonConfusions": [
-      "The perennial problems are not unique to modernity—they are structural vulnerabilities of the relevance-realization machinery present across all cultures and times.",
+      "The perennial problems are not unique to modernity, they are structural vulnerabilities of the relevance-realization machinery present across all cultures and times.",
       "They are not moral failings or character defects; they arise precisely because the same machinery that makes us intelligently adaptive can be turned against itself.",
       "Addressing the perennial problems requires a counteractive dynamical system of practices, not philosophical argument or willpower alone.",
       "The perennial problems are distinct from each other and call for distinct countermeasures, though they interact and mutually reinforce one another."
@@ -794,7 +794,7 @@
       },
       {
         "name": "systematic-insight",
-        "description": "Higher states afford insight not just into a particular problem but into the framing process itself—a transframing that transforms the capacity for relevance realization.",
+        "description": "Higher states afford insight not just into a particular problem but into the framing process itself, a transframing that transforms the capacity for relevance realization.",
         "keyPassages": [
           {
             "episode": 40,
@@ -816,8 +816,8 @@
       }
     ],
     "commonConfusions": [
-      "Higher states of consciousness are not merely more intense versions of normal experience—they involve a qualitative restructuring of the salience landscape and the sense of self.",
-      "They are not automatically veridical—their epistemic value depends on whether the insight they afford survives critical integration with waking cognition.",
+      "Higher states of consciousness are not merely more intense versions of normal experience, they involve a qualitative restructuring of the salience landscape and the sense of self.",
+      "They are not automatically veridical, their epistemic value depends on whether the insight they afford survives critical integration with waking cognition.",
       "Higher states are not restricted to drug-induced experiences; flow, deep meditation, and ritual practice can all occasion them."
     ],
     "keyPassages": [
@@ -886,9 +886,9 @@
       }
     ],
     "commonConfusions": [
-      "Altered states are not simply confusion or impairment—they can afford genuine cognitive enhancement when embedded in appropriate practice contexts.",
+      "Altered states are not simply confusion or impairment, they can afford genuine cognitive enhancement when embedded in appropriate practice contexts.",
       "The value of altered states depends entirely on what is done with the cross-neural integration they make available; insight must be integrated into waking cognition.",
-      "Altered states are not the same as higher states of consciousness; altered states are the vehicle, higher states are the destination—though they often overlap."
+      "Altered states are not the same as higher states of consciousness; altered states are the vehicle, higher states are the destination, though they often overlap."
     ],
     "keyPassages": [
       {
@@ -945,7 +945,7 @@
       }
     ],
     "commonConfusions": [
-      "The agent-arena relationship is not merely a context or background—it is the primary unit of meaning-making from which all more specific projects derive.",
+      "The agent-arena relationship is not merely a context or background, it is the primary unit of meaning-making from which all more specific projects derive.",
       "Arena does not mean the physical environment alone; it includes the normative and narrative orders that make the environment intelligible to an agent."
     ],
     "keyPassages": [
@@ -981,7 +981,7 @@
     "subConcepts": [
       {
         "name": "relevance-realization-function",
-        "description": "The primary cognitive function of consciousness is to enact relevance realization—making relevant information available for adaptive action.",
+        "description": "The primary cognitive function of consciousness is to enact relevance realization, making relevant information available for adaptive action.",
         "keyPassages": [
           {
             "episode": 10,
@@ -1003,7 +1003,7 @@
       },
       {
         "name": "working-memory-as-relevance-filter",
-        "description": "Working memory functions as a relevance filter, screening off irrelevant information and allowing deeper processing of what matters—and is correlated with general intelligence.",
+        "description": "Working memory functions as a relevance filter, screening off irrelevant information and allowing deeper processing of what matters, and is correlated with general intelligence.",
         "keyPassages": [
           {
             "episode": 29,
@@ -1014,7 +1014,7 @@
       }
     ],
     "commonConfusions": [
-      "Consciousness is not merely the passive theatre in which mental content plays out—its core function is the active enactment of relevance realization.",
+      "Consciousness is not merely the passive theatre in which mental content plays out, its core function is the active enactment of relevance realization.",
       "Ontonormativity is not a metaphysical claim about objective values; it describes the phenomenology of consciousness placing normative demands on cognition.",
       "The hard problem of consciousness (why there is phenomenal experience) is distinct from the functional question (what consciousness does) that Vervaeke primarily addresses."
     ],
@@ -1050,7 +1050,7 @@
     "id": "optimal-grip",
     "subConcepts": [],
     "commonConfusions": [
-      "Optimal grip is not maximal grip—seeking maximum detail or maximum abstraction both impede the dynamic balance that characterizes good cognition.",
+      "Optimal grip is not maximal grip, seeking maximum detail or maximum abstraction both impede the dynamic balance that characterizes good cognition.",
       "Optimal grip is not a fixed setting; it must be continuously adjusted as the agent-arena relationship evolves.",
       "Optimal grip is not purely cognitive; it is enacted through the body and the sensorimotor loop, not calculated abstractly."
     ],
@@ -1123,7 +1123,7 @@
     "subConcepts": [
       {
         "name": "attentional-scaling",
-        "description": "The dynamic adjustment of attention between fine-grained features and coarser gestalt patterns—a skill trainable through mindfulness.",
+        "description": "The dynamic adjustment of attention between fine-grained features and coarser gestalt patterns, a skill trainable through mindfulness.",
         "keyPassages": [
           {
             "episode": 9,
@@ -1170,7 +1170,7 @@
     "subConcepts": [],
     "commonConfusions": [
       "Existential mode is not a belief or theory about oneself; it is a pre-reflective orientation enacted in the agent-arena coupling.",
-      "Switching existential modes is not a mere change of attitude—it requires transforming the participatory knowing that grounds the agent's world."
+      "Switching existential modes is not a mere change of attitude, it requires transforming the participatory knowing that grounds the agent's world."
     ],
     "keyPassages": [
       {
@@ -1205,7 +1205,7 @@
     "subConcepts": [],
     "commonConfusions": [
       "Worldview attunement is not the same as having correct beliefs about the world; it is the participatory fit between agent and arena that makes any belief formation possible.",
-      "Loss of worldview attunement is not merely confusion—it is an existential crisis in which the machinery of meaning generation itself breaks down."
+      "Loss of worldview attunement is not merely confusion, it is an existential crisis in which the machinery of meaning generation itself breaks down."
     ],
     "keyPassages": [
       {
@@ -1240,7 +1240,7 @@
     "subConcepts": [],
     "commonConfusions": [
       "Existential entrapment is not ordinary indecision or laziness; it is a cognitive-existential paralysis in which the agent cannot imaginatively inhabit an alternative worldview.",
-      "Overcoming existential entrapment requires gnosis (participatory transformation), not propositional argument—being told a better worldview exists does not liberate a trapped agent."
+      "Overcoming existential entrapment requires gnosis (participatory transformation), not propositional argument, being told a better worldview exists does not liberate a trapped agent."
     ],
     "keyPassages": [
       {
@@ -1274,7 +1274,7 @@
     "id": "reciprocal-narrowing",
     "subConcepts": [],
     "commonConfusions": [
-      "Reciprocal narrowing is not merely reduced flexibility—both agent identity and arena narrow together, each change reinforcing the other in a self-sustaining spiral.",
+      "Reciprocal narrowing is not merely reduced flexibility, both agent identity and arena narrow together, each change reinforcing the other in a self-sustaining spiral.",
       "The mechanism is not specific to addiction; any parasitic processing that co-narrows agent and arena exemplifies reciprocal narrowing."
     ],
     "keyPassages": [
@@ -1345,7 +1345,7 @@
     "subConcepts": [],
     "commonConfusions": [
       "Inner conflict is not simply wanting two incompatible things; it arises from competing relevance-realization processes pulling the agent toward different agent-arena configurations.",
-      "Resolving inner conflict is not a matter of rational deliberation alone—it requires addressing the participatory and perspectival sources of the conflict."
+      "Resolving inner conflict is not a matter of rational deliberation alone, it requires addressing the participatory and perspectival sources of the conflict."
     ],
     "keyPassages": [
       {
@@ -1380,7 +1380,7 @@
     "subConcepts": [],
     "commonConfusions": [
       "Self-deception in Vervaeke's sense is not conscious lying to oneself; it operates through the sub-representational machinery of relevance realization and salience.",
-      "Overcoming self-deception is not a single act of will but requires systematic rationality—ongoing processes that reduce bias across multiple independent channels."
+      "Overcoming self-deception is not a single act of will but requires systematic rationality, ongoing processes that reduce bias across multiple independent channels."
     ],
     "keyPassages": [
       {
@@ -1414,7 +1414,7 @@
     "id": "bullshit",
     "subConcepts": [],
     "commonConfusions": [
-      "Bullshit (in Frankfurt's and Vervaeke's sense) is not lying—the liar cares about truth and tries to hide it; the bullshitter is indifferent to truth and driven by salience or persuasion.",
+      "Bullshit (in Frankfurt's and Vervaeke's sense) is not lying, the liar cares about truth and tries to hide it; the bullshitter is indifferent to truth and driven by salience or persuasion.",
       "Bullshitting yourself through equivocation is not a deliberate strategy; it arises when salience overrides semantic vigilance."
     ],
     "keyPassages": [
@@ -1485,7 +1485,7 @@
     "subConcepts": [],
     "commonConfusions": [
       "Structural-functional organization is not a mere list of features; it is the coherent pattern in which features make each other relevant and together point toward a use or identity.",
-      "The same physical object can have different structural-functional organizations depending on the agent's context and projects—aspectuality is not fixed."
+      "The same physical object can have different structural-functional organizations depending on the agent's context and projects, aspectuality is not fixed."
     ],
     "keyPassages": [
       {
@@ -1519,7 +1519,7 @@
     "id": "distributed-cognition",
     "subConcepts": [],
     "commonConfusions": [
-      "Distributed cognition is not merely outsourcing memory to notebooks—it refers to the genuine extension of cognitive processing into tools, bodies, and social systems.",
+      "Distributed cognition is not merely outsourcing memory to notebooks, it refers to the genuine extension of cognitive processing into tools, bodies, and social systems.",
       "Distributed cognition does not eliminate individual cognitive responsibility; it changes the unit of cognitive analysis from brain to person-plus-environment system."
     ],
     "keyPassages": [
@@ -1535,7 +1535,7 @@
       },
       {
         "episode": 38,
-        "phrase": "the organism is shaping the environment, shaping and selecting the environment, and the environment is shaping and selecting the organism … You've got this transjective evolving loop going on—niche construction.",
+        "phrase": "the organism is shaping the environment, shaping and selecting the environment, and the environment is shaping and selecting the organism … You've got this transjective evolving loop going on, niche construction.",
         "role": "application"
       },
       {
@@ -1554,9 +1554,9 @@
     "id": "implicit-learning",
     "subConcepts": [],
     "commonConfusions": [
-      "Implicit learning is not the same as unconscious bias—it is a genuine pattern-tracking capacity that can pick up on real causal structures, not only correlational artifacts.",
+      "Implicit learning is not the same as unconscious bias, it is a genuine pattern-tracking capacity that can pick up on real causal structures, not only correlational artifacts.",
       "Intuition produced by implicit learning is not magical; it is the surface expression of complex pattern recognition that cannot be fully articulated.",
-      "Explicit instruction does not improve implicit learning—it interferes with it; the relevant intervention is arranging the right environmental conditions (clear feedback, tight coupling, consequential error)."
+      "Explicit instruction does not improve implicit learning, it interferes with it; the relevant intervention is arranging the right environmental conditions (clear feedback, tight coupling, consequential error)."
     ],
     "keyPassages": [
       {
@@ -1591,7 +1591,7 @@
     "subConcepts": [],
     "commonConfusions": [
       "Hyperbolic discounting is not irrational laziness; it is a structural bias in the temporal weighting of value built into the relevance-realization machinery.",
-      "It is not fixed or immutable—practices that cultivate expanded temporal horizons (such as wisdom cultivation) can partially counteract hyperbolic discounting."
+      "It is not fixed or immutable, practices that cultivate expanded temporal horizons (such as wisdom cultivation) can partially counteract hyperbolic discounting."
     ],
     "keyPassages": [
       {
@@ -1626,7 +1626,7 @@
     "subConcepts": [],
     "commonConfusions": [
       "The frame problem is not merely a technical challenge for robotics; it reveals that relevance realization is irreducible to any formal algorithm.",
-      "Solving the frame problem does not mean specifying all relevant side effects—it means having a system that appropriately ignores most of them without checking them."
+      "Solving the frame problem does not mean specifying all relevant side effects, it means having a system that appropriately ignores most of them without checking them."
     ],
     "keyPassages": [
       {

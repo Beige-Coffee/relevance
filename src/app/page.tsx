@@ -1,88 +1,104 @@
-import Link from "next/link";
+"use client";
 
-const modes = [
-  {
-    href: "/dialogue",
-    title: "Dialogue",
-    blurb:
-      "Think through Vervaeke's ideas in Socratic exchange. The AI asks questions back, draws on the corpus, and cites episodes — it does not impersonate Vervaeke.",
-    cta: "Begin a dialogue",
-  },
-  {
-    href: "/ask",
-    title: "Ask",
-    blurb:
-      "Where did he discuss X? Get a synthesized answer with passages and episode citations, drawn from the full corpus.",
-    cta: "Ask a question",
-  },
-  {
-    href: "/graph",
-    title: "Graph",
-    blurb:
-      "Explore the lecture series as a web of concepts, thinkers, and episodes. Click a node to see what bridges to what.",
-    cta: "Open the graph",
-  },
-];
+import { useEffect, useState } from "react";
+import { useRouter } from "next/navigation";
+import { GraphCanvas, type GraphMode } from "@/components/graph-canvas";
+import { NodePanel } from "@/components/node-panel";
+import { getGraph, getEpisodes, getConcepts, getPeople, getCourses } from "@/lib/data";
+import type { Graph, GraphNode, Episode, Concept, Person, CourseSummary } from "@/lib/types";
 
 export default function Home() {
+  const router = useRouter();
+  const [graph, setGraph] = useState<Graph | null>(null);
+  const [episodes, setEpisodes] = useState<Episode[]>([]);
+  const [concepts, setConcepts] = useState<Concept[]>([]);
+  const [people, setPeople] = useState<Person[]>([]);
+  const [courses, setCourses] = useState<CourseSummary[]>([]);
+  const [selected, setSelected] = useState<GraphNode | null>(null);
+  const [mode, setMode] = useState<GraphMode>("concepts");
+  const [minDegree, setMinDegree] = useState(2);
+
+  useEffect(() => {
+    Promise.all([getGraph(), getEpisodes(), getConcepts(), getPeople(), getCourses()]).then(
+      ([g, e, c, p, cr]) => {
+        setGraph(g); setEpisodes(e); setConcepts(c); setPeople(p); setCourses(cr);
+      }
+    );
+  }, []);
+
+  useEffect(() => { setSelected(null); }, [mode]);
+
   return (
-    <div className="flex-1">
-      <section className="max-w-3xl mx-auto px-6 pt-20 pb-12">
-        <p className="ep-num text-xs uppercase tracking-[0.22em] mb-6">A study companion · 50 lectures · ~395k words</p>
-        <h1 className="serif text-5xl sm:text-6xl leading-[1.02] tracking-tight text-[var(--ink)]">
-          Awakening <span className="text-[var(--gold)]">Atlas</span>
-        </h1>
-        <p className="serif italic text-xl sm:text-2xl text-[var(--ink-soft)] mt-3 leading-snug">
-          Search, dialogue, and map the ideas in John Vervaeke&rsquo;s lecture series{" "}
-          <span className="whitespace-nowrap">&ldquo;Awakening from the Meaning Crisis.&rdquo;</span>
-        </p>
-
-        <div className="hr-soft my-10" />
-
-        <p className="prose-reader max-w-2xl">
-          This is an educational tool. It indexes the 50 hand-edited transcripts at meaningcrisis.co, extracts the concepts
-          and thinkers Vervaeke discusses, and lets you engage with them in three ways &mdash; through Socratic dialogue,
-          targeted lookup, and a graph of how the ideas connect. The dialogue partner is an AI helper, not Vervaeke, and is
-          designed to ask you questions rather than perform him.
-        </p>
-      </section>
-
-      <section className="max-w-5xl mx-auto px-6 pb-16">
-        <div className="grid sm:grid-cols-3 gap-4 sm:gap-6">
-          {modes.map((m) => (
-            <Link
-              key={m.href}
-              href={m.href}
-              className="group block rounded-xl border border-[var(--border)] bg-[var(--surface)] p-6 hover:border-[var(--accent)] transition-colors"
+    <div className="flex-1 flex relative min-h-[calc(100vh-56px)]">
+      <div className="flex-1 relative">
+        {/* Top-left mode toggle */}
+        <div className="absolute top-4 left-4 z-10 flex items-center gap-2 px-1 py-1 rounded-full border border-[var(--border)] bg-[var(--surface)]/90 backdrop-blur shadow-sm">
+          {(["concepts", "persons"] as GraphMode[]).map((m) => (
+            <button
+              key={m}
+              onClick={() => setMode(m)}
+              className={`px-3 py-1 text-xs rounded-full transition-colors ${
+                mode === m ? "bg-[var(--accent)] text-white" : "text-[var(--ink-soft)] hover:text-[var(--ink)]"
+              }`}
             >
-              <h2 className="serif text-2xl text-[var(--ink)] group-hover:text-[var(--accent)] transition-colors">
-                {m.title}
-              </h2>
-              <p className="text-sm text-[var(--ink-soft)] mt-3 leading-relaxed">{m.blurb}</p>
-              <span className="text-xs mono mt-5 inline-block text-[var(--accent)] group-hover:underline">
-                {m.cta} →
-              </span>
-            </Link>
+              {m === "concepts" ? "Concepts" : "Thinkers"}
+            </button>
           ))}
         </div>
-      </section>
 
-      <section className="max-w-3xl mx-auto px-6 pb-24">
-        <div className="text-sm text-[var(--muted)] space-y-3 leading-relaxed">
-          <p>
-            <strong className="text-[var(--ink-soft)] font-medium">Bring your own key.</strong> Dialogue and Ask use the
-            Anthropic API. Paste your key once on the{" "}
-            <Link href="/settings" className="lnk">
-              Settings page
-            </Link>{" "}
-            &mdash; it stays in your browser and is never sent to this site&rsquo;s server.
-          </p>
-          <p>
-            <strong className="text-[var(--ink-soft)] font-medium">Graph &amp; search work offline.</strong> The corpus is
-            indexed in your browser. No API key needed to browse.
-          </p>
+        {/* Top-right minDegree slider */}
+        <div className="absolute top-4 right-4 z-10 flex items-center gap-2 px-3 py-1.5 rounded-full border border-[var(--border)] bg-[var(--surface)]/90 backdrop-blur shadow-sm">
+          <span className="text-[10px] uppercase tracking-wider text-[var(--muted)]">Min episodes</span>
+          <input
+            type="range"
+            min={1}
+            max={6}
+            value={minDegree}
+            onChange={(e) => setMinDegree(Number(e.target.value))}
+            className="accent-[var(--accent)] w-20"
+          />
+          <span className="mono text-xs text-[var(--ink-soft)] w-3 text-center">{minDegree}</span>
         </div>
-      </section>
+
+        {/* Bottom-left intro/help */}
+        {!selected && graph && (
+          <div className="absolute bottom-5 left-5 z-10 max-w-sm p-4 rounded-lg border border-[var(--border)] bg-[var(--surface)]/95 backdrop-blur shadow-sm pointer-events-none">
+            <p className="serif text-base text-[var(--ink)] leading-tight">
+              The web of ideas in <span className="italic">Awakening from the Meaning Crisis.</span>
+            </p>
+            <p className="text-xs text-[var(--muted)] mt-1.5 leading-snug">
+              Click a node to inspect. Drag to rearrange. Toggle Concepts and Thinkers above.
+            </p>
+          </div>
+        )}
+
+        {graph ? (
+          <GraphCanvas
+            graph={graph}
+            mode={mode}
+            onSelect={setSelected}
+            selectedId={selected?.id ?? null}
+            minDegree={minDegree}
+          />
+        ) : (
+          <div className="absolute inset-0 flex items-center justify-center text-[var(--muted)] text-sm">
+            Loading graph...
+          </div>
+        )}
+      </div>
+
+      {/* Right panel */}
+      <div className={`${selected ? "block" : "hidden"} fixed sm:absolute right-0 top-14 sm:top-0 bottom-0 z-20 w-full sm:w-auto`}>
+        <NodePanel
+          node={selected}
+          concepts={concepts}
+          people={people}
+          episodes={episodes}
+          courses={courses}
+          onClose={() => setSelected(null)}
+          onOpenConversation={(id) => router.push(`/conversation/${id}`)}
+        />
+      </div>
     </div>
   );
 }

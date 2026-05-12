@@ -2,7 +2,7 @@
   "id": "eros",
   "title": "Eros",
   "conceptId": "eros",
-  "abstract": "This course examines eros — the love of becoming one with something — as the first in Vervaeke's trilogy of loves (eros, philia, agape), each with a distinct logic. After completing this course, you will be able to articulate why eros is not reducible to sexual desire but encompasses any orientation toward union or consummation; why eros is satisfied by becoming one with its object rather than by cooperation or creativity; and how Socrates transformed eros into 'ta erotika' — an art of knowing what to care about and how to care about it rightly. Eros is essential to the series arc because it introduces the comparative analysis of love that makes the distinctiveness of agape — and the meaning-making power of different ways of loving — intelligible. Understanding eros also grounds the later discussion of how the erotic drive toward union can be sublimated or misdirected, driving both wisdom and foolishness.",
+  "abstract": "This course examines eros, the love of becoming one with something, as the first in Vervaeke's trilogy of loves (eros, philia, agape), each with a distinct logic. After completing this course, you will be able to articulate why eros is not reducible to sexual desire but encompasses any orientation toward union or consummation; why eros is satisfied by becoming one with its object rather than by cooperation or creativity; and how Socrates transformed eros into 'ta erotika', an art of knowing what to care about and how to care about it rightly. Eros is essential to the series arc because it introduces the comparative analysis of love that makes the distinctiveness of agape, and the meaning-making power of different ways of loving, intelligible. Understanding eros also grounds the later discussion of how the erotic drive toward union can be sublimated or misdirected, driving both wisdom and foolishness.",
   "prerequisites": [],
   "modules": [
     {
@@ -29,7 +29,7 @@
       ],
       "socraticSeeds": [
         {
-          "prompt": "Think about the difference between eating something delicious and working alongside a collaborator on a project. Both could involve care and positive feeling — but what is the fundamental difference in what each seeks?",
+          "prompt": "Think about the difference between eating something delicious and working alongside a collaborator on a project. Both could involve care and positive feeling, but what is the fundamental difference in what each seeks?",
           "expectedThemes": [
             "eating seeks to become one with",
             "collaboration seeks ongoing cooperation",
@@ -45,7 +45,7 @@
           ]
         },
         {
-          "prompt": "Is eros always satisfied when it achieves union — or can you think of cases where the union creates new longing rather than fulfilling it? What does that suggest about the limits of erotic logic?",
+          "prompt": "Is eros always satisfied when it achieves union, or can you think of cases where the union creates new longing rather than fulfilling it? What does that suggest about the limits of erotic logic?",
           "expectedThemes": [
             "some erotic fulfillment triggers new desire",
             "eros may be intrinsically restless",
@@ -64,15 +64,15 @@
       "misconceptionBranches": [
         {
           "misconception": "Eros just means sexual love or physical desire.",
-          "correction": "In Vervaeke's usage, eros is any orientation whose logic is union or consummation — it includes sexual desire but equally applies to the desire to become one with nature, music, or even a delicious meal."
+          "correction": "In Vervaeke's usage, eros is any orientation whose logic is union or consummation, it includes sexual desire but equally applies to the desire to become one with nature, music, or even a delicious meal."
         },
         {
           "misconception": "Eros is the highest or most complete form of love.",
-          "correction": "Vervaeke presents eros, philia, and agape as three loves with distinct logics, none simply reducible to or superior to the others — he later argues that agape has a creative and sacrificial dimension eros lacks."
+          "correction": "Vervaeke presents eros, philia, and agape as three loves with distinct logics, none simply reducible to or superior to the others, he later argues that agape has a creative and sacrificial dimension eros lacks."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "What is the distinctive logic of eros — what does it seek, and what satisfies it — and how does that contrast with philia's logic of cooperation?",
+        "prompt": "What is the distinctive logic of eros, what does it seek, and what satisfies it, and how does that contrast with philia's logic of cooperation?",
         "expectedThemes": [
           "eros seeks union and is satisfied by consummation",
           "philia seeks cooperation and reciprocity",
@@ -84,7 +84,7 @@
       "id": "ta-erotika-socratic",
       "title": "Ta Erotika: Socrates's Craft of Loving Rightly",
       "subConceptId": "ta-erotika-socratic",
-      "learningObjective": "Explain what Socrates meant by mastery of 'ta erotika' — not just sexual knowledge but an art of knowing what to care about and how to direct erotic orientation toward wisdom.",
+      "learningObjective": "Explain what Socrates meant by mastery of 'ta erotika', not just sexual knowledge but an art of knowing what to care about and how to direct erotic orientation toward wisdom.",
       "expositionPassages": [
         {
           "episode": 15,
@@ -94,7 +94,7 @@
       ],
       "socraticSeeds": [
         {
-          "prompt": "Socrates claimed to know only one thing: ta erotika — the erotic things, or the art of love. What might it mean to be a master of 'what to care about' rather than a master of some body of knowledge?",
+          "prompt": "Socrates claimed to know only one thing: ta erotika, the erotic things, or the art of love. What might it mean to be a master of 'what to care about' rather than a master of some body of knowledge?",
           "expectedThemes": [
             "wisdom as orientation not information",
             "knowing what matters vs. knowing facts",
@@ -102,7 +102,7 @@
           ]
         },
         {
-          "prompt": "If eros is the energy of longing and union, what would it mean to direct it poorly — toward things unworthy of it — versus to direct it rightly? Can you think of examples of misdirected eros?",
+          "prompt": "If eros is the energy of longing and union, what would it mean to direct it poorly, toward things unworthy of it, versus to direct it rightly? Can you think of examples of misdirected eros?",
           "expectedThemes": [
             "eros toward trivial or harmful objects",
             "addictive patterns as misdirected eros",
@@ -110,7 +110,7 @@
           ]
         },
         {
-          "prompt": "Plato's Symposium has Socrates reporting Diotima's ladder of beauty — eros can start with a beautiful body and be sublimated upward to beauty itself. What does this suggest about eros's potential as a vehicle for transformation?",
+          "prompt": "Plato's Symposium has Socrates reporting Diotima's ladder of beauty, eros can start with a beautiful body and be sublimated upward to beauty itself. What does this suggest about eros's potential as a vehicle for transformation?",
           "expectedThemes": [
             "eros as anagogic energy",
             "erotic drive can be redirected to larger objects",
@@ -118,7 +118,7 @@
           ]
         },
         {
-          "prompt": "Is 'knowing what to care about' a form of knowledge you could teach in a classroom? If not, what kind of knowing is it — and what practices might cultivate it?",
+          "prompt": "Is 'knowing what to care about' a form of knowledge you could teach in a classroom? If not, what kind of knowing is it, and what practices might cultivate it?",
           "expectedThemes": [
             "perspectival and participatory knowing",
             "requires character formation not just information",
@@ -128,16 +128,16 @@
       ],
       "misconceptionBranches": [
         {
-          "misconception": "Mastery of ta erotika is mastery of seduction — knowing how to attract others.",
-          "correction": "Vervaeke reads Socratic ta erotika as an art of knowing what is genuinely worth caring about and how to orient one's erotic energy toward it — it is fundamentally about wisdom and proper orientation, not seduction."
+          "misconception": "Mastery of ta erotika is mastery of seduction, knowing how to attract others.",
+          "correction": "Vervaeke reads Socratic ta erotika as an art of knowing what is genuinely worth caring about and how to orient one's erotic energy toward it, it is fundamentally about wisdom and proper orientation, not seduction."
         },
         {
-          "misconception": "Eros as a love philosophy is separate from cognitive function — it is purely about feeling and desire.",
-          "correction": "For Vervaeke, eros is inseparable from relevance realization — what one cares about structures what is salient and real; mastery of eros (ta erotika) is therefore mastery of a fundamental cognitive orientation."
+          "misconception": "Eros as a love philosophy is separate from cognitive function, it is purely about feeling and desire.",
+          "correction": "For Vervaeke, eros is inseparable from relevance realization, what one cares about structures what is salient and real; mastery of eros (ta erotika) is therefore mastery of a fundamental cognitive orientation."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "What did Socrates mean by claiming mastery of ta erotika — and why does Vervaeke read this as a claim about wisdom rather than simply about erotic skill?",
+        "prompt": "What did Socrates mean by claiming mastery of ta erotika, and why does Vervaeke read this as a claim about wisdom rather than simply about erotic skill?",
         "expectedThemes": [
           "ta erotika as knowing what to care about",
           "orientation of erotic energy is a form of wisdom",

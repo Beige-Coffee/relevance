@@ -2,7 +2,7 @@
   "id": "the-perennial-problems",
   "title": "The Perennial Problems",
   "conceptId": "the-perennial-problems",
-  "abstract": "Vervaeke argues that alongside the historical drivers of the meaning crisis there is a second leg: the perennial problems. These are cross-cultural, transhistorical vulnerabilities endemic to the very relevance-realization machinery that makes humans adaptively intelligent. The same system that enables insight, learning, and meaning-making can generate parasitic processing, modal confusion, the reflectiveness gap, absurdity, anxiety, and alienation. Every culture has developed ecologies of psycho-technologies — wisdom traditions, religions, philosophical practices — to address these problems. The meaning crisis emerges precisely when historical factors have invalidated those traditions, leaving the perennial problems uncountered. Students will learn to identify each perennial problem, understand how it arises from adaptive machinery, and see why each requires its own targeted counteractive practice.",
+  "abstract": "Vervaeke argues that alongside the historical drivers of the meaning crisis there is a second leg: the perennial problems. These are cross-cultural, transhistorical vulnerabilities endemic to the very relevance-realization machinery that makes humans adaptively intelligent. The same system that enables insight, learning, and meaning-making can generate parasitic processing, modal confusion, the reflectiveness gap, absurdity, anxiety, and alienation. Every culture has developed ecologies of psycho-technologies, wisdom traditions, religions, philosophical practices, to address these problems. The meaning crisis emerges precisely when historical factors have invalidated those traditions, leaving the perennial problems uncountered. Students will learn to identify each perennial problem, understand how it arises from adaptive machinery, and see why each requires its own targeted counteractive practice.",
   "prerequisites": [
     "the-meaning-crisis"
   ],
@@ -11,7 +11,7 @@
       "id": "perennial-problems-overview",
       "title": "Why Problems Are Perennial",
       "subConceptId": "modal-confusion-perennial",
-      "learningObjective": "Explain why the perennial problems are called perennial — arising from the very machinery of relevance realization — and why their solution cannot be achieved through information or willpower alone.",
+      "learningObjective": "Explain why the perennial problems are called perennial, arising from the very machinery of relevance realization, and why their solution cannot be achieved through information or willpower alone.",
       "expositionPassages": [
         {
           "episode": 36,
@@ -28,7 +28,7 @@
       ],
       "socraticSeeds": [
         {
-          "prompt": "If the perennial problems are built into the very machinery that makes us adaptive, does that mean they can never be solved — only managed?",
+          "prompt": "If the perennial problems are built into the very machinery that makes us adaptive, does that mean they can never be solved, only managed?",
           "expectedThemes": [
             "developmental ongoing process not final solution",
             "enlightenment as reliable amelioration not elimination",
@@ -54,7 +54,7 @@
       ],
       "misconceptionBranches": [
         {
-          "misconception": "The perennial problems are moral failings — they happen when people choose badly.",
+          "misconception": "The perennial problems are moral failings, they happen when people choose badly.",
           "correction": "They arise precisely because the machinery that makes us intelligently adaptive can be turned against itself; they are structural vulnerabilities, not moral failures."
         },
         {
@@ -63,7 +63,7 @@
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "In what sense is the Eightfold Path, or any wisdom tradition's central practice, a response to the perennial problems — and why does Vervaeke call such practices 'counteractive dynamical systems' rather than simply 'rules'?",
+        "prompt": "In what sense is the Eightfold Path, or any wisdom tradition's central practice, a response to the perennial problems, and why does Vervaeke call such practices 'counteractive dynamical systems' rather than simply 'rules'?",
         "expectedThemes": [
           "dynamical system counteracts the self-organizing loops of the perennial problems",
           "rules cannot counteract dynamical processes",
@@ -100,7 +100,7 @@
           ]
         },
         {
-          "prompt": "Why does Vervaeke say that mindfulness (sati) specifically addresses modal confusion — what is the connection between paying attention to how you're paying attention and confusing modes?",
+          "prompt": "Why does Vervaeke say that mindfulness (sati) specifically addresses modal confusion, what is the connection between paying attention to how you're paying attention and confusing modes?",
           "expectedThemes": [
             "sati recovers the being-mode",
             "mindfulness makes the mode of engagement visible",
@@ -160,7 +160,7 @@
           ]
         },
         {
-          "prompt": "Vervaeke describes absurdity as the tennis player in the football arena — the agent's actions no longer make sense within the worldview. How is this different from mere confusion or uncertainty?",
+          "prompt": "Vervaeke describes absurdity as the tennis player in the football arena, the agent's actions no longer make sense within the worldview. How is this different from mere confusion or uncertainty?",
           "expectedThemes": [
             "agent-arena decoupling not just cognitive error",
             "existential mode itself is broken",
@@ -179,11 +179,11 @@
       "misconceptionBranches": [
         {
           "misconception": "Absurdity is a philosophical position (like Camus's) that can be adopted or rejected.",
-          "correction": "In Vervaeke's account, absurdity is a phenomenological diagnosis — the lived experience of agent-arena decoupling — not a theory; resolving it requires transframing, not philosophical argument."
+          "correction": "In Vervaeke's account, absurdity is a phenomenological diagnosis, the lived experience of agent-arena decoupling, not a theory; resolving it requires transframing, not philosophical argument."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "How are the reflectiveness gap and absurdity related — could one produce or worsen the other? What does the need for different practices (flow vs Prajna) to address them tell us?",
+        "prompt": "How are the reflectiveness gap and absurdity related, could one produce or worsen the other? What does the need for different practices (flow vs Prajna) to address them tell us?",
         "expectedThemes": [
           "both involve breakdowns of different aspects of self-world relation",
           "distinct mechanisms require distinct countermeasures",
@@ -195,7 +195,7 @@
       "id": "anxiety-and-alienation",
       "title": "Anxiety and Alienation",
       "subConceptId": "anxiety",
-      "learningObjective": "Distinguish existential anxiety (pervasive threat-detection untethered from specific dangers) from ordinary fear, and explain alienation as the breakdown of communitas — and how internalizing the sage and cultivating communitas address them.",
+      "learningObjective": "Distinguish existential anxiety (pervasive threat-detection untethered from specific dangers) from ordinary fear, and explain alienation as the breakdown of communitas, and how internalizing the sage and cultivating communitas address them.",
       "expositionPassages": [
         {
           "episode": 38,
@@ -220,7 +220,7 @@
           ]
         },
         {
-          "prompt": "Alienation is described as the breakdown of communitas — feeling fundamentally separated from others and from shared meaning. How does this connect to the meaning crisis more broadly?",
+          "prompt": "Alienation is described as the breakdown of communitas, feeling fundamentally separated from others and from shared meaning. How does this connect to the meaning crisis more broadly?",
           "expectedThemes": [
             "religio is participatory and relational",
             "communitas is the social form of religio",
@@ -247,7 +247,7 @@
       "misconceptionBranches": [
         {
           "misconception": "Alienation is primarily a sociological or economic problem caused by capitalism or inequality.",
-          "correction": "While social conditions contribute, alienation in Vervaeke's sense is a breakdown in communitas — the participatory binding that grounds shared meaning — which is a perennial vulnerability of the relevance-realization machinery."
+          "correction": "While social conditions contribute, alienation in Vervaeke's sense is a breakdown in communitas, the participatory binding that grounds shared meaning, which is a perennial vulnerability of the relevance-realization machinery."
         },
         {
           "misconception": "Addressing the perennial problems requires choosing one tradition (e.g., Buddhism or Stoicism) and following it exclusively.",
@@ -255,7 +255,7 @@
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "Suppose someone addresses their modal confusion successfully through mindfulness but still experiences profound alienation. Why would the modal confusion solution not automatically resolve the alienation — and what would Vervaeke's framework recommend?",
+        "prompt": "Suppose someone addresses their modal confusion successfully through mindfulness but still experiences profound alienation. Why would the modal confusion solution not automatically resolve the alienation, and what would Vervaeke's framework recommend?",
         "expectedThemes": [
           "perennial problems are distinct with different mechanisms",
           "alienation requires communitas not sati",

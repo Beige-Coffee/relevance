@@ -2,10 +2,10 @@
   "num": 40,
   "slug": "wisdom-and-rationality",
   "title": "Wisdom and Rationality",
-  "essence": "Vervaeke opens the wisdom arc by interrogating what wisdom actually is, drawing on McKee and Barber's claim that wisdom's central feature is seeing through illusion — the systematic detection and overcoming of self-deception. He argues that wisdom is not defined by its content but by its process: it is a how rather than a what, a manner of knowing rather than a set of propositions to possess. This leads to the insight that wisdom is perspectival and participatory in nature, such that claiming to be wise is a pragmatic self-contradiction — the truly wise person cannot sincerely assert their own wisdom from the outside. Vervaeke then raises the rationality debate: citing Lew Cohen's argument that systematic errors in reasoning are performance rather than competence failures. If people are competent but err through performance limitations, the apparent irrationality of ordinary cognition does not threaten their fundamental rationality. This sets up the distinction between expertise in a domain and general rationality — and why wisdom, which addresses the deepest self-deceptions, cannot be reduced to expertise. The episode frames the arc ahead: a multi-episode investigation of the cognitive science of wisdom.",
+  "essence": "Vervaeke opens the wisdom arc by interrogating what wisdom actually is, drawing on McKee and Barber's claim that wisdom's central feature is seeing through illusion, the systematic detection and overcoming of self-deception. He argues that wisdom is not defined by its content but by its process: it is a how rather than a what, a manner of knowing rather than a set of propositions to possess. This leads to the insight that wisdom is perspectival and participatory in nature, such that claiming to be wise is a pragmatic self-contradiction, the truly wise person cannot sincerely assert their own wisdom from the outside. Vervaeke then raises the rationality debate: citing Lew Cohen's argument that systematic errors in reasoning are performance rather than competence failures. If people are competent but err through performance limitations, the apparent irrationality of ordinary cognition does not threaten their fundamental rationality. This sets up the distinction between expertise in a domain and general rationality, and why wisdom, which addresses the deepest self-deceptions, cannot be reduced to expertise. The episode frames the arc ahead: a multi-episode investigation of the cognitive science of wisdom.",
   "keyClaims": [
     "Wisdom's central feature is the systematic ability to see through illusion and overcome self-deception, not any particular content of knowledge.",
-    "Wisdom is a how rather than a what — a process of knowing rather than propositions held, making it inherently perspectival and participatory.",
+    "Wisdom is a how rather than a what, a process of knowing rather than propositions held, making it inherently perspectival and participatory.",
     "The pragmatic self-contradiction of asserting 'I am wise' demonstrates that wisdom involves a reflexive self-transcendence beyond propositional knowing.",
     "Cohen's competence/performance distinction raises the question of whether systematic reasoning errors are genuine irrationality or situational performance failures.",
     "Expertise in a domain and rationality in the deep sense are categorically different; wisdom requires the latter and cannot be reduced to the former."
@@ -24,7 +24,7 @@
     {
       "id": "perspectival-knowing",
       "treatment": "applied",
-      "summary": "Wisdom's irreducibility to propositions is explained by its fundamentally perspectival character — it is a way of seeing rather than a thing seen."
+      "summary": "Wisdom's irreducibility to propositions is explained by its fundamentally perspectival character, it is a way of seeing rather than a thing seen."
     },
     {
       "id": "participatory-knowing",
@@ -34,12 +34,12 @@
     {
       "id": "transframing",
       "treatment": "applied",
-      "summary": "Wisdom's insight capacity — seeing through frames to more encompassing ones — is tied to the transframing machinery developed earlier in the series."
+      "summary": "Wisdom's insight capacity, seeing through frames to more encompassing ones, is tied to the transframing machinery developed earlier in the series."
     },
     {
       "id": "rationality",
       "treatment": "introduced",
-      "summary": "Introduced as the arena of debate: Vervaeke's broad definition — any systematically reliable internalized psychotechnology for overcoming self-deception — is contrasted with logic-management conceptions."
+      "summary": "Introduced as the arena of debate: Vervaeke's broad definition, any systematically reliable internalized psychotechnology for overcoming self-deception, is contrasted with logic-management conceptions."
     },
     {
       "id": "foolishness",

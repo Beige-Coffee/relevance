@@ -2,25 +2,25 @@
   "num": 22,
   "slug": "descartes-vs-hobbes",
   "title": "Descartes vs. Hobbes",
-  "essence": "Episode 22 stages the defining philosophical confrontation of early modernity: Descartes versus Hobbes on the nature of mind. Hobbes proposes that cognition is computation—the mechanical manipulation of symbols by the laws of association—and that this means an artificial thinking machine is in principle possible. Descartes rejects this using the very terms of scientific materialism that Hobbes deploys: if matter is inert, purposeless, and meaningless (as the new science insists), then no material system can generate genuine reasoning, qualia, or intentionality. His arguments center on primary versus secondary qualities—the objective mathematical skeleton of things versus the subjective richness of experience—and culminate in the cogito (the one certainty survives doubt) and the problem of other minds. But Descartes's victory is pyrrhic: solving the AI problem by positing a separate thinking substance creates a worse problem—mind-body dualism traps the self in radical disconnection from body, world, and other persons. Pascal diagnoses this entire tradition with his distinction between the spirit of geometry (propositional, inferential) and the spirit of finesse (perspectival, participatory), naming what modernity has lost: the very kinds of knowing that afford existential transformation and genuine self-transcendence.",
+  "essence": "Episode 22 stages the defining philosophical confrontation of early modernity: Descartes versus Hobbes on the nature of mind. Hobbes proposes that cognition is computation, the mechanical manipulation of symbols by the laws of association, and that this means an artificial thinking machine is in principle possible. Descartes rejects this using the very terms of scientific materialism that Hobbes deploys: if matter is inert, purposeless, and meaningless (as the new science insists), then no material system can generate genuine reasoning, qualia, or intentionality. His arguments center on primary versus secondary qualities, the objective mathematical skeleton of things versus the subjective richness of experience, and culminate in the cogito (the one certainty survives doubt) and the problem of other minds. But Descartes's victory is pyrrhic: solving the AI problem by positing a separate thinking substance creates a worse problem, mind-body dualism traps the self in radical disconnection from body, world, and other persons. Pascal diagnoses this entire tradition with his distinction between the spirit of geometry (propositional, inferential) and the spirit of finesse (perspectival, participatory), naming what modernity has lost: the very kinds of knowing that afford existential transformation and genuine self-transcendence.",
   "keyClaims": [
-    "Hobbes's claim that cognition is computation—the manipulation of symbols by mechanical laws—is the founding thesis of what becomes artificial intelligence and modern cognitive science.",
+    "Hobbes's claim that cognition is computation, the manipulation of symbols by mechanical laws, is the founding thesis of what becomes artificial intelligence and modern cognitive science.",
     "Descartes rebuts Hobbes by pointing out that if matter is inert and purposeless (as scientific materialism insists), no material mechanism can produce genuine reasoning or intentional states.",
     "The primary/secondary quality distinction forces Descartes to locate qualia and intentionality in an immaterial mind, generating the mind-body problem as a structural consequence of modern physics.",
-    "The cogito—'I think therefore I am'—establishes the thinking self as the one indestructible certainty, but in doing so isolates the self from body, world, and other minds.",
+    "The cogito,'I think therefore I am', establishes the thinking self as the one indestructible certainty, but in doing so isolates the self from body, world, and other minds.",
     "The problem of other minds follows directly from Cartesian dualism: I cannot know that other bodies house minds like mine, since minds are by definition imperceptible.",
-    "Pascal's spirit of geometry versus spirit of finesse diagnoses what modernity loses: the participatory, perspectival knowing that grasps wholes through caring engagement—the very kind needed for transformation."
+    "Pascal's spirit of geometry versus spirit of finesse diagnoses what modernity loses: the participatory, perspectival knowing that grasps wholes through caring engagement, the very kind needed for transformation."
   ],
   "concepts": [
     {
       "id": "the-spirit-of-finesse",
       "treatment": "introduced",
-      "summary": "Pascal's esprit de finesse—the perspectival, participatory knowing that grasps a situation as a whole—is introduced as the precise diagnosis of what Cartesian method destroys and what is needed for genuine self-transcendence."
+      "summary": "Pascal's esprit de finesse, the perspectival, participatory knowing that grasps a situation as a whole, is introduced as the precise diagnosis of what Cartesian method destroys and what is needed for genuine self-transcendence."
     },
     {
       "id": "the-four-kinds-of-knowing",
       "treatment": "developed",
-      "summary": "The Descartes-Hobbes debate is analyzed as a systematic privileging of propositional knowing over the other three kinds—Cartesian method and Hobbesian computation both flatten knowing into symbolic manipulation."
+      "summary": "The Descartes-Hobbes debate is analyzed as a systematic privileging of propositional knowing over the other three kinds, Cartesian method and Hobbesian computation both flatten knowing into symbolic manipulation."
     },
     {
       "id": "two-worlds-mythology",
@@ -35,12 +35,12 @@
     {
       "id": "self-deception",
       "treatment": "applied",
-      "summary": "Descartes's method of systematic doubt is his psycho-technology for eliminating self-deception, but his solution (the cogito) trades one form of epistemic peril for an existential one—radical isolation."
+      "summary": "Descartes's method of systematic doubt is his psycho-technology for eliminating self-deception, but his solution (the cogito) trades one form of epistemic peril for an existential one, radical isolation."
     },
     {
       "id": "consciousness",
       "treatment": "developed",
-      "summary": "The problem of qualia—why secondary qualities feel the way they do—becomes the central puzzle of consciousness in the Cartesian framework, and Vervaeke traces how this sets up the hard problem of consciousness."
+      "summary": "The problem of qualia, why secondary qualities feel the way they do, becomes the central puzzle of consciousness in the Cartesian framework, and Vervaeke traces how this sets up the hard problem of consciousness."
     }
   ],
   "people": [
@@ -52,12 +52,12 @@
     {
       "id": "pascal",
       "role": "subject",
-      "summary": "Pascal's diagnosis—spirit of geometry versus spirit of finesse—is introduced as the clearest articulation of what modernity loses by reducing knowing to propositional certainty."
+      "summary": "Pascal's diagnosis, spirit of geometry versus spirit of finesse, is introduced as the clearest articulation of what modernity loses by reducing knowing to propositional certainty."
     },
     {
       "id": "aristotle",
       "role": "referenced",
-      "summary": "Aristotle's conformity theory of knowing—where mind takes on the form of what it knows—is the implicit foil for Cartesian dualism, which makes such participatory contact impossible."
+      "summary": "Aristotle's conformity theory of knowing, where mind takes on the form of what it knows, is the implicit foil for Cartesian dualism, which makes such participatory contact impossible."
     }
   ],
   "crossRefs": [
@@ -71,13 +71,13 @@
     },
     {
       "episode": 29,
-      "context": "The frame problem and the inadequacy of purely computational accounts of relevance realization echo Descartes's own rebuttal of Hobbes—computation alone cannot generate genuine intelligence."
+      "context": "The frame problem and the inadequacy of purely computational accounts of relevance realization echo Descartes's own rebuttal of Hobbes, computation alone cannot generate genuine intelligence."
     }
   ],
   "quotableMoments": [
     {
       "quote": "And so Pascal is pointing out that what has been lost in the scientific revolution is all these other kinds of knowing and being, and these are the kinds of knowing and being that he found present in the transformative experience that he had.",
-      "context": "Pascal's night of fire—his personal transformative experience—is the biographical ground for his philosophical diagnosis of the spirit of finesse's absence from Cartesian modernity."
+      "context": "Pascal's night of fire, his personal transformative experience, is the biographical ground for his philosophical diagnosis of the spirit of finesse's absence from Cartesian modernity."
     }
   ]
 }

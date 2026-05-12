@@ -2,14 +2,14 @@
   "num": 26,
   "slug": "cognitive-science",
   "title": "Cognitive Science",
-  "essence": "Episode 26 introduces cognitive science as the discipline Vervaeke has been preparing throughout the historical analysis—the tool that may provide anti-self-deception machinery without supernatural commitment. Cognitive science is defined not as a single discipline but as a synoptic integration: the coordinated bringing-together of psychology, neuroscience, linguistics, anthropology, philosophy, and computer science to address the equivocation, fragmentation, and ignorance about the mind that prevent rigorous inquiry into meaning and transformation. The episode develops the logic of plausibility constructs: since certainty is unavailable for claims about consciousness and meaning, we must instead pursue convergence (many independent lines of evidence pointing to the same conclusion—giving trustworthiness) and multi-aptness or elegance (a single construct illuminating many disparate phenomena—giving profundity and depth). The distinction between deepities and motte-and-bailey fallacies is developed as a diagnostics of pseudo-profound bullshitting. Meaning is carefully distinguished as three separate projects: meaning-making (interpreting experience), meaning-finding (discovering meaning that is already there), and meaning-cultivation (developing the capacity to engage meaningfully). Intelligence is introduced as the capacity for general problem-solving, and Newell and Simon's problem space model—initial state, goal state, operators, and path constraints—provides the first rigorous framework for understanding what intelligence does.",
+  "essence": "Episode 26 introduces cognitive science as the discipline Vervaeke has been preparing throughout the historical analysis, the tool that may provide anti-self-deception machinery without supernatural commitment. Cognitive science is defined not as a single discipline but as a synoptic integration: the coordinated bringing-together of psychology, neuroscience, linguistics, anthropology, philosophy, and computer science to address the equivocation, fragmentation, and ignorance about the mind that prevent rigorous inquiry into meaning and transformation. The episode develops the logic of plausibility constructs: since certainty is unavailable for claims about consciousness and meaning, we must instead pursue convergence (many independent lines of evidence pointing to the same conclusion, giving trustworthiness) and multi-aptness or elegance (a single construct illuminating many disparate phenomena, giving profundity and depth). The distinction between deepities and motte-and-bailey fallacies is developed as a diagnostics of pseudo-profound bullshitting. Meaning is carefully distinguished as three separate projects: meaning-making (interpreting experience), meaning-finding (discovering meaning that is already there), and meaning-cultivation (developing the capacity to engage meaningfully). Intelligence is introduced as the capacity for general problem-solving, and Newell and Simon's problem space model, initial state, goal state, operators, and path constraints, provides the first rigorous framework for understanding what intelligence does.",
   "keyClaims": [
     "Cognitive science is a synoptic integration of multiple disciplines addressing equivocation (failure to define terms consistently), fragmentation (disciplines not talking to each other), and ignorance (genuine scientific uncertainty about mind and meaning).",
-    "Plausibility constructs replace certainty as the standard for cognitive-scientific claims: convergence provides trustworthiness, and multi-aptness or elegance provides profundity—a claim is profound when it illuminates many disparate phenomena from one insight.",
-    "Deepities are statements that are trivially true on one reading and profound on another but slide between the two—a form of bullshitting that mimics insight; motte-and-bailey is the related move of defending a radical claim by retreating to an obvious one.",
+    "Plausibility constructs replace certainty as the standard for cognitive-scientific claims: convergence provides trustworthiness, and multi-aptness or elegance provides profundity, a claim is profound when it illuminates many disparate phenomena from one insight.",
+    "Deepities are statements that are trivially true on one reading and profound on another but slide between the two, a form of bullshitting that mimics insight; motte-and-bailey is the related move of defending a radical claim by retreating to an obvious one.",
     "Meaning must be distinguished as three projects: meaning-making (interpreting experience as coherent), meaning-finding (the discovery of significance that exists independently), and meaning-cultivation (developing the capacity for meaningful engagement).",
     "Intelligence is the capacity for general problem-solving, and Newell and Simon's problem space model provides the first rigorous cognitive-scientific account of what intelligence does: navigate from initial state to goal state via operators within constraints.",
-    "The Naturalistic Imperative—explain the mind in non-mental terms, avoiding the Homuncular Fallacy—is the methodological discipline that makes cognitive science scientifically legitimate."
+    "The Naturalistic Imperative, explain the mind in non-mental terms, avoiding the Homuncular Fallacy, is the methodological discipline that makes cognitive science scientifically legitimate."
   ],
   "concepts": [
     {
@@ -20,12 +20,12 @@
     {
       "id": "relevance-realization",
       "treatment": "introduced",
-      "summary": "Newell and Simon's problem space model reveals the centrality of relevance realization: the combinatorial explosion of possible states means the agent must somehow zero in on relevant information—a problem no algorithm can fully solve."
+      "summary": "Newell and Simon's problem space model reveals the centrality of relevance realization: the combinatorial explosion of possible states means the agent must somehow zero in on relevant information, a problem no algorithm can fully solve."
     },
     {
       "id": "wisdom",
       "treatment": "referenced",
-      "summary": "Meaning-cultivation is distinguished from mere meaning-making and meaning-finding: it points toward wisdom as the systematic development of the capacity for meaningful engagement—not a single insight but a cultivated disposition."
+      "summary": "Meaning-cultivation is distinguished from mere meaning-making and meaning-finding: it points toward wisdom as the systematic development of the capacity for meaningful engagement, not a single insight but a cultivated disposition."
     },
     {
       "id": "self-deception",
@@ -35,19 +35,19 @@
     {
       "id": "psycho-technology",
       "treatment": "developed",
-      "summary": "Cognitive science is itself a psycho-technology—an institutionalized set of practices for rigorous inquiry—and its subject matter includes the identification and evaluation of psycho-technologies for wisdom cultivation."
+      "summary": "Cognitive science is itself a psycho-technology, an institutionalized set of practices for rigorous inquiry, and its subject matter includes the identification and evaluation of psycho-technologies for wisdom cultivation."
     },
     {
       "id": "insight",
       "treatment": "referenced",
-      "summary": "The problem space model leads directly to the problem of insight: since no algorithm can navigate the combinatorial explosion, insight—the capacity to reframe problems—becomes central to any adequate theory of intelligence."
+      "summary": "The problem space model leads directly to the problem of insight: since no algorithm can navigate the combinatorial explosion, insight, the capacity to reframe problems, becomes central to any adequate theory of intelligence."
     }
   ],
   "people": [
     {
       "id": "stanovich",
       "role": "referenced",
-      "summary": "Stanovich's work on rationality and cognitive bias informs the discussion of how even scientists fall prey to heuristic self-deception—illustrating why the Naturalistic Imperative and convergence criteria are necessary."
+      "summary": "Stanovich's work on rationality and cognitive bias informs the discussion of how even scientists fall prey to heuristic self-deception, illustrating why the Naturalistic Imperative and convergence criteria are necessary."
     },
     {
       "id": "socrates",

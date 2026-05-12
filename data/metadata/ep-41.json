@@ -2,12 +2,12 @@
   "num": 41,
   "slug": "what-is-rationality",
   "title": "What is Rationality?",
-  "essence": "Vervaeke deepens the rationality debate by examining Stanovich and West's response to Cohen. They argue that systematic errors do not merely reflect performance failures but reveal important truths about the nature of competence: competence is not single, not static, and not individual. This leads to an analysis of dual processing theory — the distinction between fast, automatic System 1 and slow, deliberate System 2 — and what it reveals about the layered structure of human cognition. Vervaeke introduces Christopher Cherniak's finitary predicament: any finite reasoner, no matter how rational, faces computational limits that make exhaustive logical consistency checking impossible. This grounds the necessity of relevance realization as the practical engine of rationality. He then examines Smedslund's argument that normative standards in reasoning are not external impositions but are already built into the construal of the problem — rationality is internally constituted. The episode concludes with Baron's notion of active open-mindedness as a key disposition of the rational agent: willingness to seek disconfirming evidence and revise beliefs in response to it.",
+  "essence": "Vervaeke deepens the rationality debate by examining Stanovich and West's response to Cohen. They argue that systematic errors do not merely reflect performance failures but reveal important truths about the nature of competence: competence is not single, not static, and not individual. This leads to an analysis of dual processing theory, the distinction between fast, automatic System 1 and slow, deliberate System 2, and what it reveals about the layered structure of human cognition. Vervaeke introduces Christopher Cherniak's finitary predicament: any finite reasoner, no matter how rational, faces computational limits that make exhaustive logical consistency checking impossible. This grounds the necessity of relevance realization as the practical engine of rationality. He then examines Smedslund's argument that normative standards in reasoning are not external impositions but are already built into the construal of the problem, rationality is internally constituted. The episode concludes with Baron's notion of active open-mindedness as a key disposition of the rational agent: willingness to seek disconfirming evidence and revise beliefs in response to it.",
   "keyClaims": [
-    "Competence in reasoning is not single, static, or individual — Stanovich and West show that apparent irrationality often reflects dual-competence conflicts rather than simple error.",
+    "Competence in reasoning is not single, static, or individual, Stanovich and West show that apparent irrationality often reflects dual-competence conflicts rather than simple error.",
     "The finitary predicament means no finite reasoner can check all logical implications; relevance realization is therefore not optional but constitutive of rationality.",
-    "Normative standards in reasoning are not externally imposed but are already constituted in the construal of the problem — rationality cannot be separated from relevance.",
-    "Active open-mindedness — the disposition to seek disconfirming evidence and revise beliefs — is a core feature of rationality, not merely a supplement to logic.",
+    "Normative standards in reasoning are not externally imposed but are already constituted in the construal of the problem, rationality cannot be separated from relevance.",
+    "Active open-mindedness, the disposition to seek disconfirming evidence and revise beliefs, is a core feature of rationality, not merely a supplement to logic.",
     "The dual processing distinction between System 1 and System 2 reveals that rationality is not a single cognitive capacity but a coordination across multiple levels of processing."
   ],
   "concepts": [
@@ -19,7 +19,7 @@
     {
       "id": "relevance-realization",
       "treatment": "developed",
-      "summary": "The finitary predicament establishes relevance realization as constitutively necessary for any finite reasoner — logic cannot bootstrap itself from irrelevant inputs."
+      "summary": "The finitary predicament establishes relevance realization as constitutively necessary for any finite reasoner, logic cannot bootstrap itself from irrelevant inputs."
     },
     {
       "id": "self-deception",
@@ -39,7 +39,7 @@
     {
       "id": "4e-cognition",
       "treatment": "applied",
-      "summary": "The embodied, embedded character of competence — not individual, not static — aligns with 4E cognitive science's picture of cognition as organism-environment coupling."
+      "summary": "The embodied, embedded character of competence, not individual, not static, aligns with 4E cognitive science's picture of cognition as organism-environment coupling."
     }
   ],
   "people": [

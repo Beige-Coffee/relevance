@@ -2,12 +2,12 @@
   "num": 49,
   "slug": "corbin-and-jung",
   "title": "Corbin and Jung",
-  "essence": "Vervaeke uses Callard's aspiration account to deepen the analysis of the divine double before pivoting to Jung. The S1-to-S2 aspiration involves a fundamental paradox: S1 causally produces S2 but is normatively dependent on S2 — the first self causes the second but only the second justifies the first. Galen Strawson's paradox of self-creation is introduced to sharpen this: genuine self-creation requires both continuity (same self) and novelty (genuinely new), yet these requirements are incompatible. Callard's resolution is that S1 does not make nor receive S2 but participates in S2's emergence — a non-logical identity that narrative practice trains us to tolerate. The divine double is reinterpreted in this light as an imaginal symbol enabling the dynamic coupling of anagoge: it shines the greater frame into the current frame while drawing one out into indwelling that frame. Vervaeke renames the divine double the sacred second self to separate the concept from theism. This transition leads to Jung, whose notion of individuation is introduced as the psychological account of the sacred second self process. Jung's model of the psyche as a self-organizing autopoietic system — contrasted with Freud's hydraulic model — grounds the archetypes as imaginal virtual engines of self-organization rather than static images. Vervaeke's key criticism of Jung follows Corbin and Buber: Jung reduces the imaginal to the merely intra-psychic, losing the transjective world-disclosing dimension. Jung, in turn, supplies what Corbin lacks: a detailed psychology of the internalization process.",
+  "essence": "Vervaeke uses Callard's aspiration account to deepen the analysis of the divine double before pivoting to Jung. The S1-to-S2 aspiration involves a fundamental paradox: S1 causally produces S2 but is normatively dependent on S2, the first self causes the second but only the second justifies the first. Galen Strawson's paradox of self-creation is introduced to sharpen this: genuine self-creation requires both continuity (same self) and novelty (genuinely new), yet these requirements are incompatible. Callard's resolution is that S1 does not make nor receive S2 but participates in S2's emergence, a non-logical identity that narrative practice trains us to tolerate. The divine double is reinterpreted in this light as an imaginal symbol enabling the dynamic coupling of anagoge: it shines the greater frame into the current frame while drawing one out into indwelling that frame. Vervaeke renames the divine double the sacred second self to separate the concept from theism. This transition leads to Jung, whose notion of individuation is introduced as the psychological account of the sacred second self process. Jung's model of the psyche as a self-organizing autopoietic system, contrasted with Freud's hydraulic model, grounds the archetypes as imaginal virtual engines of self-organization rather than static images. Vervaeke's key criticism of Jung follows Corbin and Buber: Jung reduces the imaginal to the merely intra-psychic, losing the transjective world-disclosing dimension. Jung, in turn, supplies what Corbin lacks: a detailed psychology of the internalization process.",
   "keyClaims": [
-    "In aspiration, S1 is temporally prior but normatively secondary to S2: the first self causes the second, but only the second justifies and explains the first — an irreducible normative reversal.",
-    "Strawson's paradox of self-creation is resolved by Callard's notion that S1 participates in S2's emergence rather than making or receiving it — a non-logical identity that resists both empiricist and romantic reductions.",
+    "In aspiration, S1 is temporally prior but normatively secondary to S2: the first self causes the second, but only the second justifies and explains the first, an irreducible normative reversal.",
+    "Strawson's paradox of self-creation is resolved by Callard's notion that S1 participates in S2's emergence rather than making or receiving it, a non-logical identity that resists both empiricist and romantic reductions.",
     "The divine double, renamed the sacred second self to separate it from theism, is the imaginal symbol that enables anagogic dynamic coupling between the current frame and the more encompassing one.",
-    "Jung's archetypes are imaginal virtual engines of psychic self-organization — not static images to possess but ongoing structural processes that reorganize salience and participatory being.",
+    "Jung's archetypes are imaginal virtual engines of psychic self-organization, not static images to possess but ongoing structural processes that reorganize salience and participatory being.",
     "Jung's main weakness is his Kantian intra-psychic reduction of the imaginal: he loses the transjective world-disclosure that Corbin preserves, while he gains a detailed psychology that Corbin lacks."
   ],
   "concepts": [
@@ -29,12 +29,12 @@
     {
       "id": "the-imaginal",
       "treatment": "developed",
-      "summary": "The sacred second self is an imaginal symbol — it integrates abstract aspiration with concrete present action in an ongoing transformative transframing that is neither purely subjective nor objective."
+      "summary": "The sacred second self is an imaginal symbol, it integrates abstract aspiration with concrete present action in an ongoing transformative transframing that is neither purely subjective nor objective."
     },
     {
       "id": "gnosis",
       "treatment": "applied",
-      "summary": "The sacred second self enables conformity — the dynamic coupling of anagoge — that is Corbin's gnosis: self-knowledge and world-knowledge coupled together in transformative participatory knowing."
+      "summary": "The sacred second self enables conformity, the dynamic coupling of anagoge, that is Corbin's gnosis: self-knowledge and world-knowledge coupled together in transformative participatory knowing."
     },
     {
       "id": "self-transcendence",
@@ -44,7 +44,7 @@
     {
       "id": "having-mode-being-mode",
       "treatment": "applied",
-      "summary": "The Rousseauan romantic grammar — I have my true self and must be true to it — is an expression of the having mode; the sacred second self is about becoming, not possessing."
+      "summary": "The Rousseauan romantic grammar, I have my true self and must be true to it, is an expression of the having mode; the sacred second self is about becoming, not possessing."
     },
     {
       "id": "participatory-knowing",
@@ -66,12 +66,12 @@
     {
       "id": "corbin",
       "role": "discussed",
-      "summary": "His critique of Jung — that Jung reduces the imaginal to the imaginary by keeping it intra-psychic — is central; Corbin and Jung are compared and integrated."
+      "summary": "His critique of Jung, that Jung reduces the imaginal to the imaginary by keeping it intra-psychic, is central; Corbin and Jung are compared and integrated."
     },
     {
       "id": "buber",
       "role": "discussed",
-      "summary": "His criticism of Jung — that Jung cannot account for the existential modes (having/being) because he lacks a transjective framework — is cited as independently corroborating Corbin's critique."
+      "summary": "His criticism of Jung, that Jung cannot account for the existential modes (having/being) because he lacks a transjective framework, is cited as independently corroborating Corbin's critique."
     },
     {
       "id": "freud",
@@ -86,7 +86,7 @@
     {
       "id": "la-paul",
       "role": "referenced",
-      "summary": "Her contrast with Callard — insight vs. developmental aspiration — is noted; Vervaeke argues both can be reconciled by seeing development as a sequence of insights."
+      "summary": "Her contrast with Callard, insight vs. developmental aspiration, is noted; Vervaeke argues both can be reconciled by seeing development as a sequence of insights."
     },
     {
       "id": "anderson-todd",

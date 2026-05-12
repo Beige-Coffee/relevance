@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { useSettings } from "@/lib/store";
 import { retrieve, type RetrievalResult } from "@/lib/retrieve";
-import { makeClient } from "@/lib/anthropic";
+import { makeClientForProvider } from "@/lib/anthropic";
 import { streamText } from "@/lib/stream";
 import { ASK_SYSTEM_PROMPT, buildContextBlock } from "@/lib/prompts";
 import { PassageCard } from "@/components/passage-card";
@@ -19,7 +19,7 @@ interface AnswerState {
 }
 
 export default function AskPage() {
-  const { apiKey, model } = useSettings();
+  const { provider, activeKey, activeModel } = useSettings();
   const [query, setQuery] = useState("");
   const [state, setState] = useState<AnswerState | null>(null);
 
@@ -39,19 +39,20 @@ export default function AskPage() {
     }
     setState({ ...next, results });
 
-    if (!apiKey) {
-      setState({ ...next, results, streaming: false, error: "Add an Anthropic API key in Settings to synthesize an answer." });
+    const key = activeKey();
+    if (!key) {
+      setState({ ...next, results, streaming: false, error: "Add an API key on the Settings page to synthesize an answer." });
       return;
     }
 
     try {
-      const client = makeClient(apiKey);
+      const client = makeClientForProvider(provider, key);
       const context = buildContextBlock(results.map((r) => ({ episode: r.passage.episode, text: r.passage.text })));
       const userMsg = `Question: ${q}\n\n${context}\n\nAnswer the question above using the passages. Cite episodes inline using (Episode N) form.`;
       let buf = "";
       await streamText({
         client,
-        model,
+        model: activeModel(),
         system: ASK_SYSTEM_PROMPT,
         messages: [{ role: "user", content: userMsg }],
         onDelta: (d) => {
@@ -120,7 +121,7 @@ export default function AskPage() {
           {state.results.length > 0 && (
             <section>
               <h2 className="serif text-2xl text-[var(--ink)] mb-3">
-                Sources <span className="text-sm text-[var(--muted)] font-normal">— {state.results.length} passages</span>
+                Sources <span className="text-sm text-[var(--muted)] font-normal">, {state.results.length} passages</span>
               </h2>
               <div className="space-y-3">
                 {state.results.map((r) => (

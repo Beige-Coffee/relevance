@@ -2,7 +2,7 @@
   "id": "procedural-knowing",
   "title": "Procedural Knowing",
   "conceptId": "procedural-knowing",
-  "abstract": "After this course, students will be able to explain what procedural knowing is — the knowing instantiated in skills, powered by implicit learning, irreducible to propositional description — and why it occupies a crucial middle position in the four-kinds-of-knowing hierarchy. Students will understand why no amount of propositional instruction can teach one to ride a bicycle, and what that reveals about the structure of competence and expertise. They will also understand why procedural knowing depends on perspectival knowing: executing a skill well requires knowing what it is like to be in this situation. This concept is directly relevant to the series' argument that wisdom is not a set of beliefs but a cultivated capacity — and to why transformative practices (meditation, philosophical dialogue, virtue ethics) cannot be replaced by information.",
+  "abstract": "After this course, students will be able to explain what procedural knowing is, the knowing instantiated in skills, powered by implicit learning, irreducible to propositional description, and why it occupies a crucial middle position in the four-kinds-of-knowing hierarchy. Students will understand why no amount of propositional instruction can teach one to ride a bicycle, and what that reveals about the structure of competence and expertise. They will also understand why procedural knowing depends on perspectival knowing: executing a skill well requires knowing what it is like to be in this situation. This concept is directly relevant to the series' argument that wisdom is not a set of beliefs but a cultivated capacity, and to why transformative practices (meditation, philosophical dialogue, virtue ethics) cannot be replaced by information.",
   "prerequisites": [],
   "modules": [
     {
@@ -14,12 +14,12 @@
         {
           "episode": 1,
           "phrase": "There's the kind of knowing that's involved in knowing how to catch a baseball.",
-          "note": "First introduction in the series — the paradigm case of procedural knowing."
+          "note": "First introduction in the series, the paradigm case of procedural knowing."
         },
         {
           "episode": 2,
           "phrase": "This has to do with your capacity for implicit learning.",
-          "note": "The cognitive mechanism underlying procedural knowing — non-conscious uptake of complex statistical patterns."
+          "note": "The cognitive mechanism underlying procedural knowing, non-conscious uptake of complex statistical patterns."
         }
       ],
       "socraticSeeds": [
@@ -58,16 +58,16 @@
       ],
       "misconceptionBranches": [
         {
-          "misconception": "Procedural knowing is mere muscle memory or automatic reflex — a lower, animal kind of knowing.",
-          "correction": "Vervaeke is clear that procedural knowing is not mere reflex. It involves a complex coordination of implicit learning, situational awareness, and skill application — it is richer than propositional knowledge in important ways and the foundation on which much propositional knowing depends."
+          "misconception": "Procedural knowing is mere muscle memory or automatic reflex, a lower, animal kind of knowing.",
+          "correction": "Vervaeke is clear that procedural knowing is not mere reflex. It involves a complex coordination of implicit learning, situational awareness, and skill application, it is richer than propositional knowledge in important ways and the foundation on which much propositional knowing depends."
         },
         {
           "misconception": "Knowing that you should do something is the same as knowing how to do it.",
-          "correction": "This is precisely Aristotle's point about akrasia — you can know propositionally what you should do and still fail because you lack the procedural knowing (the cultivated character and skill) to enact it. Knowing-how and knowing-that are genuinely different kinds."
+          "correction": "This is precisely Aristotle's point about akrasia, you can know propositionally what you should do and still fail because you lack the procedural knowing (the cultivated character and skill) to enact it. Knowing-how and knowing-that are genuinely different kinds."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "A student reads every book on mindfulness practice and can accurately describe the phenomenology of sitting meditation, the theory of attention, and the research supporting it — yet finds that when they try to sit, their attention scatters and nothing like the described state arises. What does Vervaeke's account of procedural knowing tell us about what this student lacks, and what they need?",
+        "prompt": "A student reads every book on mindfulness practice and can accurately describe the phenomenology of sitting meditation, the theory of attention, and the research supporting it, yet finds that when they try to sit, their attention scatters and nothing like the described state arises. What does Vervaeke's account of procedural knowing tell us about what this student lacks, and what they need?",
         "expectedThemes": [
           "propositional knowledge of skill is not the skill",
           "implicit learning must operate through practice",
@@ -79,22 +79,22 @@
       "id": "procedural-knowing-depends-on-perspectival",
       "title": "Procedural Knowing Depends on Perspectival Knowing",
       "subConceptId": "procedural-knowing-depends-on-perspectival",
-      "learningObjective": "Explain why effective skill application requires situational awareness — perspectival knowing — and how this dependency reveals the hierarchy of the four kinds of knowing.",
+      "learningObjective": "Explain why effective skill application requires situational awareness, perspectival knowing, and how this dependency reveals the hierarchy of the four kinds of knowing.",
       "expositionPassages": [
         {
           "episode": 43,
           "phrase": "your propositional knowing has to be grounded in your procedural abilities, which have to be grounded in your perspectival, which has to be grounded ultimately in your participatory.",
-          "note": "Explicit statement of the full dependency hierarchy — procedural depends on perspectival which depends on participatory."
+          "note": "Explicit statement of the full dependency hierarchy, procedural depends on perspectival which depends on participatory."
         },
         {
           "episode": 36,
           "phrase": "It's at the level of procedural and ultimately perspectival and participatory knowing.",
-          "note": "Shorthand for where transformative practices operate — not at the propositional tip of the hierarchy."
+          "note": "Shorthand for where transformative practices operate, not at the propositional tip of the hierarchy."
         }
       ],
       "socraticSeeds": [
         {
-          "prompt": "Vervaeke argues that procedural knowing depends on perspectival knowing — you must know what it is like to be in this situation to apply the right skill at the right moment. Can you think of an example from sport, music, or social life where this dependency is vivid?",
+          "prompt": "Vervaeke argues that procedural knowing depends on perspectival knowing, you must know what it is like to be in this situation to apply the right skill at the right moment. Can you think of an example from sport, music, or social life where this dependency is vivid?",
           "expectedThemes": [
             "timing requires situational awareness",
             "skill misapplied without right reading of situation",
@@ -128,12 +128,12 @@
       ],
       "misconceptionBranches": [
         {
-          "misconception": "Propositional knowing is the highest and most complete form of knowing — procedural knowing is just applied knowledge.",
+          "misconception": "Propositional knowing is the highest and most complete form of knowing, procedural knowing is just applied knowledge.",
           "correction": "Vervaeke's hierarchy inverts this assumption: propositional knowing is the most derivative kind, depending asymmetrically on procedural, perspectival, and participatory knowing. 'Applied knowledge' misses the fact that skill requires its own non-propositional foundations."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "Why does Vervaeke argue that the modern educational emphasis on propositional knowing — tests, essays, theoretical understanding — is insufficient for the cultivation of wisdom, and what would need to be added?",
+        "prompt": "Why does Vervaeke argue that the modern educational emphasis on propositional knowing, tests, essays, theoretical understanding, is insufficient for the cultivation of wisdom, and what would need to be added?",
         "expectedThemes": [
           "wisdom requires procedural and perspectival cultivation",
           "practice communities and transformative engagement needed",

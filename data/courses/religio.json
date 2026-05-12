@@ -2,7 +2,7 @@
   "id": "religio",
   "title": "Religio",
   "conceptId": "religio",
-  "abstract": "This course develops Vervaeke's concept of religio — the deep, pre-institutional, transjective binding of agent and arena that underlies all individual acts of meaning-making and all religious and spiritual traditions. Students will be able to distinguish religio from both institutional religion and from its propositional counterpart credo, explain how religio functions as higher-order relevance realization, and articulate why the modern meaning crisis is partly a crisis of religio — the collapse of the lived participatory binding into mere creedal belief. In the series arc, religio is the concept that bridges cognitive science (relevance realization, agent-arena relationship) to the normative question of what wisdom practices must cultivate in order to address the perennial problems of human existence.",
+  "abstract": "This course develops Vervaeke's concept of religio, the deep, pre-institutional, transjective binding of agent and arena that underlies all individual acts of meaning-making and all religious and spiritual traditions. Students will be able to distinguish religio from both institutional religion and from its propositional counterpart credo, explain how religio functions as higher-order relevance realization, and articulate why the modern meaning crisis is partly a crisis of religio, the collapse of the lived participatory binding into mere creedal belief. In the series arc, religio is the concept that bridges cognitive science (relevance realization, agent-arena relationship) to the normative question of what wisdom practices must cultivate in order to address the perennial problems of human existence.",
   "prerequisites": [
     "relevance-realization"
   ],
@@ -16,7 +16,7 @@
         {
           "episode": 36,
           "phrase": "We can use Mythos to activate, accelerate, articulate, and appreciate Religio. Religio is inherently valuable to us so even that alone is going to be very valuable to us.",
-          "note": "Religio as the target that mythos serves — not the other way around"
+          "note": "Religio as the target that mythos serves, not the other way around"
         },
         {
           "episode": 33,
@@ -26,11 +26,11 @@
       ],
       "socraticSeeds": [
         {
-          "prompt": "Have you ever had a moment when the boundary between yourself and what you were doing dissolved — total absorption in music, nature, a conversation? What was happening to the ordinary distinction between 'you' and 'it'?",
+          "prompt": "Have you ever had a moment when the boundary between yourself and what you were doing dissolved, total absorption in music, nature, a conversation? What was happening to the ordinary distinction between 'you' and 'it'?",
           "expectedThemes": ["flow and religio", "agent-arena fusion", "pre-egoic experience", "participatory knowing"]
         },
         {
-          "prompt": "Vervaeke describes religio as 'higher-order relevance realization.' What would it mean for relevance realization to operate on itself — for the whole process of meaning-making to become relevant to itself?",
+          "prompt": "Vervaeke describes religio as 'higher-order relevance realization.' What would it mean for relevance realization to operate on itself, for the whole process of meaning-making to become relevant to itself?",
           "expectedThemes": ["self-reflexive relevance", "meta-level RR", "integration of all RR processes", "ground of meaning"]
         },
         {
@@ -45,15 +45,15 @@
       "misconceptionBranches": [
         {
           "misconception": "Religio is simply a feeling of the numinous or mystical awe.",
-          "correction": "Religio is a cognitive-existential structure — the higher-order relevance realization that grounds all individual meaning systems — not a feeling, though such feelings may be its phenomenal expression."
+          "correction": "Religio is a cognitive-existential structure, the higher-order relevance realization that grounds all individual meaning systems, not a feeling, though such feelings may be its phenomenal expression."
         },
         {
-          "misconception": "Religio is religion — it is about belonging to or practicing within a religious tradition.",
+          "misconception": "Religio is religion, it is about belonging to or practicing within a religious tradition.",
           "correction": "Religio is pre-institutional and pre-propositional; it is the participatory binding that religious institutions have historically tried to activate, but it exists independently of any particular tradition."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "In what sense is religio the 'ground' of all individual meaning systems rather than one meaning system among others — and what follows for how we should think about recovering religio in response to the meaning crisis?",
+        "prompt": "In what sense is religio the 'ground' of all individual meaning systems rather than one meaning system among others, and what follows for how we should think about recovering religio in response to the meaning crisis?",
         "expectedThemes": ["religio prior to all specific meanings", "condition not content", "practices must target religio not beliefs", "ground vs figure"]
       }
     },
@@ -70,21 +70,21 @@
         },
         {
           "episode": 46,
-          "phrase": "one of the things that wisdom is doing that's also really important is it's enhancing religio (writes Religio below Wisdom). That's a way in which you can powerfully—and we saw already the connection.",
-          "note": "Wisdom enhances religio — the practical upshot of recovering the distinction"
+          "phrase": "one of the things that wisdom is doing that's also really important is it's enhancing religio (writes Religio below Wisdom). That's a way in which you can powerfully, and we saw already the connection.",
+          "note": "Wisdom enhances religio, the practical upshot of recovering the distinction"
         }
       ],
       "socraticSeeds": [
         {
-          "prompt": "Credo means creed — the propositional content of what one believes. Religio is the lived participatory binding. Can you imagine someone who sincerely assents to every doctrine of a religion but feels entirely empty, dead inside, disconnected from everything? What has that person lost?",
+          "prompt": "Credo means creed, the propositional content of what one believes. Religio is the lived participatory binding. Can you imagine someone who sincerely assents to every doctrine of a religion but feels entirely empty, dead inside, disconnected from everything? What has that person lost?",
           "expectedThemes": ["empty credo without religio", "belief without binding", "propositional vs participatory", "spiritual dryness"]
         },
         {
-          "prompt": "Can religio exist without credo — a deep sense of binding and orientation without any particular doctrinal commitment? What would that look like?",
+          "prompt": "Can religio exist without credo, a deep sense of binding and orientation without any particular doctrinal commitment? What would that look like?",
           "expectedThemes": ["religio without creedal commitment", "secular analogues", "flow and wonder", "non-religious religio"]
         },
         {
-          "prompt": "Vervaeke argues that modernity has largely collapsed religio into credo — treating religion as primarily a matter of holding the right beliefs. What cultural, historical, or institutional forces might have produced this collapse?",
+          "prompt": "Vervaeke argues that modernity has largely collapsed religio into credo, treating religion as primarily a matter of holding the right beliefs. What cultural, historical, or institutional forces might have produced this collapse?",
           "expectedThemes": ["Reformation and propositional faith", "scientific worldview reducing experience", "loss of ritual practices", "individualism and belief"]
         },
         {
@@ -94,7 +94,7 @@
       ],
       "misconceptionBranches": [
         {
-          "misconception": "The meaning crisis can be solved by returning to creedal religion — by people believing the right things again.",
+          "misconception": "The meaning crisis can be solved by returning to creedal religion, by people believing the right things again.",
           "correction": "What is needed is recovering religio, not credo; the meaning crisis is a crisis of participatory binding, not of incorrect propositions, and it can be addressed through a 'religion that is not a religion' without metaphysical commitment."
         },
         {
@@ -103,7 +103,7 @@
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "How does the collapse of religio into credo illuminate the modern predicament — and why does Vervaeke argue that the solution requires more than better arguments or more sophisticated doctrines?",
+        "prompt": "How does the collapse of religio into credo illuminate the modern predicament, and why does Vervaeke argue that the solution requires more than better arguments or more sophisticated doctrines?",
         "expectedThemes": ["propositions cannot restore binding", "participatory practices needed", "wisdom must enhance religio", "beyond information and belief"]
       }
     },
@@ -130,26 +130,26 @@
           "expectedThemes": ["infancy and flow", "mystical dissolution", "self-transcendence", "ego boundaries and their dissolution"]
         },
         {
-          "prompt": "If religio 'simultaneously grounds the self and its world,' it seems to be the condition that makes the self-world distinction possible at all. What would it feel like to become aware of that ground — to touch what normally just operates beneath awareness?",
+          "prompt": "If religio 'simultaneously grounds the self and its world,' it seems to be the condition that makes the self-world distinction possible at all. What would it feel like to become aware of that ground, to touch what normally just operates beneath awareness?",
           "expectedThemes": ["ground of experience", "wonder and awe", "recognizing what sustains cognition", "mindful awareness"]
         },
         {
-          "prompt": "Wisdom traditions across cultures — Buddhist awakening, Neoplatonic henosis, Christian union with God — have historically aimed at a transformation that goes beyond the ordinary ego. Could religio be a cognitive-scientific way of naming what all these traditions converge on?",
+          "prompt": "Wisdom traditions across cultures, Buddhist awakening, Neoplatonic henosis, Christian union with God, have historically aimed at a transformation that goes beyond the ordinary ego. Could religio be a cognitive-scientific way of naming what all these traditions converge on?",
           "expectedThemes": ["perennial convergence", "higher states as religio", "cross-cultural target", "naturalistic reframing"]
         },
         {
-          "prompt": "Vervaeke says mythos can 'activate, accelerate, articulate, and appreciate' religio — but cannot constitute it. What is the difference between activating something and constituting it? Why does this distinction matter for practice?",
+          "prompt": "Vervaeke says mythos can 'activate, accelerate, articulate, and appreciate' religio, but cannot constitute it. What is the difference between activating something and constituting it? Why does this distinction matter for practice?",
           "expectedThemes": ["activating vs creating", "religio pre-exists mythos", "practices as triggers not sources", "autonomy of religio"]
         }
       ],
       "misconceptionBranches": [
         {
-          "misconception": "Religio is a kind of spiritual self-absorption or navel-gazing — it is about the self.",
+          "misconception": "Religio is a kind of spiritual self-absorption or navel-gazing, it is about the self.",
           "correction": "Religio is precisely the dissolution of ordinary self-absorption: it is the pre-egoic and post-egoic binding in which the sharp boundary between self and world is suspended, not reinforced."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "Why does Vervaeke argue that wisdom must target religio rather than merely producing correct beliefs or good behaviors — and what kind of transformation is required to access what religio names?",
+        "prompt": "Why does Vervaeke argue that wisdom must target religio rather than merely producing correct beliefs or good behaviors, and what kind of transformation is required to access what religio names?",
         "expectedThemes": ["wisdom enhances religio", "beyond belief and behavior", "participatory transformation", "pre-egoic grounding"]
       }
     }

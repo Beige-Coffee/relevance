@@ -2,7 +2,7 @@
   "num": 0,
   "slug": "intro",
   "title": "Introduction",
-  "essence": "Vervaeke opens the lecture series by framing the meaning crisis as the defining existential problem of the modern West — not a medical or political problem but a structural breakdown in the machinery by which human beings make sense of themselves and their world. He distinguishes feeling that life is meaningful from life actually being meaningful, insisting the lecture series will pursue the second, harder question. To do so, he promises to trace the historical and cognitive roots of the crisis: how a set of transformations beginning in ancient Greece, accelerating through the Scientific Revolution, and culminating in late modernity progressively dismantled the practices, worldviews, and self-understanding that once allowed people to situate themselves within a larger order. He emphasizes that recovering meaning will require not nostalgia but a rigorous, interdisciplinary engagement with cognitive science, philosophy, and the wisdom traditions. The series is framed as an exercise in what Vervaeke will later call 'reverse-engineering enlightenment' — understanding the machinery of human flourishing precisely enough to begin rebuilding it.",
+  "essence": "Vervaeke opens the lecture series by framing the meaning crisis as the defining existential problem of the modern West, not a medical or political problem but a structural breakdown in the machinery by which human beings make sense of themselves and their world. He distinguishes feeling that life is meaningful from life actually being meaningful, insisting the lecture series will pursue the second, harder question. To do so, he promises to trace the historical and cognitive roots of the crisis: how a set of transformations beginning in ancient Greece, accelerating through the Scientific Revolution, and culminating in late modernity progressively dismantled the practices, worldviews, and self-understanding that once allowed people to situate themselves within a larger order. He emphasizes that recovering meaning will require not nostalgia but a rigorous, interdisciplinary engagement with cognitive science, philosophy, and the wisdom traditions. The series is framed as an exercise in what Vervaeke will later call 'reverse-engineering enlightenment', understanding the machinery of human flourishing precisely enough to begin rebuilding it.",
   "keyClaims": [
     "The meaning crisis is not primarily a psychological or political problem but a structural failure in how modern humans relate to themselves and reality.",
     "Feeling meaningful and being meaningful are distinct; this series pursues the latter through rigorous historical and cognitive analysis.",
@@ -13,7 +13,7 @@
     {
       "id": "the-meaning-crisis",
       "treatment": "introduced",
-      "summary": "Named and framed as the central subject of the series — a structural breakdown in meaning-making that defines the modern West."
+      "summary": "Named and framed as the central subject of the series, a structural breakdown in meaning-making that defines the modern West."
     },
     {
       "id": "reverse-engineering-enlightenment",
@@ -23,7 +23,7 @@
     {
       "id": "wisdom",
       "treatment": "referenced",
-      "summary": "Invoked as the goal of the inquiry — the series will draw on wisdom traditions as data for understanding meaning."
+      "summary": "Invoked as the goal of the inquiry, the series will draw on wisdom traditions as data for understanding meaning."
     },
     {
       "id": "the-perennial-problems",

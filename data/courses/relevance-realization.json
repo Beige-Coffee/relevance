@@ -2,7 +2,7 @@
   "id": "relevance-realization",
   "title": "Relevance Realization",
   "conceptId": "relevance-realization",
-  "abstract": "This course develops Vervaeke's central technical construct: relevance realization, the non-propositional, embodied process by which the mind-body system dynamically selects what matters out of a combinatorially explosive sea of available information. Students will be able to explain why relevance cannot be explained by representations or a central executive, articulate the key constraints any adequate theory must satisfy (non-circularity, auto-poetic grounding, scale-invariant self-organization), and connect relevance realization to meaning, agency, and the four kinds of knowing. In the series arc, relevance realization serves as Vervaeke's naturalistic foundation for consciousness, wisdom, religio, and the possibility of responding to the meaning crisis — making it one of the most load-bearing concepts in the entire lecture series.",
+  "abstract": "This course develops Vervaeke's central technical construct: relevance realization, the non-propositional, embodied process by which the mind-body system dynamically selects what matters out of a combinatorially explosive sea of available information. Students will be able to explain why relevance cannot be explained by representations or a central executive, articulate the key constraints any adequate theory must satisfy (non-circularity, auto-poetic grounding, scale-invariant self-organization), and connect relevance realization to meaning, agency, and the four kinds of knowing. In the series arc, relevance realization serves as Vervaeke's naturalistic foundation for consciousness, wisdom, religio, and the possibility of responding to the meaning crisis, making it one of the most load-bearing concepts in the entire lecture series.",
   "prerequisites": [],
   "modules": [
     {
@@ -56,16 +56,16 @@
       ],
       "misconceptionBranches": [
         {
-          "misconception": "Relevance realization is a conscious process of filtering information — we decide what is relevant.",
+          "misconception": "Relevance realization is a conscious process of filtering information, we decide what is relevant.",
           "correction": "Relevance realization is sub-representational and pre-categorical; it is the process that makes conscious cognition possible, not a product of it."
         },
         {
           "misconception": "A sufficiently powerful computer could, in principle, solve the relevance problem by checking everything.",
-          "correction": "The combinatorial explosion makes exhaustive search not merely impractical but in principle impossible for any real-time agent — the relevant subset must emerge through self-organization, not search."
+          "correction": "The combinatorial explosion makes exhaustive search not merely impractical but in principle impossible for any real-time agent, the relevant subset must emerge through self-organization, not search."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "Why does Vervaeke say that relevance realization cannot be explained by representations, computations, or a central executive — and what does this imply about where we should look for its mechanism?",
+        "prompt": "Why does Vervaeke say that relevance realization cannot be explained by representations, computations, or a central executive, and what does this imply about where we should look for its mechanism?",
         "expectedThemes": [
           "each presupposes relevance",
           "homunculus fallacy",
@@ -102,7 +102,7 @@
           ]
         },
         {
-          "prompt": "Vervaeke says that before you can categorize something you must first 'point at' it — mark it as a here-now focus. Can you have a concept without first being able to enactively single out instances? What would concepts be without that?",
+          "prompt": "Vervaeke says that before you can categorize something you must first 'point at' it, mark it as a here-now focus. Can you have a concept without first being able to enactively single out instances? What would concepts be without that?",
           "expectedThemes": [
             "demonstrative reference prior to concept",
             "indexical before categorical",
@@ -120,7 +120,7 @@
           ]
         },
         {
-          "prompt": "If relevance is always perspectival — always relative to an agent — does that mean it is purely subjective? Or is there a sense in which the relevance is real?",
+          "prompt": "If relevance is always perspectival, always relative to an agent, does that mean it is purely subjective? Or is there a sense in which the relevance is real?",
           "expectedThemes": [
             "transjective not purely subjective",
             "real affordances",
@@ -132,15 +132,15 @@
       "misconceptionBranches": [
         {
           "misconception": "Relevance is a property of objects in the world, independent of any agent.",
-          "correction": "Relevance is transjective — it emerges in the co-created relationship between organism and environment, neither purely 'in' the world nor purely projected by the mind."
+          "correction": "Relevance is transjective, it emerges in the co-created relationship between organism and environment, neither purely 'in' the world nor purely projected by the mind."
         },
         {
           "misconception": "Aspectuality means we see representations of aspects, not aspects themselves.",
-          "correction": "Representations presuppose aspects — they foreground a subset of features as relevant but do not generate relevance from scratch. Aspectuality is a constraint on representations, not something produced by them."
+          "correction": "Representations presuppose aspects, they foreground a subset of features as relevant but do not generate relevance from scratch. Aspectuality is a constraint on representations, not something produced by them."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "Why does Vervaeke say that any theory of relevance realization must explain relevance without presupposing relevance in its explanatory machinery — and how does enactive demonstrative reference attempt to satisfy that constraint?",
+        "prompt": "Why does Vervaeke say that any theory of relevance realization must explain relevance without presupposing relevance in its explanatory machinery, and how does enactive demonstrative reference attempt to satisfy that constraint?",
         "expectedThemes": [
           "non-circular explanation",
           "pre-categorical grounding",
@@ -173,7 +173,7 @@
       ],
       "socraticSeeds": [
         {
-          "prompt": "If a thermostat 'wants' to maintain 70 degrees only because a human set it, does it have genuine goals? What would it take for a system to have goals that are genuinely internal to it — not assigned from outside?",
+          "prompt": "If a thermostat 'wants' to maintain 70 degrees only because a human set it, does it have genuine goals? What would it take for a system to have goals that are genuinely internal to it, not assigned from outside?",
           "expectedThemes": [
             "constitutive vs assigned goals",
             "auto-poiesis",
@@ -182,7 +182,7 @@
           ]
         },
         {
-          "prompt": "Relevance realization happens at multiple levels simultaneously — from individual features up to holistic gestalt. Why might this multi-level, simultaneous operation be necessary for insight? Could insight happen if only one level were active at a time?",
+          "prompt": "Relevance realization happens at multiple levels simultaneously, from individual features up to holistic gestalt. Why might this multi-level, simultaneous operation be necessary for insight? Could insight happen if only one level were active at a time?",
           "expectedThemes": [
             "insight requires cross-level reorganization",
             "simultaneous processing",
@@ -191,7 +191,7 @@
           ]
         },
         {
-          "prompt": "Vervaeke says relevance realization is 'inherently interested in itself.' What does it mean for a cognitive process to be self-interested — and why is this reflexivity constitutive of wisdom rather than narcissism?",
+          "prompt": "Vervaeke says relevance realization is 'inherently interested in itself.' What does it mean for a cognitive process to be self-interested, and why is this reflexivity constitutive of wisdom rather than narcissism?",
           "expectedThemes": [
             "reflexive self-monitoring",
             "self-correction",
@@ -212,11 +212,11 @@
       "misconceptionBranches": [
         {
           "misconception": "Relevance realization is a single mechanism located in one brain region, like a relevance-filter.",
-          "correction": "Relevance realization operates self-organizingly at multiple levels simultaneously — it is a distributed, scale-invariant process with no single locus, which is precisely why it can produce insight through cross-level reorganization."
+          "correction": "Relevance realization operates self-organizingly at multiple levels simultaneously, it is a distributed, scale-invariant process with no single locus, which is precisely why it can produce insight through cross-level reorganization."
         },
         {
           "misconception": "The goals that drive relevance realization can be specified by an external designer or programmer.",
-          "correction": "For relevance realization to be non-circular, the originating goals must be constitutive — internal to the self-organizing living system — not represented targets assigned from outside."
+          "correction": "For relevance realization to be non-circular, the originating goals must be constitutive, internal to the self-organizing living system, not represented targets assigned from outside."
         }
       ],
       "checkForUnderstanding": {
@@ -243,7 +243,7 @@
       ],
       "socraticSeeds": [
         {
-          "prompt": "When something feels deeply meaningful, does it also feel highly relevant? And when nothing feels relevant — when you are deeply depressed or alienated — does meaning also collapse? What does this suggest about the connection between meaning and relevance?",
+          "prompt": "When something feels deeply meaningful, does it also feel highly relevant? And when nothing feels relevant, when you are deeply depressed or alienated, does meaning also collapse? What does this suggest about the connection between meaning and relevance?",
           "expectedThemes": [
             "meaning and relevance co-arise",
             "depression as relevance collapse",
@@ -252,7 +252,7 @@
           ]
         },
         {
-          "prompt": "Agency — the sense that you are genuinely acting and making a difference — seems to require that your actions are relevant to outcomes you care about. Can you be a genuine agent in a world where nothing matters to you? What does this reveal?",
+          "prompt": "Agency, the sense that you are genuinely acting and making a difference, seems to require that your actions are relevant to outcomes you care about. Can you be a genuine agent in a world where nothing matters to you? What does this reveal?",
           "expectedThemes": [
             "agency requires relevance",
             "caring as condition for action",
@@ -261,7 +261,7 @@
           ]
         },
         {
-          "prompt": "Vervaeke says the connections among meaning, relevance, and agency are 'deep' — not merely correlational but constitutive. What would it mean for three things to be mutually constitutive rather than just correlated?",
+          "prompt": "Vervaeke says the connections among meaning, relevance, and agency are 'deep', not merely correlational but constitutive. What would it mean for three things to be mutually constitutive rather than just correlated?",
           "expectedThemes": [
             "constitutive vs contingent",
             "mutually grounding",
@@ -281,12 +281,12 @@
       ],
       "misconceptionBranches": [
         {
-          "misconception": "Meaning is a feeling or belief — something purely subjective that exists independently of relevance or action.",
-          "correction": "Vervaeke argues meaning, relevance, and agency are constitutively entangled: meaning is the sense of connectedness constitutive of relevance, and agency is the relational enactment of that connection — none of the three can be adequately described in isolation."
+          "misconception": "Meaning is a feeling or belief, something purely subjective that exists independently of relevance or action.",
+          "correction": "Vervaeke argues meaning, relevance, and agency are constitutively entangled: meaning is the sense of connectedness constitutive of relevance, and agency is the relational enactment of that connection, none of the three can be adequately described in isolation."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "In what sense does the meaning crisis represent a crisis of relevance realization — and what would it mean to address the meaning crisis at the level of relevance realization rather than at the level of new beliefs or propositions?",
+        "prompt": "In what sense does the meaning crisis represent a crisis of relevance realization, and what would it mean to address the meaning crisis at the level of relevance realization rather than at the level of new beliefs or propositions?",
         "expectedThemes": [
           "meaning crisis as RR failure",
           "relevance collapse in modern world",

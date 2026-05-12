@@ -2,7 +2,7 @@
   "id": "transframing",
   "title": "Transframing",
   "conceptId": "transframing",
-  "abstract": "Transframing is Vervaeke's coinage for a bi-directional, participatory transformation that simultaneously reframes how one sees the world and reframes how one sees oneself — a systematic restructuring of the whole framing process, not merely the reframing of a particular problem. Ordinary insight reframes a problem within a given perspective; transframing transforms the perspective-making capacity itself. Iris Murdoch's mother-in-law example is canonical: she does not merely see her daughter-in-law differently but becomes a different kind of seer in the process. Transframing is the cognitive signature of wisdom and of genuine sacred symbolic engagement. Students will learn to distinguish transframing from reframing, understand the conditions that necessitate it (existential stupefaction), and grasp how gnosis, ritual, and serious play are its primary vehicles. This concept is central to Vervaeke's account of how awakening from the meaning crisis is not just intellectual but existential.",
+  "abstract": "Transframing is Vervaeke's coinage for a bi-directional, participatory transformation that simultaneously reframes how one sees the world and reframes how one sees oneself, a systematic restructuring of the whole framing process, not merely the reframing of a particular problem. Ordinary insight reframes a problem within a given perspective; transframing transforms the perspective-making capacity itself. Iris Murdoch's mother-in-law example is canonical: she does not merely see her daughter-in-law differently but becomes a different kind of seer in the process. Transframing is the cognitive signature of wisdom and of genuine sacred symbolic engagement. Students will learn to distinguish transframing from reframing, understand the conditions that necessitate it (existential stupefaction), and grasp how gnosis, ritual, and serious play are its primary vehicles. This concept is central to Vervaeke's account of how awakening from the meaning crisis is not just intellectual but existential.",
   "prerequisites": [
     "the-four-kinds-of-knowing",
     "the-meaning-crisis"
@@ -39,7 +39,7 @@
         {
           "prompt": "Vervaeke says the Murdoch mother-in-law transframes because both how she sees her daughter-in-law and how she sees herself change together. Why must both ends change for it to be a genuine transframing?",
           "expectedThemes": [
-            "participatory change — agent and arena both shift",
+            "participatory change, agent and arena both shift",
             "sensibility transcendence",
             "not just a new perspective but a new perspectiver"
           ]
@@ -55,12 +55,12 @@
       ],
       "misconceptionBranches": [
         {
-          "misconception": "Transframing is just a more dramatic version of reframing — seeing a problem from a very different angle.",
+          "misconception": "Transframing is just a more dramatic version of reframing, seeing a problem from a very different angle.",
           "correction": "Transframing is not a change of perspective on an existing problem but a transformation of the capacity that generates perspectives itself; the 'both ends' formulation marks this as a different kind of change."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "Someone undergoes therapy and now sees their childhood trauma differently — they have reframed it as formative rather than ruinous. Is this a reframing or a transframing? What additional change would be needed to make it a transframing?",
+        "prompt": "Someone undergoes therapy and now sees their childhood trauma differently, they have reframed it as formative rather than ruinous. Is this a reframing or a transframing? What additional change would be needed to make it a transframing?",
         "expectedThemes": [
           "reframing if only the view changes",
           "transframing if both the view and the viewer change",
@@ -94,7 +94,7 @@
           "expectedThemes": [
             "stuck: can't make alternative worldview significant",
             "stupefied: can't imagine the alternative",
-            "together: full paralysis — no motivation and no imagination"
+            "together: full paralysis, no motivation and no imagination"
           ]
         },
         {
@@ -120,12 +120,12 @@
           "correction": "Existential entrapment is not an information or motivation deficit; it is a cognitive-existential paralysis in which the agent cannot imaginatively inhabit an alternative worldview from within the current one."
         },
         {
-          "misconception": "Transframing is just making up your mind to change — a matter of will.",
-          "correction": "Transframing cannot be achieved by willpower because it is a participatory transformation that requires the structural conditions of gnosis — it is not a decision but an undergoing."
+          "misconception": "Transframing is just making up your mind to change, a matter of will.",
+          "correction": "Transframing cannot be achieved by willpower because it is a participatory transformation that requires the structural conditions of gnosis, it is not a decision but an undergoing."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "A friend is trapped in an unhealthy relationship and cannot imagine life without their partner, even though they know it is harmful. You give them excellent arguments for why they should leave. Why might this fail — and what would Vervaeke's framework suggest instead?",
+        "prompt": "A friend is trapped in an unhealthy relationship and cannot imagine life without their partner, even though they know it is harmful. You give them excellent arguments for why they should leave. Why might this fail, and what would Vervaeke's framework suggest instead?",
         "expectedThemes": [
           "existential entrapment is participatory not propositional",
           "argument operates within the existing frame",
@@ -155,7 +155,7 @@
       ],
       "socraticSeeds": [
         {
-          "prompt": "Why does Vervaeke include therapy, martial arts, and role-playing games (Jeepform) in the same category as religious ritual — what do they have in common that makes them all vehicles for transframing?",
+          "prompt": "Why does Vervaeke include therapy, martial arts, and role-playing games (Jeepform) in the same category as religious ritual, what do they have in common that makes them all vehicles for transframing?",
           "expectedThemes": [
             "serious play in liminal space",
             "enactive analogy",
@@ -191,10 +191,10 @@
       "misconceptionBranches": [
         {
           "misconception": "Religious ritual is fundamentally different from modern practices like therapy or martial arts.",
-          "correction": "Vervaeke argues that therapy, Tai Chi, martial arts, and role-playing games like Jeepform all constitute serious play in the technical sense — they are ritual by another name, functioning as psycho-technologies for transframing."
+          "correction": "Vervaeke argues that therapy, Tai Chi, martial arts, and role-playing games like Jeepform all constitute serious play in the technical sense, they are ritual by another name, functioning as psycho-technologies for transframing."
         },
         {
-          "misconception": "Transframing is a one-time breakthrough event — once you transframe, you are done.",
+          "misconception": "Transframing is a one-time breakthrough event, once you transframe, you are done.",
           "correction": "The systematic transframing of wisdom is an ongoing developmental process of expanding competence, not a single dramatic event; wisdom cultivates the capacity for transframing, not a permanent final transformation."
         }
       ],

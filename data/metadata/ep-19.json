@@ -2,13 +2,13 @@
   "num": 19,
   "slug": "augustine-and-aquinas",
   "title": "Augustine and Aquinas",
-  "essence": "Vervaeke's account of the pre-modern synthesis reaches its apex and begins its unraveling in this episode. Augustine's achievement is framed as the most ambitious integration in the Western tradition: he synthesizes Neoplatonism's normative order (anagoge, ascent through levels of reality and self), Christianity's narrative order (history as cosmic story of creation, fall, and redemption), and Aristotelian worldview attunement (a cosmos in which intellectual understanding and existential dwelling converge). The result is three interlocking orders — nomological (Aristotle's: the universe as law-like cosmos that affords existential dwelling), normative (Plotinus's: the demand to ascend in levels of being and self), and narrative (Christianity's: history as personal cosmic story with kairos turning points) — that together produce a coherent, meaning-saturated, transformative world. But Augustine also introduces the seeds of the synthesis's unraveling by pulling love and reason apart: reason without love becomes abstract, love without reason becomes sentimental. Aquinas then attempts to heal this split by distinguishing natural and supernatural: natural reason (Aristotle) can take us to a certain level; supernatural faith (Christianity) takes us beyond it. The cost is a crack in the worldview: the natural and supernatural are now separate domains with different epistemic criteria, and what was previously a unified participatory knowing is now divided into two different kinds of access. This prepares the ground for the scientific revolution and the Protestant Reformation, which will split the synthesis entirely.",
+  "essence": "Vervaeke's account of the pre-modern synthesis reaches its apex and begins its unraveling in this episode. Augustine's achievement is framed as the most ambitious integration in the Western tradition: he synthesizes Neoplatonism's normative order (anagoge, ascent through levels of reality and self), Christianity's narrative order (history as cosmic story of creation, fall, and redemption), and Aristotelian worldview attunement (a cosmos in which intellectual understanding and existential dwelling converge). The result is three interlocking orders, nomological (Aristotle's: the universe as law-like cosmos that affords existential dwelling), normative (Plotinus's: the demand to ascend in levels of being and self), and narrative (Christianity's: history as personal cosmic story with kairos turning points), that together produce a coherent, meaning-saturated, transformative world. But Augustine also introduces the seeds of the synthesis's unraveling by pulling love and reason apart: reason without love becomes abstract, love without reason becomes sentimental. Aquinas then attempts to heal this split by distinguishing natural and supernatural: natural reason (Aristotle) can take us to a certain level; supernatural faith (Christianity) takes us beyond it. The cost is a crack in the worldview: the natural and supernatural are now separate domains with different epistemic criteria, and what was previously a unified participatory knowing is now divided into two different kinds of access. This prepares the ground for the scientific revolution and the Protestant Reformation, which will split the synthesis entirely.",
   "keyClaims": [
     "Augustine achieves the most comprehensive pre-modern synthesis: Aristotelian nomological order, Neoplatonic normative order, and Christian narrative order are integrated into a single meaning-saturated world.",
-    "The three orders — nomological (coherence), normative (significance through ascent), and narrative (purpose through cosmic story) — map onto the three modern dimensions of meaning: coherence, significance, and purpose.",
-    "Augustine's synthesis pulls love and reason apart: by prioritizing agapic love as the motor of transformation, he risks making reason merely instrumental — a problem that will deepen in the following centuries.",
+    "The three orders, nomological (coherence), normative (significance through ascent), and narrative (purpose through cosmic story), map onto the three modern dimensions of meaning: coherence, significance, and purpose.",
+    "Augustine's synthesis pulls love and reason apart: by prioritizing agapic love as the motor of transformation, he risks making reason merely instrumental, a problem that will deepen in the following centuries.",
     "Aquinas's natural/supernatural distinction introduces a crack into the synthesis: reason and faith now operate on separate domains with different epistemic criteria, weakening the conformity-theory integration.",
-    "The shift Aquinas initiates — from participatory to propositional knowing as the primary mode of accessing the divine — sets the stage for the modern meaning crisis by separating intellectual understanding from existential dwelling."
+    "The shift Aquinas initiates, from participatory to propositional knowing as the primary mode of accessing the divine, sets the stage for the modern meaning crisis by separating intellectual understanding from existential dwelling."
   ],
   "concepts": [
     {
@@ -29,12 +29,12 @@
     {
       "id": "neoplatonism",
       "treatment": "applied",
-      "summary": "Augustine appropriates Neoplatonism as the framework for inner ascent — his Confessions is read as a Neoplatonic anagoge narrative in which he discovers God as the deepest interior of himself."
+      "summary": "Augustine appropriates Neoplatonism as the framework for inner ascent, his Confessions is read as a Neoplatonic anagoge narrative in which he discovers God as the deepest interior of himself."
     },
     {
       "id": "anagoge",
       "treatment": "applied",
-      "summary": "Augustine's conversion narrative in the Confessions is a literary anagoge — ascent through levels of self toward the ground of being — and he integrates this with the Christian narrative of redemption."
+      "summary": "Augustine's conversion narrative in the Confessions is a literary anagoge, ascent through levels of self toward the ground of being, and he integrates this with the Christian narrative of redemption."
     },
     {
       "id": "conformity-theory",
@@ -44,17 +44,17 @@
     {
       "id": "participatory-knowing",
       "treatment": "developed",
-      "summary": "The Augustinian synthesis is founded on participatory knowing — love is a mode of knowing that transforms the knower — but Aquinas's split begins to privilege propositional over participatory access."
+      "summary": "The Augustinian synthesis is founded on participatory knowing, love is a mode of knowing that transforms the knower, but Aquinas's split begins to privilege propositional over participatory access."
     },
     {
       "id": "propositional-knowing",
       "treatment": "developed",
-      "summary": "Aquinas's shift toward propositional knowing as the primary mode of theological access — Aristotle's logic applied to revealed propositions — is the beginning of the separation that will produce the modern crisis."
+      "summary": "Aquinas's shift toward propositional knowing as the primary mode of theological access, Aristotle's logic applied to revealed propositions, is the beginning of the separation that will produce the modern crisis."
     },
     {
       "id": "agape",
       "treatment": "applied",
-      "summary": "Augustine's account of love (caritas, the proper ordering of love toward God and neighbor) is analyzed as his integration of agape with anagoge — love is the motor of the normative ascent."
+      "summary": "Augustine's account of love (caritas, the proper ordering of love toward God and neighbor) is analyzed as his integration of agape with anagoge, love is the motor of the normative ascent."
     },
     {
       "id": "the-meaning-crisis",
@@ -64,12 +64,12 @@
     {
       "id": "the-good-the-true-the-beautiful",
       "treatment": "applied",
-      "summary": "Augustine places love of the True, Good, and Beautiful at the center of his synthesis — but Aquinas's split begins to make truth propositional, beauty aesthetic, and goodness moral rather than jointly constitutive of reality."
+      "summary": "Augustine places love of the True, Good, and Beautiful at the center of his synthesis, but Aquinas's split begins to make truth propositional, beauty aesthetic, and goodness moral rather than jointly constitutive of reality."
     },
     {
       "id": "worldview-attunement",
       "treatment": "applied",
-      "summary": "The Augustinian synthesis achieves maximal worldview attunement — intellectual understanding and existential dwelling are unified — and Aquinas's split begins to unravel this attunement."
+      "summary": "The Augustinian synthesis achieves maximal worldview attunement, intellectual understanding and existential dwelling are unified, and Aquinas's split begins to unravel this attunement."
     }
   ],
   "people": [
@@ -86,37 +86,37 @@
     {
       "id": "plotinus",
       "role": "referenced",
-      "summary": "Plotinus is the source of the normative order that Augustine incorporates — the Neoplatonic anagoge becomes the vehicle for Augustine's account of interior ascent toward God."
+      "summary": "Plotinus is the source of the normative order that Augustine incorporates, the Neoplatonic anagoge becomes the vehicle for Augustine's account of interior ascent toward God."
     },
     {
       "id": "aristotle",
       "role": "referenced",
-      "summary": "Aristotle's worldview — the nomological cosmos in which intellectual understanding and existential dwelling converge — is the third element Augustine synthesizes, and the element Aquinas over-systematizes."
+      "summary": "Aristotle's worldview, the nomological cosmos in which intellectual understanding and existential dwelling converge, is the third element Augustine synthesizes, and the element Aquinas over-systematizes."
     },
     {
       "id": "paul",
       "role": "referenced",
-      "summary": "Paul's account of inner conflict and the narrative order is the Christian element Augustine synthesizes — the Confessions is partly a narrative working-out of the Pauline drama of sin and grace."
+      "summary": "Paul's account of inner conflict and the narrative order is the Christian element Augustine synthesizes, the Confessions is partly a narrative working-out of the Pauline drama of sin and grace."
     }
   ],
   "crossRefs": [
     {
       "episode": 18,
-      "context": "Plotinus's Neoplatonism from ep-18 is here incorporated into Augustine's synthesis — the normative order that structures the Augustinian worldview comes directly from Plotinus."
+      "context": "Plotinus's Neoplatonism from ep-18 is here incorporated into Augustine's synthesis, the normative order that structures the Augustinian worldview comes directly from Plotinus."
     },
     {
       "episode": 16,
-      "context": "Christianity's narrative order and agape from ep-16 are the elements Augustine synthesizes with Neoplatonism — the inner conflict Paul diagnosed is what Augustine's synthesis attempts to resolve."
+      "context": "Christianity's narrative order and agape from ep-16 are the elements Augustine synthesizes with Neoplatonism, the inner conflict Paul diagnosed is what Augustine's synthesis attempts to resolve."
     },
     {
       "episode": 20,
-      "context": "The cracks in the Augustinian synthesis that this episode identifies — love/reason split, natural/supernatural divide — become the fault lines that the Protestant Reformation and scientific revolution will exploit."
+      "context": "The cracks in the Augustinian synthesis that this episode identifies, love/reason split, natural/supernatural divide, become the fault lines that the Protestant Reformation and scientific revolution will exploit."
     }
   ],
   "quotableMoments": [
     {
       "quote": "All of this was integrated together. These three orders that articulate the space of how we're connected to ourselves, to each other and to the world. The normal logical, the normative and the narrative",
-      "context": "Vervaeke naming and integrating the three orders — nomological, normative, narrative — that constitute the Augustinian synthesis and map onto the modern dimensions of meaning."
+      "context": "Vervaeke naming and integrating the three orders, nomological, normative, narrative, that constitute the Augustinian synthesis and map onto the modern dimensions of meaning."
     }
   ]
 }

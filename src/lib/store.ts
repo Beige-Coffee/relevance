@@ -3,25 +3,43 @@
 import { create } from "zustand";
 import { persist } from "zustand/middleware";
 import type { ChatMessage } from "./types";
+import type { Provider } from "./anthropic";
+import { DEFAULT_MODELS } from "./anthropic";
 
 interface Settings {
-  apiKey: string;
-  model: string;
-  setApiKey: (k: string) => void;
-  setModel: (m: string) => void;
-  clearApiKey: () => void;
+  provider: Provider;
+  anthropicKey: string;
+  openrouterKey: string;
+  anthropicModel: string;
+  openrouterModel: string;
+  setProvider: (p: Provider) => void;
+  setAnthropicKey: (k: string) => void;
+  setOpenrouterKey: (k: string) => void;
+  setAnthropicModel: (m: string) => void;
+  setOpenrouterModel: (m: string) => void;
+  activeKey: () => string;
+  activeModel: () => string;
+  hasKey: () => boolean;
 }
 
 export const useSettings = create<Settings>()(
   persist(
-    (set) => ({
-      apiKey: "",
-      model: "claude-sonnet-4-6",
-      setApiKey: (k) => set({ apiKey: k.trim() }),
-      setModel: (m) => set({ model: m }),
-      clearApiKey: () => set({ apiKey: "" }),
+    (set, get) => ({
+      provider: "anthropic",
+      anthropicKey: "",
+      openrouterKey: "",
+      anthropicModel: DEFAULT_MODELS.anthropic,
+      openrouterModel: DEFAULT_MODELS.openrouter,
+      setProvider: (p) => set({ provider: p }),
+      setAnthropicKey: (k) => set({ anthropicKey: k.trim() }),
+      setOpenrouterKey: (k) => set({ openrouterKey: k.trim() }),
+      setAnthropicModel: (m) => set({ anthropicModel: m }),
+      setOpenrouterModel: (m) => set({ openrouterModel: m }),
+      activeKey: () => (get().provider === "anthropic" ? get().anthropicKey : get().openrouterKey),
+      activeModel: () => (get().provider === "anthropic" ? get().anthropicModel : get().openrouterModel),
+      hasKey: () => Boolean(get().activeKey()),
     }),
-    { name: "amc-settings" }
+    { name: "amc-settings-v2" }
   )
 );
 

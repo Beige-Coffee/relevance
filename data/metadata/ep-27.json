@@ -2,30 +2,30 @@
   "num": 27,
   "slug": "problem-formulation",
   "title": "Problem Formulation",
-  "essence": "Episode 27 delivers the decisive argument that Descartes's quest for algorithmic certainty was not merely philosophically misguided but mathematically doomed—and that this doom simultaneously reveals what intelligence actually is. A chess-like problem space has roughly thirty options per move; across sixty moves the total paths are 30^60, a number exceeding the atoms in the universe. No algorithm can exhaustively search this space in any finite time. Descartes's certainty project demanded exactly this: a guaranteed search of all possibilities to find the one certain truth. The impossibility of this is not contingent but structural. What intelligence actually uses instead is heuristics—biased but adaptive shortcuts that sacrifice completeness for speed and relevance. Heuristics are not failures of rationality but its enabling condition; yet they also explain how intelligent cognition becomes susceptible to systematic bias and self-deception. The episode then turns to the distinction between well-defined and ill-defined problems: most real-world problems are ill-defined, lacking a clear goal state or path constraints, and the crucial cognitive achievement is problem formulation—converting an ill-defined mess into a tractable structure. The Kaplan and Simon mutilated chessboard experiment demonstrates this beautifully: shift from a covering strategy (combinatorial explosion) to a parity strategy (the removed squares are the same color), and the solution becomes immediately obvious. This insight-as-reframing is identified as relevance realization in action—and relevance realization is introduced as the concept around which the entire cognitive science analysis will converge.",
+  "essence": "Episode 27 delivers the decisive argument that Descartes's quest for algorithmic certainty was not merely philosophically misguided but mathematically doomed, and that this doom simultaneously reveals what intelligence actually is. A chess-like problem space has roughly thirty options per move; across sixty moves the total paths are 30^60, a number exceeding the atoms in the universe. No algorithm can exhaustively search this space in any finite time. Descartes's certainty project demanded exactly this: a guaranteed search of all possibilities to find the one certain truth. The impossibility of this is not contingent but structural. What intelligence actually uses instead is heuristics, biased but adaptive shortcuts that sacrifice completeness for speed and relevance. Heuristics are not failures of rationality but its enabling condition; yet they also explain how intelligent cognition becomes susceptible to systematic bias and self-deception. The episode then turns to the distinction between well-defined and ill-defined problems: most real-world problems are ill-defined, lacking a clear goal state or path constraints, and the crucial cognitive achievement is problem formulation, converting an ill-defined mess into a tractable structure. The Kaplan and Simon mutilated chessboard experiment demonstrates this beautifully: shift from a covering strategy (combinatorial explosion) to a parity strategy (the removed squares are the same color), and the solution becomes immediately obvious. This insight-as-reframing is identified as relevance realization in action, and relevance realization is introduced as the concept around which the entire cognitive science analysis will converge.",
   "keyClaims": [
-    "The combinatorial explosion of chess-like problem spaces (30^60 paths for sixty moves) mathematically proves that no algorithm can exhaustively search real-world problem spaces—making Descartes's certainty project structurally impossible.",
-    "Intelligence therefore cannot be algorithmic in the Cartesian sense; what it uses instead is heuristics—biased, adaptive shortcuts that are not failures of rationality but rationality's enabling condition.",
+    "The combinatorial explosion of chess-like problem spaces (30^60 paths for sixty moves) mathematically proves that no algorithm can exhaustively search real-world problem spaces, making Descartes's certainty project structurally impossible.",
+    "Intelligence therefore cannot be algorithmic in the Cartesian sense; what it uses instead is heuristics, biased, adaptive shortcuts that are not failures of rationality but rationality's enabling condition.",
     "The same heuristic processes that make us adaptively intelligent make us susceptible to systematic bias and self-deception: relevance realization can misfire, directing attention to the wrong features.",
-    "Most real-world problems are ill-defined: they lack clear goal states, path constraints, or even initial states, and the crucial cognitive achievement is problem formulation—determining the right structure for the problem.",
+    "Most real-world problems are ill-defined: they lack clear goal states, path constraints, or even initial states, and the crucial cognitive achievement is problem formulation, determining the right structure for the problem.",
     "The Kaplan and Simon mutilated chessboard experiment shows that insight is a transition from poor to good problem formulation: the covering strategy leads to combinatorial explosion; the parity strategy makes the solution obvious.",
-    "Relevance realization—the capacity to zero in on the relevant information out of a combinatorially explosive space—is introduced as the core of intelligence, and insight is the self-corrective mechanism by which relevance realization reforms itself."
+    "Relevance realization, the capacity to zero in on the relevant information out of a combinatorially explosive space, is introduced as the core of intelligence, and insight is the self-corrective mechanism by which relevance realization reforms itself."
   ],
   "concepts": [
     {
       "id": "relevance-realization",
       "treatment": "introduced",
-      "summary": "Relevance realization is introduced as the answer to how intelligence navigates combinatorial explosion: not by algorithm but by somehow zeroing in on the relevant information—the concept around which the entire cognitive-scientific analysis will converge."
+      "summary": "Relevance realization is introduced as the answer to how intelligence navigates combinatorial explosion: not by algorithm but by somehow zeroing in on the relevant information, the concept around which the entire cognitive-scientific analysis will converge."
     },
     {
       "id": "insight",
       "treatment": "developed",
-      "summary": "Insight is analyzed as the process of moving from poor to good problem formulation—from a framing that generates combinatorial explosion to one that makes the solution perspicuous. The mutilated chessboard experiment demonstrates this concretely."
+      "summary": "Insight is analyzed as the process of moving from poor to good problem formulation, from a framing that generates combinatorial explosion to one that makes the solution perspicuous. The mutilated chessboard experiment demonstrates this concretely."
     },
     {
       "id": "the-frame-problem",
       "treatment": "developed",
-      "summary": "The frame problem—how an agent selects relevant information from an infinite space of considerations—is shown to be the deep version of the problem Newell and Simon's combinatorial explosion reveals."
+      "summary": "The frame problem, how an agent selects relevant information from an infinite space of considerations, is shown to be the deep version of the problem Newell and Simon's combinatorial explosion reveals."
     },
     {
       "id": "salience-landscape",
@@ -40,7 +40,7 @@
     {
       "id": "transframing",
       "treatment": "developed",
-      "summary": "Problem reformulation—shifting from covering strategy to parity strategy in the mutilated chessboard—is an instance of transframing: the wholesale replacement of one problem frame with another that makes the solution obvious."
+      "summary": "Problem reformulation, shifting from covering strategy to parity strategy in the mutilated chessboard, is an instance of transframing: the wholesale replacement of one problem frame with another that makes the solution obvious."
     }
   ],
   "people": [

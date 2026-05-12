@@ -2,7 +2,7 @@
   "id": "perspectival-knowing",
   "title": "Perspectival Knowing",
   "conceptId": "perspectival-knowing",
-  "abstract": "After this course, students will be able to explain what perspectival knowing is — knowing constituted by what it is like to occupy a particular perspective, encoded in one's salience landscape — and why it is irreducible to propositional reports about one's perspective. Students will understand why Pascal's distinction between the 'spirit of geometry' and the 'spirit of finesse' diagnoses the modern loss of perspectival knowing, and why transformative experiences (mindfulness, gnosis, awakening) operate precisely at this level. This concept is pivotal in the series because it shows how two people can agree on all the propositions about a situation yet inhabit it completely differently — and why that difference matters more for wisdom, meaning, and therapy than any propositional disagreement. Perspectival knowing sits between procedural and participatory knowing in the foundational hierarchy.",
+  "abstract": "After this course, students will be able to explain what perspectival knowing is, knowing constituted by what it is like to occupy a particular perspective, encoded in one's salience landscape, and why it is irreducible to propositional reports about one's perspective. Students will understand why Pascal's distinction between the 'spirit of geometry' and the 'spirit of finesse' diagnoses the modern loss of perspectival knowing, and why transformative experiences (mindfulness, gnosis, awakening) operate precisely at this level. This concept is pivotal in the series because it shows how two people can agree on all the propositions about a situation yet inhabit it completely differently, and why that difference matters more for wisdom, meaning, and therapy than any propositional disagreement. Perspectival knowing sits between procedural and participatory knowing in the foundational hierarchy.",
   "prerequisites": [],
   "modules": [
     {
@@ -14,7 +14,7 @@
         {
           "episode": 1,
           "phrase": "There's the kind of knowing of what it is like to be having this experience right now.",
-          "note": "First introduction — perspectival knowing as the 'what it is like' dimension of experience."
+          "note": "First introduction, perspectival knowing as the 'what it is like' dimension of experience."
         },
         {
           "episode": 10,
@@ -28,7 +28,7 @@
           "expectedThemes": ["lived quality not description", "salience distribution not propositional content", "felt significance not abstract fact"]
         },
         {
-          "prompt": "Two people can watch the same film and both correctly describe what happened in it — yet one finds it revelatory while the other finds it trivial. How does the concept of the salience landscape explain this difference?",
+          "prompt": "Two people can watch the same film and both correctly describe what happened in it, yet one finds it revelatory while the other finds it trivial. How does the concept of the salience landscape explain this difference?",
           "expectedThemes": ["what stands out differs", "salience distribution shapes meaning", "perspectival difference not propositional difference"]
         },
         {
@@ -42,16 +42,16 @@
       ],
       "misconceptionBranches": [
         {
-          "misconception": "Perspectival knowing is just subjective bias — it is less reliable than objective propositional knowing.",
+          "misconception": "Perspectival knowing is just subjective bias, it is less reliable than objective propositional knowing.",
           "correction": "Vervaeke argues perspectival knowing is a genuine kind of knowing constituted by what it is like to occupy a perspective. It is not mere bias but a structured epistemic achievement that propositional reports about one's perspective cannot replace."
         },
         {
-          "misconception": "Perspectival knowing is the same as emotional response — if you feel something strongly, that is perspectival knowing.",
+          "misconception": "Perspectival knowing is the same as emotional response, if you feel something strongly, that is perspectival knowing.",
           "correction": "Perspectival knowing is the structural salience landscape that makes emotional response intelligible in the first place. Emotion depends on perspectival knowing, not vice versa."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "A therapist and a depressed client might agree on every factual proposition about the client's situation — yet the client experiences it as hopeless while the therapist can see possibilities. How does Vervaeke's account of perspectival knowing explain this gap, and what kind of change in therapy addresses it?",
+        "prompt": "A therapist and a depressed client might agree on every factual proposition about the client's situation, yet the client experiences it as hopeless while the therapist can see possibilities. How does Vervaeke's account of perspectival knowing explain this gap, and what kind of change in therapy addresses it?",
         "expectedThemes": ["salience landscapes differ not facts", "therapy targets perspectival not propositional", "change in 'what it is like' not change in beliefs"]
       }
     },
@@ -69,7 +69,7 @@
         {
           "episode": 17,
           "phrase": "you don't know what it is like cause that's the core of you don't know what your salience landscape will be like when you eat this fruit until you have eaten the fruit.",
-          "note": "Perspectival knowing cannot be anticipated — it must be undergone."
+          "note": "Perspectival knowing cannot be anticipated, it must be undergone."
         }
       ],
       "socraticSeeds": [
@@ -86,14 +86,14 @@
           "expectedThemes": ["salience landscape transformed", "new 'what it is like' became available", "reality felt differently constituted"]
         },
         {
-          "prompt": "In what sense is the meaning crisis itself a crisis of perspectival knowing — not just a shortage of information but a transformation in what it is like to inhabit modern life?",
+          "prompt": "In what sense is the meaning crisis itself a crisis of perspectival knowing, not just a shortage of information but a transformation in what it is like to inhabit modern life?",
           "expectedThemes": ["modern salience landscape lacks depth and connection", "things don't matter in the right way", "propositional abundance with perspectival poverty"]
         }
       ],
       "misconceptionBranches": [
         {
           "misconception": "Recovering perspectival knowing means rejecting science or returning to pre-scientific worldviews.",
-          "correction": "Vervaeke is seeking an integration — 4E cognitive science offers a third-generation scientific framework that can accommodate perspectival and participatory knowing within a naturalistic account. The goal is not to reject science but to expand its self-understanding."
+          "correction": "Vervaeke is seeking an integration, 4E cognitive science offers a third-generation scientific framework that can accommodate perspectival and participatory knowing within a naturalistic account. The goal is not to reject science but to expand its self-understanding."
         }
       ],
       "checkForUnderstanding": {

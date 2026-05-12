@@ -2,7 +2,7 @@
   "id": "the-sacred",
   "title": "The Sacred",
   "conceptId": "the-sacred",
-  "abstract": "Vervaeke proposes a naturalistic account of the sacred — grounded in relevance realization and 4E cognition — that does not require supernatural metaphysical commitment yet does justice to the function and phenomenology of sacredness across traditions. The sacred is understood as the transjective relationship between the inexhaustible no-thing-ness of reality (always exceeding any frame) and the inexhaustible no-thing-ness of relevance realization in oneself. Sacredness functions as a meta-meaning system that homes individuals against horror and absurdity, and the symbol, mythos, and ritual are the primary vehicles by which it is activated. Students will learn to distinguish the sacred from the supernatural, understand its meta-meaning function via Geertz, grasp its transjective character via Vervaeke's own account, and see how the numinous marks the transgressive edge of sacred experience. This concept is pivotal in the series arc: it provides the experiential target for the 'religion that is not a religion.'",
+  "abstract": "Vervaeke proposes a naturalistic account of the sacred, grounded in relevance realization and 4E cognition, that does not require supernatural metaphysical commitment yet does justice to the function and phenomenology of sacredness across traditions. The sacred is understood as the transjective relationship between the inexhaustible no-thing-ness of reality (always exceeding any frame) and the inexhaustible no-thing-ness of relevance realization in oneself. Sacredness functions as a meta-meaning system that homes individuals against horror and absurdity, and the symbol, mythos, and ritual are the primary vehicles by which it is activated. Students will learn to distinguish the sacred from the supernatural, understand its meta-meaning function via Geertz, grasp its transjective character via Vervaeke's own account, and see how the numinous marks the transgressive edge of sacred experience. This concept is pivotal in the series arc: it provides the experiential target for the 'religion that is not a religion.'",
   "prerequisites": [
     "transjective-relations",
     "the-meaning-crisis"
@@ -33,7 +33,7 @@
           ]
         },
         {
-          "prompt": "Geertz argues that sacredness is what makes individual meaning systems possible — it is meta-meaning. What would happen to all your particular meaningful projects if the meta-meaning system failed?",
+          "prompt": "Geertz argues that sacredness is what makes individual meaning systems possible, it is meta-meaning. What would happen to all your particular meaningful projects if the meta-meaning system failed?",
           "expectedThemes": [
             "absurdity",
             "agent-arena decoupling",
@@ -53,15 +53,15 @@
       "misconceptionBranches": [
         {
           "misconception": "Sacredness is just a strong feeling of awe or reverence.",
-          "correction": "Sacredness has a structural function — meta-meaning, homing against horror — and a transgressive edge (the numinous) that mere feelings of awe do not capture."
+          "correction": "Sacredness has a structural function, meta-meaning, homing against horror, and a transgressive edge (the numinous) that mere feelings of awe do not capture."
         },
         {
-          "misconception": "The sacred is identical to the religious — you need a religion to access the sacred.",
+          "misconception": "The sacred is identical to the religious, you need a religion to access the sacred.",
           "correction": "Vervaeke argues that the sacred as meta-meaning system operates prior to and independently of any particular religious tradition; the goal of 'religion that is not a religion' is to re-engage the sacred without supernatural metaphysical commitment."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "If someone's sense of the sacred collapsed entirely — if nothing felt genuinely meta-meaningful — what would their experience be like, and why couldn't propositional argument restore it?",
+        "prompt": "If someone's sense of the sacred collapsed entirely, if nothing felt genuinely meta-meaningful, what would their experience be like, and why couldn't propositional argument restore it?",
         "expectedThemes": [
           "horror and absurdity at the most fundamental level",
           "meta-meaning is not propositional",
@@ -86,7 +86,7 @@
         },
         {
           "episode": 46,
-          "phrase": "the enhancement of religio is already—and remember the role of wonder, potentially even awe here? It's taking us into sacredness (writes Sacredness below Religio), the notion of sacredness that I already have argued and articulated for."
+          "phrase": "the enhancement of religio is already, and remember the role of wonder, potentially even awe here? It's taking us into sacredness (writes Sacredness below Religio), the notion of sacredness that I already have argued and articulated for."
         }
       ],
       "socraticSeeds": [
@@ -119,15 +119,15 @@
       "misconceptionBranches": [
         {
           "misconception": "Vervaeke's naturalistic account reduces the sacred to merely a feeling produced by the brain.",
-          "correction": "The transjective account argues the sacred is a real relationship between organism and environment — not subjective projection and not objective detection; it is a structural feature of relevance realization meeting the inexhaustible nature of reality."
+          "correction": "The transjective account argues the sacred is a real relationship between organism and environment, not subjective projection and not objective detection; it is a structural feature of relevance realization meeting the inexhaustible nature of reality."
         },
         {
           "misconception": "The sacred is identical to religio.",
-          "correction": "Religio is the participatory machinery; the sacred is the phenomenological encounter with the inexhaustible that religio makes possible — they are closely related but distinct."
+          "correction": "Religio is the participatory machinery; the sacred is the phenomenological encounter with the inexhaustible that religio makes possible, they are closely related but distinct."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "Why does Vervaeke locate the source of sacredness in inexhaustibility rather than in any particular sacred object, text, or place — and what are the implications for the 'religion that is not a religion'?",
+        "prompt": "Why does Vervaeke locate the source of sacredness in inexhaustibility rather than in any particular sacred object, text, or place, and what are the implications for the 'religion that is not a religion'?",
         "expectedThemes": [
           "particular symbols are indispensable but not metaphysically necessary",
           "sacred can be accessed without supernatural commitment",
@@ -147,7 +147,7 @@
         },
         {
           "episode": 46,
-          "phrase": "one of the things that wisdom is doing that's also really important is it's enhancing religio (writes Religio below Wisdom). That's a way in which you can powerfully—and we saw already the connection."
+          "phrase": "one of the things that wisdom is doing that's also really important is it's enhancing religio (writes Religio below Wisdom). That's a way in which you can powerfully, and we saw already the connection."
         }
       ],
       "socraticSeeds": [
@@ -168,22 +168,22 @@
           ]
         },
         {
-          "prompt": "Conversely, a secular skeptic might say: 'The sacred is just cultural conditioning — there is nothing genuinely significant out there.' How might Vervaeke respond?",
+          "prompt": "Conversely, a secular skeptic might say: 'The sacred is just cultural conditioning, there is nothing genuinely significant out there.' How might Vervaeke respond?",
           "expectedThemes": [
             "transjectivity means the sacred is not merely projected",
             "relevance realization tracks real features of organism-environment interaction",
-            "not romanticism — real relational structure"
+            "not romanticism, real relational structure"
           ]
         }
       ],
       "misconceptionBranches": [
         {
           "misconception": "Rejecting supernatural accounts of the sacred means rejecting the reality of sacred experience altogether.",
-          "correction": "Vervaeke argues the sacred is a genuine transjective relationship grounded in relevance realization and the inexhaustibility of reality — naturalistic but genuinely real, not illusory."
+          "correction": "Vervaeke argues the sacred is a genuine transjective relationship grounded in relevance realization and the inexhaustibility of reality, naturalistic but genuinely real, not illusory."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "How does Vervaeke's naturalistic account of the sacred help explain why both religious and non-religious people can have genuine experiences of sacredness — wonder, awe, and deep connectedness — without requiring the same metaphysical commitments?",
+        "prompt": "How does Vervaeke's naturalistic account of the sacred help explain why both religious and non-religious people can have genuine experiences of sacredness, wonder, awe, and deep connectedness, without requiring the same metaphysical commitments?",
         "expectedThemes": [
           "sacred grounds in transjectivity not supernaturalism",
           "different myths and symbols can activate the same structural feature",

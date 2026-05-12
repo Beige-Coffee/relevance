@@ -2,7 +2,7 @@
   "id": "transjective-relations",
   "title": "Transjective Relations",
   "conceptId": "transjective-relations",
-  "abstract": "Vervaeke introduces transjectivity as his primary metaphysical category for moving beyond the subject-object dichotomy that has dominated Western philosophy since Descartes. Relevance, affordances, meaning, religio, and the sacred are all transjective — neither merely projected by the mind onto a neutral world, nor passively detected in an independently existing world, but real co-constituting relations between organism and environment in which both poles are mutually realized. Grounded in 4E cognition and the biology of niche construction, transjectivity provides a naturalistic account of how meaning can be genuinely real without requiring supernatural ontology. Students will learn to distinguish transjectivity from both subjectivism and objectivism, understand its grounding in relevance realization and co-evolutionary fittedness, and see how it underwrites the sacred, symbols, and religio.",
+  "abstract": "Vervaeke introduces transjectivity as his primary metaphysical category for moving beyond the subject-object dichotomy that has dominated Western philosophy since Descartes. Relevance, affordances, meaning, religio, and the sacred are all transjective, neither merely projected by the mind onto a neutral world, nor passively detected in an independently existing world, but real co-constituting relations between organism and environment in which both poles are mutually realized. Grounded in 4E cognition and the biology of niche construction, transjectivity provides a naturalistic account of how meaning can be genuinely real without requiring supernatural ontology. Students will learn to distinguish transjectivity from both subjectivism and objectivism, understand its grounding in relevance realization and co-evolutionary fittedness, and see how it underwrites the sacred, symbols, and religio.",
   "prerequisites": [
     "the-four-kinds-of-knowing"
   ],
@@ -36,7 +36,7 @@
           ]
         },
         {
-          "prompt": "Vervaeke contrasts transjective with 'romantic' (subjective). What does it mean to say that caring about something 'romantically dwells within subjectivity' — and why does he reject this?",
+          "prompt": "Vervaeke contrasts transjective with 'romantic' (subjective). What does it mean to say that caring about something 'romantically dwells within subjectivity', and why does he reject this?",
           "expectedThemes": [
             "romantic account makes meaning merely personal",
             "transjectivity means the relationship is real not merely felt",
@@ -54,16 +54,16 @@
       ],
       "misconceptionBranches": [
         {
-          "misconception": "Transjective means intersubjective — something agreed upon by multiple people.",
+          "misconception": "Transjective means intersubjective, something agreed upon by multiple people.",
           "correction": "Transjectivity refers to the real relational structure between organism and environment, independent of agreement among subjects; it is not a social consensus claim."
         },
         {
           "misconception": "Acknowledging that relevance is transjective is a retreat into subjectivism.",
-          "correction": "Transjectivity is a claim that the relationship itself has real structure grounded in the biology of niche construction and the cognitive science of relevance realization — it is neither objectivism nor subjectivism."
+          "correction": "Transjectivity is a claim that the relationship itself has real structure grounded in the biology of niche construction and the cognitive science of relevance realization, it is neither objectivism nor subjectivism."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "A student argues: 'Beauty is just in the eye of the beholder, so there's nothing really beautiful — it's all subjective.' How would Vervaeke's concept of transjectivity respond to this?",
+        "prompt": "A student argues: 'Beauty is just in the eye of the beholder, so there's nothing really beautiful, it's all subjective.' How would Vervaeke's concept of transjectivity respond to this?",
         "expectedThemes": [
           "beauty may be transjective rather than purely subjective",
           "real relationship between organism and world",
@@ -97,7 +97,7 @@
           ]
         },
         {
-          "prompt": "Humans have built cities, languages, and institutions that shape how we think. Does this mean culture is part of our cognitive environment — and if so, what does that mean for where 'meaning' resides?",
+          "prompt": "Humans have built cities, languages, and institutions that shape how we think. Does this mean culture is part of our cognitive environment, and if so, what does that mean for where 'meaning' resides?",
           "expectedThemes": [
             "extended cognition",
             "distributed cognition across tools and practices",
@@ -105,7 +105,7 @@
           ]
         },
         {
-          "prompt": "If fittedness is co-evolutionary, does that mean relevance can change over time — for an individual, a culture, an era? What are the implications for the meaning crisis?",
+          "prompt": "If fittedness is co-evolutionary, does that mean relevance can change over time, for an individual, a culture, an era? What are the implications for the meaning crisis?",
           "expectedThemes": [
             "relevance is historically situated",
             "meaning crisis as disruption of evolved fittedness",
@@ -116,11 +116,11 @@
       "misconceptionBranches": [
         {
           "misconception": "Transjectivity requires some kind of mystical or non-physical ontology.",
-          "correction": "Transjectivity is grounded in the biological and cognitive science of niche construction and enaction — it is a fully naturalistic account."
+          "correction": "Transjectivity is grounded in the biological and cognitive science of niche construction and enaction, it is a fully naturalistic account."
         }
       ],
       "checkForUnderstanding": {
-        "prompt": "How does understanding meaning as co-evolved fittedness change the question of how to address the meaning crisis — compared with treating meaning as something either discovered objectively or invented subjectively?",
+        "prompt": "How does understanding meaning as co-evolved fittedness change the question of how to address the meaning crisis, compared with treating meaning as something either discovered objectively or invented subjectively?",
         "expectedThemes": [
           "cannot restore fixed meaning",
           "must co-create new fittedness",
@@ -133,7 +133,7 @@
       "id": "transjectivity-and-meaning",
       "title": "Transjectivity, Meaning, and the Sacred",
       "subConceptId": "transjectivity-and-meaning",
-      "learningObjective": "Show how transjectivity underwrites the reality of meaning, religio, and the sacred — explaining why these are neither invented by the subject nor simply found in the world.",
+      "learningObjective": "Show how transjectivity underwrites the reality of meaning, religio, and the sacred, explaining why these are neither invented by the subject nor simply found in the world.",
       "expositionPassages": [
         {
           "episode": 35,
@@ -146,7 +146,7 @@
       ],
       "socraticSeeds": [
         {
-          "prompt": "Vervaeke argues meaning is transjective — found in the deep caring, involvement, and participation between organism and world. How does this differ from saying 'meaning is just what you make of things'?",
+          "prompt": "Vervaeke argues meaning is transjective, found in the deep caring, involvement, and participation between organism and world. How does this differ from saying 'meaning is just what you make of things'?",
           "expectedThemes": [
             "transjectivity is real not arbitrary",
             "deep caring tracks real features",
@@ -162,7 +162,7 @@
           ]
         },
         {
-          "prompt": "Why does Vervaeke say religio 'simultaneously grounds the self and its world' — and what does the 'pre-egoic' character of religio suggest about the relationship between self and world in participatory knowing?",
+          "prompt": "Why does Vervaeke say religio 'simultaneously grounds the self and its world', and what does the 'pre-egoic' character of religio suggest about the relationship between self and world in participatory knowing?",
           "expectedThemes": [
             "self and world co-emerge in religio",
             "participatory knowing precedes subject-object split",
@@ -170,7 +170,7 @@
           ]
         },
         {
-          "prompt": "How does the concept of transjectivity help explain why symbols, rituals, and practices can genuinely transform people — rather than merely signifying ideas that the person was already thinking?",
+          "prompt": "How does the concept of transjectivity help explain why symbols, rituals, and practices can genuinely transform people, rather than merely signifying ideas that the person was already thinking?",
           "expectedThemes": [
             "symbols are transjective participatory structures",
             "ritual enacts not just represents",
@@ -181,7 +181,7 @@
       "misconceptionBranches": [
         {
           "misconception": "If meaning is transjective, then everyone's meaning is equally valid since it all depends on the organism-environment relation.",
-          "correction": "Transjectivity does not collapse into relativism — the relationship has real structure that can be more or less optimal, more or less self-deceptive; wisdom is the cultivation of the most optimal transjective relations."
+          "correction": "Transjectivity does not collapse into relativism, the relationship has real structure that can be more or less optimal, more or less self-deceptive; wisdom is the cultivation of the most optimal transjective relations."
         }
       ],
       "checkForUnderstanding": {

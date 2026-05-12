@@ -2,24 +2,24 @@
   "num": 44,
   "slug": "theories-of-wisdom",
   "title": "Theories of Wisdom",
-  "essence": "Vervaeke continues the survey of wisdom theories, beginning with further critique of the Berlin paradigm and then examining Ardelt's three-factor model and Sternberg's balance theory. The Berlin paradigm is critiqued for confusing wisdom with expertise: it describes knowledge states but not the transformative process by which those states come to be, and its practitioners often look like domain experts rather than genuinely wise persons. Ardelt's model identifies three interacting components — cognitive (understanding causes and significance), reflective (perspectival self-examination), and affective (agape, compassionate concern for others) — and Vervaeke argues this is a significant advance because it connects wisdom to meaning in life through agape. John Kekes's distinction between descriptive and interpretive knowledge is introduced: interpretive knowledge is not just factual knowledge about the world but a way of seeing the deep patterns that link facts to human significance. Sternberg's balance theory frames wisdom as the application of tacit understanding to balance intrapersonal, interpersonal, and extrapersonal interests — adapt, shape, or select environments — toward a common good. LA Paul's transformative experience is cited as illuminating why this balance cannot be achieved through deliberation alone. The episode closes with the claim that any adequate wisdom theory must account for gnosis — the transformative participatory knowing that restructures the self.",
+  "essence": "Vervaeke continues the survey of wisdom theories, beginning with further critique of the Berlin paradigm and then examining Ardelt's three-factor model and Sternberg's balance theory. The Berlin paradigm is critiqued for confusing wisdom with expertise: it describes knowledge states but not the transformative process by which those states come to be, and its practitioners often look like domain experts rather than genuinely wise persons. Ardelt's model identifies three interacting components, cognitive (understanding causes and significance), reflective (perspectival self-examination), and affective (agape, compassionate concern for others), and Vervaeke argues this is a significant advance because it connects wisdom to meaning in life through agape. John Kekes's distinction between descriptive and interpretive knowledge is introduced: interpretive knowledge is not just factual knowledge about the world but a way of seeing the deep patterns that link facts to human significance. Sternberg's balance theory frames wisdom as the application of tacit understanding to balance intrapersonal, interpersonal, and extrapersonal interests, adapt, shape, or select environments, toward a common good. LA Paul's transformative experience is cited as illuminating why this balance cannot be achieved through deliberation alone. The episode closes with the claim that any adequate wisdom theory must account for gnosis, the transformative participatory knowing that restructures the self.",
   "keyClaims": [
     "The Berlin wisdom paradigm confuses wisdom with expertise by focusing on knowledge products rather than the transformative cognitive process that generates them.",
-    "Ardelt's three-factor model — cognitive understanding, reflective perspectival examination, and agape — is a significant advance because it connects wisdom to meaning in life through compassionate concern.",
-    "Kekes's interpretive knowledge — the ability to see how facts bear on human significance — is a necessary component of wisdom beyond mere factual knowledge.",
+    "Ardelt's three-factor model, cognitive understanding, reflective perspectival examination, and agape, is a significant advance because it connects wisdom to meaning in life through compassionate concern.",
+    "Kekes's interpretive knowledge, the ability to see how facts bear on human significance, is a necessary component of wisdom beyond mere factual knowledge.",
     "Sternberg's balance theory frames wisdom as tacit understanding used to balance intrapersonal, interpersonal, and extrapersonal interests toward a common good.",
-    "An adequate theory of wisdom must account for gnosis — the participatory knowing that transforms the self — which no purely propositional account can capture."
+    "An adequate theory of wisdom must account for gnosis, the participatory knowing that transforms the self, which no purely propositional account can capture."
   ],
   "concepts": [
     {
       "id": "wisdom",
       "treatment": "developed",
-      "summary": "Surveyed through Ardelt's three-factor model and Sternberg's balance theory; the episode identifies what each captures and what is still missing — gnosis and participatory transformation."
+      "summary": "Surveyed through Ardelt's three-factor model and Sternberg's balance theory; the episode identifies what each captures and what is still missing, gnosis and participatory transformation."
     },
     {
       "id": "agape",
       "treatment": "developed",
-      "summary": "Ardelt's affective component is identified as agape — compassionate concern for others — and Vervaeke argues this is what connects wisdom to meaning in life."
+      "summary": "Ardelt's affective component is identified as agape, compassionate concern for others, and Vervaeke argues this is what connects wisdom to meaning in life."
     },
     {
       "id": "perspectival-knowing",
@@ -29,7 +29,7 @@
     {
       "id": "participatory-knowing",
       "treatment": "applied",
-      "summary": "Sternberg's tacit understanding — the implicit knowledge that cannot be formalized — is related to participatory knowing; and gnosis is invoked as the participatory dimension no product theory captures."
+      "summary": "Sternberg's tacit understanding, the implicit knowledge that cannot be formalized, is related to participatory knowing; and gnosis is invoked as the participatory dimension no product theory captures."
     },
     {
       "id": "gnosis",
@@ -51,12 +51,12 @@
     {
       "id": "monika-ardelt",
       "role": "subject",
-      "summary": "Her three-factor model — cognitive, reflective, affective — is the primary subject of the episode's first half; Vervaeke credits it for connecting wisdom to meaning through agape."
+      "summary": "Her three-factor model, cognitive, reflective, affective, is the primary subject of the episode's first half; Vervaeke credits it for connecting wisdom to meaning through agape."
     },
     {
       "id": "sternberg",
       "role": "subject",
-      "summary": "His balance theory of wisdom — tacit understanding used to balance interests toward a common good via adapt/shape/select — is surveyed and partially endorsed."
+      "summary": "His balance theory of wisdom, tacit understanding used to balance interests toward a common good via adapt/shape/select, is surveyed and partially endorsed."
     },
     {
       "id": "la-paul",

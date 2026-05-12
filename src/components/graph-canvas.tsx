@@ -4,57 +4,70 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import dynamic from "next/dynamic";
 import type { Graph, GraphNode, GraphLink } from "@/lib/types";
 
-// react-force-graph only runs in the browser; load with no SSR.
 const ForceGraph2D = dynamic(() => import("react-force-graph-2d"), { ssr: false });
 
-type Filter = "all" | "episode" | "concept" | "person";
-
-const COLOR_LIGHT: Record<string, string> = {
-  episode: "#8b3a3a",
-  concept: "#b8893c",
-  person: "#3c4a8b",
-};
-const COLOR_DARK: Record<string, string> = {
-  episode: "#d28a7e",
-  concept: "#d4a85a",
-  person: "#8aa1e3",
-};
+export type GraphMode = "concepts" | "persons";
 
 interface Props {
   graph: Graph;
+  mode: GraphMode;
   onSelect: (node: GraphNode | null) => void;
+  selectedId?: string | null;
+  minDegree?: number;
 }
 
-export function GraphCanvas({ graph, onSelect }: Props) {
+interface RenderNode extends GraphNode {
+  x?: number;
+  y?: number;
+  vx?: number;
+  vy?: number;
+  fx?: number | null;
+  fy?: number | null;
+}
+
+export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const fgRef = useRef<unknown>(null);
   const [size, setSize] = useState({ w: 800, h: 600 });
-  const [filter, setFilter] = useState<Filter>("all");
-  const [minCount, setMinCount] = useState(2);
   const [dark, setDark] = useState(false);
+  const [hoverId, setHoverId] = useState<string | null>(null);
 
   useEffect(() => {
     setDark(window.matchMedia?.("(prefers-color-scheme: dark)").matches ?? false);
     const ro = new ResizeObserver(() => {
       if (containerRef.current) {
-        setSize({
-          w: containerRef.current.clientWidth,
-          h: containerRef.current.clientHeight,
-        });
+        setSize({ w: containerRef.current.clientWidth, h: containerRef.current.clientHeight });
       }
     });
     if (containerRef.current) ro.observe(containerRef.current);
     return () => ro.disconnect();
   }, []);
 
-  const palette = dark ? COLOR_DARK : COLOR_LIGHT;
+  const palette = useMemo(
+    () => ({
+      bg: dark ? "#0c1019" : "#ffffff",
+      stroke: dark ? "#6b8cf2" : "#1f3a8a",
+      strokeSoft: dark ? "#3a4670" : "#a8b8e3",
+      fill: dark ? "#0c1019" : "#ffffff",
+      fillFlagship: dark ? "#3257d6" : "#1f3a8a",
+      fillPerson: dark ? "#1d2747" : "#e6edff",
+      strokePerson: dark ? "#6b8cf2" : "#3257d6",
+      selected: dark ? "#d4b25c" : "#c08a2c",
+      ink: dark ? "#e8ecf5" : "#0f1623",
+      muted: dark ? "#7b8499" : "#6b7488",
+      link: dark ? "#2a3548" : "#b8c3d6",
+      linkActive: dark ? "#8aa1e3" : "#1f3a8a",
+    }),
+    [dark]
+  );
 
+  // Filter the graph to the selected mode. Episodes are never shown.
   const filteredGraph = useMemo(() => {
+    const kindKeep = mode === "concepts" ? "concept" : "person";
     const visible = new Set<string>();
     for (const n of graph.nodes) {
-      if (filter !== "all" && n.kind !== filter && n.kind !== "episode") continue;
-      // Hide low-degree concept/person nodes when minCount > 1
-      if (n.kind !== "episode" && (n.count ?? 1) < minCount) continue;
+      if (n.kind !== kindKeep) continue;
+      if ((n.count ?? 1) < minDegree) continue;
       visible.add(n.id);
     }
     const nodes = graph.nodes.filter((n) => visible.has(n.id));
@@ -64,69 +77,104 @@ export function GraphCanvas({ graph, onSelect }: Props) {
       return visible.has(s) && visible.has(t);
     });
     return { nodes, links };
-  }, [graph, filter, minCount]);
+  }, [graph, mode, minDegree]);
+
+  // Build neighbor index for highlighting on hover.
+  const neighbors = useMemo(() => {
+    const n: Record<string, Set<string>> = {};
+    for (const l of filteredGraph.links) {
+      const s = typeof l.source === "string" ? l.source : (l.source as GraphNode).id;
+      const t = typeof l.target === "string" ? l.target : (l.target as GraphNode).id;
+      (n[s] ??= new Set()).add(t);
+      (n[t] ??= new Set()).add(s);
+    }
+    return n;
+  }, [filteredGraph]);
+
+  const activeId = hoverId ?? selectedId ?? null;
+  const activeNeighbors = activeId ? neighbors[activeId] ?? new Set() : new Set();
 
   return (
-    <div className="flex-1 flex flex-col">
-      <div className="flex flex-wrap items-center gap-3 px-6 py-3 border-b border-[var(--border)] text-sm">
-        <div className="flex items-center gap-1.5">
-          <span className="text-[var(--muted)] text-xs uppercase tracking-wider">Show</span>
-          {(["all", "episode", "concept", "person"] as Filter[]).map((f) => (
-            <button
-              key={f}
-              onClick={() => setFilter(f)}
-              className={`px-2.5 py-1 text-xs rounded-md border transition-colors ${
-                filter === f
-                  ? "bg-[var(--ink)] text-[var(--bg)] border-[var(--ink)]"
-                  : "border-[var(--border)] text-[var(--ink-soft)] hover:border-[var(--accent)]"
-              }`}
-            >
-              {f}
-            </button>
-          ))}
-        </div>
-        <div className="flex items-center gap-2 ml-2">
-          <span className="text-[var(--muted)] text-xs uppercase tracking-wider">Min episodes</span>
-          <input
-            type="range"
-            min={1}
-            max={6}
-            value={minCount}
-            onChange={(e) => setMinCount(Number(e.target.value))}
-            className="accent-[var(--accent)]"
-          />
-          <span className="mono text-xs text-[var(--ink-soft)] w-4 text-center">{minCount}</span>
-        </div>
-        <div className="ml-auto text-xs text-[var(--muted)]">
-          {filteredGraph.nodes.length} nodes · {filteredGraph.links.length} links
-        </div>
-      </div>
+    <div ref={containerRef} className="relative w-full h-full">
+      <ForceGraph2D
+        ref={fgRef as never}
+        width={size.w}
+        height={size.h}
+        graphData={filteredGraph as unknown as { nodes: GraphNode[]; links: GraphLink[] }}
+        backgroundColor={palette.bg}
+        nodeId="id"
+        nodeRelSize={4}
+        nodeVal={(n) => {
+          const node = n as GraphNode;
+          const base = node.kind === "person" ? 1 : 1.2;
+          return base + Math.min(6, (node.count ?? 1) * 0.45);
+        }}
+        nodeLabel={(n) => (n as GraphNode).label}
+        nodeCanvasObject={(rawNode, ctx, globalScale) => {
+          const node = rawNode as RenderNode;
+          if (node.x == null || node.y == null) return;
+          const r = (node.kind === "person" ? 4.5 : 5.5) + Math.min(5, (node.count ?? 1) * 0.6);
+          const selected = node.id === selectedId;
+          const isActive = activeId === node.id;
+          const isDimmed = activeId && !isActive && !activeNeighbors.has(node.id);
 
-      <div ref={containerRef} className="flex-1 relative">
-        <ForceGraph2D
-          ref={fgRef as never}
-          width={size.w}
-          height={size.h}
-          graphData={filteredGraph as unknown as { nodes: GraphNode[]; links: GraphLink[] }}
-          backgroundColor={dark ? "#14120e" : "#faf7f1"}
-          nodeId="id"
-          nodeLabel={(n) => (n as GraphNode).label}
-          nodeColor={(n) => palette[(n as GraphNode).kind] ?? "#999"}
-          nodeRelSize={4}
-          nodeVal={(n) => {
-            const node = n as GraphNode;
-            if (node.kind === "episode") return 4;
-            return Math.min(8, 1 + (node.count ?? 1) * 0.8);
-          }}
-          linkColor={() => (dark ? "#2e2922" : "#e0d9c8")}
-          linkWidth={0.5}
-          linkDirectionalParticles={0}
-          onNodeClick={(node) => onSelect(node as unknown as GraphNode)}
-          onBackgroundClick={() => onSelect(null)}
-          cooldownTicks={120}
-          enableNodeDrag={false}
-        />
-      </div>
+          ctx.globalAlpha = isDimmed ? 0.25 : 1;
+
+          // Draw fill
+          ctx.beginPath();
+          ctx.arc(node.x, node.y, r, 0, 2 * Math.PI);
+          if (node.kind === "concept") {
+            ctx.fillStyle = node.flagship ? palette.fillFlagship : palette.fill;
+          } else {
+            ctx.fillStyle = palette.fillPerson;
+          }
+          ctx.fill();
+
+          // Draw stroke
+          ctx.lineWidth = selected ? 2.4 : isActive ? 2 : 1.4;
+          ctx.strokeStyle = selected
+            ? palette.selected
+            : node.kind === "concept"
+              ? palette.stroke
+              : palette.strokePerson;
+          ctx.stroke();
+
+          // Label visible when hovered/selected or zoomed in
+          const showLabel = isActive || selected || globalScale > 1.4;
+          if (showLabel) {
+            ctx.font = `${Math.max(9, 11 / globalScale).toFixed(0)}px ui-sans-serif, system-ui`;
+            ctx.textAlign = "center";
+            ctx.textBaseline = "top";
+            ctx.fillStyle = palette.ink;
+            ctx.fillText(node.label, node.x, node.y + r + 2);
+          }
+          ctx.globalAlpha = 1;
+        }}
+        linkColor={(l) => {
+          const link = l as GraphLink;
+          if (!activeId) return palette.link;
+          const s = typeof link.source === "string" ? link.source : (link.source as GraphNode).id;
+          const t = typeof link.target === "string" ? link.target : (link.target as GraphNode).id;
+          if (s === activeId || t === activeId) return palette.linkActive;
+          return palette.link;
+        }}
+        linkWidth={(l) => {
+          const link = l as GraphLink;
+          if (!activeId) return 0.8;
+          const s = typeof link.source === "string" ? link.source : (link.source as GraphNode).id;
+          const t = typeof link.target === "string" ? link.target : (link.target as GraphNode).id;
+          return s === activeId || t === activeId ? 1.6 : 0.5;
+        }}
+        onNodeHover={(n) => setHoverId(n ? ((n as GraphNode).id) : null)}
+        onNodeClick={(node) => onSelect(node as unknown as GraphNode)}
+        onBackgroundClick={() => onSelect(null)}
+        enableNodeDrag={true}
+        cooldownTicks={500}
+        d3AlphaDecay={0.018}
+        d3VelocityDecay={0.55}
+        d3AlphaMin={0.0015}
+        warmupTicks={140}
+      />
     </div>
   );
 }

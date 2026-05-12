@@ -2,29 +2,29 @@
   "num": 16,
   "slug": "christianity-and-agape",
   "title": "Christianity and Agape",
-  "essence": "This episode provides Vervaeke's most concentrated analysis of what Christianity contributed to the Western meaning-making tradition. Jesus as the kairos moment is fleshed out: he is not simply a moral teacher but a person who embodies the turning point in the narrative order at which the cosmos opens toward a different kind of future. The heart of the episode is the analysis of agape: the creative, person-making love that calls non-persons into personhood before they have merited it — the love by which God in Christianity creates the open future, and by which Jesus treats lepers and sinners as persons before society will. Paul's famous 1 Corinthians 13 — 'if I speak with the tongues of men and of angels but have not love...' — is quoted at length to demonstrate that agape is placed above even miraculous spiritual powers in the Christian scale of values. Vervaeke then analyzes the cost: Christianity's insistence on personal interiority (discovered in part through the influence of Neoplatonism on Augustine) creates a new kind of inner conflict — between one's agapic love and one's appetitive self — that the tradition projects onto God as the drama of divine wrath and grace. This inner conflict, Vervaeke argues, is not a theological invention but a real cognitive phenomenon: Paul's 'the good I would, I do not' is the phenomenology of akrasia intensified to the scale of the whole personality. The gifts of Christianity — agape, metanoia, narrative order, inner person — come with costs: a heightened inner conflict that the tradition cannot fully resolve without Neoplatonic resources.",
+  "essence": "This episode provides Vervaeke's most concentrated analysis of what Christianity contributed to the Western meaning-making tradition. Jesus as the kairos moment is fleshed out: he is not simply a moral teacher but a person who embodies the turning point in the narrative order at which the cosmos opens toward a different kind of future. The heart of the episode is the analysis of agape: the creative, person-making love that calls non-persons into personhood before they have merited it, the love by which God in Christianity creates the open future, and by which Jesus treats lepers and sinners as persons before society will. Paul's famous 1 Corinthians 13, 'if I speak with the tongues of men and of angels but have not love...', is quoted at length to demonstrate that agape is placed above even miraculous spiritual powers in the Christian scale of values. Vervaeke then analyzes the cost: Christianity's insistence on personal interiority (discovered in part through the influence of Neoplatonism on Augustine) creates a new kind of inner conflict, between one's agapic love and one's appetitive self, that the tradition projects onto God as the drama of divine wrath and grace. This inner conflict, Vervaeke argues, is not a theological invention but a real cognitive phenomenon: Paul's 'the good I would, I do not' is the phenomenology of akrasia intensified to the scale of the whole personality. The gifts of Christianity, agape, metanoia, narrative order, inner person, come with costs: a heightened inner conflict that the tradition cannot fully resolve without Neoplatonic resources.",
   "keyClaims": [
-    "Agape is the creative person-making love that turns non-persons into persons — it precedes, permeates, and follows all reciprocal relationships, and cannot be earned or reciprocated in kind.",
+    "Agape is the creative person-making love that turns non-persons into persons, it precedes, permeates, and follows all reciprocal relationships, and cannot be earned or reciprocated in kind.",
     "Jesus as kairos embodies the turning point of the narrative order: the moment at which the cosmic story becomes capable of a radically different future through participatory transformation.",
-    "Paul's 1 Corinthians 13 establishes agape as higher than all spiritual powers and intellectual gifts — the criterion of genuine transformation is the capacity for person-making love.",
-    "Christianity's intensification of personal interiority creates a new and heightened form of inner conflict — between agapic aspiration and appetitive habit — that generates the Pauline 'I do not do the good I want to do.'",
+    "Paul's 1 Corinthians 13 establishes agape as higher than all spiritual powers and intellectual gifts, the criterion of genuine transformation is the capacity for person-making love.",
+    "Christianity's intensification of personal interiority creates a new and heightened form of inner conflict, between agapic aspiration and appetitive habit, that generates the Pauline 'I do not do the good I want to do.'",
     "The gifts of Christianity (agape, metanoia, narrative order) come with characteristic costs: intensified inner conflict, and a tendency to project that conflict onto God as wrath versus grace."
   ],
   "concepts": [
     {
       "id": "agape",
       "treatment": "developed",
-      "summary": "Fully elaborated: the creative person-making love that makes persons by loving them before they are persons — the love God demonstrates by creating the open future, and that Jesus models by treating the outcast as persons."
+      "summary": "Fully elaborated: the creative person-making love that makes persons by loving them before they are persons, the love God demonstrates by creating the open future, and that Jesus models by treating the outcast as persons."
     },
     {
       "id": "kairos",
       "treatment": "developed",
-      "summary": "Jesus is analyzed as the embodiment of kairos — the turning point in the narrative order at which the cosmos opens to a radically different future through participatory transformation."
+      "summary": "Jesus is analyzed as the embodiment of kairos, the turning point in the narrative order at which the cosmos opens to a radically different future through participatory transformation."
     },
     {
       "id": "metanoia",
       "treatment": "developed",
-      "summary": "Positioned as the psycho-technology for entering the kairos moment — the radical transformation of one's salience landscape and participatory identity that enables one to be 'born again' into agapic existence."
+      "summary": "Positioned as the psycho-technology for entering the kairos moment, the radical transformation of one's salience landscape and participatory identity that enables one to be 'born again' into agapic existence."
     },
     {
       "id": "narrative-order",
@@ -39,7 +39,7 @@
     {
       "id": "akrasia",
       "treatment": "applied",
-      "summary": "Paul's 'the good I would, I do not' is the phenomenology of akrasia at the scale of the whole personality — the inner conflict that Christianity both diagnoses and struggles to resolve."
+      "summary": "Paul's 'the good I would, I do not' is the phenomenology of akrasia at the scale of the whole personality, the inner conflict that Christianity both diagnoses and struggles to resolve."
     },
     {
       "id": "eros",
@@ -66,7 +66,7 @@
     {
       "id": "jesus-of-nazareth",
       "role": "subject",
-      "summary": "Analyzed as a historical figure who embodies kairos and teaches agape and metanoia — the focus is on the cognitive-existential innovations of his teaching rather than theological claims about his nature."
+      "summary": "Analyzed as a historical figure who embodies kairos and teaches agape and metanoia, the focus is on the cognitive-existential innovations of his teaching rather than theological claims about his nature."
     },
     {
       "id": "paul",
@@ -81,7 +81,7 @@
     {
       "id": "augustine",
       "role": "referenced",
-      "summary": "Augustine's discovery of interiority (via Neoplatonism) is mentioned as what makes the inner conflict so salient — without Neoplatonic depth, the Pauline conflict would not be so acutely felt."
+      "summary": "Augustine's discovery of interiority (via Neoplatonism) is mentioned as what makes the inner conflict so salient, without Neoplatonic depth, the Pauline conflict would not be so acutely felt."
     }
   ],
   "crossRefs": [
@@ -95,13 +95,13 @@
     },
     {
       "episode": 19,
-      "context": "Augustine's synthesis of Christianity with Neoplatonism — which addresses the inner conflict introduced here — is the subject of ep-19."
+      "context": "Augustine's synthesis of Christianity with Neoplatonism, which addresses the inner conflict introduced here, is the subject of ep-19."
     }
   ],
   "quotableMoments": [
     {
       "quote": "This is the love of creation. It's the love that God is demonstrating towards humanity in the way God is an ongoing creation of the open future. So God is creating the future.",
-      "context": "Vervaeke's definition of agape as the creative person-making love — God is identified with the process of creating the open future through love, not with a static entity dispensing favor."
+      "context": "Vervaeke's definition of agape as the creative person-making love, God is identified with the process of creating the open future through love, not with a static entity dispensing favor."
     }
   ]
 }

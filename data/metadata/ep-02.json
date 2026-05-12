@@ -2,19 +2,19 @@
   "num": 2,
   "slug": "flow-metaphor-axial-revolution",
   "title": "Flow, Metaphor, and the Axial Revolution",
-  "essence": "Vervaeke bridges the shamanic world of episode 1 to the Axial Revolution by examining two cognitive mechanisms: flow states and metaphorical cognition. Flow — Csikszentmihalyi's optimal experience — is characterized by intrinsic motivation, loss of self-consciousness, and heightened processing efficiency; Vervaeke argues it was systematically cultivated by shamanic psycho-technologies and represents a real enhancement of human cognitive capacities, not merely a pleasant feeling. He then analyzes metaphor through the lens of implicit learning and exaptation: humans can take a cognitive capacity evolved for one purpose and redeploy it in a new domain, generating genuine insight. This capacity for cognitive exaptation underwrites the Axial Revolution (~800–300 BCE), a near-simultaneous emergence across Greece, Israel, Persia, India, and China of second-order thinking — the ability to reflect on and critique one's own cognition and culture. The Axial Revolution is not mere historical accident but the result of literacy, coinage, and urbanization creating conditions in which implicit learning and exaptation could generate new psycho-technologies of self-transcendence. Vervaeke introduces mythos as the pre-axial mode of participatory meaning-making that the axial turn begins to interrogate.",
+  "essence": "Vervaeke bridges the shamanic world of episode 1 to the Axial Revolution by examining two cognitive mechanisms: flow states and metaphorical cognition. Flow, Csikszentmihalyi's optimal experience, is characterized by intrinsic motivation, loss of self-consciousness, and heightened processing efficiency; Vervaeke argues it was systematically cultivated by shamanic psycho-technologies and represents a real enhancement of human cognitive capacities, not merely a pleasant feeling. He then analyzes metaphor through the lens of implicit learning and exaptation: humans can take a cognitive capacity evolved for one purpose and redeploy it in a new domain, generating genuine insight. This capacity for cognitive exaptation underwrites the Axial Revolution (~800–300 BCE), a near-simultaneous emergence across Greece, Israel, Persia, India, and China of second-order thinking, the ability to reflect on and critique one's own cognition and culture. The Axial Revolution is not mere historical accident but the result of literacy, coinage, and urbanization creating conditions in which implicit learning and exaptation could generate new psycho-technologies of self-transcendence. Vervaeke introduces mythos as the pre-axial mode of participatory meaning-making that the axial turn begins to interrogate.",
   "keyClaims": [
-    "Flow states represent a genuine cognitive enhancement — not mere pleasure — that was deliberately cultivated by shamanic psycho-technologies.",
+    "Flow states represent a genuine cognitive enhancement, not mere pleasure, that was deliberately cultivated by shamanic psycho-technologies.",
     "Metaphorical cognition works through exaptation: re-deploying cognitive capacities evolved for one domain to generate insight in another.",
     "The Axial Revolution was a near-simultaneous emergence of second-order thinking across multiple civilizations, made possible by literacy, coinage, and urbanization.",
-    "Second-order thinking — the capacity to reflect on one's own cognition — is the defining cognitive achievement of the Axial Revolution.",
+    "Second-order thinking, the capacity to reflect on one's own cognition, is the defining cognitive achievement of the Axial Revolution.",
     "Mythos names the participatory, story-embedded mode of meaning-making that preceded and was challenged by the Axial turn."
   ],
   "concepts": [
     {
       "id": "flow",
       "treatment": "introduced",
-      "summary": "Csikszentmihalyi's optimal experience — intrinsic motivation, loss of self-consciousness, heightened processing efficiency — framed as a real cognitive enhancement cultivated by psycho-technologies."
+      "summary": "Csikszentmihalyi's optimal experience, intrinsic motivation, loss of self-consciousness, heightened processing efficiency, framed as a real cognitive enhancement cultivated by psycho-technologies."
     },
     {
       "id": "the-axial-revolution",
@@ -24,17 +24,17 @@
     {
       "id": "second-order-thinking",
       "treatment": "introduced",
-      "summary": "The capacity to reflect on and critique one's own cognition and cultural assumptions — the defining cognitive achievement of the Axial Revolution."
+      "summary": "The capacity to reflect on and critique one's own cognition and cultural assumptions, the defining cognitive achievement of the Axial Revolution."
     },
     {
       "id": "exaptation",
       "treatment": "introduced",
-      "summary": "Repurposing a cognitive capacity evolved for one domain to generate insight in another — the mechanism underlying metaphorical cognition and cultural innovation."
+      "summary": "Repurposing a cognitive capacity evolved for one domain to generate insight in another, the mechanism underlying metaphorical cognition and cultural innovation."
     },
     {
       "id": "implicit-learning",
       "treatment": "introduced",
-      "summary": "Non-conscious learning of complex patterns — the cognitive substrate that makes exaptation and metaphorical insight possible."
+      "summary": "Non-conscious learning of complex patterns, the cognitive substrate that makes exaptation and metaphorical insight possible."
     },
     {
       "id": "mythos",
@@ -49,7 +49,7 @@
     {
       "id": "self-transcendence",
       "treatment": "developed",
-      "summary": "The axial insight that human beings can step outside their current frame of reference — second-order thinking as a form of self-transcendence."
+      "summary": "The axial insight that human beings can step outside their current frame of reference, second-order thinking as a form of self-transcendence."
     },
     {
       "id": "the-meaning-crisis",
@@ -91,7 +91,7 @@
     },
     {
       "episode": 3,
-      "context": "The Axial Revolution's specifics — especially the continuous cosmos and two-worlds mythology — are developed in episode 3."
+      "context": "The Axial Revolution's specifics, especially the continuous cosmos and two-worlds mythology, are developed in episode 3."
     }
   ],
   "quotableMoments": []
