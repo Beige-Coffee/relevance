@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Propositional Knowing — Mini-course Review</title>
+<style>
+  :root {
+    --bg: #faf7f1; --surface: #ffffff; --elev: #f2ede0;
+    --ink: #1c1a17; --ink-soft: #3a3530; --muted: #6b6660;
+    --border: #e0d9c8; --accent: #8b3a3a; --gold: #b8893c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14120e; --surface:#1c1916; --elev:#25211c;
+      --ink:#ece6d6; --ink-soft:#b8b1a1; --muted:#8a8378;
+      --border:#2e2922; --accent:#d28a7e; --gold:#d4a85a; }
+  }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Inter", system-ui, sans-serif;
+    background: var(--bg); color: var(--ink); margin: 0; line-height: 1.6;
+    -webkit-font-smoothing: antialiased; }
+  .serif { font-family: "EB Garamond", Georgia, serif; }
+  header { padding: 2rem 2.5rem 1rem; border-bottom: 1px solid var(--border); }
+  .back-link { color: var(--muted); font-size: 0.8rem; text-decoration: none; }
+  .back-link:hover { color: var(--accent); }
+  .meta { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin: 0.6rem 0 0.3rem; }
+  h1 { font-family: "EB Garamond", Georgia, serif; font-size: 2.6rem; margin: 0; letter-spacing: -0.01em; font-weight: 500; }
+  .abstract {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.1rem; line-height: 1.65;
+    color: var(--ink-soft); margin: 1rem 0; max-width: 60rem;
+  }
+  .prereqs { font-size: 0.85rem; color: var(--muted); margin-top: 0.6rem; }
+  .prereqs a { color: var(--accent); text-decoration: none; }
+  .prereqs a:hover { text-decoration: underline; }
+  main { max-width: 60rem; margin: 0 auto; padding: 2rem 2.5rem 5rem; }
+  .module {
+    border-top: 1px solid var(--border); padding-top: 2rem; margin-top: 3rem;
+  }
+  .module:first-child { border-top: none; padding-top: 0; margin-top: 0; }
+  .module .num {
+    font-family: ui-monospace, monospace; font-size: 0.78rem;
+    background: var(--gold); color: var(--bg); padding: 0.2rem 0.6rem;
+    border-radius: 99px; display: inline-block; margin-bottom: 0.6rem;
+  }
+  .module h2 {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.9rem; margin: 0;
+    letter-spacing: -0.01em; font-weight: 500; line-height: 1.15;
+  }
+  .module .objective {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic;
+    color: var(--ink-soft); margin: 0.5rem 0 1rem;
+  }
+  section { margin: 1.6rem 0; }
+  section h3 {
+    font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em;
+    color: var(--muted); margin: 0 0 0.6rem;
+  }
+  .passage {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--gold);
+    padding: 0.8rem 1rem; margin: 0.5rem 0; border-radius: 4px;
+  }
+  .passage .src {
+    font-family: ui-monospace, monospace; font-size: 0.72rem;
+    color: var(--accent); margin-bottom: 0.3rem;
+  }
+  .passage .quote {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic;
+    color: var(--ink); font-size: 1rem; line-height: 1.55;
+  }
+  .passage .note { font-size: 0.78rem; color: var(--muted); margin-top: 0.4rem; }
+  .seed {
+    padding: 0.5rem 0; border-left: 2px solid var(--gold); padding-left: 1rem; margin: 0.5rem 0;
+  }
+  .seed .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic; color: var(--ink);
+  }
+  .seed .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.3rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .theme-pill {
+    background: var(--elev); padding: 0.15rem 0.55rem; border-radius: 99px;
+  }
+  .misc {
+    background: var(--elev); padding: 0.7rem 1rem; margin: 0.5rem 0; border-radius: 6px;
+    font-size: 0.9rem;
+  }
+  .misc .label { font-weight: 500; }
+  .misc .label.if { color: var(--ink); }
+  .misc .label.then { color: var(--accent); }
+  .check {
+    background: var(--elev); border: 2px solid var(--gold); padding: 1rem 1.2rem;
+    border-radius: 8px; margin-top: 0.6rem;
+  }
+  .check .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic; font-size: 1.1rem; color: var(--ink);
+  }
+  .check .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.5rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .toc {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    padding: 1rem 1.4rem; margin: 1.5rem 0;
+  }
+  .toc h3 { margin: 0 0 0.4rem; }
+  .toc ol { margin: 0; padding-left: 1.4rem; }
+  .toc li { margin: 0.2rem 0; font-size: 0.92rem; }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+  .approve-bar {
+    position: sticky; bottom: 0;
+    background: var(--bg); border-top: 1px solid var(--border);
+    padding: 0.8rem 2.5rem;
+    display: flex; gap: 0.6rem; justify-content: flex-end;
+  }
+  .btn {
+    padding: 0.55rem 1.2rem; border-radius: 6px; font-size: 0.9rem;
+    border: 1px solid var(--border); background: var(--surface); color: var(--ink-soft);
+    cursor: pointer; font-family: inherit;
+  }
+  .btn.primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+  .btn:hover { transform: translateY(-1px); }
+</style>
+</head><body>
+<header>
+  <a class="back-link" href="index.html">← All course reviews</a>
+  <div class="meta">Mini-course · 2 modules</div>
+  <h1>Propositional Knowing</h1>
+  <p class="abstract">This course examines what Vervaeke calls propositional knowing — the form of knowledge captured in true or false beliefs and statements — and why the modern reduction of all knowing to this single mode is both historically produced and philosophically problematic. Students will be able to articulate how propositional knowing differs from procedural, perspectival, and participatory knowing, explain why it is the most derivative of the four kinds rather than the most foundational, and identify the cultural and intellectual forces that produced its contemporary dominance. Understanding propositional knowing is the gateway to grasping why the meaning crisis cannot be resolved by acquiring better information alone, and why transformation — not merely new beliefs — is required for genuine wisdom.</p>
+  
+</header>
+<main>
+  <div class="toc">
+    <h3>Modules</h3>
+    <ol>
+      <li><a href="#m-the-modern-reduction">The Modern Reduction: All Knowing Collapsed to Belief</a></li><li><a href="#m-propositional-vs-three-other-knowings">Propositional Knowing Among the Four: Its Place and Its Limits</a></li>
+    </ol>
+  </div>
+  
+    <article class="module" id="m-the-modern-reduction">
+      <span class="num">Module 1</span>
+      <h2>The Modern Reduction: All Knowing Collapsed to Belief</h2>
+      <p class="objective">Articulate what propositional knowing is and why Vervaeke argues that modernity has illegitimately reduced all knowing to this single mode.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 1 · Introduction</div>
+            <div class="quote">&ldquo;We tend to have reduced all of the ways that the ancients talked about how we know to one thing: To know is to have a special kind of belief.&rdquo;</div>
+            <div class="note">Vervaeke's core diagnostic claim, introduced in Episode 1</div>
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 1 · Introduction</div>
+            <div class="quote">&ldquo;There is much more to knowing than having justified true beliefs.&rdquo;</div>
+            <div class="note">Direct statement of the course's central thesis</div>
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 22 · Descartes vs. Hobbes</div>
+            <div class="quote">&ldquo;you do not have to be transformed in order to come into contact with ultimate reality. All you have to do is use the right method, do the right computation.&rdquo;</div>
+            <div class="note">Vervaeke describes the Cartesian view that epitomizes the dominance of propositional-computational knowing</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">When you say you 'know' how to ride a bicycle, what exactly do you mean — and is that the same kind of thing as knowing that the capital of France is Paris?</div>
+            <div class="themes"><span class="theme-pill">knowing-how vs knowing-that</span><span class="theme-pill">skills irreducible to propositions</span><span class="theme-pill">different kinds of knowledge</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">If someone read every book ever written about swimming but had never entered water, would they know how to swim? What does your answer reveal about the limits of propositional knowledge?</div>
+            <div class="themes"><span class="theme-pill">practical skill vs description</span><span class="theme-pill">limits of propositional knowing</span><span class="theme-pill">irreducibility of practice</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke claims the reduction of all knowing to belief-having is historically produced, not a timeless philosophical truth. What historical forces might have produced it?</div>
+            <div class="themes"><span class="theme-pill">scientific revolution</span><span class="theme-pill">Descartes and modernity</span><span class="theme-pill">secularization of wisdom</span><span class="theme-pill">loss of participatory knowing</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">If propositional knowing is the most derivative kind rather than the most foundational, what must be in place before we can form propositions at all?</div>
+            <div class="themes"><span class="theme-pill">procedural grounding</span><span class="theme-pill">perspectival orientation</span><span class="theme-pill">participatory contact with reality</span><span class="theme-pill">prereflective knowing</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Propositional knowing is the highest or most foundational kind of knowing.</div>
+              <div><span class="label then">Then:</span> Vervaeke argues the opposite: propositional knowing is the most derivative, depending on procedural, perspectival, and participatory knowing beneath it — it presupposes rather than generates the other three.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Having the right beliefs about a practice (such as mindfulness or virtue) is sufficient for genuine knowledge of it.</div>
+              <div><span class="label then">Then:</span> Propositional and procedural/perspectival/participatory knowing are irreducibly different: one can know all the correct propositions about mindfulness and still have none of the skill, perspective, or participatory contact that actual practice produces.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">How does the modern equation of 'knowledge' with 'justified true belief' contribute to the meaning crisis — and what does recovering the other three kinds of knowing make possible that propositional knowing alone cannot?</div>
+          <div class="themes"><span class="theme-pill">limits of information alone</span><span class="theme-pill">transformation required for meaning</span><span class="theme-pill">participatory and perspectival knowing</span><span class="theme-pill">overcoming the reduction</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-propositional-vs-three-other-knowings">
+      <span class="num">Module 2</span>
+      <h2>Propositional Knowing Among the Four: Its Place and Its Limits</h2>
+      <p class="objective">Contrast propositional knowing with procedural, perspectival, and participatory knowing and explain how each kind is irreducible to the others.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 36 · Religio/Perennial Problems/Reverse Eng. Enlightenment</div>
+            <div class="quote">&ldquo;It's at the level of procedural and ultimately perspectival and participatory knowing.&rdquo;</div>
+            <div class="note">Vervaeke locates genuine wisdom-work beneath the propositional level</div>
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 29 · Getting to the Depths of Relevance Realization</div>
+            <div class="quote">&ldquo;we are getting a lot about how we should think about Relevance Realisation where we should look for it and notice it's starting to give us a way of connecting and thinking about the four kinds of knowing.&rdquo;</div>
+            <div class="note">Relevance realization connects and underlies all four kinds</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Procedural knowing (knowing-how) is sometimes described as 'tacit knowledge.' Can you think of a skill where the more you try to articulate the propositions behind it, the worse you perform? What does that suggest?</div>
+            <div class="themes"><span class="theme-pill">tacit dimension of skill</span><span class="theme-pill">interference of explicit thought</span><span class="theme-pill">procedural knowledge irreducible</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Perspectival knowing is described as knowing what it is like to be in a certain state or situation. Can a person who has never experienced grief have propositional knowledge about grief? Does that propositional knowledge fully capture what a grieving person knows?</div>
+            <div class="themes"><span class="theme-pill">phenomenal character of knowledge</span><span class="theme-pill">propositional limits</span><span class="theme-pill">perspectival knowing unique</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Participatory knowing involves being changed by what you come to know. In what contexts does coming to know something genuinely transform who you are — and why can't a list of true propositions do the same thing?</div>
+            <div class="themes"><span class="theme-pill">transformation through knowing</span><span class="theme-pill">identity change</span><span class="theme-pill">participatory vs propositional</span><span class="theme-pill">relational knowing</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke argues that the modern meaning crisis arises partly because we have lost access to the non-propositional kinds of knowing. What practices or institutions in modern life might be symptoms of this loss?</div>
+            <div class="themes"><span class="theme-pill">therapy as substitute</span><span class="theme-pill">lack of ritual</span><span class="theme-pill">cognitive behavioral approaches</span><span class="theme-pill">hunger for transformation</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> The reduction of all knowing to propositional knowing is a neutral epistemic choice.</div>
+              <div><span class="label then">Then:</span> Vervaeke argues it is a historically produced outcome of the meaning crisis itself — the same forces that generated the crisis also generated the epistemic reduction, making propositional dominance a symptom as much as a cause.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Propositional knowing is useless or unimportant in Vervaeke's framework.</div>
+              <div><span class="label then">Then:</span> Propositional knowing is genuinely valuable — Vervaeke's critique is not that it should be discarded but that it must be grounded in and responsive to the lower-order knowings rather than attempting to replace them.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">Suppose someone argues: 'We can solve the meaning crisis with better science education — more accurate propositions about the world.' Using the four-fold distinction, what would Vervaeke say is missing from this proposal, and why?</div>
+          <div class="themes"><span class="theme-pill">propositional knowing insufficient</span><span class="theme-pill">procedural perspectival participatory gap</span><span class="theme-pill">transformation not information</span><span class="theme-pill">meaning requires all four kinds</span></div>
+        </div>
+      </section>
+    </article>
+  
+</main>
+<div class="approve-bar">
+  <button class="btn">Request changes</button>
+  <button class="btn primary">Approve for shipping</button>
+</div>
+</body></html>

@@ -2,106 +2,97 @@
   "num": 46,
   "slug": "conclusion-prophets-of-meaning-crisis",
   "title": "Conclusion and the Prophets of the Meaning Crisis",
-  "essence": "Vervaeke synthesizes wisdom, enlightenment, meaning in life, and awakening from the meaning crisis into the wise cultivation of enlightenment (WCE). Wisdom overlaps with enlightenment as dynamic systems counteracting self-deception and parasitic processing. Wisdom enhances religio—finding the world and life sacred, encountering sacredness—thereby connecting to meaning in life beyond morality. WCE situates within a worldview affording compatibility with scientific understanding and a co-op network of communities of practice with bidirectional flow between researchers and practitioners via a wisdom wiki. This infrastructure collectively supports individual and cultural awakening from the meaning crisis. Heidegger emerges as central prophetic figure diagnosing metaphysics as history of nihilism. Husserl's phenomenology pursued contact epistemology through intentionality and world disclosure. Heidegger deepened contact by introducing participatory knowing and dasein—being whose being is in question. Overcoming Cartesian grammar requires phenomenological realization of existential status: we are self-defining through modal transformation. Connecting phenomenology with gnosis (through Eckhart), Kant, and Tillich reveals a network of thinkers responding to the meaning crisis. Nishitani, Corbin, Jung, and Barfield offer complementary responses integrating symbol, psyche, and imagination.",
+  "essence": "Vervaeke integrates the wisdom account with his earlier theory of enlightenment and religio, proposing Wise Cultivation of Enlightenment (WCE) as the practical response to the meaning crisis: a cooperative network of communities of practice, embedded within a 4E cognitive science worldview, supported by a wisdom wiki, and engaged in ongoing dialogue with the prophets of the meaning crisis. He draws a detailed roadmap of those prophets — with Heidegger at the center, connected to Tillich, to Jung and Corbin through the gnosis underground, to Barfield through the Romantics, and to speculative realists (Harman) and the Kyoto school (Nishitani) through adjacent movements. The episode then turns to Husserl and phenomenology: intentionality (noesis-noema structure) as the precursor to Heidegger's ontological project, and Vervaeke draws the parallel between the noesis/noema correlation and the agent-arena relationship. He then explains Heidegger's core criticism of Husserl: phenomenology fails to adequately ground participatory knowing in ontology — it remains trapped in Cartesian subjectivity. Merleau-Ponty is credited with partially addressing this through embodiment. The notion of Dasein is introduced: we are the being whose being is in question, and by questing into our own being, we come into contact with being itself.",
   "keyClaims": [
-    "Wisdom overlaps with enlightenment as counteractive dynamical systems overcoming self-deception and parasitic processing",
-    "Wisdom enhances religio, connecting to sacredness and meaning in life beyond morality",
-    "WCE requires enabling worldview and co-op communities bridging researchers and practitioners",
-    "Heidegger's phenomenology diagnoses metaphysics as history of nihilism; response requires deepening contact through participatory knowing and dasein",
-    "Phenomenology reveals we are beings whose being is in question, requiring existential realization not just theoretical understanding"
+    "Wise Cultivation of Enlightenment (WCE) integrates the wisdom account with religio to propose a practical response to the meaning crisis: a cooperative network of communities of practice within a 4E worldview.",
+    "Heidegger occupies the center of the prophets diagram, with Tillich, Jung, Corbin, Barfield, speculative realists, and the Kyoto school as connected nodes.",
+    "Husserl's phenomenology (noesis-noema intentional structure) is a partial recovery of contact epistemology but remains trapped in Cartesian subjectivity.",
+    "Heidegger's criticism of Husserl is that phenomenology fails to adequately ground participatory knowing in ontology — the agent-arena relationship is not yet set within a deeper understanding of being.",
+    "Dasein — the being whose being is in question — is Heidegger's starting point: by questing into our own being, we simultaneously quest into the mystery of being itself."
   ],
   "concepts": [
     {
-      "name": "wise cultivation of enlightenment",
+      "id": "wisdom",
+      "treatment": "applied",
+      "summary": "Integrated with enlightenment and religio into the WCE framework; wisdom is the cognitive dimension of the response to the meaning crisis."
+    },
+    {
+      "id": "religio",
+      "treatment": "applied",
+      "summary": "The WCE framework centers on religio — the binding back of agent and arena — as enhanced by wisdom practices within communities of practice."
+    },
+    {
+      "id": "the-prophets-of-the-meaning-crisis",
       "treatment": "introduced",
-      "summary": "Integration of wisdom and enlightenment within enabling worldview and community infrastructure. Enhances religio, sacredness, and meaning in life. Approach to collectively awakening from meaning crisis."
+      "summary": "Vervaeke's roadmap of the prophets — Heidegger, Tillich, Jung, Corbin, Barfield, and others — and their connections to each other and to the WCE framework."
     },
     {
-      "name": "religio",
+      "id": "religion-that-is-not-a-religion",
       "treatment": "developed",
-      "summary": "Dynamic connection to what matters, what is sacred. Not dogmatic religion but participatory relationship to meaning-making. Enhanced through wisdom and contemplative practice."
+      "summary": "The WCE framework is the most concrete articulation of a religion that is not a religion: cooperative network of practice within a 4E worldview with a wisdom wiki."
     },
     {
-      "name": "phenomenology",
-      "treatment": "developed",
-      "summary": "Disciplined reflective, experimental attention to perspectival knowing. Contact epistemology retrieving relationship to world through intentionality and world disclosure. Husserl's foundational approach."
+      "id": "4e-cognition",
+      "treatment": "applied",
+      "summary": "The worldview within which the WCE is embedded; 4E cognitive science is the scientific framework for the response to the meaning crisis."
     },
     {
-      "name": "dasein",
-      "treatment": "introduced",
-      "summary": "Heidegger's term for human being: being whose being is in question. Not biological fact but existential condition. Requires participation in and interrogation of being itself."
+      "id": "participatory-knowing",
+      "treatment": "applied",
+      "summary": "Heidegger's criticism of Husserl is precisely that phenomenology does not adequately ground participatory knowing — and Vervaeke frames this as the core issue the prophets address."
     },
     {
-      "name": "onto-theology",
-      "treatment": "referenced",
-      "summary": "Metaphysical framework treating being as a being. History of metaphysics as progressive forgetting of being itself. Heidegger's diagnosis of nihilism."
+      "id": "agent-arena-relationship",
+      "treatment": "applied",
+      "summary": "The noesis-noema correlation is aligned with the agent-arena relationship; Heidegger asks what deeper attunement grounds this correlation."
+    },
+    {
+      "id": "ecology-of-practices",
+      "treatment": "applied",
+      "summary": "The cooperative network of communities of practice is an instantiation of the ecology of practices needed for the WCE response."
     }
   ],
   "people": [
     {
-      "name": "Martin Heidegger",
+      "id": "heidegger",
       "role": "introduced",
-      "summary": "Central prophetic figure. Philosopher of phenomenology and being. Diagnoses metaphysical tradition as history of nihilism. Proposes phenomenological exploration of dasein as response."
+      "summary": "Positioned as the central prophet of the meaning crisis, with Husserl and Merleau-Ponty as his immediate predecessors/interlocutors; Dasein is introduced."
     },
     {
-      "name": "Edmund Husserl",
-      "role": "developed",
-      "summary": "Founder of phenomenology. Pursued contact epistemology through intentionality and world disclosure. Heidegger deepens by adding participatory knowing and existential modes."
-    },
-    {
-      "name": "Meister Eckhart",
+      "id": "tillich",
       "role": "referenced",
-      "summary": "Rhineland mystic influencing German gnosis tradition. Gnostic elements entering through Heidegger connecting mysticism to philosophical phenomenology."
+      "summary": "Positioned in the prophets diagram as the theologian who takes up Heidegger's critique of ontotheology within a religious framework."
     },
     {
-      "name": "Paul Tillich",
-      "role": "introduced",
-      "summary": "Theologian of the meaning crisis. The Courage To Be announces crisis and revises theology through existential philosophy. God beyond theism; connection to gnosis."
+      "id": "jung",
+      "role": "referenced",
+      "summary": "Positioned alongside Corbin as the psychological-gnosis thread of the prophets; the gnosis underground connecting them is identified."
     },
     {
-      "name": "Henry Corbin",
-      "role": "introduced",
-      "summary": "Scholar of Islamic philosophy and symbolism. Addresses meaning crisis through imaginal realm and symbolic thinking. Deeply influenced by gnosis."
+      "id": "corbin",
+      "role": "referenced",
+      "summary": "Positioned alongside Jung; Corbin's translation of Heidegger into French and his development of imaginal gnosis within Persian Sufism is noted."
     },
     {
-      "name": "Carl Jung",
-      "role": "introduced",
-      "summary": "Psychologist responding to meaning crisis through integration of shadow, individuation, and archetypal symbolism. Influenced by gnostics and Kant."
+      "id": "barfield",
+      "role": "referenced",
+      "summary": "Positioned as the Romantic-poetic thread; his connection to the Romantics and to Coleridge is noted."
     },
     {
-      "name": "Owen Barfield",
-      "role": "introduced",
-      "summary": "Philosopher of participation influenced by romantics. Participatory imagination central to recovering meaning and sacred dimension."
-    },
-    {
-      "name": "Kitaro Nishida",
-      "role": "introduced",
-      "summary": "Founder of Kyoto School. Engages Heidegger, James, and Buddhism to respond to meaning crisis through absolute nothingness."
-    },
-    {
-      "name": "Keiji Nishitani",
-      "role": "introduced",
-      "summary": "Kyoto School philosopher. Religion and Nothingness rated among top responses to meaning crisis. Integrates Heidegger, James, Buddhist thought."
+      "id": "merleau-ponty",
+      "role": "discussed",
+      "summary": "Credited with partially addressing Heidegger's critique of Husserl through the notion of embodiment; 4E cognitive science's embodied turn is rooted in his work."
     }
   ],
   "crossRefs": [
-    {"episode": 45, "reason": "Wisdom model provides foundation for wise cultivation of enlightenment"},
-    {"episode": 47, "reason": "Detailed examination of Heidegger's phenomenology and being"},
-    {"episode": 48, "reason": "Corbin's imaginal realm and symbol theory"},
-    {"episode": 49, "reason": "Jung's individuation and archetypes"}
-  ],
-  "quotableMoments": [
     {
-      "quote": "Wisdom overlaps with enlightenment as systems counteracting parasitic processing and self-deception.",
-      "context": "Establishing structural relationship between wisdom cultivation and enlightenment."
+      "episode": 45,
+      "context": "The wisdom model is the foundation for the WCE framework developed here."
     },
     {
-      "quote": "We are the beings whose being is in question—this is the starting point for existential realization.",
-      "context": "Heidegger's core insight that human existence is fundamentally interrogative, opening to mystery and transformation."
-    },
-    {
-      "quote": "Phenomenology is reflective, experimental, exploratory attention to perspectival knowing of the transjective relationship.",
-      "context": "Vervaeke's translation of Husserl's phenomenological method into contemporary language of agent-arena relationships."
+      "episode": 47,
+      "context": "Heidegger's project is examined in depth in the following episode."
     }
-  ]
+  ],
+  "quotableMoments": []
 }

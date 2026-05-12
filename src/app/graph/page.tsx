@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
+import Link from "next/link";
 import { getGraph, getEpisodes, getConcepts, getPeople } from "@/lib/data";
 import type { Graph, GraphNode, Episode, Concept, Person } from "@/lib/types";
 import { GraphCanvas } from "@/components/graph-canvas";
@@ -14,10 +15,7 @@ export default function GraphPage() {
 
   useEffect(() => {
     Promise.all([getGraph(), getEpisodes(), getConcepts(), getPeople()]).then(([g, e, c, p]) => {
-      setGraph(g);
-      setEpisodes(e);
-      setConcepts(c);
-      setPeople(p);
+      setGraph(g); setEpisodes(e); setConcepts(c); setPeople(p);
     });
   }, []);
 
@@ -26,24 +24,36 @@ export default function GraphPage() {
     if (selected.kind === "episode" && episodes) {
       const ep = episodes.find((e) => e.num === selected.num);
       if (!ep) return null;
-      return { title: `Episode ${ep.num} · ${ep.title}`, body: ep.essence, meta: ep };
+      return {
+        kind: "episode" as const,
+        title: `Episode ${ep.num} · ${ep.title}`,
+        body: ep.essence,
+        href: `/episodes#ep-${ep.num}`,
+        bullets: ep.keyClaims,
+      };
     }
     if (selected.kind === "concept" && concepts) {
-      const c = concepts.find((x) => x.name === selected.label);
+      const id = selected.id.replace(/^concept:/, "");
+      const c = concepts.find((x) => x.id === id);
       if (!c) return null;
       return {
-        title: c.name,
-        body: `Appears across ${c.count} episode${c.count === 1 ? "" : "s"} (${c.episodes.join(", ")}).`,
-        bullets: c.summaries.slice(0, 6).map((s) => `Ep ${s.ep}: ${s.text}`),
+        kind: "concept" as const,
+        title: c.canonicalName,
+        body: c.definition,
+        href: `/concept/${c.id}`,
+        meta: c,
       };
     }
     if (selected.kind === "person" && people) {
-      const p = people.find((x) => x.name === selected.label);
+      const id = selected.id.replace(/^person:/, "");
+      const p = people.find((x) => x.id === id);
       if (!p) return null;
       return {
-        title: p.name,
-        body: `Discussed in ${p.count} episode${p.count === 1 ? "" : "s"} (${p.episodes.join(", ")}).`,
-        bullets: p.summaries.slice(0, 6).map((s) => `Ep ${s.ep}: ${s.text}`),
+        kind: "person" as const,
+        title: p.canonicalName,
+        body: p.shortBio,
+        href: `/person/${p.id}`,
+        meta: p,
       };
     }
     return null;
@@ -54,7 +64,7 @@ export default function GraphPage() {
       <div className="px-6 pt-6 pb-2 max-w-6xl mx-auto w-full">
         <h1 className="serif text-3xl text-[var(--ink)]">Graph</h1>
         <p className="text-[var(--ink-soft)] mt-1 text-sm">
-          Episodes (red), concepts (gold), and thinkers (blue). Click a node to see its connections.
+          Episodes (red), concepts (gold), thinkers (blue). Click a node to inspect; click the title to open the full deep-dive.
         </p>
       </div>
 
@@ -72,7 +82,7 @@ export default function GraphPage() {
               <p className="mb-3">Click a node to inspect it.</p>
               <ul className="space-y-2 text-xs">
                 <li><span className="inline-block w-2.5 h-2.5 rounded-full bg-[#8b3a3a] mr-2 align-middle" />Episode — one of the 50 lectures</li>
-                <li><span className="inline-block w-2.5 h-2.5 rounded-full bg-[#b8893c] mr-2 align-middle" />Concept — an idea Vervaeke develops</li>
+                <li><span className="inline-block w-2.5 h-2.5 rounded-full bg-[#b8893c] mr-2 align-middle" />Concept — an idea Vervaeke develops (★ = flagship, has a mini-course)</li>
                 <li><span className="inline-block w-2.5 h-2.5 rounded-full bg-[#3c4a8b] mr-2 align-middle" />Person — a thinker referenced or discussed</li>
               </ul>
               <p className="mt-4">Use the filters above the canvas to slim things down. Cross-episode references show up as episode→episode links.</p>
@@ -80,28 +90,52 @@ export default function GraphPage() {
           )}
           {detail && (
             <div>
-              <div className="text-xs uppercase tracking-wider text-[var(--muted)] mb-1">{selected?.kind}</div>
-              <h2 className="serif text-2xl text-[var(--ink)] leading-tight">{detail.title}</h2>
+              <div className="text-xs uppercase tracking-wider text-[var(--muted)] mb-1">{selected?.kind}{selected?.flagship ? " · ★ flagship" : ""}</div>
+              <h2 className="serif text-2xl text-[var(--ink)] leading-tight">
+                <Link href={detail.href} className="hover:text-[var(--accent)] transition-colors">
+                  {detail.title} →
+                </Link>
+              </h2>
               <p className="prose-reader text-sm mt-3">{detail.body}</p>
-              {detail.bullets && detail.bullets.length > 0 && (
-                <ul className="mt-4 space-y-2 text-sm text-[var(--ink-soft)]">
-                  {detail.bullets.map((b, i) => (
-                    <li key={i} className="leading-relaxed">
-                      {b}
-                    </li>
-                  ))}
-                </ul>
+
+              {detail.kind === "concept" && (
+                <>
+                  <div className="mt-4 text-xs text-[var(--muted)] flex gap-3">
+                    <span className="text-[var(--accent)]">{detail.meta.cluster}</span>
+                    <span>depth {detail.meta.depth}</span>
+                    <span>intro ep {detail.meta.introducedIn}</span>
+                  </div>
+                  {detail.meta.subConcepts && detail.meta.subConcepts.length > 0 && (
+                    <div className="mt-4">
+                      <h3 className="text-xs uppercase tracking-wider text-[var(--muted)] mb-2">Sub-concepts</h3>
+                      <ul className="space-y-1.5 text-sm text-[var(--ink-soft)]">
+                        {detail.meta.subConcepts.map((sc) => (
+                          <li key={sc.id}>— {sc.name}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                </>
               )}
-              {selected?.kind === "episode" && (detail.meta as Episode)?.keyClaims && (
+              {detail.kind === "person" && detail.meta.roleInArgument && (
+                <p className="prose-reader text-sm mt-3 italic text-[var(--ink-soft)]">{detail.meta.roleInArgument}</p>
+              )}
+              {detail.kind === "episode" && detail.bullets && detail.bullets.length > 0 && (
                 <div className="mt-5">
                   <h3 className="text-xs uppercase tracking-wider text-[var(--muted)] mb-2">Key claims</h3>
                   <ul className="space-y-1.5 text-sm text-[var(--ink-soft)]">
-                    {(detail.meta as Episode).keyClaims.map((c, i) => (
+                    {detail.bullets.map((c, i) => (
                       <li key={i} className="leading-relaxed">— {c}</li>
                     ))}
                   </ul>
                 </div>
               )}
+              <Link
+                href={detail.href}
+                className="mt-6 inline-flex items-center px-3 py-1.5 rounded-md bg-[var(--ink)] text-[var(--bg)] text-xs font-medium hover:bg-[var(--accent)] transition-colors"
+              >
+                Open full page →
+              </Link>
             </div>
           )}
         </aside>

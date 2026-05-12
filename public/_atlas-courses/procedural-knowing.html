@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Procedural Knowing — Mini-course Review</title>
+<style>
+  :root {
+    --bg: #faf7f1; --surface: #ffffff; --elev: #f2ede0;
+    --ink: #1c1a17; --ink-soft: #3a3530; --muted: #6b6660;
+    --border: #e0d9c8; --accent: #8b3a3a; --gold: #b8893c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14120e; --surface:#1c1916; --elev:#25211c;
+      --ink:#ece6d6; --ink-soft:#b8b1a1; --muted:#8a8378;
+      --border:#2e2922; --accent:#d28a7e; --gold:#d4a85a; }
+  }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Inter", system-ui, sans-serif;
+    background: var(--bg); color: var(--ink); margin: 0; line-height: 1.6;
+    -webkit-font-smoothing: antialiased; }
+  .serif { font-family: "EB Garamond", Georgia, serif; }
+  header { padding: 2rem 2.5rem 1rem; border-bottom: 1px solid var(--border); }
+  .back-link { color: var(--muted); font-size: 0.8rem; text-decoration: none; }
+  .back-link:hover { color: var(--accent); }
+  .meta { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin: 0.6rem 0 0.3rem; }
+  h1 { font-family: "EB Garamond", Georgia, serif; font-size: 2.6rem; margin: 0; letter-spacing: -0.01em; font-weight: 500; }
+  .abstract {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.1rem; line-height: 1.65;
+    color: var(--ink-soft); margin: 1rem 0; max-width: 60rem;
+  }
+  .prereqs { font-size: 0.85rem; color: var(--muted); margin-top: 0.6rem; }
+  .prereqs a { color: var(--accent); text-decoration: none; }
+  .prereqs a:hover { text-decoration: underline; }
+  main { max-width: 60rem; margin: 0 auto; padding: 2rem 2.5rem 5rem; }
+  .module {
+    border-top: 1px solid var(--border); padding-top: 2rem; margin-top: 3rem;
+  }
+  .module:first-child { border-top: none; padding-top: 0; margin-top: 0; }
+  .module .num {
+    font-family: ui-monospace, monospace; font-size: 0.78rem;
+    background: var(--gold); color: var(--bg); padding: 0.2rem 0.6rem;
+    border-radius: 99px; display: inline-block; margin-bottom: 0.6rem;
+  }
+  .module h2 {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.9rem; margin: 0;
+    letter-spacing: -0.01em; font-weight: 500; line-height: 1.15;
+  }
+  .module .objective {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic;
+    color: var(--ink-soft); margin: 0.5rem 0 1rem;
+  }
+  section { margin: 1.6rem 0; }
+  section h3 {
+    font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em;
+    color: var(--muted); margin: 0 0 0.6rem;
+  }
+  .passage {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--gold);
+    padding: 0.8rem 1rem; margin: 0.5rem 0; border-radius: 4px;
+  }
+  .passage .src {
+    font-family: ui-monospace, monospace; font-size: 0.72rem;
+    color: var(--accent); margin-bottom: 0.3rem;
+  }
+  .passage .quote {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic;
+    color: var(--ink); font-size: 1rem; line-height: 1.55;
+  }
+  .passage .note { font-size: 0.78rem; color: var(--muted); margin-top: 0.4rem; }
+  .seed {
+    padding: 0.5rem 0; border-left: 2px solid var(--gold); padding-left: 1rem; margin: 0.5rem 0;
+  }
+  .seed .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic; color: var(--ink);
+  }
+  .seed .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.3rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .theme-pill {
+    background: var(--elev); padding: 0.15rem 0.55rem; border-radius: 99px;
+  }
+  .misc {
+    background: var(--elev); padding: 0.7rem 1rem; margin: 0.5rem 0; border-radius: 6px;
+    font-size: 0.9rem;
+  }
+  .misc .label { font-weight: 500; }
+  .misc .label.if { color: var(--ink); }
+  .misc .label.then { color: var(--accent); }
+  .check {
+    background: var(--elev); border: 2px solid var(--gold); padding: 1rem 1.2rem;
+    border-radius: 8px; margin-top: 0.6rem;
+  }
+  .check .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic; font-size: 1.1rem; color: var(--ink);
+  }
+  .check .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.5rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .toc {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    padding: 1rem 1.4rem; margin: 1.5rem 0;
+  }
+  .toc h3 { margin: 0 0 0.4rem; }
+  .toc ol { margin: 0; padding-left: 1.4rem; }
+  .toc li { margin: 0.2rem 0; font-size: 0.92rem; }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+  .approve-bar {
+    position: sticky; bottom: 0;
+    background: var(--bg); border-top: 1px solid var(--border);
+    padding: 0.8rem 2.5rem;
+    display: flex; gap: 0.6rem; justify-content: flex-end;
+  }
+  .btn {
+    padding: 0.55rem 1.2rem; border-radius: 6px; font-size: 0.9rem;
+    border: 1px solid var(--border); background: var(--surface); color: var(--ink-soft);
+    cursor: pointer; font-family: inherit;
+  }
+  .btn.primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+  .btn:hover { transform: translateY(-1px); }
+</style>
+</head><body>
+<header>
+  <a class="back-link" href="index.html">← All course reviews</a>
+  <div class="meta">Mini-course · 2 modules</div>
+  <h1>Procedural Knowing</h1>
+  <p class="abstract">After this course, students will be able to explain what procedural knowing is — the knowing instantiated in skills, powered by implicit learning, irreducible to propositional description — and why it occupies a crucial middle position in the four-kinds-of-knowing hierarchy. Students will understand why no amount of propositional instruction can teach one to ride a bicycle, and what that reveals about the structure of competence and expertise. They will also understand why procedural knowing depends on perspectival knowing: executing a skill well requires knowing what it is like to be in this situation. This concept is directly relevant to the series' argument that wisdom is not a set of beliefs but a cultivated capacity — and to why transformative practices (meditation, philosophical dialogue, virtue ethics) cannot be replaced by information.</p>
+  
+</header>
+<main>
+  <div class="toc">
+    <h3>Modules</h3>
+    <ol>
+      <li><a href="#m-knowing-how-and-implicit-learning">Knowing-How and Implicit Learning</a></li><li><a href="#m-procedural-knowing-depends-on-perspectival">Procedural Knowing Depends on Perspectival Knowing</a></li>
+    </ol>
+  </div>
+  
+    <article class="module" id="m-knowing-how-and-implicit-learning">
+      <span class="num">Module 1</span>
+      <h2>Knowing-How and Implicit Learning</h2>
+      <p class="objective">Define procedural knowing as skill-knowing powered by implicit learning and explain why it is irreducible to propositional description.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 1 · Introduction</div>
+            <div class="quote">&ldquo;There's the kind of knowing that's involved in knowing how to catch a baseball.&rdquo;</div>
+            <div class="note">First introduction in the series — the paradigm case of procedural knowing.</div>
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 2 · Flow, Metaphor, and the Axial Revolution</div>
+            <div class="quote">&ldquo;This has to do with your capacity for implicit learning.&rdquo;</div>
+            <div class="note">The cognitive mechanism underlying procedural knowing — non-conscious uptake of complex statistical patterns.</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke uses catching a baseball as the paradigm case of procedural knowing. What makes that example compelling as a case of knowing that is not reducible to beliefs?</div>
+            <div class="themes"><span class="theme-pill">knowing how to catch cannot be stated as propositions</span><span class="theme-pill">implicit learning not conscious rule-following</span><span class="theme-pill">expertise encoded in body and action not language</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Implicit learning means acquiring complex statistical patterns without conscious access to what is being learned. Why is this kind of learning essential for skill development in a way that explicit instruction cannot replace?</div>
+            <div class="themes"><span class="theme-pill">real-world patterns too complex for explicit encoding</span><span class="theme-pill">skill requires absorbed practice</span><span class="theme-pill">propositional instruction cannot transfer know-how</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Think of learning to ride a bicycle. No amount of reading about balance, momentum, or steering theory enables you to ride. Why not, in terms of Vervaeke's account of procedural knowing?</div>
+            <div class="themes"><span class="theme-pill">knowing-how requires practice not propositions</span><span class="theme-pill">implicit learning must operate on experience</span><span class="theme-pill">propositional description of skill misses the skill</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Expertise in a domain often produces a peculiar incapacity: experts find it hard to explain what they know to novices. How does procedural knowing explain this?</div>
+            <div class="themes"><span class="theme-pill">skill is encoded below propositional access</span><span class="theme-pill">articulation requires translation that distorts</span><span class="theme-pill">implicit knowledge resists explicit description</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Procedural knowing is mere muscle memory or automatic reflex — a lower, animal kind of knowing.</div>
+              <div><span class="label then">Then:</span> Vervaeke is clear that procedural knowing is not mere reflex. It involves a complex coordination of implicit learning, situational awareness, and skill application — it is richer than propositional knowledge in important ways and the foundation on which much propositional knowing depends.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Knowing that you should do something is the same as knowing how to do it.</div>
+              <div><span class="label then">Then:</span> This is precisely Aristotle's point about akrasia — you can know propositionally what you should do and still fail because you lack the procedural knowing (the cultivated character and skill) to enact it. Knowing-how and knowing-that are genuinely different kinds.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">A student reads every book on mindfulness practice and can accurately describe the phenomenology of sitting meditation, the theory of attention, and the research supporting it — yet finds that when they try to sit, their attention scatters and nothing like the described state arises. What does Vervaeke's account of procedural knowing tell us about what this student lacks, and what they need?</div>
+          <div class="themes"><span class="theme-pill">propositional knowledge of skill is not the skill</span><span class="theme-pill">implicit learning must operate through practice</span><span class="theme-pill">need to actually sit not just understand sitting</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-procedural-knowing-depends-on-perspectival">
+      <span class="num">Module 2</span>
+      <h2>Procedural Knowing Depends on Perspectival Knowing</h2>
+      <p class="objective">Explain why effective skill application requires situational awareness — perspectival knowing — and how this dependency reveals the hierarchy of the four kinds of knowing.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 43 · Wisdom and Virtue</div>
+            <div class="quote">&ldquo;your propositional knowing has to be grounded in your procedural abilities, which have to be grounded in your perspectival, which has to be grounded ultimately in your participatory.&rdquo;</div>
+            <div class="note">Explicit statement of the full dependency hierarchy — procedural depends on perspectival which depends on participatory.</div>
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 36 · Religio/Perennial Problems/Reverse Eng. Enlightenment</div>
+            <div class="quote">&ldquo;It's at the level of procedural and ultimately perspectival and participatory knowing.&rdquo;</div>
+            <div class="note">Shorthand for where transformative practices operate — not at the propositional tip of the hierarchy.</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke argues that procedural knowing depends on perspectival knowing — you must know what it is like to be in this situation to apply the right skill at the right moment. Can you think of an example from sport, music, or social life where this dependency is vivid?</div>
+            <div class="themes"><span class="theme-pill">timing requires situational awareness</span><span class="theme-pill">skill misapplied without right reading of situation</span><span class="theme-pill">expert sees differently not just acts differently</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">The hierarchy runs: participatory → perspectival → procedural → propositional. What does this order tell us about which kind of knowing is most fundamental and most derivative?</div>
+            <div class="themes"><span class="theme-pill">participatory most fundamental</span><span class="theme-pill">propositional most derivative</span><span class="theme-pill">modern education inverts this hierarchy</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Aristotle's akrasia (weakness of will) is a failure where you know-that but cannot know-how. How does this connect to the dependency between procedural and perspectival knowing?</div>
+            <div class="themes"><span class="theme-pill">character = cultivated procedural-perspectival skill</span><span class="theme-pill">knowing what right without seeing how reveals perspectival gap</span><span class="theme-pill">wisdom requires all levels not just top</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke argues that wisdom is not a set of true beliefs but a cultivated capacity. How does the dependency hierarchy explain why wisdom cannot be transmitted through information?</div>
+            <div class="themes"><span class="theme-pill">wisdom operates at procedural-perspectival-participatory levels</span><span class="theme-pill">information is propositional and highest derivative</span><span class="theme-pill">cultivation requires practice transforming lower levels</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Propositional knowing is the highest and most complete form of knowing — procedural knowing is just applied knowledge.</div>
+              <div><span class="label then">Then:</span> Vervaeke's hierarchy inverts this assumption: propositional knowing is the most derivative kind, depending asymmetrically on procedural, perspectival, and participatory knowing. 'Applied knowledge' misses the fact that skill requires its own non-propositional foundations.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">Why does Vervaeke argue that the modern educational emphasis on propositional knowing — tests, essays, theoretical understanding — is insufficient for the cultivation of wisdom, and what would need to be added?</div>
+          <div class="themes"><span class="theme-pill">wisdom requires procedural and perspectival cultivation</span><span class="theme-pill">practice communities and transformative engagement needed</span><span class="theme-pill">information transmission is necessary but not sufficient</span></div>
+        </div>
+      </section>
+    </article>
+  
+</main>
+<div class="approve-bar">
+  <button class="btn">Request changes</button>
+  <button class="btn primary">Approve for shipping</button>
+</div>
+</body></html>

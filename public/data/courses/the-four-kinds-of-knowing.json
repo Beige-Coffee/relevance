@@ -1,0 +1,270 @@
+{
+  "id": "the-four-kinds-of-knowing",
+  "title": "The Four Kinds of Knowing",
+  "conceptId": "the-four-kinds-of-knowing",
+  "abstract": "Vervaeke argues that modern culture has collapsed all forms of knowing into a single kind — propositional knowing (having justified true beliefs) — and that this collapse is itself a driver of the meaning crisis. Against this reduction, he distinguishes four irreducible kinds: propositional (knowing-that), procedural (knowing-how), perspectival (knowing what it is like), and participatory (knowing through being-in-relation). These form a hierarchy of asymmetric dependence: propositional depends on procedural, procedural on perspectival, perspectival on participatory — but none reduces to another. Recovering the non-propositional kinds of knowing is not a philosophical curiosity but a practical necessity: transformation, wisdom, and religio all operate at the procedural, perspectival, and participatory levels. This concept runs as connective tissue from Episode 1 through the wisdom discussions in Episodes 40–46.",
+  "prerequisites": [],
+  "modules": [
+    {
+      "id": "propositional-knowing",
+      "title": "Propositional Knowing and Its Limits",
+      "subConceptId": "collapse-into-propositional",
+      "learningObjective": "Explain what propositional knowing is, why it has become the default modern form of knowing, and why Vervaeke argues this is both limited and historically contingent.",
+      "expositionPassages": [
+        {
+          "episode": 1,
+          "phrase": "We tend to have reduced all of the ways that the ancients talked about how we know to one thing: To know is to have a special kind of belief. And so we are very belief centric which is why we are so focused as a culture on ideologies."
+        },
+        {
+          "episode": 1,
+          "phrase": "There is much more to knowing than having justified true beliefs."
+        },
+        {
+          "episode": 22,
+          "phrase": "you do not have to be transformed in order to come into contact with ultimate reality. All you have to do is use the right method, do the right computation."
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "Why does Vervaeke connect the dominance of propositional knowing to the cultural obsession with ideologies? What is the link?",
+          "expectedThemes": [
+            "beliefs as the unit of knowing",
+            "ideology as propositional package",
+            "missing participatory and perspectival dimensions"
+          ]
+        },
+        {
+          "prompt": "Can you think of something you genuinely know but cannot fully articulate in propositions? What does that suggest about the relationship between knowing and believing?",
+          "expectedThemes": [
+            "procedural knowing — riding a bike",
+            "perspectival knowing — what grief feels like",
+            "participatory knowing — being in a relationship"
+          ]
+        },
+        {
+          "prompt": "Vervaeke says that Descartes's picture of knowledge implies you do not need to be transformed to know ultimate reality. Why does he find that picture inadequate?",
+          "expectedThemes": [
+            "transformation is needed for perspectival and participatory knowing",
+            "propositional method bypasses self-change",
+            "meaning and wisdom require transformation"
+          ]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "Propositional knowing is the most complete or foundational kind of knowing.",
+          "correction": "Vervaeke argues propositional knowing is actually the most derivative — it depends on procedural, perspectival, and participatory knowing beneath it, not vice versa."
+        },
+        {
+          "misconception": "Having correct propositional knowledge about a practice (e.g., mindfulness) is equivalent to engaging in it.",
+          "correction": "The propositional and procedural/perspectival/participatory are irreducibly different; knowing about mindfulness does not substitute for practicing it."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "If someone masters a complete library of propositional knowledge about wisdom, have they become wise? Why or why not, in Vervaeke's terms?",
+        "expectedThemes": [
+          "propositional depends on other knowings",
+          "wisdom requires procedural perspectival participatory transformation",
+          "the collapse of knowing is itself the problem"
+        ]
+      }
+    },
+    {
+      "id": "procedural-knowing",
+      "title": "Procedural Knowing: Knowing-How",
+      "subConceptId": "knowing-how-and-implicit-learning",
+      "learningObjective": "Define procedural knowing as skill-based knowing grounded in implicit learning, and explain why it cannot be replaced by propositional instruction.",
+      "expositionPassages": [
+        {
+          "episode": 1,
+          "phrase": "There's the kind of knowing that's involved in knowing how to catch a baseball."
+        },
+        {
+          "episode": 36,
+          "phrase": "It's at the level of procedural and ultimately perspectival and participatory knowing."
+        },
+        {
+          "episode": 43,
+          "phrase": "your propositional knowing has to be grounded in your procedural abilities, which have to be grounded in your perspectival, which has to be grounded ultimately in your participatory."
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "Why can't you learn to ride a bicycle from a book, no matter how detailed? What does this reveal about the nature of procedural knowing?",
+          "expectedThemes": [
+            "implicit learning requires practice",
+            "propositional description cannot convey skill",
+            "motor and sensorimotor dimensions"
+          ]
+        },
+        {
+          "prompt": "In what sense does procedural knowing 'depend on' perspectival knowing? What would go wrong if you had the skill without the situational awareness?",
+          "expectedThemes": [
+            "need to know which skill applies when",
+            "situational awareness guides skill application",
+            "perspectival as condition for procedural"
+          ]
+        },
+        {
+          "prompt": "Vervaeke connects procedural knowing to implicit learning. What is implicit learning, and why does it matter for wisdom?",
+          "expectedThemes": [
+            "unconscious pickup of patterns",
+            "flow state enhances it",
+            "wisdom involves implicit pattern recognition not just explicit rules"
+          ]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "Procedural knowing is a lesser kind than propositional knowing — it is just muscle memory.",
+          "correction": "The hierarchy of dependence shows that propositional knowing actually depends on procedural knowing; procedural is more foundational, not less."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "A therapist knows all the techniques of cognitive-behavioral therapy propositionally. What else do they need to be genuinely skilled, and why?",
+        "expectedThemes": [
+          "procedural skill through practice",
+          "perspectival knowing of the situation",
+          "implicit learning from cases",
+          "participatory attunement to client"
+        ]
+      }
+    },
+    {
+      "id": "perspectival-knowing",
+      "title": "Perspectival Knowing: What It Is Like",
+      "subConceptId": "salience-landscape-as-perspectival",
+      "learningObjective": "Define perspectival knowing as knowing what it is like to occupy a perspective, explain its constitutive role in the salience landscape, and show why it cannot be replaced by propositional reports.",
+      "expositionPassages": [
+        {
+          "episode": 1,
+          "phrase": "There's the kind of knowing of what it is like to be having this experience right now."
+        },
+        {
+          "episode": 22,
+          "phrase": "And so Pascal is pointing out that what has been lost in the scientific revolution is all these other kinds of knowing and being, and these are the kinds of knowing and being that he found present in the transformative experience that he had."
+        },
+        {
+          "episode": 17,
+          "phrase": "you don't know what it is like cause that's the core of you don't know what your salience landscape will be like when you eat this fruit until you have eaten the fruit."
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "Can a person who has never experienced grief understand what it is like — from propositional descriptions alone? What does this suggest about perspectival knowing?",
+          "expectedThemes": [
+            "what-it-is-like is irreducible",
+            "salience landscape changes with experience",
+            "propositional descriptions gesture at but cannot convey the perspective"
+          ]
+        },
+        {
+          "prompt": "Pascal argues the scientific revolution lost the 'spirit of finesse' (perspectival and participatory knowing) in favor of the 'spirit of geometry'. What might be the practical cost of that loss?",
+          "expectedThemes": [
+            "transformative experience unavailable",
+            "insight and wisdom require perspectival",
+            "existential transformation blocked by propositional-only approach"
+          ]
+        },
+        {
+          "prompt": "Vervaeke says you cannot know what your salience landscape will be like after a transformative experience until you have gone through it. How does this bear on rational decision-making?",
+          "expectedThemes": [
+            "L.A. Paul's transformative experience",
+            "decision theory cannot fully capture",
+            "aspiration and gnosis as responses"
+          ]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "Perspectival knowing is just subjective bias — emotion getting in the way of objective truth.",
+          "correction": "Perspectival knowing is a genuine kind of knowing constituted by what it is like to occupy a perspective; it cannot be replaced by propositional reports and is not reducible to bias."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "Two people know identical propositions about a situation, yet one makes a wiser decision. What might account for the difference, in terms of the four kinds of knowing?",
+        "expectedThemes": [
+          "perspectival knowing of the situation",
+          "situational awareness guides skill",
+          "participatory attunement",
+          "procedural competence in application"
+        ]
+      }
+    },
+    {
+      "id": "participatory-knowing",
+      "title": "Participatory Knowing: Being-In-Relation",
+      "subConceptId": "asymmetric-dependence-hierarchy",
+      "learningObjective": "Explain participatory knowing as the foundational mode in which agent and world co-constitute each other, and show why recovering it is essential for any genuine response to the meaning crisis.",
+      "expositionPassages": [
+        {
+          "episode": 1,
+          "phrase": "There's the kind of knowing that is knowing what it's like to be in something you're participating in like a relationship."
+        },
+        {
+          "episode": 36,
+          "phrase": "It's at the level of procedural and ultimately perspectival and participatory knowing."
+        },
+        {
+          "episode": 29,
+          "phrase": "we are getting a lot about how we should think about Relevance Realisation where we should look for it and notice it's starting to give us a way of connecting and thinking about the four kinds of knowing."
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "What is the difference between knowing about a friendship propositionally and actually being in a friendship? What kind of knowing is the latter?",
+          "expectedThemes": [
+            "participatory knowing as being-in-relation",
+            "co-constituting change in both parties",
+            "Da'ath — Hebraic participatory knowing"
+          ]
+        },
+        {
+          "prompt": "If participatory knowing is the most foundational of the four kinds, what does it mean that modern culture has largely lost it?",
+          "expectedThemes": [
+            "loss grounds all other losses",
+            "propositional collapse undermines meaning at the root",
+            "wisdom traditions addressed participatory knowing"
+          ]
+        },
+        {
+          "prompt": "How does the notion of participatory knowing help explain why some experiences feel more real and more meaningful than ordinary life?",
+          "expectedThemes": [
+            "higher states of consciousness",
+            "anagoge",
+            "agent-arena attunement",
+            "contact with reality rather than description of it"
+          ]
+        },
+        {
+          "prompt": "Vervaeke argues that recovering procedural, perspectival, and participatory knowing requires practice, not just information. What kind of practices might develop each kind?",
+          "expectedThemes": [
+            "mindfulness for perspectival",
+            "flow for procedural",
+            "gnosis for participatory",
+            "ecology of psycho-technologies"
+          ]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "Participatory knowing is the lowest or most primitive kind — the one we should aim to transcend.",
+          "correction": "In Vervaeke's hierarchy of dependence, participatory knowing is the most foundational — the highest in the dependency chain — not the lowest in value; all other kinds of knowing depend on it."
+        },
+        {
+          "misconception": "Learning propositions about participatory knowing cultivates it.",
+          "correction": "Recovery of participatory knowing requires appropriate practice within an ecology of psycho-technologies; propositional knowledge about it cannot substitute for enacting it."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "Why does Vervaeke argue that responding to the meaning crisis requires recovering all four kinds of knowing — and why is propositional knowing alone insufficient, no matter how accurate?",
+        "expectedThemes": [
+          "four kinds are irreducibly different",
+          "meaning operates at procedural perspectival participatory levels",
+          "propositional collapse is the problem not the solution",
+          "ecology of practices needed"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "id": "insight",
+  "title": "Insight",
+  "conceptId": "insight",
+  "abstract": "This course examines insight — the sudden restructuring of cognition in which an inappropriate frame is broken and a better one constructed — through Vervaeke's cognitive-scientific account. After completing this course, you will be able to describe the two phases of insight (frame-breaking via de-automatization; frame-building via new gestalt), explain why flow produces an insight cascade, and articulate the crucial distinction between insight in consciousness (reframing a single problem) and the transframing insight that transforms the competence for relevance realization itself. Insight is foundational in the series arc because it is the cognitive mechanism behind wisdom, the basis of the transformative experiences religious traditions sought, and — as mindfulness training shows — cultivable through practice rather than merely awaitable through luck.",
+  "prerequisites": [],
+  "modules": [
+    {
+      "id": "frame-breaking",
+      "title": "Frame-Breaking: Disrupting the Inappropriate Gestalt",
+      "subConceptId": "frame-breaking",
+      "learningObjective": "Describe the frame-breaking phase of insight and explain what de-automatization involves and why it is necessary before a new frame can be constructed.",
+      "expositionPassages": [
+        {
+          "episode": 9,
+          "phrase": "I have to break up an inappropriate frame. What do I have to do? I have to break up the gestalt. And I also have to de-automatize my cognition.",
+          "note": "Vervaeke's two-step description of the first phase of insight"
+        },
+        {
+          "episode": 9,
+          "phrase": "Mindfulness is basically teaching us how to appropriate and train a flexibility of attentional scaling so that we can intervene effectively in how we are framing our problems and increase the chances of insight when insight is needed.",
+          "note": "Mindfulness as the practice for cultivating frame-breaking capacity"
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "Think of a riddle or a puzzle where the obvious interpretation is wrong and the solution requires thinking about it completely differently. What had to happen before the right answer could occur to you — what had to change first?",
+          "expectedThemes": ["wrong framing had to be released", "de-automatization of the default pattern", "something had to let go before something else could be found"]
+        },
+        {
+          "prompt": "Automatization is what makes skilled behavior fast and effortless. But Vervaeke says we have to de-automatize to have insight. Why would the very thing that makes us expert in a domain also trap us when we need to think differently?",
+          "expectedThemes": ["expertise constrains as well as enables", "habitual framing prevents novel framing", "entrenched patterns resist disruption"]
+        },
+        {
+          "prompt": "What would it feel like to break a frame from the inside — when you are the one who needs to let go of an assumption you don't even know you're making? Why is that particularly difficult?",
+          "expectedThemes": ["frame is invisible when you are inside it", "don't know which assumptions to question", "mindfulness and indirect practices help by training attentional flexibility"]
+        },
+        {
+          "prompt": "Mindfulness is described as training 'flexibility of attentional scaling.' What would that mean in practice — and why would that help with frame-breaking rather than just making you more calm?",
+          "expectedThemes": ["attentional scaling = zooming in and out", "flexibility allows loosening current frame", "not just relaxation but cognitive de-automatization"]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "Insight just happens to you spontaneously — there's nothing you can do to make it more likely.",
+          "correction": "Vervaeke argues that mindfulness training cultivates attentional flexibility that directly increases the capacity for frame-breaking, making insight more available — it is not luck but a cultivable skill."
+        },
+        {
+          "misconception": "To have insight you just need to think harder about the problem.",
+          "correction": "Insight requires first breaking the inappropriate frame — which harder thinking within the same frame will not accomplish. The necessary move is de-automatization, which often requires indirect practices like mindfulness, stepping away, or disrupting habitual patterns."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "What is de-automatization — why is it a necessary precondition for insight rather than something that follows from insight — and how does mindfulness training make it more accessible?",
+        "expectedThemes": ["de-automatization loosens the habitual framing", "must precede insight because insight requires the frame to be breakable", "mindfulness trains attentional flexibility that enables frame-loosening"]
+      }
+    },
+    {
+      "id": "insight-cascade",
+      "title": "The Insight Cascade: Flow as Successive Restructuring",
+      "subConceptId": "insight-cascade",
+      "learningObjective": "Explain why flow produces an insight cascade and how each restructuring primes the next in a self-accelerating process of deep learning.",
+      "expositionPassages": [
+        {
+          "episode": 2,
+          "phrase": "That's the flow state. It's an insight cascade. So the more you flow, the more you're training your ability for insight.",
+          "note": "Vervaeke's identification of flow as an insight cascade"
+        },
+        {
+          "episode": 8,
+          "phrase": "attention isn't a spotlight. It's a very complex optimisation process.",
+          "note": "Attention as optimization — relevant to why flow's tight feedback makes insight cascades possible"
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "Vervaeke says flow is not just pleasant — it is an insight cascade. What would a cascade of insights feel like, and how is it different from solving several problems in a row by the same method?",
+          "expectedThemes": ["each insight opens new possibilities", "cascade is self-priming not merely sequential", "qualitatively different from problem-solving repetition"]
+        },
+        {
+          "prompt": "The more you flow, the more you train your ability for insight. But insight cannot be forced. So how does practicing flow train something that is by definition non-deliberate?",
+          "expectedThemes": ["flow trains de-automatization as a background capacity", "insight-readiness is cultivable even if individual insights are spontaneous", "indirect cultivation through regular flow practice"]
+        },
+        {
+          "prompt": "Each insight in a cascade primes the next. What conditions in flow — clear information, tight feedback, error matters — would explain why insights in flow compound rather than terminate?",
+          "expectedThemes": ["tight feedback immediately validates or disconfirms each reframing", "clear information means new frames are quickly tested", "momentum built by confirmed reframings"]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "An insight cascade is just having a lot of good ideas — it is quantitative, not qualitatively different from ordinary thinking.",
+          "correction": "An insight cascade involves successive restructurings, where each reframing primes new perceptual possibilities — it is self-accelerating and qualitatively different from merely having multiple ideas within a stable frame."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "Why is flow's insight cascade more than a sequence of separate insights — what is it about flow's conditions that makes each insight prime the next?",
+        "expectedThemes": ["tight feedback means each reframing is immediately tested", "successful reframings open new perceptual affordances", "self-accelerating because validated frames reveal new inconsistencies to resolve"]
+      }
+    },
+    {
+      "id": "transframing-insight",
+      "title": "Transframing Insight: Transforming the Competence Itself",
+      "subConceptId": "transframing-insight",
+      "learningObjective": "Articulate the distinction between reframing a single problem and the transframing insight that transforms the capacity to generate frames — and connect this to wisdom development.",
+      "expositionPassages": [
+        {
+          "episode": 40,
+          "phrase": "it not only is reframing the problem. It is transforming my competence so it is a transframing insight. It is a systematic insight.",
+          "note": "Vervaeke's distinction between ordinary insight and transframing insight"
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "Imagine two students: one figures out how to solve a specific physics problem by finding the right angle; another, through the same process, suddenly understands how to approach a whole category of problems. What is the difference in what changed?",
+          "expectedThemes": ["first changed their solution to one problem", "second changed their problem-solving competence", "local vs. systematic insight"]
+        },
+        {
+          "prompt": "Transframing transforms the competence that generates frames — the meta-level. What does it mean for a cognitive capacity to be transformed rather than just used? And why would wisdom traditions care about that distinction?",
+          "expectedThemes": ["transformation changes what can be seen", "not just solving better but seeing differently", "wisdom requires ongoing transframing not just accumulation of solutions"]
+        },
+        {
+          "prompt": "Higher states of consciousness are described as affording transframing insights. Why would those states — by restructuring the whole salience landscape — be especially suited to transforming competences rather than solving single problems?",
+          "expectedThemes": ["whole salience landscape restructured = framing competence changed", "systematic rather than local transformation", "explains why higher states are developmentally significant"]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "Insight is always about solving a particular problem more cleverly.",
+          "correction": "Ordinary insight does involve solving particular problems by reframing; but transframing insight — the kind associated with wisdom and higher states — transforms the competence for relevance realization itself, not just one application of it."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "What is a transframing insight — how does it differ from ordinary reframing — and why is the capacity for transframing rather than reframing what wisdom development requires?",
+        "expectedThemes": ["transframing transforms competence not just content", "reframing solves one problem within existing capacity", "wisdom requires systematic transformation of how one realizes relevance"]
+      }
+    }
+  ]
+}

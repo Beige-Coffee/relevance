@@ -1,0 +1,92 @@
+{
+  "num": 4,
+  "slug": "socrates-quest-for-wisdom",
+  "title": "Socrates and the Quest for Wisdom",
+  "essence": "Socrates epitomizes the Axial Revolution through his radical redefinition of wisdom and his method of questioning that combines truth-seeking with self-knowledge. When the Oracle at Delphi pronounces him wisest, Socrates resolves the paradox by discovering that true wisdom lies in knowing what one does not know—a participatory self-knowledge that aligns one's sense of relevance with reality rather than mere propositional belief. Vervaeke contrasts Socrates with the natural philosophers (who offer truth without relevance) and the Sophists (who offer relevance divorced from truth), showing that Socrates seeks both unified. Through the Socratic method, Socrates trains people to reduce self-deception, align salience with reality, and cultivate love (eros) as caring rightly. His emphasis on the unexamined life and on becoming acquainted with one's own foolishness establishes the core of Axial-age wisdom: the integration of reason and love, self-knowledge and transformation. Socrates's willingness to die for this vision demonstrates the existential gravity of meaning and wisdom in human flourishing.",
+  "keyClaims": [
+    "True wisdom involves knowing what one does not know—self-knowledge that transcends propositional belief",
+    "Wisdom requires integrating truth-seeking with relevance-alignment, overcoming self-deception",
+    "The Socratic method trains people to recognize foolishness and align their sense of what matters with reality",
+    "Reason and love are interdependent; wisdom involves knowing what to care about",
+    "Self-knowledge is an 'owner's manual' of how one operates, not autobiographical self-consciousness"
+  ],
+  "concepts": [
+    {
+      "name": "socratic method",
+      "treatment": "introduced",
+      "summary": "Philosophical method of questioning designed to expose contradiction and generate self-knowledge."
+    },
+    {
+      "name": "wisdom",
+      "treatment": "developed",
+      "summary": "Integration of self-knowledge, alignment of salience with truth, and cultivated love of what matters."
+    },
+    {
+      "name": "self knowledge",
+      "treatment": "developed",
+      "summary": "Understanding how one operates psychologically, one's capacities and limitations."
+    },
+    {
+      "name": "eros",
+      "treatment": "introduced",
+      "summary": "Love understood broadly as caring rightly about what matters."
+    },
+    {
+      "name": "bullshit",
+      "treatment": "introduced",
+      "summary": "Divorce of salience from truth, making things seem important while being indifferent to their reality."
+    },
+    {
+      "name": "relevance realization",
+      "treatment": "developed",
+      "summary": "How the mind determines what is salient and important in a situation."
+    },
+    {
+      "name": "aporia",
+      "treatment": "introduced",
+      "summary": "State of puzzlement or being stuck that results from recognizing one's ignorance."
+    }
+  ],
+  "people": [
+    {
+      "name": "Socrates",
+      "role": "subject",
+      "summary": "Ancient Greek philosopher whose life and death exemplify the Axial quest for wisdom and self-knowledge."
+    },
+    {
+      "name": "Plato",
+      "role": "referenced",
+      "summary": "Student of Socrates who records his teachings and philosophy."
+    },
+    {
+      "name": "Harry Frankfurt",
+      "role": "discussed",
+      "summary": "Contemporary philosopher who analyzed bullshit as distinct from lying."
+    },
+    {
+      "name": "Dreyfus",
+      "role": "referenced",
+      "summary": "Cognitive scientist who studied implicit knowing and expertise."
+    }
+  ],
+  "crossRefs": [
+    {
+      "episode": 3,
+      "context": "Socratic revolution as part of Greek Axial transformation"
+    },
+    {
+      "episode": 5,
+      "context": "Plato's development of Socratic ideas into systematic philosophy"
+    }
+  ],
+  "quotableMoments": [
+    {
+      "quote": "The unexamined life is not worth living.",
+      "context": "Socrates' statement of the value of self-examination and philosophy"
+    },
+    {
+      "quote": "He knew what he did not know! And we all say 'I know what I don't know. I made note of a lot of things...' No no no no! He knew in a way that allows you to directly, painfully confront your capacity for bullshiting yourself.",
+      "context": "Explaining Socratic wisdom as deeper than mere acknowledgment of ignorance"
+    }
+  ]
+}

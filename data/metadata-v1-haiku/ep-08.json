@@ -1,0 +1,97 @@
+{
+  "num": 8,
+  "slug": "buddha-and-mindfulness",
+  "title": "The Buddha and Mindfulness",
+  "essence": "Siddhartha Gautama embodies the Axial Revolution in India through his quest to escape modal confusion and recover the being mode. The mythological narrative shows him encountering sickness, aging, and death—the existential disturbances that shatter the palace's modal confusion. Confronted with a mendicant exemplifying deep peace, Siddhartha glimpses the being mode he has lost. He attempts escape through self-denial, another form of modal confusion where he tries to have a self and annihilate it. Through a musician's teaching—that strings cannot be too tight or too loose—Siddhartha discovers the middle path, transcending both self-indulgence and self-denial. This leads to sati: remembering, recovering the being mode not as fact but as lived experience and identity. Vervaeke distinguishes mindfulness (sati) from the Western feature-list definition ('being present in a nonjudgmental way'), arguing true mindfulness is about recovering existential modes. Meditation and contemplation are not synonyms but complementary practices: meditation scales down attention (breaking inappropriate frames), contemplation scales up (finding wider patterns). Mindfulness is training flexible attentional scaling to improve insight. Through this optical work on attention, Siddhartha practices toward enlightenment, though the episode ends before enlightenment itself.",
+  "keyClaims": [
+    "Siddhartha's quest involves recovering the being mode lost in palace modal confusion",
+    "The middle path transcends both self-indulgence and self-denial through optimization, not negation",
+    "Sati (mindfulness) means recovering lost existential modes, not merely being present",
+    "Meditation and contemplation are complementary scaling practices, not synonyms",
+    "Mindfulness is training flexible attentional engagement to improve insight and existential transformation"
+  ],
+  "concepts": [
+    {
+      "name": "sati",
+      "treatment": "introduced",
+      "summary": "Deep remembering or recovery of a lost existential mode or way of being."
+    },
+    {
+      "name": "mindfulness",
+      "treatment": "developed",
+      "summary": "Psycho-technology training flexible attentional scaling for insight and existential transformation."
+    },
+    {
+      "name": "being mode",
+      "treatment": "developed",
+      "summary": "Existential mode focused on becoming, development, and expressive participation."
+    },
+    {
+      "name": "modal confusion",
+      "treatment": "developed",
+      "summary": "Being trapped in having mode, attempting to meet being needs through having."
+    },
+    {
+      "name": "middle path",
+      "treatment": "introduced",
+      "summary": "Transcendence of opposites through optimization rather than negation."
+    },
+    {
+      "name": "meditation",
+      "treatment": "introduced",
+      "summary": "Scaling down practice that breaks up inappropriate frames and de-automatizes cognition."
+    },
+    {
+      "name": "contemplation",
+      "treatment": "introduced",
+      "summary": "Scaling up practice that finds wider patterns and integrates into larger wholes."
+    },
+    {
+      "name": "disillusionment",
+      "treatment": "introduced",
+      "summary": "Loss of illusion, painful awakening to reality and loss of former existential mode."
+    }
+  ],
+  "people": [
+    {
+      "name": "Siddhartha Gautama",
+      "role": "subject",
+      "summary": "The Buddha-to-be whose mythological journey illustrates the Axial Revolution in India."
+    },
+    {
+      "name": "Stephen Batchelor",
+      "role": "referenced",
+      "summary": "Contemporary Buddhist scholar who understands mindfulness as recovery of being mode."
+    },
+    {
+      "name": "Ellen Langer",
+      "role": "discussed",
+      "summary": "Cognitive psychologist who studied soft vigilance and mindful attention."
+    },
+    {
+      "name": "Christopher Mole",
+      "role": "discussed",
+      "summary": "Philosopher of attention who explains attention as optimization rather than spotlight."
+    }
+  ],
+  "crossRefs": [
+    {
+      "episode": 7,
+      "context": "Siddhartha's palace and modal confusion illustrated here"
+    },
+    {
+      "episode": 9,
+      "context": "Mindfulness practices and attentional scaling developed further"
+    }
+  ],
+  "quotableMoments": [
+    {
+      "quote": "To remember is 'to belong to'. To be a member. I belong again to myself and to the world. That's what happens when I'm waking up.",
+      "context": "Explaining sati as deep remembering and recovery of belonging"
+    },
+    {
+      "quote": "What's the present moment? Is it right here right now? That nanosecond? This second? The last five minutes? The last hour? What's the present moment? See, the word 'present' doesn't have a particular meaning.",
+      "context": "Challenging the incoherence of mindfulness training language used as explanation"
+    }
+  ]
+}

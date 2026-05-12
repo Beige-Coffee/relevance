@@ -1,0 +1,330 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Parasitic Processing — Mini-course Review</title>
+<style>
+  :root {
+    --bg: #faf7f1; --surface: #ffffff; --elev: #f2ede0;
+    --ink: #1c1a17; --ink-soft: #3a3530; --muted: #6b6660;
+    --border: #e0d9c8; --accent: #8b3a3a; --gold: #b8893c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14120e; --surface:#1c1916; --elev:#25211c;
+      --ink:#ece6d6; --ink-soft:#b8b1a1; --muted:#8a8378;
+      --border:#2e2922; --accent:#d28a7e; --gold:#d4a85a; }
+  }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Inter", system-ui, sans-serif;
+    background: var(--bg); color: var(--ink); margin: 0; line-height: 1.6;
+    -webkit-font-smoothing: antialiased; }
+  .serif { font-family: "EB Garamond", Georgia, serif; }
+  header { padding: 2rem 2.5rem 1rem; border-bottom: 1px solid var(--border); }
+  .back-link { color: var(--muted); font-size: 0.8rem; text-decoration: none; }
+  .back-link:hover { color: var(--accent); }
+  .meta { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin: 0.6rem 0 0.3rem; }
+  h1 { font-family: "EB Garamond", Georgia, serif; font-size: 2.6rem; margin: 0; letter-spacing: -0.01em; font-weight: 500; }
+  .abstract {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.1rem; line-height: 1.65;
+    color: var(--ink-soft); margin: 1rem 0; max-width: 60rem;
+  }
+  .prereqs { font-size: 0.85rem; color: var(--muted); margin-top: 0.6rem; }
+  .prereqs a { color: var(--accent); text-decoration: none; }
+  .prereqs a:hover { text-decoration: underline; }
+  main { max-width: 60rem; margin: 0 auto; padding: 2rem 2.5rem 5rem; }
+  .module {
+    border-top: 1px solid var(--border); padding-top: 2rem; margin-top: 3rem;
+  }
+  .module:first-child { border-top: none; padding-top: 0; margin-top: 0; }
+  .module .num {
+    font-family: ui-monospace, monospace; font-size: 0.78rem;
+    background: var(--gold); color: var(--bg); padding: 0.2rem 0.6rem;
+    border-radius: 99px; display: inline-block; margin-bottom: 0.6rem;
+  }
+  .module h2 {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.9rem; margin: 0;
+    letter-spacing: -0.01em; font-weight: 500; line-height: 1.15;
+  }
+  .module .objective {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic;
+    color: var(--ink-soft); margin: 0.5rem 0 1rem;
+  }
+  section { margin: 1.6rem 0; }
+  section h3 {
+    font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em;
+    color: var(--muted); margin: 0 0 0.6rem;
+  }
+  .passage {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--gold);
+    padding: 0.8rem 1rem; margin: 0.5rem 0; border-radius: 4px;
+  }
+  .passage .src {
+    font-family: ui-monospace, monospace; font-size: 0.72rem;
+    color: var(--accent); margin-bottom: 0.3rem;
+  }
+  .passage .quote {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic;
+    color: var(--ink); font-size: 1rem; line-height: 1.55;
+  }
+  .passage .note { font-size: 0.78rem; color: var(--muted); margin-top: 0.4rem; }
+  .seed {
+    padding: 0.5rem 0; border-left: 2px solid var(--gold); padding-left: 1rem; margin: 0.5rem 0;
+  }
+  .seed .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic; color: var(--ink);
+  }
+  .seed .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.3rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .theme-pill {
+    background: var(--elev); padding: 0.15rem 0.55rem; border-radius: 99px;
+  }
+  .misc {
+    background: var(--elev); padding: 0.7rem 1rem; margin: 0.5rem 0; border-radius: 6px;
+    font-size: 0.9rem;
+  }
+  .misc .label { font-weight: 500; }
+  .misc .label.if { color: var(--ink); }
+  .misc .label.then { color: var(--accent); }
+  .check {
+    background: var(--elev); border: 2px solid var(--gold); padding: 1rem 1.2rem;
+    border-radius: 8px; margin-top: 0.6rem;
+  }
+  .check .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic; font-size: 1.1rem; color: var(--ink);
+  }
+  .check .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.5rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .toc {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    padding: 1rem 1.4rem; margin: 1.5rem 0;
+  }
+  .toc h3 { margin: 0 0 0.4rem; }
+  .toc ol { margin: 0; padding-left: 1.4rem; }
+  .toc li { margin: 0.2rem 0; font-size: 0.92rem; }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+  .approve-bar {
+    position: sticky; bottom: 0;
+    background: var(--bg); border-top: 1px solid var(--border);
+    padding: 0.8rem 2.5rem;
+    display: flex; gap: 0.6rem; justify-content: flex-end;
+  }
+  .btn {
+    padding: 0.55rem 1.2rem; border-radius: 6px; font-size: 0.9rem;
+    border: 1px solid var(--border); background: var(--surface); color: var(--ink-soft);
+    cursor: pointer; font-family: inherit;
+  }
+  .btn.primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+  .btn:hover { transform: translateY(-1px); }
+</style>
+</head><body>
+<header>
+  <a class="back-link" href="index.html">← All course reviews</a>
+  <div class="meta">Mini-course · 3 modules</div>
+  <h1>Parasitic Processing</h1>
+  <p class="abstract">After this course, students will be able to explain how the very cognitive machinery that makes human beings intelligently adaptive — heuristics, encoding specificity, confirmation bias, self-organizing dynamics — also makes them structurally vulnerable to self-reinforcing loops of self-deceptive, self-destructive behavior. They will understand why this vulnerability is not a moral failing but an architectural feature of intelligent agency, why willpower or propositional insight alone cannot break the spiral, and how the Buddhist Eightfold Path can be understood as a counteractive dynamical system. This concept is central to the series' diagnosis of why suffering persists despite awareness: it is endemic, not accidental. Parasitic processing connects Aristotle's akrasia, Buddhist dukkha, and Marc Lewis's reciprocal narrowing into a unified cognitive-scientific account.</p>
+  
+    <div class="prereqs">
+      Prerequisites:
+      <span>self-deception</span>
+    </div>
+</header>
+<main>
+  <div class="toc">
+    <h3>Modules</h3>
+    <ol>
+      <li><a href="#m-self-organizing-self-destructive-loop">The Self-Organizing Loop: How Adaptive Heuristics Go Wrong</a></li><li><a href="#m-modal-confusion-as-driver">Modal Confusion as a Driver of Parasitic Processing</a></li><li><a href="#m-counteractive-dynamical-system">The Eightfold Path as Counteractive Dynamical System</a></li>
+    </ol>
+  </div>
+  
+    <article class="module" id="m-self-organizing-self-destructive-loop">
+      <span class="num">Module 1</span>
+      <h2>The Self-Organizing Loop: How Adaptive Heuristics Go Wrong</h2>
+      <p class="objective">Trace how adaptive cognitive heuristics — representativeness, availability, confirmation bias — can combine into a self-reinforcing spiral of misperception and lost agency.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 13 · Buddhism and Parasitic Processing</div>
+            <div class="quote">&ldquo;We called this in, when we published, 'Parasitic Processing'. It's not just about bad events. This is just one example. We get into all kinds of these spirals.&rdquo;</div>
+            <div class="note">The published term and its scope — it covers all self-reinforcing cognitive loops, not just depression.</div>
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 38 · Agape and 4E Cognitive Science</div>
+            <div class="quote">&ldquo;the very processes that make us intelligently adaptive also make us vulnerable to self-deceptive, self-destructive behavior&rdquo;</div>
+            <div class="note">The core paradox: the vulnerability is inseparable from the adaptive capacity.</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke traces how an initial bad event can escalate through heuristics into a locked spiral. What makes this spiral genuinely self-organizing rather than just a sequence of bad decisions?</div>
+            <div class="themes"><span class="theme-pill">each element reinforces others</span><span class="theme-pill">system adapts to resist intervention</span><span class="theme-pill">automatic not deliberate</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Why does knowing you are in a parasitic-processing spiral typically fail to get you out of it? What does this reveal about the nature of the trap?</div>
+            <div class="themes"><span class="theme-pill">propositional knowledge insufficient</span><span class="theme-pill">system reorganizes around attempts to exit</span><span class="theme-pill">operates below deliberate control</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">The heuristics involved — representativeness, availability, confirmation bias — are individually adaptive. How does that make parasitic processing so insidious?</div>
+            <div class="themes"><span class="theme-pill">you cannot simply discard the machinery</span><span class="theme-pill">adaptive tools become self-destructive in context</span><span class="theme-pill">no single point of intervention</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke says parasitic processing is 'like a parasite in that it takes up life within you, and it takes life away from you.' What does this metaphor illuminate about the relationship between the spiral and the self?</div>
+            <div class="themes"><span class="theme-pill">uses your own resources against you</span><span class="theme-pill">borrows adaptive machinery</span><span class="theme-pill">agent loses agency progressively</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Parasitic processing is just another name for bad habits or laziness.</div>
+              <div><span class="label then">Then:</span> In Vervaeke's account (with Ferraro), parasitic processing is self-organizing and self-reinforcing — it borrows the adaptive machinery of relevance realization and operates against the agent's interests. It is not a character defect but an architectural vulnerability of intelligent systems.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> The perennial cognitive vulnerabilities Vervaeke describes are moral failures that more effort could overcome.</div>
+              <div><span class="label then">Then:</span> Vervaeke is explicit: these are structural vulnerabilities built into the very machinery that makes intelligent agency possible — the representativeness heuristic, encoding specificity, confirmation bias are all adaptively indispensable. The issue is not weakness of character.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">Consider someone who, after a professional setback, begins to see every minor difficulty at work as evidence they are fundamentally incompetent, avoids challenges to protect themselves, and thereby generates the poor performance they feared. Walk through how Vervaeke's account of parasitic processing explains this spiral.</div>
+          <div class="themes"><span class="theme-pill">encoding specificity biases memory</span><span class="theme-pill">availability heuristic inflates probability of failure</span><span class="theme-pill">confirmation bias filters for negative evidence</span><span class="theme-pill">avoidance reduces competence confirming the fear</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-modal-confusion-as-driver">
+      <span class="num">Module 2</span>
+      <h2>Modal Confusion as a Driver of Parasitic Processing</h2>
+      <p class="objective">Explain how attempting to satisfy being-mode needs through having-mode strategies generates the misfit that feeds parasitic processing.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 38 · Agape and 4E Cognitive Science</div>
+            <div class="quote">&ldquo;We can address modal confusion by the cultivation of Sati.&rdquo;</div>
+            <div class="note">The positive formulation: sati counteracts modal confusion which drives the spiral.</div>
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 13 · Buddhism and Parasitic Processing</div>
+            <div class="quote">&ldquo;Marc proposes a model that he calls 'Reciprocal Narrowing'. So here's your Agent and here's the Arena (drawn on the board). And what happens is the drug use is associated with a particular Agent:Arena relationship.&rdquo;</div>
+            <div class="note">Marc Lewis's complementary model showing how parasitic processing and reciprocal narrowing interpenetrate.</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">How does modal confusion — trying to satisfy being-mode needs with having-mode strategies — generate the kind of frustration that feeds a cognitive spiral?</div>
+            <div class="themes"><span class="theme-pill">unmet being-need creates ongoing dissatisfaction</span><span class="theme-pill">increased acquisition does not satisfy</span><span class="theme-pill">frustration activates heuristic-driven spiraling</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Marc Lewis's reciprocal narrowing describes addiction at the Agent-Arena level. How does it connect to parasitic processing at the cognitive level?</div>
+            <div class="themes"><span class="theme-pill">internal loop and external narrowing mutually reinforce</span><span class="theme-pill">loss of cognitive flexibility shrinks arena</span><span class="theme-pill">same machinery involved in both</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke says dukkha — the Buddhist diagnosis — encompasses both parasitic processing and reciprocal narrowing. Why does this integration matter for understanding what enlightenment is trying to achieve?</div>
+            <div class="themes"><span class="theme-pill">enlightenment addresses both levels</span><span class="theme-pill">anagoge as spiral upward</span><span class="theme-pill">full recovery requires internal and external opening</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Addiction is primarily a biochemical dependency problem.</div>
+              <div><span class="label then">Then:</span> Lewis's model — which Vervaeke endorses — shows addiction is better understood as reciprocal narrowing of the Agent-Arena relationship through learned loss of agency, not primarily a biochemical lock. Vietnam veterans' spontaneous cessation upon returning home illustrates this.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">How is dukkha, in Vervaeke's reformulation of the first noble truth, different from the claim 'all life is painful'? What does the cognitive-scientific account reveal that the bare statement 'all is suffering' obscures?</div>
+          <div class="themes"><span class="theme-pill">dukkha as structural threat to agency not omnipresent pain</span><span class="theme-pill">threat is endemic not occasional</span><span class="theme-pill">self-destructive potential in every exercise of intelligence</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-counteractive-dynamical-system">
+      <span class="num">Module 3</span>
+      <h2>The Eightfold Path as Counteractive Dynamical System</h2>
+      <p class="objective">Explain why only a counteractive dynamical system — not a single-point intervention — can address parasitic processing, and how the Eightfold Path exemplifies this.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 13 · Buddhism and Parasitic Processing</div>
+            <div class="quote">&ldquo;The Eightfold Path is a counteractive dynamical system that counteracts parasitic processing and does reciprocal opening, beyond the ego self and beyond the everyday world&rdquo;</div>
+            <div class="note">The central therapeutic claim — a coordinated multi-level system rather than single-point intervention.</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke says that if you try to intervene at a single point in a complex self-organizing system, the system just reorganizes around your intervention. Why does this mean a multi-level counteractive system is required?</div>
+            <div class="themes"><span class="theme-pill">complex systems have emergent properties</span><span class="theme-pill">single intervention gets absorbed</span><span class="theme-pill">need simultaneous coordinated intervention at all levels</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">The Eightfold Path addresses cognition (right understanding, right thought), character (right speech, action, livelihood), and consciousness (right mindfulness, concentration). Why does a response to parasitic processing need to work at all three levels?</div>
+            <div class="themes"><span class="theme-pill">process operates at all three levels simultaneously</span><span class="theme-pill">character without consciousness leaves blind spots</span><span class="theme-pill">cognition without character is akratic</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke says the Eightfold Path is supposed to roll itself — to be self-organizing. What does that mean, and why is that feature essential for it to work against parasitic processing?</div>
+            <div class="themes"><span class="theme-pill">counterforce must match self-organizing character of parasitic processing</span><span class="theme-pill">practices mutually support each other</span><span class="theme-pill">system builds momentum through interdependence</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Understanding that you are in a self-destructive pattern is sufficient to begin escaping it.</div>
+              <div><span class="label then">Then:</span> Vervaeke is clear that propositional insight — knowing about the spiral — does not break it, because the process is self-organizing and operates below deliberate control. A counteractive dynamical system working simultaneously at cognitive, character, and consciousness levels is required.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">In what sense is the Eightfold Path a scientific rather than merely religious response to suffering, in Vervaeke's account? How does the concept of counteractive dynamical systems allow us to evaluate it on cognitive-scientific grounds?</div>
+          <div class="themes"><span class="theme-pill">matches complex system with complex counterforce</span><span class="theme-pill">empirically testable model</span><span class="theme-pill">wisdom tradition articulating cognitive insight not merely dogma</span></div>
+        </div>
+      </section>
+    </article>
+  
+</main>
+<div class="approve-bar">
+  <button class="btn">Request changes</button>
+  <button class="btn primary">Approve for shipping</button>
+</div>
+</body></html>

@@ -1,0 +1,193 @@
+{
+  "id": "parasitic-processing",
+  "title": "Parasitic Processing",
+  "conceptId": "parasitic-processing",
+  "abstract": "After this course, students will be able to explain how the very cognitive machinery that makes human beings intelligently adaptive — heuristics, encoding specificity, confirmation bias, self-organizing dynamics — also makes them structurally vulnerable to self-reinforcing loops of self-deceptive, self-destructive behavior. They will understand why this vulnerability is not a moral failing but an architectural feature of intelligent agency, why willpower or propositional insight alone cannot break the spiral, and how the Buddhist Eightfold Path can be understood as a counteractive dynamical system. This concept is central to the series' diagnosis of why suffering persists despite awareness: it is endemic, not accidental. Parasitic processing connects Aristotle's akrasia, Buddhist dukkha, and Marc Lewis's reciprocal narrowing into a unified cognitive-scientific account.",
+  "prerequisites": [
+    "self-deception"
+  ],
+  "modules": [
+    {
+      "id": "self-organizing-self-destructive-loop",
+      "title": "The Self-Organizing Loop: How Adaptive Heuristics Go Wrong",
+      "subConceptId": "self-organizing-self-destructive-loop",
+      "learningObjective": "Trace how adaptive cognitive heuristics — representativeness, availability, confirmation bias — can combine into a self-reinforcing spiral of misperception and lost agency.",
+      "expositionPassages": [
+        {
+          "episode": 13,
+          "phrase": "We called this in, when we published, 'Parasitic Processing'. It's not just about bad events. This is just one example. We get into all kinds of these spirals.",
+          "note": "The published term and its scope — it covers all self-reinforcing cognitive loops, not just depression."
+        },
+        {
+          "episode": 38,
+          "phrase": "the very processes that make us intelligently adaptive also make us vulnerable to self-deceptive, self-destructive behavior",
+          "note": "The core paradox: the vulnerability is inseparable from the adaptive capacity."
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "Vervaeke traces how an initial bad event can escalate through heuristics into a locked spiral. What makes this spiral genuinely self-organizing rather than just a sequence of bad decisions?",
+          "expectedThemes": [
+            "each element reinforces others",
+            "system adapts to resist intervention",
+            "automatic not deliberate"
+          ]
+        },
+        {
+          "prompt": "Why does knowing you are in a parasitic-processing spiral typically fail to get you out of it? What does this reveal about the nature of the trap?",
+          "expectedThemes": [
+            "propositional knowledge insufficient",
+            "system reorganizes around attempts to exit",
+            "operates below deliberate control"
+          ]
+        },
+        {
+          "prompt": "The heuristics involved — representativeness, availability, confirmation bias — are individually adaptive. How does that make parasitic processing so insidious?",
+          "expectedThemes": [
+            "you cannot simply discard the machinery",
+            "adaptive tools become self-destructive in context",
+            "no single point of intervention"
+          ]
+        },
+        {
+          "prompt": "Vervaeke says parasitic processing is 'like a parasite in that it takes up life within you, and it takes life away from you.' What does this metaphor illuminate about the relationship between the spiral and the self?",
+          "expectedThemes": [
+            "uses your own resources against you",
+            "borrows adaptive machinery",
+            "agent loses agency progressively"
+          ]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "Parasitic processing is just another name for bad habits or laziness.",
+          "correction": "In Vervaeke's account (with Ferraro), parasitic processing is self-organizing and self-reinforcing — it borrows the adaptive machinery of relevance realization and operates against the agent's interests. It is not a character defect but an architectural vulnerability of intelligent systems."
+        },
+        {
+          "misconception": "The perennial cognitive vulnerabilities Vervaeke describes are moral failures that more effort could overcome.",
+          "correction": "Vervaeke is explicit: these are structural vulnerabilities built into the very machinery that makes intelligent agency possible — the representativeness heuristic, encoding specificity, confirmation bias are all adaptively indispensable. The issue is not weakness of character."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "Consider someone who, after a professional setback, begins to see every minor difficulty at work as evidence they are fundamentally incompetent, avoids challenges to protect themselves, and thereby generates the poor performance they feared. Walk through how Vervaeke's account of parasitic processing explains this spiral.",
+        "expectedThemes": [
+          "encoding specificity biases memory",
+          "availability heuristic inflates probability of failure",
+          "confirmation bias filters for negative evidence",
+          "avoidance reduces competence confirming the fear"
+        ]
+      }
+    },
+    {
+      "id": "modal-confusion-as-driver",
+      "title": "Modal Confusion as a Driver of Parasitic Processing",
+      "subConceptId": "modal-confusion-as-driver",
+      "learningObjective": "Explain how attempting to satisfy being-mode needs through having-mode strategies generates the misfit that feeds parasitic processing.",
+      "expositionPassages": [
+        {
+          "episode": 38,
+          "phrase": "We can address modal confusion by the cultivation of Sati.",
+          "note": "The positive formulation: sati counteracts modal confusion which drives the spiral."
+        },
+        {
+          "episode": 13,
+          "phrase": "Marc proposes a model that he calls 'Reciprocal Narrowing'. So here's your Agent and here's the Arena (drawn on the board). And what happens is the drug use is associated with a particular Agent:Arena relationship.",
+          "note": "Marc Lewis's complementary model showing how parasitic processing and reciprocal narrowing interpenetrate."
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "How does modal confusion — trying to satisfy being-mode needs with having-mode strategies — generate the kind of frustration that feeds a cognitive spiral?",
+          "expectedThemes": [
+            "unmet being-need creates ongoing dissatisfaction",
+            "increased acquisition does not satisfy",
+            "frustration activates heuristic-driven spiraling"
+          ]
+        },
+        {
+          "prompt": "Marc Lewis's reciprocal narrowing describes addiction at the Agent-Arena level. How does it connect to parasitic processing at the cognitive level?",
+          "expectedThemes": [
+            "internal loop and external narrowing mutually reinforce",
+            "loss of cognitive flexibility shrinks arena",
+            "same machinery involved in both"
+          ]
+        },
+        {
+          "prompt": "Vervaeke says dukkha — the Buddhist diagnosis — encompasses both parasitic processing and reciprocal narrowing. Why does this integration matter for understanding what enlightenment is trying to achieve?",
+          "expectedThemes": [
+            "enlightenment addresses both levels",
+            "anagoge as spiral upward",
+            "full recovery requires internal and external opening"
+          ]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "Addiction is primarily a biochemical dependency problem.",
+          "correction": "Lewis's model — which Vervaeke endorses — shows addiction is better understood as reciprocal narrowing of the Agent-Arena relationship through learned loss of agency, not primarily a biochemical lock. Vietnam veterans' spontaneous cessation upon returning home illustrates this."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "How is dukkha, in Vervaeke's reformulation of the first noble truth, different from the claim 'all life is painful'? What does the cognitive-scientific account reveal that the bare statement 'all is suffering' obscures?",
+        "expectedThemes": [
+          "dukkha as structural threat to agency not omnipresent pain",
+          "threat is endemic not occasional",
+          "self-destructive potential in every exercise of intelligence"
+        ]
+      }
+    },
+    {
+      "id": "counteractive-dynamical-system",
+      "title": "The Eightfold Path as Counteractive Dynamical System",
+      "subConceptId": "counteractive-dynamical-system",
+      "learningObjective": "Explain why only a counteractive dynamical system — not a single-point intervention — can address parasitic processing, and how the Eightfold Path exemplifies this.",
+      "expositionPassages": [
+        {
+          "episode": 13,
+          "phrase": "The Eightfold Path is a counteractive dynamical system that counteracts parasitic processing and does reciprocal opening, beyond the ego self and beyond the everyday world",
+          "note": "The central therapeutic claim — a coordinated multi-level system rather than single-point intervention."
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "Vervaeke says that if you try to intervene at a single point in a complex self-organizing system, the system just reorganizes around your intervention. Why does this mean a multi-level counteractive system is required?",
+          "expectedThemes": [
+            "complex systems have emergent properties",
+            "single intervention gets absorbed",
+            "need simultaneous coordinated intervention at all levels"
+          ]
+        },
+        {
+          "prompt": "The Eightfold Path addresses cognition (right understanding, right thought), character (right speech, action, livelihood), and consciousness (right mindfulness, concentration). Why does a response to parasitic processing need to work at all three levels?",
+          "expectedThemes": [
+            "process operates at all three levels simultaneously",
+            "character without consciousness leaves blind spots",
+            "cognition without character is akratic"
+          ]
+        },
+        {
+          "prompt": "Vervaeke says the Eightfold Path is supposed to roll itself — to be self-organizing. What does that mean, and why is that feature essential for it to work against parasitic processing?",
+          "expectedThemes": [
+            "counterforce must match self-organizing character of parasitic processing",
+            "practices mutually support each other",
+            "system builds momentum through interdependence"
+          ]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "Understanding that you are in a self-destructive pattern is sufficient to begin escaping it.",
+          "correction": "Vervaeke is clear that propositional insight — knowing about the spiral — does not break it, because the process is self-organizing and operates below deliberate control. A counteractive dynamical system working simultaneously at cognitive, character, and consciousness levels is required."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "In what sense is the Eightfold Path a scientific rather than merely religious response to suffering, in Vervaeke's account? How does the concept of counteractive dynamical systems allow us to evaluate it on cognitive-scientific grounds?",
+        "expectedThemes": [
+          "matches complex system with complex counterforce",
+          "empirically testable model",
+          "wisdom tradition articulating cognitive insight not merely dogma"
+        ]
+      }
+    }
+  ]
+}

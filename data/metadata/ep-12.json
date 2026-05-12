@@ -2,100 +2,96 @@
   "num": 12,
   "slug": "higher-states-of-consciousness-part-2",
   "title": "Higher States of Consciousness, Part 2",
-  "essence": "Vervaeke completes the cognitive science analysis of higher states by offering both descriptive and prescriptive explanations for their transformative power. He demonstrates how de-centering strategies neurologically mirror the wisdom cultivation process, using the Solomon effect to show how perspective shifts enable insight into existential problems. At the information processing level, he applies machine learning insights—showing how disruption and noise are essential for preventing overfitting and enabling genuine pattern detection. At the neurological level, he examines how psychedelics like psilocybin induce metastability, allowing simultaneous integration and differentiation (complexification) that mirrors developmental transformation. Crucially, he argues that plausibility—not certainty—is what the brain evaluates, and higher states optimize all dimensions of plausibility: trustworthiness, elegance, fluency, and balance. The episode establishes that these states justifiably guide transformation because they represent optimal cognitive functioning, not because they provide propositional knowledge.",
+  "essence": "Vervaeke completes the account of higher states of consciousness by shifting from description to prescription and justification. He introduces the Solomon Effect: the same cognitive de-centering that makes the wise counselor see another's problem more clearly is what HSC induce in one's own existential situation — stepping outside the machinery of the self makes the self's situation available for insight, in the same way a machine learning system disrupted from its own internal representations suddenly gains access to a higher-order view of its own processing. He then argues that HSC work by exapting the self-machinery onto the world: the same machinery that normally generates and maintains the sense of self gets redirected toward the world, producing the experience of the world as a unified, deeply realized presence. Newberg's neuroscientific account is integrated: HSC are associated with hyper-frontal activation (intense attention and processing) followed by hypo-parietal activation (dissolution of the self-body boundary) combined with thalamic integration (binding sensory and cognitive streams into a unified salience landscape). The episode closes with a framework for evaluating the plausibility of any experience-derived claim: convergence (many independent lines of evidence point to the same conclusion), elegance (the account is explanatorily parsimonious), and fluency (the account enhances rather than disrupts cognitive processing). HSC, on this framework, are not justified by their authority alone but by what they enable.",
   "keyClaims": [
-    "De-centering moves us from egocentric to allocentric perspectives, revealing systematic errors in how we frame reality.",
-    "The brain performs a plausibility evaluation through convergence of evidence, elegance of explanations, and fluency of processing.",
-    "Disruption in neural networks, like dropout in machine learning, prevents overfitting and enables detection of real generalizable patterns.",
-    "Psychedelics induce metastability where the brain simultaneously integrates and differentiates, enabling emergent cognitive abilities.",
-    "Higher states are rational guides for transformation because they optimize indispensable foundational processes of meaning-making, not because they reveal metaphysical facts."
+    "The Solomon Effect describes how de-centering from one's own self-machinery produces the same wisdom-engendering clarity in existential matters that disinterested perspective produces in advising others.",
+    "Higher states of consciousness work by exapting the self-generating machinery onto the world — the same processes that normally build and sustain the self get redirected toward building a unified world-awareness.",
+    "An altered state of consciousness is not merely a change in consciousness; it is an insight of consciousness — a state in which consciousness gains insight into its own machinery.",
+    "Newberg's brain model — hyper-frontal processing followed by hypo-parietal dissolution and thalamic integration — provides a plausible neural mechanism for the phenomenology of HSC.",
+    "The plausibility framework of convergence, elegance, and fluency provides a non-circular way to evaluate the justificatory weight of HSC: they are not self-justifying but justify by what transformations they enable."
   ],
   "concepts": [
     {
-      "name": "de-centering",
-      "treatment": "applied",
-      "summary": "A transformative cognitive shift from first-person egocentric to third-person allocentric perspective that reveals systematic biases."
-    },
-    {
-      "name": "plausibility",
-      "treatment": "introduced",
-      "summary": "A key criterion of rationality distinct from certainty, built on convergence, elegance, and fluency in processing information."
-    },
-    {
-      "name": "parasitic processing",
-      "treatment": "referenced",
-      "summary": "Self-reinforcing negative loops that higher states help interrupt through de-centering and reframing."
-    },
-    {
-      "name": "metastability",
+      "id": "higher-states-of-consciousness",
       "treatment": "developed",
-      "summary": "A neurological state where integration and differentiation occur simultaneously, enabling complexification and new emergent abilities."
+      "summary": "The prescriptive account is completed: HSC arise through de-centering from self-machinery (Solomon Effect) and exapting that machinery onto the world, producing thalamic integration of a unified salience landscape."
     },
     {
-      "name": "complexification",
-      "treatment": "introduced",
-      "summary": "The process of increasing both integration and differentiation in a system, enabling emergence of new functional abilities."
+      "id": "altered-states-of-consciousness",
+      "treatment": "developed",
+      "summary": "Distinguished sharply from HSC: an altered state is a change IN consciousness; a higher state is an insight OF consciousness about its own machinery — a fundamentally different kind of transformation."
     },
     {
-      "name": "overfitting",
-      "treatment": "introduced",
-      "summary": "In neural networks and learning, the problem of detecting patterns in samples that don't generalize, prevented by strategic disruption."
+      "id": "consciousness",
+      "treatment": "developed",
+      "summary": "The self-machinery account: ordinary consciousness actively constructs the self/world boundary; HSC arise when this constructive machinery is turned from self to world."
     },
     {
-      "name": "anagoge",
+      "id": "self-transcendence",
+      "treatment": "developed",
+      "summary": "The Solomon Effect and exaptation account explain self-transcendence mechanistically: self-machinery gets exapted onto the world, dissolving the self-world boundary from the inside."
+    },
+    {
+      "id": "wisdom",
+      "treatment": "developed",
+      "summary": "The Solomon Effect grounds wisdom: de-centering from one's own frame is both what wise counselors do for others and what HSC do for the self, creating the perspectival freedom needed for transformative insight."
+    },
+    {
+      "id": "relevance-realization",
       "treatment": "applied",
-      "summary": "The upward transformative movement toward what is more real, enabled by de-centering and perspective shift."
+      "summary": "The thalamic integration that Newberg identifies is a physical correlate of relevance realization operating at maximum integration — all salience streams bound into a single landscape."
     },
     {
-      "name": "wisdom",
+      "id": "salience-landscape",
       "treatment": "applied",
-      "summary": "The ability to maintain balance between trustworthiness and power in explanations, between convergence and elegance in meaning."
+      "summary": "The hypo-parietal stage is interpreted as the dissolution of the ordinary self-boundary that normally divides the salience landscape into self-salience and world-salience."
+    },
+    {
+      "id": "insight",
+      "treatment": "applied",
+      "summary": "Re-characterized at the HSC scale: an HSC is not an insight in consciousness (a change of content) but an insight OF consciousness (the whole machinery turning on itself to gain a meta-view)."
+    },
+    {
+      "id": "ontonormativity",
+      "treatment": "developed",
+      "summary": "Explained via the plausibility framework: HSC feel more real because they optimize relevance realization; the normative demand is explained by convergence, elegance, and fluency of what they make possible."
+    },
+    {
+      "id": "transframing",
+      "treatment": "applied",
+      "summary": "The exaptation of self-machinery onto the world is a form of radical transframing — not just a new frame but a transformation of the framing capacity itself."
     }
   ],
   "people": [
     {
-      "name": "Igor Grossmann",
+      "id": "newberg",
       "role": "discussed",
-      "summary": "Researcher on the Solomon effect showing how de-centering enables wisdom and insight into interpersonal problems."
+      "summary": "Newberg's neuroscientific account — hyper-frontal activation, hypo-parietal dissolution, thalamic binding — is integrated as the neural mechanism for the phenomenology and functional account developed in eps 10-11."
     },
     {
-      "name": "Woodward",
-      "role": "discussed",
-      "summary": "Machine learning researcher whose work shows disruption and noise are essential to self-optimization in neural networks."
-    },
-    {
-      "name": "Kelso and Tognoli",
-      "role": "discussed",
-      "summary": "Neuroscientists whose work on metastability explains how the brain achieves simultaneous integration and differentiation."
-    },
-    {
-      "name": "Reicher",
-      "role": "discussed",
-      "summary": "Philosopher who articulated how trustworthiness, convergence, and elegance contribute to plausibility judgments."
+      "id": "jung",
+      "role": "referenced",
+      "summary": "Jung's notion of individuation cited as a parallel to the Solomon Effect: de-centering from the ego to gain access to the self as a whole."
     }
   ],
   "crossRefs": [
     {
-      "episode": 11,
-      "context": "Provides the cognitive mechanisms and neural basis for the phenomenology described in episode 11."
+      "episode": 10,
+      "context": "The ontonormativity problem introduced in ep-10 receives its full resolution here via the plausibility framework of convergence, elegance, and fluency."
     },
     {
-      "episode": 13,
-      "context": "The understanding of disruption and parasitic processing will be essential for understanding Buddhist concepts of dukkha."
+      "episode": 11,
+      "context": "The phenomenological profile from ep-11 is explained mechanistically: optimal grip at the HSC scale is achieved through Solomon Effect de-centering and exaptation of self-machinery."
+    },
+    {
+      "episode": 17,
+      "context": "Gnosis will later be defined partly in terms of the psycho-technologies (enactive analogy, enactive anagoge) that reliably induce the de-centering insight-of-consciousness established here."
     }
   ],
   "quotableMoments": [
     {
-      "quote": "Science gives us self-correcting plausibility. Plausibility is indispensable.",
-      "context": "Arguing that rationality relies fundamentally on plausibility judgments, not certainty, even in science."
-    },
-    {
-      "quote": "Your brain is in a state in which it's getting information that's saying this processing is deeply trustworthy, deeply powerful, deeply fluent, therefore profoundly plausible.",
-      "context": "Describing how higher states activate multiple dimensions of plausibility evaluation simultaneously."
-    },
-    {
-      "quote": "Do not confuse the rationality of wisdom with the rationality of knowledge.",
-      "context": "Distinguishing between propositional knowledge-rationality and the practical wisdom-rationality that higher states cultivate."
+      "quote": "an altered state of consciousness is not a... It's not an insight in consciousness it's an insight of consciousness.",
+      "context": "The key distinction between merely changed consciousness and the meta-cognitive self-insight that constitutes genuine higher states — the hinge on which the whole prescriptive and justificatory account turns."
     }
   ]
 }

@@ -1,0 +1,201 @@
+{
+  "id": "the-meaning-crisis",
+  "title": "The Meaning Crisis",
+  "conceptId": "the-meaning-crisis",
+  "abstract": "Vervaeke diagnoses a pervasive cultural-historical phenomenon: modern people experience a profound sense of disconnection — from themselves, each other, the world, and a viable future. The series opens by establishing that this crisis is not merely political or economic but deeply cognitive and historical, rooted in the erosion of meaning-making resources built up since the Axial Age. Students will learn to distinguish the three interlocking crises (meaning, environmental, socioeconomic), identify the symptomatology (rising suicide, nihilism, bullshit), and understand the two-legged structure of the problem: historical factors that have dismantled Western meaning-making traditions, and perennial vulnerabilities endemic to the same relevance-realization machinery that makes humans adaptively intelligent. This framing concept is the entry point for the entire series.",
+  "prerequisites": [],
+  "modules": [
+    {
+      "id": "what-is-the-crisis",
+      "title": "What Is the Meaning Crisis?",
+      "subConceptId": "symptomatology",
+      "learningObjective": "Articulate the meaning crisis as a pervasive cultural-cognitive phenomenon with specific, measurable symptoms distinct from political or economic problems.",
+      "expositionPassages": [
+        {
+          "episode": 0,
+          "phrase": "today there is an increase of people feeling very disconnected from themselves, from each other, from the world, from a viable and foreseeable future."
+        },
+        {
+          "episode": 0,
+          "phrase": "is this increasing sense of bullshit. Bullshit is on the increase. It's more and more pervasive throughout our lives and there's this sense of drowning in this old ocean of bullshit."
+        },
+        {
+          "episode": 1,
+          "phrase": "This is gonna be an idea that our culture is experiencing a profound 'meaning crisis'. A 'crisis in meaning'."
+        },
+        {
+          "episode": 1,
+          "phrase": "Ignorance is a lack of knowledge. Foolishness is a lack of wisdom. Foolishness is when your capacity to engage your agency, pursue your goals is undermined and threatened by the self-deception and the self-destructive behavior that is a perennial vulnerability to your cognition."
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "When people say they feel like their life lacks meaning, what do they seem to mean — and how is that different from saying they lack information or money?",
+          "expectedThemes": ["disconnection from self and world", "not a resource problem", "something about belonging and significance"]
+        },
+        {
+          "prompt": "Vervaeke claims the rise of bullshit, suicide rates, and nihilism are all symptoms of the same underlying cause. What might unify such different phenomena?",
+          "expectedThemes": ["common cognitive-historical root", "erosion of meaning-making practices", "loss of religio"]
+        },
+        {
+          "prompt": "Is the meaning crisis something new, or could it have happened in any era? What makes the present distinctive?",
+          "expectedThemes": ["historical dismantling of axial traditions", "perennial dimension always present", "modern removal of safeguards"]
+        },
+        {
+          "prompt": "Vervaeke distinguishes foolishness from ignorance. What is at stake in that distinction for understanding the meaning crisis?",
+          "expectedThemes": ["wisdom vs knowledge", "character not information", "self-deception endemic to adaptive machinery"]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "The meaning crisis is caused primarily by social media or political dysfunction.",
+          "correction": "Vervaeke argues these are symptoms or co-drivers of a deeper cognitive-historical-cultural crisis rooted in the erosion of axial-age meaning-making, not its causes."
+        },
+        {
+          "misconception": "The meaning crisis is a crisis of religious belief — people just need to believe in God again.",
+          "correction": "The crisis is a crisis of religio (participatory binding to the world) and of the practices that cultivated it; reducing it to a loss of doctrine misses the cognitive depth of the problem."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "How would you explain to a skeptical friend why rising suicide rates, the spread of conspiracy theories, and the popularity of zombie apocalypse films might all have the same deep cause?",
+        "expectedThemes": ["loss of connectedness", "erosion of meaning-making machinery", "cultural symptomatology", "cognitive-historical root"]
+      }
+    },
+    {
+      "id": "three-interlocking-crises",
+      "title": "Three Interlocking Crises",
+      "subConceptId": "three-interlocking-crises",
+      "learningObjective": "Explain how the meaning crisis is deeply interdependent with the environmental and socioeconomic crises, and why addressing any one requires addressing their mutual entanglement.",
+      "expositionPassages": [
+        {
+          "episode": 1,
+          "phrase": "the meaning crisis is interacting with other crisies: the environmental crisis. The socio-economic crisis."
+        },
+        {
+          "episode": 0,
+          "phrase": "these problems are deeper than just social media problems, political problems, even economic problems. They're deeply historical, cultural, cognitive problems."
+        },
+        {
+          "episode": 1,
+          "phrase": "What is this 'meaning'? Why do we hunger for it? And how do we cultivate the wisdom to realize it?"
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "Why might solving the environmental crisis require more than better technology or policy — what role could the meaning crisis play in whether societies act on climate?",
+          "expectedThemes": ["hyperbolic discounting", "disconnection from world", "modal confusion", "short-term salience overriding long-term significance"]
+        },
+        {
+          "prompt": "Some people argue meaning crises are luxuries of the prosperous — that poverty is the real problem. How might Vervaeke respond?",
+          "expectedThemes": ["meaning crisis crosses socioeconomic lines", "deep interdependence of crises", "cognitive-historical not merely economic"]
+        },
+        {
+          "prompt": "What would it look like if the three crises were addressed independently versus together? Would addressing one without the others succeed?",
+          "expectedThemes": ["mutual entanglement", "need for integrated response", "worldview transformation required"]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "The meaning crisis is independent of material conditions and can be solved purely through spiritual or psychological practices.",
+          "correction": "Vervaeke argues the three crises — meaning, environmental, socioeconomic — are deeply interdependent; any genuine response must address their mutual entanglement."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "In your own words, why does Vervaeke insist on talking about three crises rather than treating them as separate problems with separate solutions?",
+        "expectedThemes": ["interdependence", "shared cognitive-historical root", "integrated response needed", "meaning crisis as driver of the others"]
+      }
+    },
+    {
+      "id": "historical-drivers",
+      "title": "Historical Drivers of the Meaning Crisis",
+      "subConceptId": "historical-drivers",
+      "learningObjective": "Identify the key historical events — Protestant Reformation, scientific revolution, modernity — that dismantled the nomological, normative, and narrative orders sustaining Western meaning-making.",
+      "expositionPassages": [
+        {
+          "episode": 0,
+          "phrase": "these problems are deeper than just social media problems, political problems, even economic problems. They're deeply historical, cultural, cognitive problems."
+        },
+        {
+          "episode": 1,
+          "phrase": "We tend to have reduced all of the ways that the ancients talked about how we know to one thing: To know is to have a special kind of belief. And so we are very belief centric which is why we are so focused as a culture on ideologies."
+        },
+        {
+          "episode": 45,
+          "phrase": "since the axial revolution it is just crucially connected to the project of meaning in life."
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "If the scientific revolution was genuinely a triumph of knowledge, how can it also be part of the origin of a meaning crisis?",
+          "expectedThemes": ["collapse of perspectival and participatory knowing", "propositional knowing became the only legitimate form", "loss of religio"]
+        },
+        {
+          "prompt": "What did people in medieval Europe have that modern secular people lack, in terms of meaning-making resources — and what did they lack that we have?",
+          "expectedThemes": ["three interlocking orders (nomological, normative, narrative)", "worldview attunement", "we have factual knowledge they lacked"]
+        },
+        {
+          "prompt": "Vervaeke argues the meaning crisis has a 'historical leg' — specific events that caused it — and a 'perennial leg' — vulnerabilities built into our machinery. Why do we need both legs to explain the crisis?",
+          "expectedThemes": ["historical alone doesn't explain why all cultures face meaning problems", "perennial alone doesn't explain why now is worse", "two-pronged response needed"]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "The meaning crisis is a recent phenomenon caused by specific modern technologies like smartphones.",
+          "correction": "Vervaeke traces the roots to the Protestant Reformation and scientific revolution — centuries before smartphones — as they dismantled the integrated axial-age worldview."
+        },
+        {
+          "misconception": "The meaning crisis is unique to modernity; ancient people didn't face it.",
+          "correction": "The perennial problems are endemic to the very machinery of relevance realization and have always been a threat; what modernity did was remove the historical safeguards that wisdom traditions built."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "What would have to change — in worldview, in practices, in cultural resources — for a society to genuinely begin awakening from the meaning crisis, rather than just treating its symptoms?",
+        "expectedThemes": ["worldview rearticulation", "ecology of practices", "recover religio", "address both historical and perennial dimensions"]
+      }
+    },
+    {
+      "id": "perennial-dimension",
+      "title": "The Perennial Dimension",
+      "subConceptId": "perennial-dimension",
+      "learningObjective": "Explain the perennial dimension of the meaning crisis — that the same cognitive machinery enabling adaptive intelligence also generates endemic self-deception — and why this makes the crisis impossible to solve by information alone.",
+      "expositionPassages": [
+        {
+          "episode": 1,
+          "phrase": "the very same machinery that makes you so adaptive intelligent is the same machinery that makes you susceptible to foolishness."
+        },
+        {
+          "episode": 1,
+          "phrase": "There is much more to knowing than having justified true beliefs."
+        },
+        {
+          "episode": 1,
+          "phrase": "wisdom is about realizing in both senses of the word (becoming aware and making real), wisdom is about realizing meaning in life in a profound way."
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "If self-deception is a perennial feature of the machinery that makes us intelligent, does that mean the meaning crisis can never be fully solved?",
+          "expectedThemes": ["not solved once and for all", "requires ongoing cultivation", "developmental process not final state"]
+        },
+        {
+          "prompt": "What does it mean for knowing to be 'more than having justified true beliefs' — and why does that matter for solving the meaning crisis?",
+          "expectedThemes": ["four kinds of knowing", "procedural perspectival participatory beyond propositional", "meaning requires transformation not just information"]
+        },
+        {
+          "prompt": "Vervaeke uses the word 'wisdom' where others might say 'therapy' or 'education'. Why wisdom specifically?",
+          "expectedThemes": ["wisdom addresses self-deception not just ignorance", "involves character transformation", "realizing meaning in life", "more than information or skill"]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "Providing people with more factual information about the meaning crisis will help them address it.",
+          "correction": "Because the crisis is a crisis of religio and of the four kinds of knowing — not just propositional knowing — information alone cannot address it; what is needed is transformation of character, perspective, and participation."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "In what sense does Vervaeke argue that wisdom is the response to the meaning crisis — not therapy, not politics, not religion alone?",
+        "expectedThemes": ["wisdom addresses self-deception structurally", "integrates four kinds of knowing", "realization in both senses", "ecology of practices not just beliefs"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Religio — Mini-course Review</title>
+<style>
+  :root {
+    --bg: #faf7f1; --surface: #ffffff; --elev: #f2ede0;
+    --ink: #1c1a17; --ink-soft: #3a3530; --muted: #6b6660;
+    --border: #e0d9c8; --accent: #8b3a3a; --gold: #b8893c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14120e; --surface:#1c1916; --elev:#25211c;
+      --ink:#ece6d6; --ink-soft:#b8b1a1; --muted:#8a8378;
+      --border:#2e2922; --accent:#d28a7e; --gold:#d4a85a; }
+  }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Inter", system-ui, sans-serif;
+    background: var(--bg); color: var(--ink); margin: 0; line-height: 1.6;
+    -webkit-font-smoothing: antialiased; }
+  .serif { font-family: "EB Garamond", Georgia, serif; }
+  header { padding: 2rem 2.5rem 1rem; border-bottom: 1px solid var(--border); }
+  .back-link { color: var(--muted); font-size: 0.8rem; text-decoration: none; }
+  .back-link:hover { color: var(--accent); }
+  .meta { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin: 0.6rem 0 0.3rem; }
+  h1 { font-family: "EB Garamond", Georgia, serif; font-size: 2.6rem; margin: 0; letter-spacing: -0.01em; font-weight: 500; }
+  .abstract {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.1rem; line-height: 1.65;
+    color: var(--ink-soft); margin: 1rem 0; max-width: 60rem;
+  }
+  .prereqs { font-size: 0.85rem; color: var(--muted); margin-top: 0.6rem; }
+  .prereqs a { color: var(--accent); text-decoration: none; }
+  .prereqs a:hover { text-decoration: underline; }
+  main { max-width: 60rem; margin: 0 auto; padding: 2rem 2.5rem 5rem; }
+  .module {
+    border-top: 1px solid var(--border); padding-top: 2rem; margin-top: 3rem;
+  }
+  .module:first-child { border-top: none; padding-top: 0; margin-top: 0; }
+  .module .num {
+    font-family: ui-monospace, monospace; font-size: 0.78rem;
+    background: var(--gold); color: var(--bg); padding: 0.2rem 0.6rem;
+    border-radius: 99px; display: inline-block; margin-bottom: 0.6rem;
+  }
+  .module h2 {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.9rem; margin: 0;
+    letter-spacing: -0.01em; font-weight: 500; line-height: 1.15;
+  }
+  .module .objective {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic;
+    color: var(--ink-soft); margin: 0.5rem 0 1rem;
+  }
+  section { margin: 1.6rem 0; }
+  section h3 {
+    font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em;
+    color: var(--muted); margin: 0 0 0.6rem;
+  }
+  .passage {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--gold);
+    padding: 0.8rem 1rem; margin: 0.5rem 0; border-radius: 4px;
+  }
+  .passage .src {
+    font-family: ui-monospace, monospace; font-size: 0.72rem;
+    color: var(--accent); margin-bottom: 0.3rem;
+  }
+  .passage .quote {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic;
+    color: var(--ink); font-size: 1rem; line-height: 1.55;
+  }
+  .passage .note { font-size: 0.78rem; color: var(--muted); margin-top: 0.4rem; }
+  .seed {
+    padding: 0.5rem 0; border-left: 2px solid var(--gold); padding-left: 1rem; margin: 0.5rem 0;
+  }
+  .seed .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic; color: var(--ink);
+  }
+  .seed .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.3rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .theme-pill {
+    background: var(--elev); padding: 0.15rem 0.55rem; border-radius: 99px;
+  }
+  .misc {
+    background: var(--elev); padding: 0.7rem 1rem; margin: 0.5rem 0; border-radius: 6px;
+    font-size: 0.9rem;
+  }
+  .misc .label { font-weight: 500; }
+  .misc .label.if { color: var(--ink); }
+  .misc .label.then { color: var(--accent); }
+  .check {
+    background: var(--elev); border: 2px solid var(--gold); padding: 1rem 1.2rem;
+    border-radius: 8px; margin-top: 0.6rem;
+  }
+  .check .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic; font-size: 1.1rem; color: var(--ink);
+  }
+  .check .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.5rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .toc {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    padding: 1rem 1.4rem; margin: 1.5rem 0;
+  }
+  .toc h3 { margin: 0 0 0.4rem; }
+  .toc ol { margin: 0; padding-left: 1.4rem; }
+  .toc li { margin: 0.2rem 0; font-size: 0.92rem; }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+  .approve-bar {
+    position: sticky; bottom: 0;
+    background: var(--bg); border-top: 1px solid var(--border);
+    padding: 0.8rem 2.5rem;
+    display: flex; gap: 0.6rem; justify-content: flex-end;
+  }
+  .btn {
+    padding: 0.55rem 1.2rem; border-radius: 6px; font-size: 0.9rem;
+    border: 1px solid var(--border); background: var(--surface); color: var(--ink-soft);
+    cursor: pointer; font-family: inherit;
+  }
+  .btn.primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+  .btn:hover { transform: translateY(-1px); }
+</style>
+</head><body>
+<header>
+  <a class="back-link" href="index.html">← All course reviews</a>
+  <div class="meta">Mini-course · 3 modules</div>
+  <h1>Religio</h1>
+  <p class="abstract">This course develops Vervaeke's concept of religio — the deep, pre-institutional, transjective binding of agent and arena that underlies all individual acts of meaning-making and all religious and spiritual traditions. Students will be able to distinguish religio from both institutional religion and from its propositional counterpart credo, explain how religio functions as higher-order relevance realization, and articulate why the modern meaning crisis is partly a crisis of religio — the collapse of the lived participatory binding into mere creedal belief. In the series arc, religio is the concept that bridges cognitive science (relevance realization, agent-arena relationship) to the normative question of what wisdom practices must cultivate in order to address the perennial problems of human existence.</p>
+  
+    <div class="prereqs">
+      Prerequisites:
+      <a href="relevance-realization.html">Relevance Realization</a>
+    </div>
+</header>
+<main>
+  <div class="toc">
+    <h3>Modules</h3>
+    <ol>
+      <li><a href="#m-religio-as-higher-order-rr">Religio as Higher-Order Relevance Realization</a></li><li><a href="#m-religio-vs-credo">Religio versus Credo: The Collapse That Created the Meaning Crisis</a></li><li><a href="#m-religio-as-pre-egoic">Religio as Pre-Egoic and Post-Egoic: The Ground That Precedes and Exceeds the Self</a></li>
+    </ol>
+  </div>
+  
+    <article class="module" id="m-religio-as-higher-order-rr">
+      <span class="num">Module 1</span>
+      <h2>Religio as Higher-Order Relevance Realization</h2>
+      <p class="objective">Explain what religio is as a cognitive-existential structure and why it is described as higher-order relevance realization rather than a feeling or institutional affiliation.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 36 · Religio/Perennial Problems/Reverse Eng. Enlightenment</div>
+            <div class="quote">&ldquo;We can use Mythos to activate, accelerate, articulate, and appreciate Religio. Religio is inherently valuable to us so even that alone is going to be very valuable to us.&rdquo;</div>
+            <div class="note">Religio as the target that mythos serves — not the other way around</div>
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 33 · The Spirituality of RR: Wonder/Awe/Mystery/Sacredness</div>
+            <div class="quote">&ldquo;Religio is… I'm using it in a spiritual sense, [in] the sense of a pre-egoic, ultimately a post-egoic, binding that simultaneously grounds the self and its world.&rdquo;</div>
+            <div class="note">Definition: religio as the pre-egoic binding prior to any subject-object split</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Have you ever had a moment when the boundary between yourself and what you were doing dissolved — total absorption in music, nature, a conversation? What was happening to the ordinary distinction between 'you' and 'it'?</div>
+            <div class="themes"><span class="theme-pill">flow and religio</span><span class="theme-pill">agent-arena fusion</span><span class="theme-pill">pre-egoic experience</span><span class="theme-pill">participatory knowing</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke describes religio as 'higher-order relevance realization.' What would it mean for relevance realization to operate on itself — for the whole process of meaning-making to become relevant to itself?</div>
+            <div class="themes"><span class="theme-pill">self-reflexive relevance</span><span class="theme-pill">meta-level RR</span><span class="theme-pill">integration of all RR processes</span><span class="theme-pill">ground of meaning</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">If religio is pre-egoic and 'simultaneously grounds the self and its world,' does it precede the self-world distinction altogether? What kind of experience might that be?</div>
+            <div class="themes"><span class="theme-pill">pre-subject-object</span><span class="theme-pill">participatory ground</span><span class="theme-pill">mystical underpinnings</span><span class="theme-pill">non-dual awareness</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke says religio is 'inherently valuable.' What would make a cognitive-existential structure valuable independently of any belief system built upon it?</div>
+            <div class="themes"><span class="theme-pill">intrinsic value of binding</span><span class="theme-pill">grounding of all meaning systems</span><span class="theme-pill">religio as condition for meaning</span><span class="theme-pill">pre-theoretical value</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Religio is simply a feeling of the numinous or mystical awe.</div>
+              <div><span class="label then">Then:</span> Religio is a cognitive-existential structure — the higher-order relevance realization that grounds all individual meaning systems — not a feeling, though such feelings may be its phenomenal expression.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Religio is religion — it is about belonging to or practicing within a religious tradition.</div>
+              <div><span class="label then">Then:</span> Religio is pre-institutional and pre-propositional; it is the participatory binding that religious institutions have historically tried to activate, but it exists independently of any particular tradition.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">In what sense is religio the 'ground' of all individual meaning systems rather than one meaning system among others — and what follows for how we should think about recovering religio in response to the meaning crisis?</div>
+          <div class="themes"><span class="theme-pill">religio prior to all specific meanings</span><span class="theme-pill">condition not content</span><span class="theme-pill">practices must target religio not beliefs</span><span class="theme-pill">ground vs figure</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-religio-vs-credo">
+      <span class="num">Module 2</span>
+      <h2>Religio versus Credo: The Collapse That Created the Meaning Crisis</h2>
+      <p class="objective">Articulate the distinction between religio and credo and explain how the historical collapse of religio into credo contributed to the modern meaning crisis.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 39 · The Religion of No Religion</div>
+            <div class="quote">&ldquo;And so I think that is something that should be acknowledged as what we would be looking for. And this brings out an important contrast (writes = beside Religio) I want to discuss (erases equal sign). Sorry, not equal. Religio versus credo&rdquo;</div>
+            <div class="note">The pivotal distinction: religio is not equal to credo</div>
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 46 · Conclusion and the Prophets of the Meaning Crisis</div>
+            <div class="quote">&ldquo;one of the things that wisdom is doing that's also really important is it's enhancing religio (writes Religio below Wisdom). That's a way in which you can powerfully—and we saw already the connection.&rdquo;</div>
+            <div class="note">Wisdom enhances religio — the practical upshot of recovering the distinction</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Credo means creed — the propositional content of what one believes. Religio is the lived participatory binding. Can you imagine someone who sincerely assents to every doctrine of a religion but feels entirely empty, dead inside, disconnected from everything? What has that person lost?</div>
+            <div class="themes"><span class="theme-pill">empty credo without religio</span><span class="theme-pill">belief without binding</span><span class="theme-pill">propositional vs participatory</span><span class="theme-pill">spiritual dryness</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Can religio exist without credo — a deep sense of binding and orientation without any particular doctrinal commitment? What would that look like?</div>
+            <div class="themes"><span class="theme-pill">religio without creedal commitment</span><span class="theme-pill">secular analogues</span><span class="theme-pill">flow and wonder</span><span class="theme-pill">non-religious religio</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke argues that modernity has largely collapsed religio into credo — treating religion as primarily a matter of holding the right beliefs. What cultural, historical, or institutional forces might have produced this collapse?</div>
+            <div class="themes"><span class="theme-pill">Reformation and propositional faith</span><span class="theme-pill">scientific worldview reducing experience</span><span class="theme-pill">loss of ritual practices</span><span class="theme-pill">individualism and belief</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">If recovering religio does not require adopting a particular credo, what would it require? What practices, conditions, or transformations might reactivate the binding that religio names?</div>
+            <div class="themes"><span class="theme-pill">practices over propositions</span><span class="theme-pill">ecology of psychotechnologies</span><span class="theme-pill">participatory knowing</span><span class="theme-pill">transformation not belief-change</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> The meaning crisis can be solved by returning to creedal religion — by people believing the right things again.</div>
+              <div><span class="label then">Then:</span> What is needed is recovering religio, not credo; the meaning crisis is a crisis of participatory binding, not of incorrect propositions, and it can be addressed through a 'religion that is not a religion' without metaphysical commitment.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Vervaeke's distinction between religio and credo is an attack on religious belief.</div>
+              <div><span class="label then">Then:</span> Vervaeke explicitly respects the indispensability of particular creeds and myths for particular people; his critique targets the reduction of religion to credo divorced from the participatory practices that give creeds their existential power.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">How does the collapse of religio into credo illuminate the modern predicament — and why does Vervaeke argue that the solution requires more than better arguments or more sophisticated doctrines?</div>
+          <div class="themes"><span class="theme-pill">propositions cannot restore binding</span><span class="theme-pill">participatory practices needed</span><span class="theme-pill">wisdom must enhance religio</span><span class="theme-pill">beyond information and belief</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-religio-as-pre-egoic">
+      <span class="num">Module 3</span>
+      <h2>Religio as Pre-Egoic and Post-Egoic: The Ground That Precedes and Exceeds the Self</h2>
+      <p class="objective">Explain the sense in which religio is both pre-egoic and post-egoic, and why this double character makes it the target of wisdom traditions across cultures.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 33 · The Spirituality of RR: Wonder/Awe/Mystery/Sacredness</div>
+            <div class="quote">&ldquo;Religio is… I'm using it in a spiritual sense, [in] the sense of a pre-egoic, ultimately a post-egoic, binding that simultaneously grounds the self and its world.&rdquo;</div>
+            <div class="note">The double character: religio precedes and transcends the ego while grounding both self and world</div>
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 36 · Religio/Perennial Problems/Reverse Eng. Enlightenment</div>
+            <div class="quote">&ldquo;We can use Mythos to activate, accelerate, articulate, and appreciate Religio. Religio is inherently valuable to us so even that alone is going to be very valuable to us.&rdquo;</div>
+            <div class="note">Mythos activates but does not constitute religio</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke says religio is both pre-egoic (prior to the formation of the self) and post-egoic (beyond ordinary ego-boundaries). What kind of experience might be described as both before the self and after the self?</div>
+            <div class="themes"><span class="theme-pill">infancy and flow</span><span class="theme-pill">mystical dissolution</span><span class="theme-pill">self-transcendence</span><span class="theme-pill">ego boundaries and their dissolution</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">If religio 'simultaneously grounds the self and its world,' it seems to be the condition that makes the self-world distinction possible at all. What would it feel like to become aware of that ground — to touch what normally just operates beneath awareness?</div>
+            <div class="themes"><span class="theme-pill">ground of experience</span><span class="theme-pill">wonder and awe</span><span class="theme-pill">recognizing what sustains cognition</span><span class="theme-pill">mindful awareness</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Wisdom traditions across cultures — Buddhist awakening, Neoplatonic henosis, Christian union with God — have historically aimed at a transformation that goes beyond the ordinary ego. Could religio be a cognitive-scientific way of naming what all these traditions converge on?</div>
+            <div class="themes"><span class="theme-pill">perennial convergence</span><span class="theme-pill">higher states as religio</span><span class="theme-pill">cross-cultural target</span><span class="theme-pill">naturalistic reframing</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke says mythos can 'activate, accelerate, articulate, and appreciate' religio — but cannot constitute it. What is the difference between activating something and constituting it? Why does this distinction matter for practice?</div>
+            <div class="themes"><span class="theme-pill">activating vs creating</span><span class="theme-pill">religio pre-exists mythos</span><span class="theme-pill">practices as triggers not sources</span><span class="theme-pill">autonomy of religio</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Religio is a kind of spiritual self-absorption or navel-gazing — it is about the self.</div>
+              <div><span class="label then">Then:</span> Religio is precisely the dissolution of ordinary self-absorption: it is the pre-egoic and post-egoic binding in which the sharp boundary between self and world is suspended, not reinforced.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">Why does Vervaeke argue that wisdom must target religio rather than merely producing correct beliefs or good behaviors — and what kind of transformation is required to access what religio names?</div>
+          <div class="themes"><span class="theme-pill">wisdom enhances religio</span><span class="theme-pill">beyond belief and behavior</span><span class="theme-pill">participatory transformation</span><span class="theme-pill">pre-egoic grounding</span></div>
+        </div>
+      </section>
+    </article>
+  
+</main>
+<div class="approve-bar">
+  <button class="btn">Request changes</button>
+  <button class="btn primary">Approve for shipping</button>
+</div>
+</body></html>

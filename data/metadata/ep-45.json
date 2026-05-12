@@ -2,95 +2,97 @@
   "num": 45,
   "slug": "nature-of-wisdom",
   "title": "The Nature of Wisdom",
-  "essence": "Vervaeke and Ferraro's 2013 model integrates dual competencies coordinated through sophisticated cognitive styles. Active open-mindedness protects inferential S2 processing from S1 biases, yielding propositional knowledge of principles. Mindfulness foregrounds S1 insight processing, yielding procedural knowledge of processes. Perspectival knowing through internalizing the sage integrates both, managing internalization of other perspectives toward metacognitive enhancement. This system is governed by sophrosyne—optimization of perspectival knowing creating transformed salience landscapes naturally oriented toward truth and virtue. However, the model lacks participatory knowing, understanding as a separate domain, transformative experience, and gnosis. Understanding involves grasping significance through optimal grip and plausibility generation—both horizontal (convergence across domains) and vertical (alignment of propositional, procedural, perspectival, participatory knowing). Transformative experience occurs suddenly (inspiration via LA Paul) or incrementally (aspiration via Callard). Proleptic rationality makes aspiration rational despite non-inferential nature. Wonder facilitates aspiration through gnosis—symbolic, serious play connecting present and future selves. Wisdom coordinates all these: inference, insight, intuition, internalization, understanding, gnosis, transformation, and aspiration—an ecology of psychotechnologies enhancing relevance realization.",
+  "essence": "This episode delivers the capstone of Vervaeke's theory of wisdom, presenting his 2013 model developed with Leo Ferraro. The model identifies three tiers of interacting capacities: at the inferential level, wisdom requires active open-mindedness to counteract motivated reasoning; at the insight level, mindfulness cultivates the attentional flexibility needed to break inappropriate frames; and at the perspectival level, wisdom involves the internalization of a sage — an imaginal model of a wiser self whose perspective restructures one's salience landscape. Sophrosyne is analyzed as the optimal expression of perspectival knowing: the condition in which one's salience landscape is so well cultivated that it naturally tracks the good, as distinguished from enkratia, in which one must effortfully override contrary impulses. The three M's of wisdom are introduced — morality, meaning in life, and mastery — as the domains in which wisdom is applied. Aspiration is given its full role via Callard's proleptic rationality: wisdom is not a state one arrives at but a process one aspires through. Understanding is reconceived as optimal grip plus problem finding, and profound understanding as the plausibility generation that aligns with all four kinds of knowing. The episode culminates in the claim that wisdom is a dynamical system — self-organizing and counteractive to the machinery of self-deception — that affords transformation into the life of flourishing.",
   "keyClaims": [
-    "Wisdom integrates inferential and insightful processing through perspectival knowing and internalization of the sage",
-    "Sophrosyne optimizes perspectival knowing, making virtue second nature through transformed salience landscapes",
-    "Understanding is distinct from knowledge; it grasps significance through optimal grip and generates plausibility",
-    "Transformative experience can be sudden (inspiration) or incremental (aspiration); aspiration is a form of rationality (proleptic rationality)",
-    "Wisdom is an ecology of psychotechnologies dynamically enhancing relevance realization across inference, insight, understanding, and transformation"
+    "Wisdom is a dynamical system integrating active open-mindedness, insight, and perspectival internalization of a sage, operating at inferential, insight, and perspectival levels respectively.",
+    "Sophrosyne is the optimal form of perspectival knowing: the salience landscape so cultivated that virtue is natural rather than requiring effortful enkratic override.",
+    "Profound understanding involves optimal grip plus problem finding across all four kinds of knowing — propositional, procedural, perspectival, and participatory.",
+    "Wisdom is aspirational and proleptic: one aspires to wisdom from a position not yet wise, and that very aspiration must be wise to avoid self-refutation.",
+    "Gnosis — transformative participatory knowing — is necessary for a complete account of wisdom; without it, wisdom remains a product theory that cannot explain the self-organized transformation it produces."
   ],
   "concepts": [
     {
-      "name": "sophrosyne",
+      "id": "wisdom",
       "treatment": "developed",
-      "summary": "Optimization of perspectival knowing. Transformed salience landscape naturally tempts toward truth and virtue. Second nature excellence, not effortful self-restraint (enkrateia). Golden mean generating enough options without excessive excess."
+      "summary": "The full Vervaeke-Ferraro model: three tiers (inferential AOM, insight-mindfulness, perspectival sage internalization) constituting wisdom as a dynamical system counteractive to self-deception and affording flourishing."
     },
     {
-      "name": "internalizing the sage",
+      "id": "sophrosyne",
       "treatment": "developed",
-      "summary": "Cognitive style cultivating higher-order regulation of active open-mindedness and mindfulness. Internalize Socrates, Buddha, Jesus. Metacognitively effective perspectival shift overcoming egocentrism."
+      "summary": "Analyzed as the optimized form of perspectival knowing in which the salience landscape naturally tracks the good; contrasted with enkratia (effortful will-based override)."
     },
     {
-      "name": "understanding",
-      "treatment": "introduced",
-      "summary": "Grasping significance of knowledge beyond mere facts. Involves optimal grip (structural-functional organization) and plausibility generation (convergence enabling transfer across domains). Contextually relative and contextually sensitive."
-    },
-    {
-      "name": "profound understanding",
-      "treatment": "introduced",
-      "summary": "Beyond grasping relevance connections: generating plausibility horizontally (transfer across domains) and aligning propositional, procedural, perspectival, participatory knowing vertically."
-    },
-    {
-      "name": "transformative experience",
+      "id": "aspiration",
       "treatment": "developed",
-      "summary": "Identity change through participatory knowing. Either sudden (inspiration) or incremental (aspiration). Grounded in gnosis and wonder. Cannot be achieved inferentially; requires transformation of self and world relation."
+      "summary": "Given its full role via Callard's proleptic rationality: wisdom is aspirational through and through; the aspiration to wisdom must itself be wise to avoid self-refutation."
     },
     {
-      "name": "proleptic rationality",
-      "treatment": "introduced",
-      "summary": "Rationality appropriate to aspiration. My aspiring to wisdom cannot itself be irrational; aspiration must be rational despite non-inferential nature. Avoids performative contradiction."
+      "id": "gnosis",
+      "treatment": "developed",
+      "summary": "Identified as the missing element that makes wisdom a transformative participatory achievement rather than a propositional state; gnosis is what turns understanding into wisdom."
     },
     {
-      "name": "agape",
-      "treatment": "referenced",
-      "summary": "The excellence of sophrosyne; overcomes egocentrism attitudinally through transformative caring orientation toward flourishing of others."
+      "id": "insight",
+      "treatment": "developed",
+      "summary": "The second tier of the wisdom model: mindfulness cultivates the attentional flexibility required for insight — the ability to break inappropriate frames at the right moment."
+    },
+    {
+      "id": "mindfulness",
+      "treatment": "applied",
+      "summary": "Positioned as the psychotechnology at the insight tier of wisdom: it develops the attentional scaling that makes frame-breaking insight possible."
+    },
+    {
+      "id": "the-four-kinds-of-knowing",
+      "treatment": "applied",
+      "summary": "Profound understanding is redefined as plausibility generation aligned with all four kinds of knowing; propositional accounts miss the perspectival and participatory dimensions."
+    },
+    {
+      "id": "self-deception",
+      "treatment": "applied",
+      "summary": "Wisdom as a dynamical system is defined by its counteraction of the machinery of self-deception — this is the thread that unifies all three tiers of the model."
+    },
+    {
+      "id": "participatory-knowing",
+      "treatment": "applied",
+      "summary": "The deepest level of wisdom — gnosis and sage-internalization — operates through participatory knowing: one is transformed by what one comes to know."
+    },
+    {
+      "id": "anagoge",
+      "treatment": "applied",
+      "summary": "The sage-internalization process is anagogic: internalizing a more perspicacious perspective enables one to indwell the world differently, which enables further internalization."
     }
   ],
   "people": [
     {
-      "name": "Leo Ferraro",
-      "role": "developed",
-      "summary": "Co-developer with Vervaeke of 2013 wisdom model. Collaborative work on flow, mindfulness, and wisdom integration through relevance realization."
+      "id": "leo-ferraro",
+      "role": "subject",
+      "summary": "Co-author of the Vervaeke and Ferraro (2013) wisdom model; the three-tier dynamical systems account is jointly attributed to them."
     },
     {
-      "name": "L.A. Paul",
+      "id": "callard",
+      "role": "discussed",
+      "summary": "Her proleptic rationality is central to the aspiration section; Vervaeke argues wisdom is fully aspirational in Callard's sense."
+    },
+    {
+      "id": "stanovich",
       "role": "referenced",
-      "summary": "Philosopher of transformative experience. Sudden, non-inferential transformation. Inspires aspiration but doesn't explain incremental path."
-    },
-    {
-      "name": "Agnes Callard",
-      "role": "introduced",
-      "summary": "Philosopher developing aspiration theory. Incremental transformative process acquiring values one doesn't yet possess. Proleptic rationality makes aspiration itself rational."
-    },
-    {
-      "name": "Henk de Regt",
-      "role": "introduced",
-      "summary": "Philosopher of understanding. Standard of effectiveness: understanding enables application and problem finding across domains. Context-relative and contextually sensitive."
-    },
-    {
-      "name": "Pamela Arlin",
-      "role": "referenced",
-      "summary": "Researcher on problem finding. Central to wisdom and creativity; good finders identify problem nexuses."
+      "summary": "The active open-mindedness component of the inferential tier derives from Stanovich's framework; Baron is also credited."
     }
   ],
   "crossRefs": [
-    {"episode": 42, "reason": "Dual processing theory (S1/S2) foundational to wisdom model"},
-    {"episode": 43, "reason": "Sophrosyne and virtue cultivation through wisdom"},
-    {"episode": 44, "reason": "Criticisms of Baltes, Staudinger, Ardelt, Sternberg integrated into Vervaeka-Ferraro model"}
+    {
+      "episode": 40,
+      "context": "The wisdom-as-overcoming-self-deception frame introduced here is vindicated by the full dynamical systems model."
+    },
+    {
+      "episode": 46,
+      "context": "Wisdom is connected to enlightenment and religio in the following episode, extending the model toward its practical implications."
+    }
   ],
   "quotableMoments": [
     {
-      "quote": "Wisdom is an ecology of psychotechnologies that dynamically enhance relevance realization in inference, insight and intuition, internalization, understanding, and gnosis, transformation, and aspiration.",
-      "context": "Vervaeke's comprehensive definition of wisdom synthesizing all elements discussed."
-    },
-    {
-      "quote": "My aspiring to wisdom cannot itself be an irrational process; it has to be rational—proleptic rationality.",
-      "context": "Following Callard, showing how aspiration avoids performative contradiction through proleptic rationality."
-    },
-    {
-      "quote": "The sage's salience landscape is not tempted to self-deception; they see through illusion and into reality.",
-      "context": "Defining sophrosyne through transformed salience orientation toward truth, using Paul's child-adult-sage analogy."
+      "quote": "We're seeing that wisdom is a dynamical system. A dynamical system that is counteractive to the machinery of self-deception. And that helps to afford the self-organized transformation into the life of flourishing.",
+      "context": "Vervaeke's capstone summary of the wisdom model — wisdom as a self-organizing counteractive system, not a knowledge state."
     }
   ]
 }

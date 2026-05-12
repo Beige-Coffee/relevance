@@ -1,0 +1,430 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>4E Cognition — Mini-course Review</title>
+<style>
+  :root {
+    --bg: #faf7f1; --surface: #ffffff; --elev: #f2ede0;
+    --ink: #1c1a17; --ink-soft: #3a3530; --muted: #6b6660;
+    --border: #e0d9c8; --accent: #8b3a3a; --gold: #b8893c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14120e; --surface:#1c1916; --elev:#25211c;
+      --ink:#ece6d6; --ink-soft:#b8b1a1; --muted:#8a8378;
+      --border:#2e2922; --accent:#d28a7e; --gold:#d4a85a; }
+  }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Inter", system-ui, sans-serif;
+    background: var(--bg); color: var(--ink); margin: 0; line-height: 1.6;
+    -webkit-font-smoothing: antialiased; }
+  .serif { font-family: "EB Garamond", Georgia, serif; }
+  header { padding: 2rem 2.5rem 1rem; border-bottom: 1px solid var(--border); }
+  .back-link { color: var(--muted); font-size: 0.8rem; text-decoration: none; }
+  .back-link:hover { color: var(--accent); }
+  .meta { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin: 0.6rem 0 0.3rem; }
+  h1 { font-family: "EB Garamond", Georgia, serif; font-size: 2.6rem; margin: 0; letter-spacing: -0.01em; font-weight: 500; }
+  .abstract {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.1rem; line-height: 1.65;
+    color: var(--ink-soft); margin: 1rem 0; max-width: 60rem;
+  }
+  .prereqs { font-size: 0.85rem; color: var(--muted); margin-top: 0.6rem; }
+  .prereqs a { color: var(--accent); text-decoration: none; }
+  .prereqs a:hover { text-decoration: underline; }
+  main { max-width: 60rem; margin: 0 auto; padding: 2rem 2.5rem 5rem; }
+  .module {
+    border-top: 1px solid var(--border); padding-top: 2rem; margin-top: 3rem;
+  }
+  .module:first-child { border-top: none; padding-top: 0; margin-top: 0; }
+  .module .num {
+    font-family: ui-monospace, monospace; font-size: 0.78rem;
+    background: var(--gold); color: var(--bg); padding: 0.2rem 0.6rem;
+    border-radius: 99px; display: inline-block; margin-bottom: 0.6rem;
+  }
+  .module h2 {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.9rem; margin: 0;
+    letter-spacing: -0.01em; font-weight: 500; line-height: 1.15;
+  }
+  .module .objective {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic;
+    color: var(--ink-soft); margin: 0.5rem 0 1rem;
+  }
+  section { margin: 1.6rem 0; }
+  section h3 {
+    font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em;
+    color: var(--muted); margin: 0 0 0.6rem;
+  }
+  .passage {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--gold);
+    padding: 0.8rem 1rem; margin: 0.5rem 0; border-radius: 4px;
+  }
+  .passage .src {
+    font-family: ui-monospace, monospace; font-size: 0.72rem;
+    color: var(--accent); margin-bottom: 0.3rem;
+  }
+  .passage .quote {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic;
+    color: var(--ink); font-size: 1rem; line-height: 1.55;
+  }
+  .passage .note { font-size: 0.78rem; color: var(--muted); margin-top: 0.4rem; }
+  .seed {
+    padding: 0.5rem 0; border-left: 2px solid var(--gold); padding-left: 1rem; margin: 0.5rem 0;
+  }
+  .seed .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic; color: var(--ink);
+  }
+  .seed .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.3rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .theme-pill {
+    background: var(--elev); padding: 0.15rem 0.55rem; border-radius: 99px;
+  }
+  .misc {
+    background: var(--elev); padding: 0.7rem 1rem; margin: 0.5rem 0; border-radius: 6px;
+    font-size: 0.9rem;
+  }
+  .misc .label { font-weight: 500; }
+  .misc .label.if { color: var(--ink); }
+  .misc .label.then { color: var(--accent); }
+  .check {
+    background: var(--elev); border: 2px solid var(--gold); padding: 1rem 1.2rem;
+    border-radius: 8px; margin-top: 0.6rem;
+  }
+  .check .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic; font-size: 1.1rem; color: var(--ink);
+  }
+  .check .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.5rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .toc {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    padding: 1rem 1.4rem; margin: 1.5rem 0;
+  }
+  .toc h3 { margin: 0 0 0.4rem; }
+  .toc ol { margin: 0; padding-left: 1.4rem; }
+  .toc li { margin: 0.2rem 0; font-size: 0.92rem; }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+  .approve-bar {
+    position: sticky; bottom: 0;
+    background: var(--bg); border-top: 1px solid var(--border);
+    padding: 0.8rem 2.5rem;
+    display: flex; gap: 0.6rem; justify-content: flex-end;
+  }
+  .btn {
+    padding: 0.55rem 1.2rem; border-radius: 6px; font-size: 0.9rem;
+    border: 1px solid var(--border); background: var(--surface); color: var(--ink-soft);
+    cursor: pointer; font-family: inherit;
+  }
+  .btn.primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+  .btn:hover { transform: translateY(-1px); }
+</style>
+</head><body>
+<header>
+  <a class="back-link" href="index.html">← All course reviews</a>
+  <div class="meta">Mini-course · 5 modules</div>
+  <h1>4E Cognition</h1>
+  <p class="abstract">This course introduces the third-generation cognitive science framework that underlies Vervaeke's entire response to the meaning crisis. You will be able to articulate why mind is not a computer running symbol-manipulation software, and instead how cognition is embodied (arising through sensorimotor coping), embedded (co-constituted with environment through niche construction), enacted (something organisms do rather than passively receive), and extended (distributed through psychotechnologies and social networks). Understanding 4E cognition is essential because it provides the naturalistic worldview in which concepts like relevance realization, participatory knowing, and religio can be coherently situated — replacing the Cartesian ghost-in-machine picture that has made the meaning crisis harder to diagnose and harder to solve.</p>
+  
+</header>
+<main>
+  <div class="toc">
+    <h3>Modules</h3>
+    <ol>
+      <li><a href="#m-embodiment">Embodiment: Mind Arises Through Coping, Not Computation</a></li><li><a href="#m-embeddedness">Embeddedness: Organism and Environment Co-Constitute Each Other</a></li><li><a href="#m-enaction">Enaction: Cognition Is Something We Do</a></li><li><a href="#m-extension">Extension: Mind Beyond the Skull</a></li><li><a href="#m-deep-continuity">Deep Continuity: Mind Within the Natural Order</a></li>
+    </ol>
+  </div>
+  
+    <article class="module" id="m-embodiment">
+      <span class="num">Module 1</span>
+      <h2>Embodiment: Mind Arises Through Coping, Not Computation</h2>
+      <p class="objective">Articulate why the mind is not a program running on a biological computer, and how immediate sensorimotor coping grounds all cognition.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 38 · Agape and 4E Cognitive Science</div>
+            <div class="quote">&ldquo;Mind is not programmed software or rule-bound manipulation of symbols. Instead, the mind arises through immediate coping with the world.&rdquo;</div>
+            <div class="note">Vervaeke's core statement of the embodiment thesis</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Think about riding a bicycle or catching a ball. Can you describe what you are doing in those moments purely in terms of rules your brain is following? What might be missing from a purely rule-based account?</div>
+            <div class="themes"><span class="theme-pill">rule-following fails to capture coping</span><span class="theme-pill">body and world integrated</span><span class="theme-pill">implicit know-how</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">If a robot had a perfect internal model of the world but no body, would it understand what it means to be hungry or to balance? What does that thought experiment suggest about the relationship between mind and body?</div>
+            <div class="themes"><span class="theme-pill">body is constitutive not incidental</span><span class="theme-pill">sensation and action entangled</span><span class="theme-pill">representation insufficient</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke argues that mind 'arises through immediate coping.' What do you think 'immediate' means in this context — and why would directness matter to what cognition is?</div>
+            <div class="themes"><span class="theme-pill">no mediating symbolic layer required</span><span class="theme-pill">direct sensorimotor engagement</span><span class="theme-pill">coping before theorizing</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">How does the idea that mind is embodied change how you would think about improving your thinking — would you change your practices, not just your beliefs?</div>
+            <div class="themes"><span class="theme-pill">practice transforms cognition</span><span class="theme-pill">body-level habituation matters</span><span class="theme-pill">mindfulness and flow relevant</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Embodiment means the brain is important to cognition, which everyone already knew.</div>
+              <div><span class="label then">Then:</span> Vervaeke's claim is stronger: cognition is constitutively dependent on sensorimotor interaction with the world — the body is not just the hardware but partly constitutes what thinking is.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> 4E cognition denies that the brain uses any internal representations.</div>
+              <div><span class="label then">Then:</span> The claim is not that representations are unimportant, but that they are not the origin or sufficient basis for cognition — representations arise from and serve the coping loop, not the other way around.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">In your own words, what is wrong with thinking of the mind as a program and the brain as its computer — and what picture does embodied cognition offer instead?</div>
+          <div class="themes"><span class="theme-pill">rule-manipulation cannot ground immediate coping</span><span class="theme-pill">mind arises through sensorimotor engagement</span><span class="theme-pill">constitutive role of body</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-embeddedness">
+      <span class="num">Module 2</span>
+      <h2>Embeddedness: Organism and Environment Co-Constitute Each Other</h2>
+      <p class="objective">Explain the difference between mere environmental influence and the co-constituting organism-environment loop Vervaeke calls niche construction.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 31 · Embodied-Embedded RR as Dynamical-Developmental GI</div>
+            <div class="quote">&ldquo;The world and the organism are co-creating co-determining co-evolving the fittedness.&rdquo;</div>
+            <div class="note">Summary formulation tying embeddedness to relevance realization</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">A fish shapes the water it lives in and is shaped by it — its fins form in response to currents, and its movement creates eddies that other fish respond to. In what sense is the fish 'in' its environment versus 'one with' its environment?</div>
+            <div class="themes"><span class="theme-pill">organism-environment boundary is porous</span><span class="theme-pill">co-constitution not mere interaction</span><span class="theme-pill">niche construction</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">When a city is built, the humans build the city and the city shapes the humans who grow up in it. Is this just environmental influence on behavior, or something more? What makes it 'more'?</div>
+            <div class="themes"><span class="theme-pill">niche construction is bidirectional</span><span class="theme-pill">environment selects and shapes</span><span class="theme-pill">transjective loop</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke distinguishes being 'in' an environment from being 'embedded' in it. What work does that distinction do — and why might it matter for understanding meaning?</div>
+            <div class="themes"><span class="theme-pill">embedded means co-constituting</span><span class="theme-pill">meaning is relational not internal</span><span class="theme-pill">coupling not containment</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Embeddedness just means the environment affects behavior — like how a cold room makes you think more slowly.</div>
+              <div><span class="label then">Then:</span> Embeddedness in Vervaeke's sense is a co-constituting loop: organism and environment shape and select each other through niche construction, not merely influence each other causally.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Niche construction is only a biological concept relevant to evolution, not to everyday cognition.</div>
+              <div><span class="label then">Then:</span> Vervaeke applies niche construction to cognition itself — every use of a tool, every psychotechnology, and every cultural institution is a form of cognitive niche construction that co-shapes the mind using it.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">How does niche construction illustrate the difference between being environmentally influenced and being embedded — and why does this difference matter for how we understand cognition?</div>
+          <div class="themes"><span class="theme-pill">bidirectional shaping and selection</span><span class="theme-pill">co-constituting loop not one-way causation</span><span class="theme-pill">organism-environment boundary is fluid</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-enaction">
+      <span class="num">Module 3</span>
+      <h2>Enaction: Cognition Is Something We Do</h2>
+      <p class="objective">Articulate the claim that cognition is enacted through the sensorimotor loop rather than passively received from the environment.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 38 · Agape and 4E Cognitive Science</div>
+            <div class="quote">&ldquo;cognition is an inherently something we enact&rdquo;</div>
+            <div class="note">Concise statement of the enaction thesis</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">When you are reading these words, are you receiving meaning from the page, or doing something active to produce that meaning? What would the enactivist say about the difference?</div>
+            <div class="themes"><span class="theme-pill">meaning constituted in action</span><span class="theme-pill">not passive reception</span><span class="theme-pill">sensorimotor loop active</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Think about color perception. Is 'red' a property of a tomato, a property of your brain, or something enacted in the interaction between you and the tomato? What evidence would help you decide?</div>
+            <div class="themes"><span class="theme-pill">color as interaction not intrinsic property</span><span class="theme-pill">perception enacted not received</span><span class="theme-pill">organism-environment coupling</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">The word 'enacted' contains the word 'act.' What does that grammatical link suggest about the relationship between agency and knowing in this framework?</div>
+            <div class="themes"><span class="theme-pill">knowing tied to doing</span><span class="theme-pill">cognition is performative</span><span class="theme-pill">agent-arena coupling</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Enaction means that all knowledge is constructed by the individual mind and therefore there is no objective reality.</div>
+              <div><span class="label then">Then:</span> Enaction does not deny a real world — it argues that cognition is constituted in the transaction between organism and world, not that the world is invented by the mind.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">Why does Vervaeke say cognition is 'something we enact' rather than something that happens to us — and what consequences does that have for thinking about learning and transformation?</div>
+          <div class="themes"><span class="theme-pill">cognition is active not receptive</span><span class="theme-pill">sensorimotor loop constitutive</span><span class="theme-pill">transformation requires doing not just knowing</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-extension">
+      <span class="num">Module 4</span>
+      <h2>Extension: Mind Beyond the Skull</h2>
+      <p class="objective">Explain how psychotechnologies, artifacts, and distributed cognition extend mind beyond the individual brain.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 38 · Agape and 4E Cognitive Science</div>
+            <div class="quote">&ldquo;our cognition is not in our head, but it's extended through our interactions, through the world, through our psychotechnologies, through distributed cognition&rdquo;</div>
+            <div class="note">Vervaeke's statement of cognitive extension</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">When you use a notebook to offload your memory, or use a calculator to solve arithmetic, is that tool part of your cognition or separate from it? How would you decide?</div>
+            <div class="themes"><span class="theme-pill">tool extends cognitive process</span><span class="theme-pill">boundary of mind is functional not anatomical</span><span class="theme-pill">extended mind thesis</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Language itself is a psychotechnology — it shapes what you can think and remember. In what sense might language be part of your mind rather than just a medium your mind uses?</div>
+            <div class="themes"><span class="theme-pill">psychotechnology co-constitutes cognition</span><span class="theme-pill">language restructures salience</span><span class="theme-pill">not merely a medium</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">If your cognition is extended through your social networks and cultural tools, what does that say about what is lost when those networks are disrupted — say, during social isolation or cultural collapse?</div>
+            <div class="themes"><span class="theme-pill">extended cognition socially dependent</span><span class="theme-pill">loss of psychotechnologies damages cognition</span><span class="theme-pill">meaning crisis connection</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Cognitive extension is just a metaphor — in reality the brain is where all real thinking happens.</div>
+              <div><span class="label then">Then:</span> Vervaeke, following Andy Clark, argues this is a substantive claim: if the functional role of a process in cognition is what makes it cognitive, then external tools performing that function are genuinely part of cognition.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Extension makes the four E's independent competing theories rather than aspects of one framework.</div>
+              <div><span class="label then">Then:</span> The four E's mutually presuppose the organism-environment loop — each highlights a different aspect of the same fundamental relational structure of cognition.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">In what sense is cognitive extension a naturalistic explanation of how wisdom traditions and psychotechnologies work — and how does this differ from a merely sociological account?</div>
+          <div class="themes"><span class="theme-pill">psychotechnologies extend and restructure cognition</span><span class="theme-pill">naturalistic not just cultural</span><span class="theme-pill">distributed cognition real not metaphorical</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-deep-continuity">
+      <span class="num">Module 5</span>
+      <h2>Deep Continuity: Mind Within the Natural Order</h2>
+      <p class="objective">Articulate why 4E cognition places mind within the natural order rather than above it, and why this matters for addressing the meaning crisis.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 38 · Agape and 4E Cognitive Science</div>
+            <div class="quote">&ldquo;the mind and the world are not disconnected. They are in a deep continuity of embeddedness and enactive processing.&rdquo;</div>
+            <div class="note">The deep continuity hypothesis as summary of the 4E framework</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Descartes argued that mind and matter are fundamentally different substances. What problems does that create for understanding how we know anything about the world — and how does 4E cognition respond?</div>
+            <div class="themes"><span class="theme-pill">Cartesian gap between mind and world</span><span class="theme-pill">4E dissolves the gap via participation</span><span class="theme-pill">knowing as constitutive contact</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">If mind is continuous with life and life with self-organizing physical processes, does that reduce mind to mere mechanism — or does it invite a richer understanding of mechanism itself?</div>
+            <div class="themes"><span class="theme-pill">continuity is not reduction</span><span class="theme-pill">self-organization has genuine normativity</span><span class="theme-pill">meaning emerges from natural order</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke argues that 4E cognition provides the worldview within which religio — the reconnection that addresses the meaning crisis — can be situated naturalistically. What would a non-naturalistic account of religio look like, and why might it be unsatisfying?</div>
+            <div class="themes"><span class="theme-pill">non-naturalistic account requires supernatural</span><span class="theme-pill">4E naturalizes participation</span><span class="theme-pill">scientifically situated without being reductionist</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> 4E cognition is anti-scientific because it challenges the computational model that mainstream cognitive science uses.</div>
+              <div><span class="label then">Then:</span> 4E cognition is a third-generation cognitive science — it expands the scientific account of mind beyond computational internalism using empirically motivated frameworks from dynamical systems, phenomenology, and enactivism.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">Why does Vervaeke need a 4E cognitive science framework to address the meaning crisis — what would be inadequate about a traditional computational account of mind as a backdrop for his project?</div>
+          <div class="themes"><span class="theme-pill">computational internalism cannot account for participatory knowing</span><span class="theme-pill">4E provides naturalistic basis for religio</span><span class="theme-pill">transjective participation requires organism-environment continuity</span></div>
+        </div>
+      </section>
+    </article>
+  
+</main>
+<div class="approve-bar">
+  <button class="btn">Request changes</button>
+  <button class="btn primary">Approve for shipping</button>
+</div>
+</body></html>

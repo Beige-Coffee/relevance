@@ -1,0 +1,139 @@
+{
+  "id": "mythos-vs-logos",
+  "title": "Mythos vs Logos",
+  "conceptId": "mythos-vs-logos",
+  "abstract": "After this course, students will be able to articulate what logos and mythos each contribute to human meaning-making, why their distinction is not the same as their opposition, and why the modern severance of logos from mythos — leaving rational discourse without existential transformative power, and symbolic-ritual practice without rational grounding — is a driving cause of the meaning crisis. Students will understand how the Gospel of John's 'In the beginning was the Logos' represents one ancient model of integration, and how Hegel later attempted a philosophical translation of mythos into logos. This concept bridges the series' historical thread (Plato, Stoics, Christianity) with its normative thread (religio, ritual, symbol), showing why neither scientific rationality alone nor unreflective mythology alone can address the meaning crisis.",
+  "prerequisites": [
+    "mythos"
+  ],
+  "modules": [
+    {
+      "id": "logos-as-structural-intelligibility",
+      "title": "Logos: Structural-Functional Intelligibility",
+      "subConceptId": "logos-as-structural-intelligibility",
+      "learningObjective": "Explain what logos means in Vervaeke's usage beyond 'word' or 'reason', and how it differs from mere propositional content.",
+      "expositionPassages": [
+        {
+          "episode": 5,
+          "phrase": "The Greeks have a good word for this (S-FO): the word \"logos\", although a word that's being discussed a lot today. I think it needs to be discussed a little bit more carefully.",
+          "note": "Introduced in the context of structural-functional organisation — logos is the intelligible pattern that makes things make sense."
+        },
+        {
+          "episode": 20,
+          "phrase": "All of this was integrated together. These three orders that articulate the space of how we're connected to ourselves, to each other and to the world. The normal logical, the normative and the narrative",
+          "note": "The nomological, normative, and narrative orders as three dimensions of logos in the broader sense."
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "Vervaeke takes care to say logos 'needs to be discussed more carefully' than the way it typically appears in popular discourse. What do you think he means, and what inadequate meanings of 'logos' is he pushing against?",
+          "expectedThemes": [
+            "logos as more than spoken word",
+            "logos as structural-functional pattern",
+            "logos as formative principle not mere speech"
+          ]
+        },
+        {
+          "prompt": "The Gospel of John opens 'In the beginning was the Logos.' What is being claimed about reality when logos is identified with the creative principle behind all things?",
+          "expectedThemes": [
+            "reality is inherently intelligible",
+            "creation structured by rational form",
+            "logos bridges divine and cosmic order"
+          ]
+        },
+        {
+          "prompt": "How is logos different from mythos even though Vervaeke does not treat them as enemies? What complementary function does each perform?",
+          "expectedThemes": [
+            "logos articulates rationally",
+            "mythos activates participatory transformation",
+            "both needed for full meaning-making"
+          ]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "Logos simply means 'word' or 'speech' in Vervaeke's usage.",
+          "correction": "For Vervaeke following John and the Stoics, logos means the intelligible formative principle — the structural-functional organization — structuring reality, not merely spoken utterance."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "In what sense is logos already present in Aristotle's conformity theory of knowing — what connection does that theory have to the claim that logos is the intelligible pattern shared between mind and world?",
+        "expectedThemes": [
+          "knowing as conformity to structure",
+          "mind takes on logos of things",
+          "logos is the bridge making contact knowing possible"
+        ]
+      }
+    },
+    {
+      "id": "severance-of-mythos-logos",
+      "title": "The Modern Severance of Mythos and Logos",
+      "subConceptId": "severance-of-mythos-logos",
+      "learningObjective": "Describe what happened when logos was severed from mythos in modernity, and how this severance contributes to the meaning crisis.",
+      "expositionPassages": [
+        {
+          "episode": 16,
+          "phrase": "Christianity is going to take up into itself the Stoicism we've already talked about. Paul quotes stoicism in the Bible.",
+          "note": "One pre-modern example of logos-mythos integration — Stoic rational theology absorbed into Christian narrative."
+        },
+        {
+          "episode": 20,
+          "phrase": "All of this was integrated together. These three orders that articulate the space of how we're connected to ourselves, to each other and to the world. The normal logical, the normative and the narrative",
+          "note": "The integrated system that the modern severance dismantled."
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "Vervaeke argues the problem is not the distinction between mythos and logos but their modern severance. What is the difference between distinguishing two things and severing them?",
+          "expectedThemes": [
+            "distinction allows complementarity",
+            "severance removes mutual grounding",
+            "logos loses existential relevance without mythos"
+          ]
+        },
+        {
+          "prompt": "What does logos look like when it operates without mythos — what kind of rationality does that produce, and what does it leave out?",
+          "expectedThemes": [
+            "technical-instrumental reason",
+            "no existential guidance",
+            "scientific worldview without meaning orientation"
+          ]
+        },
+        {
+          "prompt": "What does mythos look like when it operates without logos — what dangers does it run into?",
+          "expectedThemes": [
+            "irrationalism",
+            "ungrounded symbolism",
+            "susceptibility to manipulation and ideology"
+          ]
+        },
+        {
+          "prompt": "Hegel attempted to translate mythos into logos through his philosophical system. In Vervaeke's view, what did Hegel gain and what did he lose in that translation?",
+          "expectedThemes": [
+            "gains rational comprehensibility",
+            "loses participatory-ritual activation",
+            "philosophical system cannot substitute for living practice"
+          ]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "Logos and mythos are natural enemies and must be kept separate for both to be healthy.",
+          "correction": "Vervaeke's diagnosis is the opposite: their severance is pathological. Logos without mythos loses transformative existential power; mythos without logos loses rational grounding. They are supposed to be mutually sustaining."
+        },
+        {
+          "misconception": "The Enlightenment project of replacing mythology with reason is simply the triumph of logos.",
+          "correction": "For Vervaeke, the Enlightenment produced a truncated logos stripped of transformative existential relevance — a spirit of geometry without a spirit of finesse — not a triumph but a fragmentation."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "How would Vervaeke evaluate a community that had rich ritual and symbolic life but no critical rational reflection, and another community that had sophisticated scientific understanding but no ritual or mythic narrative? Which, if either, is closer to addressing the meaning crisis — and why?",
+        "expectedThemes": [
+          "both partial",
+          "need integration not just balance",
+          "meaning crisis requires logos and mythos working together"
+        ]
+      }
+    }
+  ]
+}

@@ -2,91 +2,101 @@
   "num": 5,
   "slug": "plato-and-the-cave",
   "title": "Plato and the Cave",
-  "essence": "Plato synthesizes Socratic wisdom with Pythagorean self-transcendence into a comprehensive theory of the psyche and enlightenment. Faced with Socrates' execution, Plato develops the first psychological theory explaining how inner conflict and self-deception arise from the psyche's tripartite structure: reason (seeking truth), appetite (seeking pleasure), and spirit/thymos (seeking honor and social validation). Through hyperbolic discounting and the problem of immediate versus abstract salience, Vervaeke explains why the appetitive part easily overrides reason. Plato's solution is education: using reason to teach the intellectual part and training the spirited part, thereby taming appetite without destroying it. This creates 'internal justice'—optimal coordination of the psyche's parts generating wisdom and fullness of being. The famous Myth of the Cave articulates this as an anagogic ascent: liberation from illusion through progressive enlightenment, where each step requires painful self-transformation. The idos (form, structural-functional organization) becomes central to knowing: true knowledge involves conforming oneself to reality rather than observing from outside. Platonic wisdom thus unites rational self-knowledge with spiritual transcendence.",
+  "essence": "Plato responds to the murder of Socrates by systematizing his teacher's practice into a comprehensive metaphysics — and, crucially, a theory of education and self-transformation. The key concept is anagoge: the reciprocal acceleration of contact with reality and inner integration, the ascent that is simultaneously an outward movement toward the real and an inward movement toward psychic wholeness. The divided psyche — reason, spirit, appetite — is not a tripartite faculty theory but a description of the conditions of inner conflict and integration; the person ruled by appetite is the person most enslaved to the cave's shadows. Vervaeke uses hyperbolic discounting to explain why the cave is not Plato's condescension toward ordinary people but a cognitive-science-grounded diagnosis: we are built to treat vivid, immediate, socially reinforced stimuli as more real than abstract, temporally distant truths. The myth of the cave is therefore a description of how humans are cognitively constituted, not merely a moral fable. Logos — rational, dialogic discourse — is the psycho-technology of anagoge; it is opposed to mythos not as truth to fiction but as a mode of transformation to a mode of participation. The episode introduces Aristotle as the student who will contest Plato's two-worlds solution while sharing his diagnosis of the problem.",
   "keyClaims": [
-    "The psyche has three parts motivated by different principles: reason (truth), appetite (pleasure), and spirit (honor)",
-    "Hyperbolic discounting explains why immediate gratification overrides long-term understanding",
-    "Wisdom involves teaching reason and training the spirit to optimize and coordinate the psyche",
-    "The Myth of the Cave describes enlightenment as anagogic ascent requiring painful self-transformation",
-    "True knowledge involves conformity with reality's structural-functional organization, not external observation"
+    "Anagoge is Plato's central concept: the reciprocal acceleration of contact with reality and inner psychic integration — ascent is simultaneously outward (toward the real) and inward (toward wholeness).",
+    "The myth of the cave is grounded in the cognitive reality of hyperbolic discounting: humans are built to treat vivid, immediate stimuli as more real than abstract truths.",
+    "The divided psyche (reason, spirit, appetite) describes conditions of inner conflict and integration, not a faculty psychology; slavery to appetite is slavery to the cave.",
+    "Logos is the psycho-technology of anagoge — not opposed to mythos as truth to fiction but as a mode of transformation to a mode of participation.",
+    "Plato's response to Socrates' death is to institutionalize philosophy (the Academy) as the social form of anagoge."
   ],
   "concepts": [
     {
-      "name": "idos",
+      "id": "anagoge",
+      "treatment": "introduced",
+      "summary": "The reciprocal acceleration of contact with reality and inner integration — Plato's core concept of philosophical ascent as both epistemic and psychic transformation."
+    },
+    {
+      "id": "the-divided-psyche",
+      "treatment": "introduced",
+      "summary": "Plato's tripartite account of the soul (reason, spirit, appetite) reread not as faculty psychology but as a description of the conditions of inner conflict and integration."
+    },
+    {
+      "id": "the-myth-of-the-cave",
+      "treatment": "introduced",
+      "summary": "Plato's allegory of prisoners mistaking shadows for reality, analyzed through hyperbolic discounting as a cognitive-science-grounded diagnosis of ordinary human cognition."
+    },
+    {
+      "id": "the-platonic-project",
+      "treatment": "introduced",
+      "summary": "The comprehensive philosophical program of educating the soul through anagoge — systematizing Socratic self-examination into a theory of knowledge, reality, and transformation."
+    },
+    {
+      "id": "the-good",
+      "treatment": "introduced",
+      "summary": "The Form of the Good — the highest reality in Plato's metaphysics — analogous to the sun in the cave allegory; the endpoint of anagoge."
+    },
+    {
+      "id": "mythos-vs-logos",
+      "treatment": "introduced",
+      "summary": "Logos is the psycho-technology of anagoge — not opposed to mythos as truth to fiction but as a mode that enables self-transcendence versus a mode of participatory embedding."
+    },
+    {
+      "id": "hyperbolic-discounting",
+      "treatment": "applied",
+      "summary": "Used to explain the cave: humans discount abstract, temporally distant truths in favor of vivid, immediate, socially reinforced stimuli — making the cave a cognitive-science fact, not a moral fable."
+    },
+    {
+      "id": "two-worlds-mythology",
       "treatment": "developed",
-      "summary": "Form; the structural-functional organization that constitutes what something is and how we know it."
+      "summary": "Plato's metaphysics as the philosophical systematization of the two-worlds structure: the world of Forms vs. the world of appearances."
     },
     {
-      "name": "anagoge",
+      "id": "wisdom",
       "treatment": "developed",
-      "summary": "Upward ascent from illusion to enlightenment through progressive self-transformation."
-    },
-    {
-      "name": "thymos",
-      "treatment": "introduced",
-      "summary": "Spirited part of the psyche motivated by honor, shame, and social validation."
-    },
-    {
-      "name": "hyperbolic discounting",
-      "treatment": "introduced",
-      "summary": "Cognitive bias making immediate consequences salient while discounting distant future consequences."
-    },
-    {
-      "name": "inner conflict",
-      "treatment": "introduced",
-      "summary": "Tension between different motivational systems in the psyche."
-    },
-    {
-      "name": "wisdom",
-      "treatment": "developed",
-      "summary": "Internal justice achieved through teaching reason, training spirit, and taming appetite."
-    },
-    {
-      "name": "participatory knowing",
-      "treatment": "introduced",
-      "summary": "Knowledge requiring self-transformation and conformity with what is being known."
+      "summary": "The philosopher-king is the person whose anagoge is complete — whose psychic integration and epistemic contact with the Forms are mutually reinforcing."
     }
   ],
   "people": [
     {
-      "name": "Plato",
+      "id": "plato",
       "role": "subject",
-      "summary": "Ancient Greek philosopher who developed comprehensive theory of psyche and enlightenment."
+      "summary": "The central subject: his response to Socrates' death, the Republic, the divided psyche, the myth of the cave, the theory of Forms, and the Academy all examined."
     },
     {
-      "name": "Socrates",
-      "role": "referenced",
-      "summary": "Plato's teacher whose death inspired Plato's philosophical project."
-    },
-    {
-      "name": "Pythagoras",
-      "role": "referenced",
-      "summary": "Influenced Plato's understanding of self-transcendence and mathematical reality."
-    },
-    {
-      "name": "Ainslie",
+      "id": "socrates",
       "role": "discussed",
-      "summary": "Researcher who studied hyperbolic discounting."
+      "summary": "Plato's teacher whose death prompted the Platonic systematization; the elenchus as the seed of anagoge."
+    },
+    {
+      "id": "pythagoras",
+      "role": "discussed",
+      "summary": "Plato's debt to Pythagoras discussed: the mathematical intelligible world, the communal practice of philosophy, and the soul's orientation toward higher realities."
+    },
+    {
+      "id": "aristotle",
+      "role": "introduced",
+      "summary": "Introduced at the episode's end as Plato's student who will contest the two-worlds solution while sharing the diagnosis of inner conflict."
+    },
+    {
+      "id": "freud",
+      "role": "referenced",
+      "summary": "Freud's id/ego/superego structure referenced as a modern parallel to Plato's divided psyche — appetitive/rational/spiritual."
     }
   ],
   "crossRefs": [
     {
       "episode": 4,
-      "context": "Plato applies Socratic method to solve problem of foolishness and inner conflict"
+      "context": "Plato is responding to Socrates' death; the elenchus as psycho-technology of self-examination is the seed from which anagoge grows."
+    },
+    {
+      "episode": 3,
+      "context": "The two-worlds mythology introduced in episode 3 receives its philosophical systematization in Plato's theory of Forms."
     },
     {
       "episode": 6,
-      "context": "Aristotle builds on Platonic psychology with theory of development and character"
+      "context": "Aristotle's challenge to Plato's two-worlds solution — and his alternative account of development and virtue — is the subject of episode 6."
     }
   ],
-  "quotableMoments": [
-    {
-      "quote": "This parable... This isn't a story from the past right. The reason why you go to The Matrix, and people still watch it and talk about it is because it's a myth. It sings to you. It speaks to you now because it talks about perennial problems that you face.",
-      "context": "Explaining how the Myth of the Cave remains relevant through its mythological power"
-    },
-    {
-      "quote": "When I really know something I conform to it. I become like it in some important way. I get in my mind the same real pattern that's in the thing because that real pattern is what allows me to come to know the thing.",
-      "context": "Articulating the conformity theory of knowledge"
-    }
-  ]
+  "quotableMoments": []
 }

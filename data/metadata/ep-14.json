@@ -2,105 +2,106 @@
   "num": 14,
   "slug": "epicureans-cynics-stoics",
   "title": "Epicureans, Cynics, and Stoics",
-  "essence": "Vervaeke shifts to the Western response to the Hellenistic meaning crisis—a period of domicide where people lost connection to home, history, and community. He traces how Epicureanism, Cynicism, and Stoicism each address existential anxiety through different psychotechnologies. The Epicureans diagnose anxiety about death and loss, proposing acceptance of mortality through philosophical friendship rather than pursuing immortality. The Cynics challenge attachment to culturally contingent values, distinguishing moral principles from purity codes and advocating alignment with natural law. The Stoics, synthesizing Cynic and Platonic insights, focus on the co-identification process—how we assume and assign identities—arguing that wisdom lies not in controlling events but in recognizing what is and isn't within our control. Together these schools show how Western philosophy developed therapeutic psychotechnologies to address meaning and suffering, establishing the physician-of-the-soul model that will persist through Christianity. The episode demonstrates the Axial Revolution's application to psychological transformation and existential distress.",
+  "essence": "Vervaeke frames the Hellenistic period as a civilizational meaning crisis precipitated by Alexander the Great's conquests, which destroyed the polis — the self-contained political and cultural community in which Greek identity was embedded. The result was domicide on a civilizational scale: millions of people whose identity had been constituted by their place in a civic community suddenly found themselves displaced, cosmopolitan, and existentially homeless. Three philosophical movements arose as therapeutic responses. The Epicureans, pioneered by Epicurus, withdrew from politics into small communities of friendship, built a hedonic calculus of pleasure management, and practiced philosophical medicine — the 'call no man a philosopher who has not alleviated the suffering of others' criterion. The Cynics radically stripped down: Diogenes performed a kind of philosophical theater of nakedness, demonstrating that what people claim to need (honor, wealth, status) is illusion, and that genuine purity of motivation is all that matters. Zeno of Citium, influenced by the Cynics but reconstructing something more social, founded Stoicism: a school that re-grounded identity not in polis membership but in participation in the universal logos — the rational principle structuring the cosmos — through the psycho-technology of co-identification, by which the individual identifies with the rational order rather than contingent social roles. Each school addresses the same problem of domicide through a different re-grounding strategy: pleasure management, purity of will, or logos-identification.",
   "keyClaims": [
-    "The Hellenistic meaning crisis created domicide—loss of rootedness to place, language, religion, and community—requiring therapeutic philosophy.",
-    "The Epicureans address anxiety about death and loss by radically accepting mortality while cultivating friendship and wisdom.",
-    "The Cynics challenge all culturally contingent values and attachments, distinguishing moral laws from purity codes through provocative practice.",
-    "The Stoics recognize that wisdom lies in understanding what is within our control (meaning-making) versus what isn't (events).",
-    "All three schools represent the Axial Revolution becoming therapeutic: philosophy as the cure for existential suffering, not just intellectual truth-seeking."
+    "Alexander the Great's conquests destroyed the polis, producing civilizational domicide — the loss of the cultural home in which Greek identity was constituted.",
+    "The Epicureans responded with therapeutic friendship communities and hedonic calculus, treating philosophy explicitly as medicine for existential suffering.",
+    "The Cynics stripped identity down to purity of motivation, performing philosophical theater to expose the illusoriness of conventional social goods.",
+    "Zeno founded Stoicism by re-grounding identity in the universal logos — the rational principle structuring the cosmos — enabling meaningful existence even without a particular community or home.",
+    "All three schools are responses to the same problem of domicide and existential displacement, each offering a different psycho-technology for re-establishing the agent-arena relationship after the collapse of the polis."
   ],
   "concepts": [
     {
-      "name": "domicide",
+      "id": "domicide",
       "treatment": "introduced",
-      "summary": "The destruction of home—not physical dwelling but cultural rootedness, shared language, ancestry, and community identity."
+      "summary": "Named and defined as the destruction of home — not merely physical but cultural: the loss of the community, history, and shared meaning-making in which identity is embedded."
     },
     {
-      "name": "anxiety",
+      "id": "psycho-technology",
       "treatment": "developed",
-      "summary": "Distinguished from fear; a nebulous threat where one doesn't know what to do, central to the Hellenistic crisis."
+      "summary": "Each Hellenistic school is analyzed as offering a different psycho-technology: hedonic calculus (Epicureans), nakedness/theater (Cynics), co-identification with logos (Stoics)."
     },
     {
-      "name": "ontonormativity",
-      "treatment": "referenced",
-      "summary": "How experiences of the really-real demand transformation of life, driving philosophical responses to meaning crisis."
+      "id": "the-axial-revolution",
+      "treatment": "applied",
+      "summary": "The Hellenistic crisis is framed as what happens after the axial revolution: the new interiority and universalism of axial thought come under pressure when the institutional supports that structured them collapse."
     },
     {
-      "name": "philia",
-      "treatment": "introduced",
-      "summary": "The love of cooperation and reciprocity, which Epicureans identify as the deepest source of meaning accessible until death."
+      "id": "agent-arena-relationship",
+      "treatment": "developed",
+      "summary": "The polis-destruction problem is analyzed as an agent-arena disruption: without the polis, the Greek's identity as agent no longer has a matching arena. All three schools offer different ways to re-establish the coupling."
     },
     {
-      "name": "purity codes",
-      "treatment": "introduced",
-      "summary": "Culturally contingent boundaries designed to maintain social categories, distinguished from universal moral principles."
+      "id": "parasitic-processing",
+      "treatment": "developed",
+      "summary": "The existential displacement of the Hellenistic period creates exactly the conditions for parasitic processing — untethered identity, cognitive flexibility overwhelmed by options, no shared frame."
     },
     {
-      "name": "co-identification",
-      "treatment": "introduced",
-      "summary": "The process of assuming and assigning identities—the Agent:Arena relationship that the Stoics identify as the heart of transformation."
+      "id": "wisdom",
+      "treatment": "applied",
+      "summary": "Each school defines wisdom differently: Epicurean wisdom as managing pleasure/pain; Cynic wisdom as stripping to purity; Stoic wisdom as aligning with logos — but all share the criterion of alleviating existential suffering."
     },
     {
-      "name": "prosoche",
-      "treatment": "introduced",
-      "summary": "Stoic practice of paying attention to how one is paying attention, learning to distinguish meaning from event."
+      "id": "having-mode-being-mode",
+      "treatment": "applied",
+      "summary": "The Cynic critique is a direct attack on having-mode existence: conventional goods (honor, wealth, status) are named as false being-mode satisfiers that produce modal confusion."
     },
     {
-      "name": "aporia",
-      "treatment": "referenced",
-      "summary": "The shocking confrontation that breaks up fixed framings, used by Cynics through provocative confrontation."
+      "id": "the-meaning-crisis",
+      "treatment": "applied",
+      "summary": "The Hellenistic period is presented as the first large-scale modern-style meaning crisis — the parallel to modernity after the death of God is made explicit."
     }
   ],
   "people": [
     {
-      "name": "Epicurus",
-      "role": "subject",
-      "summary": "Epicurean philosopher who diagnoses anxiety about death and proposes acceptance of mortality combined with philosophical friendship."
+      "id": "alexander-the-great",
+      "role": "introduced",
+      "summary": "The historical agent of civilizational domicide: his conquests destroyed the polis and produced the Hellenistic cosmopolitan displacement that necessitated the new therapeutic philosophies."
     },
     {
-      "name": "Diogenes",
-      "role": "discussed",
-      "summary": "Cynic philosopher whose provocative demonstrations (lamp search for honest man, public masturbation) challenge cultural assumptions."
+      "id": "epicurus",
+      "role": "introduced",
+      "summary": "Founder of Epicureanism: therapeutic philosopher of friendship communities, hedonic calculus, and philosophical medicine. His criterion — 'Call no man a philosopher who has not alleviated the suffering of others' — is quoted."
     },
     {
-      "name": "Zeno of Citium",
-      "role": "discussed",
-      "summary": "Founder of Stoicism who integrates Cynic provocativeness with Platonic rationality, focusing on the process of co-identification."
+      "id": "diogenes",
+      "role": "introduced",
+      "summary": "Paradigmatic Cynic: performed philosophical theater of radical stripping-down to expose the illusoriness of conventional goods and the purity of natural motivation."
     },
     {
-      "name": "Paul Tillich",
-      "role": "discussed",
-      "summary": "Modern theologian whose The Courage To Be articulates the distinction between fear and anxiety central to understanding these philosophies."
+      "id": "zeno-of-citium",
+      "role": "introduced",
+      "summary": "Founder of Stoicism: influenced by Cynics but reconstructed a social philosophy grounding identity in the universal logos rather than contingent community membership."
     },
     {
-      "name": "Antisthenes",
-      "role": "discussed",
-      "summary": "Socratic student who learns to converse with himself, pioneering the internalization of Socratic elenchus that becomes Stoic practice."
+      "id": "porteous",
+      "role": "referenced",
+      "summary": "Co-author (with Smith) of the domicide concept that Vervaeke imports to characterize the Hellenistic civilizational disruption."
+    },
+    {
+      "id": "brian-walsh",
+      "role": "referenced",
+      "summary": "Walsh's theological use of domicide as a bridge between the Hellenistic and modern crises is invoked to frame the episode's central analogy."
     }
   ],
   "crossRefs": [
     {
-      "episode": 9,
-      "context": "Builds on understanding of Axial Revolution in India to show parallel Western developments in response to similar crises."
+      "episode": 13,
+      "context": "Parasitic processing from ep-13 now gets its historical instantiation: the Hellenistic crisis is the civilizational version of the cognitive trap that Buddhism analyzed at the individual level."
     },
     {
       "episode": 15,
-      "context": "Stoic psychotechnologies will be shown integrated into later Christian theological practice."
+      "context": "Stoic practice is developed in detail in ep-15 through Marcus Aurelius, extending the co-identification psycho-technology into a full daily spiritual regimen."
+    },
+    {
+      "episode": 3,
+      "context": "The Hebraic axial revolution from ep-3 is now contrasted with the Hellenistic response: the Hebrews had narrative identity through history; the Greeks lost civic identity through conquest."
     }
   ],
   "quotableMoments": [
     {
-      "quote": "The philosopher is the physician of the soul.",
-      "context": "Expressing how Hellenistic philosophy shifts from pure truth-seeking to therapeutic intervention in existential suffering."
-    },
-    {
-      "quote": "Where I am, Death is not. Where death is, I am not.",
-      "context": "Epicurean argument showing that death itself cannot be experienced as a loss, only partial losses that can be managed."
-    },
-    {
-      "quote": "It's not What you set your heart on. It's how you set your heart.",
-      "context": "Zeno's Stoic insight that the process of co-identification, not its objects, is where transformation occurs."
+      "quote": "Domicide is the destruction of home. Now there's two ways in which Domicide can occur. One, of course, is physical destruction of your house, and that's important, but there's also Cultural Domicide in which you have a house, you have a dwelling, but it is not very much your home.",
+      "context": "Introduction of domicide as the key concept for understanding the Hellenistic meaning crisis and its modern parallel."
     }
   ]
 }

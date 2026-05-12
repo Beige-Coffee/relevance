@@ -1,0 +1,160 @@
+{
+  "id": "propositional-knowing",
+  "title": "Propositional Knowing",
+  "conceptId": "propositional-knowing",
+  "abstract": "This course examines what Vervaeke calls propositional knowing — the form of knowledge captured in true or false beliefs and statements — and why the modern reduction of all knowing to this single mode is both historically produced and philosophically problematic. Students will be able to articulate how propositional knowing differs from procedural, perspectival, and participatory knowing, explain why it is the most derivative of the four kinds rather than the most foundational, and identify the cultural and intellectual forces that produced its contemporary dominance. Understanding propositional knowing is the gateway to grasping why the meaning crisis cannot be resolved by acquiring better information alone, and why transformation — not merely new beliefs — is required for genuine wisdom.",
+  "prerequisites": [],
+  "modules": [
+    {
+      "id": "the-modern-reduction",
+      "title": "The Modern Reduction: All Knowing Collapsed to Belief",
+      "subConceptId": null,
+      "learningObjective": "Articulate what propositional knowing is and why Vervaeke argues that modernity has illegitimately reduced all knowing to this single mode.",
+      "expositionPassages": [
+        {
+          "episode": 1,
+          "phrase": "We tend to have reduced all of the ways that the ancients talked about how we know to one thing: To know is to have a special kind of belief.",
+          "note": "Vervaeke's core diagnostic claim, introduced in Episode 1"
+        },
+        {
+          "episode": 1,
+          "phrase": "There is much more to knowing than having justified true beliefs.",
+          "note": "Direct statement of the course's central thesis"
+        },
+        {
+          "episode": 22,
+          "phrase": "you do not have to be transformed in order to come into contact with ultimate reality. All you have to do is use the right method, do the right computation.",
+          "note": "Vervaeke describes the Cartesian view that epitomizes the dominance of propositional-computational knowing"
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "When you say you 'know' how to ride a bicycle, what exactly do you mean — and is that the same kind of thing as knowing that the capital of France is Paris?",
+          "expectedThemes": [
+            "knowing-how vs knowing-that",
+            "skills irreducible to propositions",
+            "different kinds of knowledge"
+          ]
+        },
+        {
+          "prompt": "If someone read every book ever written about swimming but had never entered water, would they know how to swim? What does your answer reveal about the limits of propositional knowledge?",
+          "expectedThemes": [
+            "practical skill vs description",
+            "limits of propositional knowing",
+            "irreducibility of practice"
+          ]
+        },
+        {
+          "prompt": "Vervaeke claims the reduction of all knowing to belief-having is historically produced, not a timeless philosophical truth. What historical forces might have produced it?",
+          "expectedThemes": [
+            "scientific revolution",
+            "Descartes and modernity",
+            "secularization of wisdom",
+            "loss of participatory knowing"
+          ]
+        },
+        {
+          "prompt": "If propositional knowing is the most derivative kind rather than the most foundational, what must be in place before we can form propositions at all?",
+          "expectedThemes": [
+            "procedural grounding",
+            "perspectival orientation",
+            "participatory contact with reality",
+            "prereflective knowing"
+          ]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "Propositional knowing is the highest or most foundational kind of knowing.",
+          "correction": "Vervaeke argues the opposite: propositional knowing is the most derivative, depending on procedural, perspectival, and participatory knowing beneath it — it presupposes rather than generates the other three."
+        },
+        {
+          "misconception": "Having the right beliefs about a practice (such as mindfulness or virtue) is sufficient for genuine knowledge of it.",
+          "correction": "Propositional and procedural/perspectival/participatory knowing are irreducibly different: one can know all the correct propositions about mindfulness and still have none of the skill, perspective, or participatory contact that actual practice produces."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "How does the modern equation of 'knowledge' with 'justified true belief' contribute to the meaning crisis — and what does recovering the other three kinds of knowing make possible that propositional knowing alone cannot?",
+        "expectedThemes": [
+          "limits of information alone",
+          "transformation required for meaning",
+          "participatory and perspectival knowing",
+          "overcoming the reduction"
+        ]
+      }
+    },
+    {
+      "id": "propositional-vs-three-other-knowings",
+      "title": "Propositional Knowing Among the Four: Its Place and Its Limits",
+      "subConceptId": null,
+      "learningObjective": "Contrast propositional knowing with procedural, perspectival, and participatory knowing and explain how each kind is irreducible to the others.",
+      "expositionPassages": [
+        {
+          "episode": 36,
+          "phrase": "It's at the level of procedural and ultimately perspectival and participatory knowing.",
+          "note": "Vervaeke locates genuine wisdom-work beneath the propositional level"
+        },
+        {
+          "episode": 29,
+          "phrase": "we are getting a lot about how we should think about Relevance Realisation where we should look for it and notice it's starting to give us a way of connecting and thinking about the four kinds of knowing.",
+          "note": "Relevance realization connects and underlies all four kinds"
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "Procedural knowing (knowing-how) is sometimes described as 'tacit knowledge.' Can you think of a skill where the more you try to articulate the propositions behind it, the worse you perform? What does that suggest?",
+          "expectedThemes": [
+            "tacit dimension of skill",
+            "interference of explicit thought",
+            "procedural knowledge irreducible"
+          ]
+        },
+        {
+          "prompt": "Perspectival knowing is described as knowing what it is like to be in a certain state or situation. Can a person who has never experienced grief have propositional knowledge about grief? Does that propositional knowledge fully capture what a grieving person knows?",
+          "expectedThemes": [
+            "phenomenal character of knowledge",
+            "propositional limits",
+            "perspectival knowing unique"
+          ]
+        },
+        {
+          "prompt": "Participatory knowing involves being changed by what you come to know. In what contexts does coming to know something genuinely transform who you are — and why can't a list of true propositions do the same thing?",
+          "expectedThemes": [
+            "transformation through knowing",
+            "identity change",
+            "participatory vs propositional",
+            "relational knowing"
+          ]
+        },
+        {
+          "prompt": "Vervaeke argues that the modern meaning crisis arises partly because we have lost access to the non-propositional kinds of knowing. What practices or institutions in modern life might be symptoms of this loss?",
+          "expectedThemes": [
+            "therapy as substitute",
+            "lack of ritual",
+            "cognitive behavioral approaches",
+            "hunger for transformation"
+          ]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "The reduction of all knowing to propositional knowing is a neutral epistemic choice.",
+          "correction": "Vervaeke argues it is a historically produced outcome of the meaning crisis itself — the same forces that generated the crisis also generated the epistemic reduction, making propositional dominance a symptom as much as a cause."
+        },
+        {
+          "misconception": "Propositional knowing is useless or unimportant in Vervaeke's framework.",
+          "correction": "Propositional knowing is genuinely valuable — Vervaeke's critique is not that it should be discarded but that it must be grounded in and responsive to the lower-order knowings rather than attempting to replace them."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "Suppose someone argues: 'We can solve the meaning crisis with better science education — more accurate propositions about the world.' Using the four-fold distinction, what would Vervaeke say is missing from this proposal, and why?",
+        "expectedThemes": [
+          "propositional knowing insufficient",
+          "procedural perspectival participatory gap",
+          "transformation not information",
+          "meaning requires all four kinds"
+        ]
+      }
+    }
+  ]
+}

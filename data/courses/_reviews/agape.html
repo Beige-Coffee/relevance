@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Agape — Mini-course Review</title>
+<style>
+  :root {
+    --bg: #faf7f1; --surface: #ffffff; --elev: #f2ede0;
+    --ink: #1c1a17; --ink-soft: #3a3530; --muted: #6b6660;
+    --border: #e0d9c8; --accent: #8b3a3a; --gold: #b8893c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14120e; --surface:#1c1916; --elev:#25211c;
+      --ink:#ece6d6; --ink-soft:#b8b1a1; --muted:#8a8378;
+      --border:#2e2922; --accent:#d28a7e; --gold:#d4a85a; }
+  }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Inter", system-ui, sans-serif;
+    background: var(--bg); color: var(--ink); margin: 0; line-height: 1.6;
+    -webkit-font-smoothing: antialiased; }
+  .serif { font-family: "EB Garamond", Georgia, serif; }
+  header { padding: 2rem 2.5rem 1rem; border-bottom: 1px solid var(--border); }
+  .back-link { color: var(--muted); font-size: 0.8rem; text-decoration: none; }
+  .back-link:hover { color: var(--accent); }
+  .meta { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin: 0.6rem 0 0.3rem; }
+  h1 { font-family: "EB Garamond", Georgia, serif; font-size: 2.6rem; margin: 0; letter-spacing: -0.01em; font-weight: 500; }
+  .abstract {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.1rem; line-height: 1.65;
+    color: var(--ink-soft); margin: 1rem 0; max-width: 60rem;
+  }
+  .prereqs { font-size: 0.85rem; color: var(--muted); margin-top: 0.6rem; }
+  .prereqs a { color: var(--accent); text-decoration: none; }
+  .prereqs a:hover { text-decoration: underline; }
+  main { max-width: 60rem; margin: 0 auto; padding: 2rem 2.5rem 5rem; }
+  .module {
+    border-top: 1px solid var(--border); padding-top: 2rem; margin-top: 3rem;
+  }
+  .module:first-child { border-top: none; padding-top: 0; margin-top: 0; }
+  .module .num {
+    font-family: ui-monospace, monospace; font-size: 0.78rem;
+    background: var(--gold); color: var(--bg); padding: 0.2rem 0.6rem;
+    border-radius: 99px; display: inline-block; margin-bottom: 0.6rem;
+  }
+  .module h2 {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.9rem; margin: 0;
+    letter-spacing: -0.01em; font-weight: 500; line-height: 1.15;
+  }
+  .module .objective {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic;
+    color: var(--ink-soft); margin: 0.5rem 0 1rem;
+  }
+  section { margin: 1.6rem 0; }
+  section h3 {
+    font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em;
+    color: var(--muted); margin: 0 0 0.6rem;
+  }
+  .passage {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--gold);
+    padding: 0.8rem 1rem; margin: 0.5rem 0; border-radius: 4px;
+  }
+  .passage .src {
+    font-family: ui-monospace, monospace; font-size: 0.72rem;
+    color: var(--accent); margin-bottom: 0.3rem;
+  }
+  .passage .quote {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic;
+    color: var(--ink); font-size: 1rem; line-height: 1.55;
+  }
+  .passage .note { font-size: 0.78rem; color: var(--muted); margin-top: 0.4rem; }
+  .seed {
+    padding: 0.5rem 0; border-left: 2px solid var(--gold); padding-left: 1rem; margin: 0.5rem 0;
+  }
+  .seed .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic; color: var(--ink);
+  }
+  .seed .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.3rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .theme-pill {
+    background: var(--elev); padding: 0.15rem 0.55rem; border-radius: 99px;
+  }
+  .misc {
+    background: var(--elev); padding: 0.7rem 1rem; margin: 0.5rem 0; border-radius: 6px;
+    font-size: 0.9rem;
+  }
+  .misc .label { font-weight: 500; }
+  .misc .label.if { color: var(--ink); }
+  .misc .label.then { color: var(--accent); }
+  .check {
+    background: var(--elev); border: 2px solid var(--gold); padding: 1rem 1.2rem;
+    border-radius: 8px; margin-top: 0.6rem;
+  }
+  .check .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic; font-size: 1.1rem; color: var(--ink);
+  }
+  .check .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.5rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .toc {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    padding: 1rem 1.4rem; margin: 1.5rem 0;
+  }
+  .toc h3 { margin: 0 0 0.4rem; }
+  .toc ol { margin: 0; padding-left: 1.4rem; }
+  .toc li { margin: 0.2rem 0; font-size: 0.92rem; }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+  .approve-bar {
+    position: sticky; bottom: 0;
+    background: var(--bg); border-top: 1px solid var(--border);
+    padding: 0.8rem 2.5rem;
+    display: flex; gap: 0.6rem; justify-content: flex-end;
+  }
+  .btn {
+    padding: 0.55rem 1.2rem; border-radius: 6px; font-size: 0.9rem;
+    border: 1px solid var(--border); background: var(--surface); color: var(--ink-soft);
+    cursor: pointer; font-family: inherit;
+  }
+  .btn.primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+  .btn:hover { transform: translateY(-1px); }
+</style>
+</head><body>
+<header>
+  <a class="back-link" href="index.html">← All course reviews</a>
+  <div class="meta">Mini-course · 5 modules</div>
+  <h1>Agape</h1>
+  <p class="abstract">This course explores agape — the creative, sacrificial love that turns non-persons into persons — one of the most distinctive and transformative concepts Vervaeke draws from the Christian tradition. After completing this course, you will be able to articulate why agape is not an emotion but a modal way of being; why all agapic love is 'for-giving' love (giving before it is earned); how receiving or giving agape triggers the radical reorientation Vervaeke calls metanoia; and how Paul's first letter to the Corinthians binds agape to gnosis as inseparable modes of knowing and loving. Agape is pivotal in the series arc because it names the psychotechnology through which persons are made — the love that precedes, flows through, and transforms individuals into participants in something larger than their own autobiography.</p>
+  
+</header>
+<main>
+  <div class="toc">
+    <h3>Modules</h3>
+    <ol>
+      <li><a href="#m-agape-love-not-emotion">Love as a Modal Way of Being, Not a Feeling</a></li><li><a href="#m-agape-creative-personhood">Agape as Creative Personhood-Making</a></li><li><a href="#m-agape-sacrificial-forgiving">Agape as Sacrificial For-Giving</a></li><li><a href="#m-agape-metanoia-trigger">Agape as Trigger of Metanoia</a></li><li><a href="#m-agape-participatory-gnosis">Agape Bound with Gnosis: Loving as Knowing</a></li>
+    </ol>
+  </div>
+  
+    <article class="module" id="m-agape-love-not-emotion">
+      <span class="num">Module 1</span>
+      <h2>Love as a Modal Way of Being, Not a Feeling</h2>
+      <p class="objective">Articulate why Vervaeke insists that love — including agape — is a modal way of being and an agent-arena relationship, not a fluctuating emotion.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 15 · Marcus Aurelius and Jesus</div>
+            <div class="quote">&ldquo;Love isn't a feeling. It isn't an emotion. It is a modal way of being. It is an Agent-Arena relationship.&rdquo;</div>
+            <div class="note">Vervaeke's foundational qualification before introducing the three loves</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Most people would say they 'feel' love. Vervaeke insists love is not a feeling but a 'modal way of being.' What might he mean by that distinction — and can you think of examples where love persists even when the feeling is absent?</div>
+            <div class="themes"><span class="theme-pill">love as orientation not affective spike</span><span class="theme-pill">modal existence vs. emotional state</span><span class="theme-pill">care persists through feeling's absence</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">An 'agent-arena relationship' is the coupling in which a self and a world fit together and co-identify each other. How might love be that kind of coupling rather than something inside the lover's head?</div>
+            <div class="themes"><span class="theme-pill">love shapes what world discloses</span><span class="theme-pill">co-identification of lover and beloved</span><span class="theme-pill">not an internal mental state alone</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">If love is a way of being rather than a feeling, does that make love less intimate or more? What would change in how you think about loving someone?</div>
+            <div class="themes"><span class="theme-pill">love as commitment of orientation</span><span class="theme-pill">more stable and deeper than feeling</span><span class="theme-pill">agent-arena restructuring</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Love is primarily an emotion — an intense positive feeling toward another person.</div>
+              <div><span class="label then">Then:</span> Vervaeke argues in Episode 15 that love is a modal way of being — an agent-arena relationship that structures what is salient, real, and possible for the lover — it is not a feeling that rises and falls.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">What does it mean to say love is a 'modal way of being' and an 'agent-arena relationship' — and why does Vervaeke make this qualification before discussing the different kinds of love?</div>
+          <div class="themes"><span class="theme-pill">love as existential orientation</span><span class="theme-pill">structures salience and reality</span><span class="theme-pill">not an internal fluctuating emotion</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-agape-creative-personhood">
+      <span class="num">Module 2</span>
+      <h2>Agape as Creative Personhood-Making</h2>
+      <p class="objective">Articulate why agape is the love that creates persons rather than responding to them, and why it operates before the beloved has earned anything.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 15 · Marcus Aurelius and Jesus</div>
+            <div class="quote">&ldquo;you love it because by loving it, you turn a non-person into a person. It's the closest thing to a miracle&rdquo;</div>
+            <div class="note">Vervaeke's description of agape's person-creating power</div>
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 16 · Christianity and Agape</div>
+            <div class="quote">&ldquo;This is the love of creation. It's the love that God is demonstrating towards humanity in the way God is an ongoing creation of the open future. So God is creating the future.&rdquo;</div>
+            <div class="note">Agape as creative rather than responsive love</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Consider how a parent loves an infant who cannot yet speak, reciprocate, or earn any affection. What kind of love is that — and what does it do to the child over time?</div>
+            <div class="themes"><span class="theme-pill">love precedes reciprocity</span><span class="theme-pill">creates personhood in the beloved</span><span class="theme-pill">agapic not erotic or philial</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke says agape 'turns a non-person into a person.' What might he mean? Is this metaphorical, or is there something literally true about how persons are constituted through being loved?</div>
+            <div class="themes"><span class="theme-pill">persons constituted through being loved before earning it</span><span class="theme-pill">agape is generative not responsive</span><span class="theme-pill">moral agency emerges from being agapically held</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">If agape creates what it loves rather than responding to what already exists, what does that suggest about its relationship to creation and the future — and to risk?</div>
+            <div class="themes"><span class="theme-pill">open future as medium of agapic creativity</span><span class="theme-pill">risk of creating someone free</span><span class="theme-pill">love as ongoing not completed</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">The concept of agape is tied to God in Christian theology. But Vervaeke calls it a psychotechnology. What does that move do — what does it preserve and what does it reframe?</div>
+            <div class="themes"><span class="theme-pill">universalizes the structure beyond Christianity</span><span class="theme-pill">naturalistic account of person-making</span><span class="theme-pill">does not require theism to apply</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Agape is just a religious or theological concept with no relevance outside Christian doctrine.</div>
+              <div><span class="label then">Then:</span> Vervaeke treats agape as a universal psychotechnology of person-creation that Christianity named and systematized — the structure of loving before earning applies wherever persons are made from non-persons.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Agape is a warm feeling toward someone attractive or admirable.</div>
+              <div><span class="label then">Then:</span> That is eros or philia; agape is the love that creates the beloved's personhood before they have earned any love at all — it is precisely not conditioned on the beloved's existing qualities.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">Why does Vervaeke call agape 'the closest thing to a miracle' — what is it about agape's creative structure that makes it categorically different from love as a response to existing qualities?</div>
+          <div class="themes"><span class="theme-pill">creates personhood rather than responding to it</span><span class="theme-pill">precedes all earning and reciprocity</span><span class="theme-pill">generative not reactive love</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-agape-sacrificial-forgiving">
+      <span class="num">Module 3</span>
+      <h2>Agape as Sacrificial For-Giving</h2>
+      <p class="objective">Explain the sacrificial structure of agape and why Vervaeke reads all agapic love as 'for-giving' in the sense of giving before earning.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 16 · Christianity and Agape</div>
+            <div class="quote">&ldquo;Agape has a sacrificial component to it because what I'm actually doing is I'm giving up, I'm making myself an affordance for your transformation from non-person into person.&rdquo;</div>
+            <div class="note">The sacrificial structure: the one who loves gives themselves as affordance</div>
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 16 · Christianity and Agape</div>
+            <div class="quote">&ldquo;Agape has a sacrificial element to it in that you give yourself, you &quot;for-give&quot;, you give before the person earns.&rdquo;</div>
+            <div class="note">The for-giving pun as a structural claim</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke makes a pun: agape is 'for-giving' because it gives before the person earns. Is this just wordplay, or does it reveal something structurally true about what all agapic love involves?</div>
+            <div class="themes"><span class="theme-pill">pre-emptive giving is structural not accidental</span><span class="theme-pill">forgiveness is always a form of agapic love</span><span class="theme-pill">giving before earning defines agape</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">What does it mean to make yourself an 'affordance' for someone else's transformation? What does the lover give up — and why is that a sacrifice?</div>
+            <div class="themes"><span class="theme-pill">lover subordinates their centrality</span><span class="theme-pill">becomes instrumental to beloved's becoming</span><span class="theme-pill">sacrificial structure is self-displacement</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Is there a tension between agape's sacrificial structure and self-respect? When does self-sacrifice become harmful — and how might Vervaeke's framework distinguish healthy agape from self-destruction?</div>
+            <div class="themes"><span class="theme-pill">agape is not self-erasure</span><span class="theme-pill">metanoia re-centers rather than destroys self</span><span class="theme-pill">healthy agape vs codependence</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Forgiveness in agape just means accepting an apology after being wronged.</div>
+              <div><span class="label then">Then:</span> Vervaeke's point is that all agapic love is 'for-giving' in a deeper sense — giving before the recipient has done anything to earn it. Forgiveness of wrongs is one instance of this prior structure, not its definition.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">How does the for-giving structure of agape explain why the experience of being loved before earning it can be so transformative — and what does that suggest about the relationship between agape and personhood?</div>
+          <div class="themes"><span class="theme-pill">being loved before earning creates the capacity to become a person</span><span class="theme-pill">sacrifice makes space for the other's becoming</span><span class="theme-pill">personhood emerges from being for-given</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-agape-metanoia-trigger">
+      <span class="num">Module 4</span>
+      <h2>Agape as Trigger of Metanoia</h2>
+      <p class="objective">Explain how giving or receiving agapic love re-centres the salience landscape away from egocentrism and triggers metanoia.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 16 · Christianity and Agape</div>
+            <div class="quote">&ldquo;This is the metanoia of Agape. I mean the metaphor is turning, but the problem with that metaphor is [that] all 'turning' (demonstrated physically by turning on the spot while standing) is still egocentric. You have to think of the turning this way: The turning is &quot;I go from being egocentric (pointing internally to himself) to being centered on someone else (pointing out and away from himself)&quot;.&rdquo;</div>
+            <div class="note">Vervaeke's description of agape as a decentering from ego</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">When you are wholly absorbed in caring for someone else — a sick friend, a newborn — what happens to your usual concerns about your own image, plans, and comfort? What does that suggest about what agape does to the self?</div>
+            <div class="themes"><span class="theme-pill">self-concern recedes</span><span class="theme-pill">other becomes the center of the field</span><span class="theme-pill">salience landscape restructured</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke says metanoia involves a 'turning' that is not just physical rotation but a recentering — from being centered on oneself to being centered on another. Why would that distinction matter?</div>
+            <div class="themes"><span class="theme-pill">ordinary turning keeps self central</span><span class="theme-pill">agapic metanoia displaces self as center</span><span class="theme-pill">decentering not destruction of self</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Is the metanoia triggered by agape stable or temporary? What would need to happen for someone to remain decentered from egocentrism rather than returning to their habitual self-focus?</div>
+            <div class="themes"><span class="theme-pill">requires ongoing practice and cultivation</span><span class="theme-pill">psychotechnologies needed to stabilize</span><span class="theme-pill">reciprocal process not one-time event</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Metanoia is a one-time conversion experience, like being struck by lightning.</div>
+              <div><span class="label then">Then:</span> Vervaeke describes metanoia as a radical transformation of orientation that can happen suddenly (like Paul on the road to Damascus) but requires ongoing practices and agapic relationships to be stabilized and developed.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">Describe the difference between ordinary 'turning' (changing direction while remaining self-centered) and the metanoia of agape — and explain why that difference matters for what agape actually does to a person.</div>
+          <div class="themes"><span class="theme-pill">ordinary turning remains egocentric</span><span class="theme-pill">agapic metanoia displaces the ego as center</span><span class="theme-pill">not a change of opinion but a revolution of salience</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-agape-participatory-gnosis">
+      <span class="num">Module 5</span>
+      <h2>Agape Bound with Gnosis: Loving as Knowing</h2>
+      <p class="objective">Articulate how Paul intertwines agape and gnosis in 1 Corinthians — explaining why, for Vervaeke, loving and knowing are inseparably coupled in the deepest form of contact with reality.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 16 · Christianity and Agape</div>
+            <div class="quote">&ldquo;Paul is actually talking about 'there's a way of knowing' - and we're going to come back to this. The term that's being used there is Gnosis - that is bound up with Agape, this way of loving.&rdquo;</div>
+            <div class="note">Paul's Corinthians passage as the binding of agape and gnosis</div>
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 16 · Christianity and Agape</div>
+            <div class="quote">&ldquo;The Agape that preceeds me, flows through me, and transforms me as I'm oriented. And what Jesus was offering, I believe, was he was offering a teaching so that all people could experience this.&rdquo;</div>
+            <div class="note">Agape as a transjective process preceding individuals</div>
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 16 · Christianity and Agape</div>
+            <div class="quote">&ldquo;God is this process that we participate in. And we put... Look, it made you, you didn't make it! You participate in Agape. It precedes you, it flows through you and you participate in it insofar as you help other people to come to personhood through you.&rdquo;</div>
+            <div class="note">Agape as transjective process — participated in, not authored</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Paul says 'we know as we are known.' What kind of knowing could that describe — and how is it different from ordinary knowing where a subject studies an object?</div>
+            <div class="themes"><span class="theme-pill">participatory knowing vs. propositional</span><span class="theme-pill">knower is transformed in the knowing</span><span class="theme-pill">gnosis as mutual not unilateral</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke says agape 'precedes, flows through, and transforms' the individual. What does it mean for a form of love to precede you — and what follows from that for how you relate to it?</div>
+            <div class="themes"><span class="theme-pill">transjective not merely subjective</span><span class="theme-pill">individual participates in not authors agape</span><span class="theme-pill">love is not private property</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">If loving and knowing are genuinely inseparable in the deepest modes of cognition, what does that suggest about what is wrong with purely detached, 'objective' ways of knowing?</div>
+            <div class="themes"><span class="theme-pill">detached knowing misses participatory dimension</span><span class="theme-pill">gnosis requires love as orientation</span><span class="theme-pill">objectivity as incomplete not simply wrong</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Agape is uniquely Christian and therefore relevant only to people with Christian commitments.</div>
+              <div><span class="label then">Then:</span> Vervaeke explicitly treats agape as naming a universal structure — the transjective process of person-creation through for-giving love — that Christianity articulated powerfully but that is recoverable for secular contexts.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Gnosis is secret esoteric knowledge unrelated to love.</div>
+              <div><span class="label then">Then:</span> For Vervaeke and Paul, gnosis is bound up with agape — it is a participatory knowing in which one knows as one is known, a mutual transformation that cannot be separated from the loving orientation that enables it.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">Why does Vervaeke argue that agape and gnosis are inseparably bound together — and what is lost in a form of knowing that is entirely detached from love?</div>
+          <div class="themes"><span class="theme-pill">gnosis requires agapic orientation</span><span class="theme-pill">participatory knowing is mutual and transformative</span><span class="theme-pill">detached knowing cannot access the deepest reality</span></div>
+        </div>
+      </section>
+    </article>
+  
+</main>
+<div class="approve-bar">
+  <button class="btn">Request changes</button>
+  <button class="btn primary">Approve for shipping</button>
+</div>
+</body></html>

@@ -1,91 +1,102 @@
 {
   "num": 3,
   "slug": "continuous-cosmos-modern-world-grammar",
-  "title": "Continuous Cosmos and Modern World Grammar",
-  "essence": "This episode examines the Axial Revolution's transformation of mythological worldviews, focusing on the shift from the 'continuous cosmos' to a 'two-worlds mythology.' In the continuous cosmos of the Bronze Age, reality moved in eternal cycles, differences were matters of power not kind, and humans fit themselves into natural patterns. The Axial Revolution shattered this, introducing a mythology of two worlds: the everyday illusory world of self-deception and the real world accessible through wisdom and transformation. Vervaeke explores how ancient Israel developed cosmic history as narrative with an open future, while Greece developed rational argumentation and mathematics. These psycho-technologies of alphabetic literacy and coinage enhanced second-order thinking and abstract reasoning. However, the modern scientific worldview undermines the two-worlds mythology by returning us to a continuous cosmos, creating a meaning crisis: we've internalized the need for self-transcendence but lost the mythological framework supporting it. Vervaeke introduces key figures like Socrates and Pythagoras as epitomizing this Axial transformation in Greece.",
+  "title": "Continuous Cosmos and the Modern World Grammar",
+  "essence": "Vervaeke reconstructs the pre-axial worldview — the continuous cosmos — as a coherent and integrated framework in which the human, the natural, and the divine were not separate ontological domains but a single graduated reality. In this world, participation in the cosmos was the primary mode of being; psycho-technologies worked by deepening rather than escaping this participation. The Axial Revolution shattered this continuity by introducing what Charles Taylor calls the 'two-worlds mythology': the idea that ordinary reality is deficient and that a higher, more real world exists beyond it. This move was simultaneously liberating — it created the space for criticism, morality, and self-transcendence — and potentially pathological. Vervaeke traces three distinct Axial currents: the Greek philosophical tradition culminating in Plato, the Hebrew prophetic tradition introducing kairos (the morally charged moment), and the Indian tradition of Buddhism. He uses Pythagoras as a pivotal transitional figure who combined mathematical rationality, ascetic practice, and mystical community. Nietzsche's 'death of God' is introduced as the modern culmination of the two-worlds mythology collapsing under its own weight, leaving nihilism as the result.",
   "keyClaims": [
-    "The continuous cosmos worldview understood reality through power, cyclical time, and conformity to natural patterns",
-    "The Axial Revolution introduced two-worlds mythology: the illusory everyday world and the real world accessed through wisdom",
-    "Ancient Israel developed cosmic narrative understanding time as an open future shaped by moral choice",
-    "Greece developed rational argumentation as a psycho-technology, especially through democracy and mathematics",
-    "Modern science undermines the two-worlds mythology by returning us to a continuous cosmos, creating existential confusion"
+    "The continuous cosmos — the pre-axial worldview — was an integrated ontological framework in which human, natural, and divine participated in a single graduated reality.",
+    "The Axial Revolution introduced the two-worlds mythology: ordinary reality as deficient, and a higher reality as the true locus of meaning and value.",
+    "The two-worlds mythology was both liberating (enabling criticism and self-transcendence) and potentially catastrophic (enabling nihilism when the higher world is abandoned).",
+    "Kairos — the morally charged, pregnant moment — names the Hebrew prophetic contribution to the Axial transformation: time becomes qualitatively differentiated.",
+    "Nietzsche's 'death of God' is the modern collapse of the two-worlds mythology, leaving the meaning crisis as its aftermath."
   ],
   "concepts": [
     {
-      "name": "continuous cosmos",
+      "id": "continuous-cosmos",
       "treatment": "introduced",
-      "summary": "Pre-Axial worldview of cyclical time, power-based difference, and cosmic continuity."
+      "summary": "The pre-axial integrated worldview in which human, natural, and divine participated in a single graduated reality — the baseline shattered by the Axial Revolution."
     },
     {
-      "name": "two worlds mythology",
+      "id": "two-worlds-mythology",
       "treatment": "introduced",
-      "summary": "Axial-age mythological framework distinguishing illusory everyday world from real transcendent reality."
+      "summary": "The axial bifurcation of reality into an ordinary deficient world and a higher more-real world — simultaneously enabling self-transcendence and creating vulnerability to nihilism."
     },
     {
-      "name": "anagoge",
-      "treatment": "introduced",
-      "summary": "Upward ascent from illusion to reality, from everyday world to the real world."
-    },
-    {
-      "name": "self transcendence",
+      "id": "the-axial-revolution",
       "treatment": "developed",
-      "summary": "Capacity to rise above oneself, central to Axial-age wisdom and transformation."
+      "summary": "Analyzed into three distinct currents: Greek philosophical, Hebrew prophetic, and Indian Buddhist — each contributing differently to the two-worlds structure."
     },
     {
-      "name": "kairos",
+      "id": "kairos",
       "treatment": "introduced",
-      "summary": "Crucial turning point or opportune moment in cosmic history."
+      "summary": "The morally charged pregnant moment from Hebrew prophetic tradition — time becomes qualitatively differentiated, not merely sequential."
     },
     {
-      "name": "logos",
-      "treatment": "introduced",
-      "summary": "Divine principle or cosmic law; fundamental order of reality."
+      "id": "mythos",
+      "treatment": "developed",
+      "summary": "Contrasted with logos as the mode of being characteristic of the continuous cosmos — participatory engagement rather than spectator critique."
+    },
+    {
+      "id": "self-transcendence",
+      "treatment": "developed",
+      "summary": "The two-worlds mythology enables a new form of self-transcendence: moving from the deficient ordinary world to a higher reality, rather than deepening participation in a continuous cosmos."
+    },
+    {
+      "id": "participatory-knowing",
+      "treatment": "developed",
+      "summary": "The continuous cosmos was a world of participatory knowing; the Axial transition progressively privileges propositional and perspectival over participatory."
+    },
+    {
+      "id": "psycho-technology",
+      "treatment": "developed",
+      "summary": "Pre-axial psycho-technologies deepened participation in the continuous cosmos; axial psycho-technologies aim at transcendence of ordinary reality."
+    },
+    {
+      "id": "the-meaning-crisis",
+      "treatment": "developed",
+      "summary": "Framed as the aftermath of the two-worlds mythology collapsing — when the higher world is abandoned (Nietzsche's death of God) the meaning structure collapses."
     }
   ],
   "people": [
     {
-      "name": "Charles Taylor",
-      "role": "discussed",
-      "summary": "Philosopher who analyzed the great dis-embedding of the Axial Revolution."
-    },
-    {
-      "name": "Pythagoras",
+      "id": "charles-taylor",
       "role": "introduced",
-      "summary": "Greek philosopher who discovered mathematical patterns and invented the term 'cosmos'."
+      "summary": "Charles Taylor's concept of the 'continuous cosmos' and his analysis of the buffered/porous self used to frame the pre-axial worldview."
     },
     {
-      "name": "Socrates",
+      "id": "pythagoras",
       "role": "introduced",
-      "summary": "Greek philosopher who epitomized the Axial Revolution through the pursuit of wisdom and self-knowledge."
+      "summary": "Presented as a pivotal transitional figure combining mathematical rationality, ascetic community, and mystical practice — a proto-axial figure bridging continuous cosmos and two-worlds mythology."
     },
     {
-      "name": "Nietzsche",
+      "id": "nietzsche",
+      "role": "introduced",
+      "summary": "Nietzsche's 'death of God' introduced as the modern collapse of the two-worlds mythology and the origin of the modern meaning crisis."
+    },
+    {
+      "id": "karl-jaspers",
       "role": "referenced",
-      "summary": "Philosopher quoted on the persistence of grammatical God-language."
+      "summary": "Jaspers' Axial Age framework applied to the three currents of the Axial Revolution."
+    },
+    {
+      "id": "karen-armstrong",
+      "role": "referenced",
+      "summary": "Armstrong's comparative religious analysis of the Axial Revolution referenced for the Hebrew prophetic tradition."
     }
   ],
   "crossRefs": [
     {
       "episode": 2,
-      "context": "Continues discussion of Axial Revolution introduced in episode 2"
+      "context": "The Axial Revolution introduced in episode 2 is here analyzed into its three distinct cultural currents and their shared two-worlds structure."
     },
     {
       "episode": 4,
-      "context": "Socratic method and quest for wisdom explored in depth"
+      "context": "Socrates emerges directly from the Greek Axial current traced here — his philosophy presupposes the two-worlds mythology established in this episode."
     },
     {
       "episode": 5,
-      "context": "Platonic two-worlds mythology further developed"
+      "context": "Plato's myth of the cave and the platonic project are the philosophical systematization of the two-worlds mythology introduced here."
     }
   ],
-  "quotableMoments": [
-    {
-      "quote": "Wisdom is how to tap into that power because what you're after is 'long life'. 'Live long and prosper' as it's in the Star Trek mythology for the Vulcans right? You want to be prosperous, you want to live long, you want to be free of conflict, you want to provide security for your offspring.",
-      "context": "Contrasting continuous cosmos wisdom with Axial-age wisdom"
-    },
-    {
-      "quote": "I fear we are not getting rid of God because we still believe in grammar.",
-      "context": "Explaining how biblical grammar persists in secular thinking"
-    }
-  ]
+  "quotableMoments": []
 }

@@ -1,0 +1,102 @@
+{
+  "num": 6,
+  "slug": "aristotle-kant-evolution",
+  "title": "Aristotle, Kant, and Evolution",
+  "essence": "Aristotle advances Platonic philosophy by addressing what was missing: a theory of growth and development. Moving beyond Plato's static forms, Aristotle argues that living things are self-actualizing—constantly actualizing potential through informed development. Drawing on biology rather than mathematics, Aristotle introduces the distinction between actuality and potentiality, causation and constraint. Vervaeke shows how Aristotle's framework resolves Kant's puzzle about biology: living things use self-organizing feedback cycles that seem to create circular explanations, yet they truly develop and improve. Using dynamical systems theory, Vervaeke demonstrates that constraints (conditions) enabling or limiting possibility are as important as causes (events). Darwinian evolution exemplifies this: natural selection and variation create a 'virtual engine' regulating feedback cycles toward increasing fitness. Aristotle's innovation extends to wisdom through the concept of character—the cultivated virtual engine regulating one's development and growth. To live up to one's potential is to actualize one's humanity through cultivated character and virtues. This makes meaning and wisdom inseparable from growth, development, and the continuous refinement of how one structures oneself.",
+  "keyClaims": [
+    "Living things actualize potential through development, not sudden static actualization",
+    "Constraints and enabling conditions are as real and important as causal events",
+    "Dynamical systems theory explains how self-organizing development improves through feedback cycles",
+    "Character is the cultivated virtual engine regulating personal growth and development",
+    "Wisdom involves cultivating virtues to actualize one's potential and live fully as a human being"
+  ],
+  "concepts": [
+    {
+      "name": "actuality",
+      "treatment": "introduced",
+      "summary": "State of being realized or active, as opposed to potential."
+    },
+    {
+      "name": "potentiality",
+      "treatment": "introduced",
+      "summary": "Capacity to be or become; possibility shaped by constraints."
+    },
+    {
+      "name": "character",
+      "treatment": "introduced",
+      "summary": "Cultivated virtual engine of virtues regulating personal development and growth."
+    },
+    {
+      "name": "virtue",
+      "treatment": "introduced",
+      "summary": "Cultivated excellence expressed through habitual right action."
+    },
+    {
+      "name": "golden mean",
+      "treatment": "introduced",
+      "summary": "Optimal mean between excess and deficiency in cultivating virtue."
+    },
+    {
+      "name": "wisdom",
+      "treatment": "developed",
+      "summary": "Capacity to cultivate character and virtues realizing one's potential as a rational being."
+    },
+    {
+      "name": "akrasia",
+      "treatment": "introduced",
+      "summary": "Foolishness stemming from inadequate character, not mere ignorance."
+    }
+  ],
+  "people": [
+    {
+      "name": "Aristotle",
+      "role": "subject",
+      "summary": "Ancient Greek philosopher who developed theory of growth, character, and human development."
+    },
+    {
+      "name": "Plato",
+      "role": "referenced",
+      "summary": "Aristotle's teacher whose ideas he builds upon and revises."
+    },
+    {
+      "name": "Alicia Juarrero",
+      "role": "discussed",
+      "summary": "Contemporary philosopher whose dynamical systems theory was inspired by Aristotle."
+    },
+    {
+      "name": "Immanuel Kant",
+      "role": "discussed",
+      "summary": "Philosopher who identified the problem of circular explanation in biology."
+    },
+    {
+      "name": "Eric Perl",
+      "role": "discussed",
+      "summary": "Scholar of Aristotle on purpose and structural functional organization."
+    },
+    {
+      "name": "Charles Darwin",
+      "role": "referenced",
+      "summary": "Naturalist whose evolution theory exemplifies dynamical systems."
+    }
+  ],
+  "crossRefs": [
+    {
+      "episode": 5,
+      "context": "Builds on Platonic psychology and form theory"
+    },
+    {
+      "episode": 7,
+      "context": "Aristotle's worldview and conformity theory further developed"
+    }
+  ],
+  "quotableMoments": [
+    {
+      "quote": "Your purpose is to become as fully human as Possible! How are you cultivating your character to do so?",
+      "context": "Summarizing Aristotle's answer to the question of human purpose"
+    },
+    {
+      "quote": "The very machinery that makes you adaptive is the machinery that makes you prey to self deceptive self-destructive behavior.",
+      "context": "Core principle about the double-edged nature of human cognition"
+    }
+  ]
+}

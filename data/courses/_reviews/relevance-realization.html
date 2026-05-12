@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Relevance Realization — Mini-course Review</title>
+<style>
+  :root {
+    --bg: #faf7f1; --surface: #ffffff; --elev: #f2ede0;
+    --ink: #1c1a17; --ink-soft: #3a3530; --muted: #6b6660;
+    --border: #e0d9c8; --accent: #8b3a3a; --gold: #b8893c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14120e; --surface:#1c1916; --elev:#25211c;
+      --ink:#ece6d6; --ink-soft:#b8b1a1; --muted:#8a8378;
+      --border:#2e2922; --accent:#d28a7e; --gold:#d4a85a; }
+  }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Inter", system-ui, sans-serif;
+    background: var(--bg); color: var(--ink); margin: 0; line-height: 1.6;
+    -webkit-font-smoothing: antialiased; }
+  .serif { font-family: "EB Garamond", Georgia, serif; }
+  header { padding: 2rem 2.5rem 1rem; border-bottom: 1px solid var(--border); }
+  .back-link { color: var(--muted); font-size: 0.8rem; text-decoration: none; }
+  .back-link:hover { color: var(--accent); }
+  .meta { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin: 0.6rem 0 0.3rem; }
+  h1 { font-family: "EB Garamond", Georgia, serif; font-size: 2.6rem; margin: 0; letter-spacing: -0.01em; font-weight: 500; }
+  .abstract {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.1rem; line-height: 1.65;
+    color: var(--ink-soft); margin: 1rem 0; max-width: 60rem;
+  }
+  .prereqs { font-size: 0.85rem; color: var(--muted); margin-top: 0.6rem; }
+  .prereqs a { color: var(--accent); text-decoration: none; }
+  .prereqs a:hover { text-decoration: underline; }
+  main { max-width: 60rem; margin: 0 auto; padding: 2rem 2.5rem 5rem; }
+  .module {
+    border-top: 1px solid var(--border); padding-top: 2rem; margin-top: 3rem;
+  }
+  .module:first-child { border-top: none; padding-top: 0; margin-top: 0; }
+  .module .num {
+    font-family: ui-monospace, monospace; font-size: 0.78rem;
+    background: var(--gold); color: var(--bg); padding: 0.2rem 0.6rem;
+    border-radius: 99px; display: inline-block; margin-bottom: 0.6rem;
+  }
+  .module h2 {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.9rem; margin: 0;
+    letter-spacing: -0.01em; font-weight: 500; line-height: 1.15;
+  }
+  .module .objective {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic;
+    color: var(--ink-soft); margin: 0.5rem 0 1rem;
+  }
+  section { margin: 1.6rem 0; }
+  section h3 {
+    font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em;
+    color: var(--muted); margin: 0 0 0.6rem;
+  }
+  .passage {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--gold);
+    padding: 0.8rem 1rem; margin: 0.5rem 0; border-radius: 4px;
+  }
+  .passage .src {
+    font-family: ui-monospace, monospace; font-size: 0.72rem;
+    color: var(--accent); margin-bottom: 0.3rem;
+  }
+  .passage .quote {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic;
+    color: var(--ink); font-size: 1rem; line-height: 1.55;
+  }
+  .passage .note { font-size: 0.78rem; color: var(--muted); margin-top: 0.4rem; }
+  .seed {
+    padding: 0.5rem 0; border-left: 2px solid var(--gold); padding-left: 1rem; margin: 0.5rem 0;
+  }
+  .seed .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic; color: var(--ink);
+  }
+  .seed .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.3rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .theme-pill {
+    background: var(--elev); padding: 0.15rem 0.55rem; border-radius: 99px;
+  }
+  .misc {
+    background: var(--elev); padding: 0.7rem 1rem; margin: 0.5rem 0; border-radius: 6px;
+    font-size: 0.9rem;
+  }
+  .misc .label { font-weight: 500; }
+  .misc .label.if { color: var(--ink); }
+  .misc .label.then { color: var(--accent); }
+  .check {
+    background: var(--elev); border: 2px solid var(--gold); padding: 1rem 1.2rem;
+    border-radius: 8px; margin-top: 0.6rem;
+  }
+  .check .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic; font-size: 1.1rem; color: var(--ink);
+  }
+  .check .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.5rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .toc {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    padding: 1rem 1.4rem; margin: 1.5rem 0;
+  }
+  .toc h3 { margin: 0 0 0.4rem; }
+  .toc ol { margin: 0; padding-left: 1.4rem; }
+  .toc li { margin: 0.2rem 0; font-size: 0.92rem; }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+  .approve-bar {
+    position: sticky; bottom: 0;
+    background: var(--bg); border-top: 1px solid var(--border);
+    padding: 0.8rem 2.5rem;
+    display: flex; gap: 0.6rem; justify-content: flex-end;
+  }
+  .btn {
+    padding: 0.55rem 1.2rem; border-radius: 6px; font-size: 0.9rem;
+    border: 1px solid var(--border); background: var(--surface); color: var(--ink-soft);
+    cursor: pointer; font-family: inherit;
+  }
+  .btn.primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+  .btn:hover { transform: translateY(-1px); }
+</style>
+</head><body>
+<header>
+  <a class="back-link" href="index.html">← All course reviews</a>
+  <div class="meta">Mini-course · 4 modules</div>
+  <h1>Relevance Realization</h1>
+  <p class="abstract">This course develops Vervaeke's central technical construct: relevance realization, the non-propositional, embodied process by which the mind-body system dynamically selects what matters out of a combinatorially explosive sea of available information. Students will be able to explain why relevance cannot be explained by representations or a central executive, articulate the key constraints any adequate theory must satisfy (non-circularity, auto-poetic grounding, scale-invariant self-organization), and connect relevance realization to meaning, agency, and the four kinds of knowing. In the series arc, relevance realization serves as Vervaeke's naturalistic foundation for consciousness, wisdom, religio, and the possibility of responding to the meaning crisis — making it one of the most load-bearing concepts in the entire lecture series.</p>
+  
+</header>
+<main>
+  <div class="toc">
+    <h3>Modules</h3>
+    <ol>
+      <li><a href="#m-the-problem-of-relevance">Why Relevance Cannot Be Computed: The Combinatorial Explosion</a></li><li><a href="#m-aspectuality-and-salience-tagging">Aspectuality and Salience Tagging: How Relevance Is Structured</a></li><li><a href="#m-autopoietic-and-self-organizing">Auto-poetic Grounding and Scale-Invariant Self-Organization</a></li><li><a href="#m-meaning-relevance-agency-triangle">Meaning, Relevance, and Agency: The Constitutive Triangle</a></li>
+    </ol>
+  </div>
+  
+    <article class="module" id="m-the-problem-of-relevance">
+      <span class="num">Module 1</span>
+      <h2>Why Relevance Cannot Be Computed: The Combinatorial Explosion</h2>
+      <p class="objective">Explain why the space of relevant information is combinatorially explosive and why this makes relevance realization impossible to achieve by exhaustive search or explicit rule.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 28 · Convergence To Relevance Realization</div>
+            <div class="quote">&ldquo;you have to ignore the information, not even check it … See Relevance Realization isn't the application of a definition.&rdquo;</div>
+            <div class="note">Vervaeke's key point that RR precedes and enables any definition-checking</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">When you decide what is relevant to solving a problem, do you check every piece of information you have ever encountered and then filter it? If not, how does the relevant subset come to your attention?</div>
+            <div class="themes"><span class="theme-pill">pre-conscious relevance selection</span><span class="theme-pill">impossibility of exhaustive search</span><span class="theme-pill">salience prior to deliberation</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke argues that applying a definition of relevance cannot itself determine what is relevant, because you first have to decide which parts of the definition apply. Does that seem like an infinite regress? What would stop the regress?</div>
+            <div class="themes"><span class="theme-pill">regress problem</span><span class="theme-pill">non-circular explanation required</span><span class="theme-pill">pre-conceptual grounding</span><span class="theme-pill">homunculus fallacy</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Consider a chess grandmaster who 'sees' the right move while a computer brute-forces millions of positions. What does this difference suggest about how human minds handle the combinatorial explosion?</div>
+            <div class="themes"><span class="theme-pill">insight vs exhaustive search</span><span class="theme-pill">gestalt pattern recognition</span><span class="theme-pill">self-organizing selection</span><span class="theme-pill">expertise and relevance</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">If you cannot explain relevance by invoking a rule or a homunculus that 'knows' what matters, where could relevance come from? What kinds of processes might produce it without presupposing it?</div>
+            <div class="themes"><span class="theme-pill">self-organizing processes</span><span class="theme-pill">auto-poetic grounding</span><span class="theme-pill">biological goals not represented targets</span><span class="theme-pill">non-intentional dynamics</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Relevance realization is a conscious process of filtering information — we decide what is relevant.</div>
+              <div><span class="label then">Then:</span> Relevance realization is sub-representational and pre-categorical; it is the process that makes conscious cognition possible, not a product of it.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> A sufficiently powerful computer could, in principle, solve the relevance problem by checking everything.</div>
+              <div><span class="label then">Then:</span> The combinatorial explosion makes exhaustive search not merely impractical but in principle impossible for any real-time agent — the relevant subset must emerge through self-organization, not search.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">Why does Vervaeke say that relevance realization cannot be explained by representations, computations, or a central executive — and what does this imply about where we should look for its mechanism?</div>
+          <div class="themes"><span class="theme-pill">each presupposes relevance</span><span class="theme-pill">homunculus fallacy</span><span class="theme-pill">non-circular grounding needed</span><span class="theme-pill">self-organizing dynamical systems</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-aspectuality-and-salience-tagging">
+      <span class="num">Module 2</span>
+      <h2>Aspectuality and Salience Tagging: How Relevance Is Structured</h2>
+      <p class="objective">Explain what aspectuality is and how enactive demonstrative reference (salience tagging) underlies all categorical cognition.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 29 · Getting to the Depths of Relevance Realization</div>
+            <div class="quote">&ldquo;a set of features that are relevant to each other and then a set of features that have been structurally functionally organised so that they have co-relevance, is then relevant to me. That's what an aspect is&rdquo;</div>
+            <div class="note">Definition of aspectuality: organized co-relevance</div>
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 29 · Getting to the Depths of Relevance Realization</div>
+            <div class="quote">&ldquo;I need demonstrative reference I need enactive demonstrative reference before I can do any categorisation. Look, if I'm going to categorize things I need to mentally group them together.&rdquo;</div>
+            <div class="note">Pre-categorical salience tagging is the condition for all categorization</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">When you look at a face and immediately see it as sad, are you first seeing a collection of features (downturned mouth, furrowed brow) and then inferring sadness, or is the sadness somehow immediate? What does your answer suggest about how relevance is structured?</div>
+            <div class="themes"><span class="theme-pill">gestalt prior to features</span><span class="theme-pill">aspectuality</span><span class="theme-pill">co-relevance</span><span class="theme-pill">perception not inference</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke says that before you can categorize something you must first 'point at' it — mark it as a here-now focus. Can you have a concept without first being able to enactively single out instances? What would concepts be without that?</div>
+            <div class="themes"><span class="theme-pill">demonstrative reference prior to concept</span><span class="theme-pill">indexical before categorical</span><span class="theme-pill">enaction grounding abstraction</span><span class="theme-pill">pre-linguistic salience</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">An aspect is described as a set of features organized so they have co-relevance. How does this explain why changing one feature of a situation (e.g., finding out a smile was sarcastic) can reorganize how all the other features seem?</div>
+            <div class="themes"><span class="theme-pill">gestalt reorganization</span><span class="theme-pill">co-relevance</span><span class="theme-pill">reframing</span><span class="theme-pill">insight as aspect shift</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">If relevance is always perspectival — always relative to an agent — does that mean it is purely subjective? Or is there a sense in which the relevance is real?</div>
+            <div class="themes"><span class="theme-pill">transjective not purely subjective</span><span class="theme-pill">real affordances</span><span class="theme-pill">organism-environment co-creation</span><span class="theme-pill">not arbitrary</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Relevance is a property of objects in the world, independent of any agent.</div>
+              <div><span class="label then">Then:</span> Relevance is transjective — it emerges in the co-created relationship between organism and environment, neither purely 'in' the world nor purely projected by the mind.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Aspectuality means we see representations of aspects, not aspects themselves.</div>
+              <div><span class="label then">Then:</span> Representations presuppose aspects — they foreground a subset of features as relevant but do not generate relevance from scratch. Aspectuality is a constraint on representations, not something produced by them.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">Why does Vervaeke say that any theory of relevance realization must explain relevance without presupposing relevance in its explanatory machinery — and how does enactive demonstrative reference attempt to satisfy that constraint?</div>
+          <div class="themes"><span class="theme-pill">non-circular explanation</span><span class="theme-pill">pre-categorical grounding</span><span class="theme-pill">enaction not representation</span><span class="theme-pill">homunculus fallacy avoided</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-autopoietic-and-self-organizing">
+      <span class="num">Module 3</span>
+      <h2>Auto-poetic Grounding and Scale-Invariant Self-Organization</h2>
+      <p class="objective">Explain why relevance realization must be grounded in constitutive goals internal to a self-organizing system, and why it must operate simultaneously at multiple levels.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 29 · Getting to the Depths of Relevance Realization</div>
+            <div class="quote">&ldquo;The goals that are the originating source of Relevance Realisation have to be internal to the Relevance Realisation process.&rdquo;</div>
+            <div class="note">Auto-poetic grounding: goals cannot be externally represented targets</div>
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 29 · Getting to the Depths of Relevance Realization</div>
+            <div class="quote">&ldquo;Relevance Realisation has to be happening at multiple levels of cognition in a simultaneous, self-organizing fashion. That's why it can lead to insight.&rdquo;</div>
+            <div class="note">Multi-level self-organization as both constraint and explanation for insight</div>
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 38 · Agape and 4E Cognitive Science</div>
+            <div class="quote">&ldquo;relevance realization is inherently interested in itself because, as I've argued, that's constitutive of it being a self-organizing, self-correcting, self-optimizing, self-developing, evolving process&rdquo;</div>
+            <div class="note">RR's reflexive self-interest as central to its nature</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">If a thermostat 'wants' to maintain 70 degrees only because a human set it, does it have genuine goals? What would it take for a system to have goals that are genuinely internal to it — not assigned from outside?</div>
+            <div class="themes"><span class="theme-pill">constitutive vs assigned goals</span><span class="theme-pill">auto-poiesis</span><span class="theme-pill">self-organization</span><span class="theme-pill">life vs mechanism</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Relevance realization happens at multiple levels simultaneously — from individual features up to holistic gestalt. Why might this multi-level, simultaneous operation be necessary for insight? Could insight happen if only one level were active at a time?</div>
+            <div class="themes"><span class="theme-pill">insight requires cross-level reorganization</span><span class="theme-pill">simultaneous processing</span><span class="theme-pill">gestalt shift</span><span class="theme-pill">why RR enables breakthrough</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke says relevance realization is 'inherently interested in itself.' What does it mean for a cognitive process to be self-interested — and why is this reflexivity constitutive of wisdom rather than narcissism?</div>
+            <div class="themes"><span class="theme-pill">reflexive self-monitoring</span><span class="theme-pill">self-correction</span><span class="theme-pill">wisdom as calibration</span><span class="theme-pill">higher-order relevance</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">If the goals driving relevance realization must be internal rather than externally imposed, what does this imply about whether a purely designed AI system could ever genuinely realize relevance in the same way a living organism does?</div>
+            <div class="themes"><span class="theme-pill">life vs AI</span><span class="theme-pill">constitutive vs programmed goals</span><span class="theme-pill">auto-poiesis requirement</span><span class="theme-pill">biological grounding</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Relevance realization is a single mechanism located in one brain region, like a relevance-filter.</div>
+              <div><span class="label then">Then:</span> Relevance realization operates self-organizingly at multiple levels simultaneously — it is a distributed, scale-invariant process with no single locus, which is precisely why it can produce insight through cross-level reorganization.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> The goals that drive relevance realization can be specified by an external designer or programmer.</div>
+              <div><span class="label then">Then:</span> For relevance realization to be non-circular, the originating goals must be constitutive — internal to the self-organizing living system — not represented targets assigned from outside.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">How do the constraints of auto-poetic grounding and scale-invariant self-organization together explain why relevance realization cannot be replicated by a standard computational system, and what kind of system would satisfy both constraints?</div>
+          <div class="themes"><span class="theme-pill">constitutive internal goals</span><span class="theme-pill">multi-level simultaneous operation</span><span class="theme-pill">living systems not programs</span><span class="theme-pill">dynamical self-organization</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-meaning-relevance-agency-triangle">
+      <span class="num">Module 4</span>
+      <h2>Meaning, Relevance, and Agency: The Constitutive Triangle</h2>
+      <p class="objective">Articulate how meaning, relevance, and agency form a mutually grounding triangle and why this connection explains why the meaning crisis is also a crisis of agency and relevance.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 28 · Convergence To Relevance Realization</div>
+            <div class="quote">&ldquo;what you're now doing is you're moving from a logical to a psychological account of similarity&rdquo;</div>
+            <div class="note">The shift from formal to psychological grounds for relevance</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">When something feels deeply meaningful, does it also feel highly relevant? And when nothing feels relevant — when you are deeply depressed or alienated — does meaning also collapse? What does this suggest about the connection between meaning and relevance?</div>
+            <div class="themes"><span class="theme-pill">meaning and relevance co-arise</span><span class="theme-pill">depression as relevance collapse</span><span class="theme-pill">constitutive not correlational</span><span class="theme-pill">meaning crisis as relevance crisis</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Agency — the sense that you are genuinely acting and making a difference — seems to require that your actions are relevant to outcomes you care about. Can you be a genuine agent in a world where nothing matters to you? What does this reveal?</div>
+            <div class="themes"><span class="theme-pill">agency requires relevance</span><span class="theme-pill">caring as condition for action</span><span class="theme-pill">meaning crisis as agency crisis</span><span class="theme-pill">motivational structure</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke says the connections among meaning, relevance, and agency are 'deep' — not merely correlational but constitutive. What would it mean for three things to be mutually constitutive rather than just correlated?</div>
+            <div class="themes"><span class="theme-pill">constitutive vs contingent</span><span class="theme-pill">mutually grounding</span><span class="theme-pill">each presupposes the others</span><span class="theme-pill">holistic interdependence</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">If meaning, relevance, and agency form a triangle that rises or falls together, what does this imply about how to address the meaning crisis? Is it enough to work on meaning directly, or must one also work on relevance and agency?</div>
+            <div class="themes"><span class="theme-pill">all three must be addressed</span><span class="theme-pill">ecology of practices</span><span class="theme-pill">no single fix</span><span class="theme-pill">relevance realization as foundation</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Meaning is a feeling or belief — something purely subjective that exists independently of relevance or action.</div>
+              <div><span class="label then">Then:</span> Vervaeke argues meaning, relevance, and agency are constitutively entangled: meaning is the sense of connectedness constitutive of relevance, and agency is the relational enactment of that connection — none of the three can be adequately described in isolation.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">In what sense does the meaning crisis represent a crisis of relevance realization — and what would it mean to address the meaning crisis at the level of relevance realization rather than at the level of new beliefs or propositions?</div>
+          <div class="themes"><span class="theme-pill">meaning crisis as RR failure</span><span class="theme-pill">relevance collapse in modern world</span><span class="theme-pill">practices not propositions</span><span class="theme-pill">transforming the process not the products</span></div>
+        </div>
+      </section>
+    </article>
+  
+</main>
+<div class="approve-bar">
+  <button class="btn">Request changes</button>
+  <button class="btn primary">Approve for shipping</button>
+</div>
+</body></html>

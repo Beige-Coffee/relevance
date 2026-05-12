@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mythos vs Logos — Mini-course Review</title>
+<style>
+  :root {
+    --bg: #faf7f1; --surface: #ffffff; --elev: #f2ede0;
+    --ink: #1c1a17; --ink-soft: #3a3530; --muted: #6b6660;
+    --border: #e0d9c8; --accent: #8b3a3a; --gold: #b8893c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14120e; --surface:#1c1916; --elev:#25211c;
+      --ink:#ece6d6; --ink-soft:#b8b1a1; --muted:#8a8378;
+      --border:#2e2922; --accent:#d28a7e; --gold:#d4a85a; }
+  }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Inter", system-ui, sans-serif;
+    background: var(--bg); color: var(--ink); margin: 0; line-height: 1.6;
+    -webkit-font-smoothing: antialiased; }
+  .serif { font-family: "EB Garamond", Georgia, serif; }
+  header { padding: 2rem 2.5rem 1rem; border-bottom: 1px solid var(--border); }
+  .back-link { color: var(--muted); font-size: 0.8rem; text-decoration: none; }
+  .back-link:hover { color: var(--accent); }
+  .meta { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin: 0.6rem 0 0.3rem; }
+  h1 { font-family: "EB Garamond", Georgia, serif; font-size: 2.6rem; margin: 0; letter-spacing: -0.01em; font-weight: 500; }
+  .abstract {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.1rem; line-height: 1.65;
+    color: var(--ink-soft); margin: 1rem 0; max-width: 60rem;
+  }
+  .prereqs { font-size: 0.85rem; color: var(--muted); margin-top: 0.6rem; }
+  .prereqs a { color: var(--accent); text-decoration: none; }
+  .prereqs a:hover { text-decoration: underline; }
+  main { max-width: 60rem; margin: 0 auto; padding: 2rem 2.5rem 5rem; }
+  .module {
+    border-top: 1px solid var(--border); padding-top: 2rem; margin-top: 3rem;
+  }
+  .module:first-child { border-top: none; padding-top: 0; margin-top: 0; }
+  .module .num {
+    font-family: ui-monospace, monospace; font-size: 0.78rem;
+    background: var(--gold); color: var(--bg); padding: 0.2rem 0.6rem;
+    border-radius: 99px; display: inline-block; margin-bottom: 0.6rem;
+  }
+  .module h2 {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.9rem; margin: 0;
+    letter-spacing: -0.01em; font-weight: 500; line-height: 1.15;
+  }
+  .module .objective {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic;
+    color: var(--ink-soft); margin: 0.5rem 0 1rem;
+  }
+  section { margin: 1.6rem 0; }
+  section h3 {
+    font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em;
+    color: var(--muted); margin: 0 0 0.6rem;
+  }
+  .passage {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--gold);
+    padding: 0.8rem 1rem; margin: 0.5rem 0; border-radius: 4px;
+  }
+  .passage .src {
+    font-family: ui-monospace, monospace; font-size: 0.72rem;
+    color: var(--accent); margin-bottom: 0.3rem;
+  }
+  .passage .quote {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic;
+    color: var(--ink); font-size: 1rem; line-height: 1.55;
+  }
+  .passage .note { font-size: 0.78rem; color: var(--muted); margin-top: 0.4rem; }
+  .seed {
+    padding: 0.5rem 0; border-left: 2px solid var(--gold); padding-left: 1rem; margin: 0.5rem 0;
+  }
+  .seed .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic; color: var(--ink);
+  }
+  .seed .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.3rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .theme-pill {
+    background: var(--elev); padding: 0.15rem 0.55rem; border-radius: 99px;
+  }
+  .misc {
+    background: var(--elev); padding: 0.7rem 1rem; margin: 0.5rem 0; border-radius: 6px;
+    font-size: 0.9rem;
+  }
+  .misc .label { font-weight: 500; }
+  .misc .label.if { color: var(--ink); }
+  .misc .label.then { color: var(--accent); }
+  .check {
+    background: var(--elev); border: 2px solid var(--gold); padding: 1rem 1.2rem;
+    border-radius: 8px; margin-top: 0.6rem;
+  }
+  .check .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic; font-size: 1.1rem; color: var(--ink);
+  }
+  .check .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.5rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .toc {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    padding: 1rem 1.4rem; margin: 1.5rem 0;
+  }
+  .toc h3 { margin: 0 0 0.4rem; }
+  .toc ol { margin: 0; padding-left: 1.4rem; }
+  .toc li { margin: 0.2rem 0; font-size: 0.92rem; }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+  .approve-bar {
+    position: sticky; bottom: 0;
+    background: var(--bg); border-top: 1px solid var(--border);
+    padding: 0.8rem 2.5rem;
+    display: flex; gap: 0.6rem; justify-content: flex-end;
+  }
+  .btn {
+    padding: 0.55rem 1.2rem; border-radius: 6px; font-size: 0.9rem;
+    border: 1px solid var(--border); background: var(--surface); color: var(--ink-soft);
+    cursor: pointer; font-family: inherit;
+  }
+  .btn.primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+  .btn:hover { transform: translateY(-1px); }
+</style>
+</head><body>
+<header>
+  <a class="back-link" href="index.html">← All course reviews</a>
+  <div class="meta">Mini-course · 2 modules</div>
+  <h1>Mythos vs Logos</h1>
+  <p class="abstract">After this course, students will be able to articulate what logos and mythos each contribute to human meaning-making, why their distinction is not the same as their opposition, and why the modern severance of logos from mythos — leaving rational discourse without existential transformative power, and symbolic-ritual practice without rational grounding — is a driving cause of the meaning crisis. Students will understand how the Gospel of John's 'In the beginning was the Logos' represents one ancient model of integration, and how Hegel later attempted a philosophical translation of mythos into logos. This concept bridges the series' historical thread (Plato, Stoics, Christianity) with its normative thread (religio, ritual, symbol), showing why neither scientific rationality alone nor unreflective mythology alone can address the meaning crisis.</p>
+  
+    <div class="prereqs">
+      Prerequisites:
+      <span>mythos</span>
+    </div>
+</header>
+<main>
+  <div class="toc">
+    <h3>Modules</h3>
+    <ol>
+      <li><a href="#m-logos-as-structural-intelligibility">Logos: Structural-Functional Intelligibility</a></li><li><a href="#m-severance-of-mythos-logos">The Modern Severance of Mythos and Logos</a></li>
+    </ol>
+  </div>
+  
+    <article class="module" id="m-logos-as-structural-intelligibility">
+      <span class="num">Module 1</span>
+      <h2>Logos: Structural-Functional Intelligibility</h2>
+      <p class="objective">Explain what logos means in Vervaeke's usage beyond 'word' or 'reason', and how it differs from mere propositional content.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 5 · Plato and the Cave</div>
+            <div class="quote">&ldquo;The Greeks have a good word for this (S-FO): the word &quot;logos&quot;, although a word that's being discussed a lot today. I think it needs to be discussed a little bit more carefully.&rdquo;</div>
+            <div class="note">Introduced in the context of structural-functional organisation — logos is the intelligible pattern that makes things make sense.</div>
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 20 · Death of the Universe</div>
+            <div class="quote">&ldquo;All of this was integrated together. These three orders that articulate the space of how we're connected to ourselves, to each other and to the world. The normal logical, the normative and the narrative&rdquo;</div>
+            <div class="note">The nomological, normative, and narrative orders as three dimensions of logos in the broader sense.</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke takes care to say logos 'needs to be discussed more carefully' than the way it typically appears in popular discourse. What do you think he means, and what inadequate meanings of 'logos' is he pushing against?</div>
+            <div class="themes"><span class="theme-pill">logos as more than spoken word</span><span class="theme-pill">logos as structural-functional pattern</span><span class="theme-pill">logos as formative principle not mere speech</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">The Gospel of John opens 'In the beginning was the Logos.' What is being claimed about reality when logos is identified with the creative principle behind all things?</div>
+            <div class="themes"><span class="theme-pill">reality is inherently intelligible</span><span class="theme-pill">creation structured by rational form</span><span class="theme-pill">logos bridges divine and cosmic order</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">How is logos different from mythos even though Vervaeke does not treat them as enemies? What complementary function does each perform?</div>
+            <div class="themes"><span class="theme-pill">logos articulates rationally</span><span class="theme-pill">mythos activates participatory transformation</span><span class="theme-pill">both needed for full meaning-making</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Logos simply means 'word' or 'speech' in Vervaeke's usage.</div>
+              <div><span class="label then">Then:</span> For Vervaeke following John and the Stoics, logos means the intelligible formative principle — the structural-functional organization — structuring reality, not merely spoken utterance.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">In what sense is logos already present in Aristotle's conformity theory of knowing — what connection does that theory have to the claim that logos is the intelligible pattern shared between mind and world?</div>
+          <div class="themes"><span class="theme-pill">knowing as conformity to structure</span><span class="theme-pill">mind takes on logos of things</span><span class="theme-pill">logos is the bridge making contact knowing possible</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-severance-of-mythos-logos">
+      <span class="num">Module 2</span>
+      <h2>The Modern Severance of Mythos and Logos</h2>
+      <p class="objective">Describe what happened when logos was severed from mythos in modernity, and how this severance contributes to the meaning crisis.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 16 · Christianity and Agape</div>
+            <div class="quote">&ldquo;Christianity is going to take up into itself the Stoicism we've already talked about. Paul quotes stoicism in the Bible.&rdquo;</div>
+            <div class="note">One pre-modern example of logos-mythos integration — Stoic rational theology absorbed into Christian narrative.</div>
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 20 · Death of the Universe</div>
+            <div class="quote">&ldquo;All of this was integrated together. These three orders that articulate the space of how we're connected to ourselves, to each other and to the world. The normal logical, the normative and the narrative&rdquo;</div>
+            <div class="note">The integrated system that the modern severance dismantled.</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke argues the problem is not the distinction between mythos and logos but their modern severance. What is the difference between distinguishing two things and severing them?</div>
+            <div class="themes"><span class="theme-pill">distinction allows complementarity</span><span class="theme-pill">severance removes mutual grounding</span><span class="theme-pill">logos loses existential relevance without mythos</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">What does logos look like when it operates without mythos — what kind of rationality does that produce, and what does it leave out?</div>
+            <div class="themes"><span class="theme-pill">technical-instrumental reason</span><span class="theme-pill">no existential guidance</span><span class="theme-pill">scientific worldview without meaning orientation</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">What does mythos look like when it operates without logos — what dangers does it run into?</div>
+            <div class="themes"><span class="theme-pill">irrationalism</span><span class="theme-pill">ungrounded symbolism</span><span class="theme-pill">susceptibility to manipulation and ideology</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Hegel attempted to translate mythos into logos through his philosophical system. In Vervaeke's view, what did Hegel gain and what did he lose in that translation?</div>
+            <div class="themes"><span class="theme-pill">gains rational comprehensibility</span><span class="theme-pill">loses participatory-ritual activation</span><span class="theme-pill">philosophical system cannot substitute for living practice</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Logos and mythos are natural enemies and must be kept separate for both to be healthy.</div>
+              <div><span class="label then">Then:</span> Vervaeke's diagnosis is the opposite: their severance is pathological. Logos without mythos loses transformative existential power; mythos without logos loses rational grounding. They are supposed to be mutually sustaining.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> The Enlightenment project of replacing mythology with reason is simply the triumph of logos.</div>
+              <div><span class="label then">Then:</span> For Vervaeke, the Enlightenment produced a truncated logos stripped of transformative existential relevance — a spirit of geometry without a spirit of finesse — not a triumph but a fragmentation.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">How would Vervaeke evaluate a community that had rich ritual and symbolic life but no critical rational reflection, and another community that had sophisticated scientific understanding but no ritual or mythic narrative? Which, if either, is closer to addressing the meaning crisis — and why?</div>
+          <div class="themes"><span class="theme-pill">both partial</span><span class="theme-pill">need integration not just balance</span><span class="theme-pill">meaning crisis requires logos and mythos working together</span></div>
+        </div>
+      </section>
+    </article>
+  
+</main>
+<div class="approve-bar">
+  <button class="btn">Request changes</button>
+  <button class="btn primary">Approve for shipping</button>
+</div>
+</body></html>

@@ -2,94 +2,87 @@
   "num": 21,
   "slug": "martin-luther-descartes",
   "title": "Martin Luther and Descartes",
-  "essence": "Luther and Descartes represent parallel but opposite responses to the crisis of meaning initiated by the scientific revolution. Luther, deeply influenced by Augustine and the Rhineland Mystics, internalizes the crisis through radical self-negation—faith becomes not participatory but a pure, arbitrary acceptance of grace divorced from reason or work. This severs spirituality from the intellectual life and plants seeds of cultural narcissism. Descartes responds by attempting to turn the mind itself into a machine of certainty through Cartesian graphing and mathematical analysis. Both figures withdraw meaning further into the isolated individual: Luther creates the 'priesthood of all believers' and kills the monastery as a psycho-technology of transformation, replacing it with the State; Descartes aims to bypass the world entirely through pure propositional certainty. Together they establish the grammar of the modern age: faith without reason, reason without meaning, and the individual conscience as final authority.",
+  "essence": "Episode 21 examines how Luther and Descartes each accelerate modernity's meaning crisis in complementary ways. Luther radicalizes Ockham's voluntarism and Eckhart's self-loathing into sola fide—salvation by faith alone—reducing faith from the Hebraic participatory Da'ath to mere propositional assent about Christ's substitutionary sacrifice. By simultaneously abolishing the monasteries he destroys sapiential culture: the communities of practice that had transmitted transformative psycho-technologies for cultivating wisdom and self-transcendence disappear overnight, leaving behind a world where knowledge is paired with political power rather than with wisdom. Descartes then attempts to rescue certainty in this destabilized world by inventing a new mathematical tool (Cartesian coordinates) and coupling it to a new philosophical method: systematic doubt, the cogito, and the isolation of the thinking self. His method privileges propositional knowing to such a degree that perspectival and participatory knowing are effectively expelled from legitimate cognition. The episode shows how these moves reinforce each other: Luther's sola fide reduces religious transformation to a propositional transaction, and Descartes's method makes propositional certainty the whole of knowledge, together constructing the modern trap of the disembodied, disconnected rational self.",
   "keyClaims": [
-    "Luther's interpretation of Paul and doctrine of sola fide—salvation by faith alone—teaches cultural narcissism by making humans worthless except for arbitrary, unearned divine regard.",
-    "The closing of monasteries and rise of the State as the source of transformation marks the transition from sapiential to political solutions to the meaning crisis.",
-    "Descartes' project to achieve certainty through mathematical method and computational mind is doomed from the start because it cannot address the lived, embodied nature of human existence.",
-    "The fragmentation of Protestantism into denominations driven by the 'narcissism of small differences' exemplifies how individualism in faith spirals into endless self-assertion.",
-    "The Protestant Work Ethic aligns perfectly with emerging capitalism, suggesting that economic systems now provide meaning where religion once did."
+    "Luther's sola fide collapses faith from participatory Da'ath—a lived reciprocal engagement with the divine—to the mere propositional assent to Christ's substitutionary sacrifice.",
+    "Luther's abolition of the monasteries destroys the institutional ecology of sapiential psycho-technologies: contemplative practice, wisdom transmission, and communities devoted to self-transcendence cease to exist as live options.",
+    "The knowledge-wisdom coupling that had characterized the ancient and medieval traditions is replaced by a knowledge-power coupling that defines modern political and scientific culture.",
+    "Descartes invents Cartesian coordinates as a mathematical tool, then extends the method of analytic geometry—breaking wholes into parts, seeking certain foundations—into a general epistemological program.",
+    "The Cartesian cogito isolates the self as pure thinking substance, making it the one unshakeable certainty and thereby severing the self from body, world, and other minds.",
+    "Together Luther and Descartes construct the modern epistemic trap: salvation and truth alike are reduced to propositional transactions, evacuating the perspectival and participatory dimensions of knowing."
   ],
   "concepts": [
     {
-      "name": "self-deception",
+      "id": "propositional-knowing",
       "treatment": "developed",
-      "summary": "Luther's account of the self as radically self-obsessed and self-defeating becomes central to understanding how we systematically deceive ourselves, requiring the scientific method as a psycho-technology to overcome."
+      "summary": "Both Luther's sola fide and Descartes's method elevate propositional knowing to supremacy: faith becomes propositional assent, knowledge becomes Cartesian certainty—excluding all other forms of knowing."
     },
     {
-      "name": "participatory knowing",
+      "id": "participatory-knowing",
+      "treatment": "developed",
+      "summary": "Luther's reduction of faith destroys participatory Da'ath; Descartes's method expels participatory knowing from legitimate epistemology, leaving the self stranded behind its own propositions."
+    },
+    {
+      "id": "psycho-technology",
+      "treatment": "developed",
+      "summary": "The monasteries are analyzed as the institutional ecology of transformative psycho-technologies; their abolition by Luther represents the mass destruction of the West's wisdom-cultivation infrastructure."
+    },
+    {
+      "id": "wisdom",
+      "treatment": "developed",
+      "summary": "The knowledge-wisdom pairing that organized medieval intellectual life is severed; in its place comes the knowledge-power pairing that defines modernity—wisdom becomes a private virtue rather than a public institution."
+    },
+    {
+      "id": "self-deception",
       "treatment": "referenced",
-      "summary": "Luther's reduction of faith to pure acceptance of propositions—divorced from participatory engagement in tradition, ritual, or community—marks the final loss of participatory knowing from spiritual life."
+      "summary": "Descartes's method of systematic doubt is presented as a psycho-technology for combating self-deception, but one that inadvertently amplifies the very disconnection it seeks to cure."
     },
     {
-      "name": "sapiential obsolescence",
-      "treatment": "introduced",
-      "summary": "The closing of monasteries as centers of wisdom cultivation leaves knowledge attached to the State and politics, creating a vacuum of institutional guidance for self-transcendence."
-    },
-    {
-      "name": "cartesian graphing",
-      "treatment": "introduced",
-      "summary": "Descartes' invention of coordinate systems and analytic geometry enables abstract mathematical representation divorced from sensory similarity, making computation the new model for mind."
-    },
-    {
-      "name": "consciousness",
-      "treatment": "introduced",
-      "summary": "Descartes' cogito ergo sum establishes consciousness—the mind touching itself—as the only certain contact with reality, deepening the isolation of mind from world initiated by Galileo."
+      "id": "narrative-order",
+      "treatment": "developed",
+      "summary": "Luther's transformation of faith from participatory engagement to propositional assent fundamentally disrupts the narrative order—the living sense of being on course in a cosmic story."
     }
   ],
   "people": [
     {
-      "name": "Martin Luther",
+      "id": "luther",
       "role": "subject",
-      "summary": "His doctrine of sola fide and attack on tradition radicalizes the isolation of the self while paradoxically training culture in narcissism through the promise of unearned positive regard."
+      "summary": "Central figure: his sola fide, his radical Augustinian self-loathing, and his abolition of the monasteries are analyzed as the decisive cultural events that destroy sapiential culture and reduce faith to propositional transaction."
     },
     {
-      "name": "René Descartes",
+      "id": "descartes",
       "role": "subject",
-      "summary": "His attempt to solve the meaning crisis through mathematical method and computational certainty provides an alternative to Luther's faith, but one equally divorced from embodied, participatory reality."
+      "summary": "Co-central figure: inventor of Cartesian coordinates and the method of systematic doubt, his philosophical project is the attempt to find certainty for the isolated rational self—completing the expulsion of perspectival and participatory knowing."
     },
     {
-      "name": "Erasmus",
-      "role": "discussed",
-      "summary": "His proposal of 'synergy' between human and divine effort in salvation is rejected by Luther, crystallizing the Lutheran rejection of participatory collaboration."
-    },
-    {
-      "name": "Blaise Pascal",
+      "id": "meister-eckhart",
       "role": "referenced",
-      "summary": "His recognition that the new cosmos is terrifying and that certainty cannot alleviate existential dread foreshadows the inadequacy of Descartes' response."
+      "summary": "Eckhart's descent spirituality and self-negation are identified as the cultural template that Luther radicalizes into sola fide and its attendant self-loathing."
     },
     {
-      "name": "Max Weber",
+      "id": "william-of-ockham",
       "role": "referenced",
-      "summary": "His analysis of the Protestant Work Ethic shows how Luther's doctrine of arbitrary salvation drives obsessive labor as an unconscious sign of election."
+      "summary": "Ockham's voluntarism and nominalism are the theological background Luther inherits and radicalizes, especially the emphasis on God's inscrutable will over rational order."
+    },
+    {
+      "id": "augustine",
+      "role": "referenced",
+      "summary": "Augustine's doctrine of original sin and radical grace is the tradition Luther amplifies into an extreme form, cutting off the Neoplatonic anagoge that Augustine himself had preserved."
     }
   ],
   "crossRefs": [
     {
       "episode": 20,
-      "context": "Luther and Descartes both respond to the cosmos-killing implications of Galileo's physics and the nominalist worldview."
+      "context": "Luther's trajectory directly follows from Eckhart's descent spirituality and Ockham's voluntarism analyzed in episode 20."
     },
     {
       "episode": 22,
-      "context": "Descartes' response to Hobbes clarifies the philosophical commitments underlying his attempt to preserve the soul against materialism."
+      "context": "Descartes's philosophical project is continued in episode 22 where he responds to Hobbes and the full mind-body dualism with its existential costs is examined."
     },
     {
       "episode": 25,
-      "context": "The fragmentation of Protestantism and rise of secular ideologies trace back to Luther's severing of individual conscience from tradition."
+      "context": "The knowledge-power pairing Luther inaugurates is revisited in episode 25's analysis of how cognitive science must avoid repeating the same mistake when responding to the meaning crisis."
     }
   ],
-  "quotableMoments": [
-    {
-      "quote": "What Love is… it's not that 'love moves the will', 'love is a way in which the will moves'. That's an important change! It's not that love moves the will. It's that the way the will moves, Is love!",
-      "context": "Luther's reinterpretation of love as the negation of the self rather than its elevation, making self-sacrifice central to spirituality in a way that paradoxically deepens self-obsession."
-    },
-    {
-      "quote": "This is the cultural training for narcissism. Narcissism is to be trapped, to be self obsessed, within self-loathing, and that what you want to alleviate is unearned positive regard.",
-      "context": "Vervaeke identifies how Luther's theology of arbitrary grace and radical human depravity becomes the grammar of modern narcissism."
-    },
-    {
-      "quote": "You! Alone! By yourself!!! You have to bear it all. While simultaneously being told you don't have the resources or the capacity within you to do it.",
-      "context": "The existential isolation produced by both Luther's severance from tradition and Descartes' methodological doubt."
-    }
-  ]
+  "quotableMoments": []
 }

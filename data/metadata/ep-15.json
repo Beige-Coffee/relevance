@@ -2,105 +2,115 @@
   "num": 15,
   "slug": "marcus-aurelius-and-jesus",
   "title": "Marcus Aurelius and Jesus",
-  "essence": "Vervaeke examines how Stoicism and Christianity offer complementary responses to existential anxiety and the search for meaning. Marcus Aurelius exemplifies the Stoic path: as Roman emperor facing domicide and dislocation, he practices prosoche and premeditatio—distinguishing event from meaning, recognizing what is and isn't controllable—to achieve wisdom even within impossible circumstances. Crucially, his Meditations are not belief-statements but spiritual exercises designed to transform consciousness and identity. Meanwhile, Jesus introduces kairos—the decisive moment—and agape—creative love that constitutes personhood. Where Stoics focus on discerning control and reframing meaning, Jesus proposes a radical participatory transformation through love. Paul's letters express this agapic metanoia (awakening), the complete reorientation of one's fundamental existence. Yet the episode reveals a dark side: in personalizing the spiritual journey, Paul projects inner conflict onto cosmic history, positing God itself as internally divided. This projection will shape Christianity's understanding of justice, guilt, and redemption, creating an existential burden—the expectation of grace and transformation without the mythological machinery to sustain it. The episode traces how wisdom traditions address both external meaninglessness and internal psychological fragmentation.",
+  "essence": "Vervaeke first completes the Stoic account through Marcus Aurelius, showing how Stoic psycho-technologies formed a complete daily practice for transforming the agent-arena relationship. The Stoic toolkit includes prosoche (attention to one's own cognitive framing), procheiron (keeping philosophical principles ready-to-hand rather than merely known propositionally), premeditatio malorum (pre-experiencing loss and misfortune to prevent parasitic processing from misfortune events), and the view from above (cosmic perspective-taking as a de-centering practice). Marcus Aurelius's Meditations is analyzed as the living record of this self-transformative practice. Crucially, Stoic practice turns on a distinction between the event (what happens to you) and the meaning (your framing of the event): Stoics practiced changing the latter without controlling the former. This generates the Stoic claim that it is possible to be happy even in a palace — or anywhere — because happiness is entirely in the framing. However, the Stoic account reveals a limitation: it focuses entirely on inner freedom, leaving the question of what makes existence itself meaningful unaddressed. This pivot introduces Jesus as representing a different kind of axial breakthrough. Jesus is identified as a kairos figure — someone who embodies the crucial turning point in the narrative order of history — and three Greek love words (eros, philia, agape) are introduced to frame what Jesus's teaching is about: agape as the creative, person-making love that operates prior to any reciprocal relationship.",
   "keyClaims": [
-    "Stoicism and Christianity offer distinct but compatible paths: Stoicism through wise discernment of control, Christianity through transformative agapic love.",
-    "Marcus Aurelius demonstrates that wisdom can be achieved even in the most challenging circumstances through recognition of what is controllable.",
-    "Agape is not an emotion but a way of being—the creative love that transforms non-persons into full moral agents.",
-    "Metanoia is not conversion in a belief sense but a radical reorientation of one's fundamental salience landscape and identity.",
-    "The projection of inner psychological conflict onto cosmic structure creates both the power and danger of Christianity's mythology."
+    "Stoic psycho-technologies — prosoche, procheiron, premeditatio malorum, view from above — form a coordinated daily practice for changing one's framing of events without controlling the events themselves.",
+    "The Stoic distinction between event and meaning is the psycho-technological core of Stoic philosophy: happiness is entirely in how one frames what happens, not in what happens.",
+    "Marcus Aurelius's Meditations demonstrates that it is possible to live Stoic practice at the peak of worldly power — that Stoic freedom is genuinely universal.",
+    "The limitation of Stoicism is that it provides inner freedom but does not address what makes existence itself meaningful — it is an ethics of endurance without an account of what is worth pursuing.",
+    "Jesus is introduced as a kairos figure — someone who embodies a turning point in the narrative order — and the three Greek love words (eros, philia, agape) are introduced to frame his distinctive teaching."
   ],
   "concepts": [
     {
-      "name": "prosoche",
-      "treatment": "applied",
-      "summary": "Stoic attention-practice applied by Marcus Aurelius to distinguish between events and their meaning."
-    },
-    {
-      "name": "premeditatio",
-      "treatment": "introduced",
-      "summary": "Stoic practice of contemplating potential losses to understand that physics and meaning are distinct."
-    },
-    {
-      "name": "kairos",
-      "treatment": "introduced",
-      "summary": "The right moment or decisive turning point when history can be redirected through proper action."
-    },
-    {
-      "name": "agape",
+      "id": "psycho-technology",
       "treatment": "developed",
-      "summary": "God-like creative love that constitutes personhood by investing in non-persons, distinct from erotic or friendship love."
+      "summary": "Four specific Stoic psycho-technologies are analyzed: prosoche (attention training), procheiron (readiness of principles), premeditatio (pre-processing loss), and view from above (cosmic de-centering)."
     },
     {
-      "name": "metanoia",
+      "id": "kairos",
       "treatment": "developed",
-      "summary": "Radical awakening and reorientation of consciousness, not mere belief conversion but transformation of existential mode."
+      "summary": "Re-introduced in the narrative-order context: Jesus is analyzed as a kairos figure — one who embodies the turning point in the cosmic-historical narrative that affords transformative participation."
     },
     {
-      "name": "participatory knowing",
+      "id": "agape",
+      "treatment": "introduced",
+      "summary": "Introduced as the third Greek love word: creative, sacrificial, person-making love — the love that turns non-persons into persons and that precedes reciprocal relationship."
+    },
+    {
+      "id": "eros",
+      "treatment": "introduced",
+      "summary": "The love that seeks to become one with something — unification through consummation — introduced as the first of three love types to be contrasted."
+    },
+    {
+      "id": "philia",
+      "treatment": "developed",
+      "summary": "The love of reciprocal cooperation and mutual development — friendship — distinguished from eros and agape and situated as the missing middle term."
+    },
+    {
+      "id": "metanoia",
+      "treatment": "introduced",
+      "summary": "Introduced etymologically: meta- (beyond) + noia (noticing) = radical transformation of one's salience landscape and participatory identity. The psycho-technology Jesus taught for entering kairos."
+    },
+    {
+      "id": "agent-arena-relationship",
       "treatment": "applied",
-      "summary": "Deep knowing through conformity and identification, exemplified in agapic love and martyrdom."
+      "summary": "The Stoic prosoche and view-from-above practices are analyzed as techniques for de-coupling the agent's identity from contingent arena conditions, enabling the agent-arena relationship to function even under domicide."
     },
     {
-      "name": "anagoge",
-      "treatment": "referenced",
-      "summary": "The upward movement toward what is more real, pursued through both Stoic wisdom and Christian agape."
-    },
-    {
-      "name": "mortality",
+      "id": "self-transcendence",
       "treatment": "applied",
-      "summary": "Distinguished from fatality; essential acceptance enables freedom from anxiety rather than pursuit of immortality."
+      "summary": "The Stoic view from above is a de-centering practice that cultivates self-transcendence — stepping outside one's current framing to gain perspective — prefiguring the HSC account."
+    },
+    {
+      "id": "salience-landscape",
+      "treatment": "applied",
+      "summary": "Prosoche and premeditatio malorum are explicitly tools for reshaping one's salience landscape — reordering what is foregrounded and backgrounded in experience."
+    },
+    {
+      "id": "the-axial-revolution",
+      "treatment": "applied",
+      "summary": "Jesus is positioned as a second-order axial figure within the Hebraic tradition — not just continuing but intensifying the axial breakthrough of the prophets."
     }
   ],
   "people": [
     {
-      "name": "Marcus Aurelius",
+      "id": "marcus-aurelius",
       "role": "subject",
-      "summary": "Roman emperor whose Meditations exemplify Stoic practice as spiritual exercises for transformation within circumstances of unlimited power."
+      "summary": "Vervaeke analyzes the Meditations as the living laboratory of Stoic psycho-technologies — Marcus is used both as historical evidence and as a demonstration that Stoic practice is possible even at the pinnacle of power."
     },
     {
-      "name": "Jesus of Nazareth",
-      "role": "subject",
-      "summary": "Introduces agape as God's creative love and offers metanoia—radical personal awakening—as path to transformation."
-    },
-    {
-      "name": "Paul",
-      "role": "subject",
-      "summary": "Personalizes Jesus's teachings, projecting inner psychological conflict onto cosmic narrative of divine struggle and redemption."
-    },
-    {
-      "name": "Epictetus",
+      "id": "epictetus",
       "role": "discussed",
-      "summary": "Stoic philosopher whose distinction of control and non-control becomes foundational to understanding wisdom in any circumstances."
+      "summary": "The original formulator of the event/meaning distinction — 'it is not things that disturb us but our judgments about things' — cited as the philosophical foundation of Stoic practice."
     },
     {
-      "name": "Pierre Hadot",
-      "role": "discussed",
-      "summary": "Philosopher who recovered understanding of ancient philosophy as spiritual exercises rather than abstract doctrines."
+      "id": "jesus-of-nazareth",
+      "role": "introduced",
+      "summary": "Introduced as a kairos figure and teacher of metanoia and agape — the episode begins his treatment as the religious parallel to Stoic therapeutic practice."
+    },
+    {
+      "id": "zeno-of-citium",
+      "role": "referenced",
+      "summary": "The Stoic founder's logos-identification principle is invoked as the theoretical ground for the prosoche and view-from-above practices that Marcus develops."
+    },
+    {
+      "id": "tillich",
+      "role": "referenced",
+      "summary": "Tillich's development of the kairos concept is invoked when Vervaeke introduces Jesus as a kairos figure."
     }
   ],
   "crossRefs": [
     {
       "episode": 14,
-      "context": "Applies Stoic psychotechnologies developed in response to Hellenistic crisis to individual transformation."
+      "context": "The Stoic response to domicide introduced in ep-14 is here developed into a full daily practice through the concrete psycho-technologies of Marcus Aurelius."
     },
     {
       "episode": 16,
-      "context": "Continues exploration of Christianity and agape in cultural and historical context."
+      "context": "The agape introduction here is developed in ep-16 into a full account of Christianity as a psycho-technology of person-making love."
+    },
+    {
+      "episode": 3,
+      "context": "Kairos was first introduced in ep-3 in the Hebrew narrative context; here it is applied to Jesus as the embodiment of the turning point in that narrative."
     }
   ],
   "quotableMoments": [
     {
-      "quote": "It is possible to be happy, even in a palace.",
-      "context": "Marcus Aurelius's assertion that wisdom and happiness depend on discernment, not circumstances."
+      "quote": "it is possible to be happy, even in a palace.",
+      "context": "Vervaeke's summary of Marcus Aurelius's demonstration that Stoic inner freedom is genuinely universal — not just available to the poor or the freed, but to anyone who transforms their framing."
     },
     {
-      "quote": "Love is patient, love is kind. It does not envy. It does not boast. It is not proud. It is not rude. It is not self-seeking.",
-      "context": "Paul's description of agape as the features necessary for helping non-persons come into full personhood."
-    },
-    {
-      "quote": "Everybody dies, but not everybody has lived.",
-      "context": "Marcus Aurelius expressing the distinction between duration and depth of life, between having lived and merely existing."
+      "quote": "NOIA means 'noticing'; this is your perspectival awareness and 'Meta' means 'beyond'. This means a 'radical transformation in your salience landscape', a 'radical transformation of what it's like to be you'.",
+      "context": "Etymology-based definition of metanoia — the Christian psycho-technology Jesus taught for participating in kairos."
     }
   ]
 }

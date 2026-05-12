@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>Awakening Atlas — Validation Report</title>
+<style>
+  :root {
+    --bg: #faf7f1; --surface: #ffffff; --elev: #f2ede0;
+    --ink: #1c1a17; --ink-soft: #3a3530; --muted: #6b6660;
+    --border: #e0d9c8; --accent: #8b3a3a; --gold: #b8893c;
+    --green: #4a7c3f; --red: #b13838; --amber: #c08a2c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14120e; --surface:#1c1916; --elev:#25211c;
+      --ink:#ece6d6; --ink-soft:#b8b1a1; --muted:#8a8378;
+      --border:#2e2922; --accent:#d28a7e; --gold:#d4a85a; }
+  }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Inter", system-ui, sans-serif;
+    background: var(--bg); color: var(--ink); margin: 0; line-height: 1.55; }
+  .serif { font-family: "EB Garamond", Georgia, serif; }
+  header { padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); }
+  h1 { font-family: "EB Garamond", Georgia, serif; font-size: 1.7rem; margin: 0; }
+  .totals { display: flex; gap: 1.5rem; margin-top: 0.6rem; }
+  .totals .stat { font-size: 0.9rem; color: var(--muted); }
+  .totals .stat strong { font-size: 1.4rem; color: var(--ink); display: block; }
+  .totals .stat.error strong { color: var(--red); }
+  .totals .stat.warning strong { color: var(--amber); }
+  .totals .stat.ok strong { color: var(--green); }
+  main { padding: 1.5rem 2rem 4rem; max-width: 1200px; margin: 0 auto; }
+  .category { margin: 2rem 0; }
+  .category h2 {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.3rem;
+    border-bottom: 1px solid var(--border); padding-bottom: 0.4rem;
+    margin: 0 0 0.6rem; display: flex; align-items: baseline; gap: 0.6rem;
+  }
+  .category h2 .count {
+    font-family: ui-monospace, monospace; font-size: 0.75rem;
+    background: var(--elev); padding: 0.1rem 0.5rem; border-radius: 99px;
+    color: var(--muted); font-weight: normal;
+  }
+  .issue {
+    padding: 0.6rem 0.8rem; border-left: 3px solid var(--border);
+    margin: 0.4rem 0; background: var(--surface); border-radius: 4px;
+  }
+  .issue.error { border-left-color: var(--red); }
+  .issue.warning { border-left-color: var(--amber); }
+  .issue .where { font-family: ui-monospace, monospace; font-size: 0.78rem; color: var(--muted); }
+  .issue .msg { color: var(--ink); margin: 0.2rem 0; font-size: 0.92rem; }
+  .issue .detail {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic;
+    color: var(--ink-soft); font-size: 0.9rem; padding: 0.3rem 0.6rem;
+    border-left: 2px solid var(--gold); background: var(--elev);
+    margin-top: 0.3rem; border-radius: 2px;
+  }
+  .all-clear {
+    padding: 3rem 2rem; text-align: center; background: var(--surface);
+    border: 1px solid var(--green); border-radius: 8px; margin-top: 2rem;
+  }
+  .all-clear h2 { font-family: "EB Garamond", Georgia, serif; color: var(--green); margin: 0; }
+  details summary {
+    cursor: pointer; color: var(--muted); font-size: 0.85rem; margin: 0.3rem 0;
+  }
+  details summary:hover { color: var(--ink); }
+  .timestamp { font-size: 0.78rem; color: var(--muted); margin-top: 0.3rem; }
+</style></head>
+<body>
+<header>
+  <h1>Validation Report</h1>
+  <div class="totals">
+    <div class="stat ok"><strong>0</strong>errors</div>
+    <div class="stat warning"><strong>5</strong>warnings</div>
+    <div class="stat"><strong>105</strong>concepts checked</div>
+    <div class="stat"><strong>94</strong>people checked</div>
+    <div class="stat"><strong>51</strong>episodes checked</div>
+  </div>
+  <div class="timestamp">Generated 2026-05-12T05:47:11.317Z</div>
+</header>
+<main>
+
+        <section class="category">
+          <h2>Quote not verbatim <span class="count">5</span></h2>
+          
+      <div class="issue warning">
+        <div class="where">ep-11 quotableMoments[0]</div>
+        <div class="msg">quote not found in transcript</div>
+        <div class="detail">"reliably what is characteristic of these states is that people find them to be really real and and in both directions: Arena and Agent.…"</div>
+      </div>
+    
+      <div class="issue warning">
+        <div class="where">ep-12 quotableMoments[0]</div>
+        <div class="msg">quote not found in transcript</div>
+        <div class="detail">"an altered state of consciousness is not a... It's not an insight in consciousness it's an insight of consciousness.…"</div>
+      </div>
+    
+      <div class="issue warning">
+        <div class="where">ep-19 quotableMoments[0]</div>
+        <div class="msg">quote not found in transcript</div>
+        <div class="detail">"All of this was integrated together. These three orders that articulate the space of how we're connected to ourselves, to each other and to the world. The normal logical, the normative and the narrati…"</div>
+      </div>
+    
+      <div class="issue warning">
+        <div class="where">ep-40 quotableMoments[0]</div>
+        <div class="msg">quote not found in transcript</div>
+        <div class="detail">"Rationality means any systematically reliable internalized psychotechnology that reliably and systematically affords you overcoming self-deception and affords you cultivating enhanced connectedness, e…"</div>
+      </div>
+    
+      <div class="issue warning">
+        <div class="where">course wisdom.modules[3].expositionPassages[2]</div>
+        <div class="msg">phrase not found in ep 45</div>
+        <div class="detail">"aspiration also probably has an affective component to it. And I suggested that wonder — and we saw how central wonder is to the cultivation of wisdom — that wonder is the affective state that's most …"</div>
+      </div>
+    
+        </section>
+      
+</main>
+</body></html>

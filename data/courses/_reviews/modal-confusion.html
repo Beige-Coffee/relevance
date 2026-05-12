@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Modal Confusion — Mini-course Review</title>
+<style>
+  :root {
+    --bg: #faf7f1; --surface: #ffffff; --elev: #f2ede0;
+    --ink: #1c1a17; --ink-soft: #3a3530; --muted: #6b6660;
+    --border: #e0d9c8; --accent: #8b3a3a; --gold: #b8893c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14120e; --surface:#1c1916; --elev:#25211c;
+      --ink:#ece6d6; --ink-soft:#b8b1a1; --muted:#8a8378;
+      --border:#2e2922; --accent:#d28a7e; --gold:#d4a85a; }
+  }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Inter", system-ui, sans-serif;
+    background: var(--bg); color: var(--ink); margin: 0; line-height: 1.6;
+    -webkit-font-smoothing: antialiased; }
+  .serif { font-family: "EB Garamond", Georgia, serif; }
+  header { padding: 2rem 2.5rem 1rem; border-bottom: 1px solid var(--border); }
+  .back-link { color: var(--muted); font-size: 0.8rem; text-decoration: none; }
+  .back-link:hover { color: var(--accent); }
+  .meta { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin: 0.6rem 0 0.3rem; }
+  h1 { font-family: "EB Garamond", Georgia, serif; font-size: 2.6rem; margin: 0; letter-spacing: -0.01em; font-weight: 500; }
+  .abstract {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.1rem; line-height: 1.65;
+    color: var(--ink-soft); margin: 1rem 0; max-width: 60rem;
+  }
+  .prereqs { font-size: 0.85rem; color: var(--muted); margin-top: 0.6rem; }
+  .prereqs a { color: var(--accent); text-decoration: none; }
+  .prereqs a:hover { text-decoration: underline; }
+  main { max-width: 60rem; margin: 0 auto; padding: 2rem 2.5rem 5rem; }
+  .module {
+    border-top: 1px solid var(--border); padding-top: 2rem; margin-top: 3rem;
+  }
+  .module:first-child { border-top: none; padding-top: 0; margin-top: 0; }
+  .module .num {
+    font-family: ui-monospace, monospace; font-size: 0.78rem;
+    background: var(--gold); color: var(--bg); padding: 0.2rem 0.6rem;
+    border-radius: 99px; display: inline-block; margin-bottom: 0.6rem;
+  }
+  .module h2 {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.9rem; margin: 0;
+    letter-spacing: -0.01em; font-weight: 500; line-height: 1.15;
+  }
+  .module .objective {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic;
+    color: var(--ink-soft); margin: 0.5rem 0 1rem;
+  }
+  section { margin: 1.6rem 0; }
+  section h3 {
+    font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em;
+    color: var(--muted); margin: 0 0 0.6rem;
+  }
+  .passage {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--gold);
+    padding: 0.8rem 1rem; margin: 0.5rem 0; border-radius: 4px;
+  }
+  .passage .src {
+    font-family: ui-monospace, monospace; font-size: 0.72rem;
+    color: var(--accent); margin-bottom: 0.3rem;
+  }
+  .passage .quote {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic;
+    color: var(--ink); font-size: 1rem; line-height: 1.55;
+  }
+  .passage .note { font-size: 0.78rem; color: var(--muted); margin-top: 0.4rem; }
+  .seed {
+    padding: 0.5rem 0; border-left: 2px solid var(--gold); padding-left: 1rem; margin: 0.5rem 0;
+  }
+  .seed .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic; color: var(--ink);
+  }
+  .seed .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.3rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .theme-pill {
+    background: var(--elev); padding: 0.15rem 0.55rem; border-radius: 99px;
+  }
+  .misc {
+    background: var(--elev); padding: 0.7rem 1rem; margin: 0.5rem 0; border-radius: 6px;
+    font-size: 0.9rem;
+  }
+  .misc .label { font-weight: 500; }
+  .misc .label.if { color: var(--ink); }
+  .misc .label.then { color: var(--accent); }
+  .check {
+    background: var(--elev); border: 2px solid var(--gold); padding: 1rem 1.2rem;
+    border-radius: 8px; margin-top: 0.6rem;
+  }
+  .check .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic; font-size: 1.1rem; color: var(--ink);
+  }
+  .check .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.5rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .toc {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    padding: 1rem 1.4rem; margin: 1.5rem 0;
+  }
+  .toc h3 { margin: 0 0 0.4rem; }
+  .toc ol { margin: 0; padding-left: 1.4rem; }
+  .toc li { margin: 0.2rem 0; font-size: 0.92rem; }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+  .approve-bar {
+    position: sticky; bottom: 0;
+    background: var(--bg); border-top: 1px solid var(--border);
+    padding: 0.8rem 2.5rem;
+    display: flex; gap: 0.6rem; justify-content: flex-end;
+  }
+  .btn {
+    padding: 0.55rem 1.2rem; border-radius: 6px; font-size: 0.9rem;
+    border: 1px solid var(--border); background: var(--surface); color: var(--ink-soft);
+    cursor: pointer; font-family: inherit;
+  }
+  .btn.primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+  .btn:hover { transform: translateY(-1px); }
+</style>
+</head><body>
+<header>
+  <a class="back-link" href="index.html">← All course reviews</a>
+  <div class="meta">Mini-course · 2 modules</div>
+  <h1>Modal Confusion</h1>
+  <p class="abstract">After this course, students will be able to articulate why Erich Fromm's distinction between having-needs and being-needs reveals a structural fault-line in modern consumer culture, and why attempting to satisfy being-mode needs through having-mode strategies generates a self-compounding spiral of frustration — what Vervaeke calls modal confusion. Students will understand how the palace myth in the Siddhartha story enacts, not just describes, this confusion, and how mindfulness (sati) is presented as a counteractive response. This concept sits at the intersection of the series' existential and cognitive-science threads: it connects Aristotle's agent-arena coupling to Buddhist diagnosis to the contemporary therapeutic interest in modes of engagement rather than accumulation of beliefs. Understanding modal confusion is essential for grasping why parasitic processing is so tenacious.</p>
+  
+    <div class="prereqs">
+      Prerequisites:
+      <span>having-mode-being-mode</span>
+    </div>
+</header>
+<main>
+  <div class="toc">
+    <h3>Modules</h3>
+    <ol>
+      <li><a href="#m-having-mode-vs-being-mode">Having-Mode vs Being-Mode: Two Kinds of Need</a></li><li><a href="#m-modal-confusion-as-self-compounding-spiral">The Spiral of Modal Confusion</a></li>
+    </ol>
+  </div>
+  
+    <article class="module" id="m-having-mode-vs-being-mode">
+      <span class="num">Module 1</span>
+      <h2>Having-Mode vs Being-Mode: Two Kinds of Need</h2>
+      <p class="objective">Distinguish having-needs from being-needs and explain why each requires a different existential orientation.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 7 · Aristotle's World View and Erich Fromm</div>
+            <div class="quote">&ldquo;Fromm's point is we get mixed up. We try to satisfy our being needs within the having mode. We suffer from 'Modal Confusion'.&rdquo;</div>
+            <div class="note">Core definition; introduced via the Siddhartha-and-the-palace narrative.</div>
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 7 · Aristotle's World View and Erich Fromm</div>
+            <div class="quote">&ldquo;This process by which you are co-identifying agency and arena so that they fit together and make sense of each other and you get a coherent and functioning world view... That's your existential mode.&rdquo;</div>
+            <div class="note">Grounding the having/being distinction in the agent-arena structure.</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke describes two fundamentally different kinds of human needs. What do you think is the key difference between a need that is met by having something versus a need that is met by becoming something?</div>
+            <div class="themes"><span class="theme-pill">acquisition vs development</span><span class="theme-pill">categorical vs expressive relating</span><span class="theme-pill">I-it vs I-thou</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">In Episode 7, Vervaeke uses the example of love versus sex to illustrate the having/being distinction. What does that contrast reveal about the nature of being-mode needs?</div>
+            <div class="themes"><span class="theme-pill">love as mutual development</span><span class="theme-pill">sex as consumable object</span><span class="theme-pill">being-mode resists replacement</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">How does the 'palace' in the Siddhartha story serve as a myth — in Vervaeke's technical sense — rather than merely a historical setting?</div>
+            <div class="themes"><span class="theme-pill">palace as perennial existential symbol</span><span class="theme-pill">myth activates lived pattern</span><span class="theme-pill">palace represents having-mode totality</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke says the market world profits from modal confusion. What cognitive mechanism makes this confusion so easy to induce?</div>
+            <div class="themes"><span class="theme-pill">salience exceeds understanding</span><span class="theme-pill">advertising substitutes symbol for need</span><span class="theme-pill">short-term availability heuristic</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> The having mode is inherently bad or selfish.</div>
+              <div><span class="label then">Then:</span> Vervaeke is explicit: the having mode is not wrong — you need water, food, shelter. The problem arises only when being-mode needs are pursued through having-mode strategies.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Modal confusion is just about materialism or greed.</div>
+              <div><span class="label then">Then:</span> Modal confusion is a structural existential misalignment, not a moral failing. It can occur in entirely non-material domains, including pursuing meaningful relationships through control and manipulation.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">Imagine someone who is deeply lonely and responds by buying more clothes, seeking more social-media followers, and filling their schedule with activities. How would Vervaeke diagnose what is happening, and why does more having fail to resolve it?</div>
+          <div class="themes"><span class="theme-pill">loneliness as being-mode need</span><span class="theme-pill">having strategies cannot satisfy developmental need</span><span class="theme-pill">spiral of frustrated acquisition</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-modal-confusion-as-self-compounding-spiral">
+      <span class="num">Module 2</span>
+      <h2>The Spiral of Modal Confusion</h2>
+      <p class="objective">Explain how modal confusion self-compounds and why straightforward willpower or belief-change cannot break it.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 38 · Agape and 4E Cognitive Science</div>
+            <div class="quote">&ldquo;We can address modal confusion by the cultivation of Sati.&rdquo;</div>
+            <div class="note">Vervaeke's summary response — sati (mindfulness) as the counteractive practice.</div>
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 7 · Aristotle's World View and Erich Fromm</div>
+            <div class="quote">&ldquo;Fromm's point is we get mixed up. We try to satisfy our being needs within the having mode. We suffer from 'Modal Confusion'.&rdquo;</div>
+            <div class="note">The self-reinforcing character: the more you pursue, the less satisfied, the more you pursue.</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke says that the more a market culture can induce modal confusion in you, the more it can sell to you. What does this suggest about the relationship between modal confusion and self-perpetuating behavior?</div>
+            <div class="themes"><span class="theme-pill">frustrated having increases craving</span><span class="theme-pill">modal confusion feeds consumption loop</span><span class="theme-pill">systemic rather than personal failure</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Why would simply telling someone 'you have modal confusion' not resolve it? What kind of intervention does Vervaeke suggest is needed?</div>
+            <div class="themes"><span class="theme-pill">propositional insight insufficient</span><span class="theme-pill">need for being-mode practice</span><span class="theme-pill">sati as transformative cultivation</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">How does the Buddhist concept of sati (mindfulness) address modal confusion at the right level? What is it attending to that mere intellectual awareness does not?</div>
+            <div class="themes"><span class="theme-pill">attending to mode of engagement not content</span><span class="theme-pill">recovering being-mode orientation</span><span class="theme-pill">second-order attention to how one attends</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke connects modal confusion to parasitic processing. What is the relationship — how does modal confusion feed self-deceptive spirals?</div>
+            <div class="themes"><span class="theme-pill">misfit between need and strategy generates frustration</span><span class="theme-pill">frustration activates confirmation bias</span><span class="theme-pill">spiral becomes self-organizing</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Modal confusion is a cognitive error you can fix by understanding it intellectually.</div>
+              <div><span class="label then">Then:</span> Vervaeke's point is that modal confusion is an existential misalignment between mode and need — it operates at the level of participatory and perspectival knowing, not propositional belief, so it requires practice-based cultivation to address.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">In what sense is modal confusion a 'perennial' rather than merely modern problem, and what does that tell us about where the remedy must be located?</div>
+          <div class="themes"><span class="theme-pill">structural feature of human cognition</span><span class="theme-pill">present in palace myth across cultures</span><span class="theme-pill">remedy must be existential not informational</span></div>
+        </div>
+      </section>
+    </article>
+  
+</main>
+<div class="approve-bar">
+  <button class="btn">Request changes</button>
+  <button class="btn primary">Approve for shipping</button>
+</div>
+</body></html>

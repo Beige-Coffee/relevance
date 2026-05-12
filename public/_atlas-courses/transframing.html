@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Transframing — Mini-course Review</title>
+<style>
+  :root {
+    --bg: #faf7f1; --surface: #ffffff; --elev: #f2ede0;
+    --ink: #1c1a17; --ink-soft: #3a3530; --muted: #6b6660;
+    --border: #e0d9c8; --accent: #8b3a3a; --gold: #b8893c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14120e; --surface:#1c1916; --elev:#25211c;
+      --ink:#ece6d6; --ink-soft:#b8b1a1; --muted:#8a8378;
+      --border:#2e2922; --accent:#d28a7e; --gold:#d4a85a; }
+  }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Inter", system-ui, sans-serif;
+    background: var(--bg); color: var(--ink); margin: 0; line-height: 1.6;
+    -webkit-font-smoothing: antialiased; }
+  .serif { font-family: "EB Garamond", Georgia, serif; }
+  header { padding: 2rem 2.5rem 1rem; border-bottom: 1px solid var(--border); }
+  .back-link { color: var(--muted); font-size: 0.8rem; text-decoration: none; }
+  .back-link:hover { color: var(--accent); }
+  .meta { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin: 0.6rem 0 0.3rem; }
+  h1 { font-family: "EB Garamond", Georgia, serif; font-size: 2.6rem; margin: 0; letter-spacing: -0.01em; font-weight: 500; }
+  .abstract {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.1rem; line-height: 1.65;
+    color: var(--ink-soft); margin: 1rem 0; max-width: 60rem;
+  }
+  .prereqs { font-size: 0.85rem; color: var(--muted); margin-top: 0.6rem; }
+  .prereqs a { color: var(--accent); text-decoration: none; }
+  .prereqs a:hover { text-decoration: underline; }
+  main { max-width: 60rem; margin: 0 auto; padding: 2rem 2.5rem 5rem; }
+  .module {
+    border-top: 1px solid var(--border); padding-top: 2rem; margin-top: 3rem;
+  }
+  .module:first-child { border-top: none; padding-top: 0; margin-top: 0; }
+  .module .num {
+    font-family: ui-monospace, monospace; font-size: 0.78rem;
+    background: var(--gold); color: var(--bg); padding: 0.2rem 0.6rem;
+    border-radius: 99px; display: inline-block; margin-bottom: 0.6rem;
+  }
+  .module h2 {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.9rem; margin: 0;
+    letter-spacing: -0.01em; font-weight: 500; line-height: 1.15;
+  }
+  .module .objective {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic;
+    color: var(--ink-soft); margin: 0.5rem 0 1rem;
+  }
+  section { margin: 1.6rem 0; }
+  section h3 {
+    font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em;
+    color: var(--muted); margin: 0 0 0.6rem;
+  }
+  .passage {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--gold);
+    padding: 0.8rem 1rem; margin: 0.5rem 0; border-radius: 4px;
+  }
+  .passage .src {
+    font-family: ui-monospace, monospace; font-size: 0.72rem;
+    color: var(--accent); margin-bottom: 0.3rem;
+  }
+  .passage .quote {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic;
+    color: var(--ink); font-size: 1rem; line-height: 1.55;
+  }
+  .passage .note { font-size: 0.78rem; color: var(--muted); margin-top: 0.4rem; }
+  .seed {
+    padding: 0.5rem 0; border-left: 2px solid var(--gold); padding-left: 1rem; margin: 0.5rem 0;
+  }
+  .seed .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic; color: var(--ink);
+  }
+  .seed .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.3rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .theme-pill {
+    background: var(--elev); padding: 0.15rem 0.55rem; border-radius: 99px;
+  }
+  .misc {
+    background: var(--elev); padding: 0.7rem 1rem; margin: 0.5rem 0; border-radius: 6px;
+    font-size: 0.9rem;
+  }
+  .misc .label { font-weight: 500; }
+  .misc .label.if { color: var(--ink); }
+  .misc .label.then { color: var(--accent); }
+  .check {
+    background: var(--elev); border: 2px solid var(--gold); padding: 1rem 1.2rem;
+    border-radius: 8px; margin-top: 0.6rem;
+  }
+  .check .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic; font-size: 1.1rem; color: var(--ink);
+  }
+  .check .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.5rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .toc {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    padding: 1rem 1.4rem; margin: 1.5rem 0;
+  }
+  .toc h3 { margin: 0 0 0.4rem; }
+  .toc ol { margin: 0; padding-left: 1.4rem; }
+  .toc li { margin: 0.2rem 0; font-size: 0.92rem; }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+  .approve-bar {
+    position: sticky; bottom: 0;
+    background: var(--bg); border-top: 1px solid var(--border);
+    padding: 0.8rem 2.5rem;
+    display: flex; gap: 0.6rem; justify-content: flex-end;
+  }
+  .btn {
+    padding: 0.55rem 1.2rem; border-radius: 6px; font-size: 0.9rem;
+    border: 1px solid var(--border); background: var(--surface); color: var(--ink-soft);
+    cursor: pointer; font-family: inherit;
+  }
+  .btn.primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+  .btn:hover { transform: translateY(-1px); }
+</style>
+</head><body>
+<header>
+  <a class="back-link" href="index.html">← All course reviews</a>
+  <div class="meta">Mini-course · 3 modules</div>
+  <h1>Transframing</h1>
+  <p class="abstract">Transframing is Vervaeke's coinage for a bi-directional, participatory transformation that simultaneously reframes how one sees the world and reframes how one sees oneself — a systematic restructuring of the whole framing process, not merely the reframing of a particular problem. Ordinary insight reframes a problem within a given perspective; transframing transforms the perspective-making capacity itself. Iris Murdoch's mother-in-law example is canonical: she does not merely see her daughter-in-law differently but becomes a different kind of seer in the process. Transframing is the cognitive signature of wisdom and of genuine sacred symbolic engagement. Students will learn to distinguish transframing from reframing, understand the conditions that necessitate it (existential stupefaction), and grasp how gnosis, ritual, and serious play are its primary vehicles. This concept is central to Vervaeke's account of how awakening from the meaning crisis is not just intellectual but existential.</p>
+  
+    <div class="prereqs">
+      Prerequisites:
+      <a href="the-four-kinds-of-knowing.html">The Four Kinds of Knowing</a>, <a href="the-meaning-crisis.html">The Meaning Crisis</a>
+    </div>
+</header>
+<main>
+  <div class="toc">
+    <h3>Modules</h3>
+    <ol>
+      <li><a href="#m-transframing-vs-reframing">Transframing vs. Reframing</a></li><li><a href="#m-existential-stupefaction">Existential Stupefaction: When Transframing Is Needed</a></li><li><a href="#m-gnosis-as-transframing-context">Gnosis, Ritual, and Serious Play as Transframing Vehicles</a></li>
+    </ol>
+  </div>
+  
+    <article class="module" id="m-transframing-vs-reframing">
+      <span class="num">Module 1</span>
+      <h2>Transframing vs. Reframing</h2>
+      <p class="objective">Distinguish transframing (transformation of the whole framing process) from ordinary reframing (finding a new perspective on an existing problem), using Vervaeke's canonical formulation.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 17 · Gnosis and Existential Inertia</div>
+            <div class="quote">&ldquo;It's not a reframing of a particular problem. It's a transformation of the whole framing process: Both ends.&rdquo;</div>
+            
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 40 · Wisdom and Rationality</div>
+            <div class="quote">&ldquo;it not only is reframing the problem. It is transforming my competence so it is a transframing insight. It is a systematic insight.&rdquo;</div>
+            
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 17 · Gnosis and Existential Inertia</div>
+            <div class="quote">&ldquo;she's not only reframing how she sees the world, she's reframing how she sees herself and these are happening in a completely interfused manner. This is a Participatory Change.&rdquo;</div>
+            
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">What is the difference between finding a clever new angle on a problem (reframing) and having your whole way of framing problems transformed (transframing)? Can you think of a real-life example of each?</div>
+            <div class="themes"><span class="theme-pill">reframing operates within existing frame</span><span class="theme-pill">transframing transforms the frame-making capacity</span><span class="theme-pill">wisdom involves the latter not just the former</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke says the Murdoch mother-in-law transframes because both how she sees her daughter-in-law and how she sees herself change together. Why must both ends change for it to be a genuine transframing?</div>
+            <div class="themes"><span class="theme-pill">participatory change — agent and arena both shift</span><span class="theme-pill">sensibility transcendence</span><span class="theme-pill">not just a new perspective but a new perspectiver</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke describes a 'transframing insight' as one that transforms competence not just content. What would it mean for wisdom to involve systematically upgrading competence for transframing?</div>
+            <div class="themes"><span class="theme-pill">wisdom as developmental not informational</span><span class="theme-pill">wisdom cultivates the capacity for transframing</span><span class="theme-pill">systematic insight vs. one-off insight</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Transframing is just a more dramatic version of reframing — seeing a problem from a very different angle.</div>
+              <div><span class="label then">Then:</span> Transframing is not a change of perspective on an existing problem but a transformation of the capacity that generates perspectives itself; the 'both ends' formulation marks this as a different kind of change.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">Someone undergoes therapy and now sees their childhood trauma differently — they have reframed it as formative rather than ruinous. Is this a reframing or a transframing? What additional change would be needed to make it a transframing?</div>
+          <div class="themes"><span class="theme-pill">reframing if only the view changes</span><span class="theme-pill">transframing if both the view and the viewer change</span><span class="theme-pill">participatory change needed</span><span class="theme-pill">sensibility transcendence as the criterion</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-existential-stupefaction">
+      <span class="num">Module 2</span>
+      <h2>Existential Stupefaction: When Transframing Is Needed</h2>
+      <p class="objective">Define existential stupefaction and existential stuckness as the conditions that necessitate transframing, and explain why propositional argument cannot resolve them.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 17 · Gnosis and Existential Inertia</div>
+            <div class="quote">&ldquo;They're stuck and they're stupefied. And when we're stuck and we're stupefied when we're stuck, we can't imagine how to make an alternative worldview significant. How to make it viable when we're stupefied. We can't imagine the alternative.&rdquo;</div>
+            
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 17 · Gnosis and Existential Inertia</div>
+            <div class="quote">&ldquo;you don't know what it is like cause that's the core of you don't know what your salience landscape will be like when you eat this fruit until you have eaten the fruit.&rdquo;</div>
+            
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 17 · Gnosis and Existential Inertia</div>
+            <div class="quote">&ldquo;I don't know what I'm going to lose if I become a vampire. I don't know what I'm going to lose. Once I go through this change, I will have lost a way of being.&rdquo;</div>
+            
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke distinguishes being 'stuck' from being 'stupefied.' What is the difference, and why do both together produce existential entrapment?</div>
+            <div class="themes"><span class="theme-pill">stuck: can't make alternative worldview significant</span><span class="theme-pill">stupefied: can't imagine the alternative</span><span class="theme-pill">together: full paralysis — no motivation and no imagination</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Why can't rational argument help a person who is existentially stuck? What is missing that argument cannot supply?</div>
+            <div class="themes"><span class="theme-pill">need perspectival and participatory taste of alternative</span><span class="theme-pill">propositional argument operates within the existing frame</span><span class="theme-pill">gnosis and serious play as ways to get around the stuck-and-stupefied impasse</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">L.A. Paul's vampire example shows you can't know what you'll lose or gain from a transformative experience until you've gone through it. How does this create a genuine rational impasse that goes beyond ordinary uncertainty?</div>
+            <div class="themes"><span class="theme-pill">transformative experience changes the very standard of evaluation</span><span class="theme-pill">decision theory cannot work across the gap</span><span class="theme-pill">aspiration and gnosis rather than inference</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> People who are stuck just need better information or stronger motivation to change.</div>
+              <div><span class="label then">Then:</span> Existential entrapment is not an information or motivation deficit; it is a cognitive-existential paralysis in which the agent cannot imaginatively inhabit an alternative worldview from within the current one.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Transframing is just making up your mind to change — a matter of will.</div>
+              <div><span class="label then">Then:</span> Transframing cannot be achieved by willpower because it is a participatory transformation that requires the structural conditions of gnosis — it is not a decision but an undergoing.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">A friend is trapped in an unhealthy relationship and cannot imagine life without their partner, even though they know it is harmful. You give them excellent arguments for why they should leave. Why might this fail — and what would Vervaeke's framework suggest instead?</div>
+          <div class="themes"><span class="theme-pill">existential entrapment is participatory not propositional</span><span class="theme-pill">argument operates within the existing frame</span><span class="theme-pill">gnosis serious play ritual needed to get a perspectival taste</span><span class="theme-pill">transformation not information required</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-gnosis-as-transframing-context">
+      <span class="num">Module 3</span>
+      <h2>Gnosis, Ritual, and Serious Play as Transframing Vehicles</h2>
+      <p class="objective">Explain how gnosis (psycho-technologies of ritual and serious play) creates the conditions for transframing by enabling enactive analogy and enactive anagoge.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 17 · Gnosis and Existential Inertia</div>
+            <div class="quote">&ldquo;Gnosis is to have a set of psychotechnologies that create a ritual context like Jeepform, like martial arts, like therapy that allows us to overcome being existentially stuck, existentially stupefied.&rdquo;</div>
+            
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 17 · Gnosis and Existential Inertia</div>
+            <div class="quote">&ldquo;ritual properly understood is people are playing serious play in order to try and put themselves into a liminal place, a place between two worlds, the normal world and the sacred world.&rdquo;</div>
+            
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 18 · Plotinus and Neoplatonism</div>
+            <div class="quote">&ldquo;That enacted ritual should also afford anagoge. It should afford the transframing, the reciprocal anagogic process by which self and world are transformed such that we can go through the sensibility transcendence&rdquo;</div>
+            
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Why does Vervaeke include therapy, martial arts, and role-playing games (Jeepform) in the same category as religious ritual — what do they have in common that makes them all vehicles for transframing?</div>
+            <div class="themes"><span class="theme-pill">serious play in liminal space</span><span class="theme-pill">enactive analogy</span><span class="theme-pill">practicing the transition between worlds</span><span class="theme-pill">all are psycho-technologies for overcoming stuck-and-stupefied</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Ritual is described as 'serious play in a liminal place between two worlds.' What makes it 'serious' as opposed to mere play? And what is the function of the liminal position?</div>
+            <div class="themes"><span class="theme-pill">serious: genuine aspiration to transformation</span><span class="theme-pill">play: not yet committed to new world</span><span class="theme-pill">liminal: can compare and experience both without fully committing</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">If gnosis creates the context for transframing, and transframing is the cognitive signature of wisdom, what does this suggest about the relationship between wisdom and transformative practice?</div>
+            <div class="themes"><span class="theme-pill">wisdom requires gnosis not just knowledge</span><span class="theme-pill">ecology of practices not just correct beliefs</span><span class="theme-pill">transframing is ongoing not a one-time event</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke says transframing is not a single dramatic event but an ongoing developmental process. What does wisdom development look like as an ongoing cultivation of the capacity for transframing?</div>
+            <div class="themes"><span class="theme-pill">anagoge as ongoing reciprocal realization</span><span class="theme-pill">wisdom is dynamical system not fixed state</span><span class="theme-pill">aspiration as incremental transframing</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Religious ritual is fundamentally different from modern practices like therapy or martial arts.</div>
+              <div><span class="label then">Then:</span> Vervaeke argues that therapy, Tai Chi, martial arts, and role-playing games like Jeepform all constitute serious play in the technical sense — they are ritual by another name, functioning as psycho-technologies for transframing.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Transframing is a one-time breakthrough event — once you transframe, you are done.</div>
+              <div><span class="label then">Then:</span> The systematic transframing of wisdom is an ongoing developmental process of expanding competence, not a single dramatic event; wisdom cultivates the capacity for transframing, not a permanent final transformation.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">How does understanding transframing help explain why the meaning crisis cannot be addressed by giving people better information about the world, but requires something more like an ecology of transformative practices?</div>
+          <div class="themes"><span class="theme-pill">meaning crisis is participatory not propositional</span><span class="theme-pill">transframing requires gnosis not argument</span><span class="theme-pill">ecology of practices is the structural response</span><span class="theme-pill">information alone cannot transform framing capacity</span></div>
+        </div>
+      </section>
+    </article>
+  
+</main>
+<div class="approve-bar">
+  <button class="btn">Request changes</button>
+  <button class="btn primary">Approve for shipping</button>
+</div>
+</body></html>

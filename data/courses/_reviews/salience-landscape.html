@@ -1,0 +1,328 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Salience Landscape — Mini-course Review</title>
+<style>
+  :root {
+    --bg: #faf7f1; --surface: #ffffff; --elev: #f2ede0;
+    --ink: #1c1a17; --ink-soft: #3a3530; --muted: #6b6660;
+    --border: #e0d9c8; --accent: #8b3a3a; --gold: #b8893c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14120e; --surface:#1c1916; --elev:#25211c;
+      --ink:#ece6d6; --ink-soft:#b8b1a1; --muted:#8a8378;
+      --border:#2e2922; --accent:#d28a7e; --gold:#d4a85a; }
+  }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Inter", system-ui, sans-serif;
+    background: var(--bg); color: var(--ink); margin: 0; line-height: 1.6;
+    -webkit-font-smoothing: antialiased; }
+  .serif { font-family: "EB Garamond", Georgia, serif; }
+  header { padding: 2rem 2.5rem 1rem; border-bottom: 1px solid var(--border); }
+  .back-link { color: var(--muted); font-size: 0.8rem; text-decoration: none; }
+  .back-link:hover { color: var(--accent); }
+  .meta { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin: 0.6rem 0 0.3rem; }
+  h1 { font-family: "EB Garamond", Georgia, serif; font-size: 2.6rem; margin: 0; letter-spacing: -0.01em; font-weight: 500; }
+  .abstract {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.1rem; line-height: 1.65;
+    color: var(--ink-soft); margin: 1rem 0; max-width: 60rem;
+  }
+  .prereqs { font-size: 0.85rem; color: var(--muted); margin-top: 0.6rem; }
+  .prereqs a { color: var(--accent); text-decoration: none; }
+  .prereqs a:hover { text-decoration: underline; }
+  main { max-width: 60rem; margin: 0 auto; padding: 2rem 2.5rem 5rem; }
+  .module {
+    border-top: 1px solid var(--border); padding-top: 2rem; margin-top: 3rem;
+  }
+  .module:first-child { border-top: none; padding-top: 0; margin-top: 0; }
+  .module .num {
+    font-family: ui-monospace, monospace; font-size: 0.78rem;
+    background: var(--gold); color: var(--bg); padding: 0.2rem 0.6rem;
+    border-radius: 99px; display: inline-block; margin-bottom: 0.6rem;
+  }
+  .module h2 {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.9rem; margin: 0;
+    letter-spacing: -0.01em; font-weight: 500; line-height: 1.15;
+  }
+  .module .objective {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic;
+    color: var(--ink-soft); margin: 0.5rem 0 1rem;
+  }
+  section { margin: 1.6rem 0; }
+  section h3 {
+    font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em;
+    color: var(--muted); margin: 0 0 0.6rem;
+  }
+  .passage {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--gold);
+    padding: 0.8rem 1rem; margin: 0.5rem 0; border-radius: 4px;
+  }
+  .passage .src {
+    font-family: ui-monospace, monospace; font-size: 0.72rem;
+    color: var(--accent); margin-bottom: 0.3rem;
+  }
+  .passage .quote {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic;
+    color: var(--ink); font-size: 1rem; line-height: 1.55;
+  }
+  .passage .note { font-size: 0.78rem; color: var(--muted); margin-top: 0.4rem; }
+  .seed {
+    padding: 0.5rem 0; border-left: 2px solid var(--gold); padding-left: 1rem; margin: 0.5rem 0;
+  }
+  .seed .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic; color: var(--ink);
+  }
+  .seed .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.3rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .theme-pill {
+    background: var(--elev); padding: 0.15rem 0.55rem; border-radius: 99px;
+  }
+  .misc {
+    background: var(--elev); padding: 0.7rem 1rem; margin: 0.5rem 0; border-radius: 6px;
+    font-size: 0.9rem;
+  }
+  .misc .label { font-weight: 500; }
+  .misc .label.if { color: var(--ink); }
+  .misc .label.then { color: var(--accent); }
+  .check {
+    background: var(--elev); border: 2px solid var(--gold); padding: 1rem 1.2rem;
+    border-radius: 8px; margin-top: 0.6rem;
+  }
+  .check .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic; font-size: 1.1rem; color: var(--ink);
+  }
+  .check .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.5rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .toc {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    padding: 1rem 1.4rem; margin: 1.5rem 0;
+  }
+  .toc h3 { margin: 0 0 0.4rem; }
+  .toc ol { margin: 0; padding-left: 1.4rem; }
+  .toc li { margin: 0.2rem 0; font-size: 0.92rem; }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+  .approve-bar {
+    position: sticky; bottom: 0;
+    background: var(--bg); border-top: 1px solid var(--border);
+    padding: 0.8rem 2.5rem;
+    display: flex; gap: 0.6rem; justify-content: flex-end;
+  }
+  .btn {
+    padding: 0.55rem 1.2rem; border-radius: 6px; font-size: 0.9rem;
+    border: 1px solid var(--border); background: var(--surface); color: var(--ink-soft);
+    cursor: pointer; font-family: inherit;
+  }
+  .btn.primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+  .btn:hover { transform: translateY(-1px); }
+</style>
+</head><body>
+<header>
+  <a class="back-link" href="index.html">← All course reviews</a>
+  <div class="meta">Mini-course · 3 modules</div>
+  <h1>Salience Landscape</h1>
+  <p class="abstract">This course develops Vervaeke's concept of the salience landscape — the dynamically structured field of standing-out and standing-back that consciousness produces through featurization, foregrounding, configuration, and framing. Students will be able to explain how the salience landscape operates as a pre-reflective topography that shapes what enters deliberate cognition, articulate why it is neither a spotlight nor a passive mirror, and connect optimal grip to the agent-arena relationship. In the series arc, the salience landscape is the phenomenological counterpart to relevance realization: where relevance realization names the sub-representational process, the salience landscape names the structured experiential terrain it generates — the field within which wisdom, self-deception, and transformation become possible.</p>
+  
+    <div class="prereqs">
+      Prerequisites:
+      <a href="relevance-realization.html">Relevance Realization</a>
+    </div>
+</header>
+<main>
+  <div class="toc">
+    <h3>Modules</h3>
+    <ol>
+      <li><a href="#m-foregrounding-backgrounding">Consciousness as Topographer: Foregrounding and Backgrounding</a></li><li><a href="#m-salience-tagging">Salience Tagging: The Pre-Categorical Mark of Here-Now</a></li><li><a href="#m-optimal-grip">Optimal Grip: Calibrating the Salience Landscape</a></li>
+    </ol>
+  </div>
+  
+    <article class="module" id="m-foregrounding-backgrounding">
+      <span class="num">Module 1</span>
+      <h2>Consciousness as Topographer: Foregrounding and Backgrounding</h2>
+      <p class="objective">Explain what the salience landscape is and how consciousness operates as a dynamic topographer that foregrounds some features while backgrounding others.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 10 · Consciousness</div>
+            <div class="quote">&ldquo;Part of what's happening, part of what consciousness is doing, is it's creating a salience landscape for me.&rdquo;</div>
+            <div class="note">The foundational claim: consciousness produces a salience landscape</div>
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 8 · The Buddha and Mindfulness</div>
+            <div class="quote">&ldquo;attention isn't a spotlight. It's a very complex optimisation process.&rdquo;</div>
+            <div class="note">The key correction of the spotlight metaphor</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Right now, in this moment, many things are technically available to your senses — the feeling of your clothes, the ambient sounds, peripheral visual information. Why are most of these not 'standing out' to you, even though they are present? Who or what determined what stands out?</div>
+            <div class="themes"><span class="theme-pill">pre-reflective salience selection</span><span class="theme-pill">consciousness as topographer not passive recorder</span><span class="theme-pill">relevance realization prior to attention</span><span class="theme-pill">what foregrounds and what recedes</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">The spotlight metaphor of attention suggests a single beam moving across a uniform background. Why is this wrong — what does attention actually do that a spotlight cannot do?</div>
+            <div class="themes"><span class="theme-pill">attention as optimization not spotlight</span><span class="theme-pill">dynamic topology not uniform field</span><span class="theme-pill">multiple gradients of salience</span><span class="theme-pill">optimization across multiple features</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">When you enter a room you have never been in before versus a familiar room, what is different about what stands out? What does this tell us about how the salience landscape is shaped?</div>
+            <div class="themes"><span class="theme-pill">novelty and salience</span><span class="theme-pill">expert backgrounding vs novice foregrounding</span><span class="theme-pill">experience shapes landscape</span><span class="theme-pill">trained vs untrained perception</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">The salience landscape is described as 'dynamic' — it shifts as the agent-arena relationship evolves. Can you think of a time when a situation suddenly looked completely different because one element changed? What had shifted in your salience landscape?</div>
+            <div class="themes"><span class="theme-pill">gestalt shift</span><span class="theme-pill">reframing</span><span class="theme-pill">landscape change with new information</span><span class="theme-pill">aspect seeing vs feature seeing</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> The salience landscape is a fixed spotlight of attention that the agent controls voluntarily.</div>
+              <div><span class="label then">Then:</span> The salience landscape is a dynamic topography that shifts as the agent-arena relationship evolves; it operates pre-reflectively and shapes what enters reflective cognition, making it prior to voluntary attention rather than a product of it.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Salience is purely subjective preference — whatever someone personally cares about becomes salient.</div>
+              <div><span class="label then">Then:</span> Salience tracks real affordances in the environment co-created by organism and world; it is transjective — neither purely in the world nor purely projected by the mind, but co-arising in their dynamic relationship.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">In what sense does the salience landscape both enable and constrain cognition — and why does understanding it as a pre-reflective topography matter for addressing the meaning crisis?</div>
+          <div class="themes"><span class="theme-pill">landscape enables and constrains</span><span class="theme-pill">pre-reflective shaping of thought</span><span class="theme-pill">meaning crisis as salience landscape failure</span><span class="theme-pill">working at right level</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-salience-tagging">
+      <span class="num">Module 2</span>
+      <h2>Salience Tagging: The Pre-Categorical Mark of Here-Now</h2>
+      <p class="objective">Explain what salience tagging is and why the pre-categorical act of marking a here-now locus underlies all subsequent categorization and conceptual thought.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Before you can recognize something as a 'cup' you must first pick it out from its background as the thing you are attending to. What is that initial act of picking out — and could it itself be explained in terms of concepts or categories?</div>
+            <div class="themes"><span class="theme-pill">demonstrative reference prior to concept</span><span class="theme-pill">indexical acts</span><span class="theme-pill">picking out before categorizing</span><span class="theme-pill">pre-conceptual salience</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Salience tagging is described as making 'here-nowness' salient — marking the locus of present experience. What does it mean to be here, now, attending to this? Is that something you can do with words, or does it require something more basic?</div>
+            <div class="themes"><span class="theme-pill">indexical vs categorical</span><span class="theme-pill">present-moment grounding</span><span class="theme-pill">pre-linguistic salience</span><span class="theme-pill">pointing vs naming</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">If salience tagging is the foundation of all categorization, could a system that only operates on categories — only on general concepts applied to input — ever genuinely engage with particulars? What would be missing?</div>
+            <div class="themes"><span class="theme-pill">particulars prior to universals</span><span class="theme-pill">indexical grounding</span><span class="theme-pill">AI and salience</span><span class="theme-pill">embodied reference</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">How does salience tagging connect to Vervaeke's claim that relevance realization cannot be explained by representations? If salience tagging is pre-categorical, is it also pre-representational?</div>
+            <div class="themes"><span class="theme-pill">pre-representational grounding</span><span class="theme-pill">non-circular explanation</span><span class="theme-pill">salience tagging as enaction</span><span class="theme-pill">foundations of representation</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Salience tagging is a higher-level cognitive act that happens after perception.</div>
+              <div><span class="label then">Then:</span> Salience tagging is the pre-categorical, pre-conceptual act that makes perception of objects possible at all — it is the condition for categorization, not its product.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">Why is salience tagging described as 'enactive' rather than 'representational' — and why does this matter for understanding how relevance realization can be non-circular?</div>
+          <div class="themes"><span class="theme-pill">enaction vs representation</span><span class="theme-pill">non-circular grounding</span><span class="theme-pill">pre-categorical</span><span class="theme-pill">body-world coupling</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-optimal-grip">
+      <span class="num">Module 3</span>
+      <h2>Optimal Grip: Calibrating the Salience Landscape</h2>
+      <p class="objective">Explain what optimal grip is and how the dynamic adjustment of the salience landscape to achieve optimal grip connects to the agent-arena relationship and to the practice of wisdom.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 10 · Consciousness</div>
+            <div class="quote">&ldquo;I'm taking my salience landscape and I'm using it to get an optimal grip on things. Not maximal. And 'grip' is meant here as a metaphor.&rdquo;</div>
+            <div class="note">Optimal grip: neither too distant nor too close, neither too abstract nor too detailed</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">When you're reading, you don't focus on every individual letter, nor do you stand back so far that you can't see the words. You find an optimal level of grain. Why 'optimal' and not 'maximal' — why is maximum detail not always best?</div>
+            <div class="themes"><span class="theme-pill">optimal vs maximal</span><span class="theme-pill">grain of perception</span><span class="theme-pill">task-relative salience</span><span class="theme-pill">overdetail as disorienting</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">In a conversation, sometimes you need to track the exact words someone says, and sometimes you need to track the overall emotional tone. How do you shift between these levels of grip — and what happens when you get the level wrong?</div>
+            <div class="themes"><span class="theme-pill">level-shifting in attention</span><span class="theme-pill">wrong grain causes misunderstanding</span><span class="theme-pill">dynamic grip adjustment</span><span class="theme-pill">agent-arena fit</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Wisdom has often been described as knowing what matters in a situation and how much it matters. How does the concept of optimal grip connect to this characterization of wisdom?</div>
+            <div class="themes"><span class="theme-pill">wisdom as optimal salience</span><span class="theme-pill">appropriate grain</span><span class="theme-pill">situational calibration</span><span class="theme-pill">wisdom not rules</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Self-deception often involves having a salience landscape that is systematically distorted — some things loom too large, others are invisible. What would it take to recalibrate a distorted salience landscape? Can propositions do it?</div>
+            <div class="themes"><span class="theme-pill">self-deception as salience distortion</span><span class="theme-pill">recalibration through practice</span><span class="theme-pill">propositions insufficient</span><span class="theme-pill">transformative practices</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> The salience landscape is not reducible to explicit beliefs about what matters; it operates pre-reflectively.</div>
+              <div><span class="label then">Then:</span> This is correct — but the implication is often missed: recalibrating a distorted salience landscape (as in self-deception or addiction) requires practices that operate at the sub-propositional level of the landscape itself, not merely new explicit beliefs.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">How does the concept of optimal grip illuminate what wisdom practices are trying to achieve — and why must they target the salience landscape at a level below explicit belief?</div>
+          <div class="themes"><span class="theme-pill">wisdom targets salience landscape</span><span class="theme-pill">below belief level</span><span class="theme-pill">optimal grip as wisdom aim</span><span class="theme-pill">practices as calibration not information</span></div>
+        </div>
+      </section>
+    </article>
+  
+</main>
+<div class="approve-bar">
+  <button class="btn">Request changes</button>
+  <button class="btn primary">Approve for shipping</button>
+</div>
+</body></html>

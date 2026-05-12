@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>Course reviews — Awakening Atlas</title>
+<style>
+  :root {
+    --bg: #faf7f1; --surface: #ffffff; --elev: #f2ede0;
+    --ink: #1c1a17; --ink-soft: #3a3530; --muted: #6b6660;
+    --border: #e0d9c8; --accent: #8b3a3a; --gold: #b8893c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14120e; --surface:#1c1916; --elev:#25211c;
+      --ink:#ece6d6; --ink-soft:#b8b1a1; --muted:#8a8378;
+      --border:#2e2922; --accent:#d28a7e; --gold:#d4a85a; }
+  }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Inter", system-ui, sans-serif;
+    background: var(--bg); color: var(--ink); margin: 0; line-height: 1.6;
+    -webkit-font-smoothing: antialiased; }
+  .serif { font-family: "EB Garamond", Georgia, serif; }
+  header { padding: 2rem 2.5rem 1rem; border-bottom: 1px solid var(--border); }
+  .back-link { color: var(--muted); font-size: 0.8rem; text-decoration: none; }
+  .back-link:hover { color: var(--accent); }
+  .meta { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin: 0.6rem 0 0.3rem; }
+  h1 { font-family: "EB Garamond", Georgia, serif; font-size: 2.6rem; margin: 0; letter-spacing: -0.01em; font-weight: 500; }
+  .abstract {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.1rem; line-height: 1.65;
+    color: var(--ink-soft); margin: 1rem 0; max-width: 60rem;
+  }
+  .prereqs { font-size: 0.85rem; color: var(--muted); margin-top: 0.6rem; }
+  .prereqs a { color: var(--accent); text-decoration: none; }
+  .prereqs a:hover { text-decoration: underline; }
+  main { max-width: 60rem; margin: 0 auto; padding: 2rem 2.5rem 5rem; }
+  .module {
+    border-top: 1px solid var(--border); padding-top: 2rem; margin-top: 3rem;
+  }
+  .module:first-child { border-top: none; padding-top: 0; margin-top: 0; }
+  .module .num {
+    font-family: ui-monospace, monospace; font-size: 0.78rem;
+    background: var(--gold); color: var(--bg); padding: 0.2rem 0.6rem;
+    border-radius: 99px; display: inline-block; margin-bottom: 0.6rem;
+  }
+  .module h2 {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.9rem; margin: 0;
+    letter-spacing: -0.01em; font-weight: 500; line-height: 1.15;
+  }
+  .module .objective {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic;
+    color: var(--ink-soft); margin: 0.5rem 0 1rem;
+  }
+  section { margin: 1.6rem 0; }
+  section h3 {
+    font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em;
+    color: var(--muted); margin: 0 0 0.6rem;
+  }
+  .passage {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--gold);
+    padding: 0.8rem 1rem; margin: 0.5rem 0; border-radius: 4px;
+  }
+  .passage .src {
+    font-family: ui-monospace, monospace; font-size: 0.72rem;
+    color: var(--accent); margin-bottom: 0.3rem;
+  }
+  .passage .quote {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic;
+    color: var(--ink); font-size: 1rem; line-height: 1.55;
+  }
+  .passage .note { font-size: 0.78rem; color: var(--muted); margin-top: 0.4rem; }
+  .seed {
+    padding: 0.5rem 0; border-left: 2px solid var(--gold); padding-left: 1rem; margin: 0.5rem 0;
+  }
+  .seed .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic; color: var(--ink);
+  }
+  .seed .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.3rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .theme-pill {
+    background: var(--elev); padding: 0.15rem 0.55rem; border-radius: 99px;
+  }
+  .misc {
+    background: var(--elev); padding: 0.7rem 1rem; margin: 0.5rem 0; border-radius: 6px;
+    font-size: 0.9rem;
+  }
+  .misc .label { font-weight: 500; }
+  .misc .label.if { color: var(--ink); }
+  .misc .label.then { color: var(--accent); }
+  .check {
+    background: var(--elev); border: 2px solid var(--gold); padding: 1rem 1.2rem;
+    border-radius: 8px; margin-top: 0.6rem;
+  }
+  .check .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic; font-size: 1.1rem; color: var(--ink);
+  }
+  .check .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.5rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .toc {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    padding: 1rem 1.4rem; margin: 1.5rem 0;
+  }
+  .toc h3 { margin: 0 0 0.4rem; }
+  .toc ol { margin: 0; padding-left: 1.4rem; }
+  .toc li { margin: 0.2rem 0; font-size: 0.92rem; }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+  .approve-bar {
+    position: sticky; bottom: 0;
+    background: var(--bg); border-top: 1px solid var(--border);
+    padding: 0.8rem 2.5rem;
+    display: flex; gap: 0.6rem; justify-content: flex-end;
+  }
+  .btn {
+    padding: 0.55rem 1.2rem; border-radius: 6px; font-size: 0.9rem;
+    border: 1px solid var(--border); background: var(--surface); color: var(--ink-soft);
+    cursor: pointer; font-family: inherit;
+  }
+  .btn.primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+  .btn:hover { transform: translateY(-1px); }
+</style>
+</head><body>
+<header>
+  <div class="meta">Pass 5 output — human review</div>
+  <h1>Course Reviews</h1>
+  <p class="abstract">28 pre-curated Socratic mini-courses on the flagship concepts of Vervaeke&rsquo;s argument. Click each course to audit modules, exposition passages, Socratic seeds, and misconception branches.</p>
+</header>
+<main>
+  <table style="width:100%;border-collapse:collapse;font-size:0.95rem">
+    <thead>
+      <tr style="border-bottom:1px solid var(--border);text-align:left">
+        <th style="padding:0.6rem 0.4rem">Course</th>
+        <th style="padding:0.6rem 0.4rem">Modules</th>
+        <th style="padding:0.6rem 0.4rem">Abstract</th>
+      </tr>
+    </thead>
+    <tbody>
+      
+        <tr style="border-bottom:1px solid var(--border)">
+          <td style="padding:0.75rem 0.4rem;vertical-align:top">
+            <a href="4e-cognition.html" style="font-family:'EB Garamond',Georgia,serif;font-size:1.2rem;color:var(--ink);text-decoration:none">4E Cognition</a>
+          </td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--muted)">5</td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--ink-soft);max-width:36rem">This course introduces the third-generation cognitive science framework that underlies Vervaeke's entire response to the meaning crisis. You will be able to articulate why mind is not a computer running symbol-manipulation software, and ins…</td>
+        </tr>
+      
+        <tr style="border-bottom:1px solid var(--border)">
+          <td style="padding:0.75rem 0.4rem;vertical-align:top">
+            <a href="agape.html" style="font-family:'EB Garamond',Georgia,serif;font-size:1.2rem;color:var(--ink);text-decoration:none">Agape</a>
+          </td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--muted)">5</td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--ink-soft);max-width:36rem">This course explores agape — the creative, sacrificial love that turns non-persons into persons — one of the most distinctive and transformative concepts Vervaeke draws from the Christian tradition. After completing this course, you will be…</td>
+        </tr>
+      
+        <tr style="border-bottom:1px solid var(--border)">
+          <td style="padding:0.75rem 0.4rem;vertical-align:top">
+            <a href="altered-states-of-consciousness.html" style="font-family:'EB Garamond',Georgia,serif;font-size:1.2rem;color:var(--ink);text-decoration:none">Altered States of Consciousness</a>
+          </td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--muted)">4</td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--ink-soft);max-width:36rem">This course examines altered states of consciousness — the radical transformations of the salience, presence, and depth landscapes that shamanic and contemplative traditions deliberately cultivated and that modern research has begun to stud…</td>
+        </tr>
+      
+        <tr style="border-bottom:1px solid var(--border)">
+          <td style="padding:0.75rem 0.4rem;vertical-align:top">
+            <a href="eros.html" style="font-family:'EB Garamond',Georgia,serif;font-size:1.2rem;color:var(--ink);text-decoration:none">Eros</a>
+          </td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--muted)">2</td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--ink-soft);max-width:36rem">This course examines eros — the love of becoming one with something — as the first in Vervaeke's trilogy of loves (eros, philia, agape), each with a distinct logic. After completing this course, you will be able to articulate why eros is no…</td>
+        </tr>
+      
+        <tr style="border-bottom:1px solid var(--border)">
+          <td style="padding:0.75rem 0.4rem;vertical-align:top">
+            <a href="flow.html" style="font-family:'EB Garamond',Georgia,serif;font-size:1.2rem;color:var(--ink);text-decoration:none">Flow</a>
+          </td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--muted)">3</td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--ink-soft);max-width:36rem">This course examines flow — Csikszentmihalyi's optimal experience — through Vervaeke's cognitive-scientific lens. After completing this course, you will be able to explain the skills-demands matching condition that triggers flow, why flow i…</td>
+        </tr>
+      
+        <tr style="border-bottom:1px solid var(--border)">
+          <td style="padding:0.75rem 0.4rem;vertical-align:top">
+            <a href="higher-states-of-consciousness.html" style="font-family:'EB Garamond',Georgia,serif;font-size:1.2rem;color:var(--ink);text-decoration:none">Higher States of Consciousness</a>
+          </td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--muted)">4</td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--ink-soft);max-width:36rem">This course examines higher states of consciousness — the subset of altered states experienced as more real than ordinary reality — and explains why they pose a serious philosophical challenge rather than a curiosity for psychiatry. After c…</td>
+        </tr>
+      
+        <tr style="border-bottom:1px solid var(--border)">
+          <td style="padding:0.75rem 0.4rem;vertical-align:top">
+            <a href="insight.html" style="font-family:'EB Garamond',Georgia,serif;font-size:1.2rem;color:var(--ink);text-decoration:none">Insight</a>
+          </td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--muted)">3</td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--ink-soft);max-width:36rem">This course examines insight — the sudden restructuring of cognition in which an inappropriate frame is broken and a better one constructed — through Vervaeke's cognitive-scientific account. After completing this course, you will be able to…</td>
+        </tr>
+      
+        <tr style="border-bottom:1px solid var(--border)">
+          <td style="padding:0.75rem 0.4rem;vertical-align:top">
+            <a href="modal-confusion.html" style="font-family:'EB Garamond',Georgia,serif;font-size:1.2rem;color:var(--ink);text-decoration:none">Modal Confusion</a>
+          </td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--muted)">2</td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--ink-soft);max-width:36rem">After this course, students will be able to articulate why Erich Fromm's distinction between having-needs and being-needs reveals a structural fault-line in modern consumer culture, and why attempting to satisfy being-mode needs through hav…</td>
+        </tr>
+      
+        <tr style="border-bottom:1px solid var(--border)">
+          <td style="padding:0.75rem 0.4rem;vertical-align:top">
+            <a href="mythos-vs-logos.html" style="font-family:'EB Garamond',Georgia,serif;font-size:1.2rem;color:var(--ink);text-decoration:none">Mythos vs Logos</a>
+          </td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--muted)">2</td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--ink-soft);max-width:36rem">After this course, students will be able to articulate what logos and mythos each contribute to human meaning-making, why their distinction is not the same as their opposition, and why the modern severance of logos from mythos — leaving rat…</td>
+        </tr>
+      
+        <tr style="border-bottom:1px solid var(--border)">
+          <td style="padding:0.75rem 0.4rem;vertical-align:top">
+            <a href="parasitic-processing.html" style="font-family:'EB Garamond',Georgia,serif;font-size:1.2rem;color:var(--ink);text-decoration:none">Parasitic Processing</a>
+          </td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--muted)">3</td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--ink-soft);max-width:36rem">After this course, students will be able to explain how the very cognitive machinery that makes human beings intelligently adaptive — heuristics, encoding specificity, confirmation bias, self-organizing dynamics — also makes them structural…</td>
+        </tr>
+      
+        <tr style="border-bottom:1px solid var(--border)">
+          <td style="padding:0.75rem 0.4rem;vertical-align:top">
+            <a href="participatory-knowing.html" style="font-family:'EB Garamond',Georgia,serif;font-size:1.2rem;color:var(--ink);text-decoration:none">Participatory Knowing</a>
+          </td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--muted)">3</td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--ink-soft);max-width:36rem">After this course, students will be able to articulate what participatory knowing is, why it is the most foundational of the four kinds of knowing, and why modern culture's reduction of all knowing to propositional belief has left us existe…</td>
+        </tr>
+      
+        <tr style="border-bottom:1px solid var(--border)">
+          <td style="padding:0.75rem 0.4rem;vertical-align:top">
+            <a href="perspectival-knowing.html" style="font-family:'EB Garamond',Georgia,serif;font-size:1.2rem;color:var(--ink);text-decoration:none">Perspectival Knowing</a>
+          </td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--muted)">2</td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--ink-soft);max-width:36rem">After this course, students will be able to explain what perspectival knowing is — knowing constituted by what it is like to occupy a particular perspective, encoded in one's salience landscape — and why it is irreducible to propositional r…</td>
+        </tr>
+      
+        <tr style="border-bottom:1px solid var(--border)">
+          <td style="padding:0.75rem 0.4rem;vertical-align:top">
+            <a href="philia.html" style="font-family:'EB Garamond',Georgia,serif;font-size:1.2rem;color:var(--ink);text-decoration:none">Philia</a>
+          </td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--muted)">2</td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--ink-soft);max-width:36rem">After this course, students will be able to articulate philia as the love of cooperative reciprocity — the love friends bear one another in shared pursuit of mutual development — and distinguish it clearly from eros (love of union through c…</td>
+        </tr>
+      
+        <tr style="border-bottom:1px solid var(--border)">
+          <td style="padding:0.75rem 0.4rem;vertical-align:top">
+            <a href="procedural-knowing.html" style="font-family:'EB Garamond',Georgia,serif;font-size:1.2rem;color:var(--ink);text-decoration:none">Procedural Knowing</a>
+          </td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--muted)">2</td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--ink-soft);max-width:36rem">After this course, students will be able to explain what procedural knowing is — the knowing instantiated in skills, powered by implicit learning, irreducible to propositional description — and why it occupies a crucial middle position in t…</td>
+        </tr>
+      
+        <tr style="border-bottom:1px solid var(--border)">
+          <td style="padding:0.75rem 0.4rem;vertical-align:top">
+            <a href="propositional-knowing.html" style="font-family:'EB Garamond',Georgia,serif;font-size:1.2rem;color:var(--ink);text-decoration:none">Propositional Knowing</a>
+          </td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--muted)">2</td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--ink-soft);max-width:36rem">This course examines what Vervaeke calls propositional knowing — the form of knowledge captured in true or false beliefs and statements — and why the modern reduction of all knowing to this single mode is both historically produced and phil…</td>
+        </tr>
+      
+        <tr style="border-bottom:1px solid var(--border)">
+          <td style="padding:0.75rem 0.4rem;vertical-align:top">
+            <a href="relevance-realization.html" style="font-family:'EB Garamond',Georgia,serif;font-size:1.2rem;color:var(--ink);text-decoration:none">Relevance Realization</a>
+          </td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--muted)">4</td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--ink-soft);max-width:36rem">This course develops Vervaeke's central technical construct: relevance realization, the non-propositional, embodied process by which the mind-body system dynamically selects what matters out of a combinatorially explosive sea of available i…</td>
+        </tr>
+      
+        <tr style="border-bottom:1px solid var(--border)">
+          <td style="padding:0.75rem 0.4rem;vertical-align:top">
+            <a href="religio.html" style="font-family:'EB Garamond',Georgia,serif;font-size:1.2rem;color:var(--ink);text-decoration:none">Religio</a>
+          </td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--muted)">3</td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--ink-soft);max-width:36rem">This course develops Vervaeke's concept of religio — the deep, pre-institutional, transjective binding of agent and arena that underlies all individual acts of meaning-making and all religious and spiritual traditions. Students will be able…</td>
+        </tr>
+      
+        <tr style="border-bottom:1px solid var(--border)">
+          <td style="padding:0.75rem 0.4rem;vertical-align:top">
+            <a href="reverse-engineering-enlightenment.html" style="font-family:'EB Garamond',Georgia,serif;font-size:1.2rem;color:var(--ink);text-decoration:none">Reverse-Engineering Enlightenment</a>
+          </td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--muted)">3</td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--ink-soft);max-width:36rem">This course examines Vervaeke's cognitive-scientific project of reverse-engineering enlightenment: starting with a stipulative definition (enlightenment as the developmental process that reliably ameliorates the perennial problems) and work…</td>
+        </tr>
+      
+        <tr style="border-bottom:1px solid var(--border)">
+          <td style="padding:0.75rem 0.4rem;vertical-align:top">
+            <a href="salience-landscape.html" style="font-family:'EB Garamond',Georgia,serif;font-size:1.2rem;color:var(--ink);text-decoration:none">Salience Landscape</a>
+          </td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--muted)">3</td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--ink-soft);max-width:36rem">This course develops Vervaeke's concept of the salience landscape — the dynamically structured field of standing-out and standing-back that consciousness produces through featurization, foregrounding, configuration, and framing. Students wi…</td>
+        </tr>
+      
+        <tr style="border-bottom:1px solid var(--border)">
+          <td style="padding:0.75rem 0.4rem;vertical-align:top">
+            <a href="the-axial-revolution.html" style="font-family:'EB Garamond',Georgia,serif;font-size:1.2rem;color:var(--ink);text-decoration:none">The Axial Revolution</a>
+          </td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--muted)">5</td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--ink-soft);max-width:36rem">This course develops Vervaeke's account of the axial revolution — the pivotal cognitive-cultural transformation from roughly 800 to 300 BCE when new psycho-technologies (alphabetic literacy, coinage) generated an unprecedented capacity for …</td>
+        </tr>
+      
+        <tr style="border-bottom:1px solid var(--border)">
+          <td style="padding:0.75rem 0.4rem;vertical-align:top">
+            <a href="the-four-kinds-of-knowing.html" style="font-family:'EB Garamond',Georgia,serif;font-size:1.2rem;color:var(--ink);text-decoration:none">The Four Kinds of Knowing</a>
+          </td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--muted)">4</td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--ink-soft);max-width:36rem">Vervaeke argues that modern culture has collapsed all forms of knowing into a single kind — propositional knowing (having justified true beliefs) — and that this collapse is itself a driver of the meaning crisis. Against this reduction, he …</td>
+        </tr>
+      
+        <tr style="border-bottom:1px solid var(--border)">
+          <td style="padding:0.75rem 0.4rem;vertical-align:top">
+            <a href="the-meaning-crisis.html" style="font-family:'EB Garamond',Georgia,serif;font-size:1.2rem;color:var(--ink);text-decoration:none">The Meaning Crisis</a>
+          </td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--muted)">4</td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--ink-soft);max-width:36rem">Vervaeke diagnoses a pervasive cultural-historical phenomenon: modern people experience a profound sense of disconnection — from themselves, each other, the world, and a viable future. The series opens by establishing that this crisis is no…</td>
+        </tr>
+      
+        <tr style="border-bottom:1px solid var(--border)">
+          <td style="padding:0.75rem 0.4rem;vertical-align:top">
+            <a href="the-perennial-problems.html" style="font-family:'EB Garamond',Georgia,serif;font-size:1.2rem;color:var(--ink);text-decoration:none">The Perennial Problems</a>
+          </td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--muted)">4</td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--ink-soft);max-width:36rem">Vervaeke argues that alongside the historical drivers of the meaning crisis there is a second leg: the perennial problems. These are cross-cultural, transhistorical vulnerabilities endemic to the very relevance-realization machinery that ma…</td>
+        </tr>
+      
+        <tr style="border-bottom:1px solid var(--border)">
+          <td style="padding:0.75rem 0.4rem;vertical-align:top">
+            <a href="the-platonic-project.html" style="font-family:'EB Garamond',Georgia,serif;font-size:1.2rem;color:var(--ink);text-decoration:none">The Platonic Project</a>
+          </td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--muted)">3</td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--ink-soft);max-width:36rem">This course examines the Platonic project as Vervaeke reconstructs it: Plato's synthesis of Socratic self-knowledge and Pythagorean self-transcendence into a developmental program for wisdom, in which ordering the psyche simultaneously redu…</td>
+        </tr>
+      
+        <tr style="border-bottom:1px solid var(--border)">
+          <td style="padding:0.75rem 0.4rem;vertical-align:top">
+            <a href="the-sacred.html" style="font-family:'EB Garamond',Georgia,serif;font-size:1.2rem;color:var(--ink);text-decoration:none">The Sacred</a>
+          </td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--muted)">3</td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--ink-soft);max-width:36rem">Vervaeke proposes a naturalistic account of the sacred — grounded in relevance realization and 4E cognition — that does not require supernatural metaphysical commitment yet does justice to the function and phenomenology of sacredness across…</td>
+        </tr>
+      
+        <tr style="border-bottom:1px solid var(--border)">
+          <td style="padding:0.75rem 0.4rem;vertical-align:top">
+            <a href="transframing.html" style="font-family:'EB Garamond',Georgia,serif;font-size:1.2rem;color:var(--ink);text-decoration:none">Transframing</a>
+          </td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--muted)">3</td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--ink-soft);max-width:36rem">Transframing is Vervaeke's coinage for a bi-directional, participatory transformation that simultaneously reframes how one sees the world and reframes how one sees oneself — a systematic restructuring of the whole framing process, not merel…</td>
+        </tr>
+      
+        <tr style="border-bottom:1px solid var(--border)">
+          <td style="padding:0.75rem 0.4rem;vertical-align:top">
+            <a href="transjective-relations.html" style="font-family:'EB Garamond',Georgia,serif;font-size:1.2rem;color:var(--ink);text-decoration:none">Transjective Relations</a>
+          </td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--muted)">3</td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--ink-soft);max-width:36rem">Vervaeke introduces transjectivity as his primary metaphysical category for moving beyond the subject-object dichotomy that has dominated Western philosophy since Descartes. Relevance, affordances, meaning, religio, and the sacred are all t…</td>
+        </tr>
+      
+        <tr style="border-bottom:1px solid var(--border)">
+          <td style="padding:0.75rem 0.4rem;vertical-align:top">
+            <a href="wisdom.html" style="font-family:'EB Garamond',Georgia,serif;font-size:1.2rem;color:var(--ink);text-decoration:none">Wisdom</a>
+          </td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--muted)">5</td>
+          <td style="padding:0.75rem 0.4rem;vertical-align:top;color:var(--ink-soft);max-width:36rem">Wisdom is the capstone concept of the series — the developmental response to the meaning crisis and the target of Vervaeke's project of reverse-engineering enlightenment. Vervaeke's mature account synthesizes Ardelt's three-factor model, th…</td>
+        </tr>
+      
+    </tbody>
+  </table>
+</main>
+</body></html>

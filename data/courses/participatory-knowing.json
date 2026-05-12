@@ -1,0 +1,138 @@
+{
+  "id": "participatory-knowing",
+  "title": "Participatory Knowing",
+  "conceptId": "participatory-knowing",
+  "abstract": "After this course, students will be able to articulate what participatory knowing is, why it is the most foundational of the four kinds of knowing, and why modern culture's reduction of all knowing to propositional belief has left us existentially bereft. Students will understand Aristotle's conformity theory as the philosophical grounding for participatory knowing — knowing changes one's being, not just one's beliefs — and will see how this structure appears in shamanism, in gnosis, in therapy, and in the relationship between lover and beloved. This concept is the load-bearing foundation of the series' entire epistemology: every other form of knowing — procedural, perspectival, and propositional — rests asymmetrically upon it, and the meaning crisis can be read as the collapse of participatory knowing across modern life.",
+  "prerequisites": [],
+  "modules": [
+    {
+      "id": "knowing-by-conformity",
+      "title": "Knowing as Conformity: Taking on the Idos",
+      "subConceptId": "knowing-by-conformity",
+      "learningObjective": "Explain Aristotle's conformity theory of knowing and why it collapses the distinction between knowing and being.",
+      "expositionPassages": [
+        {
+          "episode": 7,
+          "phrase": "So when I know some object or know some thing, my mind takes on the same structural functional organization as the thing such that if I could take that idos from my mind and actualize it in some potential, I could make an instance of the thing",
+          "note": "Aristotle's conformity theory — to know is to share idos with the thing, collapsing knowing and being."
+        },
+        {
+          "episode": 1,
+          "phrase": "There's the kind of knowing that is knowing what it's like to be in something you're participating in like a relationship.",
+          "note": "First introduction of participatory knowing in the series — contrasted implicitly with propositional knowing."
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "Vervaeke asks in Episode 7: who knows a chair better — someone who can describe it accurately, or someone who can make one? What does this thought experiment reveal about the nature of genuine knowing?",
+          "expectedThemes": ["maker grasps idos not just description", "knowing involves conforming not just representing", "cause and be-cause"]
+        },
+        {
+          "prompt": "Aristotle's conformity theory says that when you know something, your mind takes on the same structural-functional organization as the thing. In what sense does this mean knowing changes your being rather than just adding to your beliefs?",
+          "expectedThemes": ["knowing is a change in structure not just belief", "conformity is physical-cognitive not merely mental", "participatory knowing as being-transformation"]
+        },
+        {
+          "prompt": "Vervaeke uses the cup analogy: you can describe the cup from a distance, or you can physically conform to it by picking it up. What does the physical version reveal about the cognitive version of conformity?",
+          "expectedThemes": ["intimacy enables causal interaction", "distance description lacks structural engagement", "contact epistemology vs spectator epistemology"]
+        },
+        {
+          "prompt": "Why does Charles Taylor call this a 'contact epistemology'? What contrast with modern epistemology is implicit in that label?",
+          "expectedThemes": ["modern knowing as spectator relation", "contact knowing as transformation", "Cartesian subject-object gap"]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "Participatory knowing is just emotional involvement or being moved by something.",
+          "correction": "Vervaeke grounds participatory knowing in Aristotle's conformity theory: it is a specific epistemic structure in which the knower and the known mutually constitute each other through shared structural-functional organization. Emotion may accompany it but is not the thing itself."
+        },
+        {
+          "misconception": "Participatory knowing is mystical or non-cognitive and cannot be examined scientifically.",
+          "correction": "Vervaeke explicitly grounds participatory knowing in Aristotle's conformity theory and in 4E cognitive science — it is the most foundational level of the cognitive hierarchy, not an exception to cognitive inquiry."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "A scientist can describe every molecular interaction that occurs during the experience of love, yet seem to have missed something essential about what love is as an experience. How does Vervaeke's conformity theory explain this gap, and what kind of knowing does it point toward?",
+        "expectedThemes": ["propositional description misses idos", "love requires being-transformation not just representation", "participatory knowing needed"]
+      }
+    },
+    {
+      "id": "participatory-knowing-as-foundation",
+      "title": "Participatory Knowing as the Foundational Kind",
+      "subConceptId": "participatory-knowing-as-foundation",
+      "learningObjective": "Articulate why participatory knowing is the most fundamental of the four kinds of knowing, and why undermining it undermines all others.",
+      "expositionPassages": [
+        {
+          "episode": 36,
+          "phrase": "It's at the level of procedural and ultimately perspectival and participatory knowing.",
+          "note": "Vervaeke's summary of the dependency hierarchy — all knowing ultimately grounds in participatory knowing."
+        },
+        {
+          "episode": 1,
+          "phrase": "There is much more to knowing than having justified true beliefs.",
+          "note": "The opening claim against the modern reduction — participatory knowing is precisely what has been lost."
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "Vervaeke claims all other kinds of knowing depend asymmetrically on participatory knowing. What does 'asymmetric dependence' mean here, and what would happen to propositional knowing if participatory knowing collapsed?",
+          "expectedThemes": ["propositional knowing cannot stand alone", "need agent-arena attunement first", "loss of participation = loss of all knowing's foundation"]
+        },
+        {
+          "prompt": "In what sense is the modern reduction of all knowing to propositional believing itself a symptom of the meaning crisis rather than simply a philosophical error?",
+          "expectedThemes": ["reduction reflects existential disconnection", "we notice what we've lost", "collapse of participatory modes"]
+        },
+        {
+          "prompt": "The four kinds of knowing form a hierarchy: propositional depends on procedural, procedural on perspectival, perspectival on participatory. Why does the hierarchy go in this direction?",
+          "expectedThemes": ["you must be in a world before you can act in it", "situational awareness presupposes agent-arena engagement", "action requires skill before description"]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "Participatory knowing is independent of the other three kinds — you can have it without them or lose it without affecting them.",
+          "correction": "Vervaeke is clear that participatory knowing is the foundation on which perspectival, procedural, and propositional knowing rest. Undermining participatory knowing therefore undermines all of them — including our capacity for propositional knowledge."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "Vervaeke argues in Episode 43 that 'your propositional knowing has to be grounded in your procedural abilities, which have to be grounded in your perspectival, which has to be grounded ultimately in your participatory.' What does this hierarchy mean for the project of responding to the meaning crisis through argument and information alone?",
+        "expectedThemes": ["argument addresses only the top of the hierarchy", "meaning crisis is at the participatory level", "information cannot restore participatory attunement"]
+      }
+    },
+    {
+      "id": "participatory-knowing-in-shaman-and-gnosis",
+      "title": "Participatory Knowing Enacted: Shamanism, Gnosis, Therapy",
+      "subConceptId": "participatory-knowing-in-shaman-and-gnosis",
+      "learningObjective": "Identify how participatory knowing appears concretely in shamanism, gnosis, and transformative therapy as knowing-by-becoming rather than knowing-about.",
+      "expositionPassages": [
+        {
+          "episode": 1,
+          "phrase": "the shaman is enacting the animal, the shaman isn't having beliefs about the deer. The shaman is becoming the deer. I don't mean metaphysically, but the shaman is trying to get together the sense of the skills, the kind of perspective the deer has, the way the deer thinks",
+          "note": "The paradigm case of participatory knowing: knowing by identity, not by description."
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "Vervaeke says the shaman is 'becoming the deer' — not metaphysically, but cognitively. What does that careful qualification tell us about how participatory knowing works?",
+          "expectedThemes": ["no supernatural claim needed", "sharing structural-functional organization", "cognitive transformation not ontological merger"]
+        },
+        {
+          "prompt": "In what ways is therapeutic transformation — changing how the client sees themselves and the world, not just what they believe — an instance of participatory knowing?",
+          "expectedThemes": ["therapy alters perspectival and participatory not just beliefs", "insight changes being not just opinion", "identity-transformation is participatory"]
+        },
+        {
+          "prompt": "Gnosis is often translated as knowledge, but Vervaeke insists it is participatory knowing, not propositional knowing. Why does that distinction matter for understanding what Gnostics and Neoplatonists were after?",
+          "expectedThemes": ["gnosis transforms the knower", "union not representation", "knowing the One by being one"]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "Participatory knowing is only accessible through mystical or altered states — ordinary people in ordinary life cannot have it.",
+          "correction": "Vervaeke identifies participatory knowing in everyday love relationships, in the expert maker, in children learning to walk — it is the most foundational kind and permeates all cognition, though it is most vivid in transformative contexts."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "How does reading Plato's dialogues repeatedly throughout one's life — encountering different wisdom each time as one changes — exemplify participatory knowing? Why does Vervaeke use this as an example of what makes something 'sacred'?",
+        "expectedThemes": ["sacred as inexhaustible source of intelligibility", "reader transforms and discloses new depths", "participatory knowing as mutual becoming"]
+      }
+    }
+  ]
+}

@@ -1,0 +1,220 @@
+{
+  "id": "altered-states-of-consciousness",
+  "title": "Altered States of Consciousness",
+  "conceptId": "altered-states-of-consciousness",
+  "abstract": "This course examines altered states of consciousness — the radical transformations of the salience, presence, and depth landscapes that shamanic and contemplative traditions deliberately cultivated and that modern research has begun to study scientifically. After completing this course, you will be able to explain how altered states differ from ordinary insight (they are insights of consciousness rather than in it), how disruptive strategies produce cross-neural integration that enables cognitive exaptation, and how the Upper Paleolithic cognitive revolution may have been driven by shamanic psychotechnologies. Altered states are a foundational concept in the series arc: they are the vehicle by which higher states of consciousness are reached, and understanding their cognitive mechanics is essential for evaluating whether the religious transformations Vervaeke traces throughout history have any naturalistic warrant.",
+  "prerequisites": [],
+  "modules": [
+    {
+      "id": "asc-vs-ordinary-insight",
+      "title": "Insights of Consciousness vs. Insight in Consciousness",
+      "subConceptId": null,
+      "learningObjective": "Articulate the distinction between insight in consciousness (reframing a particular problem) and insight of consciousness (a radical transformation of the entire salience landscape).",
+      "expositionPassages": [
+        {
+          "episode": 10,
+          "phrase": "The core function of consciousness seems to be to help you realize, become aware of, actualize, put into action, 'Relevance': relevant information.",
+          "note": "Consciousness as relevance realization — the basis for understanding what it means to alter it"
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "Vervaeke distinguishes insight 'in' consciousness from insight 'of' consciousness. What do you think the difference is — can you think of an experience where your whole way of noticing things changed, not just your solution to one problem?",
+          "expectedThemes": [
+            "local reframing vs. systemic restructuring",
+            "salience landscape as a whole",
+            "not just one problem but the framing capacity"
+          ]
+        },
+        {
+          "prompt": "If consciousness is fundamentally about relevance realization — about what is salient, what stands out as important — what would it mean to alter consciousness at the deepest level?",
+          "expectedThemes": [
+            "altering what registers as important",
+            "transformation of the filtering process",
+            "new things become real that were invisible before"
+          ]
+        },
+        {
+          "prompt": "Someone on psychedelics reports that colors seem impossibly vivid and unrelated things seem deeply connected. Is that a failure of perception, an enhancement of it, or something else entirely — and how might you decide?",
+          "expectedThemes": [
+            "cross-neural integration making new connections",
+            "question of whether altered = distorted",
+            "context and integration matter for value"
+          ]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "Altered states are just a degraded or impaired version of normal consciousness.",
+          "correction": "Vervaeke argues that altered states can afford genuine cognitive enhancement — cross-neural integration, cognitive exaptation — when embedded in appropriate practice contexts; the value depends on how the state is used, not the state alone."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "Explain the difference between insight in consciousness and insight of consciousness — and why the latter is more radical than any ordinary 'aha' moment.",
+        "expectedThemes": [
+          "in-consciousness is local reframing",
+          "of-consciousness restructures the framing capacity",
+          "transforms the whole salience landscape not just one problem"
+        ]
+      }
+    },
+    {
+      "id": "disruptive-strategies",
+      "title": "Disruptive Strategies: Destabilizing Default Framing",
+      "subConceptId": "disruptive-strategies",
+      "learningObjective": "Describe how deliberate disruptive practices (sleep deprivation, psychedelics, fasting, chanting) destabilize default framing and what cognitive opportunity that opens.",
+      "expositionPassages": [],
+      "socraticSeeds": [
+        {
+          "prompt": "Why would you ever deliberately disrupt your own cognition — lose sleep, fast, or use substances that alter your brain function? What could possibly be the benefit of destabilizing how you normally think?",
+          "expectedThemes": [
+            "breaking default patterns creates new possibilities",
+            "habits of salience can be maladaptive",
+            "disruption necessary for cognitive exaptation"
+          ]
+        },
+        {
+          "prompt": "Notice that the disruptive strategies Vervaeke lists span very different types — physical (fasting), social (isolation), chemical (psychedelics), and rhythmic (chanting). What do they all have in common that makes them effective for the same purpose?",
+          "expectedThemes": [
+            "all alter attention and neural coordination",
+            "all destabilize normal filtering",
+            "all create conditions for cross-neural integration"
+          ]
+        },
+        {
+          "prompt": "Disruption alone is not enough — plenty of people have disrupted cognitive states (from sleep deprivation or illness) without having transformative insights. What else is needed for disruption to be productive rather than merely chaotic?",
+          "expectedThemes": [
+            "ritual context needed",
+            "trained practitioner to guide integration",
+            "prepared community and practice"
+          ]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "Using psychedelics or other disruptive strategies automatically produces insight or transformation.",
+          "correction": "Vervaeke is explicit that the value of altered states depends entirely on what is done with the cross-neural integration they make available — disruption without the right practice context, community, and integration produces chaos, not wisdom."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "What is the cognitive purpose of disruptive strategies in shamanic and contemplative traditions — and why is the same disruption sometimes transformative and sometimes merely harmful?",
+        "expectedThemes": [
+          "disruption breaks default salience patterns",
+          "creates space for cross-neural integration",
+          "context and integration determine whether it is transformative or damaging"
+        ]
+      }
+    },
+    {
+      "id": "cross-neural-integration",
+      "title": "Cross-Neural Integration: Brain Areas Talking Across Walls",
+      "subConceptId": "cross-neural-integration",
+      "learningObjective": "Explain how altered states permit brain areas that do not normally communicate to interact, enabling novel insight and pattern bridging.",
+      "expositionPassages": [
+        {
+          "episode": 2,
+          "phrase": "what's happening in this state is your brain is learning to get areas to talk to each other that normally don't talk to each other. This is especially the case if you've gone through a massive disruption strategy",
+          "note": "Vervaeke's cognitive-scientific account of why altered states can produce insight"
+        },
+        {
+          "episode": 2,
+          "phrase": "Getting into the flow state: Notice what's going on here. Notice you're getting something that's almost like a mystical experience. It's a powerful, altered state of consciousness.",
+          "note": "Flow as a milder form of altered state also involving cross-neural integration"
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "In normal waking cognition, different brain regions are relatively modular — they specialize. What might be the advantage of that specialization in everyday life, and what might be lost by it?",
+          "expectedThemes": [
+            "modularity enables efficiency",
+            "specialization may prevent novel connections",
+            "tradeoff between speed and creativity"
+          ]
+        },
+        {
+          "prompt": "When people describe mystical or flow experiences, they often report perceiving deep connections between things that normally seem unrelated. How might cross-neural integration explain that phenomenology?",
+          "expectedThemes": [
+            "normally-segregated associations combine",
+            "novel pattern recognition across domains",
+            "binding experiences of unity or connection"
+          ]
+        },
+        {
+          "prompt": "If the brain is making new connections across its normal boundaries, does that mean the resulting thoughts are more reliable or less reliable than ordinary cognition — and how would you evaluate the output of cross-neural integration?",
+          "expectedThemes": [
+            "not automatically more reliable",
+            "some connections will be noise",
+            "critical integration with waking cognition needed"
+          ]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "The brain connections made during altered states are permanent — altered states literally rewire the brain.",
+          "correction": "Cross-neural integration during altered states makes new connections available, but which connections become lasting depends on how insights are integrated into ongoing practice; the state enables, practice consolidates."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "What is cross-neural integration, and why does Vervaeke argue it can produce genuine cognitive enhancement rather than mere hallucination — and what does that require beyond the altered state itself?",
+        "expectedThemes": [
+          "normally-segregated brain regions communicate",
+          "novel pattern-bridging becomes possible",
+          "requires integration into waking cognition to be valuable"
+        ]
+      }
+    },
+    {
+      "id": "cognitive-exaptation",
+      "title": "Cognitive Exaptation and the Upper Paleolithic Transition",
+      "subConceptId": "cognitive-exaptation",
+      "learningObjective": "Explain how shamanism functioned as a set of psychotechnologies for cognitive exaptation, and why Vervaeke connects this to the Upper Paleolithic transition.",
+      "expositionPassages": [
+        {
+          "episode": 2,
+          "phrase": "the Upper Paleolithic transition was probably driven by the way shamanism was a set of pscyho-technologies for altering states of consciousness to cognitively exapt the enhanced abilities",
+          "note": "The core historical claim about shamanism and the cognitive revolution"
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "Exaptation in biology means a feature that evolved for one purpose gets used for another — the way feathers evolved for insulation and were later exapted for flight. What would 'cognitive exaptation' look like — can you think of a human mental capacity that gets used for purposes it was not originally for?",
+          "expectedThemes": [
+            "repurposing evolved capacities",
+            "language exapting social cognition circuits",
+            "mathematical thinking using spatial reasoning"
+          ]
+        },
+        {
+          "prompt": "Around 40,000 years ago there was a sudden explosion of symbolic art, ritual objects, and complex tools in human culture — the Upper Paleolithic transition. Why might altered states of consciousness, rather than genetic changes, explain this sudden leap?",
+          "expectedThemes": [
+            "no genetic change required if cultural technology explained it",
+            "shamanic psychotechnologies enabled new cognitive uses",
+            "cultural transmission of new cognitive practices"
+          ]
+        },
+        {
+          "prompt": "Altered states allowed early humans to use sensorimotor pattern-recognition machinery in new symbolic and artistic domains. Does this suggest that meaning-making is, at root, a kind of redeployment of capacities that evolved for something else?",
+          "expectedThemes": [
+            "meaning-making as cognitive exaptation",
+            "symbolic thought built on evolved perception",
+            "culture extends biological machinery"
+          ]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "The Upper Paleolithic cognitive revolution required genetic mutation — a biological change in the human brain.",
+          "correction": "Vervaeke's argument is that cultural psychotechnologies — specifically shamanic practices for altering consciousness — can explain the cognitive revolution without requiring new genetics; the tools changed how existing capacities were used."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "What is Vervaeke's argument for why shamanism was the engine of the Upper Paleolithic cognitive transition — and what does 'cognitive exaptation' mean in this context?",
+        "expectedThemes": [
+          "shamanism as psychotechnology for altered states",
+          "altered states enable repurposing of evolved capacities",
+          "cultural transmission of cognitive exaptation"
+        ]
+      }
+    }
+  ]
+}

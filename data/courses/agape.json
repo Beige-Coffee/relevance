@@ -1,0 +1,226 @@
+{
+  "id": "agape",
+  "title": "Agape",
+  "conceptId": "agape",
+  "abstract": "This course explores agape — the creative, sacrificial love that turns non-persons into persons — one of the most distinctive and transformative concepts Vervaeke draws from the Christian tradition. After completing this course, you will be able to articulate why agape is not an emotion but a modal way of being; why all agapic love is 'for-giving' love (giving before it is earned); how receiving or giving agape triggers the radical reorientation Vervaeke calls metanoia; and how Paul's first letter to the Corinthians binds agape to gnosis as inseparable modes of knowing and loving. Agape is pivotal in the series arc because it names the psychotechnology through which persons are made — the love that precedes, flows through, and transforms individuals into participants in something larger than their own autobiography.",
+  "prerequisites": [],
+  "modules": [
+    {
+      "id": "agape-love-not-emotion",
+      "title": "Love as a Modal Way of Being, Not a Feeling",
+      "subConceptId": null,
+      "learningObjective": "Articulate why Vervaeke insists that love — including agape — is a modal way of being and an agent-arena relationship, not a fluctuating emotion.",
+      "expositionPassages": [
+        {
+          "episode": 15,
+          "phrase": "Love isn't a feeling. It isn't an emotion. It is a modal way of being. It is an Agent-Arena relationship.",
+          "note": "Vervaeke's foundational qualification before introducing the three loves"
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "Most people would say they 'feel' love. Vervaeke insists love is not a feeling but a 'modal way of being.' What might he mean by that distinction — and can you think of examples where love persists even when the feeling is absent?",
+          "expectedThemes": ["love as orientation not affective spike", "modal existence vs. emotional state", "care persists through feeling's absence"]
+        },
+        {
+          "prompt": "An 'agent-arena relationship' is the coupling in which a self and a world fit together and co-identify each other. How might love be that kind of coupling rather than something inside the lover's head?",
+          "expectedThemes": ["love shapes what world discloses", "co-identification of lover and beloved", "not an internal mental state alone"]
+        },
+        {
+          "prompt": "If love is a way of being rather than a feeling, does that make love less intimate or more? What would change in how you think about loving someone?",
+          "expectedThemes": ["love as commitment of orientation", "more stable and deeper than feeling", "agent-arena restructuring"]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "Love is primarily an emotion — an intense positive feeling toward another person.",
+          "correction": "Vervaeke argues in Episode 15 that love is a modal way of being — an agent-arena relationship that structures what is salient, real, and possible for the lover — it is not a feeling that rises and falls."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "What does it mean to say love is a 'modal way of being' and an 'agent-arena relationship' — and why does Vervaeke make this qualification before discussing the different kinds of love?",
+        "expectedThemes": ["love as existential orientation", "structures salience and reality", "not an internal fluctuating emotion"]
+      }
+    },
+    {
+      "id": "agape-creative-personhood",
+      "title": "Agape as Creative Personhood-Making",
+      "subConceptId": "agape-as-creative-personhood",
+      "learningObjective": "Articulate why agape is the love that creates persons rather than responding to them, and why it operates before the beloved has earned anything.",
+      "expositionPassages": [
+        {
+          "episode": 15,
+          "phrase": "you love it because by loving it, you turn a non-person into a person. It's the closest thing to a miracle",
+          "note": "Vervaeke's description of agape's person-creating power"
+        },
+        {
+          "episode": 16,
+          "phrase": "This is the love of creation. It's the love that God is demonstrating towards humanity in the way God is an ongoing creation of the open future. So God is creating the future.",
+          "note": "Agape as creative rather than responsive love"
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "Consider how a parent loves an infant who cannot yet speak, reciprocate, or earn any affection. What kind of love is that — and what does it do to the child over time?",
+          "expectedThemes": ["love precedes reciprocity", "creates personhood in the beloved", "agapic not erotic or philial"]
+        },
+        {
+          "prompt": "Vervaeke says agape 'turns a non-person into a person.' What might he mean? Is this metaphorical, or is there something literally true about how persons are constituted through being loved?",
+          "expectedThemes": ["persons constituted through being loved before earning it", "agape is generative not responsive", "moral agency emerges from being agapically held"]
+        },
+        {
+          "prompt": "If agape creates what it loves rather than responding to what already exists, what does that suggest about its relationship to creation and the future — and to risk?",
+          "expectedThemes": ["open future as medium of agapic creativity", "risk of creating someone free", "love as ongoing not completed"]
+        },
+        {
+          "prompt": "The concept of agape is tied to God in Christian theology. But Vervaeke calls it a psychotechnology. What does that move do — what does it preserve and what does it reframe?",
+          "expectedThemes": ["universalizes the structure beyond Christianity", "naturalistic account of person-making", "does not require theism to apply"]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "Agape is just a religious or theological concept with no relevance outside Christian doctrine.",
+          "correction": "Vervaeke treats agape as a universal psychotechnology of person-creation that Christianity named and systematized — the structure of loving before earning applies wherever persons are made from non-persons."
+        },
+        {
+          "misconception": "Agape is a warm feeling toward someone attractive or admirable.",
+          "correction": "That is eros or philia; agape is the love that creates the beloved's personhood before they have earned any love at all — it is precisely not conditioned on the beloved's existing qualities."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "Why does Vervaeke call agape 'the closest thing to a miracle' — what is it about agape's creative structure that makes it categorically different from love as a response to existing qualities?",
+        "expectedThemes": ["creates personhood rather than responding to it", "precedes all earning and reciprocity", "generative not reactive love"]
+      }
+    },
+    {
+      "id": "agape-sacrificial-forgiving",
+      "title": "Agape as Sacrificial For-Giving",
+      "subConceptId": "agape-as-sacrificial-forgiving",
+      "learningObjective": "Explain the sacrificial structure of agape and why Vervaeke reads all agapic love as 'for-giving' in the sense of giving before earning.",
+      "expositionPassages": [
+        {
+          "episode": 16,
+          "phrase": "Agape has a sacrificial component to it because what I'm actually doing is I'm giving up, I'm making myself an affordance for your transformation from non-person into person.",
+          "note": "The sacrificial structure: the one who loves gives themselves as affordance"
+        },
+        {
+          "episode": 16,
+          "phrase": "Agape has a sacrificial element to it in that you give yourself, you \"for-give\", you give before the person earns.",
+          "note": "The for-giving pun as a structural claim"
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "Vervaeke makes a pun: agape is 'for-giving' because it gives before the person earns. Is this just wordplay, or does it reveal something structurally true about what all agapic love involves?",
+          "expectedThemes": ["pre-emptive giving is structural not accidental", "forgiveness is always a form of agapic love", "giving before earning defines agape"]
+        },
+        {
+          "prompt": "What does it mean to make yourself an 'affordance' for someone else's transformation? What does the lover give up — and why is that a sacrifice?",
+          "expectedThemes": ["lover subordinates their centrality", "becomes instrumental to beloved's becoming", "sacrificial structure is self-displacement"]
+        },
+        {
+          "prompt": "Is there a tension between agape's sacrificial structure and self-respect? When does self-sacrifice become harmful — and how might Vervaeke's framework distinguish healthy agape from self-destruction?",
+          "expectedThemes": ["agape is not self-erasure", "metanoia re-centers rather than destroys self", "healthy agape vs codependence"]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "Forgiveness in agape just means accepting an apology after being wronged.",
+          "correction": "Vervaeke's point is that all agapic love is 'for-giving' in a deeper sense — giving before the recipient has done anything to earn it. Forgiveness of wrongs is one instance of this prior structure, not its definition."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "How does the for-giving structure of agape explain why the experience of being loved before earning it can be so transformative — and what does that suggest about the relationship between agape and personhood?",
+        "expectedThemes": ["being loved before earning creates the capacity to become a person", "sacrifice makes space for the other's becoming", "personhood emerges from being for-given"]
+      }
+    },
+    {
+      "id": "agape-metanoia-trigger",
+      "title": "Agape as Trigger of Metanoia",
+      "subConceptId": "agape-as-metanoia-trigger",
+      "learningObjective": "Explain how giving or receiving agapic love re-centres the salience landscape away from egocentrism and triggers metanoia.",
+      "expositionPassages": [
+        {
+          "episode": 16,
+          "phrase": "This is the metanoia of Agape. I mean the metaphor is turning, but the problem with that metaphor is [that] all 'turning' (demonstrated physically by turning on the spot while standing) is still egocentric. You have to think of the turning this way: The turning is \"I go from being egocentric (pointing internally to himself) to being centered on someone else (pointing out and away from himself)\".",
+          "note": "Vervaeke's description of agape as a decentering from ego"
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "When you are wholly absorbed in caring for someone else — a sick friend, a newborn — what happens to your usual concerns about your own image, plans, and comfort? What does that suggest about what agape does to the self?",
+          "expectedThemes": ["self-concern recedes", "other becomes the center of the field", "salience landscape restructured"]
+        },
+        {
+          "prompt": "Vervaeke says metanoia involves a 'turning' that is not just physical rotation but a recentering — from being centered on oneself to being centered on another. Why would that distinction matter?",
+          "expectedThemes": ["ordinary turning keeps self central", "agapic metanoia displaces self as center", "decentering not destruction of self"]
+        },
+        {
+          "prompt": "Is the metanoia triggered by agape stable or temporary? What would need to happen for someone to remain decentered from egocentrism rather than returning to their habitual self-focus?",
+          "expectedThemes": ["requires ongoing practice and cultivation", "psychotechnologies needed to stabilize", "reciprocal process not one-time event"]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "Metanoia is a one-time conversion experience, like being struck by lightning.",
+          "correction": "Vervaeke describes metanoia as a radical transformation of orientation that can happen suddenly (like Paul on the road to Damascus) but requires ongoing practices and agapic relationships to be stabilized and developed."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "Describe the difference between ordinary 'turning' (changing direction while remaining self-centered) and the metanoia of agape — and explain why that difference matters for what agape actually does to a person.",
+        "expectedThemes": ["ordinary turning remains egocentric", "agapic metanoia displaces the ego as center", "not a change of opinion but a revolution of salience"]
+      }
+    },
+    {
+      "id": "agape-participatory-gnosis",
+      "title": "Agape Bound with Gnosis: Loving as Knowing",
+      "subConceptId": "agape-as-participatory-gnosis",
+      "learningObjective": "Articulate how Paul intertwines agape and gnosis in 1 Corinthians — explaining why, for Vervaeke, loving and knowing are inseparably coupled in the deepest form of contact with reality.",
+      "expositionPassages": [
+        {
+          "episode": 16,
+          "phrase": "Paul is actually talking about 'there's a way of knowing' - and we're going to come back to this. The term that's being used there is Gnosis - that is bound up with Agape, this way of loving.",
+          "note": "Paul's Corinthians passage as the binding of agape and gnosis"
+        },
+        {
+          "episode": 16,
+          "phrase": "The Agape that preceeds me, flows through me, and transforms me as I'm oriented. And what Jesus was offering, I believe, was he was offering a teaching so that all people could experience this.",
+          "note": "Agape as a transjective process preceding individuals"
+        },
+        {
+          "episode": 16,
+          "phrase": "God is this process that we participate in. And we put... Look, it made you, you didn't make it! You participate in Agape. It precedes you, it flows through you and you participate in it insofar as you help other people to come to personhood through you.",
+          "note": "Agape as transjective process — participated in, not authored"
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "Paul says 'we know as we are known.' What kind of knowing could that describe — and how is it different from ordinary knowing where a subject studies an object?",
+          "expectedThemes": ["participatory knowing vs. propositional", "knower is transformed in the knowing", "gnosis as mutual not unilateral"]
+        },
+        {
+          "prompt": "Vervaeke says agape 'precedes, flows through, and transforms' the individual. What does it mean for a form of love to precede you — and what follows from that for how you relate to it?",
+          "expectedThemes": ["transjective not merely subjective", "individual participates in not authors agape", "love is not private property"]
+        },
+        {
+          "prompt": "If loving and knowing are genuinely inseparable in the deepest modes of cognition, what does that suggest about what is wrong with purely detached, 'objective' ways of knowing?",
+          "expectedThemes": ["detached knowing misses participatory dimension", "gnosis requires love as orientation", "objectivity as incomplete not simply wrong"]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "Agape is uniquely Christian and therefore relevant only to people with Christian commitments.",
+          "correction": "Vervaeke explicitly treats agape as naming a universal structure — the transjective process of person-creation through for-giving love — that Christianity articulated powerfully but that is recoverable for secular contexts."
+        },
+        {
+          "misconception": "Gnosis is secret esoteric knowledge unrelated to love.",
+          "correction": "For Vervaeke and Paul, gnosis is bound up with agape — it is a participatory knowing in which one knows as one is known, a mutual transformation that cannot be separated from the loving orientation that enables it."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "Why does Vervaeke argue that agape and gnosis are inseparably bound together — and what is lost in a form of knowing that is entirely detached from love?",
+        "expectedThemes": ["gnosis requires agapic orientation", "participatory knowing is mutual and transformative", "detached knowing cannot access the deepest reality"]
+      }
+    }
+  ]
+}

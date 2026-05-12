@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Altered States of Consciousness — Mini-course Review</title>
+<style>
+  :root {
+    --bg: #faf7f1; --surface: #ffffff; --elev: #f2ede0;
+    --ink: #1c1a17; --ink-soft: #3a3530; --muted: #6b6660;
+    --border: #e0d9c8; --accent: #8b3a3a; --gold: #b8893c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14120e; --surface:#1c1916; --elev:#25211c;
+      --ink:#ece6d6; --ink-soft:#b8b1a1; --muted:#8a8378;
+      --border:#2e2922; --accent:#d28a7e; --gold:#d4a85a; }
+  }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Inter", system-ui, sans-serif;
+    background: var(--bg); color: var(--ink); margin: 0; line-height: 1.6;
+    -webkit-font-smoothing: antialiased; }
+  .serif { font-family: "EB Garamond", Georgia, serif; }
+  header { padding: 2rem 2.5rem 1rem; border-bottom: 1px solid var(--border); }
+  .back-link { color: var(--muted); font-size: 0.8rem; text-decoration: none; }
+  .back-link:hover { color: var(--accent); }
+  .meta { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin: 0.6rem 0 0.3rem; }
+  h1 { font-family: "EB Garamond", Georgia, serif; font-size: 2.6rem; margin: 0; letter-spacing: -0.01em; font-weight: 500; }
+  .abstract {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.1rem; line-height: 1.65;
+    color: var(--ink-soft); margin: 1rem 0; max-width: 60rem;
+  }
+  .prereqs { font-size: 0.85rem; color: var(--muted); margin-top: 0.6rem; }
+  .prereqs a { color: var(--accent); text-decoration: none; }
+  .prereqs a:hover { text-decoration: underline; }
+  main { max-width: 60rem; margin: 0 auto; padding: 2rem 2.5rem 5rem; }
+  .module {
+    border-top: 1px solid var(--border); padding-top: 2rem; margin-top: 3rem;
+  }
+  .module:first-child { border-top: none; padding-top: 0; margin-top: 0; }
+  .module .num {
+    font-family: ui-monospace, monospace; font-size: 0.78rem;
+    background: var(--gold); color: var(--bg); padding: 0.2rem 0.6rem;
+    border-radius: 99px; display: inline-block; margin-bottom: 0.6rem;
+  }
+  .module h2 {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.9rem; margin: 0;
+    letter-spacing: -0.01em; font-weight: 500; line-height: 1.15;
+  }
+  .module .objective {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic;
+    color: var(--ink-soft); margin: 0.5rem 0 1rem;
+  }
+  section { margin: 1.6rem 0; }
+  section h3 {
+    font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em;
+    color: var(--muted); margin: 0 0 0.6rem;
+  }
+  .passage {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--gold);
+    padding: 0.8rem 1rem; margin: 0.5rem 0; border-radius: 4px;
+  }
+  .passage .src {
+    font-family: ui-monospace, monospace; font-size: 0.72rem;
+    color: var(--accent); margin-bottom: 0.3rem;
+  }
+  .passage .quote {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic;
+    color: var(--ink); font-size: 1rem; line-height: 1.55;
+  }
+  .passage .note { font-size: 0.78rem; color: var(--muted); margin-top: 0.4rem; }
+  .seed {
+    padding: 0.5rem 0; border-left: 2px solid var(--gold); padding-left: 1rem; margin: 0.5rem 0;
+  }
+  .seed .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic; color: var(--ink);
+  }
+  .seed .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.3rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .theme-pill {
+    background: var(--elev); padding: 0.15rem 0.55rem; border-radius: 99px;
+  }
+  .misc {
+    background: var(--elev); padding: 0.7rem 1rem; margin: 0.5rem 0; border-radius: 6px;
+    font-size: 0.9rem;
+  }
+  .misc .label { font-weight: 500; }
+  .misc .label.if { color: var(--ink); }
+  .misc .label.then { color: var(--accent); }
+  .check {
+    background: var(--elev); border: 2px solid var(--gold); padding: 1rem 1.2rem;
+    border-radius: 8px; margin-top: 0.6rem;
+  }
+  .check .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic; font-size: 1.1rem; color: var(--ink);
+  }
+  .check .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.5rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .toc {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    padding: 1rem 1.4rem; margin: 1.5rem 0;
+  }
+  .toc h3 { margin: 0 0 0.4rem; }
+  .toc ol { margin: 0; padding-left: 1.4rem; }
+  .toc li { margin: 0.2rem 0; font-size: 0.92rem; }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+  .approve-bar {
+    position: sticky; bottom: 0;
+    background: var(--bg); border-top: 1px solid var(--border);
+    padding: 0.8rem 2.5rem;
+    display: flex; gap: 0.6rem; justify-content: flex-end;
+  }
+  .btn {
+    padding: 0.55rem 1.2rem; border-radius: 6px; font-size: 0.9rem;
+    border: 1px solid var(--border); background: var(--surface); color: var(--ink-soft);
+    cursor: pointer; font-family: inherit;
+  }
+  .btn.primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+  .btn:hover { transform: translateY(-1px); }
+</style>
+</head><body>
+<header>
+  <a class="back-link" href="index.html">← All course reviews</a>
+  <div class="meta">Mini-course · 4 modules</div>
+  <h1>Altered States of Consciousness</h1>
+  <p class="abstract">This course examines altered states of consciousness — the radical transformations of the salience, presence, and depth landscapes that shamanic and contemplative traditions deliberately cultivated and that modern research has begun to study scientifically. After completing this course, you will be able to explain how altered states differ from ordinary insight (they are insights of consciousness rather than in it), how disruptive strategies produce cross-neural integration that enables cognitive exaptation, and how the Upper Paleolithic cognitive revolution may have been driven by shamanic psychotechnologies. Altered states are a foundational concept in the series arc: they are the vehicle by which higher states of consciousness are reached, and understanding their cognitive mechanics is essential for evaluating whether the religious transformations Vervaeke traces throughout history have any naturalistic warrant.</p>
+  
+</header>
+<main>
+  <div class="toc">
+    <h3>Modules</h3>
+    <ol>
+      <li><a href="#m-asc-vs-ordinary-insight">Insights of Consciousness vs. Insight in Consciousness</a></li><li><a href="#m-disruptive-strategies">Disruptive Strategies: Destabilizing Default Framing</a></li><li><a href="#m-cross-neural-integration">Cross-Neural Integration: Brain Areas Talking Across Walls</a></li><li><a href="#m-cognitive-exaptation">Cognitive Exaptation and the Upper Paleolithic Transition</a></li>
+    </ol>
+  </div>
+  
+    <article class="module" id="m-asc-vs-ordinary-insight">
+      <span class="num">Module 1</span>
+      <h2>Insights of Consciousness vs. Insight in Consciousness</h2>
+      <p class="objective">Articulate the distinction between insight in consciousness (reframing a particular problem) and insight of consciousness (a radical transformation of the entire salience landscape).</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 10 · Consciousness</div>
+            <div class="quote">&ldquo;The core function of consciousness seems to be to help you realize, become aware of, actualize, put into action, 'Relevance': relevant information.&rdquo;</div>
+            <div class="note">Consciousness as relevance realization — the basis for understanding what it means to alter it</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke distinguishes insight 'in' consciousness from insight 'of' consciousness. What do you think the difference is — can you think of an experience where your whole way of noticing things changed, not just your solution to one problem?</div>
+            <div class="themes"><span class="theme-pill">local reframing vs. systemic restructuring</span><span class="theme-pill">salience landscape as a whole</span><span class="theme-pill">not just one problem but the framing capacity</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">If consciousness is fundamentally about relevance realization — about what is salient, what stands out as important — what would it mean to alter consciousness at the deepest level?</div>
+            <div class="themes"><span class="theme-pill">altering what registers as important</span><span class="theme-pill">transformation of the filtering process</span><span class="theme-pill">new things become real that were invisible before</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Someone on psychedelics reports that colors seem impossibly vivid and unrelated things seem deeply connected. Is that a failure of perception, an enhancement of it, or something else entirely — and how might you decide?</div>
+            <div class="themes"><span class="theme-pill">cross-neural integration making new connections</span><span class="theme-pill">question of whether altered = distorted</span><span class="theme-pill">context and integration matter for value</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Altered states are just a degraded or impaired version of normal consciousness.</div>
+              <div><span class="label then">Then:</span> Vervaeke argues that altered states can afford genuine cognitive enhancement — cross-neural integration, cognitive exaptation — when embedded in appropriate practice contexts; the value depends on how the state is used, not the state alone.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">Explain the difference between insight in consciousness and insight of consciousness — and why the latter is more radical than any ordinary 'aha' moment.</div>
+          <div class="themes"><span class="theme-pill">in-consciousness is local reframing</span><span class="theme-pill">of-consciousness restructures the framing capacity</span><span class="theme-pill">transforms the whole salience landscape not just one problem</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-disruptive-strategies">
+      <span class="num">Module 2</span>
+      <h2>Disruptive Strategies: Destabilizing Default Framing</h2>
+      <p class="objective">Describe how deliberate disruptive practices (sleep deprivation, psychedelics, fasting, chanting) destabilize default framing and what cognitive opportunity that opens.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Why would you ever deliberately disrupt your own cognition — lose sleep, fast, or use substances that alter your brain function? What could possibly be the benefit of destabilizing how you normally think?</div>
+            <div class="themes"><span class="theme-pill">breaking default patterns creates new possibilities</span><span class="theme-pill">habits of salience can be maladaptive</span><span class="theme-pill">disruption necessary for cognitive exaptation</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Notice that the disruptive strategies Vervaeke lists span very different types — physical (fasting), social (isolation), chemical (psychedelics), and rhythmic (chanting). What do they all have in common that makes them effective for the same purpose?</div>
+            <div class="themes"><span class="theme-pill">all alter attention and neural coordination</span><span class="theme-pill">all destabilize normal filtering</span><span class="theme-pill">all create conditions for cross-neural integration</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Disruption alone is not enough — plenty of people have disrupted cognitive states (from sleep deprivation or illness) without having transformative insights. What else is needed for disruption to be productive rather than merely chaotic?</div>
+            <div class="themes"><span class="theme-pill">ritual context needed</span><span class="theme-pill">trained practitioner to guide integration</span><span class="theme-pill">prepared community and practice</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Using psychedelics or other disruptive strategies automatically produces insight or transformation.</div>
+              <div><span class="label then">Then:</span> Vervaeke is explicit that the value of altered states depends entirely on what is done with the cross-neural integration they make available — disruption without the right practice context, community, and integration produces chaos, not wisdom.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">What is the cognitive purpose of disruptive strategies in shamanic and contemplative traditions — and why is the same disruption sometimes transformative and sometimes merely harmful?</div>
+          <div class="themes"><span class="theme-pill">disruption breaks default salience patterns</span><span class="theme-pill">creates space for cross-neural integration</span><span class="theme-pill">context and integration determine whether it is transformative or damaging</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-cross-neural-integration">
+      <span class="num">Module 3</span>
+      <h2>Cross-Neural Integration: Brain Areas Talking Across Walls</h2>
+      <p class="objective">Explain how altered states permit brain areas that do not normally communicate to interact, enabling novel insight and pattern bridging.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 2 · Flow, Metaphor, and the Axial Revolution</div>
+            <div class="quote">&ldquo;what's happening in this state is your brain is learning to get areas to talk to each other that normally don't talk to each other. This is especially the case if you've gone through a massive disruption strategy&rdquo;</div>
+            <div class="note">Vervaeke's cognitive-scientific account of why altered states can produce insight</div>
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 2 · Flow, Metaphor, and the Axial Revolution</div>
+            <div class="quote">&ldquo;Getting into the flow state: Notice what's going on here. Notice you're getting something that's almost like a mystical experience. It's a powerful, altered state of consciousness.&rdquo;</div>
+            <div class="note">Flow as a milder form of altered state also involving cross-neural integration</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">In normal waking cognition, different brain regions are relatively modular — they specialize. What might be the advantage of that specialization in everyday life, and what might be lost by it?</div>
+            <div class="themes"><span class="theme-pill">modularity enables efficiency</span><span class="theme-pill">specialization may prevent novel connections</span><span class="theme-pill">tradeoff between speed and creativity</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">When people describe mystical or flow experiences, they often report perceiving deep connections between things that normally seem unrelated. How might cross-neural integration explain that phenomenology?</div>
+            <div class="themes"><span class="theme-pill">normally-segregated associations combine</span><span class="theme-pill">novel pattern recognition across domains</span><span class="theme-pill">binding experiences of unity or connection</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">If the brain is making new connections across its normal boundaries, does that mean the resulting thoughts are more reliable or less reliable than ordinary cognition — and how would you evaluate the output of cross-neural integration?</div>
+            <div class="themes"><span class="theme-pill">not automatically more reliable</span><span class="theme-pill">some connections will be noise</span><span class="theme-pill">critical integration with waking cognition needed</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> The brain connections made during altered states are permanent — altered states literally rewire the brain.</div>
+              <div><span class="label then">Then:</span> Cross-neural integration during altered states makes new connections available, but which connections become lasting depends on how insights are integrated into ongoing practice; the state enables, practice consolidates.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">What is cross-neural integration, and why does Vervaeke argue it can produce genuine cognitive enhancement rather than mere hallucination — and what does that require beyond the altered state itself?</div>
+          <div class="themes"><span class="theme-pill">normally-segregated brain regions communicate</span><span class="theme-pill">novel pattern-bridging becomes possible</span><span class="theme-pill">requires integration into waking cognition to be valuable</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-cognitive-exaptation">
+      <span class="num">Module 4</span>
+      <h2>Cognitive Exaptation and the Upper Paleolithic Transition</h2>
+      <p class="objective">Explain how shamanism functioned as a set of psychotechnologies for cognitive exaptation, and why Vervaeke connects this to the Upper Paleolithic transition.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 2 · Flow, Metaphor, and the Axial Revolution</div>
+            <div class="quote">&ldquo;the Upper Paleolithic transition was probably driven by the way shamanism was a set of pscyho-technologies for altering states of consciousness to cognitively exapt the enhanced abilities&rdquo;</div>
+            <div class="note">The core historical claim about shamanism and the cognitive revolution</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Exaptation in biology means a feature that evolved for one purpose gets used for another — the way feathers evolved for insulation and were later exapted for flight. What would 'cognitive exaptation' look like — can you think of a human mental capacity that gets used for purposes it was not originally for?</div>
+            <div class="themes"><span class="theme-pill">repurposing evolved capacities</span><span class="theme-pill">language exapting social cognition circuits</span><span class="theme-pill">mathematical thinking using spatial reasoning</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Around 40,000 years ago there was a sudden explosion of symbolic art, ritual objects, and complex tools in human culture — the Upper Paleolithic transition. Why might altered states of consciousness, rather than genetic changes, explain this sudden leap?</div>
+            <div class="themes"><span class="theme-pill">no genetic change required if cultural technology explained it</span><span class="theme-pill">shamanic psychotechnologies enabled new cognitive uses</span><span class="theme-pill">cultural transmission of new cognitive practices</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Altered states allowed early humans to use sensorimotor pattern-recognition machinery in new symbolic and artistic domains. Does this suggest that meaning-making is, at root, a kind of redeployment of capacities that evolved for something else?</div>
+            <div class="themes"><span class="theme-pill">meaning-making as cognitive exaptation</span><span class="theme-pill">symbolic thought built on evolved perception</span><span class="theme-pill">culture extends biological machinery</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> The Upper Paleolithic cognitive revolution required genetic mutation — a biological change in the human brain.</div>
+              <div><span class="label then">Then:</span> Vervaeke's argument is that cultural psychotechnologies — specifically shamanic practices for altering consciousness — can explain the cognitive revolution without requiring new genetics; the tools changed how existing capacities were used.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">What is Vervaeke's argument for why shamanism was the engine of the Upper Paleolithic cognitive transition — and what does 'cognitive exaptation' mean in this context?</div>
+          <div class="themes"><span class="theme-pill">shamanism as psychotechnology for altered states</span><span class="theme-pill">altered states enable repurposing of evolved capacities</span><span class="theme-pill">cultural transmission of cognitive exaptation</span></div>
+        </div>
+      </section>
+    </article>
+  
+</main>
+<div class="approve-bar">
+  <button class="btn">Request changes</button>
+  <button class="btn primary">Approve for shipping</button>
+</div>
+</body></html>

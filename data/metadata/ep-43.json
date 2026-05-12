@@ -2,120 +2,82 @@
   "num": 43,
   "slug": "wisdom-and-virtue",
   "title": "Wisdom and Virtue",
-  "essence": "Schwartz and Sharpe's work on practical wisdom reveals that virtues are not independent features but form a functional system centered on relevance realization. Individual virtues constantly conflict—maximizing honesty produces cruelty, maximizing kindness produces dishonesty. Real-world situations never arrive labeled with needed virtues, requiring judgment about which virtues to apply and how to balance them. Phronesis, practical wisdom, enables this contextual sensitivity and perspectival knowing. Yet Schwartz and Sharpe risk conflating phronesis with domain-specific expertise, which is precisely wrong: wisdom applies across domains while expertise is locked to them. Baltes and Staudinger's Berlin paradigm empirically operationalizes wisdom through five criteria: rich factual and procedural knowledge, lifespan contextualism, recognition of value relativism (better understood as fallibilism and humility), and uncertainty management. The paradigm introduces metaheuristics—heuristics for managing heuristics—as the coordinating mechanism of wisdom. Vervaeke argues for both sophia and phronesis: principles and processes in opponent relationship, abstract generalization balanced with contextual sensitivity. The Solomon effect—wiser reflections on others' problems than one's own—demonstrates the perspectival dimension and internalization of dialogue partners enhance wisdom. Wisdom coordinates the complexities virtue demands through relevance realization.",
+  "essence": "Vervaeke examines wisdom through the lens of virtue ethics, exploring the claim that wisdom is not merely an intellectual capacity but a moral and character achievement. He engages Schwartz and Sharpe's critique of rule-following approaches to ethics: virtues conflict, their application is context-sensitive, and their development requires a cultivation that cannot be captured by expertise. Phronesis — practical wisdom — is distinguished from theoretical sophia: the former navigates the particular situation, the latter ascends to universal principles. Vervaeke argues that the expertise model of virtue is fundamentally mistaken because virtue conflicts require the perspectival and participatory knowing of the particular situation, not the application of domain-specific knowledge. He then surveys the Berlin wisdom paradigm of Baltes and Staudinger, with its five criteria: rich factual knowledge, rich procedural knowledge, lifespan contextualism, value relativism (recast as fallibilism), and the management of uncertainty. Vervaeke critiques this paradigm as measuring wisdom's product rather than its process, and notes that Igor Grossmann's Solomon effect — we are wiser about others' problems than our own — reveals the crucial role of perspectival distance. The episode closes noting that platonic dialogue itself is a psychotechnology for developing the perspectival distance that wisdom requires.",
   "keyClaims": [
-    "Virtues are functionally interdependent, not logically independent; their optimal balance requires wisdom as higher-order ability",
-    "Relevance realization is central to virtue: determining which virtue applies, how to specify its application, and managing conflicts between virtues",
-    "Phronesis is domain-general contextual sensitivity, not domain-specific expertise; it applies flexibly across all life domains",
-    "Wisdom requires both sophia (principles, cross-contextual invariants) and phronesis (processes, contextual sensitivity) in opponent relationship",
-    "The Solomon effect reveals wisdom is enhanced by perspectival shifting and internalization of others' perspectives"
+    "Virtue conflicts cannot be resolved by expertise in any single domain; they require practical wisdom — phronesis — which involves perspectival and participatory knowing of the particular situation.",
+    "The Berlin wisdom paradigm (Baltes and Staudinger) captures wisdom's product — rich factual and procedural knowledge with lifespan contextualism — but not its underlying process.",
+    "The Solomon effect demonstrates that we exercise greater wisdom about others' problems than our own, revealing the constitutive role of perspectival distance in wisdom.",
+    "Schwartz and Sharpe's critique shows that virtue cannot be reduced to rule-following or expertise; it requires the cultivated perception of what matters in a situation.",
+    "Platonic dialogue is a psychotechnology that develops perspectival distance and thereby enhances wisdom by enabling one to take a third-person view on one's own situation."
   ],
   "concepts": [
     {
-      "name": "virtue",
+      "id": "wisdom",
       "treatment": "developed",
-      "summary": "Human excellence requiring both what you do and how you do it. Virtues form interdependent system, not independent checklist. Cannot maximize individual virtues without creating conflict. Optimal balance requires wisdom."
+      "summary": "Examined through virtue ethics and the Berlin wisdom paradigm; the episode critiques product-based accounts and argues for a process account grounding wisdom in perspectival and participatory knowing."
     },
     {
-      "name": "phronesis",
-      "treatment": "introduced",
-      "summary": "Practical wisdom. Contextually sensitive judgment enabling virtuous action. Procedural and perspectival knowledge of what fits this situation. Domain-general ability to apply virtues appropriately across life contexts."
-    },
-    {
-      "name": "sophia",
-      "treatment": "introduced",
-      "summary": "Theoretical wisdom. Deep ontological depth perception identifying cross-contextual principles and invariants. Not mere propositional knowledge but awareness of underlying structure. Needs relationship with phronesis."
-    },
-    {
-      "name": "relevance realization",
+      "id": "virtue",
       "treatment": "developed",
-      "summary": "Central coordinating mechanism for virtue. Determines: which virtue is relevant here? How does this virtue apply in this specific context? Which virtue takes priority in conflicts? Essential to wisdom."
+      "summary": "Schwartz and Sharpe's analysis of virtue conflicts (relevance, conflict, specification, development problems) establishes that virtues require wisdom for their proper exercise — they cannot operate automatically."
     },
     {
-      "name": "metaheuristic",
-      "treatment": "introduced",
-      "summary": "A heuristic for managing and optimizing multiple heuristics. Baltes and Staudinger's term for wisdom's coordinating role. Pragmatic optimization within dynamical systems, managing tradeoffs between values."
+      "id": "perspectival-knowing",
+      "treatment": "developed",
+      "summary": "Identified as implicit in the Berlin paradigm's value relativism/fallibilism criterion and made explicit in the Solomon effect: perspectival distance from one's own situation is constitutive of wisdom."
     },
     {
-      "name": "pragmatic self-contradiction",
-      "treatment": "referenced",
-      "summary": "Performative inconsistency where claiming wisdom seems to contradict the perspective of wisdom. Hints at wisdom's perspectival and participatory dimensions."
+      "id": "participatory-knowing",
+      "treatment": "applied",
+      "summary": "Practical wisdom's sensitivity to the particular situation involves participatory knowing — being shaped by and responsive to the situation, not applying rules from outside it."
     },
     {
-      "name": "Solomon effect",
-      "treatment": "introduced",
-      "summary": "Grossman's phenomenon: people generate wiser reflections on others' problems than their own. Third-person perspective reduces first-person bias and fixation. Internalized dialogue partners provide metacognitive ability to overcome bias."
+      "id": "self-deception",
+      "treatment": "applied",
+      "summary": "The Solomon effect — wiser about others than ourselves — implicates self-deception: our own existential investment blinds us in ways that distance resolves."
     },
     {
-      "name": "fallibilism",
-      "treatment": "introduced",
-      "summary": "Epistemological position that no belief has certainty guarantee. Better understanding of Baltes and Staudinger's criterion than moral relativism. Attributed to Socrates, consistent with acknowledgment of limits."
+      "id": "psycho-technology",
+      "treatment": "applied",
+      "summary": "Platonic dialogue is proposed as a psychotechnology for cultivating the perspectival distance required for wisdom."
+    },
+    {
+      "id": "the-four-kinds-of-knowing",
+      "treatment": "applied",
+      "summary": "The Berlin paradigm's criteria map imperfectly onto the four kinds of knowing; Vervaeke identifies what it captures (procedural, factual) and what it misses (perspectival, participatory process)."
     }
   ],
   "people": [
     {
-      "name": "Barry Schwartz",
-      "role": "introduced",
-      "summary": "Psychologist studying practical wisdom. With Sharpe, argues virtues form interdependent system centered on relevance. Advocates phronesis over legislation. Critical of replacing wisdom cultivation with rules."
+      "id": "schwartz-sharpe",
+      "role": "subject",
+      "summary": "Their critique of rule-following virtue ethics and identification of four practical problems (relevance, conflict, specification, development) structures the first half of the episode."
     },
     {
-      "name": "Kenneth Sharpe",
-      "role": "introduced",
-      "summary": "Co-author with Schwartz on practical wisdom. Emphasizes contextual sensitivity and judgment. Co-authored book Practical Wisdom."
+      "id": "baltes-staudinger",
+      "role": "subject",
+      "summary": "The Berlin wisdom paradigm with its five criteria is surveyed and critiqued as a product theory that misses the process dimension of wisdom."
     },
     {
-      "name": "Paul Baltes",
-      "role": "introduced",
-      "summary": "Lifespan developmental psychologist. Co-creator of Berlin paradigm for wisdom. Initiated empirical investigation of wisdom through five criteria and experimental tasks."
+      "id": "igor-grossmann",
+      "role": "discussed",
+      "summary": "His Solomon effect research — demonstrating that people reason more wisely about others' problems than their own — is used to establish perspectival distance as constitutive of wisdom."
     },
     {
-      "name": "Ursula Staudinger",
-      "role": "introduced",
-      "summary": "Developmental psychologist with Baltes. Co-developed Berlin wisdom paradigm. Created empirical methodology for measuring wisdom in experimental contexts."
-    },
-    {
-      "name": "Aristotle",
-      "role": "referenced",
-      "summary": "Ancient Greek philosopher. Distinction between sophia and phronesis foundational to contemporary wisdom research. Vervaeke argues for their opponent relationship."
-    },
-    {
-      "name": "Igor Grossman",
-      "role": "introduced",
-      "summary": "Contemporary psychologist discovering the Solomon effect. Shows wiser reasoning on others' problems through third-person perspective. Demonstrates perspectival dimension of wisdom."
-    },
-    {
-      "name": "Robert Sternberg",
-      "role": "referenced",
-      "summary": "Psychologist with work on wisdom theories and cognitive styles involved in wise judgment. Referenced in Berlin paradigm discussion."
-    },
-    {
-      "name": "Hubert Dreyfus",
-      "role": "referenced",
-      "summary": "Phenomenologist influencing wisdom research on problem finding and relevance realization as core cognitive mechanisms."
+      "id": "aristotle",
+      "role": "discussed",
+      "summary": "The phronesis/sophia distinction is Aristotle's; Vervaeke uses it to ground the claim that practical wisdom cannot be reduced to theoretical knowledge."
     }
   ],
   "crossRefs": [
-    {"episode": 40, "reason": "Builds on systematic seeing through illusion and transframing as wisdom features"},
-    {"episode": 41, "reason": "Applies rationality debate to understanding virtue and judgment"},
-    {"episode": 42, "reason": "Connects mindfulness and active open-mindedness to cultivating phronesis"},
-    {"episode": 44, "reason": "Continues examining psychological theories of wisdom (Ardelt, Sternberg)"}
-  ],
-  "quotableMoments": [
     {
-      "quote": "Real life situations do not come labeled with the needed virtues. There is the problem of relevance.",
-      "context": "Schwartz and Sharpe identifying relevance realization as core to phronesis and virtue. Not given which virtue to apply; must determine relevance."
+      "episode": 44,
+      "context": "Ardelt's three-factor model and Sternberg's balance theory continue the survey of wisdom theories begun here."
     },
     {
-      "quote": "The virtues are not independent from each other. We're not trying to maximize between them. We're trying to optimize between them.",
-      "context": "Core insight that virtue is not about pursuing individual excellences but balancing interdependent capacities."
-    },
-    {
-      "quote": "Phronesis is contextually sensitive but in a domain general way across many domains.",
-      "context": "Clarifying that practical wisdom is not like expertise (domain-specific) but rather the capacity to sense context appropriately everywhere."
-    },
-    {
-      "quote": "You need both sophia and phronesis. You need to know how to put principles into processes and regulate processes with principles.",
-      "context": "Vervaeke's synthesis arguing wisdom requires both cross-contextual principles and specific contextual responsiveness."
+      "episode": 45,
+      "context": "The Vervaeke-Ferraro integration of all these accounts into a dynamical systems model is the culmination of this arc."
     }
-  ]
+  ],
+  "quotableMoments": []
 }

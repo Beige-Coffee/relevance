@@ -2,71 +2,102 @@
   "num": 48,
   "slug": "corbin-divine-double",
   "title": "Corbin and the Divine Double",
-  "essence": "Henry Corbin responds to Heidegger's diagnosis through imaginative theophany and symbolic participation. Against materialist scientism, Corbin recovers imaginal realm (not imaginary but ontologically real intermediate realm). Divine double—connection to transcendent dimension of self—addresses meaning crisis through symbolic relationship. Islamic Sufism, Gnosticism, and Neoplatonism reveal participatory ontology where human soul mirrors divine reality. Rose (physis) as symbol of divine manifestation; knowledge as witnessing transformation. Imaginal vision involves perspectival shift recognizing correspondence between inner and outer, microcosm and macrocosm. Eckhart's mysticism and Corbin's Sufism converge on union of lover and beloved, self and divine. Gnosis emerges not as intellectual knowledge but as transformative encounter with sacred depths. Symbol enables crossing between transcendent and immanent realms. Vervaeke situates Corbin as showing how contemplative traditions maintain reality of sacred imagination essential for meaning and wisdom.",
+  "essence": "Vervaeke turns to Henry Corbin as the thinker who develops Heidegger's gnosis through the specific resources of Persian Sufism and Neoplatonism. Beginning with Heidegger's commentary on the rose poem of Angelus Silesius, Vervaeke draws the contrast between narrative teleology and vertical ontology: the rose blooms without why, grounding itself in itself, and this non-teleological being mode is what physis means. This is exapted from narrative into a vertical movement from the shallower frame of the current self toward the depths of being. Corbin's central contribution is the distinction between the imaginary (subjective mental imagery, merely possessed) and the imaginal: the transjective use of image that mediates between the abstract intelligible world and the concrete sensible world, and between subjective and objective — in an ongoing transformative transframing. The symbol in Corbin's sense is translucent, transjective, trajective, transformative, and transtemporal. Fundamentalism and literalism destroy the imaginal by collapsing it into either the abstract or the concrete, ending gnosis. The divine double is then introduced: the motif prevalent across Hellenistic Mediterranean spirituality (Stang's scholarship) of a superlative self to which one's current self is bound and toward which one aspires. The divine double as imaginal symbol allows one to internalize a more encompassing frame into one's current frame (the shining in) while being drawn toward the indwelling of that larger world (the withdrawing). LA Paul's transformative experience and Callard's aspiration are brought in as the analytic philosophy of the same process.",
   "keyClaims": [
-    "Imaginal realm is ontologically real intermediate dimension between physical and transcendent, not mere imagination",
-    "Divine double (connection to transcendent self) addresses meaning crisis through participatory mysticism",
-    "Symbols enable communication across realms and perspectives; not reducible to concepts",
-    "Gnosis is transformative encounter with sacred, not intellectual knowledge",
-    "Imaginal vision involves perspectival shift recognizing divine correspondence and participation"
+    "Corbin distinguishes the imaginary (subjective mental imagery) from the imaginal: the transjective use of image that mediates between abstract intelligible and concrete sensible worlds in an ongoing transformative transframing.",
+    "Fundamentalism and literalism are pernicious precisely because they collapse the imaginal into either the abstract or the concrete, destroying the capacity for gnosis.",
+    "The divine double is the Hellenistic-Mediterranean motif of a superlative self to which one is bound and toward which one aspires — transgressive of the romantic grammar that treats the true self as something possessed.",
+    "The symbol in Corbin's sense is simultaneously translucent, transjective, trajective, transformative, and transtemporal — the cognitive medium through which gnosis operates.",
+    "Corbin connects Heidegger's attunement to gnosis by showing that the imaginal is the mode through which one remembers being in aletheia — recovering the being mode from forgetfulness."
   ],
   "concepts": [
     {
-      "name": "imaginal realm",
+      "id": "the-imaginal",
       "treatment": "introduced",
-      "summary": "Intermediate ontological dimension between physical and transcendent. Not imaginary (subjective) but real imaginal participation. Accessible through symbol and vision."
+      "summary": "Corbin's core distinction: the imaginal vs. the imaginary. The imaginal mediates between abstract intelligible and concrete sensible worlds transjectively, in ongoing transformative transframing."
     },
     {
-      "name": "divine double",
+      "id": "the-divine-double",
       "treatment": "introduced",
-      "summary": "Connection to transcendent dimension of self. Reflection of divine reality in human soul. Encountering divine double addresses existential meaning."
+      "summary": "The Hellenistic Mediterranean motif (via Stang's scholarship) of a superlative self toward which one aspires; Corbin's angel is his symbol for the divine double in Persian Sufism."
     },
     {
-      "name": "symbol",
+      "id": "gnosis",
       "treatment": "developed",
-      "summary": "Participatory vehicle enabling crossing between realms. Not reducible to conceptual meaning; involves transformative encounter."
+      "summary": "Corbin develops Heidegger's aletheia into explicit gnosis: the imaginal is the medium through which salvic, transformative participatory knowing operates."
     },
     {
-      "name": "gnosis",
+      "id": "the-symbol",
       "treatment": "developed",
-      "summary": "Transformative knowing through participation, not intellectual understanding. Involves witnessing divine manifestation and inner transformation."
+      "summary": "Corbin's symbol is analyzed into five properties: translucent, transjective, trajective, transformative, and transtemporal — all required for the symbol to trigger transframing."
     },
     {
-      "name": "physis (the rose)",
-      "treatment": "introduced",
-      "summary": "Symbol of divine manifestation and nature's sacred depth. Represents participatory relationship to natural world."
+      "id": "transframing",
+      "treatment": "applied",
+      "summary": "The imaginal's ongoing transformative transframing is the cognitive-scientific correlate of what Corbin calls gnosis through the imaginal symbol."
+    },
+    {
+      "id": "aspiration",
+      "treatment": "developed",
+      "summary": "Callard's aspiration is brought in as the analytic philosophical account of the same process the divine double mythos captures: S1 participates in the emergence of S2 without making or merely receiving it."
+    },
+    {
+      "id": "transformative-experience",
+      "treatment": "applied",
+      "summary": "LA Paul's account is invoked to explain why the divine double cannot be reasoned toward: the S2 self has perspectival and participatory knowing that S1 cannot access in advance."
+    },
+    {
+      "id": "neoplatonism",
+      "treatment": "applied",
+      "summary": "Neoplatonism is central to Corbin's formation: his Persian Sufism is deeply shaped by Neoplatonic thought, especially Plotinus, which Corbin reads through Heidegger."
+    },
+    {
+      "id": "having-mode-being-mode",
+      "treatment": "applied",
+      "summary": "Fundamentalism and literalism are identified as expressions of the having mode: they treat the imaginal as something possessed (imaginary) rather than engaged in becoming (imaginal)."
     }
   ],
   "people": [
     {
-      "name": "Henry Corbin",
-      "role": "developed",
-      "summary": "Islamic philosophy scholar and mystical theologian. Recovers imaginal realm against materialist scientism. Integrates Sufi, Gnostic, and Neoplatonic traditions."
+      "id": "corbin",
+      "role": "subject",
+      "summary": "The primary subject: his distinction between imaginary and imaginal, his use of Persian Sufism, his development of Heidegger into gnosis, and his notion of the angel as divine double are all examined."
     },
     {
-      "name": "Meister Eckhart",
-      "role": "referenced",
-      "summary": "Rhineland mystic whose union mysticism parallels Sufi themes in Corbin's work."
+      "id": "meister-eckhart",
+      "role": "discussed",
+      "summary": "Heidegger's commentary on Angelus Silesius's rose poem, which itself interprets Eckhart, opens the episode; Eckhart's 'live without why' is the non-teleological being mode Corbin builds on."
     },
     {
-      "name": "Tom Cheetham",
+      "id": "heidegger",
+      "role": "discussed",
+      "summary": "Heidegger's physis, aletheia, and critique of ontotheology are the backdrop from which Corbin departs; Corbin was one of the first to translate Heidegger into French."
+    },
+    {
+      "id": "la-paul",
+      "role": "discussed",
+      "summary": "Her transformative experience is used to explain the irreducibility of the divine double aspiration to deliberation — one cannot reason one's way to S2 from S1."
+    },
+    {
+      "id": "callard",
+      "role": "discussed",
+      "summary": "Her proleptic rationality and aspiration account is brought in as the analytic philosophical triangulation of the divine double process."
+    },
+    {
+      "id": "plotinus",
       "role": "referenced",
-      "summary": "Contemporary interpreter of Corbin in Western context. Author of trilogy on Corbin's thought."
+      "summary": "Neoplatonism's influence on Persian Sufism, and thus on Corbin, runs through Plotinus; Stang identifies the divine double motif also in Plotinus."
     }
   ],
   "crossRefs": [
-    {"episode": 46, "reason": "Introduces Corbin as prophetic responder to meaning crisis"},
-    {"episode": 47, "reason": "Corbin responds to Heidegger through imaginal participation"},
-    {"episode": 49, "reason": "Jung's psychology parallels Corbin's imaginal realm and sacred psyche"}
-  ],
-  "quotableMoments": [
     {
-      "quote": "The imaginal realm is not imaginary but ontologically real—an intermediate dimension between physical and transcendent.",
-      "context": "Distinguishing Corbin's recovery of imaginal from dismissal as mere imagination or subjective fantasy."
+      "episode": 47,
+      "context": "Heidegger's aletheia, attunement, and gnosis are the foundations on which Corbin builds; this episode develops those into the imaginal and divine double."
     },
     {
-      "quote": "Symbol is participatory vehicle enabling transformation across realms, not reducible to conceptual meaning.",
-      "context": "Emphasizing active role of symbol in gnosis and divine encounter."
+      "episode": 49,
+      "context": "The divine double and aspiration are further developed in connection with Jung's individuation and the sacred second self."
     }
-  ]
+  ],
+  "quotableMoments": []
 }

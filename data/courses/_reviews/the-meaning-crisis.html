@@ -1,0 +1,426 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Meaning Crisis — Mini-course Review</title>
+<style>
+  :root {
+    --bg: #faf7f1; --surface: #ffffff; --elev: #f2ede0;
+    --ink: #1c1a17; --ink-soft: #3a3530; --muted: #6b6660;
+    --border: #e0d9c8; --accent: #8b3a3a; --gold: #b8893c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14120e; --surface:#1c1916; --elev:#25211c;
+      --ink:#ece6d6; --ink-soft:#b8b1a1; --muted:#8a8378;
+      --border:#2e2922; --accent:#d28a7e; --gold:#d4a85a; }
+  }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Inter", system-ui, sans-serif;
+    background: var(--bg); color: var(--ink); margin: 0; line-height: 1.6;
+    -webkit-font-smoothing: antialiased; }
+  .serif { font-family: "EB Garamond", Georgia, serif; }
+  header { padding: 2rem 2.5rem 1rem; border-bottom: 1px solid var(--border); }
+  .back-link { color: var(--muted); font-size: 0.8rem; text-decoration: none; }
+  .back-link:hover { color: var(--accent); }
+  .meta { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin: 0.6rem 0 0.3rem; }
+  h1 { font-family: "EB Garamond", Georgia, serif; font-size: 2.6rem; margin: 0; letter-spacing: -0.01em; font-weight: 500; }
+  .abstract {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.1rem; line-height: 1.65;
+    color: var(--ink-soft); margin: 1rem 0; max-width: 60rem;
+  }
+  .prereqs { font-size: 0.85rem; color: var(--muted); margin-top: 0.6rem; }
+  .prereqs a { color: var(--accent); text-decoration: none; }
+  .prereqs a:hover { text-decoration: underline; }
+  main { max-width: 60rem; margin: 0 auto; padding: 2rem 2.5rem 5rem; }
+  .module {
+    border-top: 1px solid var(--border); padding-top: 2rem; margin-top: 3rem;
+  }
+  .module:first-child { border-top: none; padding-top: 0; margin-top: 0; }
+  .module .num {
+    font-family: ui-monospace, monospace; font-size: 0.78rem;
+    background: var(--gold); color: var(--bg); padding: 0.2rem 0.6rem;
+    border-radius: 99px; display: inline-block; margin-bottom: 0.6rem;
+  }
+  .module h2 {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.9rem; margin: 0;
+    letter-spacing: -0.01em; font-weight: 500; line-height: 1.15;
+  }
+  .module .objective {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic;
+    color: var(--ink-soft); margin: 0.5rem 0 1rem;
+  }
+  section { margin: 1.6rem 0; }
+  section h3 {
+    font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em;
+    color: var(--muted); margin: 0 0 0.6rem;
+  }
+  .passage {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--gold);
+    padding: 0.8rem 1rem; margin: 0.5rem 0; border-radius: 4px;
+  }
+  .passage .src {
+    font-family: ui-monospace, monospace; font-size: 0.72rem;
+    color: var(--accent); margin-bottom: 0.3rem;
+  }
+  .passage .quote {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic;
+    color: var(--ink); font-size: 1rem; line-height: 1.55;
+  }
+  .passage .note { font-size: 0.78rem; color: var(--muted); margin-top: 0.4rem; }
+  .seed {
+    padding: 0.5rem 0; border-left: 2px solid var(--gold); padding-left: 1rem; margin: 0.5rem 0;
+  }
+  .seed .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic; color: var(--ink);
+  }
+  .seed .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.3rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .theme-pill {
+    background: var(--elev); padding: 0.15rem 0.55rem; border-radius: 99px;
+  }
+  .misc {
+    background: var(--elev); padding: 0.7rem 1rem; margin: 0.5rem 0; border-radius: 6px;
+    font-size: 0.9rem;
+  }
+  .misc .label { font-weight: 500; }
+  .misc .label.if { color: var(--ink); }
+  .misc .label.then { color: var(--accent); }
+  .check {
+    background: var(--elev); border: 2px solid var(--gold); padding: 1rem 1.2rem;
+    border-radius: 8px; margin-top: 0.6rem;
+  }
+  .check .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic; font-size: 1.1rem; color: var(--ink);
+  }
+  .check .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.5rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .toc {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    padding: 1rem 1.4rem; margin: 1.5rem 0;
+  }
+  .toc h3 { margin: 0 0 0.4rem; }
+  .toc ol { margin: 0; padding-left: 1.4rem; }
+  .toc li { margin: 0.2rem 0; font-size: 0.92rem; }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+  .approve-bar {
+    position: sticky; bottom: 0;
+    background: var(--bg); border-top: 1px solid var(--border);
+    padding: 0.8rem 2.5rem;
+    display: flex; gap: 0.6rem; justify-content: flex-end;
+  }
+  .btn {
+    padding: 0.55rem 1.2rem; border-radius: 6px; font-size: 0.9rem;
+    border: 1px solid var(--border); background: var(--surface); color: var(--ink-soft);
+    cursor: pointer; font-family: inherit;
+  }
+  .btn.primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+  .btn:hover { transform: translateY(-1px); }
+</style>
+</head><body>
+<header>
+  <a class="back-link" href="index.html">← All course reviews</a>
+  <div class="meta">Mini-course · 4 modules</div>
+  <h1>The Meaning Crisis</h1>
+  <p class="abstract">Vervaeke diagnoses a pervasive cultural-historical phenomenon: modern people experience a profound sense of disconnection — from themselves, each other, the world, and a viable future. The series opens by establishing that this crisis is not merely political or economic but deeply cognitive and historical, rooted in the erosion of meaning-making resources built up since the Axial Age. Students will learn to distinguish the three interlocking crises (meaning, environmental, socioeconomic), identify the symptomatology (rising suicide, nihilism, bullshit), and understand the two-legged structure of the problem: historical factors that have dismantled Western meaning-making traditions, and perennial vulnerabilities endemic to the same relevance-realization machinery that makes humans adaptively intelligent. This framing concept is the entry point for the entire series.</p>
+  
+</header>
+<main>
+  <div class="toc">
+    <h3>Modules</h3>
+    <ol>
+      <li><a href="#m-what-is-the-crisis">What Is the Meaning Crisis?</a></li><li><a href="#m-three-interlocking-crises">Three Interlocking Crises</a></li><li><a href="#m-historical-drivers">Historical Drivers of the Meaning Crisis</a></li><li><a href="#m-perennial-dimension">The Perennial Dimension</a></li>
+    </ol>
+  </div>
+  
+    <article class="module" id="m-what-is-the-crisis">
+      <span class="num">Module 1</span>
+      <h2>What Is the Meaning Crisis?</h2>
+      <p class="objective">Articulate the meaning crisis as a pervasive cultural-cognitive phenomenon with specific, measurable symptoms distinct from political or economic problems.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 0 · What is the Awakening from the Meaning Crisis Series</div>
+            <div class="quote">&ldquo;today there is an increase of people feeling very disconnected from themselves, from each other, from the world, from a viable and foreseeable future.&rdquo;</div>
+            
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 0 · What is the Awakening from the Meaning Crisis Series</div>
+            <div class="quote">&ldquo;is this increasing sense of bullshit. Bullshit is on the increase. It's more and more pervasive throughout our lives and there's this sense of drowning in this old ocean of bullshit.&rdquo;</div>
+            
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 1 · Introduction</div>
+            <div class="quote">&ldquo;This is gonna be an idea that our culture is experiencing a profound 'meaning crisis'. A 'crisis in meaning'.&rdquo;</div>
+            
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 1 · Introduction</div>
+            <div class="quote">&ldquo;Ignorance is a lack of knowledge. Foolishness is a lack of wisdom. Foolishness is when your capacity to engage your agency, pursue your goals is undermined and threatened by the self-deception and the self-destructive behavior that is a perennial vulnerability to your cognition.&rdquo;</div>
+            
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">When people say they feel like their life lacks meaning, what do they seem to mean — and how is that different from saying they lack information or money?</div>
+            <div class="themes"><span class="theme-pill">disconnection from self and world</span><span class="theme-pill">not a resource problem</span><span class="theme-pill">something about belonging and significance</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke claims the rise of bullshit, suicide rates, and nihilism are all symptoms of the same underlying cause. What might unify such different phenomena?</div>
+            <div class="themes"><span class="theme-pill">common cognitive-historical root</span><span class="theme-pill">erosion of meaning-making practices</span><span class="theme-pill">loss of religio</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Is the meaning crisis something new, or could it have happened in any era? What makes the present distinctive?</div>
+            <div class="themes"><span class="theme-pill">historical dismantling of axial traditions</span><span class="theme-pill">perennial dimension always present</span><span class="theme-pill">modern removal of safeguards</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke distinguishes foolishness from ignorance. What is at stake in that distinction for understanding the meaning crisis?</div>
+            <div class="themes"><span class="theme-pill">wisdom vs knowledge</span><span class="theme-pill">character not information</span><span class="theme-pill">self-deception endemic to adaptive machinery</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> The meaning crisis is caused primarily by social media or political dysfunction.</div>
+              <div><span class="label then">Then:</span> Vervaeke argues these are symptoms or co-drivers of a deeper cognitive-historical-cultural crisis rooted in the erosion of axial-age meaning-making, not its causes.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> The meaning crisis is a crisis of religious belief — people just need to believe in God again.</div>
+              <div><span class="label then">Then:</span> The crisis is a crisis of religio (participatory binding to the world) and of the practices that cultivated it; reducing it to a loss of doctrine misses the cognitive depth of the problem.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">How would you explain to a skeptical friend why rising suicide rates, the spread of conspiracy theories, and the popularity of zombie apocalypse films might all have the same deep cause?</div>
+          <div class="themes"><span class="theme-pill">loss of connectedness</span><span class="theme-pill">erosion of meaning-making machinery</span><span class="theme-pill">cultural symptomatology</span><span class="theme-pill">cognitive-historical root</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-three-interlocking-crises">
+      <span class="num">Module 2</span>
+      <h2>Three Interlocking Crises</h2>
+      <p class="objective">Explain how the meaning crisis is deeply interdependent with the environmental and socioeconomic crises, and why addressing any one requires addressing their mutual entanglement.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 1 · Introduction</div>
+            <div class="quote">&ldquo;the meaning crisis is interacting with other crisies: the environmental crisis. The socio-economic crisis.&rdquo;</div>
+            
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 0 · What is the Awakening from the Meaning Crisis Series</div>
+            <div class="quote">&ldquo;these problems are deeper than just social media problems, political problems, even economic problems. They're deeply historical, cultural, cognitive problems.&rdquo;</div>
+            
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 1 · Introduction</div>
+            <div class="quote">&ldquo;What is this 'meaning'? Why do we hunger for it? And how do we cultivate the wisdom to realize it?&rdquo;</div>
+            
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Why might solving the environmental crisis require more than better technology or policy — what role could the meaning crisis play in whether societies act on climate?</div>
+            <div class="themes"><span class="theme-pill">hyperbolic discounting</span><span class="theme-pill">disconnection from world</span><span class="theme-pill">modal confusion</span><span class="theme-pill">short-term salience overriding long-term significance</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Some people argue meaning crises are luxuries of the prosperous — that poverty is the real problem. How might Vervaeke respond?</div>
+            <div class="themes"><span class="theme-pill">meaning crisis crosses socioeconomic lines</span><span class="theme-pill">deep interdependence of crises</span><span class="theme-pill">cognitive-historical not merely economic</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">What would it look like if the three crises were addressed independently versus together? Would addressing one without the others succeed?</div>
+            <div class="themes"><span class="theme-pill">mutual entanglement</span><span class="theme-pill">need for integrated response</span><span class="theme-pill">worldview transformation required</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> The meaning crisis is independent of material conditions and can be solved purely through spiritual or psychological practices.</div>
+              <div><span class="label then">Then:</span> Vervaeke argues the three crises — meaning, environmental, socioeconomic — are deeply interdependent; any genuine response must address their mutual entanglement.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">In your own words, why does Vervaeke insist on talking about three crises rather than treating them as separate problems with separate solutions?</div>
+          <div class="themes"><span class="theme-pill">interdependence</span><span class="theme-pill">shared cognitive-historical root</span><span class="theme-pill">integrated response needed</span><span class="theme-pill">meaning crisis as driver of the others</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-historical-drivers">
+      <span class="num">Module 3</span>
+      <h2>Historical Drivers of the Meaning Crisis</h2>
+      <p class="objective">Identify the key historical events — Protestant Reformation, scientific revolution, modernity — that dismantled the nomological, normative, and narrative orders sustaining Western meaning-making.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 0 · What is the Awakening from the Meaning Crisis Series</div>
+            <div class="quote">&ldquo;these problems are deeper than just social media problems, political problems, even economic problems. They're deeply historical, cultural, cognitive problems.&rdquo;</div>
+            
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 1 · Introduction</div>
+            <div class="quote">&ldquo;We tend to have reduced all of the ways that the ancients talked about how we know to one thing: To know is to have a special kind of belief. And so we are very belief centric which is why we are so focused as a culture on ideologies.&rdquo;</div>
+            
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 45 · The Nature of Wisdom</div>
+            <div class="quote">&ldquo;since the axial revolution it is just crucially connected to the project of meaning in life.&rdquo;</div>
+            
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">If the scientific revolution was genuinely a triumph of knowledge, how can it also be part of the origin of a meaning crisis?</div>
+            <div class="themes"><span class="theme-pill">collapse of perspectival and participatory knowing</span><span class="theme-pill">propositional knowing became the only legitimate form</span><span class="theme-pill">loss of religio</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">What did people in medieval Europe have that modern secular people lack, in terms of meaning-making resources — and what did they lack that we have?</div>
+            <div class="themes"><span class="theme-pill">three interlocking orders (nomological, normative, narrative)</span><span class="theme-pill">worldview attunement</span><span class="theme-pill">we have factual knowledge they lacked</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke argues the meaning crisis has a 'historical leg' — specific events that caused it — and a 'perennial leg' — vulnerabilities built into our machinery. Why do we need both legs to explain the crisis?</div>
+            <div class="themes"><span class="theme-pill">historical alone doesn't explain why all cultures face meaning problems</span><span class="theme-pill">perennial alone doesn't explain why now is worse</span><span class="theme-pill">two-pronged response needed</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> The meaning crisis is a recent phenomenon caused by specific modern technologies like smartphones.</div>
+              <div><span class="label then">Then:</span> Vervaeke traces the roots to the Protestant Reformation and scientific revolution — centuries before smartphones — as they dismantled the integrated axial-age worldview.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> The meaning crisis is unique to modernity; ancient people didn't face it.</div>
+              <div><span class="label then">Then:</span> The perennial problems are endemic to the very machinery of relevance realization and have always been a threat; what modernity did was remove the historical safeguards that wisdom traditions built.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">What would have to change — in worldview, in practices, in cultural resources — for a society to genuinely begin awakening from the meaning crisis, rather than just treating its symptoms?</div>
+          <div class="themes"><span class="theme-pill">worldview rearticulation</span><span class="theme-pill">ecology of practices</span><span class="theme-pill">recover religio</span><span class="theme-pill">address both historical and perennial dimensions</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-perennial-dimension">
+      <span class="num">Module 4</span>
+      <h2>The Perennial Dimension</h2>
+      <p class="objective">Explain the perennial dimension of the meaning crisis — that the same cognitive machinery enabling adaptive intelligence also generates endemic self-deception — and why this makes the crisis impossible to solve by information alone.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 1 · Introduction</div>
+            <div class="quote">&ldquo;the very same machinery that makes you so adaptive intelligent is the same machinery that makes you susceptible to foolishness.&rdquo;</div>
+            
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 1 · Introduction</div>
+            <div class="quote">&ldquo;There is much more to knowing than having justified true beliefs.&rdquo;</div>
+            
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 1 · Introduction</div>
+            <div class="quote">&ldquo;wisdom is about realizing in both senses of the word (becoming aware and making real), wisdom is about realizing meaning in life in a profound way.&rdquo;</div>
+            
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">If self-deception is a perennial feature of the machinery that makes us intelligent, does that mean the meaning crisis can never be fully solved?</div>
+            <div class="themes"><span class="theme-pill">not solved once and for all</span><span class="theme-pill">requires ongoing cultivation</span><span class="theme-pill">developmental process not final state</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">What does it mean for knowing to be 'more than having justified true beliefs' — and why does that matter for solving the meaning crisis?</div>
+            <div class="themes"><span class="theme-pill">four kinds of knowing</span><span class="theme-pill">procedural perspectival participatory beyond propositional</span><span class="theme-pill">meaning requires transformation not just information</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke uses the word 'wisdom' where others might say 'therapy' or 'education'. Why wisdom specifically?</div>
+            <div class="themes"><span class="theme-pill">wisdom addresses self-deception not just ignorance</span><span class="theme-pill">involves character transformation</span><span class="theme-pill">realizing meaning in life</span><span class="theme-pill">more than information or skill</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Providing people with more factual information about the meaning crisis will help them address it.</div>
+              <div><span class="label then">Then:</span> Because the crisis is a crisis of religio and of the four kinds of knowing — not just propositional knowing — information alone cannot address it; what is needed is transformation of character, perspective, and participation.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">In what sense does Vervaeke argue that wisdom is the response to the meaning crisis — not therapy, not politics, not religion alone?</div>
+          <div class="themes"><span class="theme-pill">wisdom addresses self-deception structurally</span><span class="theme-pill">integrates four kinds of knowing</span><span class="theme-pill">realization in both senses</span><span class="theme-pill">ecology of practices not just beliefs</span></div>
+        </div>
+      </section>
+    </article>
+  
+</main>
+<div class="approve-bar">
+  <button class="btn">Request changes</button>
+  <button class="btn primary">Approve for shipping</button>
+</div>
+</body></html>

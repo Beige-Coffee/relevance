@@ -1,50 +1,76 @@
 {
   "num": 32,
   "slug": "rr-brain-insight-consciousness",
-  "title": "RR in the Brain, Insight, and Consciousness",
-  "essence": "Demonstrating the plausibility of naturalizing relevance realization within neuroscience, Vervaeke presents evidence for self-organizing criticality (SOC) and small-world networks (SWN) as neural implementations of the compression-particularization dynamics. Neuronal synchrony-asynchrony cycling reflects the balance between integration and differentiation; small-world topology optimizes efficiency-resiliency trade-offs. Insight emerges when neural avalanches restructure regular networks into small-world configurations—sudden enhancement of cognitive optimization. Consciousness appears functionally tied to maintaining small-world network organization and relevance realization machinery. By integrating firing patterns (SOC), wiring patterns (SWN), and the salience landscaping of perspectival knowing, the episode establishes a structural-functional account of consciousness grounded in relevance realization's neurobiological substrate.",
+  "title": "RR, the Brain, Insight, and Consciousness",
+  "essence": "Episode 32 moves from the abstract theory of relevance realization to its proposed neural implementation and then to its role in two of the most challenging phenomena in cognitive science: insight and consciousness. For the implementation, Vervaeke draws on the science of complex systems, proposing that the brain operates at or near a point of self-organized criticality (SOC) — the state poised between order and randomness that maximizes information integration and sensitivity to perturbation. Such a critical system naturally generates small-world networks (SWN): highly clustered local modules with sparse long-range connections that allow rapid global coordination. The episode's central claim is that a moment of insight — the sudden restructuring of a problem — corresponds precisely to a phase transition in which the brain's current connectivity pattern (operating in a regular, clustered regime) is disrupted and the system briefly enters a small-world configuration that integrates previously unconnected information clusters. On consciousness, Vervaeke argues that its core function is to perform relevance realization within perspectival knowing: consciousness is not the seat of all cognition but the workspace where the organism calibrates what to pay attention to, binding agent and arena into a coherent salience landscape. Heidegger's notion of caring is invoked to show that this calibration is always already interested, participatory, and existentially loaded.",
   "keyClaims": [
-    "Self-organizing criticality describes how neurons oscillate between synchrony and asynchrony, implementing compression and particularization.",
-    "Small-world networks in the brain optimally balance efficiency and resiliency, and are associated with higher intelligence.",
-    "Insight involves rapid conversion of regular networks into small-world configurations via neural avalanches.",
-    "Consciousness appears functionally dependent on maintaining small-world network organization and optimal relevance realization.",
-    "Salience landscaping—the dynamic modulation of what stands out—is the core phenomenology and functionality of consciousness."
+    "The brain operates at or near self-organized criticality, which maximizes information integration and the capacity for rapid global coordination.",
+    "Small-world network topology — clustered modules with sparse long-range hubs — is the structural signature of a brain optimized for RR.",
+    "Insight is a phase transition from regular to small-world connectivity, allowing previously unconnected information clusters to be rapidly integrated.",
+    "The primary function of consciousness is relevance realization within perspectival knowing — setting the criterion for what is salient.",
+    "Caring, in Heidegger's sense, is constitutive of the RR that underwrites consciousness: cognition is always already interested."
   ],
   "concepts": [
-    {"name": "self-organizing criticality", "treatment": "introduced", "summary": "Neural systems cycling between ordered (synchronous) and disordered (asynchronous) states, enabling adaptive flexibility."},
-    {"name": "small world networks", "treatment": "introduced", "summary": "Network topology with short average path lengths and high clustering; optimal for balancing efficiency and resiliency."},
-    {"name": "synchrony", "treatment": "introduced", "summary": "Neurons firing together; implements compression and integration of information."},
-    {"name": "asynchrony", "treatment": "introduced", "summary": "Neurons firing independently; introduces variation and differentiation."},
-    {"name": "neural avalanche", "treatment": "introduced", "summary": "Cascading desynchronization that breaks up overly ordered patterns, enabling restructuring."},
-    {"name": "insight", "treatment": "developed", "summary": "Sudden optimization of cognitive fitness when SOC restructures networks into small-world configuration."},
-    {"name": "salience network", "treatment": "introduced", "summary": "Brain network mediating what is salient, stands out, and captures attention."},
-    {"name": "salience landscaping", "treatment": "developed", "summary": "Dynamic multi-dimensional sculpting of what stands out, with aspectuality, centrality, and temporality."},
-    {"name": "consciousness", "treatment": "developed", "summary": "Grounded in relevance realization and small-world network organization; phenomenology includes hereness, nowness, togetherness."},
-    {"name": "perspectival knowing", "treatment": "developed", "summary": "Consciousness as dynamic situational awareness; grounded in participatory knowing and afforded by salience landscaping."},
-    {"name": "flow", "treatment": "referenced", "summary": "State of optimal consciousness where salience landscaping and cognitive optimization are maximally aligned."}
+    {
+      "id": "relevance-realization",
+      "treatment": "developed"
+    },
+    {
+      "id": "insight",
+      "treatment": "developed"
+    },
+    {
+      "id": "consciousness",
+      "treatment": "developed"
+    },
+    {
+      "id": "flow",
+      "treatment": "referenced"
+    },
+    {
+      "id": "salience-landscape",
+      "treatment": "applied"
+    },
+    {
+      "id": "participatory-knowing",
+      "treatment": "applied"
+    },
+    {
+      "id": "4e-cognition",
+      "treatment": "developed"
+    }
   ],
   "people": [
-    {"name": "Per Bak", "role": "referenced", "summary": "Originated self-organized criticality concept; foundational to understanding neural dynamics."},
-    {"name": "Thatcher et al.", "role": "referenced", "summary": "2008-2009 research linking neural self-organization to intelligence measures."},
-    {"name": "Hess and Gross", "role": "referenced", "summary": "2014 comprehensive review establishing self-organizing criticality as fundamental neural property."},
-    {"name": "Langer et al.", "role": "referenced", "summary": "2012-2013 research showing small-world network organization correlates with working memory and intelligence."},
-    {"name": "Hilger et al.", "role": "referenced", "summary": "2016 research on efficient hubs in salience network correlation with general intelligence."},
-    {"name": "Cosmeliet al.", "role": "referenced", "summary": "2004 binocular rivalry experiments linking consciousness to neural synchrony-asynchrony transitions."},
-    {"name": "Monti et al.", "role": "referenced", "summary": "2013 research showing consciousness linked to small-world network formation during anesthesia."},
-    {"name": "Stephen and Dixon", "role": "referenced", "summary": "Work on disruptive strategies and entropy in insight; relates insight to SOC."},
-    {"name": "Schilling", "role": "referenced", "summary": "2005 mathematical model linking insight to conversion from regular to small-world networks."},
-    {"name": "Heidegger", "role": "referenced", "summary": "Foundational caring and dasein concepts resonant with relevance realization understanding."},
-    {"name": "Dreyfus", "role": "referenced", "summary": "Third-generation cognitive science; emphasizes optimal gripping and being-in-the-world."},
-    {"name": "Read Montague", "role": "referenced", "summary": "Neuroscientist on caring as fundamental difference between humans and computers."}
+    {
+      "id": "heidegger",
+      "role": "discussed"
+    },
+    {
+      "id": "dreyfus",
+      "role": "discussed"
+    },
+    {
+      "id": "varela",
+      "role": "referenced"
+    }
   ],
   "crossRefs": [
-    {"episode": 31, "context": "Previous episode on dynamical-developmental processes; this shows their neural implementation."},
-    {"episode": 6, "context": "Earlier episode on Darwin; neural dynamics parallel evolutionary dynamics."},
-    {"episode": 33, "context": "Next episode applies this machinery to understanding spirituality and wonder."}
+    {
+      "episode": 31,
+      "reason": "Transjective relations and developmental complexification provide the theoretical backdrop"
+    },
+    {
+      "episode": 9,
+      "reason": "Insight first analyzed; here given a neural implementation"
+    },
+    {
+      "episode": 33,
+      "reason": "Consciousness-as-RR feeds directly into the account of religio"
+    },
+    {
+      "episode": 38,
+      "reason": "4E cognition and emergence revisited as worldview response to the meaning crisis"
+    }
   ],
-  "quotableMoments": [
-    {"quote": "The more flexibility there is in this synchrony-asynchrony, the more intelligent you are; the more it demonstrates dynamic evolve-ability.", "context": "Linking neural dynamics directly to intelligence measures."},
-    {"quote": "It is plausible that we will be able to increasingly explain Relevance Realization in terms of the firing and the wiring.", "context": "Convergence of neuroscience evidence on firing (SOC) and wiring (SWN)."},
-    {"quote": "You have the hereness, the nowness, the togetherness—the salience, the Perspectival Knowing—how it is centred on you. A lot of the phenomenology of consciousness is explained along with the functionality.", "context": "On the three dimensions of salience landscaping and phenomenology of consciousness."}
-  ]
+  "quotableMoments": []
 }

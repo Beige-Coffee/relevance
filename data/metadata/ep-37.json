@@ -1,46 +1,84 @@
 {
   "num": 37,
   "slug": "reverse-engineering-enlightenment-part-2",
-  "title": "Reverse Engineering Enlightenment: Part 2",
-  "essence": "Continuing the practical response to perennial problems, Vervaeke systematically presents psychotechnologies for addressing each: counteractive dynamical systems like the eightfold path combat parasitic processing; sati (mindfulness) restores being-mode and counters modal confusion; flow state dynamically integrates the reflectiveness gap; prajña (intuitive wisdom) overcomes perspectival clash and absurdity through non-dual scaling; inner dialogue via internalizing the sage addresses anxiety; communitas and authentic discourse cultivate connectedness against alienation; and gnosis rooted in higher states of consciousness addresses existential entrapment. All are framed within wisdom—a meta-virtue coordinating individual virtues. Enlightenment emerges not as supernatural attainment but as reliable, scientifically-grounded amelioration of perennial problems through integrated ecology of practices.",
+  "title": "Reverse Engineering Enlightenment, Part 2",
+  "essence": "Episode 37 applies the perennial problems framework systematically by mapping each of the seven problems to a corresponding psychotechnology drawn from the world's wisdom traditions, showing that the traditions independently converged on solutions to the same set of structural vulnerabilities. Parasitic processing is addressed by a counteractive dynamical system — the Buddhist Eightfold Path, which Vervaeke analyses not as a list of rules but as an interlocking set of practices that disrupt self-reinforcing cognitive spirals at multiple points simultaneously. Modal confusion — the confusion of being-needs with having-needs — is addressed by sati (mindfulness in its attentional-scaling sense), which cultivates the capacity to recognize when one is in the having-mode and to shift into the being-mode. The reflectiveness gap — knowing without being — is addressed by flow: the state in which procedural and perspectival knowing are fully integrated with participatory knowing, eliminating the gap between knowing and doing. Absurdity is addressed by prajñā (Buddhist) or scientia intuitiva (Spinoza): a form of non-inferential, participatory knowing that resolves the perspectival clash by changing one's relationship to the conflict rather than arguing one side into silence. Anxiety is addressed by the cultivation of inner dialogue — internalizing the sage in the Stoic manner or the Forms in the Platonic manner — which transforms self-examination from a torment into a resource. Alienation is addressed by communitas (Victor Turner's term for the liminal, egalitarian, anti-structural togetherness that underlies genuine community). Existential entrapment is addressed by gnosis empowered by higher states of consciousness: the participatory knowledge that breaks the worldview lock by actually enacting an alternative salience landscape.",
   "keyClaims": [
-    "Counteractive dynamical systems (like eightfold path) address parasitic processing through interdependent, mutually-reinforcing practices.",
-    "Sati, flow, prajña, inner dialogue, communitas, and gnosis form an ecology of psychotechnologies targeting specific perennial problems.",
-    "Prajña achieves non-duality by simultaneously scaling maximally inward and outward, resolving perspectival clash.",
-    "Wisdom is the meta-virtue that coordinates cultivating and integrating all psychotechnologies for reliable optimization.",
-    "Enlightenment is definable, naturalizable, and achievable through disciplined cultivation of this ecology of practices."
+    "Each perennial problem has a traditional psychotechnology that addresses it: the Eightfold Path for parasitic processing, sati for modal confusion, flow for reflectiveness gap, prajñā/scientia intuitiva for absurdity, inner dialogue for anxiety, communitas for alienation, gnosis/HSC for existential entrapment.",
+    "The Eightfold Path is best understood as a counteractive dynamical system: it disrupts parasitic processing at multiple nodes simultaneously, preventing any single practice from being captured by the spiral.",
+    "Prajñā and scientia intuitiva are convergent solutions to the same problem: absurdity requires a shift in the mode of knowing, not better arguments within the current mode.",
+    "Communitas is Victor Turner's term for the egalitarian, liminal togetherness that underlies authentic community — the psychotechnology for alienation.",
+    "These psychotechnologies must be cultivated as an ecology — a mutually supporting set — not as isolated practices."
   ],
   "concepts": [
-    {"name": "counteractive dynamical system", "treatment": "developed", "summary": "Interdependent set of practices that reinforce each other to counter parasitic cycles; exemplified by eightfold path."},
-    {"name": "sati", "treatment": "developed", "summary": "Mindfulness practice remembering being-mode; access to participatory knowing beyond conceptual overlay."},
-    {"name": "flow", "treatment": "developed", "summary": "State dynamically integrating immersion and reflective flexibility; resolves reflectiveness gap through optimal engagement."},
-    {"name": "prajña", "treatment": "developed", "summary": "Intuitive wisdom state achieving non-duality through simultaneous maximal inward and outward scaling; resolves absurdity."},
-    {"name": "scientia intuitiva", "treatment": "introduced", "summary": "Spinoza's term for deeply intuitive knowing; interpenetration of individual thought with cosmic perspective."},
-    {"name": "non-duality", "treatment": "introduced", "summary": "State where maximal making-frame and breaking-frame are dynamically optimal; overcomes perspectival clash."},
-    {"name": "indwelling", "treatment": "introduced", "summary": "Polanyi's concept; practicing to see as the sage does, inhabiting another's perspective through serious play."},
-    {"name": "communitas", "treatment": "developed", "summary": "Collective flow and genuine communion; shared attention and spirit creating distributed cognition and collective emergence."},
-    {"name": "authentic discourse", "treatment": "introduced", "summary": "Communication practice recovering real dialogue and understanding; addresses alienation through genuine relating."},
-    {"name": "gnosis", "treatment": "developed", "summary": "Direct transformative knowing through ongoing mythos and higher states of consciousness; addresses existential entrapment."}
+    {
+      "id": "the-perennial-problems",
+      "treatment": "developed"
+    },
+    {
+      "id": "reverse-engineering-enlightenment",
+      "treatment": "developed"
+    },
+    {
+      "id": "ecology-of-practices",
+      "treatment": "developed"
+    },
+    {
+      "id": "mindfulness",
+      "treatment": "developed"
+    },
+    {
+      "id": "flow",
+      "treatment": "applied"
+    },
+    {
+      "id": "gnosis",
+      "treatment": "applied"
+    },
+    {
+      "id": "parasitic-processing",
+      "treatment": "applied"
+    },
+    {
+      "id": "modal-confusion",
+      "treatment": "applied"
+    }
   ],
   "people": [
-    {"name": "J.D. Velleman", "role": "referenced", "summary": "On solving reflectiveness gap through Daoism and flow; dynamic integration rather than static balance."},
-    {"name": "Spinoza", "role": "discussed", "summary": "Scientia intuitiva and Ethics as extended meditation; recovering sacredness within Cartesian worldview."},
-    {"name": "D.T. Suzuki", "role": "referenced", "summary": "On prajña and simultaneous scaling up and down; perspective interpenetration in non-dual wisdom."},
-    {"name": "Meister Eckhart", "role": "referenced", "summary": "Neoplatonic Christian mystic; eye of seeing and being seen as reciprocal cosmic perspective."},
-    {"name": "Michael Polanyi", "role": "referenced", "summary": "Indwelling; proceeding through the tool toward participatory knowing."},
-    {"name": "L.A. Paul", "role": "referenced", "summary": "Transformative experience; cannot reason through epistemic gaps; need anagoge."},
-    {"name": "Agnes Callard", "role": "referenced", "summary": "Aspiration; overcoming existential ignorance through developmental process of becoming."},
-    {"name": "Victor Turner", "role": "referenced", "summary": "Communitas; unstructured community experiencing shared spirit and equality."},
-    {"name": "Jordan Hall", "role": "referenced", "summary": "Coherence; freeing communication from cultural grammar; distributed cognition and collective intelligence."}
+    {
+      "id": "siddhartha-gautama",
+      "role": "discussed"
+    },
+    {
+      "id": "marcus-aurelius",
+      "role": "referenced"
+    },
+    {
+      "id": "epictetus",
+      "role": "referenced"
+    },
+    {
+      "id": "plato",
+      "role": "referenced"
+    }
   ],
   "crossRefs": [
-    {"episode": 36, "context": "Previous episode identified perennial problems; this provides psychotechnologies to address each."},
-    {"episode": 38, "context": "Next episode situates these practices within wisdom framing and 4E cognitive science worldview attunement."},
-    {"episode": 32, "context": "Earlier neural basis of consciousness; small-world networks and flow states grounded in brain dynamics."}
+    {
+      "episode": 36,
+      "reason": "Perennial problems introduced; this episode maps them to solutions"
+    },
+    {
+      "episode": 9,
+      "reason": "Mindfulness and flow first analyzed; here applied as specific solutions"
+    },
+    {
+      "episode": 25,
+      "reason": "Gnosticism and gnosis as response to worldview entrapment"
+    },
+    {
+      "episode": 38,
+      "reason": "Ecology of psychotechnologies placed in wisdom framing and historical context"
+    }
   ],
-  "quotableMoments": [
-    {"quote": "The goldsmith has to heat up the gold, shape it, and look at it—but not just one thing. Looking, heating, shaping—these are complementary. Together they produce wieldy gold that extends capacity.", "context": "Analogy for ecology of psychotechnologies with complementary strengths and weaknesses."},
-    {"quote": "You're simultaneously as deeply in and as deeply out, as deeply down and as deeply up as you can be. You're at maximal breaking frame and maximal making frame and they are optimally dynamically integrated.", "context": "Non-dual state achieved through prajña; resolution of perspectival clash."},
-    {"quote": "There is a collective that emerges there that takes your cognition and everybody else's in places that you can't go individually. You participate in that, but you don't make it.", "context": "Communitas as distributed cognition exceeding individual capacity."}
-  ]
+  "quotableMoments": []
 }

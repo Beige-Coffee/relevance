@@ -1,92 +1,53 @@
 {
   "num": 0,
   "slug": "intro",
-  "title": "What is the Awakening from the Meaning Crisis Series",
-  "essence": "This introductory episode frames the meaning crisis as a profound convergence of mental health, environmental, political, and cultural crises rooted in a deep loss of meaning in Western life. Vervaeke introduces the series' central thesis: that we are experiencing a crisis in meaning expressed through rising anxiety, depression, despair, and a pervasive sense of bullshit. Rather than isolated social or economic problems, this is a deeply historical, cultural, and cognitive problem requiring penetration into our intellectual and spiritual heritage. The series will draw from ancient figures like Socrates, Plato, and Aristotle, from Buddhism and the Buddha, and from modern thinkers, exploring shamanism, altered states of consciousness, psychedelics, and the nature of wisdom itself. The overarching project is to understand how we became disconnected from meaning and how we might awaken from this crisis through careful, rigorous investigation of the cognitive and cultural machinery underlying human meaning-making.",
+  "title": "Introduction",
+  "essence": "Vervaeke opens the lecture series by framing the meaning crisis as the defining existential problem of the modern West — not a medical or political problem but a structural breakdown in the machinery by which human beings make sense of themselves and their world. He distinguishes feeling that life is meaningful from life actually being meaningful, insisting the lecture series will pursue the second, harder question. To do so, he promises to trace the historical and cognitive roots of the crisis: how a set of transformations beginning in ancient Greece, accelerating through the Scientific Revolution, and culminating in late modernity progressively dismantled the practices, worldviews, and self-understanding that once allowed people to situate themselves within a larger order. He emphasizes that recovering meaning will require not nostalgia but a rigorous, interdisciplinary engagement with cognitive science, philosophy, and the wisdom traditions. The series is framed as an exercise in what Vervaeke will later call 'reverse-engineering enlightenment' — understanding the machinery of human flourishing precisely enough to begin rebuilding it.",
   "keyClaims": [
-    "We are in the midst of a meaning crisis expressed through rising mental health issues, disconnection from reality, and ubiquitous bullshit",
-    "This meaning crisis is deeply historical and cultural, not merely a product of social media or economics",
-    "The solution requires reaching into our intellectual and spiritual past to salvage resources for transformation",
-    "Understanding meaning requires examining altered states of consciousness, shamanism, and wisdom traditions",
-    "Awakening from the meaning crisis requires transformations in our cognition, culture, and communities"
+    "The meaning crisis is not primarily a psychological or political problem but a structural failure in how modern humans relate to themselves and reality.",
+    "Feeling meaningful and being meaningful are distinct; this series pursues the latter through rigorous historical and cognitive analysis.",
+    "Understanding the meaning crisis requires tracing intellectual and spiritual transformations from ancient Greece through modernity.",
+    "Recovering meaning demands engagement with cognitive science and the wisdom traditions together, not retreat to pre-modern worldviews."
   ],
   "concepts": [
     {
-      "name": "meaning crisis",
+      "id": "the-meaning-crisis",
       "treatment": "introduced",
-      "summary": "A fundamental cultural and cognitive crisis in which people feel disconnected from meaning, self, each other, and the world."
+      "summary": "Named and framed as the central subject of the series — a structural breakdown in meaning-making that defines the modern West."
     },
     {
-      "name": "wisdom",
+      "id": "reverse-engineering-enlightenment",
       "treatment": "introduced",
-      "summary": "A central concern of the series, to be understood through history, psychology, and cognitive science."
+      "summary": "The series' governing method: understanding the cognitive and historical machinery of human flourishing well enough to begin reconstructing it."
     },
     {
-      "name": "self transcendence",
-      "treatment": "introduced",
-      "summary": "The ability to transcend narrow self-interest, central to meaning and wisdom."
-    },
-    {
-      "name": "altered states of consciousness",
+      "id": "wisdom",
       "treatment": "referenced",
-      "summary": "States beyond normal waking consciousness accessed through shamanism, meditation, and mystical experience."
+      "summary": "Invoked as the goal of the inquiry — the series will draw on wisdom traditions as data for understanding meaning."
     },
     {
-      "name": "psychedelic experience",
+      "id": "the-perennial-problems",
       "treatment": "referenced",
-      "summary": "Transformative altered states accessed through psychedelics, with therapeutic potential."
-    },
-    {
-      "name": "awakening",
-      "treatment": "introduced",
-      "summary": "The central metaphor of the series for transformative experiences that restore meaning and connect us to reality."
+      "summary": "The series is framed as addressing perennial problems of meaning, self-transcendence, and flourishing that recur across cultures and eras."
     }
   ],
   "people": [
     {
-      "name": "Socrates",
+      "id": "leo-ferraro",
       "role": "referenced",
-      "summary": "Ancient Greek philosopher central to the Western tradition of wisdom and self-knowledge."
+      "summary": "Co-creator of the series, acknowledged in the opening."
     },
     {
-      "name": "Plato",
+      "id": "christopher-mastropietro",
       "role": "referenced",
-      "summary": "Student of Socrates whose works will be foundational to understanding wisdom and meaning."
+      "summary": "Co-creator of the series, acknowledged in the opening."
     },
     {
-      "name": "Aristotle",
+      "id": "filip-miscevic",
       "role": "referenced",
-      "summary": "Ancient Greek philosopher whose work on meaning and flourishing will be discussed."
-    },
-    {
-      "name": "Jesus of Nazareth",
-      "role": "referenced",
-      "summary": "Religious figure whose teachings relate to meaning and transformation."
-    },
-    {
-      "name": "Siddhartha Gautama",
-      "role": "referenced",
-      "summary": "The Buddha, whose insights into suffering and meaning are central to the series."
-    },
-    {
-      "name": "Carl Jung",
-      "role": "referenced",
-      "summary": "Modern psychologist whose work on consciousness and meaning will be referenced."
+      "summary": "Co-creator of the series, acknowledged in the opening."
     }
   ],
   "crossRefs": [],
-  "quotableMoments": [
-    {
-      "quote": "We are in the midst of a mental health crisis. There are increases in anxiety disorders, depression, despair, suicide rates are going up in North America, parts of Europe, other parts of the world.",
-      "context": "Describing the manifestations of the meaning crisis in contemporary society"
-    },
-    {
-      "quote": "The meaning crisis expresses itself and many people are giving voice to this in many different ways, is this increasing sense of bullshit.",
-      "context": "Key manifestation of the meaning crisis in everyday life"
-    },
-    {
-      "quote": "Getting out of this problem is going to be tremendously difficult. It's going to require significant transformations in our cognition, our culture, our communities, and in order to move forward in such a difficult manner, we have to reach more deeply into our past to salvage the resources we can for such an amazing challenge.",
-      "context": "Framing the series' approach and scope"
-    }
-  ]
+  "quotableMoments": []
 }

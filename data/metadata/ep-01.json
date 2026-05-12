@@ -2,101 +2,107 @@
   "num": 1,
   "slug": "introduction",
   "title": "Introduction",
-  "essence": "Episode 1 establishes the foundational argument that a confluence of convergent phenomena—the mindfulness revolution, renewed interest in wisdom and stoicism, psychedelics, and happiness research—all point to a unified meaning crisis. Vervaeke traces the historical origins of human meaning-making to the Upper Paleolithic transition, when humans developed art, music, calendars, and enhanced cognition through shamanic practices and ritual. These shamanic psycho-technologies altered consciousness to generate insight and wisdom. The episode introduces key concepts: exaptation (repurposing evolved traits), psycho-technologies (tools that enhance cognition), and the shamanic role as a cultural bearer of wisdom. Through examination of trading rituals, initiation rituals, and shamanic practices, Vervaeke argues that meaning-making and wisdom cultivation are not recent concerns but foundational to human flourishing. The shamanic mastery of altered states, insight, and mind-sight prefigures the Axial Age's formalization of self-reflection and wisdom cultivation.",
+  "essence": "Vervaeke locates the origin of the meaning crisis in the Upper Paleolithic transition (~40,000 BCE), when Homo sapiens underwent a cognitive revolution producing the first symbolic culture, ritual practice, and shamanic worldview. He argues shamanism was not superstition but a genuine psycho-technology: a standardized cognitive practice that exploited altered states of consciousness to train capacities for insight, healing, and relevance realization. This introduces the four kinds of knowing — propositional (knowing that), procedural (knowing how), perspectival (knowing what it is like), and participatory (knowing by being in contact with) — and locates shamanism's power in its cultivation of the deeper, non-propositional modes. The meaning crisis, Vervaeke suggests, is downstream of progressively losing the institutions and practices that once transmitted perspectival and participatory knowing. He traces this to a 'domino effect': shamanism gives way to the Axial Revolution, which gives way to Christianity, which gives way to the Scientific Revolution, each transition preserving some and dismantling other elements of the meaning-making infrastructure. The episode closes by framing the entire series as investigating what was lost and what might be recovered.",
   "keyClaims": [
-    "Contemporary interest in mindfulness, wisdom, stoicism, and psychedelics indicates a unified cultural response to the meaning crisis",
-    "Human meaning-making originates in the Upper Paleolithic transition through shamanic psycho-technologies",
-    "Shamanism combines altered consciousness, insight, and wisdom to enhance individual and group survival",
-    "Exaptation explains how brains repurpose existing capacities for new functions, enabling rapid cognitive enhancement",
-    "Ritual-based psycho-technologies trained metacognition, mind-sight, and the capacity for self-reflection"
+    "The Upper Paleolithic cognitive revolution produced symbolic culture, ritual, and shamanism as humanity's first systematic meaning-making technology.",
+    "Shamanism is best understood as a psycho-technology: a standardized practice exploiting altered states of consciousness to cultivate insight and relevance realization.",
+    "There are four irreducible kinds of knowing — propositional, procedural, perspectival, and participatory — and the meaning crisis involves the marginalization of the latter two.",
+    "The meaning crisis results from a historical domino effect in which successive transformations (Axial Revolution, Christianity, Scientific Revolution) progressively dismantled the institutions that transmitted deeper modes of knowing.",
+    "Recovering meaning requires recovering or reconstructing the practices that cultivate perspectival and participatory knowing."
   ],
   "concepts": [
     {
-      "name": "mindfulness revolution",
-      "treatment": "introduced",
-      "summary": "Contemporary cultural movement toward meditation and awareness practices as response to meaning crisis."
-    },
-    {
-      "name": "wisdom",
+      "id": "the-meaning-crisis",
       "treatment": "developed",
-      "summary": "Central human capacity for understanding meaning and reality, cultivated through shamanic and ritual practice."
+      "summary": "Given its first substantial explanation: a structural breakdown traceable to the loss of practices that cultivated participatory and perspectival knowing."
     },
     {
-      "name": "altered states of consciousness",
-      "treatment": "developed",
-      "summary": "Non-ordinary states accessed through shamanic practice, generating insight and self-transcendence."
-    },
-    {
-      "name": "shamanism",
+      "id": "psycho-technology",
       "treatment": "introduced",
-      "summary": "Psycho-technology involving ritual, altered states, and specialized knowledge for healing and insight."
+      "summary": "Defined as a standardized cognitive practice that enhances brain operation — shamanism is the first example discussed."
     },
     {
-      "name": "psycho-technology",
+      "id": "the-four-kinds-of-knowing",
       "treatment": "introduced",
-      "summary": "Systematic tools that enhance cognitive and mental capacities, standardized and transmissible."
+      "summary": "The four irreducible epistemic modes — propositional, procedural, perspectival, participatory — introduced as the framework for understanding what meaning requires."
     },
     {
-      "name": "exaptation",
+      "id": "perspectival-knowing",
       "treatment": "introduced",
-      "summary": "Evolutionary mechanism where traits evolved for one purpose are repurposed for another."
+      "summary": "Knowing what it is like to be in a particular situation or state; experiential knowing."
     },
     {
-      "name": "meaning making",
-      "treatment": "developed",
-      "summary": "Fundamental human capacity to create significance and coherence through symbols, ritual, and narratives."
-    },
-    {
-      "name": "mind-sight",
+      "id": "participatory-knowing",
       "treatment": "introduced",
-      "summary": "Capacity to perceive and understand others' mental states and one's own mind."
+      "summary": "Knowing by being in transformative contact with something; the deepest mode, engaged in shamanic and mystical practice."
+    },
+    {
+      "id": "the-axial-revolution",
+      "treatment": "referenced",
+      "summary": "First mention as the next major transformation after shamanism — to be developed in episode 2."
+    },
+    {
+      "id": "altered-states-of-consciousness",
+      "treatment": "introduced",
+      "summary": "States of consciousness deliberately induced by shamanic psycho-technologies to train insight and meaning-making capacities."
+    },
+    {
+      "id": "the-upper-paleolithic-transition",
+      "treatment": "introduced",
+      "summary": "The ~40,000 BCE cognitive revolution that produced symbolic culture, burial practices, and shamanism — the origin point for the series' historical narrative."
+    },
+    {
+      "id": "shamanism",
+      "treatment": "introduced",
+      "summary": "Framed not as superstition but as humanity's first psycho-technology — exploiting altered states to cultivate participatory knowing and relevance realization."
     }
   ],
   "people": [
     {
-      "name": "David Lewis-Williams",
+      "id": "matt-rossano",
       "role": "discussed",
-      "summary": "Scholar of Upper Paleolithic transition and shamanism."
+      "summary": "Cited for work on the Upper Paleolithic transition and the cognitive revolution underlying shamanic culture."
     },
     {
-      "name": "Matt Rossano",
+      "id": "michael-winkelman",
       "role": "discussed",
-      "summary": "Researcher on shamanism and its role in human cognitive development."
+      "summary": "Cited for cross-cultural research establishing shamanism as a genuine cognitive practice rather than superstition."
     },
     {
-      "name": "Michael Winkelman",
-      "role": "discussed",
-      "summary": "Scholar of shamanism across cultures and its neurological basis."
-    },
-    {
-      "name": "Michael Anderson",
-      "role": "discussed",
-      "summary": "Cognitive scientist who developed theory of exaptation in brain function."
-    },
-    {
-      "name": "Andy Clark",
+      "id": "andy-clark",
       "role": "referenced",
-      "summary": "Philosopher and cognitive scientist on human use of tools."
+      "summary": "Referenced in the context of 4E cognition — the cognitive science framing that supports the idea that knowing is embodied and embedded."
+    },
+    {
+      "id": "frankfurt",
+      "role": "introduced",
+      "summary": "Harry Frankfurt's analysis of bullshit introduced as a tool for diagnosing the self-undermining quality of the meaning crisis."
+    },
+    {
+      "id": "leo-ferraro",
+      "role": "referenced",
+      "summary": "Acknowledged as series co-creator."
+    },
+    {
+      "id": "christopher-mastropietro",
+      "role": "referenced",
+      "summary": "Acknowledged as series co-creator."
+    },
+    {
+      "id": "filip-miscevic",
+      "role": "referenced",
+      "summary": "Acknowledged as series co-creator."
     }
   ],
   "crossRefs": [
     {
       "episode": 2,
-      "context": "Flow state and altered consciousness will be further developed"
+      "context": "The Axial Revolution, briefly named here as the next major transformation after shamanism, is the central topic of episode 2."
     },
     {
-      "episode": 3,
-      "context": "Shamanic practices lead into the Axial Revolution"
+      "episode": 0,
+      "context": "The series thesis previewed in episode 0 receives its first substantive development here."
     }
   ],
-  "quotableMoments": [
-    {
-      "quote": "My name's John Vervaeke. I'm an assistant professor at the University of Toronto. I'm in the Psychology Department and in the Cognitive Science Program. And I also teach for the Buddhism psychology and mental health program.",
-      "context": "Introducing himself and his interdisciplinary perspective"
-    },
-    {
-      "quote": "The Shaman means 'one who knows', 'one who sees', 'one who has insight'. Shamans are considered wise people, and that's why we have all these words. Like the word 'Wizard' means 'a wise person'.",
-      "context": "Explaining the shamanic role as wisdom keeper"
-    }
-  ]
+  "quotableMoments": []
 }

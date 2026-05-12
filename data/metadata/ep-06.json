@@ -2,101 +2,96 @@
   "num": 6,
   "slug": "aristotle-kant-evolution",
   "title": "Aristotle, Kant, and Evolution",
-  "essence": "Aristotle advances Platonic philosophy by addressing what was missing: a theory of growth and development. Moving beyond Plato's static forms, Aristotle argues that living things are self-actualizing—constantly actualizing potential through informed development. Drawing on biology rather than mathematics, Aristotle introduces the distinction between actuality and potentiality, causation and constraint. Vervaeke shows how Aristotle's framework resolves Kant's puzzle about biology: living things use self-organizing feedback cycles that seem to create circular explanations, yet they truly develop and improve. Using dynamical systems theory, Vervaeke demonstrates that constraints (conditions) enabling or limiting possibility are as important as causes (events). Darwinian evolution exemplifies this: natural selection and variation create a 'virtual engine' regulating feedback cycles toward increasing fitness. Aristotle's innovation extends to wisdom through the concept of character—the cultivated virtual engine regulating one's development and growth. To live up to one's potential is to actualize one's humanity through cultivated character and virtues. This makes meaning and wisdom inseparable from growth, development, and the continuous refinement of how one structures oneself.",
+  "essence": "Aristotle accepts Plato's diagnosis — the psyche is divided, inner conflict is real — but rejects the two-worlds solution. Instead of anagoge toward a separate realm of Forms, Aristotle proposes a this-worldly developmental account: virtue is acquired through practice, not contemplation of transcendent truth; the soul's actualization occurs through engagement with the world, not escape from it. Vervaeke uses Aristotle's concepts of form/matter and actuality/potentiality to show that Aristotle's metaphysics is fundamentally about development — things have an inherent trajectory toward their proper actualization. The challenge is explaining why development fails: why do people fail to actualize their potential? Here Vervaeke introduces Alicia Juarrero's dynamical systems account of complex adaptive systems and the concept of the 'virtual engine' — a system of enabling and selective constraints that creates a feedback loop between organism and environment, making growth and self-organization possible. Akrasia (weakness of will, acting against one's better judgment) is analyzed as a failure of the virtual engine — a breakdown in the constraint system that normally coordinates appetite and reason. Character, for Aristotle, is the stabilized pattern of virtual engine functioning that makes reliable virtue possible. The episode bridges ancient virtue ethics to contemporary complexity theory and cognitive science.",
   "keyClaims": [
-    "Living things actualize potential through development, not sudden static actualization",
-    "Constraints and enabling conditions are as real and important as causal events",
-    "Dynamical systems theory explains how self-organizing development improves through feedback cycles",
-    "Character is the cultivated virtual engine regulating personal growth and development",
-    "Wisdom involves cultivating virtues to actualize one's potential and live fully as a human being"
+    "Aristotle accepts Plato's diagnosis of psychic division but rejects the two-worlds solution in favor of this-worldly developmental actualization.",
+    "Form and matter in Aristotle's metaphysics describe a developmental trajectory: things have an inherent direction toward their proper actualization.",
+    "Juarrero's virtual engine — a system of enabling and selective constraints in a feedback loop — provides a dynamical systems account of how growth and self-organization are possible.",
+    "Akrasia is a failure of the virtual engine: a breakdown in the constraint system that normally coordinates appetite and reason toward good action.",
+    "Character is the stabilized pattern of virtual engine functioning that makes reliable virtue possible — it is a kind of second nature."
   ],
   "concepts": [
     {
-      "name": "actuality",
+      "id": "virtue",
       "treatment": "introduced",
-      "summary": "State of being realized or active, as opposed to potential."
+      "summary": "Aristotelian virtue as acquired through practice rather than contemplation of Forms — a second nature achieved through habituated action that stabilizes the virtual engine."
     },
     {
-      "name": "potentiality",
+      "id": "akrasia",
       "treatment": "introduced",
-      "summary": "Capacity to be or become; possibility shaped by constraints."
+      "summary": "Weakness of will — acting against one's better judgment — analyzed as a failure of the virtual engine, a breakdown in the constraint system coordinating appetite and reason."
     },
     {
-      "name": "character",
-      "treatment": "introduced",
-      "summary": "Cultivated virtual engine of virtues regulating personal development and growth."
-    },
-    {
-      "name": "virtue",
-      "treatment": "introduced",
-      "summary": "Cultivated excellence expressed through habitual right action."
-    },
-    {
-      "name": "golden mean",
-      "treatment": "introduced",
-      "summary": "Optimal mean between excess and deficiency in cultivating virtue."
-    },
-    {
-      "name": "wisdom",
+      "id": "wisdom",
       "treatment": "developed",
-      "summary": "Capacity to cultivate character and virtues realizing one's potential as a rational being."
+      "summary": "Phronesis (practical wisdom) as Aristotle's alternative to Platonic anagoge — the capacity to discern the right action in context, developed through habituation and experience."
     },
     {
-      "name": "akrasia",
+      "id": "inner-conflict",
       "treatment": "introduced",
-      "summary": "Foolishness stemming from inadequate character, not mere ignorance."
+      "summary": "Aristotle accepts Plato's diagnosis that the psyche is genuinely divided — the task is integrating the parts through virtuous practice, not escaping to a higher realm."
+    },
+    {
+      "id": "structural-functional-organization",
+      "treatment": "introduced",
+      "summary": "The form/matter distinction reread as describing the structural-functional organization of things — what something is organized to do, its proper trajectory of actualization."
+    },
+    {
+      "id": "4e-cognition",
+      "treatment": "referenced",
+      "summary": "Juarrero's dynamical systems account connects Aristotle's development to contemporary 4E cognition — cognition as embodied, embedded, enacted, and extended."
+    },
+    {
+      "id": "the-meaning-crisis",
+      "treatment": "developed",
+      "summary": "Aristotle's developmental account represents an alternative meaning-making framework to Plato's — but one that will also be disrupted by historical transformations."
     }
   ],
   "people": [
     {
-      "name": "Aristotle",
+      "id": "aristotle",
       "role": "subject",
-      "summary": "Ancient Greek philosopher who developed theory of growth, character, and human development."
+      "summary": "Aristotle's metaphysics (form/matter, actuality/potentiality), his rejection of Platonic two-worlds, his developmental ethics, and his analysis of akrasia all examined in detail."
     },
     {
-      "name": "Plato",
+      "id": "alicia-juarrero",
+      "role": "discussed",
+      "summary": "Alicia Juarrero's dynamical systems account of complex adaptive systems and the 'virtual engine' concept introduced as a contemporary analog to Aristotle's developmental metaphysics."
+    },
+    {
+      "id": "kant",
+      "role": "discussed",
+      "summary": "Kant's categorical imperative discussed as an attempt to ground morality in pure practical reason — contrasted with Aristotle's virtue ethics as competing responses to the same problem."
+    },
+    {
+      "id": "varela",
       "role": "referenced",
-      "summary": "Aristotle's teacher whose ideas he builds upon and revises."
+      "summary": "Francisco Varela's work on autopoiesis and enactivism referenced in relation to Juarrero's dynamical systems account."
     },
     {
-      "name": "Alicia Juarrero",
-      "role": "discussed",
-      "summary": "Contemporary philosopher whose dynamical systems theory was inspired by Aristotle."
-    },
-    {
-      "name": "Immanuel Kant",
-      "role": "discussed",
-      "summary": "Philosopher who identified the problem of circular explanation in biology."
-    },
-    {
-      "name": "Eric Perl",
-      "role": "discussed",
-      "summary": "Scholar of Aristotle on purpose and structural functional organization."
-    },
-    {
-      "name": "Charles Darwin",
+      "id": "evan-thompson",
       "role": "referenced",
-      "summary": "Naturalist whose evolution theory exemplifies dynamical systems."
+      "summary": "Evan Thompson's enactivist cognitive science referenced alongside Varela as contemporary support for Aristotle's embedded developmental account."
+    },
+    {
+      "id": "plato",
+      "role": "discussed",
+      "summary": "Plato's two-worlds solution examined as the foil against which Aristotle develops his this-worldly alternative."
     }
   ],
   "crossRefs": [
     {
       "episode": 5,
-      "context": "Builds on Platonic psychology and form theory"
+      "context": "Aristotle is the student introduced at the end of episode 5 as the critic of Plato's two-worlds solution; this episode develops that criticism into an alternative."
     },
     {
       "episode": 7,
-      "context": "Aristotle's worldview and conformity theory further developed"
-    }
-  ],
-  "quotableMoments": [
-    {
-      "quote": "Your purpose is to become as fully human as Possible! How are you cultivating your character to do so?",
-      "context": "Summarizing Aristotle's answer to the question of human purpose"
+      "context": "Aristotle's developmental account is further extended in episode 7 through the agent-arena relationship and Fromm's having/being modes."
     },
     {
-      "quote": "The very machinery that makes you adaptive is the machinery that makes you prey to self deceptive self-destructive behavior.",
-      "context": "Core principle about the double-edged nature of human cognition"
+      "episode": 4,
+      "context": "Akrasia is the philosophical analysis of what Socratic practice aimed to cure — the failure to act in accordance with one's better judgment."
     }
-  ]
+  ],
+  "quotableMoments": []
 }

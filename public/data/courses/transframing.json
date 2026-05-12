@@ -1,0 +1,212 @@
+{
+  "id": "transframing",
+  "title": "Transframing",
+  "conceptId": "transframing",
+  "abstract": "Transframing is Vervaeke's coinage for a bi-directional, participatory transformation that simultaneously reframes how one sees the world and reframes how one sees oneself — a systematic restructuring of the whole framing process, not merely the reframing of a particular problem. Ordinary insight reframes a problem within a given perspective; transframing transforms the perspective-making capacity itself. Iris Murdoch's mother-in-law example is canonical: she does not merely see her daughter-in-law differently but becomes a different kind of seer in the process. Transframing is the cognitive signature of wisdom and of genuine sacred symbolic engagement. Students will learn to distinguish transframing from reframing, understand the conditions that necessitate it (existential stupefaction), and grasp how gnosis, ritual, and serious play are its primary vehicles. This concept is central to Vervaeke's account of how awakening from the meaning crisis is not just intellectual but existential.",
+  "prerequisites": [
+    "the-four-kinds-of-knowing",
+    "the-meaning-crisis"
+  ],
+  "modules": [
+    {
+      "id": "transframing-vs-reframing",
+      "title": "Transframing vs. Reframing",
+      "subConceptId": "transformation-of-framing-process",
+      "learningObjective": "Distinguish transframing (transformation of the whole framing process) from ordinary reframing (finding a new perspective on an existing problem), using Vervaeke's canonical formulation.",
+      "expositionPassages": [
+        {
+          "episode": 17,
+          "phrase": "It's not a reframing of a particular problem. It's a transformation of the whole framing process: Both ends."
+        },
+        {
+          "episode": 40,
+          "phrase": "it not only is reframing the problem. It is transforming my competence so it is a transframing insight. It is a systematic insight."
+        },
+        {
+          "episode": 17,
+          "phrase": "she's not only reframing how she sees the world, she's reframing how she sees herself and these are happening in a completely interfused manner. This is a Participatory Change."
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "What is the difference between finding a clever new angle on a problem (reframing) and having your whole way of framing problems transformed (transframing)? Can you think of a real-life example of each?",
+          "expectedThemes": [
+            "reframing operates within existing frame",
+            "transframing transforms the frame-making capacity",
+            "wisdom involves the latter not just the former"
+          ]
+        },
+        {
+          "prompt": "Vervaeke says the Murdoch mother-in-law transframes because both how she sees her daughter-in-law and how she sees herself change together. Why must both ends change for it to be a genuine transframing?",
+          "expectedThemes": [
+            "participatory change — agent and arena both shift",
+            "sensibility transcendence",
+            "not just a new perspective but a new perspectiver"
+          ]
+        },
+        {
+          "prompt": "Vervaeke describes a 'transframing insight' as one that transforms competence not just content. What would it mean for wisdom to involve systematically upgrading competence for transframing?",
+          "expectedThemes": [
+            "wisdom as developmental not informational",
+            "wisdom cultivates the capacity for transframing",
+            "systematic insight vs. one-off insight"
+          ]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "Transframing is just a more dramatic version of reframing — seeing a problem from a very different angle.",
+          "correction": "Transframing is not a change of perspective on an existing problem but a transformation of the capacity that generates perspectives itself; the 'both ends' formulation marks this as a different kind of change."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "Someone undergoes therapy and now sees their childhood trauma differently — they have reframed it as formative rather than ruinous. Is this a reframing or a transframing? What additional change would be needed to make it a transframing?",
+        "expectedThemes": [
+          "reframing if only the view changes",
+          "transframing if both the view and the viewer change",
+          "participatory change needed",
+          "sensibility transcendence as the criterion"
+        ]
+      }
+    },
+    {
+      "id": "existential-stupefaction",
+      "title": "Existential Stupefaction: When Transframing Is Needed",
+      "subConceptId": "existential-stupefaction-threshold",
+      "learningObjective": "Define existential stupefaction and existential stuckness as the conditions that necessitate transframing, and explain why propositional argument cannot resolve them.",
+      "expositionPassages": [
+        {
+          "episode": 17,
+          "phrase": "They're stuck and they're stupefied. And when we're stuck and we're stupefied when we're stuck, we can't imagine how to make an alternative worldview significant. How to make it viable when we're stupefied. We can't imagine the alternative."
+        },
+        {
+          "episode": 17,
+          "phrase": "you don't know what it is like cause that's the core of you don't know what your salience landscape will be like when you eat this fruit until you have eaten the fruit."
+        },
+        {
+          "episode": 17,
+          "phrase": "I don't know what I'm going to lose if I become a vampire. I don't know what I'm going to lose. Once I go through this change, I will have lost a way of being."
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "Vervaeke distinguishes being 'stuck' from being 'stupefied.' What is the difference, and why do both together produce existential entrapment?",
+          "expectedThemes": [
+            "stuck: can't make alternative worldview significant",
+            "stupefied: can't imagine the alternative",
+            "together: full paralysis — no motivation and no imagination"
+          ]
+        },
+        {
+          "prompt": "Why can't rational argument help a person who is existentially stuck? What is missing that argument cannot supply?",
+          "expectedThemes": [
+            "need perspectival and participatory taste of alternative",
+            "propositional argument operates within the existing frame",
+            "gnosis and serious play as ways to get around the stuck-and-stupefied impasse"
+          ]
+        },
+        {
+          "prompt": "L.A. Paul's vampire example shows you can't know what you'll lose or gain from a transformative experience until you've gone through it. How does this create a genuine rational impasse that goes beyond ordinary uncertainty?",
+          "expectedThemes": [
+            "transformative experience changes the very standard of evaluation",
+            "decision theory cannot work across the gap",
+            "aspiration and gnosis rather than inference"
+          ]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "People who are stuck just need better information or stronger motivation to change.",
+          "correction": "Existential entrapment is not an information or motivation deficit; it is a cognitive-existential paralysis in which the agent cannot imaginatively inhabit an alternative worldview from within the current one."
+        },
+        {
+          "misconception": "Transframing is just making up your mind to change — a matter of will.",
+          "correction": "Transframing cannot be achieved by willpower because it is a participatory transformation that requires the structural conditions of gnosis — it is not a decision but an undergoing."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "A friend is trapped in an unhealthy relationship and cannot imagine life without their partner, even though they know it is harmful. You give them excellent arguments for why they should leave. Why might this fail — and what would Vervaeke's framework suggest instead?",
+        "expectedThemes": [
+          "existential entrapment is participatory not propositional",
+          "argument operates within the existing frame",
+          "gnosis serious play ritual needed to get a perspectival taste",
+          "transformation not information required"
+        ]
+      }
+    },
+    {
+      "id": "gnosis-as-transframing-context",
+      "title": "Gnosis, Ritual, and Serious Play as Transframing Vehicles",
+      "subConceptId": "gnosis-as-transframing-context",
+      "learningObjective": "Explain how gnosis (psycho-technologies of ritual and serious play) creates the conditions for transframing by enabling enactive analogy and enactive anagoge.",
+      "expositionPassages": [
+        {
+          "episode": 17,
+          "phrase": "Gnosis is to have a set of psychotechnologies that create a ritual context like Jeepform, like martial arts, like therapy that allows us to overcome being existentially stuck, existentially stupefied."
+        },
+        {
+          "episode": 17,
+          "phrase": "ritual properly understood is people are playing serious play in order to try and put themselves into a liminal place, a place between two worlds, the normal world and the sacred world."
+        },
+        {
+          "episode": 18,
+          "phrase": "That enacted ritual should also afford anagoge. It should afford the transframing, the reciprocal anagogic process by which self and world are transformed such that we can go through the sensibility transcendence"
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "Why does Vervaeke include therapy, martial arts, and role-playing games (Jeepform) in the same category as religious ritual — what do they have in common that makes them all vehicles for transframing?",
+          "expectedThemes": [
+            "serious play in liminal space",
+            "enactive analogy",
+            "practicing the transition between worlds",
+            "all are psycho-technologies for overcoming stuck-and-stupefied"
+          ]
+        },
+        {
+          "prompt": "Ritual is described as 'serious play in a liminal place between two worlds.' What makes it 'serious' as opposed to mere play? And what is the function of the liminal position?",
+          "expectedThemes": [
+            "serious: genuine aspiration to transformation",
+            "play: not yet committed to new world",
+            "liminal: can compare and experience both without fully committing"
+          ]
+        },
+        {
+          "prompt": "If gnosis creates the context for transframing, and transframing is the cognitive signature of wisdom, what does this suggest about the relationship between wisdom and transformative practice?",
+          "expectedThemes": [
+            "wisdom requires gnosis not just knowledge",
+            "ecology of practices not just correct beliefs",
+            "transframing is ongoing not a one-time event"
+          ]
+        },
+        {
+          "prompt": "Vervaeke says transframing is not a single dramatic event but an ongoing developmental process. What does wisdom development look like as an ongoing cultivation of the capacity for transframing?",
+          "expectedThemes": [
+            "anagoge as ongoing reciprocal realization",
+            "wisdom is dynamical system not fixed state",
+            "aspiration as incremental transframing"
+          ]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "Religious ritual is fundamentally different from modern practices like therapy or martial arts.",
+          "correction": "Vervaeke argues that therapy, Tai Chi, martial arts, and role-playing games like Jeepform all constitute serious play in the technical sense — they are ritual by another name, functioning as psycho-technologies for transframing."
+        },
+        {
+          "misconception": "Transframing is a one-time breakthrough event — once you transframe, you are done.",
+          "correction": "The systematic transframing of wisdom is an ongoing developmental process of expanding competence, not a single dramatic event; wisdom cultivates the capacity for transframing, not a permanent final transformation."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "How does understanding transframing help explain why the meaning crisis cannot be addressed by giving people better information about the world, but requires something more like an ecology of transformative practices?",
+        "expectedThemes": [
+          "meaning crisis is participatory not propositional",
+          "transframing requires gnosis not argument",
+          "ecology of practices is the structural response",
+          "information alone cannot transform framing capacity"
+        ]
+      }
+    }
+  ]
+}

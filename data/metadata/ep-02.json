@@ -2,105 +2,97 @@
   "num": 2,
   "slug": "flow-metaphor-axial-revolution",
   "title": "Flow, Metaphor, and the Axial Revolution",
-  "essence": "This episode connects shamanic consciousness alteration to the flow state, explaining how both involve insight cascades that enhance cognition through metaphorical thinking. Vervaeke explores Csikszentmihalyi's flow theory—the optimal experience when demands match skills—and links it to shamanic practice as a psycho-technology for cultivating flow. Through flow, the shaman develops insight cascades, implicit learning, and capacity for metaphor, which allows perception of deep patterns in nature and society. The episode introduces the Axial Revolution (800-300 BCE), a period of fundamental cognitive and cultural transformation across civilizations, driven by inventions like alphabetic literacy and coinage. These psycho-technologies enhanced second-order thinking, self-awareness, and moral responsibility. The Axial Revolution fundamentally shifted human consciousness from a continuous cosmos to a two-worlds mythology, opening the possibility of self-transcendence and transformation rather than mere conformity to natural cycles.",
+  "essence": "Vervaeke bridges the shamanic world of episode 1 to the Axial Revolution by examining two cognitive mechanisms: flow states and metaphorical cognition. Flow — Csikszentmihalyi's optimal experience — is characterized by intrinsic motivation, loss of self-consciousness, and heightened processing efficiency; Vervaeke argues it was systematically cultivated by shamanic psycho-technologies and represents a real enhancement of human cognitive capacities, not merely a pleasant feeling. He then analyzes metaphor through the lens of implicit learning and exaptation: humans can take a cognitive capacity evolved for one purpose and redeploy it in a new domain, generating genuine insight. This capacity for cognitive exaptation underwrites the Axial Revolution (~800–300 BCE), a near-simultaneous emergence across Greece, Israel, Persia, India, and China of second-order thinking — the ability to reflect on and critique one's own cognition and culture. The Axial Revolution is not mere historical accident but the result of literacy, coinage, and urbanization creating conditions in which implicit learning and exaptation could generate new psycho-technologies of self-transcendence. Vervaeke introduces mythos as the pre-axial mode of participatory meaning-making that the axial turn begins to interrogate.",
   "keyClaims": [
-    "Flow states involve insight cascades and implicit learning that enhance adaptive cognition",
-    "Shamanic practices cultivate flow through disruptive strategies that reshape attention and pattern-recognition",
-    "Metaphor is central to meaning-making, arising from brain areas learning to communicate",
-    "The Axial Revolution (800-300 BCE) introduced new psycho-technologies transforming human consciousness",
-    "Second-order thinking enables awareness of self-deception and capacity for self-correction"
+    "Flow states represent a genuine cognitive enhancement — not mere pleasure — that was deliberately cultivated by shamanic psycho-technologies.",
+    "Metaphorical cognition works through exaptation: re-deploying cognitive capacities evolved for one domain to generate insight in another.",
+    "The Axial Revolution was a near-simultaneous emergence of second-order thinking across multiple civilizations, made possible by literacy, coinage, and urbanization.",
+    "Second-order thinking — the capacity to reflect on one's own cognition — is the defining cognitive achievement of the Axial Revolution.",
+    "Mythos names the participatory, story-embedded mode of meaning-making that preceded and was challenged by the Axial turn."
   ],
   "concepts": [
     {
-      "name": "flow",
+      "id": "flow",
       "treatment": "introduced",
-      "summary": "Optimal psychological state where demands and skills are balanced, generating insight and meaning."
+      "summary": "Csikszentmihalyi's optimal experience — intrinsic motivation, loss of self-consciousness, heightened processing efficiency — framed as a real cognitive enhancement cultivated by psycho-technologies."
     },
     {
-      "name": "insight cascade",
-      "treatment": "introduced",
-      "summary": "Continuous sequence of insights generated during flow, extending perception and understanding."
+      "id": "the-axial-revolution",
+      "treatment": "developed",
+      "summary": "The near-simultaneous emergence of second-order thinking across Greece, Israel, Persia, India, and China ~800–300 BCE, enabled by literacy, coinage, and urbanization."
     },
     {
-      "name": "implicit learning",
+      "id": "second-order-thinking",
       "treatment": "introduced",
-      "summary": "Unconscious acquisition of complex patterns from environment without explicit awareness."
+      "summary": "The capacity to reflect on and critique one's own cognition and cultural assumptions — the defining cognitive achievement of the Axial Revolution."
     },
     {
-      "name": "metaphor",
+      "id": "exaptation",
       "treatment": "introduced",
-      "summary": "Cognitive mechanism connecting disparate domains, enabling creative problem-solving and insight."
+      "summary": "Repurposing a cognitive capacity evolved for one domain to generate insight in another — the mechanism underlying metaphorical cognition and cultural innovation."
     },
     {
-      "name": "axial revolution",
+      "id": "implicit-learning",
       "treatment": "introduced",
-      "summary": "Fundamental transformation in human consciousness and culture between 800-300 BCE."
+      "summary": "Non-conscious learning of complex patterns — the cognitive substrate that makes exaptation and metaphorical insight possible."
     },
     {
-      "name": "second order thinking",
+      "id": "mythos",
       "treatment": "introduced",
-      "summary": "Metacognitive ability to reflect on and correct one's own thinking."
+      "summary": "The participatory, narrative-embedded mode of meaning-making that characterized pre-axial culture and was challenged but not eliminated by the Axial turn."
     },
     {
-      "name": "relevance realization",
-      "treatment": "referenced",
-      "summary": "Capacity to determine what is salient and important in a given situation."
+      "id": "psycho-technology",
+      "treatment": "developed",
+      "summary": "Examined in the context of flow: shamanic rituals were psycho-technologies that reliably induced flow states, demonstrating their cognitive legitimacy."
+    },
+    {
+      "id": "self-transcendence",
+      "treatment": "developed",
+      "summary": "The axial insight that human beings can step outside their current frame of reference — second-order thinking as a form of self-transcendence."
+    },
+    {
+      "id": "the-meaning-crisis",
+      "treatment": "developed",
+      "summary": "Contextualized as the downstream consequence of the Axial Revolution's successes creating new vulnerabilities in human meaning-making."
     }
   ],
   "people": [
     {
-      "name": "Csikszentmihalyi",
-      "role": "discussed",
-      "summary": "Psychologist who developed flow theory and studied optimal experience."
+      "id": "csikszentmihalyi",
+      "role": "introduced",
+      "summary": "Mihaly Csikszentmihalyi's research on flow states introduced as empirical evidence for the cognitive reality of optimal experience."
     },
     {
-      "name": "Lakoff",
-      "role": "discussed",
-      "summary": "Cognitive scientist who studies metaphor in human thought."
+      "id": "dreyfus",
+      "role": "referenced",
+      "summary": "Hubert Dreyfus's work on implicit knowledge and skill referenced in the context of non-propositional knowing."
     },
     {
-      "name": "Arthur Reber",
-      "role": "discussed",
-      "summary": "Cognitive psychologist who studied implicit learning."
+      "id": "karl-jaspers",
+      "role": "introduced",
+      "summary": "Karl Jaspers credited with identifying the Axial Age as a historical category and noting its cross-civilizational simultaneity."
     },
     {
-      "name": "Robin Hogarth",
-      "role": "discussed",
-      "summary": "Researcher on intuition and implicit learning in decision-making."
+      "id": "karen-armstrong",
+      "role": "introduced",
+      "summary": "Karen Armstrong's work on the Axial Age referenced for its comparative religious perspective on the transformation."
     },
     {
-      "name": "Karl Jaspers",
-      "role": "discussed",
-      "summary": "Philosopher who identified the Axial Age."
-    },
-    {
-      "name": "Karen Armstrong",
-      "role": "discussed",
-      "summary": "Historian who explored the Axial Revolution."
+      "id": "robert-bellah",
+      "role": "introduced",
+      "summary": "Robert Bellah's evolutionary account of religion and the Axial transition referenced for its sociological dimensions."
     }
   ],
   "crossRefs": [
     {
       "episode": 1,
-      "context": "Builds on shamanic psycho-technologies from Upper Paleolithic"
+      "context": "Flow states and psycho-technologies were introduced in episode 1 as shamanic capacities; here they receive cognitive-scientific analysis."
     },
     {
       "episode": 3,
-      "context": "Axial Revolution's transformation of worldview continues"
+      "context": "The Axial Revolution's specifics — especially the continuous cosmos and two-worlds mythology — are developed in episode 3."
     }
   ],
-  "quotableMoments": [
-    {
-      "quote": "The flow state is one in which the demands of the situation just slightly go beyond your skill abilities. And so you get what's called the 'flow channel'.",
-      "context": "Defining the optimal conditions for flow"
-    },
-    {
-      "quote": "The very same machinery that makes you so adaptive intelligent is the same machinery that makes you susceptible to foolishness.",
-      "context": "Core insight about human cognition's double-edged nature"
-    },
-    {
-      "quote": "Metaphor is how you make creative connections between ideas. Metaphorical cognition is at the heart of both science and art.",
-      "context": "Explaining metaphor's importance to cognition"
-    }
-  ]
+  "quotableMoments": []
 }

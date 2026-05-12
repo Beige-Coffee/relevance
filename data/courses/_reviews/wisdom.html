@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Wisdom — Mini-course Review</title>
+<style>
+  :root {
+    --bg: #faf7f1; --surface: #ffffff; --elev: #f2ede0;
+    --ink: #1c1a17; --ink-soft: #3a3530; --muted: #6b6660;
+    --border: #e0d9c8; --accent: #8b3a3a; --gold: #b8893c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14120e; --surface:#1c1916; --elev:#25211c;
+      --ink:#ece6d6; --ink-soft:#b8b1a1; --muted:#8a8378;
+      --border:#2e2922; --accent:#d28a7e; --gold:#d4a85a; }
+  }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Inter", system-ui, sans-serif;
+    background: var(--bg); color: var(--ink); margin: 0; line-height: 1.6;
+    -webkit-font-smoothing: antialiased; }
+  .serif { font-family: "EB Garamond", Georgia, serif; }
+  header { padding: 2rem 2.5rem 1rem; border-bottom: 1px solid var(--border); }
+  .back-link { color: var(--muted); font-size: 0.8rem; text-decoration: none; }
+  .back-link:hover { color: var(--accent); }
+  .meta { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin: 0.6rem 0 0.3rem; }
+  h1 { font-family: "EB Garamond", Georgia, serif; font-size: 2.6rem; margin: 0; letter-spacing: -0.01em; font-weight: 500; }
+  .abstract {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.1rem; line-height: 1.65;
+    color: var(--ink-soft); margin: 1rem 0; max-width: 60rem;
+  }
+  .prereqs { font-size: 0.85rem; color: var(--muted); margin-top: 0.6rem; }
+  .prereqs a { color: var(--accent); text-decoration: none; }
+  .prereqs a:hover { text-decoration: underline; }
+  main { max-width: 60rem; margin: 0 auto; padding: 2rem 2.5rem 5rem; }
+  .module {
+    border-top: 1px solid var(--border); padding-top: 2rem; margin-top: 3rem;
+  }
+  .module:first-child { border-top: none; padding-top: 0; margin-top: 0; }
+  .module .num {
+    font-family: ui-monospace, monospace; font-size: 0.78rem;
+    background: var(--gold); color: var(--bg); padding: 0.2rem 0.6rem;
+    border-radius: 99px; display: inline-block; margin-bottom: 0.6rem;
+  }
+  .module h2 {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.9rem; margin: 0;
+    letter-spacing: -0.01em; font-weight: 500; line-height: 1.15;
+  }
+  .module .objective {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic;
+    color: var(--ink-soft); margin: 0.5rem 0 1rem;
+  }
+  section { margin: 1.6rem 0; }
+  section h3 {
+    font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em;
+    color: var(--muted); margin: 0 0 0.6rem;
+  }
+  .passage {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--gold);
+    padding: 0.8rem 1rem; margin: 0.5rem 0; border-radius: 4px;
+  }
+  .passage .src {
+    font-family: ui-monospace, monospace; font-size: 0.72rem;
+    color: var(--accent); margin-bottom: 0.3rem;
+  }
+  .passage .quote {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic;
+    color: var(--ink); font-size: 1rem; line-height: 1.55;
+  }
+  .passage .note { font-size: 0.78rem; color: var(--muted); margin-top: 0.4rem; }
+  .seed {
+    padding: 0.5rem 0; border-left: 2px solid var(--gold); padding-left: 1rem; margin: 0.5rem 0;
+  }
+  .seed .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic; color: var(--ink);
+  }
+  .seed .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.3rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .theme-pill {
+    background: var(--elev); padding: 0.15rem 0.55rem; border-radius: 99px;
+  }
+  .misc {
+    background: var(--elev); padding: 0.7rem 1rem; margin: 0.5rem 0; border-radius: 6px;
+    font-size: 0.9rem;
+  }
+  .misc .label { font-weight: 500; }
+  .misc .label.if { color: var(--ink); }
+  .misc .label.then { color: var(--accent); }
+  .check {
+    background: var(--elev); border: 2px solid var(--gold); padding: 1rem 1.2rem;
+    border-radius: 8px; margin-top: 0.6rem;
+  }
+  .check .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic; font-size: 1.1rem; color: var(--ink);
+  }
+  .check .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.5rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .toc {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    padding: 1rem 1.4rem; margin: 1.5rem 0;
+  }
+  .toc h3 { margin: 0 0 0.4rem; }
+  .toc ol { margin: 0; padding-left: 1.4rem; }
+  .toc li { margin: 0.2rem 0; font-size: 0.92rem; }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+  .approve-bar {
+    position: sticky; bottom: 0;
+    background: var(--bg); border-top: 1px solid var(--border);
+    padding: 0.8rem 2.5rem;
+    display: flex; gap: 0.6rem; justify-content: flex-end;
+  }
+  .btn {
+    padding: 0.55rem 1.2rem; border-radius: 6px; font-size: 0.9rem;
+    border: 1px solid var(--border); background: var(--surface); color: var(--ink-soft);
+    cursor: pointer; font-family: inherit;
+  }
+  .btn.primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+  .btn:hover { transform: translateY(-1px); }
+</style>
+</head><body>
+<header>
+  <a class="back-link" href="index.html">← All course reviews</a>
+  <div class="meta">Mini-course · 5 modules</div>
+  <h1>Wisdom</h1>
+  <p class="abstract">Wisdom is the capstone concept of the series — the developmental response to the meaning crisis and the target of Vervaeke's project of reverse-engineering enlightenment. Vervaeke's mature account synthesizes Ardelt's three-factor model, the Berlin paradigm, and Sternberg's balance theory, with relevance realization as connective tissue. Wisdom is defined not as a body of knowledge but as a dynamical ecology of psycho-technologies and cognitive styles that reliably counteracts self-deceptive processing and affords seeing through illusion into reality. It integrates all four kinds of knowing — propositional through participatory — and requires active open-mindedness, mindfulness, internalization of the sage, understanding, gnosis, and aspiration. The Vervaeke-Ferraro three-tier model (active open-mindedness for propositional knowing, mindfulness for procedural-perspectival, internalizing the sage and sophrosyne for participatory) is developed in Episodes 44–45. Wisdom also enhances religio and connects to the sacred — it is not merely a cognitive achievement but the path toward the life of flourishing and awakening from the meaning crisis.</p>
+  
+    <div class="prereqs">
+      Prerequisites:
+      <a href="the-four-kinds-of-knowing.html">The Four Kinds of Knowing</a>, <a href="transframing.html">Transframing</a>, <a href="the-perennial-problems.html">The Perennial Problems</a>
+    </div>
+</header>
+<main>
+  <div class="toc">
+    <h3>Modules</h3>
+    <ol>
+      <li><a href="#m-wisdom-as-dynamical-system">Wisdom as a Dynamical System Against Self-Deception</a></li><li><a href="#m-wisdom-vervaeke-ferraro-model">The Vervaeke-Ferraro Three-Tier Model</a></li><li><a href="#m-sophrosyne-perspectival-sage">Sophrosyne and the Perspectival Sage</a></li><li><a href="#m-wisdom-as-religio-enhancement">Wisdom, Religio, and the Life of Flourishing</a></li><li><a href="#m-wisdom-begins-in-wonder">Wisdom Begins in Wonder: Aspiration and Gnosis</a></li>
+    </ol>
+  </div>
+  
+    <article class="module" id="m-wisdom-as-dynamical-system">
+      <span class="num">Module 1</span>
+      <h2>Wisdom as a Dynamical System Against Self-Deception</h2>
+      <p class="objective">Explain why wisdom is a dynamical system rather than a body of knowledge, and articulate how it reliably counteracts self-deceptive self-destructive processing.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 45 · The Nature of Wisdom</div>
+            <div class="quote">&ldquo;We're seeing that wisdom is a dynamical system. A dynamical system that is counteractive to the machinery of self-deception. And that helps to afford the self-organized transformation into the life of flourishing.&rdquo;</div>
+            
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 1 · Introduction</div>
+            <div class="quote">&ldquo;wisdom is about realizing in both senses of the word (becoming aware and making real), wisdom is about realizing meaning in life in a profound way.&rdquo;</div>
+            
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 46 · Conclusion and the Prophets of the Meaning Crisis</div>
+            <div class="quote">&ldquo;that wisdom is an ecology of psychotechnologies slash cognitive styles. That dynamic—and that means, reciprocal optimization that dynamically enhances the relevance realization that's central to inference, to insight and intuition to internalizing, especially internalizing the sage, to understanding gnosis&rdquo;</div>
+            
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke distinguishes wisdom from knowledge: 'Wisdom is not an accumulation of knowledge.' What does it mean for wisdom to be a dynamical system rather than a repository?</div>
+            <div class="themes"><span class="theme-pill">dynamical: self-organizing and self-correcting</span><span class="theme-pill">not stored facts but ongoing process</span><span class="theme-pill">counteractive to self-deception dynamically not statically</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Why must wisdom reliably counteract self-deception rather than just informing us about self-deception? What is the difference?</div>
+            <div class="themes"><span class="theme-pill">self-deception is structural not informational</span><span class="theme-pill">knowing you are self-deceived doesn't stop it</span><span class="theme-pill">dynamical system addresses the machinery not the content</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke says wisdom 'realiz[es]' meaning in both senses — becoming aware of it and making it real. What does the second sense add that mere awareness lacks?</div>
+            <div class="themes"><span class="theme-pill">realization as actualization</span><span class="theme-pill">wisdom transforms the person not just their beliefs</span><span class="theme-pill">meaning must be enacted not just understood</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Wisdom is accumulated knowledge and experience — the more you know and have lived, the wiser you are.</div>
+              <div><span class="label then">Then:</span> Vervaeke argues wisdom is a dynamical system that transforms how relevance is realized, not what propositions are believed; accumulating information or even experience without the dynamical transformation is not wisdom.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> A very intelligent person is automatically wise.</div>
+              <div><span class="label then">Then:</span> Intelligence (defined in terms of processing capacity) is necessary but not sufficient; wisdom also requires the integration of perspectival and participatory transformation that counteracts self-deception.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">If wisdom is a dynamical system, what does 'becoming wiser' look like as a process — and how is it different from 'learning more things'?</div>
+          <div class="themes"><span class="theme-pill">ongoing cultivation of psycho-technologies</span><span class="theme-pill">self-correcting and self-reinforcing process</span><span class="theme-pill">transformation of relevance realization not content acquisition</span><span class="theme-pill">development of sophrosyne not accumulation</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-wisdom-vervaeke-ferraro-model">
+      <span class="num">Module 2</span>
+      <h2>The Vervaeke-Ferraro Three-Tier Model</h2>
+      <p class="objective">Explain the Vervaeke-Ferraro three-tier model of wisdom: active open-mindedness for propositional inference, mindfulness for insight and procedural-perspectival knowing, and internalizing the sage for participatory transformation.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 45 · The Nature of Wisdom</div>
+            <div class="quote">&ldquo;Wisdom is an ecology of psychotechnologies. An ecology of styles that dynamically—and that means reciprocally, in a reciprocal fashion—constrain and optimize each other, such that there is an overall optimization, enhancement of relevance realization. Relevance realization within inference, within insight and intuition, the connection to implicit processing, internalization, understanding, gnosis, transformation and aspiration.&rdquo;</div>
+            
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 45 · The Nature of Wisdom</div>
+            <div class="quote">&ldquo;We're seeing that wisdom is a dynamical system. A dynamical system that is counteractive to the machinery of self-deception. And that helps to afford the self-organized transformation into the life of flourishing.&rdquo;</div>
+            
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">The three-tier model has active open-mindedness (for propositional inference), mindfulness (for insight and procedural-perspectival knowing), and internalizing the sage (for participatory transformation). Why are all three needed — would two be enough?</div>
+            <div class="themes"><span class="theme-pill">each targets a different kind of knowing and failure mode</span><span class="theme-pill">overcoming fallacious reasoning vs misframing vs egocentrism</span><span class="theme-pill">wisdom requires all four kinds of knowing</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">What is 'active open-mindedness' and why is it not the same as just being open-minded? How does it specifically enhance propositional inference?</div>
+            <div class="themes"><span class="theme-pill">active: deliberately checking for bias and fallacy</span><span class="theme-pill">protects inferential competence from S1 biases</span><span class="theme-pill">not passive receptivity but effortful epistemic practice</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke says this theory (the Vervaeke-Ferraro model) has a significant lacuna in not adequately addressing participatory knowing and gnosis. What would be missing from wisdom if those dimensions were left out?</div>
+            <div class="themes"><span class="theme-pill">transformative experience not addressed</span><span class="theme-pill">no account of how one becomes wise through modal change</span><span class="theme-pill">gnosis and aspiration absent</span><span class="theme-pill">wisdom disconnected from meaning in life</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Mindfulness alone is sufficient for developing wisdom.</div>
+              <div><span class="label then">Then:</span> Vervaeke's model requires coordination among active open-mindedness (for inference), mindfulness (for insight), and internalizing the sage (for participatory transformation); mindfulness alone addresses only one tier.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> The wisdom model is primarily about avoiding cognitive biases in reasoning.</div>
+              <div><span class="label then">Then:</span> Avoiding fallacious reasoning (active open-mindedness) is only the propositional tier; wisdom also requires overcoming misframing (mindfulness) and egocentrism (internalizing the sage), the latter being participatory not propositional.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">A highly rational person who reasons impeccably and practices mindfulness consistently still seems to be fundamentally self-centered — their salience landscape always organizes around their own ego. What tier of the Vervaeke-Ferraro model are they missing, and what would address it?</div>
+          <div class="themes"><span class="theme-pill">missing the sage-internalizing tier</span><span class="theme-pill">egocentrism is the target of that tier</span><span class="theme-pill">sophrosyne is the outcome</span><span class="theme-pill">internalizing Socrates Buddha Jesus as practiced metacognitive regulators</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-sophrosyne-perspectival-sage">
+      <span class="num">Module 3</span>
+      <h2>Sophrosyne and the Perspectival Sage</h2>
+      <p class="objective">Define sophrosyne as the optimization of perspectival knowing that makes right action 'second nature' — the outcome of internalizing the sage — and distinguish it from mere enkratia (self-control).</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 45 · The Nature of Wisdom</div>
+            <div class="quote">&ldquo;sophrosyne is often translated as temperance—doesn't capture it well. Moderation, doesn't capture it well.&rdquo;</div>
+            
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 45 · The Nature of Wisdom</div>
+            <div class="quote">&ldquo;That's sophrosyne. It is to have a salience landscape (draws an arrow pointing towards Sophrosyne) that has gone through a kind of fundamental reversal.&rdquo;</div>
+            
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 45 · The Nature of Wisdom</div>
+            <div class="quote">&ldquo;the sage can just let things unfold naturally.&rdquo;</div>
+            
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke contrasts Tom (who exercises self-control not to lie) with Susan (for whom lying is simply unthinkable). Which is more honest in Vervaeke's terms, and why?</div>
+            <div class="themes"><span class="theme-pill">sophrosyne vs enkratia</span><span class="theme-pill">second nature vs willpower</span><span class="theme-pill">salience landscape organized toward truth rather than requiring effortful control</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Sophrosyne is described as a 'fundamental reversal' of the salience landscape. What does it mean for the salience landscape to be reversed in the direction of wisdom?</div>
+            <div class="themes"><span class="theme-pill">salience naturally organizes toward truth and good rather than self-deception</span><span class="theme-pill">like the adult's salience re: toys vs the child's</span><span class="theme-pill">sage tempted to the good rather than tempted to self-deception</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">If sophrosyne is the outcome of cultivating wisdom rather than a starting point, how does this change the way we should think about moral education?</div>
+            <div class="themes"><span class="theme-pill">character transformation not just rule-following</span><span class="theme-pill">cultivating salience landscape not just teaching correct beliefs</span><span class="theme-pill">habituation and practice not just information</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Sophrosyne is the same as self-restraint or willpower.</div>
+              <div><span class="label then">Then:</span> Sophrosyne is the condition where the salience landscape is so well trained that right action is second nature — there is no war between knowing the good and doing it, because salience and understanding are in sync.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Developing sophrosyne means suppressing desires.</div>
+              <div><span class="label then">Then:</span> Sophrosyne is not suppression but transformation — the sage is no longer tempted by the forms of self-deception that ordinary people are, because their salience landscape has been fundamentally reorganized.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">Why does Vervaeke say that Augustine's 'love God and do what you want' encapsulates sophrosyne — and what would this look like in a non-theistic framework using Vervaeke's vocabulary?</div>
+          <div class="themes"><span class="theme-pill">if agape flows through you salience naturally orients toward good</span><span class="theme-pill">sophrosyne = salience landscape aligned with truth good beautiful</span><span class="theme-pill">non-theistic: cultivate relevance realization toward optimal fittedness rather than self-deception</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-wisdom-as-religio-enhancement">
+      <span class="num">Module 4</span>
+      <h2>Wisdom, Religio, and the Life of Flourishing</h2>
+      <p class="objective">Explain how wisdom enhances religio and contributes to meaning in life, connecting the cognitive-scientific account of wisdom to the existential arc of the series.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 46 · Conclusion and the Prophets of the Meaning Crisis</div>
+            <div class="quote">&ldquo;one of the things that wisdom is doing that's also really important is it's enhancing religio (writes Religio below Wisdom). That's a way in which you can powerfully—and we saw already the connection.&rdquo;</div>
+            
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 42 · Intelligence, Rationality, and Wisdom</div>
+            <div class="quote">&ldquo;It's a famous quote from Socrates, which is, &quot;Wisdom begins in wonder.&quot; Wisdom begins in wonder. And like everything about Socrates, it is simultaneously provocative and enigmatic&rdquo;</div>
+            
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 45 · The Nature of Wisdom</div>
+            <div class="quote">&ldquo;aspiration also probably has an affective component to it. And I suggested that wonder — and we saw how central wonder is to the cultivation of wisdom — that wonder is the affective state that's most conducive to aspirational progress&rdquo;</div>
+            
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">If wisdom enhances religio, and religio is the participatory binding that grounds all individual meaning systems, what is the relationship between becoming wiser and experiencing one's life as more meaningful?</div>
+            <div class="themes"><span class="theme-pill">wisdom improves the quality of agent-arena attunement</span><span class="theme-pill">better religio means deeper meaning in life</span><span class="theme-pill">developmental process toward flourishing not just correct beliefs</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Socrates says 'wisdom begins in wonder.' Why wonder as the starting point — and what does it mean for wonder to be aspirationally rather than propositionally related to wisdom?</div>
+            <div class="themes"><span class="theme-pill">wonder opens identity and world to reconsideration</span><span class="theme-pill">not a claim but an affective-motivational opening</span><span class="theme-pill">aspiration requires wonder as a placeholder for the value not yet possessed</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke says wisdom connects to sacredness. What would it mean for a wise person to regularly encounter the sacred in their experience — and how does this differ from religious observance?</div>
+            <div class="themes"><span class="theme-pill">wisdom cultivates wonder and awe as access to sacredness</span><span class="theme-pill">enhanced religio means encounter with inexhaustibility</span><span class="theme-pill">not a matter of belief but of the quality of presence in the world</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">If someone asks whether the cultivation of wisdom is worth the effort — given the difficulty and the absence of any final arrival point — what would Vervaeke's account suggest?</div>
+            <div class="themes"><span class="theme-pill">wisdom enhances meaning in life directly</span><span class="theme-pill">religio enhancement is intrinsically valuable</span><span class="theme-pill">flourishing not a destination but an ongoing development</span><span class="theme-pill">the aspiration is itself the beginning of wisdom</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Wisdom is valuable because it makes you better at achieving your goals.</div>
+              <div><span class="label then">Then:</span> While wisdom does improve competence, its deepest contribution is the enhancement of religio and meaning in life — the transformation of how one is in the world, not just how effectively one acts within it.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Wisdom is only for philosophers or spiritual practitioners — it is not relevant to ordinary life.</div>
+              <div><span class="label then">Then:</span> Vervaeke argues wisdom addresses perennial vulnerabilities endemic to all humans; everyone is susceptible to self-deception and foolishness, and cultivating wisdom is therefore relevant to any life pursuing meaning and flourishing.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">How does Vervaeke's account of wisdom as an ecology of psycho-technologies that enhances religio constitute a genuine response to the meaning crisis — rather than just a cognitive self-improvement program?</div>
+          <div class="themes"><span class="theme-pill">wisdom addresses the perennial problems structurally</span><span class="theme-pill">religio enhancement reconnects to the sacred</span><span class="theme-pill">not individual therapy but civilizational response</span><span class="theme-pill">part of the religion that is not a religion</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-wisdom-begins-in-wonder">
+      <span class="num">Module 5</span>
+      <h2>Wisdom Begins in Wonder: Aspiration and Gnosis</h2>
+      <p class="objective">Explain the role of wonder as the affective entry point for wisdom cultivation, connect aspiration (incremental transformative development) to gnosis (sudden participatory transformation), and explain why both are needed.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 42 · Intelligence, Rationality, and Wisdom</div>
+            <div class="quote">&ldquo;It's a famous quote from Socrates, which is, &quot;Wisdom begins in wonder.&quot; Wisdom begins in wonder. And like everything about Socrates, it is simultaneously provocative and enigmatic&rdquo;</div>
+            
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 45 · The Nature of Wisdom</div>
+            <div class="quote">&ldquo;My aspiring to rationality has to be itself a kind of rationality. That's proleptic rationality, or to use something older. My loving of wisdom. My loving of wisdom. My aspiring to becoming wise cannot itself be an irrational process.&rdquo;</div>
+            
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 45 · The Nature of Wisdom</div>
+            <div class="quote">&ldquo;Wisdom is an ecology of psychotechnologies and cognitive styles that dynamically enhance relevance realization in inference, insight and intuition, internalization, understanding, and gnosis, transformation, and aspiration.&rdquo;</div>
+            
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">If aspiring to wisdom must itself be rational (proleptic rationality), but you can't yet reason from the standpoint of the wise person you aspire to be, how do you start? What does wonder provide in this situation?</div>
+            <div class="themes"><span class="theme-pill">wonder opens identity to reconsideration without requiring the endpoint</span><span class="theme-pill">placeholder values via symbols and gnosis</span><span class="theme-pill">wonder motivates and orients without prescribing the destination</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Callard's aspiration (incremental development) and L.A. Paul's inspiration (sudden transformative insight) seem like opposites. Why does Vervaeke argue wisdom needs both?</div>
+            <div class="themes"><span class="theme-pill">incremental cultivation of character over time</span><span class="theme-pill">sudden gnosis for breakthroughs through existential entrapment</span><span class="theme-pill">different mechanisms for different moments in wisdom development</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke says he 'aspires to wisdom' rather than having achieved it, and calls claiming to have achieved wisdom 'a kind of mistake.' Why is wisdom necessarily aspirational rather than a state one can fully possess?</div>
+            <div class="themes"><span class="theme-pill">developmental ongoing process</span><span class="theme-pill">Socratic profession of ignorance as philosophically correct</span><span class="theme-pill">wisdom is philia-sophia not sophia alone</span><span class="theme-pill">claiming to have it marks a failure of wisdom</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Wisdom is a state that can be achieved and then maintained without further effort.</div>
+              <div><span class="label then">Then:</span> Vervaeke's account treats wisdom as an ongoing developmental ecology — to claim it fully achieved is itself a lapse from wisdom; the aspiration toward wisdom is intrinsic to wisdom's nature.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">How does the combination of wonder, aspiration, and gnosis describe the path of wisdom cultivation — and why would any single element alone (wonder without practice, practice without aspiration, gnosis without integration) be insufficient?</div>
+          <div class="themes"><span class="theme-pill">wonder opens but doesn't transform</span><span class="theme-pill">aspiration provides direction but needs gnosis for breakthroughs</span><span class="theme-pill">gnosis without integration doesn't produce sophrosyne</span><span class="theme-pill">ecology means all elements needed together</span></div>
+        </div>
+      </section>
+    </article>
+  
+</main>
+<div class="approve-bar">
+  <button class="btn">Request changes</button>
+  <button class="btn primary">Approve for shipping</button>
+</div>
+</body></html>

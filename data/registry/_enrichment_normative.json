@@ -1,0 +1,786 @@
+[
+  {
+    "id": "agape",
+    "subConcepts": [
+      {
+        "id": "agape-as-creative-personhood",
+        "name": "Agape as creative personhood-making",
+        "summary": "Agape is the love that transforms a non-person animal into a moral agent person — it operates before the beloved has earned anything and before reciprocity is possible.",
+        "passages": [
+          { "episode": 15, "phrase": "you love it. And we, right? You love it. Not because of any way you can consume it or be one with it. Ewww! EWWW! You don't love it because, \"Hey, what do you know!! A great friendship!!\" You love it. And we, right? You love it because by loving it, you turn a non-person into a person." }
+        ]
+      },
+      {
+        "id": "agape-as-sacrificial-forgiving",
+        "name": "Agape as sacrificial for-giving",
+        "summary": "Agape involves a sacrificial element — giving before the person earns it — which is why Jesus emphasises forgiveness as central: all agapic love is 'for-giving' love.",
+        "passages": [
+          { "episode": 16, "phrase": "Agape has a sacrificial component to it because what I'm actually doing is I'm giving up, I'm making myself an affordance for your transformation from non-person into person." }
+        ]
+      },
+      {
+        "id": "agape-as-metanoia-trigger",
+        "name": "Agape as trigger of metanoia",
+        "summary": "The experience of giving or receiving agapic love re-centres the salience landscape away from egocentrism, effecting the radical transformation of orientation that Vervaeke calls metanoia.",
+        "passages": [
+          { "episode": 16, "phrase": "This is the metanoia of Agape. I mean the metaphor is turning, but the problem with that metaphor is [that] all 'turning' (demonstrated physically by turning on the spot while standing) is still egocentric. You have to think of the turning this way: The turning is \"I go from being egocentric (pointing internally to himself) to being centered on someone else (pointing out and away from himself)\"." }
+        ]
+      },
+      {
+        "id": "agape-as-participatory-gnosis",
+        "name": "Agape bound with participatory knowing (gnosis)",
+        "summary": "Paul's Corinthians passage presents agape as a mode of knowing by participation — 'we know as we are known' — so gnosis and agape are inseparably intertwined for Vervaeke.",
+        "passages": [
+          { "episode": 16, "phrase": "Paul is actually talking about 'there's a way of knowing' - and we're going to come back to this. The term that's being used there is Gnosis - that is bound up with Agape, this way of loving." }
+        ]
+      },
+      {
+        "id": "agape-as-transjective-process",
+        "name": "Agape as transjective process",
+        "summary": "Agape precedes individuals, flows through them, and transforms them — it is not a private feeling but a participatory process in which individuals are vessels, not originators.",
+        "passages": [
+          { "episode": 16, "phrase": "The Agape that preceeds me, flows through me, and transforms me as I'm oriented. And what Jesus was offering, I believe, was he was offering a teaching so that all people could experience this." }
+        ]
+      }
+    ],
+    "commonConfusions": [
+      "Agape is not a warm feeling toward someone attractive — that is eros; agape is the love that creates the beloved's personhood before they have earned any love at all.",
+      "Agape is not the same as forgiveness in the trivial sense of accepting an apology — all agapic love is 'for-giving' because it gives before the recipient has earned anything.",
+      "Love is not an emotion for Vervaeke — it is a modal way of being, an Agent-Arena relationship, not a feeling that fluctuates.",
+      "Agape is not uniquely Christian in Vervaeke's treatment — it points to a universal psycho-technology of person-creation that Christianity named and systematised."
+    ],
+    "keyPassages": [
+      { "episode": 15, "phrase": "This is the love of creation. It's the love that God is demonstrating towards humanity in the way God is an ongoing creation of the open future. So God is creating the future.", "role": "definition" },
+      { "episode": 15, "phrase": "Love isn't a feeling. It isn't an emotion. It is a modal way of being. It is an Agent-Arena relationship.", "role": "qualification" },
+      { "episode": 15, "phrase": "you love it because by loving it, you turn a non-person into a person. It's the closest thing to a miracle", "role": "exemplar" },
+      { "episode": 16, "phrase": "God is this process that we participate in. And we put... Look, it made you, you didn't make it! You participate in Agape. It precedes you, it flows through you and you participate in it insofar as you help other people to come to personhood through you.", "role": "summary" },
+      { "episode": 16, "phrase": "Agape has a sacrificial element to it in that you give yourself, you \"for-give\", you give before the person earns.", "role": "definition" }
+    ]
+  },
+  {
+    "id": "anagoge",
+    "subConcepts": [
+      {
+        "id": "anagoge-as-reciprocal-acceleration",
+        "name": "Anagoge as reciprocal acceleration",
+        "summary": "The anagogic process is self-reinforcing: as one contacts more of reality one becomes more capable of contact, and that increased capability discloses yet more reality.",
+        "passages": [
+          { "episode": 17, "phrase": "This is anagoge. Anagoge is precisely to set things up so that as this, as this is transcending as its decline, as I'm coming more into contact with what's real, getting below the illusion, like Paul just seeing things in mirror or just shadows on the cave for player as that opens up, that affords me transforming, right?" }
+        ]
+      },
+      {
+        "id": "anagoge-vs-reciprocal-narrowing",
+        "name": "Anagoge versus reciprocal narrowing",
+        "summary": "Anagoge is the opposite of Marc Lewis's reciprocal narrowing: where addiction shrinks agent and arena together, anagoge expands them in a mutually opening spiral.",
+        "passages": [
+          { "episode": 13, "phrase": "The Eightfold Path is a counteractive dynamical system that counteracts parasitic processing and does reciprocal opening, beyond the ego self and beyond the everyday world" }
+        ]
+      }
+    ],
+    "commonConfusions": [
+      "Anagoge is not simply intellectual ascent — it involves simultaneous transformation of the self and deepened contact with reality, both happening together.",
+      "Anagoge is not guaranteed by effort alone — it requires the right ecology of psycho-technologies, a community, and often an altered state of consciousness to initiate.",
+      "The myth of the cave is not just a metaphor for learning facts — it depicts anagoge, a radical perspectival-participatory transformation, not an increase in propositional knowledge."
+    ],
+    "keyPassages": [
+      { "episode": 5, "phrase": "There's a Greek word for this 'ascent' called \"Anagoge\". This is the \"Anagogic\", or the \"Anagogical\" aspect of Plato's idea", "role": "definition" },
+      { "episode": 17, "phrase": "what I need is I need not only an enactive analogy, I need a way of enacting anagoge. And that is also what religious ritual used to do for us.", "role": "application" },
+      { "episode": 13, "phrase": "it can help you reverse the Reciprocal Narrowing until you get anagogic awakening. It takes you beyond the prison of the ego and the Everyday World.", "role": "application" }
+    ]
+  },
+  {
+    "id": "eros",
+    "subConcepts": [
+      {
+        "id": "eros-as-consumptive-unification",
+        "name": "Eros as consumptive unification",
+        "summary": "Eros seeks to become one with something — from consuming food to sexual union — and is satisfied through consummation.",
+        "passages": [
+          { "episode": 15, "phrase": "Eros is the love that seeks to be one with something." }
+        ]
+      },
+      {
+        "id": "ta-erotika-socratic",
+        "name": "Ta erotika — Socrates's craft of loving rightly",
+        "summary": "Socrates claimed mastery of 'ta erotika' — not just sexual love but knowing how to care and what to care about, making eros a form of wisdom when practised with discernment.",
+        "passages": [
+          { "episode": 15, "phrase": "Socrates new/taught erotica, which wasn't just sex. Socrates knew what to care about." }
+        ]
+      }
+    ],
+    "commonConfusions": [
+      "Eros in Vervaeke's usage is not limited to sexual love — it includes any desire for union or consummation, from eating a cookie to becoming one with nature.",
+      "Eros is not the highest Greek love — philia and agape operate on different axes, and Vervaeke contrasts all three to show their distinct logics.",
+      "Mastery of eros (ta erotika, as Socrates practised it) is about knowing what to care about — it is a form of wisdom, not mere passion."
+    ],
+    "keyPassages": [
+      { "episode": 15, "phrase": "Eros is the love that seeks to be one with something.", "role": "definition" },
+      { "episode": 15, "phrase": "So this is the love that is satisfied through consummation. Phylia. This is the love that seeks cooperation. This is the love in which we experienced reciprocity.", "role": "summary" },
+      { "episode": 16, "phrase": "Eros is consumptive - making one with -, Phylia is cooperation - we work together.", "role": "summary" }
+    ]
+  },
+  {
+    "id": "foolishness",
+    "subConcepts": [
+      {
+        "id": "foolishness-vs-ignorance",
+        "name": "Foolishness distinguished from ignorance",
+        "summary": "Ignorance is a lack of knowledge; foolishness is a lack of wisdom — it is knowing what is right and failing to do it anyway, due to character insufficiency rather than epistemic gaps.",
+        "passages": [
+          { "episode": 1, "phrase": "Ignorance is a lack of knowledge. Foolishness is a lack of wisdom. Foolishness is when your capacity to engage your agency, pursue your goals is undermined and threatened by the self-deception and the self-destructive behavior that is a perennial vulnerability to your cognition." }
+        ]
+      },
+      {
+        "id": "foolishness-as-endemic",
+        "name": "Foolishness as endemic to adaptive machinery",
+        "summary": "The very cognitive machinery that makes humans brilliantly adaptive — heuristics, fast association, motivated reasoning — also makes them systematically prone to self-deception and self-destruction.",
+        "passages": [
+          { "episode": 5, "phrase": "What you want to do is get it properly ordered. When you don't order it, think about what this means... Salience and understanding and participation get out of sync with each other." }
+        ]
+      }
+    ],
+    "commonConfusions": [
+      "Foolishness is not stupidity — highly intelligent people are fully capable of foolishness, because foolishness is a character and salience problem, not an information problem.",
+      "Foolishness is not a rare pathology — Vervaeke argues it is endemic to the same machinery that makes us adaptive, so everyone is systematically vulnerable.",
+      "Fixing foolishness requires more than getting better beliefs — it requires the transformation of character, salience, and participatory knowing that wisdom traditions address."
+    ],
+    "keyPassages": [
+      { "episode": 1, "phrase": "Ignorance is a lack of knowledge. Foolishness is a lack of wisdom. Foolishness is when your capacity to engage your agency, pursue your goals is undermined and threatened by the self-deception and the self-destructive behavior that is a perennial vulnerability to your cognition.", "role": "definition" },
+      { "episode": 14, "phrase": "Up until now the main thing that wisdom was trying to deal with was foolishness. And that's not abandoned, but that's now seen as insufficient.", "role": "application" },
+      { "episode": 6, "phrase": "Akrasia is when you know what the right thing to do is - you KNOW what the right thing to do is - and we talked about this, remember, with the chocolate cake. But you don't do the right thing.", "role": "exemplar" }
+    ]
+  },
+  {
+    "id": "having-mode-being-mode",
+    "subConcepts": [
+      {
+        "id": "having-mode-defined",
+        "name": "The having-mode and its needs",
+        "summary": "The having-mode meets 'having-needs' by categorising, controlling, and possessing objects — it operates in I-it relations and is appropriate for managing the material world.",
+        "passages": [
+          { "episode": 7, "phrase": "They're \"having needs\" and \"being needs\". So of course this mode (having needs) is called \"having mode\". It's an existential mode." }
+        ]
+      },
+      {
+        "id": "being-mode-defined",
+        "name": "The being-mode and its needs",
+        "summary": "The being-mode meets 'being-needs' — for love, maturity, meaning — through becoming, developing, and participating in I-thou relations that cannot be reduced to acquisition.",
+        "passages": [
+          { "episode": 7, "phrase": "This process by which you are co-identifying agency and arena so that they fit together and make sense of each other and you get a coherent and functioning world view... That's your existential mode." }
+        ]
+      },
+      {
+        "id": "modal-confusion-capitalism",
+        "name": "Modal confusion in market culture",
+        "summary": "Capitalism systematically trains people into modal confusion by selling being-needs — love, identity, maturity — as having-mode commodities like cars and status symbols.",
+        "passages": [
+          { "episode": 7, "phrase": "Fromm's point is we get mixed up. We try to satisfy our being needs within the having mode. We suffer from \"Modal Confusion\"." }
+        ]
+      }
+    ],
+    "commonConfusions": [
+      "The being-mode is not opposed to action or engagement — it is a different way of engaging, characterised by becoming rather than acquiring.",
+      "Vervaeke does not say having-needs are bad — both modes are legitimate; the problem is modal confusion, not the having-mode itself.",
+      "Sati (mindfulness) is Vervaeke's psycho-technological remedy for modal confusion — it recovers the being-mode, not by ignoring having-needs but by properly situating them."
+    ],
+    "keyPassages": [
+      { "episode": 7, "phrase": "They're \"having needs\" and \"being needs\". So of course this mode (having needs) is called \"having mode\". It's an existential mode.", "role": "definition" },
+      { "episode": 7, "phrase": "Fromm's point is we get mixed up. We try to satisfy our being needs within the having mode. We suffer from \"Modal Confusion\".", "role": "application" },
+      { "episode": 13, "phrase": "It helps you to remember The Being Mode, to get out of Modal Confusion.", "role": "application" }
+    ]
+  },
+  {
+    "id": "horror",
+    "subConcepts": [],
+    "commonConfusions": [
+      "Horror is not fright or fear — Vervaeke sharply distinguishes horror (the grip on reality itself being undermined) from the fear of a specific threat where you know what to do.",
+      "Most horror movies are not horror in Vervaeke's technical sense — they produce fright, not the existential destabilisation in which framing capacity itself is threatened.",
+      "Horror and the sacred are not opposites — the numinous experience of the sacred edges on horror, because both involve the transgression of one's framing by something larger."
+    ],
+    "keyPassages": [
+      { "episode": 1, "phrase": "Most horror movies aren't horror. We'll talk about what horror really is and what people experience when they're actually experiencing horror. Their sense of grip on reality is being undermined and people find that, as you can imagine, terrifying.", "role": "definition" },
+      { "episode": 33, "phrase": "wonder, think about awe (writes these on the board, Awe above Wonder) and what we've been talking about and this remembering of the Being mode - which is so central to spirituality, right? So that's another aspect of this.", "role": "qualification" },
+      { "episode": 33, "phrase": "one of the functions of sacredness is the Meta-Meaning process of homing us against horror (Meta-Meaning => Sacredness => Homing Against Horror) where horror would be to be overwhelmed by loneliness.", "role": "application" }
+    ]
+  },
+  {
+    "id": "metanoia",
+    "subConcepts": [
+      {
+        "id": "metanoia-as-salience-revolution",
+        "name": "Metanoia as revolution of salience landscape",
+        "summary": "Metanoia is not a change of opinion but a radical transformation of one's entire perspectival landscape — what is salient, central, and real changes fundamentally.",
+        "passages": [
+          { "episode": 15, "phrase": "NOIA means \"noticing\"; this is your perspectival awareness and \"Meta\" means \"beyond\". This means a \"radical transformation in your salience landscape\", a \"radical transformation of what it's like to be you\"." }
+        ]
+      },
+      {
+        "id": "metanoia-vs-conversion",
+        "name": "Metanoia versus mere 'conversion'",
+        "summary": "Standard Bible translations render metanoia as 'conversion' — a mere change of allegiance — but the Greek means a transformation of the whole noetic field, closer to awakening than to switching sides.",
+        "passages": [
+          { "episode": 15, "phrase": "this word is much closer to \"awakening\"." }
+        ]
+      }
+    ],
+    "commonConfusions": [
+      "Metanoia is not a change of doctrinal belief — it is a perspectival and participatory transformation, not a propositional switch.",
+      "Being 'born again' is not a metaphor for joining a religious community — Jesus uses it for a radical shift in modal existence that can happen to anyone.",
+      "Metanoia is not instantaneous — it is the name for the turning, which can be sudden (like Paul on the road to Damascus) or gradual through practices."
+    ],
+    "keyPassages": [
+      { "episode": 15, "phrase": "NOIA means \"noticing\"; this is your perspectival awareness and \"Meta\" means \"beyond\". This means a \"radical transformation in your salience landscape\", a \"radical transformation of what it's like to be you\".", "role": "definition" },
+      { "episode": 16, "phrase": "what fundamentally happening in the metanoia of Agape is I'm having a personal Kairos. My personal course is being radically transformed.", "role": "exemplar" },
+      { "episode": 16, "phrase": "Jesus is not only teaching this, he is exemplifying it. He experiences himself as a Kairos and he's giving to people through Agape the possibility of experiencing their own personal Kairos.", "role": "application" }
+    ]
+  },
+  {
+    "id": "mythos",
+    "subConcepts": [
+      {
+        "id": "mythos-as-perennial-pattern",
+        "name": "Mythos as perennial pattern, not past fable",
+        "summary": "Myths are not false stories about the ancient past but symbolic stories about patterns that are perennially present — they operate at the level of perennial human structure.",
+        "passages": [
+          { "episode": 2, "phrase": "myths aren't false stories about the ancient past. They're symbolic stories about perennial patterns that are always with us." }
+        ]
+      },
+      {
+        "id": "mythos-as-religio-activator",
+        "name": "Mythos as activator of religio",
+        "summary": "Mythos — the integrated structure of symbol, story, and ritual — is the means by which a community activates, accentuates, articulates, and celebrates its religio.",
+        "passages": [
+          { "episode": 36, "phrase": "We can use Mythos to activate, accelerate, articulate, and appreciate Religio." }
+        ]
+      }
+    ],
+    "commonConfusions": [
+      "Myth does not mean false — for Vervaeke, 'myth' in the technical sense means a story about a perennial pattern, not a factual claim about history.",
+      "Mythos and logos are not opposed — they are complementary; their severance in modernity (not their distinction) is part of the problem.",
+      "Mythos is not reducible to narrative alone — it integrates symbol and ritual together with story into a single enactive system."
+    ],
+    "keyPassages": [
+      { "episode": 2, "phrase": "myths aren't false stories about the ancient past. They're symbolic stories about perennial patterns that are always with us.", "role": "definition" },
+      { "episode": 36, "phrase": "We can use Mythos to activate, accelerate, articulate, and appreciate Religio. Religio is inherently valuable to us so even that alone is going to be very valuable to us.", "role": "application" },
+      { "episode": 1, "phrase": "And it becomes much more organized around extremes and tragedy.", "role": "exemplar" }
+    ]
+  },
+  {
+    "id": "mythos-vs-logos",
+    "subConcepts": [
+      {
+        "id": "logos-as-structural-intelligibility",
+        "name": "Logos as structural-functional intelligibility",
+        "summary": "Logos is the rational articulation of the structural-functional organisation of reality — the pattern that makes things intelligible — distinct from mere spoken words.",
+        "passages": [
+          { "episode": 5, "phrase": "The Greeks have a good word for this (S-FO): the word \"logos\", although a word that's being discussed a lot today. I think it needs to be discussed a little bit more carefully." }
+        ]
+      },
+      {
+        "id": "severance-of-mythos-logos",
+        "name": "The modern severance of mythos and logos",
+        "summary": "Modernity severed mythos from logos — leaving logos without existential relevance and mythos without rational grounding — and this severance is a driving cause of the meaning crisis.",
+        "passages": [
+          { "episode": 15, "phrase": "Christianity is going to take up into itself the Stoicism we've already talked about. Paul quotes stoicism in the Bible." }
+        ]
+      }
+    ],
+    "commonConfusions": [
+      "Logos does not simply mean 'word' — for Vervaeke following John and the Stoics, it means the intelligible formative principle structuring reality.",
+      "The problem is not the distinction between mythos and logos but their modern severance — they are supposed to be complementary, not rivals.",
+      "John's gospel ('In the beginning was the Logos') is appropriating a Stoic concept to identify God's creative rationality with the intelligibility of Jesus — showing how mythic and logocentric thinking can converge."
+    ],
+    "keyPassages": [
+      { "episode": 5, "phrase": "The Greeks have a good word for this (S-FO): the word \"logos\", although a word that's being discussed a lot today. I think it needs to be discussed a little bit more carefully.", "role": "definition" },
+      { "episode": 15, "phrase": "Christianity is going to take up into itself the Stoicism we've already talked about. Paul quotes stoicism in the Bible.", "role": "exemplar" },
+      { "episode": 19, "phrase": "All of this was integrated together. These three orders that articulate the space of how we're connected to ourselves, to each other and to the world. The normal logical, the normative and the narrative", "role": "summary" }
+    ]
+  },
+  {
+    "id": "narrative-order",
+    "subConcepts": [
+      {
+        "id": "narrative-order-as-cosmic-story",
+        "name": "Narrative order as structured cosmic story",
+        "summary": "The Hebraic narrative order gives history a directional structure — from slavery to promised land, from fall to redemption — with kairos moments where human participation shapes the outcome.",
+        "passages": [
+          { "episode": 19, "phrase": "All of this was integrated together. These three orders that articulate the space of how we're connected to ourselves, to each other and to the world. The normal logical, the normative and the narrative" }
+        ]
+      },
+      {
+        "id": "narrative-order-secularisation",
+        "name": "Secularisation of narrative order",
+        "summary": "Hegel translates narrative order into the dialectic of Geist; Marx into political revolution — both preserve the narrative structure while stripping the cosmic dimension.",
+        "passages": [
+          { "episode": 15, "phrase": "this whole idea of co-creating with God the open future, such that we can bring about a promised land for human beings." }
+        ]
+      }
+    ],
+    "commonConfusions": [
+      "Narrative order is not mere storytelling — it is the participatory structure of reality as co-created history, requiring Da'ath (participatory faith) to inhabit.",
+      "Narrative order is not the same as having a personal autobiography — it is a cosmic structure that situates personal lives within a larger moral-historical arc.",
+      "The breakdown of narrative order is not just secularisation — it involves the loss of the sense that history has a meaningful direction in which human participation matters."
+    ],
+    "keyPassages": [
+      { "episode": 19, "phrase": "All of this was integrated together. These three orders that articulate the space of how we're connected to ourselves, to each other and to the world. The normal logical, the normative and the narrative", "role": "definition" },
+      { "episode": 15, "phrase": "this whole idea of co-creating with God the open future, such that we can bring about a promised land for human beings.", "role": "exemplar" },
+      { "episode": 3, "phrase": "Faith was your sense that you are in this reciprocal realization: you're \"in course\". You're \"on course\". You're involved and evolving with things.", "role": "application" }
+    ]
+  },
+  {
+    "id": "nomological-order",
+    "subConcepts": [],
+    "commonConfusions": [
+      "Nomological order is not just scientific natural law — it is a worldview in which the cosmos is intelligible for human dwelling, not merely mathematically describable.",
+      "Aristotle's world provided nomological order not because it was scientifically correct but because it integrated cosmic intelligibility with human existential modes.",
+      "The scientific revolution destroyed the Aristotelian nomological order without producing a successor — this is one root of the meaning crisis."
+    ],
+    "keyPassages": [
+      { "episode": 7, "phrase": "I'm going to call that a \"Nomological Order\". Nomological Order comes from no \"Nomos(*****)\"Law. This is what makes the universe law-like, not just in our current sense of scientific law but in the sense that it is a cosmos for us.", "role": "definition" },
+      { "episode": 7, "phrase": "what you have, when you have a world view, is you've got this Agent and Arena coupling.", "role": "application" },
+      { "episode": 19, "phrase": "All of this was integrated together. These three orders that articulate the space of how we're connected to ourselves, to each other and to the world. The normal logical, the normative and the narrative", "role": "summary" }
+    ]
+  },
+  {
+    "id": "normative-order",
+    "subConcepts": [],
+    "commonConfusions": [
+      "The normative order is not a moral code — it is an ontological structure of ascent in which reality and self become more real together through anagoge.",
+      "The normative order is not the same as having ideals — it requires a structured ontology of levels of reality and levels of self, not merely aspiring to do better.",
+      "The Rhineland mystics invert the normative order into a descent spirituality — this is a fundamental revision of the Plotinian ascent, not merely a variant of it."
+    ],
+    "keyPassages": [
+      { "episode": 19, "phrase": "From Plotinus himself, we get now what I'm going to call the Normative Order (writes Normative Order off of Plotinus and beside Aristotelian Worldview) . Plotinus gave us an account of how we can move in a coordinated fashion up the levels of reality, up the levels of consciousness, up the levels of the self, from what is less real to what is more real", "role": "definition" },
+      { "episode": 18, "phrase": "Plotinus is the grand unified field theory of ancient spirituality because what does he do? Well, he takes Plato's spirituality. He takes the whole idea of anagoge from Plato. He takes Aristotle's theory, the whole Aristotle worldview, the theory of knowing, the theory of the structure of the world.", "role": "exemplar" },
+      { "episode": 19, "phrase": "All of this was integrated together. These three orders that articulate the space of how we're connected to ourselves, to each other and to the world. The normal logical, the normative and the narrative", "role": "application" }
+    ]
+  },
+  {
+    "id": "philia",
+    "subConcepts": [
+      {
+        "id": "philia-as-cooperative-reciprocity",
+        "name": "Philia as cooperative reciprocity",
+        "summary": "Philia is the love born out of cooperation — friends give and receive in mutual development — and is therefore earned and reciprocal, unlike the unearned gift of agape.",
+        "passages": [
+          { "episode": 15, "phrase": "So this is the love that is satisfied through consummation. Phylia. This is the love that seeks cooperation. This is the love in which we experienced reciprocity." }
+        ]
+      },
+      {
+        "id": "philia-sophia",
+        "name": "Philia-sophia — the love of wisdom",
+        "summary": "Philosophy etymologically means 'philia-sophia' — the friendship-love of wisdom pursued in community — not the solitary accumulation of knowledge or competitive debate.",
+        "passages": [
+          { "episode": 4, "phrase": "Pythagoras actually invents the word \"Philosophy\". It comes from two Greek words: \"Philia\" and \"Sophia\"." }
+        ]
+      }
+    ],
+    "commonConfusions": [
+      "Philia is not the same as casual liking — it is a robust cooperative bond involving mutual development and reciprocity over time.",
+      "Philosophy in Vervaeke's account is not primarily argument but philia-sophia — a communal friendship in pursuit of wisdom, contrasted with philia-nikia (love of victory).",
+      "Philia is inferior to neither eros nor agape — all three are needed; the question is always which love is appropriate to which relationship."
+    ],
+    "keyPassages": [
+      { "episode": 15, "phrase": "So this is the love that is satisfied through consummation. Phylia. This is the love that seeks cooperation. This is the love in which we experienced reciprocity.", "role": "definition" },
+      { "episode": 4, "phrase": "Pythagoras actually invents the word \"Philosophy\". It comes from two Greek words: \"Philia\" and \"Sophia\".", "role": "exemplar" },
+      { "episode": 14, "phrase": "What is it that gives you the most meaning in life? And here's where the Epicureans have a beautiful answer and they pick it up from Socrates: \"The thing that gives you meaning is friendship\".", "role": "application" }
+    ]
+  },
+  {
+    "id": "rationality",
+    "subConcepts": [
+      {
+        "id": "rationality-beyond-logicality",
+        "name": "Rationality beyond logicality",
+        "summary": "Vervaeke insists rationality is not the same as logical inferential processing — it is any systematically reliable psycho-technology for overcoming self-deception and enhancing connectedness.",
+        "passages": [
+          { "episode": 40, "phrase": "Rationality means any systematically reliable internalized psychotechnology that reliably and systematically affords you overcoming self-deception and affords you cultivating enhanced connectedness, enhanced meaning in life." }
+        ]
+      },
+      {
+        "id": "rationality-as-process-not-product",
+        "name": "Rationality focused on process, not product",
+        "summary": "Following Stanovich, a key mark of rationality is attending to cognitive processes rather than just propositional outputs — forming a malleable mindset rather than a fixed-intelligence stance.",
+        "passages": [
+          { "episode": 40, "phrase": "the hallmark of rationality is learning not to focus just on the products of your cognition, but find valuable, and pay attention to, the processes." }
+        ]
+      }
+    ],
+    "commonConfusions": [
+      "Rationality is not equivalent to intelligence — Vervaeke follows Stanovich in arguing rationality is far more malleable than intelligence and requires explicit cultivation.",
+      "Rationality is not opposed to love or aspiration — proleptic rationality (aspiration) is itself a form of rationality, otherwise the love of wisdom would be self-undermining.",
+      "Active open-mindedness is necessary for rationality but not sufficient — mindfulness for insight is equally necessary, and wisdom coordinates both."
+    ],
+    "keyPassages": [
+      { "episode": 40, "phrase": "Rationality means any systematically reliable internalized psychotechnology that reliably and systematically affords you overcoming self-deception and affords you cultivating enhanced connectedness, enhanced meaning in life. That's why the notion of rationality I've argued for is bound up with the—it can culminate, it could point towards the cultivation of wisdom.", "role": "definition" },
+      { "episode": 40, "phrase": "the hallmark of rationality is learning not to focus just on the products of your cognition, but find valuable, and pay attention to, the processes.", "role": "qualification" },
+      { "episode": 42, "phrase": "My aspiring to rationality has to be itself a kind of rationality. That's proleptic rationality, or to use something older. My loving of wisdom. My loving of wisdom. My aspiring to becoming wise cannot itself be an irrational process.", "role": "application" }
+    ]
+  },
+  {
+    "id": "religio",
+    "subConcepts": [
+      {
+        "id": "religio-as-higher-order-rr",
+        "name": "Religio as higher-order relevance realization",
+        "summary": "Religio is not a product of religiosity but of the whole right-hand side of Vervaeke's convergence diagram — the pre-egoic, transjective, evolving binding of agent and arena.",
+        "passages": [
+          { "episode": 36, "phrase": "We can use Mythos to activate, accelerate, articulate, and appreciate Religio. Religio is inherently valuable to us so even that alone is going to be very valuable to us." }
+        ]
+      },
+      {
+        "id": "religio-vs-credo",
+        "name": "Religio distinguished from credo",
+        "summary": "Credo (creed) is the propositional belief system; religio is the lived participatory binding that gives creeds their existential power — the meaning crisis partly arises from collapsing religio into credo.",
+        "passages": [
+          { "episode": 39, "phrase": "And so I think that is something that should be acknowledged as what we would be looking for. And this brings out an important contrast (writes = beside Religio) I want to discuss (erases equal sign). Sorry, not equal. Religio versus credo" }
+        ]
+      },
+      {
+        "id": "religio-as-pre-egoic",
+        "name": "Religio as pre-egoic and phenomenologically mysterious",
+        "summary": "Religio is deeper than propositional knowing, belief, ego, or any focal object — it is the ground out of which subjectivity and objectivity themselves co-emerge.",
+        "passages": [
+          { "episode": 33, "phrase": "Religio is… I'm using it in a spiritual sense, [in] the sense of a pre-egoic, ultimately a post-egoic, binding that simultaneously grounds the self and its world." }
+        ]
+      }
+    ],
+    "commonConfusions": [
+      "Religio is not religion — it is the pre-institutional, pre-propositional participatory binding that religious institutions have historically tried (imperfectly) to activate.",
+      "Religio is not a feeling of the numinous — it is a cognitive-existential structure, the higher-order relevance realization that grounds all individual meaning systems.",
+      "The meaning crisis is not solved by returning to creedal religion — what is needed is recovering religio, which can be done through a 'religion that is not a religion' without metaphysical commitment."
+    ],
+    "keyPassages": [
+      { "episode": 36, "phrase": "We can use Mythos to activate, accelerate, articulate, and appreciate Religio. Religio is inherently valuable to us so even that alone is going to be very valuable to us.", "role": "definition" },
+      { "episode": 33, "phrase": "Religio is… I'm using it in a spiritual sense, [in] the sense of a pre-egoic, ultimately a post-egoic, binding that simultaneously grounds the self and its world.", "role": "definition" },
+      { "episode": 39, "phrase": "And so I think that is something that should be acknowledged as what we would be looking for. And this brings out an important contrast (writes = beside Religio) I want to discuss (erases equal sign). Sorry, not equal. Religio versus credo", "role": "qualification" },
+      { "episode": 46, "phrase": "one of the things that wisdom is doing that's also really important is it's enhancing religio (writes Religio below Wisdom). That's a way in which you can powerfully—and we saw already the connection.", "role": "application" }
+    ]
+  },
+  {
+    "id": "the-religio-credo-distinction",
+    "subConcepts": [],
+    "commonConfusions": [
+      "The distinction is not an attack on creedal religion — Vervaeke explicitly acknowledges the indispensability of particular myths and creeds for many people.",
+      "Credo is not worthless — it becomes problematic only when it is mistaken for religio or when it is used to substitute for the participatory practices that activate religio.",
+      "This distinction is not new — Schleiermacher made it first, arguing that the experience of absolute dependence (religio-side) is what makes creedal claims spiritually meaningful."
+    ],
+    "keyPassages": [
+      { "episode": 39, "phrase": "And so I think that is something that should be acknowledged as what we would be looking for. And this brings out an important contrast (writes = beside Religio) I want to discuss (erases equal sign). Sorry, not equal. Religio versus credo", "role": "definition" },
+      { "episode": 33, "phrase": "Religio is… I'm using it in a spiritual sense, [in] the sense of a pre-egoic, ultimately a post-egoic, binding that simultaneously grounds the self and its world.", "role": "exemplar" },
+      { "episode": 46, "phrase": "one of the things that wisdom is doing that's also really important is it's enhancing religio", "role": "application" }
+    ]
+  },
+  {
+    "id": "self-transcendence",
+    "subConcepts": [
+      {
+        "id": "self-transcendence-as-epistemic-ethical",
+        "name": "Epistemic and ethical self-transcendence",
+        "summary": "Westphal distinguishes epistemic self-transcendence (correcting false beliefs about oneself) from ethical self-transcendence (becoming a genuinely different, better person) — Vervaeke argues both are needed.",
+        "passages": [
+          { "episode": 1, "phrase": "this notion of self transcendence, again which we'll have to develop and explicate, is something that's a core need because it performs core functions for human beings. It is bound up with these ideas of wisdom, and of course meaning." }
+        ]
+      },
+      {
+        "id": "self-transcendence-vs-existential-inertia",
+        "name": "Self-transcendence versus existential inertia",
+        "summary": "Existential inertia is the failure of self-transcendence — being stuck in a worldview one cannot make viable even though one can articulate the alternative.",
+        "passages": [
+          { "episode": 17, "phrase": "You can state who they want to be and what kind of world they want to be in. They can imagine it. They can make inferences of what it would be like if they were there. They can deeply want to be there! But they don't... They don't get there! They stay stuck!!" }
+        ]
+      }
+    ],
+    "commonConfusions": [
+      "Self-transcendence is not ego-annihilation — it is a developmental overcoming of one's current frame, not the destruction of selfhood.",
+      "Self-transcendence is not spiritually optional — Vervaeke argues it is a core cognitive need that the same machinery making us adaptive also threatens.",
+      "Self-transcendence cannot be willed directly — it requires the right ecology of practices (gnosis, serious play, anagoge) rather than sheer resolve."
+    ],
+    "keyPassages": [
+      { "episode": 1, "phrase": "this notion of self transcendence, again which we'll have to develop and explicate, is something that's a core need because it performs core functions for human beings. It is bound up with these ideas of wisdom, and of course meaning.", "role": "definition" },
+      { "episode": 17, "phrase": "You can state who they want to be and what kind of world they want to be in. They can imagine it. They can make inferences of what it would be like if they were there. They can deeply want to be there! But they don't... They don't get there! They stay stuck!!", "role": "exemplar" },
+      { "episode": 5, "phrase": "This (Myth of the Cave) is a myth of enlightenment: of coming into the light. It's a myth of self-transcendence and self-transformation.", "role": "application" }
+    ]
+  },
+  {
+    "id": "sophrosyne",
+    "subConcepts": [],
+    "commonConfusions": [
+      "Sophrosyne is not temperance in the weak sense of moderate consumption — it is the condition of a person whose salience landscape has been so well trained that it naturally tracks truth and the good.",
+      "Sophrosyne is an outcome of wisdom cultivation, not a prerequisite — one becomes sophron as a result of the dynamical system of psycho-technologies working.",
+      "Sophrosyne is not self-control in the willpower sense — it is the condition where there is no war between knowing the good and doing it, because salience and understanding are in sync."
+    ],
+    "keyPassages": [
+      { "episode": 16, "phrase": "we talked about Sophrosyne. When you become an adult, your world becomes radically reoriented. What is salient and what is central to you is radically changed.", "role": "exemplar" },
+      { "episode": 46, "phrase": "we are enhancing the capacity for internalization by internalizing the sage and cultivating sophrosyne. Our salience landscape naturally organizes away from self-deception and tempts us towards the truth.", "role": "definition" },
+      { "episode": 45, "phrase": "We're seeing that wisdom is a dynamical system. A dynamical system that is counteractive to the machinery of self-deception. And that helps to afford the self-organized transformation into the life of flourishing.", "role": "application" }
+    ]
+  },
+  {
+    "id": "the-good",
+    "subConcepts": [
+      {
+        "id": "the-good-as-source-of-realness",
+        "name": "The Good as source of both realness and knowability",
+        "summary": "Like the sun outside the cave, the Good is that by which things are real and by which the mind can know them — it is the inexhaustible source of intelligibility and being.",
+        "passages": [
+          { "episode": 5, "phrase": "And what are they looking for? They want to see the source of the real light. The light that's allowing them to pick up on the real patterns." }
+        ]
+      }
+    ],
+    "commonConfusions": [
+      "The Good is not a moral rule — it is the ontological source from which truth, goodness, and beauty all derive their normative force.",
+      "Plotinus's 'The One' is not a separate entity from the Good but a further specification of the same inexhaustible principle of intelligibility.",
+      "The Good cannot be grasped propositionally — like the sun, it cannot be looked at directly; it is known only by what it makes visible, through anagogic participation."
+    ],
+    "keyPassages": [
+      { "episode": 5, "phrase": "And what are they looking for? They want to see the source of the real light. The light that's allowing them to pick up on the real patterns.", "role": "definition" },
+      { "episode": 18, "phrase": "So Plotinus calls this The One. He doesn't mean the single. This is that by which reality is realized and our mind realizes reality.", "role": "exemplar" },
+      { "episode": 5, "phrase": "Plato describes wisdom as an internal Justice within the psyche in which the man has been taught, the line has been trained and the monster has been tamed so they can get along together as much as is possible.", "role": "application" }
+    ]
+  },
+  {
+    "id": "the-good-the-true-the-beautiful",
+    "subConcepts": [],
+    "commonConfusions": [
+      "These are not three separate values to be balanced — they are three faces of the same aspiration toward what is ultimately real, each presupposing the others.",
+      "Beauty in this triad is not aesthetic preference — it is the experience of optimal grip on structural-functional organisation, closely tied to insight.",
+      "Losing these transcendentals does not mean losing art or morality — it means losing the sense that truth, goodness, and beauty are inherently connected and worth pursuing together."
+    ],
+    "keyPassages": [
+      { "episode": 19, "phrase": "I'm losing truth. I'm losing goodness. I'm losing beauty. I'm losing what makes things to Be and what makes them to be sensible and intelligible.", "role": "definition" },
+      { "episode": 46, "phrase": "Our salience landscape naturally organizes away from self-deception and tempts us towards the truth. What's true, good, and perhaps beautiful.", "role": "application" },
+      { "episode": 5, "phrase": "And what are they looking for? They want to see the source of the real light. The light that's allowing them to pick up on the real patterns.", "role": "exemplar" }
+    ]
+  },
+  {
+    "id": "the-courage-to-be",
+    "subConcepts": [],
+    "commonConfusions": [
+      "The courage to be is not bravery in the face of a specific danger — it is the existential willingness to act and affirm one's being in the face of the threat of non-being and meaninglessness.",
+      "Courage in Vervaeke's treatment is not a virtue of mere endurance — the courageous person sees through the distortion of fear to what is truly good and acts accordingly.",
+      "Tillich's 'God above the God of theism' is not atheism — it is the movement toward the ground of being that is prior to any particular theistic formulation."
+    ],
+    "keyPassages": [
+      { "episode": 50, "phrase": "The brave person faces danger, but that's all we can say about them. The person with fortitude endures difficulty, but that's all we can say of them. The courageous person sees through the illusion and the distortion of fear or distress to what is truly good and acts accordingly.", "role": "definition" },
+      { "episode": 14, "phrase": "The Courage To Be as a discussion about that from a more modern context.", "role": "application" },
+      { "episode": 18, "phrase": "talks about that the response to that is a way of discovering, and it's clear because of how he talks about symbols and he talks about transformation, although he does not use the term, but he's talking about gnosis. He's talking about that the response to the meaning crisis is the gnosis of the God beyond the God of theism.", "role": "exemplar" }
+    ]
+  },
+  {
+    "id": "the-divine-double",
+    "subConcepts": [],
+    "commonConfusions": [
+      "The divine double is not a literal supernatural being — it is a symbol for the better self that shines into one's current frame from a more encompassing frame, enabling transframing.",
+      "The divine double is not the same as the ego-ideal or the superego — it is transjective, coming from outside-and-above the current frame, not from within the ego's self-criticism.",
+      "Internalising the divine double does not mean imitating an external role model — it means undergoing a participatory transformation that reframes one's whole framing."
+    ],
+    "keyPassages": [
+      { "episode": 48, "phrase": "The divine double allows you to internalize from this more encompassing frame into your current frame (draws an arrow from the large square to the smaller square and writes DD) but that is simultaneously—and here's the shining in (indicates the arrow). Here's the shining in through the divine double.", "role": "definition" },
+      { "episode": 48, "phrase": "imaginal which mediates between the abstract intelligible world and the concrete, sensible world and transjectively mediates between the subjective and the objective.", "role": "application" },
+      { "episode": 42, "phrase": "My aspiring to rationality has to be itself a kind of rationality. That's proleptic rationality, or to use something older. My loving of wisdom.", "role": "exemplar" }
+    ]
+  },
+  {
+    "id": "the-imaginal",
+    "subConcepts": [],
+    "commonConfusions": [
+      "The imaginal is not the same as the imaginary — the imaginary is merely subjective mental pictures, while the imaginal is transjective, participating between subject and world.",
+      "The imaginal is not fantasy or wishful thinking — it is the mode in which symbols do their genuine transformative work, mediating between abstract and concrete.",
+      "Recovering the imaginal is not a return to pre-rational myth — it is a post-critical engagement with symbolic transframing, consistent with a 4E cognitive science worldview."
+    ],
+    "keyPassages": [
+      { "episode": 48, "phrase": "imaginal which mediates between the abstract intelligible world and the concrete, sensible world and transjectively mediates between the subjective and the objective.", "role": "definition" },
+      { "episode": 48, "phrase": "The divine double allows you to internalize from this more encompassing frame into your current frame (draws an arrow from the large square to the smaller square and writes DD) but that is simultaneously—and here's the shining in (indicates the arrow). Here's the shining in through the divine double.", "role": "exemplar" },
+      { "episode": 35, "phrase": "symbols are inherently transjective (indicates the dynamic in Fig.6) because they are between two worlds: the world you're in/the framing you're in and the world you're trying to move to/the world that you aspire to.", "role": "application" }
+    ]
+  },
+  {
+    "id": "the-numinous",
+    "subConcepts": [
+      {
+        "id": "numinous-as-mysterium-tremendum",
+        "name": "Numinous as mysterium tremendum et fascinans",
+        "summary": "Otto describes the numinous as simultaneously mysterious, terrifying (tremendum), and fascinating — it transgresses the ordinary frame while drawing the agent toward it.",
+        "passages": [
+          { "episode": 34, "phrase": "Otto describes this experience of the numinous as having three central aspects to it. It is a mystery (writes mystery off of the numinous) very much in the way I argued last time" }
+        ]
+      }
+    ],
+    "commonConfusions": [
+      "The numinous is not the same as a sense of the transcendent in general — it has a specific structure of mystery, terror, and fascination that distinguishes it from aesthetic or moral elevation.",
+      "The numinous is not identical to the sacred — the numinous is the transgressive edge of sacredness, where homing against horror tilts into horror itself.",
+      "Otto's numinous is not supernatural for Vervaeke — it is better understood as the phenomenology of encountering the inexhaustible combinatorial nature of reality."
+    ],
+    "keyPassages": [
+      { "episode": 34, "phrase": "Otto describes this experience of the numinous as having three central aspects to it. It is a mystery (writes mystery off of the numinous) very much in the way I argued last time", "role": "definition" },
+      { "episode": 33, "phrase": "the experience of the numinous is ultimately to experience the transgressive side of the sacredness, how it opens us up in wonder and awe, and even takes us to the horizon of horror.", "role": "summary" },
+      { "episode": 35, "phrase": "symbols are inherently transjective (indicates the dynamic in Fig.6) because they are between two worlds: the world you're in/the framing you're in and the world you're trying to move to/the world that you aspire to. They are transgressive in all the ways I've tried to suggest to you.", "role": "application" }
+    ]
+  },
+  {
+    "id": "the-sacred",
+    "subConcepts": [
+      {
+        "id": "sacred-as-meta-meaning",
+        "name": "The sacred as meta-meaning system",
+        "summary": "Following Geertz, the sacred functions as the meta-meaning system that homes individuals against horror and absurdity — it is the condition for all individual meaning systems to work.",
+        "passages": [
+          { "episode": 33, "phrase": "one of the functions of sacredness is the Meta-Meaning process of homing us against horror (Meta-Meaning => Sacredness => Homing Against Horror) where horror would be to be overwhelmed by loneliness." }
+        ]
+      },
+      {
+        "id": "sacred-as-transjective-no-thing",
+        "name": "The sacred as transjective inexhaustibility",
+        "summary": "The sacred is the transjective relationship between the inexhaustible no-thing-ness of reality (always exceeding any frame) and the inexhaustible no-thing-ness of relevance realization in oneself.",
+        "passages": [
+          { "episode": 35, "phrase": "The sacred is the Transjective relationship between the combinatorially explosive nature of Reality - that reality is ultimately a no-thing-ness, that ultimately it is not a thing that you can frame. Reality will always transcend your framing." }
+        ]
+      },
+      {
+        "id": "sacred-not-supernatural",
+        "name": "The sacred is not the supernatural",
+        "summary": "Vervaeke proposes a naturalistic account of the sacred — grounded in relevance realization and religio — that does not require metaphysical commitment to the supernatural.",
+        "passages": [
+          { "episode": 33, "phrase": "I'm not claiming that Relevance Realization is God, that's ridiculous. I'm not doing that. But what I'm saying is [that] wonder and awe - which are often directed towards things like God - are ways that Costa is arguing in which we disclose the Relevance Realization and it's spiritual significance to us" }
+        ]
+      }
+    ],
+    "commonConfusions": [
+      "The sacred is not the supernatural — Vervaeke proposes a naturalistic account grounded in relevance realization and the transjective inexhaustibility of reality.",
+      "Sacredness is not just a feeling of awe — it has a structural function (meta-meaning, homing against horror) and a transgressive edge (the numinous) that awe alone does not capture.",
+      "The sacred is not identical to religio — religio is the participatory machinery; the sacred is the phenomenological encounter with the inexhaustible that religio makes possible."
+    ],
+    "keyPassages": [
+      { "episode": 35, "phrase": "The sacred is the Transjective relationship between the combinatorially explosive nature of Reality - that reality is ultimately a no-thing-ness, that ultimately it is not a thing that you can frame. Reality will always transcend your framing.", "role": "definition" },
+      { "episode": 33, "phrase": "one of the functions of sacredness is the Meta-Meaning process of homing us against horror (Meta-Meaning => Sacredness => Homing Against Horror) where horror would be to be overwhelmed by loneliness.", "role": "application" },
+      { "episode": 33, "phrase": "I'm not claiming that Relevance Realization is God, that's ridiculous. I'm not doing that. But what I'm saying is [that] wonder and awe - which are often directed towards things like God - are ways that Costa is arguing in which we disclose the Relevance Realization and it's spiritual significance to us", "role": "qualification" },
+      { "episode": 46, "phrase": "the enhancement of religio is already—and remember the role of wonder, potentially even awe here? It's taking us into sacredness (writes Sacredness below Religio), the notion of sacredness that I already have argued and articulated for.", "role": "summary" }
+    ]
+  },
+  {
+    "id": "the-symbol",
+    "subConcepts": [
+      {
+        "id": "symbol-vs-sign",
+        "name": "Symbol distinguished from sign",
+        "summary": "A sign merely points to a referent (the word 'cat' points to cats); a symbol participates in what it symbolises — it triggers transframing rather than just conveying information.",
+        "passages": [
+          { "episode": 35, "phrase": "symbols are inherently transjective (indicates the dynamic in Fig.6) because they are between two worlds: the world you're in/the framing you're in and the world you're trying to move to/the world that you aspire to. They are transgressive in all the ways I've tried to suggest to you. They try to trigger transframing. They're transformative." }
+        ]
+      },
+      {
+        "id": "symbol-as-imaginal-bridge",
+        "name": "Symbol as imaginal bridge between worlds",
+        "summary": "The symbol inhabits the imaginal — the space between the world one is in and the world one aspires to — enabling transformative transframing through non-logical identity.",
+        "passages": [
+          { "episode": 35, "phrase": "symbols are inherently transjective (indicates the dynamic in Fig.6) because they are between two worlds: the world you're in/the framing you're in and the world you're trying to move to/the world that you aspire to." }
+        ]
+      }
+    ],
+    "commonConfusions": [
+      "A symbol is not a sign — signs convey information, symbols trigger participatory transformations that cannot be reduced to information transfer.",
+      "Symbols are not merely decorative — for Vervaeke they are the cognitive devices by which transframing is enacted and aspiration is sustained.",
+      "Symbols work through non-logical identity — they identify two things that are not literally identical (the cross with Christ's sacrifice) in ways that trigger insight cascades."
+    ],
+    "keyPassages": [
+      { "episode": 35, "phrase": "symbols are inherently transjective (indicates the dynamic in Fig.6) because they are between two worlds: the world you're in/the framing you're in and the world you're trying to move to/the world that you aspire to. They are transgressive in all the ways I've tried to suggest to you. They try to trigger transframing. They're transformative.", "role": "definition" },
+      { "episode": 48, "phrase": "imaginal which mediates between the abstract intelligible world and the concrete, sensible world and transjectively mediates between the subjective and the objective.", "role": "application" },
+      { "episode": 35, "phrase": "The sacred is the Transjective relationship between the combinatorially explosive nature of Reality - that reality is ultimately a no-thing-ness, that ultimately it is not a thing that you can frame.", "role": "exemplar" }
+    ]
+  },
+  {
+    "id": "virtue",
+    "subConcepts": [
+      {
+        "id": "virtue-as-set-of-conditions",
+        "name": "Virtue as cultivated set of conditions",
+        "summary": "A virtue is not a single act or rule but a systematically cultivated set of conditions that shapes possibility in a person — Aristotle's golden mean between deficiency and excess.",
+        "passages": [
+          { "episode": 6, "phrase": "When you're talking about a virtue you're not talking about an event. You're talking about, again, a set of conditions that have been cultivated systematically in somebody." }
+        ]
+      },
+      {
+        "id": "virtue-as-virtual-engine",
+        "name": "Virtue as virtual engine",
+        "summary": "Virtue is a 'virtual engine' — a regulating system of constraints that automatically actualises a person's potential without requiring conscious effort at each decision.",
+        "passages": [
+          { "episode": 6, "phrase": "When you're talking about a virtue you're not talking about an event. You're talking about, again, a set of conditions that have been cultivated systematically in somebody." }
+        ]
+      }
+    ],
+    "commonConfusions": [
+      "Virtue is not a rule to be consciously followed — it is a stable character condition that makes right action natural rather than effortful.",
+      "Virtue is not the same as moral knowledge — akrasia shows that knowing the right thing does not automatically produce doing it; character transformation is needed.",
+      "Virtues are not static traits — they are cultivated through practice and habituation and constitute a dynamic system (the virtual engine) rather than fixed dispositions."
+    ],
+    "keyPassages": [
+      { "episode": 6, "phrase": "When you're talking about a virtue you're not talking about an event. You're talking about, again, a set of conditions that have been cultivated systematically in somebody.", "role": "definition" },
+      { "episode": 16, "phrase": "we talked about Sophrosyne. When you become an adult, your world becomes radically reoriented. What is salient and what is central to you is radically changed.", "role": "exemplar" },
+      { "episode": 46, "phrase": "Our salience landscape naturally organizes away from self-deception and tempts us towards the truth. What's true, good, and perhaps beautiful.", "role": "application" }
+    ]
+  },
+  {
+    "id": "wisdom",
+    "subConcepts": [
+      {
+        "id": "wisdom-as-dynamical-system",
+        "name": "Wisdom as dynamical system counteracting self-deception",
+        "summary": "Wisdom is not a body of knowledge but a self-reinforcing dynamical system of psycho-technologies and cognitive styles that reliably counteracts parasitic processing and self-deception.",
+        "passages": [
+          { "episode": 45, "phrase": "We're seeing that wisdom is a dynamical system. A dynamical system that is counteractive to the machinery of self-deception. And that helps to afford the self-organized transformation into the life of flourishing." }
+        ]
+      },
+      {
+        "id": "wisdom-integrates-four-knowings",
+        "name": "Wisdom integrates all four kinds of knowing",
+        "summary": "Wisdom requires the integration of propositional, procedural, perspectival, and participatory knowing — cultivated through active open-mindedness, mindfulness, internalising the sage, and gnosis respectively.",
+        "passages": [
+          { "episode": 46, "phrase": "that wisdom is an ecology of psychotechnologies slash cognitive styles. That dynamic—and that means, reciprocal optimization that dynamically enhances the relevance realization that's central to inference, to insight and intuition to internalizing, especially internalizing the sage, to understanding gnosis" }
+        ]
+      },
+      {
+        "id": "wisdom-as-religio-enhancement",
+        "name": "Wisdom as enhancer of religio",
+        "summary": "Wisdom's deepest contribution to meaning in life is the enhancement of religio — the participatory binding that grounds all individual meaning systems — and through religio, the encounter with the sacred.",
+        "passages": [
+          { "episode": 46, "phrase": "one of the things that wisdom is doing that's also really important is it's enhancing religio (writes Religio below Wisdom). That's a way in which you can powerfully—and we saw already the connection." }
+        ]
+      },
+      {
+        "id": "wisdom-begins-in-wonder",
+        "name": "Wisdom begins in wonder",
+        "summary": "The Socratic maxim 'wisdom begins in wonder' points to wonder as the affective state that triggers the aspirational opening of identity and world that makes wisdom cultivation possible.",
+        "passages": [
+          { "episode": 40, "phrase": "It's a famous quote from Socrates, which is, \"Wisdom begins in wonder.\" Wisdom begins in wonder. And like everything about Socrates, it is simultaneously provocative and enigmatic" }
+        ]
+      }
+    ],
+    "commonConfusions": [
+      "Wisdom is not an accumulation of knowledge — it is a dynamical system that transforms how relevance is realised, not what propositions are believed.",
+      "Wisdom is not the same as rationality, though rationality (broadly understood) is a necessary component — wisdom also integrates perspectival and participatory transformation.",
+      "Wisdom cannot be transmitted as information — it requires active cultivation through an ecology of psycho-technologies within a supportive community."
+    ],
+    "keyPassages": [
+      { "episode": 45, "phrase": "We're seeing that wisdom is a dynamical system. A dynamical system that is counteractive to the machinery of self-deception. And that helps to afford the self-organized transformation into the life of flourishing.", "role": "definition" },
+      { "episode": 46, "phrase": "that wisdom is an ecology of psychotechnologies slash cognitive styles. That dynamic—and that means, reciprocal optimization that dynamically enhances the relevance realization that's central to inference, to insight and intuition to internalizing, especially internalizing the sage, to understanding gnosis", "role": "definition" },
+      { "episode": 40, "phrase": "It's a famous quote from Socrates, which is, \"Wisdom begins in wonder.\" Wisdom begins in wonder. And like everything about Socrates, it is simultaneously provocative and enigmatic", "role": "application" },
+      { "episode": 46, "phrase": "one of the things that wisdom is doing that's also really important is it's enhancing religio (writes Religio below Wisdom). That's a way in which you can powerfully—and we saw already the connection.", "role": "application" },
+      { "episode": 1, "phrase": "wisdom is about realizing in both senses of the word (becoming aware and making real), wisdom is about realizing meaning in life in a profound way.", "role": "summary" }
+    ]
+  },
+  {
+    "id": "ground-of-being",
+    "subConcepts": [],
+    "commonConfusions": [
+      "The ground of being is not a supernatural God — Tillich uses it precisely to move beyond supernatural theism to what underlies and makes any theism possible.",
+      "The ground of being is not the same as pantheism — it is not identified with the sum of existing things but is the inexhaustible source of being and intelligibility itself.",
+      "Gnosis of the God beyond the God of theism is not atheism — it is the demand to move to a deeper participatory encounter that is prior to propositional belief."
+    ],
+    "keyPassages": [
+      { "episode": 18, "phrase": "talks about that the response to that is a way of discovering, and it's clear because of how he talks about symbols and he talks about transformation, although he does not use the term, but he's talking about gnosis. He's talking about that the response to the meaning crisis is the gnosis of the God beyond the God of theism.", "role": "definition" },
+      { "episode": 18, "phrase": "So Plotinus calls this The One. He doesn't mean the single. This is that by which reality is realized and our mind realizes reality.", "role": "exemplar" },
+      { "episode": 35, "phrase": "The sacred is the Transjective relationship between the combinatorially explosive nature of Reality - that reality is ultimately a no-thing-ness, that ultimately it is not a thing that you can frame.", "role": "application" }
+    ]
+  }
+]

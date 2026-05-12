@@ -1,0 +1,104 @@
+{
+  "id": "philia",
+  "title": "Philia",
+  "conceptId": "philia",
+  "abstract": "After this course, students will be able to articulate philia as the love of cooperative reciprocity — the love friends bear one another in shared pursuit of mutual development — and distinguish it clearly from eros (love of union through consummation) and agape (love that creates personhood in the beloved before reciprocity is possible). Students will understand why Pythagoras coined 'philo-sophia' (friendship-love of wisdom) rather than 'episteme-sophia' (knowledge of wisdom), what this reveals about philosophy's communal and aspirational character, and why the Epicureans identified friendship as the highest source of meaning. This concept anchors the series' treatment of love as a modal way of being rather than an emotion, and shows how distributed cognition in community is philosophically — not merely socially — essential.",
+  "prerequisites": [],
+  "modules": [
+    {
+      "id": "philia-as-cooperative-reciprocity",
+      "title": "Philia: The Love of Cooperative Reciprocity",
+      "subConceptId": "philia-as-cooperative-reciprocity",
+      "learningObjective": "Define philia as cooperative reciprocity and distinguish it from eros and agape through the structure of each love's orientation.",
+      "expositionPassages": [
+        {
+          "episode": 15,
+          "phrase": "So this is the love that is satisfied through consummation. Phylia. This is the love that seeks cooperation. This is the love in which we experienced reciprocity.",
+          "note": "Core definition — philia as cooperation and reciprocity, distinguished from eros (consummation) and agape (creative personhood-making)."
+        },
+        {
+          "episode": 14,
+          "phrase": "What is it that gives you the most meaning in life? And here's where the Epicureans have a beautiful answer and they pick it up from Socrates: \"The thing that gives you meaning is friendship\".",
+          "note": "The Epicurean elevation of philia (friendship) as the primary source of meaning."
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "Vervaeke introduces three kinds of love: eros, philia, and agape. Each has a different orienting structure. What is the difference between love that seeks to be one-with, love that seeks cooperation, and love that creates personhood?",
+          "expectedThemes": ["eros as consummation/union", "philia as mutual development through cooperation", "agape as creative one-way gifting"]
+        },
+        {
+          "prompt": "In Episode 15, Vervaeke says love is not a feeling or an emotion but 'a modal way of being, an Agent-Arena relationship.' How does philia exemplify this claim?",
+          "expectedThemes": ["philia as mode of engagement not affective state", "friend relationship structures the arena", "modal orientation not fluctuating emotion"]
+        },
+        {
+          "prompt": "The Epicureans argued that friendship is the highest source of meaning — above pleasure, above power, above wealth. What is their argument, and does Vervaeke endorse it?",
+          "expectedThemes": ["friendship affords mutual development", "reciprocity sustains meaning over time", "friendship enables wisdom-cultivation"]
+        },
+        {
+          "prompt": "Philia is earned through cooperation and reciprocity, unlike agape which is given before the beloved earns anything. What does this difference reveal about the distinct contributions each kind of love makes to a full human life?",
+          "expectedThemes": ["philia presupposes mutual capacity", "agape creates the capacity for philia", "both needed at different developmental moments"]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "Philia is a lesser form of love than agape or eros — just ordinary friendship.",
+          "correction": "Vervaeke treats philia as neither inferior nor superior to eros or agape — all three are needed. The Epicureans identified philia as the primary source of existential meaning, and Pythagoras used it to name the enterprise of pursuing wisdom itself."
+        },
+        {
+          "misconception": "Philia is simply casual liking or social familiarity.",
+          "correction": "Philia in Vervaeke's usage is a robust cooperative bond involving mutual development, reciprocity, and shared pursuit over time. It requires that both parties are already sufficiently persons to give and receive — unlike agape, which constitutes personhood in those who lack it."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "Imagine three relationships: one in which you deeply admire and want to merge with another person (eros), one in which you and a colleague are building something together over many years in reciprocal challenge and support (philia), and one in which you care for a child who cannot yet reciprocate (agape). How does each kind of love structure the Agent-Arena relationship differently?",
+        "expectedThemes": ["eros: union as goal shapes arena as consummable", "philia: collaboration shapes arena as shared project", "agape: gift shapes arena as transformation of non-person"]
+      }
+    },
+    {
+      "id": "philia-sophia",
+      "title": "Philia-Sophia: Philosophy as Friendship with Wisdom",
+      "subConceptId": "philia-sophia",
+      "learningObjective": "Explain why Pythagoras used philia rather than any other word to name philosophy, and what this reveals about the communal, aspirational, and non-competitive character of genuine philosophical practice.",
+      "expositionPassages": [
+        {
+          "episode": 4,
+          "phrase": "Pythagoras actually invents the word \"Philosophy\". It comes from two Greek words: \"Philia\" and \"Sophia\".",
+          "note": "The etymological founding of philosophy — friendship-love of wisdom, not possession or victory."
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "Pythagoras named the pursuit of wisdom 'philo-sophia' — friendship-love of wisdom — rather than 'episteme-sophia' (knowledge of wisdom). What does the choice of philia signal about what the pursuit of wisdom is?",
+          "expectedThemes": ["aspiration not possession", "cooperative not competitive", "community not solitary acquisition"]
+        },
+        {
+          "prompt": "Vervaeke contrasts philia-sophia (friendship-love of wisdom) with philia-nikia (love of victory). How does the distinction show up in different practices of argument and dialogue?",
+          "expectedThemes": ["love of victory seeks to defeat opponent", "love of wisdom seeks to transform both parties", "Socratic method vs sophistic debate"]
+        },
+        {
+          "prompt": "When Pythagoras formed a community around the pursuit of wisdom, he was proposing that philosophy requires distributed cognition — networked minds cooperating. How does philia (cooperative reciprocity) make distributed cognition possible?",
+          "expectedThemes": ["philia creates trust enabling cooperative thinking", "mutual development requires ongoing relationship", "wisdom cannot be possessed alone"]
+        },
+        {
+          "prompt": "Vervaeke says that academic philosophy today has largely collapsed into philia-nikia — love of victory. What is the practical cost of that collapse for the cultivation of wisdom?",
+          "expectedThemes": ["competition prevents transformation", "winning replaces growing", "loses the being-mode dimension of philosophical practice"]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "Philosophy is fundamentally a solitary activity — thinking carefully alone.",
+          "correction": "Vervaeke recovers Pythagoras's original meaning: philosophy is philia-sophia — a communal friendship in pursuit of wisdom. The philosophical community provides distributed cognition that no single mind can replicate, and the cooperative relationship is not incidental but constitutive."
+        },
+        {
+          "misconception": "Loving wisdom means possessing correct answers.",
+          "correction": "Philia is aspirational, not possessive. The philosopher is defined by the ongoing friendship-orientation toward wisdom, not by having achieved it — which is why Socrates's constant profession of ignorance is philosophically correct, not false modesty."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "How does Vervaeke's account of philia-sophia suggest a different model for what a university philosophy department or a therapeutic community should look like, compared to the competitive-debate model that dominates much academic discourse?",
+        "expectedThemes": ["cooperative not adversarial", "mutual transformation as goal", "friendship creates conditions for wisdom not just knowledge transfer"]
+      }
+    }
+  ]
+}

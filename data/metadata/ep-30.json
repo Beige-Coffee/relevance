@@ -1,41 +1,68 @@
 {
   "num": 30,
   "slug": "rr-meets-dynamical-systems",
-  "title": "Relevance Realization Meets Dynamical Systems Theory",
-  "essence": "Building on distinctions between representational theories and direct relevance realization, Vervaeke introduces dynamical systems thinking via Darwin's theory of evolution. Just as biological fitness isn't an essence to be detected but a process constantly evolving through selection and variation, cognitive relevance realization must be understood not as discovering pre-existing relevance but as an ongoing self-organizing process. Using the framework of opponent processing and logistical norms (efficiency vs. resiliency), he argues that the brain's sensory-motor loop undergoes continuous optimization of cognitive-interactional fitness—a non-homuncular, multi-scale process grounded in the bioeconomy. This foundations the scientific explanation of relevance realization as a natural phenomenon continuous with biological evolution.",
+  "title": "RR Meets Dynamical Systems",
+  "essence": "Episode 30 marks a pivotal theoretical turn: Vervaeke argues that explaining how relevance realization works requires going beyond a mere theory of relevance (a theory about what is relevant) to a theory of relevance realization itself — an account of the self-organizing, self-correcting adaptive process by which the organism–environment system continuously evolves toward better fittedness. Drawing on an evolutionary analogy, he shows that just as there is no theory of fitness independent of the evolutionary process that generates it, there is no theory of relevance independent of the RR machinery that enacts it. Relevance is not a property of objects waiting to be detected, nor a projection of the subject; it emerges through a transjective process governed by what Vervaeke calls bio-economic logistical norms — efficiency (finding the most effective paths through the environment) and resiliency (maintaining multiple paths against unexpected perturbation). These two norms function as a virtual engine driving the adaptive calibration of the organism's salience landscape. The episode establishes that RR is best understood within dynamical systems theory, because only such a framework can capture the self-organizing, non-representational, ongoing coadaptation of agent and arena that constitutes meaning-making at its biological and cognitive root.",
   "keyClaims": [
-    "Relevance cannot be theoretically explained because it lacks systematic import—the homogeneity, stability, and intrinsic properties required for scientific induction.",
-    "Biological fitness has no essential design; it constantly evolves through opponent processing in dynamic coupling with the environment.",
-    "Relevance realization functions as 'cognitive interactional fitedness'—the ongoing evolution of how an organism fits problems to its capacities and environment.",
-    "The sensory-motor loop is regulated by a virtual engine of opponent processing between efficiency and resiliency.",
-    "Logistical norms (not semantic truth norms) govern the bioeconomy's distribution of metabolic resources, attention, and processing power."
+    "A theory of relevance realization is categorically distinct from a theory of relevance — one explains the process, not the product.",
+    "The relationship between RR and relevance mirrors the relationship between evolution and fitness: you cannot specify the outcome independently of the process.",
+    "Bio-economic logistical norms — efficiency and resiliency — function as a virtual engine that drives the continuous adaptive calibration of the organism's behavior.",
+    "Relevance is neither detected nor projected but emerges transjectivley from the ongoing co-adaptation of organism and environment.",
+    "Dynamical systems theory, rather than classical AI or representational cognitive science, is the appropriate framework for modeling RR."
   ],
   "concepts": [
-    {"name": "relevance realization", "treatment": "developed", "summary": "Established as a non-representational, self-organizing process distinct from relevance-detection; understood as evolution of cognitive-interactional fitness."},
-    {"name": "dynamical systems", "treatment": "introduced", "summary": "Framework for understanding relevance realization as a self-organizing, multi-scale process analogous to evolutionary dynamics."},
-    {"name": "cognitive interactional fitedness", "treatment": "introduced", "summary": "The continuous evolution of an organism's cognitive and behavioral coupling to its environment through virtual engines of opponent processing."},
-    {"name": "opponent processing", "treatment": "developed", "summary": "Systems with opposed goals but integrated function (e.g., sympathetic and parasympathetic); enables dynamic optimization."},
-    {"name": "logistical norms", "treatment": "introduced", "summary": "Efficiency and resiliency as governing constraints on bioeconomic resource allocation, distinct from semantic truth norms."},
-    {"name": "bioeconomy", "treatment": "introduced", "summary": "The body as a self-organizing system distributing metabolic and cognitive resources toward maintaining its own organization."},
-    {"name": "virtual engine", "treatment": "developed", "summary": "A self-organizing dynamical system (like selection-variation in evolution) that optimizes a system without requiring external intelligence."},
-    {"name": "efficiency", "treatment": "developed", "summary": "Logistical norm favoring resource conservation through generalization; tendency to compress and integrate."},
-    {"name": "resiliency", "treatment": "developed", "summary": "Logistical norm enabling adaptation to unexpected change through maintaining slack; tendency to particularize and differentiate."}
+    {
+      "id": "relevance-realization",
+      "treatment": "developed"
+    },
+    {
+      "id": "transjective-relations",
+      "treatment": "introduced"
+    },
+    {
+      "id": "4e-cognition",
+      "treatment": "developed"
+    },
+    {
+      "id": "the-frame-problem",
+      "treatment": "applied"
+    },
+    {
+      "id": "salience-landscape",
+      "treatment": "developed"
+    },
+    {
+      "id": "agent-arena-relationship",
+      "treatment": "developed"
+    }
   ],
   "people": [
-    {"name": "Charles Darwin", "role": "referenced", "summary": "Theory of evolution via natural selection provides the foundational analogy for understanding relevance realization as non-essentialist, process-driven optimization."},
-    {"name": "John Stuart Mill", "role": "referenced", "summary": "On systematic import and inductive generalization; demonstrates why relevance cannot be made scientific."},
-    {"name": "Willard Quine", "role": "referenced", "summary": "On essence and inductive generalization; distinguishes deductive from inductive essences."},
-    {"name": "Ludwig Wittgenstein", "role": "referenced", "summary": "On family resemblance and categories without essences; critiques essentialism for natural language concepts."},
-    {"name": "Markus Brede", "role": "referenced", "summary": "Mathematical work showing optimization between efficiency and resiliency in networks."}
+    {
+      "id": "dreyfus",
+      "role": "referenced"
+    },
+    {
+      "id": "varela",
+      "role": "referenced"
+    }
   ],
   "crossRefs": [
-    {"episode": 6, "context": "Earlier discussion of Darwin, dynamical systems, and Aristotle; foundations being drawn upon."},
-    {"episode": 29, "context": "Previous episode on relevance realization; this extends the theoretical machinery."},
-    {"episode": 31, "context": "Next episode will expand on embodied, embedded relevance realization as dynamical-developmental."}
+    {
+      "episode": 26,
+      "reason": "Frame problem introduced as the motivating problem for RR"
+    },
+    {
+      "episode": 28,
+      "reason": "RR as bio-economic process first outlined"
+    },
+    {
+      "episode": 31,
+      "reason": "Transjective relations and embodied RR developed further"
+    },
+    {
+      "episode": 32,
+      "reason": "Neural implementation of RR via SOC and SWN follows"
+    }
   ],
-  "quotableMoments": [
-    {"quote": "There is no essence to fitedness. If you try and come up with a theory of how organisms have their 'design' in terms of trying to determine or derive it from the essence of design, you are doomed because it doesn't exist.", "context": "On why evolutionary fitness cannot be essentialized, foundational analogy for relevance realization."},
-    {"quote": "Relevance Realization is not something for which we can have a scientific theory... there is no essence to relevance; nothing is essentially relevant.", "context": "The core argument against scientific theory of relevance as distinct from theory of relevance realization."},
-    {"quote": "Fitedness and the evolution of fitedness are the same thing.", "context": "Explaining that there is no pre-existing fitness to discover, only ongoing evolutionary processes."}
-  ]
+  "quotableMoments": []
 }

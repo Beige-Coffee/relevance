@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Perspectival Knowing — Mini-course Review</title>
+<style>
+  :root {
+    --bg: #faf7f1; --surface: #ffffff; --elev: #f2ede0;
+    --ink: #1c1a17; --ink-soft: #3a3530; --muted: #6b6660;
+    --border: #e0d9c8; --accent: #8b3a3a; --gold: #b8893c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14120e; --surface:#1c1916; --elev:#25211c;
+      --ink:#ece6d6; --ink-soft:#b8b1a1; --muted:#8a8378;
+      --border:#2e2922; --accent:#d28a7e; --gold:#d4a85a; }
+  }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Inter", system-ui, sans-serif;
+    background: var(--bg); color: var(--ink); margin: 0; line-height: 1.6;
+    -webkit-font-smoothing: antialiased; }
+  .serif { font-family: "EB Garamond", Georgia, serif; }
+  header { padding: 2rem 2.5rem 1rem; border-bottom: 1px solid var(--border); }
+  .back-link { color: var(--muted); font-size: 0.8rem; text-decoration: none; }
+  .back-link:hover { color: var(--accent); }
+  .meta { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin: 0.6rem 0 0.3rem; }
+  h1 { font-family: "EB Garamond", Georgia, serif; font-size: 2.6rem; margin: 0; letter-spacing: -0.01em; font-weight: 500; }
+  .abstract {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.1rem; line-height: 1.65;
+    color: var(--ink-soft); margin: 1rem 0; max-width: 60rem;
+  }
+  .prereqs { font-size: 0.85rem; color: var(--muted); margin-top: 0.6rem; }
+  .prereqs a { color: var(--accent); text-decoration: none; }
+  .prereqs a:hover { text-decoration: underline; }
+  main { max-width: 60rem; margin: 0 auto; padding: 2rem 2.5rem 5rem; }
+  .module {
+    border-top: 1px solid var(--border); padding-top: 2rem; margin-top: 3rem;
+  }
+  .module:first-child { border-top: none; padding-top: 0; margin-top: 0; }
+  .module .num {
+    font-family: ui-monospace, monospace; font-size: 0.78rem;
+    background: var(--gold); color: var(--bg); padding: 0.2rem 0.6rem;
+    border-radius: 99px; display: inline-block; margin-bottom: 0.6rem;
+  }
+  .module h2 {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.9rem; margin: 0;
+    letter-spacing: -0.01em; font-weight: 500; line-height: 1.15;
+  }
+  .module .objective {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic;
+    color: var(--ink-soft); margin: 0.5rem 0 1rem;
+  }
+  section { margin: 1.6rem 0; }
+  section h3 {
+    font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em;
+    color: var(--muted); margin: 0 0 0.6rem;
+  }
+  .passage {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--gold);
+    padding: 0.8rem 1rem; margin: 0.5rem 0; border-radius: 4px;
+  }
+  .passage .src {
+    font-family: ui-monospace, monospace; font-size: 0.72rem;
+    color: var(--accent); margin-bottom: 0.3rem;
+  }
+  .passage .quote {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic;
+    color: var(--ink); font-size: 1rem; line-height: 1.55;
+  }
+  .passage .note { font-size: 0.78rem; color: var(--muted); margin-top: 0.4rem; }
+  .seed {
+    padding: 0.5rem 0; border-left: 2px solid var(--gold); padding-left: 1rem; margin: 0.5rem 0;
+  }
+  .seed .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic; color: var(--ink);
+  }
+  .seed .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.3rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .theme-pill {
+    background: var(--elev); padding: 0.15rem 0.55rem; border-radius: 99px;
+  }
+  .misc {
+    background: var(--elev); padding: 0.7rem 1rem; margin: 0.5rem 0; border-radius: 6px;
+    font-size: 0.9rem;
+  }
+  .misc .label { font-weight: 500; }
+  .misc .label.if { color: var(--ink); }
+  .misc .label.then { color: var(--accent); }
+  .check {
+    background: var(--elev); border: 2px solid var(--gold); padding: 1rem 1.2rem;
+    border-radius: 8px; margin-top: 0.6rem;
+  }
+  .check .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic; font-size: 1.1rem; color: var(--ink);
+  }
+  .check .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.5rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .toc {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    padding: 1rem 1.4rem; margin: 1.5rem 0;
+  }
+  .toc h3 { margin: 0 0 0.4rem; }
+  .toc ol { margin: 0; padding-left: 1.4rem; }
+  .toc li { margin: 0.2rem 0; font-size: 0.92rem; }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+  .approve-bar {
+    position: sticky; bottom: 0;
+    background: var(--bg); border-top: 1px solid var(--border);
+    padding: 0.8rem 2.5rem;
+    display: flex; gap: 0.6rem; justify-content: flex-end;
+  }
+  .btn {
+    padding: 0.55rem 1.2rem; border-radius: 6px; font-size: 0.9rem;
+    border: 1px solid var(--border); background: var(--surface); color: var(--ink-soft);
+    cursor: pointer; font-family: inherit;
+  }
+  .btn.primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+  .btn:hover { transform: translateY(-1px); }
+</style>
+</head><body>
+<header>
+  <a class="back-link" href="index.html">← All course reviews</a>
+  <div class="meta">Mini-course · 2 modules</div>
+  <h1>Perspectival Knowing</h1>
+  <p class="abstract">After this course, students will be able to explain what perspectival knowing is — knowing constituted by what it is like to occupy a particular perspective, encoded in one's salience landscape — and why it is irreducible to propositional reports about one's perspective. Students will understand why Pascal's distinction between the 'spirit of geometry' and the 'spirit of finesse' diagnoses the modern loss of perspectival knowing, and why transformative experiences (mindfulness, gnosis, awakening) operate precisely at this level. This concept is pivotal in the series because it shows how two people can agree on all the propositions about a situation yet inhabit it completely differently — and why that difference matters more for wisdom, meaning, and therapy than any propositional disagreement. Perspectival knowing sits between procedural and participatory knowing in the foundational hierarchy.</p>
+  
+</header>
+<main>
+  <div class="toc">
+    <h3>Modules</h3>
+    <ol>
+      <li><a href="#m-salience-landscape-as-perspectival">Salience Landscape as the Content of Perspectival Knowing</a></li><li><a href="#m-perspectival-knowing-lost-in-modernity">The Loss of Perspectival Knowing in the Scientific Revolution</a></li>
+    </ol>
+  </div>
+  
+    <article class="module" id="m-salience-landscape-as-perspectival">
+      <span class="num">Module 1</span>
+      <h2>Salience Landscape as the Content of Perspectival Knowing</h2>
+      <p class="objective">Explain what perspectival knowing is by examining how the salience landscape constitutes what it is like to occupy a perspective.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 1 · Introduction</div>
+            <div class="quote">&ldquo;There's the kind of knowing of what it is like to be having this experience right now.&rdquo;</div>
+            <div class="note">First introduction — perspectival knowing as the 'what it is like' dimension of experience.</div>
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 10 · Consciousness</div>
+            <div class="quote">&ldquo;Part of what's happening, part of what consciousness is doing, is it's creating a salience landscape for me.&rdquo;</div>
+            <div class="note">The salience landscape is the mechanism through which perspectival knowing is implemented.</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke introduces perspectival knowing as 'what it is like to be having this experience right now.' What does the phrase 'what it is like' pick out that a propositional description of the same situation would miss?</div>
+            <div class="themes"><span class="theme-pill">lived quality not description</span><span class="theme-pill">salience distribution not propositional content</span><span class="theme-pill">felt significance not abstract fact</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Two people can watch the same film and both correctly describe what happened in it — yet one finds it revelatory while the other finds it trivial. How does the concept of the salience landscape explain this difference?</div>
+            <div class="themes"><span class="theme-pill">what stands out differs</span><span class="theme-pill">salience distribution shapes meaning</span><span class="theme-pill">perspectival difference not propositional difference</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Consciousness, Vervaeke argues in Episode 10, creates a salience landscape. What does this mean about the relationship between consciousness and perspectival knowing?</div>
+            <div class="themes"><span class="theme-pill">perspectival knowing IS the salience landscape</span><span class="theme-pill">consciousness as relevance realization engine</span><span class="theme-pill">awareness and salience are inseparable</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">In Episode 17, Vervaeke notes that you cannot know what your salience landscape will be like after eating the forbidden fruit until you have eaten it. What does this tell us about the epistemology of perspectival knowing?</div>
+            <div class="themes"><span class="theme-pill">cannot be anticipated propositionally</span><span class="theme-pill">must be lived to be known</span><span class="theme-pill">transformative experience changes the knower not just beliefs</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Perspectival knowing is just subjective bias — it is less reliable than objective propositional knowing.</div>
+              <div><span class="label then">Then:</span> Vervaeke argues perspectival knowing is a genuine kind of knowing constituted by what it is like to occupy a perspective. It is not mere bias but a structured epistemic achievement that propositional reports about one's perspective cannot replace.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Perspectival knowing is the same as emotional response — if you feel something strongly, that is perspectival knowing.</div>
+              <div><span class="label then">Then:</span> Perspectival knowing is the structural salience landscape that makes emotional response intelligible in the first place. Emotion depends on perspectival knowing, not vice versa.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">A therapist and a depressed client might agree on every factual proposition about the client's situation — yet the client experiences it as hopeless while the therapist can see possibilities. How does Vervaeke's account of perspectival knowing explain this gap, and what kind of change in therapy addresses it?</div>
+          <div class="themes"><span class="theme-pill">salience landscapes differ not facts</span><span class="theme-pill">therapy targets perspectival not propositional</span><span class="theme-pill">change in 'what it is like' not change in beliefs</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-perspectival-knowing-lost-in-modernity">
+      <span class="num">Module 2</span>
+      <h2>The Loss of Perspectival Knowing in the Scientific Revolution</h2>
+      <p class="objective">Explain Pascal's diagnosis of the modern collapse of the spirit of finesse into the spirit of geometry, and why this constitutes a loss of perspectival knowing.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 22 · Descartes vs. Hobbes</div>
+            <div class="quote">&ldquo;And so Pascal is pointing out that what has been lost in the scientific revolution is all these other kinds of knowing and being, and these are the kinds of knowing and being that he found present in the transformative experience that he had.&rdquo;</div>
+            <div class="note">Pascal's personal transformative experience gave him perspectival and participatory knowing that the scientific method cannot capture.</div>
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 17 · Gnosis and Existential Inertia</div>
+            <div class="quote">&ldquo;you don't know what it is like cause that's the core of you don't know what your salience landscape will be like when you eat this fruit until you have eaten the fruit.&rdquo;</div>
+            <div class="note">Perspectival knowing cannot be anticipated — it must be undergone.</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Pascal distinguished the spirit of geometry (methodical, propositional) from the spirit of finesse (intuitive grasp of complex situations). Vervaeke treats this as a distinction in kinds of knowing. What kind of knowing does the 'spirit of finesse' require that geometry alone cannot provide?</div>
+            <div class="themes"><span class="theme-pill">perspectival awareness of situation</span><span class="theme-pill">salience landscape navigation</span><span class="theme-pill">wisdom judgment vs algorithmic application</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">The scientific revolution succeeded magnificently at expanding propositional knowledge about nature. How does Vervaeke argue that this success was purchased at a cost to perspectival and participatory knowing?</div>
+            <div class="themes"><span class="theme-pill">objectification strips perspectival dimension</span><span class="theme-pill">method removes the knower from knowing</span><span class="theme-pill">loss of transformative relevance</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Pascal had a transformative experience and concluded it revealed something the spirit of geometry could not reach. What would that experience have been like to have, in terms of perspectival knowing? What changed?</div>
+            <div class="themes"><span class="theme-pill">salience landscape transformed</span><span class="theme-pill">new 'what it is like' became available</span><span class="theme-pill">reality felt differently constituted</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">In what sense is the meaning crisis itself a crisis of perspectival knowing — not just a shortage of information but a transformation in what it is like to inhabit modern life?</div>
+            <div class="themes"><span class="theme-pill">modern salience landscape lacks depth and connection</span><span class="theme-pill">things don't matter in the right way</span><span class="theme-pill">propositional abundance with perspectival poverty</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Recovering perspectival knowing means rejecting science or returning to pre-scientific worldviews.</div>
+              <div><span class="label then">Then:</span> Vervaeke is seeking an integration — 4E cognitive science offers a third-generation scientific framework that can accommodate perspectival and participatory knowing within a naturalistic account. The goal is not to reject science but to expand its self-understanding.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">Vervaeke argues in Episode 36 that religious and contemplative transformation work 'at the level of procedural and ultimately perspectival and participatory knowing.' What are the implications of that claim for why proposing new doctrines or beliefs cannot by itself address religious alienation?</div>
+          <div class="themes"><span class="theme-pill">doctrine changes propositional not perspectival</span><span class="theme-pill">transformation must reach salience landscape</span><span class="theme-pill">practice not creed is the mechanism</span></div>
+        </div>
+      </section>
+    </article>
+  
+</main>
+<div class="approve-bar">
+  <button class="btn">Request changes</button>
+  <button class="btn primary">Approve for shipping</button>
+</div>
+</body></html>

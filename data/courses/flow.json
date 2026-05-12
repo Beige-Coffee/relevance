@@ -1,0 +1,175 @@
+{
+  "id": "flow",
+  "title": "Flow",
+  "conceptId": "flow",
+  "abstract": "This course examines flow — Csikszentmihalyi's optimal experience — through Vervaeke's cognitive-scientific lens. After completing this course, you will be able to explain the skills-demands matching condition that triggers flow, why flow is an insight cascade rather than mere enjoyment, how its tight feedback conditions train implicit learning to track causal patterns, and why the reduction of self-monitoring in flow frees cognitive resources in a way connected to mindfulness and the being-mode. Flow matters in the series arc because it is the universal altered state of consciousness that cultures across history have cultivated — and the more often one flows, the more meaningful one rates one's life. Understanding flow provides a naturalistic bridge between the cognitive machinery of relevance realization and the transformative states that wisdom traditions sought.",
+  "prerequisites": [],
+  "modules": [
+    {
+      "id": "skills-demands-matching",
+      "title": "Skills-Demands Matching: The Condition for Flow",
+      "subConceptId": "skills-demands-matching",
+      "learningObjective": "Describe the skills-demands matching condition and explain why both under-challenge and over-challenge break the flow state.",
+      "expositionPassages": [],
+      "socraticSeeds": [
+        {
+          "prompt": "Think of an activity where you were completely absorbed — time disappeared, you were totally engaged. What were the features of that activity? Were you being challenged, bored, or overwhelmed?",
+          "expectedThemes": [
+            "challenge slightly beyond current skill",
+            "demands and capacities in dynamic balance",
+            "engagement maximized at the edge of competence"
+          ]
+        },
+        {
+          "prompt": "Vervaeke says that if demands vastly exceed skills you get anxiety, and if skills vastly exceed demands you get boredom. Why would the mind respond to those imbalances in those ways rather than some other way?",
+          "expectedThemes": [
+            "anxiety = threat of failure activates defensive processing",
+            "boredom = no relevant challenge disengages relevance-tracking",
+            "optimal engagement at the edge"
+          ]
+        },
+        {
+          "prompt": "The flow channel is not a fixed zone — as you develop skills, what used to challenge you becomes easy. How does growth affect the conditions needed for flow — and what does that suggest about the relationship between flow and development?",
+          "expectedThemes": [
+            "skills growth requires escalating challenge to maintain flow",
+            "development and flow are mutually sustaining",
+            "mastery shifts the sweet spot upward"
+          ]
+        },
+        {
+          "prompt": "Could you design a learning environment or a game to deliberately induce flow? What features would it need — and what common features of schools or workplaces tend to prevent it?",
+          "expectedThemes": [
+            "clear goals and feedback",
+            "appropriate difficulty calibration",
+            "intrinsic engagement not external compulsion"
+          ]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "Flow is simply feeling good or enjoying yourself.",
+          "correction": "Flow requires the specific cognitive condition of demands slightly exceeding skills — mere enjoyment without that dynamic tension is not flow; it is relaxation or pleasure, which have different cognitive profiles."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "What is the skills-demands matching condition for flow — and why do both too much and too little challenge disrupt it rather than producing a different version of flow?",
+        "expectedThemes": [
+          "demands must slightly exceed skills",
+          "excess challenge produces anxiety excess ease produces boredom",
+          "flow is a narrow dynamic balance not a category of pleasantness"
+        ]
+      }
+    },
+    {
+      "id": "implicit-learning-enhancement",
+      "title": "Flow as Implicit Learning Engine",
+      "subConceptId": "implicit-learning-enhancement",
+      "learningObjective": "Explain how flow's tight feedback conditions train implicit learning to track causal rather than merely correlational patterns.",
+      "expositionPassages": [
+        {
+          "episode": 2,
+          "phrase": "those three criteria that will turn your intuition into good implicit learning are exactly the conditions for flow. Clear information. Tightly coupled feedback. And error matters.",
+          "note": "The connection between flow conditions and the three criteria for good implicit learning"
+        },
+        {
+          "episode": 2,
+          "phrase": "That's the flow state. It's an insight cascade. So the more you flow, the more you're training your ability for insight.",
+          "note": "Flow as an ongoing insight cascade rather than a passive enjoyment"
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "Vervaeke says flow requires clear information, tightly coupled feedback, and that error matters. Think about learning to drive versus learning from lectures. Which has those three features — and what difference does that make to how you learn?",
+          "expectedThemes": [
+            "driving has tight feedback and real consequences",
+            "lectures often lack immediate feedback and consequences",
+            "implicit learning requires experiential conditions not propositional instruction"
+          ]
+        },
+        {
+          "prompt": "An 'insight cascade' means each small insight primes the next. What would that feel like from the inside — and why might someone emerging from a deep flow session describe it as one of the most alive experiences they've had?",
+          "expectedThemes": [
+            "successive reframings feel like momentum",
+            "cognitive growth is self-accelerating",
+            "deep engagement produces sense of aliveness"
+          ]
+        },
+        {
+          "prompt": "If flow trains implicit learning, and implicit learning is the basis of intuition, does that mean regularly entering flow states makes you more trustworthy in your intuitions — even outside the domain you were flowing in?",
+          "expectedThemes": [
+            "some generalization of insight-readiness",
+            "but domain-specific patterns most directly trained",
+            "general capacity for insight enhanced by flow training"
+          ]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "Flow is effortless — you don't have to work hard, things just happen.",
+          "correction": "Vervaeke emphasizes that flow involves tremendous metabolic effort; what is 'effortless' is the experience of the effort, because self-consciousness and competing concerns drop away — the effort is real and intense, just not resisted."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "What are the three conditions of flow that also constitute optimal conditions for implicit learning — and why does flow produce an insight cascade rather than just a pleasant state?",
+        "expectedThemes": [
+          "clear information, tightly coupled feedback, error matters",
+          "these conditions force causal rather than correlational pattern-tracking",
+          "each insight primes the next producing cascade"
+        ]
+      }
+    },
+    {
+      "id": "reduced-self-monitoring",
+      "title": "Reduced Self-Monitoring: The Quiet Narrator",
+      "subConceptId": "reduced-self-monitoring",
+      "learningObjective": "Describe what is lost from self-monitoring in flow and why that reduction frees cognitive resources in ways relevant to mindfulness and the being-mode.",
+      "expositionPassages": [
+        {
+          "episode": 38,
+          "phrase": "We can address the reflectiveness gap by the cultivation of flow.",
+          "note": "Flow's role in addressing the meaning crisis through reducing over-reflective self-monitoring"
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "In flow, the constant mental commentary about yourself — how you're doing, what others think of you, what happened yesterday — goes quiet. What does that suggest about the relationship between self-monitoring and performance or creativity?",
+          "expectedThemes": [
+            "self-monitoring consumes cognitive resources",
+            "without it more resources available for the task",
+            "connects to being-mode vs having-mode"
+          ]
+        },
+        {
+          "prompt": "Vervaeke mentions 'nattering' — the autobiographical inner narrator that keeps going. When that stops, what kind of relationship with the present moment becomes possible that was not available before?",
+          "expectedThemes": [
+            "direct engagement with present moment",
+            "being-mode not having-mode",
+            "connection to mindfulness and sati"
+          ]
+        },
+        {
+          "prompt": "Is the quiet of self-monitoring in flow the same as the quiet of deep meditation — or are they related but different modes of reduced self-referential processing?",
+          "expectedThemes": [
+            "flow is active and task-directed, meditation more receptive",
+            "both involve reduced default-mode narrative",
+            "mindfulness and flow are complementary not identical"
+          ]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "Flow and mindfulness are the same thing — both are about being present.",
+          "correction": "Vervaeke sees flow and mindfulness as related and complementary, but distinct — flow is active, task-directed, and skills-demands-matched; mindfulness involves attentional scaling practices that can increase the capacity for flow but are not identical to it."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "What specifically goes quiet in flow — what kind of self-monitoring disappears — and why does Vervaeke connect this to addressing the reflectiveness gap in the meaning crisis?",
+        "expectedThemes": [
+          "autobiographical self-narrative recedes",
+          "frees cognitive resources for direct engagement",
+          "reflectiveness gap is over-ruminative self-focus that flow dissolves"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "num": 42,
+  "slug": "intelligence-rationality-wisdom",
+  "title": "Intelligence, Rationality, and Wisdom",
+  "essence": "Intelligence, rationality, and wisdom form a hierarchy of meta-application. Intelligence can be applied to itself, creating rationality—using intelligence to improve how we use intelligence. Rationality, in turn, can be reflexively applied to itself, yielding wisdom. The dual processing theory distinguishes S1 (intuitive, fast, implicit, associational) from S2 (deliberate, slow, explicit, inferential). While Stanovich correctly emphasizes S2's role in correcting S1's biases through active open-mindedness, this picture proves incomplete. Cognitive leaping—using minimal cues to complete patterns—is predictive of insight, yet active open-mindedness suppresses this leaping. The resolution requires recognizing different contexts: theoretical rationality foregrounds S2 protected from S1 interference, while therapeutic rationality foregrounds S1 to trigger transformative insight, backgrounding S2. Mindfulness provides the cognitive style for insight just as active open-mindedness provides the style for inference. Wisdom involves optimizing the opponent processing between these styles. Dweck's mindset research reveals rationality's existential dimension: how we identify with our intelligence determines our need for cognition and susceptibility to self-deception. The recursive capacity to improve rationality through rationality constitutes wisdom.",
+  "keyClaims": [
+    "Intelligence, rationality, and wisdom form ascending levels of self-application and reflexivity",
+    "S1 and S2 processing are opponent systems requiring different contexts: theoretical work needs S2 protected from S1, therapeutic work needs S1 foregrounded",
+    "Cognitive leaping is predictive of insight, but active open-mindedness suppresses leaping, creating a necessary tension",
+    "Mindfulness and active open-mindedness are opponent cognitive styles requiring higher-order coordination",
+    "Rationality is fundamentally existential, determined by how we identify with our own cognitive processing"
+  ],
+  "concepts": [
+    {
+      "name": "dual processing",
+      "treatment": "developed",
+      "summary": "Two different modes of information processing. S1: intuitive, associational, implicit, fast, automatic, minimal working memory demand. S2: deliberate, inferential, explicit, slow, intentional, heavy working memory demand. Both necessary; neither sufficient alone."
+    },
+    {
+      "name": "S1 and S2 processing",
+      "treatment": "developed",
+      "summary": "S1 handles rapid coping through implicit learning and association; S2 enables deliberate reflection through inference. In opponent relationship, S2 corrects S1's leaping to conclusions through critical detachment. Cannot function without both."
+    },
+    {
+      "name": "cognitive leaping",
+      "treatment": "introduced",
+      "summary": "Ability to complete patterns using few cues accurately. Directly predictive of insight. Distinguished from logical fallacy; it's pattern completion through minimal information. Essential for transformative breakthroughs."
+    },
+    {
+      "name": "active open-mindedness",
+      "treatment": "developed",
+      "summary": "Cognitive style of learning biases and actively counteracting them. Baron emphasizes optimal rather than maximal correction. Crucial for theoretical reasoning but suppresses the leaping needed for insight."
+    },
+    {
+      "name": "mindfulness",
+      "treatment": "introduced",
+      "summary": "Cognitive style foregrounding S1 while constraining S2, facilitating insight and meta-cognitive breakthrough. Meditation exemplifies mindfulness practice. Opponent to active open-mindedness."
+    },
+    {
+      "name": "need for cognition",
+      "treatment": "developed",
+      "summary": "Motivation to seek and solve problems, generating learning opportunities. Two aspects: curiosity (having-mode, manipulative) and wonder (being-mode, transformative). Predicts cultivation of both active open-mindedness and problem finding."
+    },
+    {
+      "name": "problem finding",
+      "treatment": "introduced",
+      "summary": "Capacity to identify problems others haven't yet recognized. Arlin argues this is essential to wisdom and creativity. Good problem finders generate problem nexuses—core problems whose solution impacts multiple surface problems."
+    },
+    {
+      "name": "mindset",
+      "treatment": "introduced",
+      "summary": "Fixed mindset treats intelligence as unchangeable, making errors permanent revelations of inadequacy. Malleable mindset treats intelligence as developable, making errors signals to improve skills and effort. Shapes need for cognition and problem-solving behavior."
+    }
+  ],
+  "people": [
+    {
+      "name": "Keith Stanovich",
+      "role": "developed",
+      "summary": "Proposes dual processing model where S2 has corrective function for S1. Identifies psychotechnology and active open-mindedness as missing pieces for rationality. Vervaeke critiques as incomplete regarding insight."
+    },
+    {
+      "name": "Daniel Kahneman",
+      "role": "referenced",
+      "summary": "Cognitive psychologist developing dual process theory with book Thinking, Fast and Slow. Provides empirical basis for S1/S2 distinction."
+    },
+    {
+      "name": "Jonathan Baron",
+      "role": "developed",
+      "summary": "Originator of active open-mindedness. Emphasizes optimization principle: don't maximize bias correction or you'll overwhelm yourself. Clarifies need for cognition as problem-seeking motivation."
+    },
+    {
+      "name": "Jacquelyn Baker-Sennett",
+      "role": "referenced",
+      "summary": "Researcher with Ceci on cognitive leaping. Showed ability to complete patterns accurately with few cues is directly predictive of insight."
+    },
+    {
+      "name": "Stephen Ceci",
+      "role": "referenced",
+      "summary": "Co-researcher on pattern completion and insight prediction. Shows cognitive leaping is measurable and central to problem-solving."
+    },
+    {
+      "name": "Gregg Jacobs",
+      "role": "referenced",
+      "summary": "Author of The Ancestral Mind. Argues in therapy you need to trigger insight through S1 processing, not infer your way through transformative change."
+    },
+    {
+      "name": "John Teasdale",
+      "role": "referenced",
+      "summary": "Researcher on metacognitive insight in therapy. Argues mindfulness triggers insight by constraining S2 and foregrounding S1 processing."
+    },
+    {
+      "name": "Carol Dweck",
+      "role": "introduced",
+      "summary": "Psychologist studying mindset. Shows fixed versus malleable beliefs about intelligence profoundly affect need for cognition, problem-solving, and tendency toward self-deception. Makes rationality existential rather than merely cognitive."
+    },
+    {
+      "name": "Pamela Arlin",
+      "role": "referenced",
+      "summary": "Researcher arguing problem finding is central to wisdom and creativity. Good problem finders identify nexuses—core problems whose solution impacts multiple domains."
+    }
+  ],
+  "crossRefs": [
+    {"episode": 40, "reason": "Builds on systematic seeing through illusion and transframing through dual processing model"},
+    {"episode": 41, "reason": "Applies rationality debate conclusions to understanding intelligence-rationality distinction through S1/S2"},
+    {"episode": 43, "reason": "Connects mindfulness and active open-mindedness to virtue cultivation and phronesis"}
+  ],
+  "quotableMoments": [
+    {
+      "quote": "You have these two competencies, and this one can interfere with this one, and that can cause you to behave irrationally.",
+      "context": "Explaining dual processing where S1 can corrupt S2, making active open-mindedness necessary to protect deliberate reasoning."
+    },
+    {
+      "quote": "Being rational is a very complex process in which there are tradeoff relationships and a very complicated kind of optimization needs to be trained.",
+      "context": "Arguing against simplistic rational choice theory, showing rationality requires balancing competing demands of inference and insight."
+    },
+    {
+      "quote": "Rationality is deeply existential. It's about how you're identifying with your own cognitive processing.",
+      "context": "Connecting Dweck's mindset research to show rational capacity depends on identity and self-perception, not merely capability."
+    },
+    {
+      "quote": "The way you frame yourself, the way you identify with your processing has a huge impact on your problem-solving ability.",
+      "context": "From Dweck discussion showing fixed versus malleable identity determines whether errors seem permanent or improvable."
+    }
+  ]
+}

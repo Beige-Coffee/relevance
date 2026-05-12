@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Reverse-Engineering Enlightenment — Mini-course Review</title>
+<style>
+  :root {
+    --bg: #faf7f1; --surface: #ffffff; --elev: #f2ede0;
+    --ink: #1c1a17; --ink-soft: #3a3530; --muted: #6b6660;
+    --border: #e0d9c8; --accent: #8b3a3a; --gold: #b8893c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14120e; --surface:#1c1916; --elev:#25211c;
+      --ink:#ece6d6; --ink-soft:#b8b1a1; --muted:#8a8378;
+      --border:#2e2922; --accent:#d28a7e; --gold:#d4a85a; }
+  }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Inter", system-ui, sans-serif;
+    background: var(--bg); color: var(--ink); margin: 0; line-height: 1.6;
+    -webkit-font-smoothing: antialiased; }
+  .serif { font-family: "EB Garamond", Georgia, serif; }
+  header { padding: 2rem 2.5rem 1rem; border-bottom: 1px solid var(--border); }
+  .back-link { color: var(--muted); font-size: 0.8rem; text-decoration: none; }
+  .back-link:hover { color: var(--accent); }
+  .meta { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin: 0.6rem 0 0.3rem; }
+  h1 { font-family: "EB Garamond", Georgia, serif; font-size: 2.6rem; margin: 0; letter-spacing: -0.01em; font-weight: 500; }
+  .abstract {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.1rem; line-height: 1.65;
+    color: var(--ink-soft); margin: 1rem 0; max-width: 60rem;
+  }
+  .prereqs { font-size: 0.85rem; color: var(--muted); margin-top: 0.6rem; }
+  .prereqs a { color: var(--accent); text-decoration: none; }
+  .prereqs a:hover { text-decoration: underline; }
+  main { max-width: 60rem; margin: 0 auto; padding: 2rem 2.5rem 5rem; }
+  .module {
+    border-top: 1px solid var(--border); padding-top: 2rem; margin-top: 3rem;
+  }
+  .module:first-child { border-top: none; padding-top: 0; margin-top: 0; }
+  .module .num {
+    font-family: ui-monospace, monospace; font-size: 0.78rem;
+    background: var(--gold); color: var(--bg); padding: 0.2rem 0.6rem;
+    border-radius: 99px; display: inline-block; margin-bottom: 0.6rem;
+  }
+  .module h2 {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.9rem; margin: 0;
+    letter-spacing: -0.01em; font-weight: 500; line-height: 1.15;
+  }
+  .module .objective {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic;
+    color: var(--ink-soft); margin: 0.5rem 0 1rem;
+  }
+  section { margin: 1.6rem 0; }
+  section h3 {
+    font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em;
+    color: var(--muted); margin: 0 0 0.6rem;
+  }
+  .passage {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--gold);
+    padding: 0.8rem 1rem; margin: 0.5rem 0; border-radius: 4px;
+  }
+  .passage .src {
+    font-family: ui-monospace, monospace; font-size: 0.72rem;
+    color: var(--accent); margin-bottom: 0.3rem;
+  }
+  .passage .quote {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic;
+    color: var(--ink); font-size: 1rem; line-height: 1.55;
+  }
+  .passage .note { font-size: 0.78rem; color: var(--muted); margin-top: 0.4rem; }
+  .seed {
+    padding: 0.5rem 0; border-left: 2px solid var(--gold); padding-left: 1rem; margin: 0.5rem 0;
+  }
+  .seed .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic; color: var(--ink);
+  }
+  .seed .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.3rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .theme-pill {
+    background: var(--elev); padding: 0.15rem 0.55rem; border-radius: 99px;
+  }
+  .misc {
+    background: var(--elev); padding: 0.7rem 1rem; margin: 0.5rem 0; border-radius: 6px;
+    font-size: 0.9rem;
+  }
+  .misc .label { font-weight: 500; }
+  .misc .label.if { color: var(--ink); }
+  .misc .label.then { color: var(--accent); }
+  .check {
+    background: var(--elev); border: 2px solid var(--gold); padding: 1rem 1.2rem;
+    border-radius: 8px; margin-top: 0.6rem;
+  }
+  .check .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic; font-size: 1.1rem; color: var(--ink);
+  }
+  .check .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.5rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .toc {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    padding: 1rem 1.4rem; margin: 1.5rem 0;
+  }
+  .toc h3 { margin: 0 0 0.4rem; }
+  .toc ol { margin: 0; padding-left: 1.4rem; }
+  .toc li { margin: 0.2rem 0; font-size: 0.92rem; }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+  .approve-bar {
+    position: sticky; bottom: 0;
+    background: var(--bg); border-top: 1px solid var(--border);
+    padding: 0.8rem 2.5rem;
+    display: flex; gap: 0.6rem; justify-content: flex-end;
+  }
+  .btn {
+    padding: 0.55rem 1.2rem; border-radius: 6px; font-size: 0.9rem;
+    border: 1px solid var(--border); background: var(--surface); color: var(--ink-soft);
+    cursor: pointer; font-family: inherit;
+  }
+  .btn.primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+  .btn:hover { transform: translateY(-1px); }
+</style>
+</head><body>
+<header>
+  <a class="back-link" href="index.html">← All course reviews</a>
+  <div class="meta">Mini-course · 3 modules</div>
+  <h1>Reverse-Engineering Enlightenment</h1>
+  <p class="abstract">This course examines Vervaeke's cognitive-scientific project of reverse-engineering enlightenment: starting with a stipulative definition (enlightenment as the developmental process that reliably ameliorates the perennial problems) and working backward to identify what practices, mechanisms, and worldview conditions could produce it. Students will be able to explain why Vervaeke's redefinition makes enlightenment tractable, map specific perennial problems to specific psycho-technologies, and articulate why both worldview rearticulation and an ecology of practices are required. In the series arc, this concept is the integrative pivot where the cognitive-science framework (relevance realization, religio) meets the practical project of designing an adequate response to the meaning crisis.</p>
+  
+    <div class="prereqs">
+      Prerequisites:
+      <a href="relevance-realization.html">Relevance Realization</a>, <a href="religio.html">Religio</a>
+    </div>
+</header>
+<main>
+  <div class="toc">
+    <h3>Modules</h3>
+    <ol>
+      <li><a href="#m-stipulative-redefinition">Enlightenment Redefined: From Superlative to Developmental Process</a></li><li><a href="#m-mapping-perennial-problems">Mapping Perennial Problems to Psycho-Technologies</a></li><li><a href="#m-two-pronged-response">Two Prongs: Worldview Rearticulation and Ecology of Practices</a></li>
+    </ol>
+  </div>
+  
+    <article class="module" id="m-stipulative-redefinition">
+      <span class="num">Module 1</span>
+      <h2>Enlightenment Redefined: From Superlative to Developmental Process</h2>
+      <p class="objective">Explain Vervaeke's stipulative redefinition of enlightenment and why making it a developmental process rather than a superlative state is methodologically essential.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 36 · Religio/Perennial Problems/Reverse Eng. Enlightenment</div>
+            <div class="quote">&ldquo;I'm going to stipulate that enlightenment is the developmental process that gives us reliable amelioration and alleviation of the perennial problems.&rdquo;</div>
+            <div class="note">The central stipulative redefinition — enlightenment as tractable target</div>
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 36 · Religio/Perennial Problems/Reverse Eng. Enlightenment</div>
+            <div class="quote">&ldquo;I want to reverse-engineer enlightenment. I want to understand what the perennial problems are and using this machinery (indicates RR, Religio, Sacredness), what are the practices (indicates Wisdom, Enlightenment, Salvation), what are the processes we can use in order to address the perennial problems?&rdquo;</div>
+            <div class="note">The reverse-engineering methodology stated directly</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Traditional understandings of enlightenment often portray it as a final, perfect state — total liberation, complete union with God, absolute wisdom. What problems arise when we try to use such a notion as a practical target for human development?</div>
+            <div class="themes"><span class="theme-pill">unachievable superlative</span><span class="theme-pill">no clear path</span><span class="theme-pill">perfectionism as obstacle</span><span class="theme-pill">inaccessible goal</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke says he is 'stipulating' a definition rather than describing one. What is the difference — and why is it important that the stipulation be argued for rather than just assumed?</div>
+            <div class="themes"><span class="theme-pill">stipulative vs descriptive definition</span><span class="theme-pill">definition as theoretical choice</span><span class="theme-pill">accountability for stipulation</span><span class="theme-pill">methodological transparency</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">If enlightenment is defined as the developmental process that reliably ameliorates the perennial problems, what work is being done by the word 'reliably'? Why not just say 'sometimes helps'?</div>
+            <div class="themes"><span class="theme-pill">reliability as scientific standard</span><span class="theme-pill">not occasional benefit</span><span class="theme-pill">systematic and repeatable</span><span class="theme-pill">engineering not luck</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Reverse-engineering starts with a target (alleviation of perennial problems) and works backward to the mechanisms. How does this differ from working forward from mechanisms to outcomes — and what advantages does the reverse direction offer?</div>
+            <div class="themes"><span class="theme-pill">target-first methodology</span><span class="theme-pill">pragmatic orientation</span><span class="theme-pill">mechanism-discovery vs mechanism-application</span><span class="theme-pill">avoid preconceptions about path</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Reverse-engineering enlightenment is a claim to have achieved or described final enlightenment.</div>
+              <div><span class="label then">Then:</span> Vervaeke explicitly calls it a developmental process, not an achieved superlative state; the project is methodological — identifying what reliably ameliorates the perennial problems — and he acknowledges it is not a final answer.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> The cognitive-scientific framing discards the wisdom traditions by replacing them with scientific concepts.</div>
+              <div><span class="label then">Then:</span> The project tries to salvage the functional machinery of wisdom traditions by grounding their practices in a naturalistic worldview — it is a reframing that respects the traditions while making their mechanisms cognitively tractable.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">Why does the reverse-engineering methodology require beginning with the target (alleviation of perennial problems) rather than with a pre-formed theory of enlightenment — and what risk does this approach avoid?</div>
+          <div class="themes"><span class="theme-pill">avoiding pre-formed superlatives</span><span class="theme-pill">tractable target</span><span class="theme-pill">working backward from effect</span><span class="theme-pill">avoids doctrine-first approach</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-mapping-perennial-problems">
+      <span class="num">Module 2</span>
+      <h2>Mapping Perennial Problems to Psycho-Technologies</h2>
+      <p class="objective">Identify the key perennial problems and explain how specific psycho-technologies address specific problems within Vervaeke's reverse-engineering framework.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 38 · Agape and 4E Cognitive Science</div>
+            <div class="quote">&ldquo;we can address parasitic processing with a counteractive dynamical system. We can address modal confusion by the cultivation of Sati. We can address the reflectiveness gap by the cultivation of flow. We can address absurdity by cultivating Prajñā.&rdquo;</div>
+            <div class="note">The systematic mapping of perennial problems to practices</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Sati (mindfulness) addresses 'modal confusion' — the failure to distinguish between the mode of having and the mode of being. What would it look like to confuse these modes, and why might systematic mindfulness practice help disambiguate them?</div>
+            <div class="themes"><span class="theme-pill">having vs being mode</span><span class="theme-pill">modal confusion</span><span class="theme-pill">mindfulness as mode-correction</span><span class="theme-pill">attention to mode not content</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">The 'reflectiveness gap' is the problem of being unable to step back from one's own processing to examine it. Why might flow — a state of total absorbed engagement — address this gap rather than deepen it?</div>
+            <div class="themes"><span class="theme-pill">paradox of flow correcting reflectiveness gap</span><span class="theme-pill">optimal processing vs self-consciousness</span><span class="theme-pill">effortless engagement</span><span class="theme-pill">different sense of stepping back</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Parasitic processing is the way cognitive machinery that is normally adaptive gets co-opted into destructive patterns. Why would a 'counteractive dynamical system' be needed rather than simply a better belief or decision?</div>
+            <div class="themes"><span class="theme-pill">sub-propositional level of problem</span><span class="theme-pill">need for counteractive habit not belief</span><span class="theme-pill">dynamical not propositional fix</span><span class="theme-pill">parasitic processing runs beneath explicit thought</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Prajñā (insight wisdom) addresses the perennial problem of absurdity — the sense that nothing ultimately makes sense or connects. Why might insight, rather than argument or new information, be the right treatment for absurdity?</div>
+            <div class="themes"><span class="theme-pill">absurdity as relevance failure</span><span class="theme-pill">insight as gestalt reorganization</span><span class="theme-pill">reasons cannot compel reconnection</span><span class="theme-pill">transformative not informative</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> The perennial problems can be solved by acquiring the correct information or changing one's explicit beliefs.</div>
+              <div><span class="label then">Then:</span> The perennial problems (parasitic processing, modal confusion, reflectiveness gap, absurdity, alienation, existential entrapment) operate at sub-propositional levels; their resolution requires practices that alter the machinery of cognition, not propositional updates.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Any practice that feels helpful is a valid psycho-technology for addressing the perennial problems.</div>
+              <div><span class="label then">Then:</span> The reverse-engineering framework requires that practices reliably and systematically address specific perennial problems — not merely that they feel beneficial; a wisdom framing of interlocking virtues is needed, not a grab-bag of techniques.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">Why does each psycho-technology need to be set within a wisdom framing — an interlocking set of virtues — rather than being deployed as a standalone technique? What would be lost without that framing?</div>
+          <div class="themes"><span class="theme-pill">isolated technique vs integrated wisdom</span><span class="theme-pill">interlocking virtues</span><span class="theme-pill">ecology of practices</span><span class="theme-pill">no technique without character context</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-two-pronged-response">
+      <span class="num">Module 3</span>
+      <h2>Two Prongs: Worldview Rearticulation and Ecology of Practices</h2>
+      <p class="objective">Explain why responding to the meaning crisis requires both rearticulating a worldview in which religio is legitimate and cultivating an ecology of practices, and why neither prong alone is sufficient.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 37 · Reverse Engineering Enlightenment: Part 2</div>
+            <div class="quote">&ldquo;So responding to the Meaning Crisis has two components to it. And that's why I call it 'awakening' from the Meaning Crisis&rdquo;</div>
+            <div class="note">The two-pronged structure of the response</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Why isn't a new worldview — a scientifically updated set of beliefs about consciousness, meaning, and reality — sufficient by itself to address the meaning crisis? What would still be missing?</div>
+            <div class="themes"><span class="theme-pill">worldview without practices is empty</span><span class="theme-pill">propositional shift not enough</span><span class="theme-pill">practices needed for transformation</span><span class="theme-pill">credo without religio</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Why isn't a new set of practices — mindfulness retreats, therapy, contemplative traditions — sufficient by itself without worldview rearticulation? What goes wrong if we have practices but no framework?</div>
+            <div class="themes"><span class="theme-pill">practices without worldview are decontextualized</span><span class="theme-pill">context gives practices meaning</span><span class="theme-pill">disconnected techniques vs integrated ecology</span><span class="theme-pill">worldview provides coherence</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke calls the response 'awakening' from the meaning crisis. What does the metaphor of awakening suggest about the kind of change required — and how is it different from, say, 'solving' or 'treating' the crisis?</div>
+            <div class="themes"><span class="theme-pill">awakening as transformation not problem-solving</span><span class="theme-pill">developmental not remedial</span><span class="theme-pill">waking to what was always there</span><span class="theme-pill">religio not information</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">The religion that is not a religion is proposed as the social-institutional form of the two-pronged response. Why would a community of practice be needed rather than simply the right ideas and the right techniques?</div>
+            <div class="themes"><span class="theme-pill">community as necessary condition</span><span class="theme-pill">practices need social scaffolding</span><span class="theme-pill">ecology not individual effort</span><span class="theme-pill">shared meaning-making</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Reverse-engineering enlightenment is a solo project — an individual can work it out alone with enough study and meditation.</div>
+              <div><span class="label then">Then:</span> The project requires the social and institutional structures of a community of practice; religio has historically been maintained by communities, not isolated individuals, and the sustainability of the ecology of practices depends on social scaffolding.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> The two-pronged response means doing some worldview work AND some practice work, as independent parallel tracks.</div>
+              <div><span class="label then">Then:</span> The two prongs are mutually constitutive: the worldview must legitimate and contextualize the practices, while the practices must enact and embody the worldview — they cannot be separated without each losing much of its force.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">What does it mean to 'awaken' from the meaning crisis rather than 'solve' it — and why do both worldview rearticulation and an ecology of practices need to work together for that awakening to be real and sustainable?</div>
+          <div class="themes"><span class="theme-pill">awakening vs solving</span><span class="theme-pill">developmental transformation</span><span class="theme-pill">worldview and practices mutually supporting</span><span class="theme-pill">religio as target of both prongs</span></div>
+        </div>
+      </section>
+    </article>
+  
+</main>
+<div class="approve-bar">
+  <button class="btn">Request changes</button>
+  <button class="btn primary">Approve for shipping</button>
+</div>
+</body></html>

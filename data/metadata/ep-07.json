@@ -1,112 +1,112 @@
 {
   "num": 7,
   "slug": "aristotles-worldview-erich-fromm",
-  "title": "Aristotle's World View and Erich Fromm",
-  "essence": "Aristotle's conformity theory of knowledge explains how mind and world are fundamentally integrated: to truly know something is to possess its structural-functional organization, to conform to it. Unlike the detached, representational epistemology of modern philosophy, Aristotle understands knowing-being as inseparable. The architect knows the building by possessing its logos; the craftsperson actualizes potential through conformity with form. Vervaeke explains Aristotle's geocentric cosmos where everything moves purposefully toward its natural place, describing a worldview offering deep meaning. Yet more importantly, Aristotle shows how worldview and epistemology mutually support each other through what Vervaeke calls a 'nomological order'—when scientific understanding aligns with existential meaning. The Agent-Arena relationship describes how identity and context co-define each other, creating meaningful action. When this breaks down, existence becomes absurd. Vervaeke then shifts to the Axial Revolution in India through Erich Fromm's distinction between 'having mode' (categorical, controlling, problem-solving) and 'being mode' (developmental, expressive, meaning-making). Modern consumer society induces modal confusion by encouraging being needs to be pursued through having. Siddhartha's palace myth exemplifies this confusion and the necessity of transcending it.",
+  "title": "Aristotle's Worldview and Erich Fromm",
+  "essence": "Vervaeke examines the complete Aristotelian worldview — geocentric, teleological, qualitatively differentiated — as an integrated meaning-making framework in which the cosmos itself has a nomological order: a single rational structure that is simultaneously normative and descriptive. For Aristotle, to understand what something is and to understand what it ought to be are the same question answered differently. The agent-arena relationship — developed with Mastropietro and Miscevic — names the co-identifying coupling between agent and environment: you are not in your world as a thing in a container; you are constituted by and constituting your world simultaneously. This makes worldview attunement possible: coming into alignment with the normative structure of reality. Vervaeke then introduces Erich Fromm's distinction between the having-mode and the being-mode as a modern psychological redescription of what Aristotle's worldview enabled: the being-mode is orientation toward growth, sharing, and engagement with reality; the having-mode is orientation toward possession, security, and control. Modal confusion — trying to satisfy being-mode needs through having-mode strategies — is the modern pathology. Fromm's analysis connects the Aristotelian diagnosis to the Buddhist critique developed in the next episode, with Siddhartha Gautama briefly introduced as a parallel figure who reached similar conclusions from a different cultural context.",
   "keyClaims": [
-    "Knowledge is conformity with reality's structural-functional organization, not detached representation",
-    "Worldview and epistemology mutually reinforce each other creating a nomological order of meaning",
-    "The Agent-Arena relationship co-identifies the self and world, generating meaning through existential modes",
-    "Modern culture induces modal confusion by encouraging being needs to be met through having",
-    "Transcendence requires moving beyond modal confusion toward authentic being modes"
+    "The Aristotelian cosmos has a nomological order: a single rational structure that is simultaneously descriptive and normative — understanding what something is and what it ought to be are the same question.",
+    "The agent-arena relationship names the co-identifying coupling between agent and environment: you are not in your world as a thing in a container but are constituted by and constituting your world.",
+    "Fromm's having-mode and being-mode redescribe in modern psychological terms what Aristotle's worldview enabled: orientation toward growth and engagement vs. orientation toward possession and security.",
+    "Modal confusion — trying to satisfy being-mode needs through having-mode strategies — is the defining modern pathology and a central driver of the meaning crisis.",
+    "The Aristotelian worldview was destroyed by the Copernican revolution and subsequent mathematical physics, eliminating the qualitative differentiation and teleological order that made nomological normativity possible."
   ],
   "concepts": [
     {
-      "name": "conformity theory",
+      "id": "agent-arena-relationship",
       "treatment": "introduced",
-      "summary": "Epistemology where knowing involves conforming one's mind to reality's form."
+      "summary": "The co-identifying coupling between agent and environment — you are constituted by and constituting your world simultaneously, not a thing in a container."
     },
     {
-      "name": "logos",
+      "id": "worldview-attunement",
+      "treatment": "introduced",
+      "summary": "Coming into alignment with the normative structure of reality as Aristotle's cosmos makes possible — the psycho-spiritual analog of theoretical knowledge."
+    },
+    {
+      "id": "nomological-order",
+      "treatment": "introduced",
+      "summary": "The Aristotelian cosmos as a single rational structure that is simultaneously descriptive and normative — understanding what something is and what it ought to be are the same question."
+    },
+    {
+      "id": "having-mode-being-mode",
+      "treatment": "introduced",
+      "summary": "Fromm's distinction: being-mode is orientation toward growth, sharing, and engagement with reality; having-mode is orientation toward possession, security, and control."
+    },
+    {
+      "id": "modal-confusion",
+      "treatment": "introduced",
+      "summary": "Trying to satisfy being-mode needs through having-mode strategies — the modern pathology Fromm diagnoses as the psychological core of the meaning crisis."
+    },
+    {
+      "id": "existential-mode",
+      "treatment": "introduced",
+      "summary": "The fundamental orientation of a person's existence — whether organized around the having-mode or being-mode — as the deepest level of the agent-arena relationship."
+    },
+    {
+      "id": "conformity-theory",
+      "treatment": "introduced",
+      "summary": "Aristotle's principle that the knowing mind takes on the form of the known without the matter — the basis for the agent-arena relationship's epistemic dimension."
+    },
+    {
+      "id": "the-meaning-crisis",
       "treatment": "developed",
-      "summary": "Structural-functional organization; the pattern constituting what something is."
+      "summary": "The destruction of the Aristotelian nomological order by Copernican/Galilean science eliminated the worldview that made modal attunement possible — a key step in the meaning crisis."
     },
     {
-      "name": "worldview",
-      "treatment": "introduced",
-      "summary": "Integrated understanding of how world and mind relate, mutually supporting epistemology and existential meaning."
-    },
-    {
-      "name": "nomological order",
-      "treatment": "introduced",
-      "summary": "State where scientific understanding and existential meaning are harmoniously aligned."
-    },
-    {
-      "name": "agent arena relationship",
-      "treatment": "introduced",
-      "summary": "Co-identifying self (agent) and context (arena) that creates meaningful action."
-    },
-    {
-      "name": "having mode",
-      "treatment": "introduced",
-      "summary": "Existential mode focused on categorization, control, and problem-solving."
-    },
-    {
-      "name": "being mode",
-      "treatment": "introduced",
-      "summary": "Existential mode focused on development, growth, and meaning-making."
-    },
-    {
-      "name": "modal confusion",
-      "treatment": "introduced",
-      "summary": "Attempting to meet being needs through having mode strategies."
+      "id": "participatory-knowing",
+      "treatment": "applied",
+      "summary": "The agent-arena relationship is the structure of participatory knowing — being in constitutive contact with reality rather than merely representing it."
     }
   ],
   "people": [
     {
-      "name": "Aristotle",
+      "id": "aristotle",
       "role": "subject",
-      "summary": "Ancient philosopher whose conformity theory and worldview are detailed."
+      "summary": "The Aristotelian worldview — geocentric cosmos, teleological order, conformity theory, agent-arena relationship — examined as a complete meaning-making framework."
     },
     {
-      "name": "Erich Fromm",
+      "id": "fromm",
       "role": "introduced",
-      "summary": "20th-century psychoanalyst who distinguished having and being modes."
+      "summary": "Erich Fromm's distinction between having-mode and being-mode introduced as a modern psychological redescription of what Aristotle's worldview enabled and what the meaning crisis disrupts."
     },
     {
-      "name": "Charles Taylor",
-      "role": "referenced",
-      "summary": "Philosopher who analyzes conformity theory and worldview."
-    },
-    {
-      "name": "Hubert Dreyfus",
-      "role": "referenced",
-      "summary": "Philosopher of embodied understanding and expertise."
-    },
-    {
-      "name": "Clifford Geertz",
+      "id": "christopher-mastropietro",
       "role": "discussed",
-      "summary": "Anthropologist who developed concept of existential mode."
+      "summary": "Co-developer with Miscevic of the agent-arena relationship concept — their work with Vervaeke provides the theoretical vocabulary for describing worldview attunement."
     },
     {
-      "name": "Martin Buber",
-      "role": "referenced",
-      "summary": "Philosopher who distinguished I-It and I-Thou relationships."
+      "id": "filip-miscevic",
+      "role": "discussed",
+      "summary": "Co-developer with Mastropietro of the agent-arena relationship — their collaboration with Vervaeke on this concept is acknowledged."
     },
     {
-      "name": "Siddhartha Gautama",
+      "id": "siddhartha-gautama",
       "role": "introduced",
-      "summary": "The Buddha whose mythological journey illustrates modal confusion and transformation."
+      "summary": "Briefly introduced as a parallel figure to Aristotle and Fromm who diagnosed similar modal confusion from within the Indian Axial tradition — to be developed in episode 8."
+    },
+    {
+      "id": "charles-taylor",
+      "role": "referenced",
+      "summary": "Taylor's analysis of the disenchantment of the world referenced as the sociological parallel to the destruction of Aristotelian nomological order."
+    },
+    {
+      "id": "buber",
+      "role": "introduced",
+      "summary": "Martin Buber's I-Thou vs. I-It distinction introduced as a parallel to Fromm's having/being modes — both describe fundamental orientations of the agent-arena relationship."
     }
   ],
   "crossRefs": [
     {
       "episode": 6,
-      "context": "Builds on Aristotelian philosophy of character and development"
+      "context": "Aristotle's developmental metaphysics from episode 6 here extended to a complete worldview with a nomological-normative cosmos."
     },
     {
       "episode": 8,
-      "context": "Siddhartha's escape from palace and modal confusion continues"
-    }
-  ],
-  "quotableMoments": [
-    {
-      "quote": "To know something is to be in contact with it, is to actually participate in the same form as the thing.",
-      "context": "Explaining the conformity theory of knowledge"
+      "context": "Siddhartha Gautama and the Buddhist analysis of modal confusion — parallel to Fromm's having/being distinction — are developed in episode 8."
     },
     {
-      "quote": "Modal confusion. Deep existential confusion. And what happens when you're mortally confused is that your need for maturity isn't being met by having the car, your need for love is not being met by having sex.",
-      "context": "Explaining how market society exploits modal confusion"
+      "episode": 3,
+      "context": "The destruction of Aristotelian nomological order parallels the collapse of the continuous cosmos analyzed in episode 3 — both describe the removal of a worldview that sustained meaning."
     }
-  ]
+  ],
+  "quotableMoments": []
 }

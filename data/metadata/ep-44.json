@@ -2,104 +2,82 @@
   "num": 44,
   "slug": "theories-of-wisdom",
   "title": "Theories of Wisdom",
-  "essence": "Wisdom research converges on relevance realization as the central coordinating mechanism. Ardelt's critique of Baltes and Staudinger identifies modal confusion: having theoretical knowledge about wisdom differs from being a wise person. Wisdom requires participatory knowing and transformative experience, missing from product theories. Ardelt distinguishes between descriptive and interpretive knowledge; wisdom involves grasping significance beyond facts. She identifies three dimensions: cognitive (understanding), reflective (perspectival and self-examination), and affective (agape—overcomingegocentrism). Sternberg's balance theory views wisdom as tacit understanding optimizing the fit between interests and adaptive responses. Wisdom coordinates intrapersonal (self-connection), interpersonal (others), and extrapersonal (world) relationships. Both theorists implicitly invoke relevance realization and connect wisdom to meaning in life through moral development and mastery. Process theory accounts for becoming wise, explaining foolishness independently and showing how wisdom counteracts self-deception to afford flourishing.",
+  "essence": "Vervaeke continues the survey of wisdom theories, beginning with further critique of the Berlin paradigm and then examining Ardelt's three-factor model and Sternberg's balance theory. The Berlin paradigm is critiqued for confusing wisdom with expertise: it describes knowledge states but not the transformative process by which those states come to be, and its practitioners often look like domain experts rather than genuinely wise persons. Ardelt's model identifies three interacting components — cognitive (understanding causes and significance), reflective (perspectival self-examination), and affective (agape, compassionate concern for others) — and Vervaeke argues this is a significant advance because it connects wisdom to meaning in life through agape. John Kekes's distinction between descriptive and interpretive knowledge is introduced: interpretive knowledge is not just factual knowledge about the world but a way of seeing the deep patterns that link facts to human significance. Sternberg's balance theory frames wisdom as the application of tacit understanding to balance intrapersonal, interpersonal, and extrapersonal interests — adapt, shape, or select environments — toward a common good. LA Paul's transformative experience is cited as illuminating why this balance cannot be achieved through deliberation alone. The episode closes with the claim that any adequate wisdom theory must account for gnosis — the transformative participatory knowing that restructures the self.",
   "keyClaims": [
-    "Having theoretical knowledge about wisdom is not the same as being wise; wisdom requires self-transformation and participatory knowing",
-    "Wisdom is multidimensional: cognitive (understanding), reflective (perspectival self-awareness), and affective (agape) components mutually constrain each other",
-    "Wisdom requires both product theory (what wisdom is) and process theory (how one becomes wise); ancients understood this better",
-    "Sternberg's balance theory shows wisdom optimizes fit between interests, adaptive responses, and values through tacit understanding",
-    "All major wisdom theories implicitly invoke relevance realization as the core coordinating mechanism"
+    "The Berlin wisdom paradigm confuses wisdom with expertise by focusing on knowledge products rather than the transformative cognitive process that generates them.",
+    "Ardelt's three-factor model — cognitive understanding, reflective perspectival examination, and agape — is a significant advance because it connects wisdom to meaning in life through compassionate concern.",
+    "Kekes's interpretive knowledge — the ability to see how facts bear on human significance — is a necessary component of wisdom beyond mere factual knowledge.",
+    "Sternberg's balance theory frames wisdom as tacit understanding used to balance intrapersonal, interpersonal, and extrapersonal interests toward a common good.",
+    "An adequate theory of wisdom must account for gnosis — the participatory knowing that transforms the self — which no purely propositional account can capture."
   ],
   "concepts": [
     {
-      "name": "modal confusion",
-      "treatment": "introduced",
-      "summary": "Ardelt's critique: conflating theoretical knowledge about wisdom with actual wisdom. Having studied wisdom extensively doesn't make one wise; transformation through participatory knowing is required."
-    },
-    {
-      "name": "process theory vs. product theory",
-      "treatment": "introduced",
-      "summary": "Product theory describes what wisdom is (Baltes, Sternberg). Process theory explains how one becomes wise (Ardelt points toward this). Ancient theories integrated both; modern psychology favors product."
-    },
-    {
-      "name": "sophrosyne",
-      "treatment": "introduced",
-      "summary": "Optimization of perspectival knowing making virtue second nature. Temperance misses it; rather, a transformed salience landscape naturally orients toward truth and virtue without struggle."
-    },
-    {
-      "name": "agape",
+      "id": "wisdom",
       "treatment": "developed",
-      "summary": "Form of love overcoming egocentrism both attitudinally and motivationally. Ardelt connects it to meaning in life beyond morality, enabling wisdom to guide flourishing."
+      "summary": "Surveyed through Ardelt's three-factor model and Sternberg's balance theory; the episode identifies what each captures and what is still missing — gnosis and participatory transformation."
     },
     {
-      "name": "interpretive knowledge",
-      "treatment": "introduced",
-      "summary": "Kekes' distinction developed by Ardelt: grasping the significance of knowledge, not just possessing facts. Central to wisdom; has to do with understanding."
-    },
-    {
-      "name": "balance theory",
-      "treatment": "introduced",
-      "summary": "Sternberg's account: wisdom balances intrapersonal interests with interpersonal relationships and extrapersonal world connection. Tacit understanding enables optimal fit to context."
-    },
-    {
-      "name": "tacit understanding",
+      "id": "agape",
       "treatment": "developed",
-      "summary": "Implicit grasp of significance enabling practical wisdom. Not rules or propositions but intuitive knowing how to apply knowledge effectively across contexts."
+      "summary": "Ardelt's affective component is identified as agape — compassionate concern for others — and Vervaeke argues this is what connects wisdom to meaning in life."
+    },
+    {
+      "id": "perspectival-knowing",
+      "treatment": "developed",
+      "summary": "Ardelt's reflective component is identified as perspectival self-examination: the capacity to take alternative perspectives on one's own situation, counteracting the self-centeredness that generates self-deception."
+    },
+    {
+      "id": "participatory-knowing",
+      "treatment": "applied",
+      "summary": "Sternberg's tacit understanding — the implicit knowledge that cannot be formalized — is related to participatory knowing; and gnosis is invoked as the participatory dimension no product theory captures."
+    },
+    {
+      "id": "gnosis",
+      "treatment": "applied",
+      "summary": "Gnosis is identified as the transformative participatory knowing that is missing from all propositional theories of wisdom; an adequate theory must account for it."
+    },
+    {
+      "id": "transformative-experience",
+      "treatment": "applied",
+      "summary": "LA Paul's account illuminates why Sternberg's balance cannot be achieved through deliberation: the transformation required involves genuine epistemic and personal change that lies outside one's current rational framework."
+    },
+    {
+      "id": "self-deception",
+      "treatment": "applied",
+      "summary": "Ardelt's reflective component directly addresses self-deception through perspectival examination; Vervaeke identifies this as the link between her model and the broader wisdom-as-overcoming-self-deception account."
     }
   ],
   "people": [
     {
-      "name": "Monika Ardelt",
-      "role": "introduced",
-      "summary": "Psychological researcher critiquing Baltes and Staudinger's product theory of wisdom. Argues wisdom requires self-transcendence and participatory transformation. Identifies cognitive, reflective, and affective dimensions of wise persons."
+      "id": "monika-ardelt",
+      "role": "subject",
+      "summary": "Her three-factor model — cognitive, reflective, affective — is the primary subject of the episode's first half; Vervaeke credits it for connecting wisdom to meaning through agape."
     },
     {
-      "name": "Paul Baltes",
+      "id": "sternberg",
+      "role": "subject",
+      "summary": "His balance theory of wisdom — tacit understanding used to balance interests toward a common good via adapt/shape/select — is surveyed and partially endorsed."
+    },
+    {
+      "id": "la-paul",
+      "role": "referenced",
+      "summary": "Her transformative experience account is referenced to explain why Sternberg's balance cannot be achieved through deliberation alone."
+    },
+    {
+      "id": "baltes-staudinger",
       "role": "discussed",
-      "summary": "Lifespan psychologist with Staudinger developing Berlin paradigm. Vervaeke criticizes focus on product theory without process theory accounting for transformational development."
-    },
-    {
-      "name": "Ursula Staudinger",
-      "role": "discussed",
-      "summary": "Co-developer of Berlin paradigm empirical approach to wisdom. Emphasizes metaheuristics and pragmatic orchestration of mind and virtue."
-    },
-    {
-      "name": "Robert Sternberg",
-      "role": "introduced",
-      "summary": "Pivotal wisdom researcher connecting psychology to pedagogy. Balance theory shows wisdom as tacit understanding optimizing fit to context. Connects wisdom to meaning in life through virtue and mastery."
-    },
-    {
-      "name": "John Kekes",
-      "role": "referenced",
-      "summary": "Philosopher whose distinction between descriptive and interpretive knowledge is central to Ardelt's theory. Interpretive knowledge relates understanding and significance grasping."
-    },
-    {
-      "name": "Leo Ferraro",
-      "role": "referenced",
-      "summary": "Collaborative theorist with Vervaeke on wisdom. Together developing convergence argument showing relevance realization at core of wisdom."
-    },
-    {
-      "name": "Susan Wolf",
-      "role": "referenced",
-      "summary": "Philosopher on meaning in life. Her argument that meaning is irreducible to morality influences Ardelt and Sternberg's accounts."
+      "summary": "The Berlin paradigm continues to be critiqued; Vervaeke identifies the expertise confusion as its central failure mode."
     }
   ],
   "crossRefs": [
-    {"episode": 43, "reason": "Examines Schwartz and Sharpe's wisdom-virtue connection preceding these theories"},
-    {"episode": 45, "reason": "Introduces Vervaeke and Ferraro model synthesizing these theories' insights"}
-  ],
-  "quotableMoments": [
     {
-      "quote": "Having theoretical knowledge about wisdom is nowhere near sufficient for being a wise person.",
-      "context": "Ardelt's modal confusion critique showing wisdom requires participatory transformation beyond propositional knowledge."
+      "episode": 43,
+      "context": "The Berlin paradigm was introduced here; this episode extends and deepens its critique."
     },
     {
-      "quote": "Wisdom should have an independent account of foolishness; foolishness is not just the lack of wisdom.",
-      "context": "Vervaeke critiquing both Ardelt and Sternberg for failing to develop process theory independent account of self-deception."
-    },
-    {
-      "quote": "These theories are all implicitly invoking relevance realization throughout.",
-      "context": "Vervaeke's convergence argument showing metaheuristics, pragmatics, and optimization all presuppose relevance realization."
+      "episode": 45,
+      "context": "The Vervaeke-Ferraro integration synthesizes these theories into a dynamical systems account that includes gnosis."
     }
-  ]
+  ],
+  "quotableMoments": []
 }

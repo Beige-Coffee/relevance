@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Insight — Mini-course Review</title>
+<style>
+  :root {
+    --bg: #faf7f1; --surface: #ffffff; --elev: #f2ede0;
+    --ink: #1c1a17; --ink-soft: #3a3530; --muted: #6b6660;
+    --border: #e0d9c8; --accent: #8b3a3a; --gold: #b8893c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14120e; --surface:#1c1916; --elev:#25211c;
+      --ink:#ece6d6; --ink-soft:#b8b1a1; --muted:#8a8378;
+      --border:#2e2922; --accent:#d28a7e; --gold:#d4a85a; }
+  }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Inter", system-ui, sans-serif;
+    background: var(--bg); color: var(--ink); margin: 0; line-height: 1.6;
+    -webkit-font-smoothing: antialiased; }
+  .serif { font-family: "EB Garamond", Georgia, serif; }
+  header { padding: 2rem 2.5rem 1rem; border-bottom: 1px solid var(--border); }
+  .back-link { color: var(--muted); font-size: 0.8rem; text-decoration: none; }
+  .back-link:hover { color: var(--accent); }
+  .meta { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin: 0.6rem 0 0.3rem; }
+  h1 { font-family: "EB Garamond", Georgia, serif; font-size: 2.6rem; margin: 0; letter-spacing: -0.01em; font-weight: 500; }
+  .abstract {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.1rem; line-height: 1.65;
+    color: var(--ink-soft); margin: 1rem 0; max-width: 60rem;
+  }
+  .prereqs { font-size: 0.85rem; color: var(--muted); margin-top: 0.6rem; }
+  .prereqs a { color: var(--accent); text-decoration: none; }
+  .prereqs a:hover { text-decoration: underline; }
+  main { max-width: 60rem; margin: 0 auto; padding: 2rem 2.5rem 5rem; }
+  .module {
+    border-top: 1px solid var(--border); padding-top: 2rem; margin-top: 3rem;
+  }
+  .module:first-child { border-top: none; padding-top: 0; margin-top: 0; }
+  .module .num {
+    font-family: ui-monospace, monospace; font-size: 0.78rem;
+    background: var(--gold); color: var(--bg); padding: 0.2rem 0.6rem;
+    border-radius: 99px; display: inline-block; margin-bottom: 0.6rem;
+  }
+  .module h2 {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.9rem; margin: 0;
+    letter-spacing: -0.01em; font-weight: 500; line-height: 1.15;
+  }
+  .module .objective {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic;
+    color: var(--ink-soft); margin: 0.5rem 0 1rem;
+  }
+  section { margin: 1.6rem 0; }
+  section h3 {
+    font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em;
+    color: var(--muted); margin: 0 0 0.6rem;
+  }
+  .passage {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--gold);
+    padding: 0.8rem 1rem; margin: 0.5rem 0; border-radius: 4px;
+  }
+  .passage .src {
+    font-family: ui-monospace, monospace; font-size: 0.72rem;
+    color: var(--accent); margin-bottom: 0.3rem;
+  }
+  .passage .quote {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic;
+    color: var(--ink); font-size: 1rem; line-height: 1.55;
+  }
+  .passage .note { font-size: 0.78rem; color: var(--muted); margin-top: 0.4rem; }
+  .seed {
+    padding: 0.5rem 0; border-left: 2px solid var(--gold); padding-left: 1rem; margin: 0.5rem 0;
+  }
+  .seed .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic; color: var(--ink);
+  }
+  .seed .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.3rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .theme-pill {
+    background: var(--elev); padding: 0.15rem 0.55rem; border-radius: 99px;
+  }
+  .misc {
+    background: var(--elev); padding: 0.7rem 1rem; margin: 0.5rem 0; border-radius: 6px;
+    font-size: 0.9rem;
+  }
+  .misc .label { font-weight: 500; }
+  .misc .label.if { color: var(--ink); }
+  .misc .label.then { color: var(--accent); }
+  .check {
+    background: var(--elev); border: 2px solid var(--gold); padding: 1rem 1.2rem;
+    border-radius: 8px; margin-top: 0.6rem;
+  }
+  .check .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic; font-size: 1.1rem; color: var(--ink);
+  }
+  .check .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.5rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .toc {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    padding: 1rem 1.4rem; margin: 1.5rem 0;
+  }
+  .toc h3 { margin: 0 0 0.4rem; }
+  .toc ol { margin: 0; padding-left: 1.4rem; }
+  .toc li { margin: 0.2rem 0; font-size: 0.92rem; }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+  .approve-bar {
+    position: sticky; bottom: 0;
+    background: var(--bg); border-top: 1px solid var(--border);
+    padding: 0.8rem 2.5rem;
+    display: flex; gap: 0.6rem; justify-content: flex-end;
+  }
+  .btn {
+    padding: 0.55rem 1.2rem; border-radius: 6px; font-size: 0.9rem;
+    border: 1px solid var(--border); background: var(--surface); color: var(--ink-soft);
+    cursor: pointer; font-family: inherit;
+  }
+  .btn.primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+  .btn:hover { transform: translateY(-1px); }
+</style>
+</head><body>
+<header>
+  <a class="back-link" href="index.html">← All course reviews</a>
+  <div class="meta">Mini-course · 3 modules</div>
+  <h1>Insight</h1>
+  <p class="abstract">This course examines insight — the sudden restructuring of cognition in which an inappropriate frame is broken and a better one constructed — through Vervaeke's cognitive-scientific account. After completing this course, you will be able to describe the two phases of insight (frame-breaking via de-automatization; frame-building via new gestalt), explain why flow produces an insight cascade, and articulate the crucial distinction between insight in consciousness (reframing a single problem) and the transframing insight that transforms the competence for relevance realization itself. Insight is foundational in the series arc because it is the cognitive mechanism behind wisdom, the basis of the transformative experiences religious traditions sought, and — as mindfulness training shows — cultivable through practice rather than merely awaitable through luck.</p>
+  
+</header>
+<main>
+  <div class="toc">
+    <h3>Modules</h3>
+    <ol>
+      <li><a href="#m-frame-breaking">Frame-Breaking: Disrupting the Inappropriate Gestalt</a></li><li><a href="#m-insight-cascade">The Insight Cascade: Flow as Successive Restructuring</a></li><li><a href="#m-transframing-insight">Transframing Insight: Transforming the Competence Itself</a></li>
+    </ol>
+  </div>
+  
+    <article class="module" id="m-frame-breaking">
+      <span class="num">Module 1</span>
+      <h2>Frame-Breaking: Disrupting the Inappropriate Gestalt</h2>
+      <p class="objective">Describe the frame-breaking phase of insight and explain what de-automatization involves and why it is necessary before a new frame can be constructed.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 9 · Insight</div>
+            <div class="quote">&ldquo;I have to break up an inappropriate frame. What do I have to do? I have to break up the gestalt. And I also have to de-automatize my cognition.&rdquo;</div>
+            <div class="note">Vervaeke's two-step description of the first phase of insight</div>
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 9 · Insight</div>
+            <div class="quote">&ldquo;Mindfulness is basically teaching us how to appropriate and train a flexibility of attentional scaling so that we can intervene effectively in how we are framing our problems and increase the chances of insight when insight is needed.&rdquo;</div>
+            <div class="note">Mindfulness as the practice for cultivating frame-breaking capacity</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Think of a riddle or a puzzle where the obvious interpretation is wrong and the solution requires thinking about it completely differently. What had to happen before the right answer could occur to you — what had to change first?</div>
+            <div class="themes"><span class="theme-pill">wrong framing had to be released</span><span class="theme-pill">de-automatization of the default pattern</span><span class="theme-pill">something had to let go before something else could be found</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Automatization is what makes skilled behavior fast and effortless. But Vervaeke says we have to de-automatize to have insight. Why would the very thing that makes us expert in a domain also trap us when we need to think differently?</div>
+            <div class="themes"><span class="theme-pill">expertise constrains as well as enables</span><span class="theme-pill">habitual framing prevents novel framing</span><span class="theme-pill">entrenched patterns resist disruption</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">What would it feel like to break a frame from the inside — when you are the one who needs to let go of an assumption you don't even know you're making? Why is that particularly difficult?</div>
+            <div class="themes"><span class="theme-pill">frame is invisible when you are inside it</span><span class="theme-pill">don't know which assumptions to question</span><span class="theme-pill">mindfulness and indirect practices help by training attentional flexibility</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Mindfulness is described as training 'flexibility of attentional scaling.' What would that mean in practice — and why would that help with frame-breaking rather than just making you more calm?</div>
+            <div class="themes"><span class="theme-pill">attentional scaling = zooming in and out</span><span class="theme-pill">flexibility allows loosening current frame</span><span class="theme-pill">not just relaxation but cognitive de-automatization</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Insight just happens to you spontaneously — there's nothing you can do to make it more likely.</div>
+              <div><span class="label then">Then:</span> Vervaeke argues that mindfulness training cultivates attentional flexibility that directly increases the capacity for frame-breaking, making insight more available — it is not luck but a cultivable skill.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> To have insight you just need to think harder about the problem.</div>
+              <div><span class="label then">Then:</span> Insight requires first breaking the inappropriate frame — which harder thinking within the same frame will not accomplish. The necessary move is de-automatization, which often requires indirect practices like mindfulness, stepping away, or disrupting habitual patterns.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">What is de-automatization — why is it a necessary precondition for insight rather than something that follows from insight — and how does mindfulness training make it more accessible?</div>
+          <div class="themes"><span class="theme-pill">de-automatization loosens the habitual framing</span><span class="theme-pill">must precede insight because insight requires the frame to be breakable</span><span class="theme-pill">mindfulness trains attentional flexibility that enables frame-loosening</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-insight-cascade">
+      <span class="num">Module 2</span>
+      <h2>The Insight Cascade: Flow as Successive Restructuring</h2>
+      <p class="objective">Explain why flow produces an insight cascade and how each restructuring primes the next in a self-accelerating process of deep learning.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 2 · Flow, Metaphor, and the Axial Revolution</div>
+            <div class="quote">&ldquo;That's the flow state. It's an insight cascade. So the more you flow, the more you're training your ability for insight.&rdquo;</div>
+            <div class="note">Vervaeke's identification of flow as an insight cascade</div>
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 8 · The Buddha and Mindfulness</div>
+            <div class="quote">&ldquo;attention isn't a spotlight. It's a very complex optimisation process.&rdquo;</div>
+            <div class="note">Attention as optimization — relevant to why flow's tight feedback makes insight cascades possible</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke says flow is not just pleasant — it is an insight cascade. What would a cascade of insights feel like, and how is it different from solving several problems in a row by the same method?</div>
+            <div class="themes"><span class="theme-pill">each insight opens new possibilities</span><span class="theme-pill">cascade is self-priming not merely sequential</span><span class="theme-pill">qualitatively different from problem-solving repetition</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">The more you flow, the more you train your ability for insight. But insight cannot be forced. So how does practicing flow train something that is by definition non-deliberate?</div>
+            <div class="themes"><span class="theme-pill">flow trains de-automatization as a background capacity</span><span class="theme-pill">insight-readiness is cultivable even if individual insights are spontaneous</span><span class="theme-pill">indirect cultivation through regular flow practice</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Each insight in a cascade primes the next. What conditions in flow — clear information, tight feedback, error matters — would explain why insights in flow compound rather than terminate?</div>
+            <div class="themes"><span class="theme-pill">tight feedback immediately validates or disconfirms each reframing</span><span class="theme-pill">clear information means new frames are quickly tested</span><span class="theme-pill">momentum built by confirmed reframings</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> An insight cascade is just having a lot of good ideas — it is quantitative, not qualitatively different from ordinary thinking.</div>
+              <div><span class="label then">Then:</span> An insight cascade involves successive restructurings, where each reframing primes new perceptual possibilities — it is self-accelerating and qualitatively different from merely having multiple ideas within a stable frame.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">Why is flow's insight cascade more than a sequence of separate insights — what is it about flow's conditions that makes each insight prime the next?</div>
+          <div class="themes"><span class="theme-pill">tight feedback means each reframing is immediately tested</span><span class="theme-pill">successful reframings open new perceptual affordances</span><span class="theme-pill">self-accelerating because validated frames reveal new inconsistencies to resolve</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-transframing-insight">
+      <span class="num">Module 3</span>
+      <h2>Transframing Insight: Transforming the Competence Itself</h2>
+      <p class="objective">Articulate the distinction between reframing a single problem and the transframing insight that transforms the capacity to generate frames — and connect this to wisdom development.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 40 · Wisdom and Rationality</div>
+            <div class="quote">&ldquo;it not only is reframing the problem. It is transforming my competence so it is a transframing insight. It is a systematic insight.&rdquo;</div>
+            <div class="note">Vervaeke's distinction between ordinary insight and transframing insight</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Imagine two students: one figures out how to solve a specific physics problem by finding the right angle; another, through the same process, suddenly understands how to approach a whole category of problems. What is the difference in what changed?</div>
+            <div class="themes"><span class="theme-pill">first changed their solution to one problem</span><span class="theme-pill">second changed their problem-solving competence</span><span class="theme-pill">local vs. systematic insight</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Transframing transforms the competence that generates frames — the meta-level. What does it mean for a cognitive capacity to be transformed rather than just used? And why would wisdom traditions care about that distinction?</div>
+            <div class="themes"><span class="theme-pill">transformation changes what can be seen</span><span class="theme-pill">not just solving better but seeing differently</span><span class="theme-pill">wisdom requires ongoing transframing not just accumulation of solutions</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Higher states of consciousness are described as affording transframing insights. Why would those states — by restructuring the whole salience landscape — be especially suited to transforming competences rather than solving single problems?</div>
+            <div class="themes"><span class="theme-pill">whole salience landscape restructured = framing competence changed</span><span class="theme-pill">systematic rather than local transformation</span><span class="theme-pill">explains why higher states are developmentally significant</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Insight is always about solving a particular problem more cleverly.</div>
+              <div><span class="label then">Then:</span> Ordinary insight does involve solving particular problems by reframing; but transframing insight — the kind associated with wisdom and higher states — transforms the competence for relevance realization itself, not just one application of it.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">What is a transframing insight — how does it differ from ordinary reframing — and why is the capacity for transframing rather than reframing what wisdom development requires?</div>
+          <div class="themes"><span class="theme-pill">transframing transforms competence not just content</span><span class="theme-pill">reframing solves one problem within existing capacity</span><span class="theme-pill">wisdom requires systematic transformation of how one realizes relevance</span></div>
+        </div>
+      </section>
+    </article>
+  
+</main>
+<div class="approve-bar">
+  <button class="btn">Request changes</button>
+  <button class="btn primary">Approve for shipping</button>
+</div>
+</body></html>

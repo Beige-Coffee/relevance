@@ -1,0 +1,129 @@
+{
+  "num": 27,
+  "slug": "problem-formulation",
+  "title": "Problem Formulation",
+  "essence": "Vervaeke applies Newell and Simon's cognitive science framework to the analysis of problem formulation, revealing how intelligence depends on avoiding combinatorial explosion through relevance realization. A problem is formulated as a search space with an initial state, goal state, and path constraints, but the number of possible pathways grows exponentially—beyond the capacity of any biological system to exhaustively search. The core insight is that human intelligence consists precisely in the ability to zero in on relevant information, making the search space tractable by discovering which aspects of a problem matter most. Vervaeke distinguishes between well-defined problems (where the Initial State, Goal State, and Operators are clear) and ill-defined problems (which characterize most real-world situations, from taking notes to first dates). Ill-defined problems require good problem formulation—the process of determining what information is relevant. Through the mutilated chessboard example, Vervaeke demonstrates that insight is the capacity to reframe a problem from a combinatorially explosive search strategy to one where the solution becomes obvious. This shows that rationality is not identical to logic but rather the skillful application of different psycho-technologies, with insight essential to authentic rationality and wisdom.",
+  "keyClaims": [
+    "Intelligence as a general problem-solving capacity fundamentally depends on avoiding combinatorial explosion through selective attention to relevant information rather than exhaustive search.",
+    "Well-defined problems and ill-defined problems require different cognitive machinery, contrary to Newell and Simon's essentialist assumption that all problems are fundamentally the same.",
+    "Problem formulation is not trivial but central to cognition; it is the process by which you determine what information is relevant to solving ill-defined real-world problems.",
+    "Insight is the process of converting ill-defined problems into well-defined ones through reframing—dynamically restructuring your salience landscape to make a solution obvious.",
+    "Rationality requires both logic and insight; being comprehensively algorithmic would lead to cognitive suicide, whereas heuristic reasoning requires accepting bias as the price of adaptive intelligence."
+  ],
+  "concepts": [
+    {
+      "name": "problem space",
+      "treatment": "developed",
+      "summary": "A formal representation of a problem consisting of an initial state, goal state, operators (actions), and path constraints, whose search space grows combinatorially explosive."
+    },
+    {
+      "name": "combinatorial explosion",
+      "treatment": "developed",
+      "summary": "The exponential growth of possible pathways (F to the D) in a problem space, making exhaustive search impossible even for the fastest computers without selective attention to relevant information."
+    },
+    {
+      "name": "relevance realization",
+      "treatment": "developed",
+      "summary": "The core mechanism of intelligence: the capacity to zero in on relevant information within a combinatorially explosive problem space, making things obvious and salient."
+    },
+    {
+      "name": "well-defined problem",
+      "treatment": "introduced",
+      "summary": "A problem where the Initial State, Goal State, and Operators are clearly specified, allowing systematic solution methods."
+    },
+    {
+      "name": "ill-defined problem",
+      "treatment": "introduced",
+      "summary": "Problems where the relevant information about Initial State, Goal State, Operators, and Path Constraints is unknown, characterizing most real-world challenges."
+    },
+    {
+      "name": "problem formulation",
+      "treatment": "introduced",
+      "summary": "The process of determining what information is relevant to a problem; the skillful reframing that transforms ill-defined problems into well-defined ones through relevance realization."
+    },
+    {
+      "name": "heuristic",
+      "treatment": "developed",
+      "summary": "A problem-solving method not guaranteed to find a solution but reliable for increasing chances of success; necessarily biased because it limits the search space to presumed relevant regions."
+    },
+    {
+      "name": "algorithm",
+      "treatment": "developed",
+      "summary": "A problem-solving technique guaranteed to find a solution or prove it impossible; pursues certainty and requires searching the entire problem space, making it cognitively infeasible for complex real-world problems."
+    },
+    {
+      "name": "insight",
+      "treatment": "developed",
+      "summary": "The process by which poor problem formulation is converted into good problem formulation; the dynamic restructuring of salience that makes a solution become obvious."
+    },
+    {
+      "name": "salience",
+      "treatment": "developed",
+      "summary": "What stands out to you, what is obvious and grabbing your attention; how information becomes psychologically prominent through relevance realization."
+    }
+  ],
+  "people": [
+    {
+      "name": "John Vervaeke",
+      "role": "subject",
+      "summary": "Demonstrates how problem formulation and insight are central to understanding intelligence and rationality, not as algorithms but as skillful navigation of combinatorial complexity."
+    },
+    {
+      "name": "Allen Newell",
+      "role": "referenced",
+      "summary": "Co-founder of cognitive science; proposed the general problem solver model and formalization of problem spaces."
+    },
+    {
+      "name": "Herbert Simon",
+      "role": "referenced",
+      "summary": "Co-founder of cognitive science of problem-solving; conducted research showing that problem formulation (not just solution application) is crucial to solving complex problems."
+    },
+    {
+      "name": "Craig Kaplan",
+      "role": "referenced",
+      "summary": "Collaborated with Simon on the mutilated chessboard experiment demonstrating how reframing turns combinatorially explosive problems into tractable ones."
+    },
+    {
+      "name": "Keith Holyoak",
+      "role": "referenced",
+      "summary": "Cognitive psychologist who provided the foundational example demonstrating combinatorial explosion in chess-playing."
+    },
+    {
+      "name": "George Pólya",
+      "role": "referenced",
+      "summary": "Author of 'How to Solve It'; distinguished between algorithms and heuristics in the context of problem-solving techniques."
+    }
+  ],
+  "crossRefs": [
+    {
+      "episode": 28,
+      "context": "Problem formulation and relevance realization extend across categorization, communication, and action—all converging on relevance as the core mechanism of intelligence."
+    },
+    {
+      "episode": 26,
+      "context": "Cognitive science must avoid equivocation and fragmentation by creating plausible constructs; problem formulation is a key application of synoptic integration across cognitive phenomena."
+    },
+    {
+      "episode": 13,
+      "context": "Flow and higher states of consciousness involve the kind of dynamic, seamless relevance realization seen in genuine insight and problem formulation."
+    }
+  ],
+  "quotableMoments": [
+    {
+      "quote": "If I try to be comprehensively logical, if I'm pursuing certainty, as I'm trying to get over to the cup, a combinatorially explosive space opens up and I can't get there because my lifetime, my resources, my processing power is not sufficient to search the whole space. That's why Descartes was doomed from the beginning. You can't turn yourself into Mr. Spock.",
+      "context": "Why algorithmic certainty-seeking leads to cognitive paralysis in real-world problem-solving."
+    },
+    {
+      "quote": "Being rational is not just the psycho-technology of logic, but other psycho-technologies—knowing where, when, and how to use them in order to overcome self deception and optimally achieve the goals that we want to achieve.",
+      "context": "Redefining rationality beyond mere logic to include wisdom and skillful insight."
+    },
+    {
+      "quote": "Relevance Realization isn't the application of a definition. It is somehow intelligently ignoring all the irrelevance and somehow zeroing in, making the relevant stuff salient, standing out so that the actions that you should do are relevant to you, are obvious to you.",
+      "context": "The essence of relevance realization as an active process of making what matters salient rather than applying fixed rules."
+    },
+    {
+      "quote": "Insight is the process by which bad problem formulation is being converted into good problem formulation.",
+      "context": "Defining insight in terms of the dynamic restructuring of how you understand a problem's constraints and possibilities."
+    }
+  ]
+}

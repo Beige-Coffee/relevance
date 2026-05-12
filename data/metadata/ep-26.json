@@ -2,104 +2,77 @@
   "num": 26,
   "slug": "cognitive-science",
   "title": "Cognitive Science",
-  "essence": "Vervaeke proposes that cognitive science offers an alternative path to responding to the meaning crisis: not through pseudo-religious ideology but through understanding the machinery of meaning-making itself. He defines cognitive science as 'profound synoptic integration'—a disciplinary approach that bridges neuroscience, psychology, artificial intelligence, linguistics, and anthropology without reducing one to another or equivocating about terms. The central problem is that 'mind' has become equivocal across disciplines, fragmenting our understanding of ourselves. Cognitive science must use philosophical insight to create plausible theoretical constructs that are both trustworthy (converging evidence from multiple sources) and powerful (applicable across many domains). Through examples of conspiracy theories and trivial statements masquerading as profound, Vervaeke illustrates how we bullshit ourselves and others. The goal is to create constructs about meaning cultivation that are neither farfetched nor trivial but genuinely profound—and to use this understanding to develop new psycho-technologies for self-transcendence.",
+  "essence": "Episode 26 introduces cognitive science as the discipline Vervaeke has been preparing throughout the historical analysis—the tool that may provide anti-self-deception machinery without supernatural commitment. Cognitive science is defined not as a single discipline but as a synoptic integration: the coordinated bringing-together of psychology, neuroscience, linguistics, anthropology, philosophy, and computer science to address the equivocation, fragmentation, and ignorance about the mind that prevent rigorous inquiry into meaning and transformation. The episode develops the logic of plausibility constructs: since certainty is unavailable for claims about consciousness and meaning, we must instead pursue convergence (many independent lines of evidence pointing to the same conclusion—giving trustworthiness) and multi-aptness or elegance (a single construct illuminating many disparate phenomena—giving profundity and depth). The distinction between deepities and motte-and-bailey fallacies is developed as a diagnostics of pseudo-profound bullshitting. Meaning is carefully distinguished as three separate projects: meaning-making (interpreting experience), meaning-finding (discovering meaning that is already there), and meaning-cultivation (developing the capacity to engage meaningfully). Intelligence is introduced as the capacity for general problem-solving, and Newell and Simon's problem space model—initial state, goal state, operators, and path constraints—provides the first rigorous framework for understanding what intelligence does.",
   "keyClaims": [
-    "The fragmentation of 'mind' across different disciplines reflects and perpetuates the fragmentation of the self caused by the meaning crisis.",
-    "Cognitive science must avoid equivocation by philosophically bridging different disciplines' vocabularies, creating multi-apt constructs that work across levels of analysis.",
-    "Plausibility requires both convergence (trustworthiness from multiple sources) and elegance (power to explain diverse phenomena), making 'profound' constructs those balancing both.",
-    "Conspiracy theories and motte-and-bailey strategies show how we use language to appear deep while actually bullshitting ourselves about meaning.",
-    "Intelligence should be understood as general problem-solving capacity, making the study of how we avoid combinatorial explosion central to understanding meaning and wisdom."
+    "Cognitive science is a synoptic integration of multiple disciplines addressing equivocation (failure to define terms consistently), fragmentation (disciplines not talking to each other), and ignorance (genuine scientific uncertainty about mind and meaning).",
+    "Plausibility constructs replace certainty as the standard for cognitive-scientific claims: convergence provides trustworthiness, and multi-aptness or elegance provides profundity—a claim is profound when it illuminates many disparate phenomena from one insight.",
+    "Deepities are statements that are trivially true on one reading and profound on another but slide between the two—a form of bullshitting that mimics insight; motte-and-bailey is the related move of defending a radical claim by retreating to an obvious one.",
+    "Meaning must be distinguished as three projects: meaning-making (interpreting experience as coherent), meaning-finding (the discovery of significance that exists independently), and meaning-cultivation (developing the capacity for meaningful engagement).",
+    "Intelligence is the capacity for general problem-solving, and Newell and Simon's problem space model provides the first rigorous cognitive-scientific account of what intelligence does: navigate from initial state to goal state via operators within constraints.",
+    "The Naturalistic Imperative—explain the mind in non-mental terms, avoiding the Homuncular Fallacy—is the methodological discipline that makes cognitive science scientifically legitimate."
   ],
   "concepts": [
     {
-      "name": "synoptic integration",
-      "treatment": "introduced",
-      "summary": "A disciplinary approach that bridges different fields without reducing one to another, creating philosophical bridges across vocabularies to avoid equivocation and fragmentation."
-    },
-    {
-      "name": "equivocation",
+      "id": "bullshit",
       "treatment": "developed",
-      "summary": "The confusion of different meanings of the same word, preventing genuine understanding—the mechanism through which we unconsciously bullshit ourselves."
+      "summary": "Deepities and motte-and-bailey fallacies are developed as specific forms of bullshitting: deepities produce pseudo-profundity by equivocating between trivial and profound readings; motte-and-bailey defends radical claims by retreating to obvious ones."
     },
     {
-      "name": "plausibility",
+      "id": "relevance-realization",
       "treatment": "introduced",
-      "summary": "Not probability but reasonableness—a construct's quality of being worthy of serious consideration, requiring both convergent evidence and wide applicability."
+      "summary": "Newell and Simon's problem space model reveals the centrality of relevance realization: the combinatorial explosion of possible states means the agent must somehow zero in on relevant information—a problem no algorithm can fully solve."
     },
     {
-      "name": "convergence",
-      "treatment": "introduced",
-      "summary": "Evidence from multiple independent sources supporting the same construct, reducing the chance that bias in one source distorts the conclusion."
+      "id": "wisdom",
+      "treatment": "referenced",
+      "summary": "Meaning-cultivation is distinguished from mere meaning-making and meaning-finding: it points toward wisdom as the systematic development of the capacity for meaningful engagement—not a single insight but a cultivated disposition."
     },
     {
-      "name": "elegance",
-      "treatment": "introduced",
-      "summary": "The multi-aptness of a theoretical construct, its ability to bridge multiple domains and explain diverse phenomena from a unified perspective."
-    },
-    {
-      "name": "deepity",
-      "treatment": "introduced",
-      "summary": "A pseudo-profound statement that equivocates between a trivial and a profound meaning, allowing people to feel they've grasped something significant without actual understanding."
-    },
-    {
-      "name": "intelligence",
+      "id": "self-deception",
       "treatment": "developed",
-      "summary": "The capacity to be a general problem solver across diverse domains, making the study of problem-solving central to understanding cognition."
+      "summary": "The Naturalistic Imperative and the logic of plausibility constructs are presented as cognitive science's institutional psycho-technologies for overcoming self-deception in inquiry into mind and meaning."
+    },
+    {
+      "id": "psycho-technology",
+      "treatment": "developed",
+      "summary": "Cognitive science is itself a psycho-technology—an institutionalized set of practices for rigorous inquiry—and its subject matter includes the identification and evaluation of psycho-technologies for wisdom cultivation."
+    },
+    {
+      "id": "insight",
+      "treatment": "referenced",
+      "summary": "The problem space model leads directly to the problem of insight: since no algorithm can navigate the combinatorial explosion, insight—the capacity to reframe problems—becomes central to any adequate theory of intelligence."
     }
   ],
   "people": [
     {
-      "name": "John Vervaeke",
-      "role": "subject",
-      "summary": "Proposes cognitive science as the framework for understanding meaning-making machinery and developing responses to the meaning crisis grounded in science rather than ideology."
+      "id": "stanovich",
+      "role": "referenced",
+      "summary": "Stanovich's work on rationality and cognitive bias informs the discussion of how even scientists fall prey to heuristic self-deception—illustrating why the Naturalistic Imperative and convergence criteria are necessary."
     },
     {
-      "name": "Allen Newell",
+      "id": "socrates",
       "role": "referenced",
-      "summary": "Co-founder with Simon of the cognitive science of problem-solving, whose work on general problem solvers provides the foundation for understanding intelligence."
+      "summary": "Socrates is invoked as the historical exemplar of anti-self-deception inquiry: his elenctic method is a pre-scientific psycho-technology for exactly the kind of self-correction that cognitive science seeks to institutionalize."
     },
     {
-      "name": "Herbert Simon",
+      "id": "descartes",
       "role": "referenced",
-      "summary": "Co-founder of cognitive problem-solving research, whose formalization of problem spaces reveals the machinery of how we solve problems."
-    },
-    {
-      "name": "Daniel Dennett",
-      "role": "referenced",
-      "summary": "His concept of 'deepity' helps identify how we use language to appear profound while actually bullshitting ourselves about meaning."
-    },
-    {
-      "name": "Elijah Millgram",
-      "role": "referenced",
-      "summary": "His work on practical induction and the balance between convergence and elegance provides philosophical foundations for understanding plausibility."
+      "summary": "Descartes's project of seeking certainty is explicitly contrasted with the plausibility-construct methodology: cognitive science abandons the Cartesian demand for certainty in favor of convergent, multi-apt plausibility."
     }
   ],
   "crossRefs": [
     {
-      "episode": 27,
-      "context": "Problem formulation and relevance realization emerge as central to the cognitive machinery of meaning cultivation."
-    },
-    {
-      "episode": 28,
-      "context": "Relevance realization converges from multiple cognitive phenomena—categorization, communication, action—revealing it as the core of intelligence."
-    },
-    {
       "episode": 25,
-      "context": "Cognitive science offers an alternative to the pseudo-religious ideologies by understanding meaning-making as a natural phenomenon."
+      "context": "The need for a religion that is not a religion, diagnosed in episode 25, is now met with the first component of the response: cognitive science as synoptic integration providing naturalistic anti-self-deception machinery."
+    },
+    {
+      "episode": 27,
+      "context": "Newell and Simon's problem space model introduced here is developed in episode 27 into a full account of why intelligence requires relevance realization and how insight works."
+    },
+    {
+      "episode": 5,
+      "context": "The four kinds of knowing (propositional, procedural, perspectival, participatory) established early in the series are now placed within a cognitive-scientific framework that can analyze their relationships."
     }
   ],
-  "quotableMoments": [
-    {
-      "quote": "Both of these models: the mind of a blank slate is just overwhelmingly wrong! Way too much argument and evidence against it. And this model of the world as a blank slate that we merely express ourSelf onto is also wrong.",
-      "context": "Vervaeke rejecting both empiricism and pure Romanticism, pointing toward a more nuanced understanding of how mind and world interact."
-    },
-    {
-      "quote": "You're trying to make this machinery of the imagination carry all of the Neoplatonic weight that religion and tradition and philosophy and history carried. You try to make your romantic partner take the role of all of that. No person can bear that.",
-      "context": "How romantic love becomes impossible when asked to provide all the meaning that religion once provided."
-    },
-    {
-      "quote": "Love is only a four letter word... Love is just a four letter word, and when I'm equivocating, I'm not actually giving you any information about love as a thing!",
-      "context": "Example of a deepity showing how we use language to feel profound while avoiding genuine understanding."
-    }
-  ]
+  "quotableMoments": []
 }

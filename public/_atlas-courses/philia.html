@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Philia — Mini-course Review</title>
+<style>
+  :root {
+    --bg: #faf7f1; --surface: #ffffff; --elev: #f2ede0;
+    --ink: #1c1a17; --ink-soft: #3a3530; --muted: #6b6660;
+    --border: #e0d9c8; --accent: #8b3a3a; --gold: #b8893c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14120e; --surface:#1c1916; --elev:#25211c;
+      --ink:#ece6d6; --ink-soft:#b8b1a1; --muted:#8a8378;
+      --border:#2e2922; --accent:#d28a7e; --gold:#d4a85a; }
+  }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Inter", system-ui, sans-serif;
+    background: var(--bg); color: var(--ink); margin: 0; line-height: 1.6;
+    -webkit-font-smoothing: antialiased; }
+  .serif { font-family: "EB Garamond", Georgia, serif; }
+  header { padding: 2rem 2.5rem 1rem; border-bottom: 1px solid var(--border); }
+  .back-link { color: var(--muted); font-size: 0.8rem; text-decoration: none; }
+  .back-link:hover { color: var(--accent); }
+  .meta { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin: 0.6rem 0 0.3rem; }
+  h1 { font-family: "EB Garamond", Georgia, serif; font-size: 2.6rem; margin: 0; letter-spacing: -0.01em; font-weight: 500; }
+  .abstract {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.1rem; line-height: 1.65;
+    color: var(--ink-soft); margin: 1rem 0; max-width: 60rem;
+  }
+  .prereqs { font-size: 0.85rem; color: var(--muted); margin-top: 0.6rem; }
+  .prereqs a { color: var(--accent); text-decoration: none; }
+  .prereqs a:hover { text-decoration: underline; }
+  main { max-width: 60rem; margin: 0 auto; padding: 2rem 2.5rem 5rem; }
+  .module {
+    border-top: 1px solid var(--border); padding-top: 2rem; margin-top: 3rem;
+  }
+  .module:first-child { border-top: none; padding-top: 0; margin-top: 0; }
+  .module .num {
+    font-family: ui-monospace, monospace; font-size: 0.78rem;
+    background: var(--gold); color: var(--bg); padding: 0.2rem 0.6rem;
+    border-radius: 99px; display: inline-block; margin-bottom: 0.6rem;
+  }
+  .module h2 {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.9rem; margin: 0;
+    letter-spacing: -0.01em; font-weight: 500; line-height: 1.15;
+  }
+  .module .objective {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic;
+    color: var(--ink-soft); margin: 0.5rem 0 1rem;
+  }
+  section { margin: 1.6rem 0; }
+  section h3 {
+    font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em;
+    color: var(--muted); margin: 0 0 0.6rem;
+  }
+  .passage {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--gold);
+    padding: 0.8rem 1rem; margin: 0.5rem 0; border-radius: 4px;
+  }
+  .passage .src {
+    font-family: ui-monospace, monospace; font-size: 0.72rem;
+    color: var(--accent); margin-bottom: 0.3rem;
+  }
+  .passage .quote {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic;
+    color: var(--ink); font-size: 1rem; line-height: 1.55;
+  }
+  .passage .note { font-size: 0.78rem; color: var(--muted); margin-top: 0.4rem; }
+  .seed {
+    padding: 0.5rem 0; border-left: 2px solid var(--gold); padding-left: 1rem; margin: 0.5rem 0;
+  }
+  .seed .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic; color: var(--ink);
+  }
+  .seed .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.3rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .theme-pill {
+    background: var(--elev); padding: 0.15rem 0.55rem; border-radius: 99px;
+  }
+  .misc {
+    background: var(--elev); padding: 0.7rem 1rem; margin: 0.5rem 0; border-radius: 6px;
+    font-size: 0.9rem;
+  }
+  .misc .label { font-weight: 500; }
+  .misc .label.if { color: var(--ink); }
+  .misc .label.then { color: var(--accent); }
+  .check {
+    background: var(--elev); border: 2px solid var(--gold); padding: 1rem 1.2rem;
+    border-radius: 8px; margin-top: 0.6rem;
+  }
+  .check .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic; font-size: 1.1rem; color: var(--ink);
+  }
+  .check .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.5rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .toc {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    padding: 1rem 1.4rem; margin: 1.5rem 0;
+  }
+  .toc h3 { margin: 0 0 0.4rem; }
+  .toc ol { margin: 0; padding-left: 1.4rem; }
+  .toc li { margin: 0.2rem 0; font-size: 0.92rem; }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+  .approve-bar {
+    position: sticky; bottom: 0;
+    background: var(--bg); border-top: 1px solid var(--border);
+    padding: 0.8rem 2.5rem;
+    display: flex; gap: 0.6rem; justify-content: flex-end;
+  }
+  .btn {
+    padding: 0.55rem 1.2rem; border-radius: 6px; font-size: 0.9rem;
+    border: 1px solid var(--border); background: var(--surface); color: var(--ink-soft);
+    cursor: pointer; font-family: inherit;
+  }
+  .btn.primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+  .btn:hover { transform: translateY(-1px); }
+</style>
+</head><body>
+<header>
+  <a class="back-link" href="index.html">← All course reviews</a>
+  <div class="meta">Mini-course · 2 modules</div>
+  <h1>Philia</h1>
+  <p class="abstract">After this course, students will be able to articulate philia as the love of cooperative reciprocity — the love friends bear one another in shared pursuit of mutual development — and distinguish it clearly from eros (love of union through consummation) and agape (love that creates personhood in the beloved before reciprocity is possible). Students will understand why Pythagoras coined 'philo-sophia' (friendship-love of wisdom) rather than 'episteme-sophia' (knowledge of wisdom), what this reveals about philosophy's communal and aspirational character, and why the Epicureans identified friendship as the highest source of meaning. This concept anchors the series' treatment of love as a modal way of being rather than an emotion, and shows how distributed cognition in community is philosophically — not merely socially — essential.</p>
+  
+</header>
+<main>
+  <div class="toc">
+    <h3>Modules</h3>
+    <ol>
+      <li><a href="#m-philia-as-cooperative-reciprocity">Philia: The Love of Cooperative Reciprocity</a></li><li><a href="#m-philia-sophia">Philia-Sophia: Philosophy as Friendship with Wisdom</a></li>
+    </ol>
+  </div>
+  
+    <article class="module" id="m-philia-as-cooperative-reciprocity">
+      <span class="num">Module 1</span>
+      <h2>Philia: The Love of Cooperative Reciprocity</h2>
+      <p class="objective">Define philia as cooperative reciprocity and distinguish it from eros and agape through the structure of each love's orientation.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 15 · Marcus Aurelius and Jesus</div>
+            <div class="quote">&ldquo;So this is the love that is satisfied through consummation. Phylia. This is the love that seeks cooperation. This is the love in which we experienced reciprocity.&rdquo;</div>
+            <div class="note">Core definition — philia as cooperation and reciprocity, distinguished from eros (consummation) and agape (creative personhood-making).</div>
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 14 · Epicureans, Cynics, and Stoics</div>
+            <div class="quote">&ldquo;What is it that gives you the most meaning in life? And here's where the Epicureans have a beautiful answer and they pick it up from Socrates: &quot;The thing that gives you meaning is friendship&quot;.&rdquo;</div>
+            <div class="note">The Epicurean elevation of philia (friendship) as the primary source of meaning.</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke introduces three kinds of love: eros, philia, and agape. Each has a different orienting structure. What is the difference between love that seeks to be one-with, love that seeks cooperation, and love that creates personhood?</div>
+            <div class="themes"><span class="theme-pill">eros as consummation/union</span><span class="theme-pill">philia as mutual development through cooperation</span><span class="theme-pill">agape as creative one-way gifting</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">In Episode 15, Vervaeke says love is not a feeling or an emotion but 'a modal way of being, an Agent-Arena relationship.' How does philia exemplify this claim?</div>
+            <div class="themes"><span class="theme-pill">philia as mode of engagement not affective state</span><span class="theme-pill">friend relationship structures the arena</span><span class="theme-pill">modal orientation not fluctuating emotion</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">The Epicureans argued that friendship is the highest source of meaning — above pleasure, above power, above wealth. What is their argument, and does Vervaeke endorse it?</div>
+            <div class="themes"><span class="theme-pill">friendship affords mutual development</span><span class="theme-pill">reciprocity sustains meaning over time</span><span class="theme-pill">friendship enables wisdom-cultivation</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Philia is earned through cooperation and reciprocity, unlike agape which is given before the beloved earns anything. What does this difference reveal about the distinct contributions each kind of love makes to a full human life?</div>
+            <div class="themes"><span class="theme-pill">philia presupposes mutual capacity</span><span class="theme-pill">agape creates the capacity for philia</span><span class="theme-pill">both needed at different developmental moments</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Philia is a lesser form of love than agape or eros — just ordinary friendship.</div>
+              <div><span class="label then">Then:</span> Vervaeke treats philia as neither inferior nor superior to eros or agape — all three are needed. The Epicureans identified philia as the primary source of existential meaning, and Pythagoras used it to name the enterprise of pursuing wisdom itself.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Philia is simply casual liking or social familiarity.</div>
+              <div><span class="label then">Then:</span> Philia in Vervaeke's usage is a robust cooperative bond involving mutual development, reciprocity, and shared pursuit over time. It requires that both parties are already sufficiently persons to give and receive — unlike agape, which constitutes personhood in those who lack it.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">Imagine three relationships: one in which you deeply admire and want to merge with another person (eros), one in which you and a colleague are building something together over many years in reciprocal challenge and support (philia), and one in which you care for a child who cannot yet reciprocate (agape). How does each kind of love structure the Agent-Arena relationship differently?</div>
+          <div class="themes"><span class="theme-pill">eros: union as goal shapes arena as consummable</span><span class="theme-pill">philia: collaboration shapes arena as shared project</span><span class="theme-pill">agape: gift shapes arena as transformation of non-person</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-philia-sophia">
+      <span class="num">Module 2</span>
+      <h2>Philia-Sophia: Philosophy as Friendship with Wisdom</h2>
+      <p class="objective">Explain why Pythagoras used philia rather than any other word to name philosophy, and what this reveals about the communal, aspirational, and non-competitive character of genuine philosophical practice.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 4 · Socrates and the Quest for Wisdom</div>
+            <div class="quote">&ldquo;Pythagoras actually invents the word &quot;Philosophy&quot;. It comes from two Greek words: &quot;Philia&quot; and &quot;Sophia&quot;.&rdquo;</div>
+            <div class="note">The etymological founding of philosophy — friendship-love of wisdom, not possession or victory.</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Pythagoras named the pursuit of wisdom 'philo-sophia' — friendship-love of wisdom — rather than 'episteme-sophia' (knowledge of wisdom). What does the choice of philia signal about what the pursuit of wisdom is?</div>
+            <div class="themes"><span class="theme-pill">aspiration not possession</span><span class="theme-pill">cooperative not competitive</span><span class="theme-pill">community not solitary acquisition</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke contrasts philia-sophia (friendship-love of wisdom) with philia-nikia (love of victory). How does the distinction show up in different practices of argument and dialogue?</div>
+            <div class="themes"><span class="theme-pill">love of victory seeks to defeat opponent</span><span class="theme-pill">love of wisdom seeks to transform both parties</span><span class="theme-pill">Socratic method vs sophistic debate</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">When Pythagoras formed a community around the pursuit of wisdom, he was proposing that philosophy requires distributed cognition — networked minds cooperating. How does philia (cooperative reciprocity) make distributed cognition possible?</div>
+            <div class="themes"><span class="theme-pill">philia creates trust enabling cooperative thinking</span><span class="theme-pill">mutual development requires ongoing relationship</span><span class="theme-pill">wisdom cannot be possessed alone</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke says that academic philosophy today has largely collapsed into philia-nikia — love of victory. What is the practical cost of that collapse for the cultivation of wisdom?</div>
+            <div class="themes"><span class="theme-pill">competition prevents transformation</span><span class="theme-pill">winning replaces growing</span><span class="theme-pill">loses the being-mode dimension of philosophical practice</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Philosophy is fundamentally a solitary activity — thinking carefully alone.</div>
+              <div><span class="label then">Then:</span> Vervaeke recovers Pythagoras's original meaning: philosophy is philia-sophia — a communal friendship in pursuit of wisdom. The philosophical community provides distributed cognition that no single mind can replicate, and the cooperative relationship is not incidental but constitutive.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Loving wisdom means possessing correct answers.</div>
+              <div><span class="label then">Then:</span> Philia is aspirational, not possessive. The philosopher is defined by the ongoing friendship-orientation toward wisdom, not by having achieved it — which is why Socrates's constant profession of ignorance is philosophically correct, not false modesty.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">How does Vervaeke's account of philia-sophia suggest a different model for what a university philosophy department or a therapeutic community should look like, compared to the competitive-debate model that dominates much academic discourse?</div>
+          <div class="themes"><span class="theme-pill">cooperative not adversarial</span><span class="theme-pill">mutual transformation as goal</span><span class="theme-pill">friendship creates conditions for wisdom not just knowledge transfer</span></div>
+        </div>
+      </section>
+    </article>
+  
+</main>
+<div class="approve-bar">
+  <button class="btn">Request changes</button>
+  <button class="btn primary">Approve for shipping</button>
+</div>
+</body></html>

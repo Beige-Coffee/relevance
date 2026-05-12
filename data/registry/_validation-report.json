@@ -1,0 +1,47 @@
+{
+  "summary": {
+    "errors": 0,
+    "warnings": 5,
+    "infos": 0,
+    "concepts": 105,
+    "people": 94,
+    "metadata": 51
+  },
+  "issues": [
+    {
+      "severity": "warning",
+      "category": "Quote not verbatim",
+      "where": "ep-11 quotableMoments[0]",
+      "message": "quote not found in transcript",
+      "detail": "reliably what is characteristic of these states is that people find them to be really real and and in both directions: Arena and Agent."
+    },
+    {
+      "severity": "warning",
+      "category": "Quote not verbatim",
+      "where": "ep-12 quotableMoments[0]",
+      "message": "quote not found in transcript",
+      "detail": "an altered state of consciousness is not a... It's not an insight in consciousness it's an insight of consciousness."
+    },
+    {
+      "severity": "warning",
+      "category": "Quote not verbatim",
+      "where": "ep-19 quotableMoments[0]",
+      "message": "quote not found in transcript",
+      "detail": "All of this was integrated together. These three orders that articulate the space of how we're connected to ourselves, to each other and to the world. The normal logical, the normative and the narrati"
+    },
+    {
+      "severity": "warning",
+      "category": "Quote not verbatim",
+      "where": "ep-40 quotableMoments[0]",
+      "message": "quote not found in transcript",
+      "detail": "Rationality means any systematically reliable internalized psychotechnology that reliably and systematically affords you overcoming self-deception and affords you cultivating enhanced connectedness, e"
+    },
+    {
+      "severity": "warning",
+      "category": "Quote not verbatim",
+      "where": "course wisdom.modules[3].expositionPassages[2]",
+      "message": "phrase not found in ep 45",
+      "detail": "aspiration also probably has an affective component to it. And I suggested that wonder — and we saw how central wonder is to the cultivation of wisdom — that wonder is the affective state that's most "
+    }
+  ]
+}

@@ -2,115 +2,110 @@
   "num": 9,
   "slug": "insight",
   "title": "Insight",
-  "essence": "This episode provides a comprehensive theory of insight through attentional structure and the integration of meditation (scaling down) and contemplation (scaling up). Vervaeke introduces Michael Polanyi's framework showing that attention operates through layered from-to structures: focal awareness of objects through subsidiary awareness of instruments (probe through fingers through feelings). Both axes—transparency-opacity (stepping back from) and feature-gestalt (breaking down versus integrating)—operate dynamically to optimize cognition. The nine-dot problem exemplifies how insight requires breaking inappropriate frames (scaling down) and finding novel patterns (scaling up). However, both extremes create problems: pure scaling down causes choking, pure scaling up causes fixation. Optimal insight requires training flexibility to flow between both, called 'opponent processing.' Different mystical states result: the pure consciousness event (extreme scaling down), resonant at-onement (extreme scaling up), and non-duality (balanced oscillation). This third state, achieved through practices like alternating meditation and contemplation, generates systematic insight into existential modes themselves. This culminates in enlightenment and quantum change—radical life transformation following mystical experience. The episode establishes that meaning and awakening are intimately connected through improved capacity for insight and the recovery of authentic existential modes.",
+  "essence": "Vervaeke investigates insight as the cognitive mechanism underlying the transformative experiences at the heart of all the wisdom traditions examined so far. The framework is Michael Polanyi's from-to structure: all knowing involves attending from something transparent (the proximal pole) to something focal (the distal pole). This structure has a scaling dimension — attention can move between gestalt and feature, whole and part. Insight is a radical reorganization of this scaling: what was transparent becomes opaque, figure becomes ground, and a new gestalt suddenly appears. This unifies the Buddhist attentional scaling of episode 8 and Platonic anagoge as different instances of from-to restructuring. Vervaeke then scales upward to higher states of consciousness (HSC) — a subset of altered states felt as more real than ordinary waking life. These include pure consciousness events, resonant at-onement, and non-dual states. Quantum change experiences — studied by Anderson-Todd, Yaden, and Kim — show that insight can reorganize an entire life's meaning structure in a single event. Mystical experience is thus cognitively continuous with ordinary problem-solving insight: both are reorganizations of the from-to structure, differing in scope — the mystical scales to encompass the entire agent-arena relationship.",
   "keyClaims": [
-    "Attention operates through layered focal-subsidiary and feature-gestalt structures, not as a spotlight",
-    "Insight requires both breaking frames (scaling down) and finding novel patterns (scaling up)",
-    "Optimal insight develops through opponent processing: training flexibility to oscillate between both",
-    "Three distinct mystical states correspond to scaling extremes: pure consciousness, resonant at-onement, and non-duality",
-    "Enlightenment and quantum change generate systematic insight into existential modes and existential being"
+    "Polanyi's from-to structure governs all knowing: you attend from proximal, transparent elements to distal focal targets — and this structure has a scaling dimension.",
+    "Insight is a radical reorganization of the from-to structure: what was transparent becomes opaque, what was figure becomes ground, and a new gestalt is suddenly apparent.",
+    "Higher states of consciousness are a subset of altered states felt as more real than ordinary waking life — they are experiences of a deeper contact with reality, not less.",
+    "Quantum change — a sudden, permanent restructuring of an entire life's meaning organization — demonstrates that insight can operate at the level of the whole agent-arena relationship.",
+    "Mystical experience is cognitively continuous with ordinary insight: it is the from-to structure scaled up to encompass the entirety of the agent-arena relationship."
   ],
   "concepts": [
     {
-      "name": "insight",
+      "id": "insight",
       "treatment": "developed",
-      "summary": "Sudden restructuring of understanding through integration of previously disconnected patterns."
+      "summary": "Analyzed as a radical reorganization of Polanyi's from-to structure — transparency-opacity reversal that generates a new gestalt. The cognitive mechanism underlying wisdom-tradition transformation."
     },
     {
-      "name": "attention",
+      "id": "attention",
       "treatment": "developed",
-      "summary": "Complex optimization process operating through layered focal-subsidiary and feature-gestalt dynamics."
+      "summary": "The from-to structure analyzed as attentional scaling — the dynamic movement between gestalt and feature, transparency and opacity. Deepens the attentional analysis from episode 8."
     },
     {
-      "name": "scaling down",
-      "treatment": "introduced",
-      "summary": "Attentional movement toward mind's center, breaking gestalts into features and de-automatizing cognition."
+      "id": "altered-states-of-consciousness",
+      "treatment": "developed",
+      "summary": "Examined as a spectrum; not all ASCs are cognitively or spiritually significant. Higher states of consciousness are the significant subset — felt as more real than ordinary waking life."
     },
     {
-      "name": "scaling up",
+      "id": "higher-states-of-consciousness",
       "treatment": "introduced",
-      "summary": "Attentional movement outward and upward, integrating features into wider patterns and gestalts."
+      "summary": "A subset of ASCs felt as more real than ordinary waking life — including pure consciousness events, resonant at-onement, and non-dual states. Cognitively significant, not merely pleasant."
     },
     {
-      "name": "opponent processing",
-      "treatment": "introduced",
-      "summary": "Training flexible oscillation between opposing processes for optimal engagement and problem-solving."
+      "id": "consciousness",
+      "treatment": "developed",
+      "summary": "The structure of consciousness analyzed via the from-to framework: consciousness is always consciousness of something via something — the from-to structure is constitutive of experience."
     },
     {
-      "name": "pure consciousness event",
+      "id": "transframing",
       "treatment": "introduced",
-      "summary": "Mystical state of consciousness without content, achieved through extreme scaling down."
+      "summary": "The radical restructuring of the entire frame through which experience is organized — the cognitive description of what mystical insight and quantum change accomplish."
     },
     {
-      "name": "resonant at onement",
-      "treatment": "introduced",
-      "summary": "Mystical state of flowing unity with all things, achieved through extreme scaling up."
+      "id": "anagoge",
+      "treatment": "applied",
+      "summary": "Platonic anagoge reread through the from-to framework: the ascent is a progressive scaling of what one attends from, culminating in the Good as the transparency behind all experience."
     },
     {
-      "name": "non duality",
-      "treatment": "introduced",
-      "summary": "Mystical state uniting pure consciousness and resonant at-onement, generating comprehensive insight."
+      "id": "mindfulness",
+      "treatment": "applied",
+      "summary": "Buddhist attentional scaling connected to Polanyi's from-to structure: sati as the practice of dynamically managing the transparency-opacity dimension of attention."
     },
     {
-      "name": "quantum change",
-      "treatment": "introduced",
-      "summary": "Radical life transformation following mystical experience and insight."
-    },
-    {
-      "name": "enlightenment",
-      "treatment": "introduced",
-      "summary": "Complete awakening characterized by integrated insight into being and agency."
+      "id": "flow",
+      "treatment": "applied",
+      "summary": "Flow state connected to the from-to structure: in flow, the entire action-environment complex becomes transparent and one attends from it to the task itself — maximum efficiency."
     }
   ],
   "people": [
     {
-      "name": "Michael Polanyi",
+      "id": "polanyi",
       "role": "discussed",
-      "summary": "Philosopher who developed theory of focal and subsidiary awareness in attention."
+      "summary": "Michael Polanyi's from-to structure of knowing — the tacit dimension, transparency-opacity, proximal-distal — is the episode's central theoretical framework."
     },
     {
-      "name": "Ellen Langer",
+      "id": "christopher-mole",
       "role": "discussed",
-      "summary": "Psychologist who studied soft vigilance as alternative to concentrated attention."
+      "summary": "Christopher Mole's attention scholarship (registry ID: christopher-mole) referenced in the analysis of attentional scaling and the from-to structure."
     },
     {
-      "name": "Christopher Mole",
-      "role": "discussed",
-      "summary": "Philosopher of attention who explained attention as optimization of other processes."
-    },
-    {
-      "name": "Sebastian Watzl",
+      "id": "anderson-todd",
       "role": "referenced",
-      "summary": "Cognitive scientist studying prioritization in attention."
+      "summary": "Anderson-Todd's research on quantum change experiences cited as empirical evidence for sudden, permanent restructuring of the entire meaning system."
     },
     {
-      "name": "Siddhartha Gautama",
+      "id": "juensung-kim",
       "role": "referenced",
-      "summary": "The Buddha whose enlightenment exemplifies non-dual consciousness."
+      "summary": "Juensung Kim's work on transformative experience referenced alongside Anderson-Todd and Yaden in the context of quantum change research."
+    },
+    {
+      "id": "yaden",
+      "role": "referenced",
+      "summary": "David Yaden's research on self-transcendent experiences and their relationship to meaning referenced in the quantum change discussion."
+    },
+    {
+      "id": "siddhartha-gautama",
+      "role": "referenced",
+      "summary": "The Buddha's enlightenment reread as a maximal instance of quantum change — a complete reorganization of the agent-arena relationship through insight."
     }
   ],
   "crossRefs": [
     {
       "episode": 8,
-      "context": "Builds on mindfulness and attentional training from episode 8"
+      "context": "Attentional scaling introduced in episode 8 as mindfulness now receives its theoretical grounding in Polanyi's from-to structure."
     },
     {
-      "episode": null,
-      "context": "Will continue exploration of consciousness and enlightenment in future episodes"
+      "episode": 5,
+      "context": "Platonic anagoge reread through the from-to framework: the ascent toward the Good as progressive scaling of what one attends from."
+    },
+    {
+      "episode": 1,
+      "context": "Shamanic altered states of consciousness connect to the higher states of consciousness analyzed here — both involve systematic scaling of the from-to structure beyond ordinary parameters."
+    },
+    {
+      "episode": 2,
+      "context": "Flow state from episode 2 connected to the from-to structure: in flow, the entire action-environment complex becomes maximally transparent."
     }
   ],
-  "quotableMoments": [
-    {
-      "quote": "Notice that the feature list does not have the idos, and by not having the idos, or not looking for the idos, it's not asking any of these questions. These causal and constitutive questions.",
-      "context": "Explaining why feature lists miss the structural-functional organization needed for real understanding"
-    },
-    {
-      "quote": "I am awake. That's how he gets his title. He moves from talking about an identity he could have to a fundamental way of being – 'I am awake'.",
-      "context": "Explaining how Siddhartha's enlightenment represents fundamental transformation of being"
-    },
-    {
-      "quote": "There's a deep connection between how often you flow and how meaningful you find your life. That is also more radically the case for these states.",
-      "context": "Connecting mystical experience to meaning in life"
-    }
-  ]
+  "quotableMoments": []
 }

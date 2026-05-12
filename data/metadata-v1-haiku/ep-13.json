@@ -1,0 +1,100 @@
+{
+  "num": 13,
+  "slug": "buddhism-parasitic-processing",
+  "title": "Buddhism and Parasitic Processing",
+  "essence": "Vervaeke interprets the Four Noble Truths not as propositions to believe but as provocations to enact, reframing them as the Four Ennobling Provocations. He traces a cognitive scientific account of dukkha—not as pain but as loss of agency through self-deceptive, self-destructive loops. Using probabilistic heuristics and encoding specificity, he shows how bad events trigger spiral into parasitic processing: negative interpretations create anxiety, anxiety narrows cognitive flexibility, reduced flexibility impairs problem-solving, failure increases anxiety—a vicious cycle. Crucially, this isn't just individual psychology but a dynamical system where attempted interventions get absorbed by the very machinery causing the problem. Marc Lewis's model of reciprocal narrowing mirrors this: as cognitive flexibility contracts, life options narrow, and agency spirals down. The Eightfold Path offers a counter-active dynamical system that intervenes simultaneously across multiple levels—ethical, existential, and sapiential—to create reciprocal opening toward anagogic awakening. The episode demonstrates how Buddhist psychology anticipates modern complexity science and offers practical psychotechnologies for transformation.",
+  "keyClaims": [
+    "Dukkha means existential threat to freedom and agency through self-deceptive self-destructive processing, not merely pain or suffering.",
+    "Parasitic processing emerges from the very adaptive mechanisms that enable intelligence—heuristics, encoding specificity, and confirmation bias—becoming self-reinforcing when triggered by negative events.",
+    "Attempted single-point interventions fail because parasitic processing is a complex dynamical system that reorganizes around attempted fixes.",
+    "The Eightfold Path is a counter-active dynamical system intervening simultaneously across cognition, character, and consciousness.",
+    "Buddhist practice doesn't provide new beliefs but cultivates existential transformation through systematic de-automation and counter-processing."
+  ],
+  "concepts": [
+    {
+      "name": "dukkha",
+      "treatment": "developed",
+      "summary": "The fundamental existential threat to freedom and agency through self-destructive cognitive spirals, not reducible to pain."
+    },
+    {
+      "name": "parasitic processing",
+      "treatment": "developed",
+      "summary": "Self-reinforcing negative feedback loops where adaptive mechanisms become pathological, fragmenting agency and meaning."
+    },
+    {
+      "name": "reciprocal narrowing",
+      "treatment": "introduced",
+      "summary": "The dynamic where cognitive flexibility loss causes world options to contract, further reducing agency in a downward spiral."
+    },
+    {
+      "name": "encoding specificity",
+      "treatment": "introduced",
+      "summary": "The phenomenon where memories are more accessible in states similar to when they were encoded, enabling parasitic processing loops."
+    },
+    {
+      "name": "confirmation bias",
+      "treatment": "introduced",
+      "summary": "The tendency to seek information confirming current beliefs, which can trap consciousness in parasitic processing spirals."
+    },
+    {
+      "name": "heuristics",
+      "treatment": "introduced",
+      "summary": "Adaptive cognitive shortcuts that enable rapid decision-making but can systematically mislead in certain contexts."
+    },
+    {
+      "name": "anagoge",
+      "treatment": "applied",
+      "summary": "The countermovement to parasitic processing—reciprocal opening toward greater integration, freedom, and authentic being."
+    },
+    {
+      "name": "sati",
+      "treatment": "referenced",
+      "summary": "Remembrance or mindfulness that enables awareness of being mode and recognition of self-deceptive patterns."
+    }
+  ],
+  "people": [
+    {
+      "name": "Stephen Batchelor",
+      "role": "discussed",
+      "summary": "Buddhist scholar who argues for understanding Buddhism existentially rather than as belief system, influencing Vervaeke's reinterpretation."
+    },
+    {
+      "name": "Marc Lewis",
+      "role": "discussed",
+      "summary": "Neuroscientist whose model of reciprocal narrowing in addiction illuminates the structure of dukkha and parasitic processing."
+    },
+    {
+      "name": "Leo Ferraro",
+      "role": "discussed",
+      "summary": "Collaborator on cognitive modeling of parasitic processing in Buddhist psychology."
+    }
+  ],
+  "crossRefs": [
+    {
+      "episode": 10,
+      "context": "The machinery of attention and salience from episode 10 becomes pathological in parasitic processing."
+    },
+    {
+      "episode": 12,
+      "context": "The cognitive science framework from episode 12 is applied to understand Buddhist psychological insights."
+    },
+    {
+      "episode": 14,
+      "context": "The Buddhist response to existential suffering parallels and contrasts with Stoic and Epicurean approaches in the West."
+    }
+  ],
+  "quotableMoments": [
+    {
+      "quote": "Dukkha is not just pain. This is why the Buddha doesn't describe enlightenment in terms of relief. Instead he would say... no matter where you dip into my teaching, it has one taste: the taste of freedom.",
+      "context": "Reframing dukkha from pain to loss of agency and freedom as the core Buddhist insight."
+    },
+    {
+      "quote": "All of this is endemic. This is the Agent:Arena relationship! You can't do away with this. This is indispensable to you being a person.",
+      "context": "Explaining why parasitic processing cannot be escaped through denial or individual willpower alone."
+    },
+    {
+      "quote": "You cultivate a dynamical system that doesn't intervene just here or there, one at a time... but simultaneously and in a coordinated fashion.",
+      "context": "Explaining why the Eightfold Path's integrated approach succeeds where piecemeal interventions fail."
+    }
+  ]
+}

@@ -1,45 +1,76 @@
 {
   "num": 33,
   "slug": "spirituality-of-rr-wonder-awe",
-  "title": "The Spirituality of RR: Wonder/Awe/Mystery/Sacredness",
-  "essence": "Transitioning from machinery to phenomenology, Vervaeke argues that the relevance realization apparatus itself, when experienced transparently, constitutes spirituality. Wonder and awe emerge not from external objects but from encountering the mystery of the machinery grounding all knowing—the framing process that can never be framed. Drawing on Costa's 'secular wonder' and Fuller's work on awe as sensibility transcendence, he establishes that spirituality involves participation in and awareness of the primordial processes (religio) that make meaning possible. Mystery here is not theoretical inexplicability but phenomenological unavailability of the framing itself. Sacredness emerges from two opponent poles: Geertz's meta-meaning system protecting against domicide (horror of meaninglessness) and Otto's numinous—the transgressive wonder that takes us to the horizon of intelligibility itself. Together these constitute the experience of sacredness as deep engagement with relevance realization.",
+  "title": "The Spirituality of RR: Wonder, Awe, and the Sacred",
+  "essence": "Episode 33 makes the decisive move from cognitive science to spirituality by arguing that religio — a term Vervaeke now introduces as the name for the spiritual dimension of relevance realization — is not a mere add-on to cognition but its natural culmination. Religio names the higher-order relevance realization by which the organism becomes sensitive not to this or that feature of the environment, but to the very conditions and ground of its own meaning-making. This is experienced not as focal perception but as non-focal disclosure: the felt sense that something of inexhaustible depth is being touched, which manifests in the three characteristic modes of wonder, awe, and mystery. Wonder is the disclosure of inexhaustibility in what is positive and generative; awe blends admiration with a sense of being diminished before something larger; mystery is the sense that one can never fully capture what is being disclosed. Drawing on Geertz's analysis of religion as a meta-meaning frame and Schleiermacher's theology of feeling, Vervaeke situates these experiences within the broader ecology of worldview attunement: religio is what sustains and renews the worldview, preventing it from collapsing into mere habit or ideology. The episode ends with a preview of Otto's numinous as the next conceptual tool for understanding how sacredness generates both attraction and terror.",
   "keyClaims": [
-    "Spirituality is fundamentally about experiencing connectedness to religio—the primordial machinery of meaning-making itself.",
-    "Wonder and awe are states in which we become perspectivally-participatorily aware of the significance of relevance realization.",
-    "Mystery is phenomenologically irreducible: the framing process can never be made a focal object without creating another frame.",
-    "Sacredness has two opponent aspects: worldview attunement (meta-assimilation protecting against absurdity) and the numinous (meta-accommodation opening to transgression).",
-    "Religio is fundamentally pre-conceptual, pre-propositional, pre-inferential—grounding all subsequent knowing."
+    "Religio is higher-order RR: the organism's sensitivity to the very ground and conditions of its own meaning-making.",
+    "Wonder, awe, and mystery are the characteristic non-focal modes of religio — they disclose inexhaustibility rather than content.",
+    "Religion, in Geertz's sense, provides the meta-meaning frame within which all other meanings take their significance — and religio is the cognitive machinery behind this.",
+    "Schleiermacher's absolute dependence points to the same structural feature as religio: the organism's participatory relation to what it cannot fully represent.",
+    "Otto's numinous — introduced at the episode's close — will illuminate why religio generates both fascination and horror."
   ],
   "concepts": [
-    {"name": "religio", "treatment": "introduced", "summary": "The binding-together of agent and arena through relevance realization; the machinery and experience of connectivity itself."},
-    {"name": "wonder", "treatment": "introduced", "summary": "Non-focal, participatory state of opening to the inexhaustibility of reality; being mode."},
-    {"name": "awe", "treatment": "introduced", "summary": "Wonder bordering on horror; opening up to mysteries while recognizing limits; combines fascination with humility."},
-    {"name": "mystery", "treatment": "developed", "summary": "Phenomenological irreducibility of the framing process; not theoretical inexplicability but perspectival unavailability."},
-    {"name": "sacredness", "treatment": "introduced", "summary": "Experience of the machinery of relevance realization; meta-assimilation (homecoming) and meta-accommodation (transgression)."},
-    {"name": "numinous", "treatment": "introduced", "summary": "Aspect of sacredness involving fascination and horror; experience of reality's ultimate inadequacy to frames."},
-    {"name": "theosis", "treatment": "referenced", "summary": "Transformation into God's likeness; parallels participatory knowing in religio."},
-    {"name": "anagoge", "treatment": "referenced", "summary": "Spiritual elevation and transformation; relates to sensibility transcendence in experiencing sacredness."},
-    {"name": "da'ath", "treatment": "referenced", "summary": "Hebrew mystical term; intimate experiential knowing akin to participatory knowing of religio."},
-    {"name": "sati", "treatment": "referenced", "summary": "Buddhist mindfulness; remembering being-mode as opposed to having-mode cognition."}
+    {
+      "id": "religio",
+      "treatment": "introduced"
+    },
+    {
+      "id": "relevance-realization",
+      "treatment": "applied"
+    },
+    {
+      "id": "the-sacred",
+      "treatment": "referenced"
+    },
+    {
+      "id": "worldview-attunement",
+      "treatment": "developed"
+    },
+    {
+      "id": "participatory-knowing",
+      "treatment": "applied"
+    },
+    {
+      "id": "altered-states-of-consciousness",
+      "treatment": "referenced"
+    },
+    {
+      "id": "having-mode-being-mode",
+      "treatment": "referenced"
+    }
   ],
   "people": [
-    {"name": "Paolo Costa", "role": "discussed", "summary": "On 'secular wonder' and the atmospheric bubble of significance that grounds meaning."},
-    {"name": "Robert Fuller", "role": "discussed", "summary": "On wonder as emotion-to-spirituality transition; being mode vs. having mode curiosity."},
-    {"name": "Clifford Geertz", "role": "referenced", "summary": "On religion's meta-meaning function protecting against domicide; meta-assimilation aspect of sacredness."},
-    {"name": "Rudolf Otto", "role": "referenced", "summary": "On the numinous as core of holiness; fascination and horror as polarities of sacredness."},
-    {"name": "Gabriel Marcel", "role": "referenced", "summary": "On mystery and sensibility transcendence; transframing as trajectory of opening."},
-    {"name": "William James", "role": "referenced", "summary": "On I-me distinction; the 'I' can never be captured as focal object, only known subsidiarily."},
-    {"name": "Heidegger", "role": "referenced", "summary": "On primordiality of being-in-the-world and foundational caring; influences understanding of religio."},
-    {"name": "Huston Smith", "role": "referenced", "summary": "Perennial philosophy perspective on shared spiritual themes across traditions."}
+    {
+      "id": "schleiermacher",
+      "role": "discussed"
+    },
+    {
+      "id": "geertz",
+      "role": "discussed"
+    },
+    {
+      "id": "otto",
+      "role": "introduced"
+    }
   ],
   "crossRefs": [
-    {"episode": 32, "context": "Previous episode on consciousness and salience landscaping; this explores its experiential spiritual dimensions."},
-    {"episode": 34, "context": "Next episode develops numinous and horror, symbol, and sacredness further."},
-    {"episode": 10, "context": "Earlier episode on existentialism; Heideggerian themes developed here."}
+    {
+      "episode": 32,
+      "reason": "Consciousness-as-RR grounds the move to religio as higher-order RR"
+    },
+    {
+      "episode": 34,
+      "reason": "Otto's numinous — previewed here — becomes the main topic"
+    },
+    {
+      "episode": 35,
+      "reason": "The sacred as transjective inexhaustibleness develops the religio analysis"
+    },
+    {
+      "episode": 36,
+      "reason": "Religio integrates with mythos and perennial problems"
+    }
   ],
-  "quotableMoments": [
-    {"quote": "I'm always aware through my 'I' of my 'me'. I'm always aware through my framing of my framed. I cannot focalise it. I can not make it a focal object. The machinery of Relevance Realization is deeply phenomenologically mysterious.", "context": "On the irreducibility of the framing process and mystery at the heart of knowing."},
-    {"quote": "Wonder is about remembering Sati, your Being, by putting you deeply in touch with Religio.", "context": "Connection between wonder, being-mode, and religio."},
-    {"quote": "There is a deep, non-logical identity, a deep symbolic resonance between the inexhaustibleness of Reality and the inexhaustibleness of Relevance Realization.", "context": "On the sacred as inexhaustible coupling of reality and meaning-making."}
-  ]
+  "quotableMoments": []
 }

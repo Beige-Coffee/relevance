@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Eros — Mini-course Review</title>
+<style>
+  :root {
+    --bg: #faf7f1; --surface: #ffffff; --elev: #f2ede0;
+    --ink: #1c1a17; --ink-soft: #3a3530; --muted: #6b6660;
+    --border: #e0d9c8; --accent: #8b3a3a; --gold: #b8893c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14120e; --surface:#1c1916; --elev:#25211c;
+      --ink:#ece6d6; --ink-soft:#b8b1a1; --muted:#8a8378;
+      --border:#2e2922; --accent:#d28a7e; --gold:#d4a85a; }
+  }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Inter", system-ui, sans-serif;
+    background: var(--bg); color: var(--ink); margin: 0; line-height: 1.6;
+    -webkit-font-smoothing: antialiased; }
+  .serif { font-family: "EB Garamond", Georgia, serif; }
+  header { padding: 2rem 2.5rem 1rem; border-bottom: 1px solid var(--border); }
+  .back-link { color: var(--muted); font-size: 0.8rem; text-decoration: none; }
+  .back-link:hover { color: var(--accent); }
+  .meta { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin: 0.6rem 0 0.3rem; }
+  h1 { font-family: "EB Garamond", Georgia, serif; font-size: 2.6rem; margin: 0; letter-spacing: -0.01em; font-weight: 500; }
+  .abstract {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.1rem; line-height: 1.65;
+    color: var(--ink-soft); margin: 1rem 0; max-width: 60rem;
+  }
+  .prereqs { font-size: 0.85rem; color: var(--muted); margin-top: 0.6rem; }
+  .prereqs a { color: var(--accent); text-decoration: none; }
+  .prereqs a:hover { text-decoration: underline; }
+  main { max-width: 60rem; margin: 0 auto; padding: 2rem 2.5rem 5rem; }
+  .module {
+    border-top: 1px solid var(--border); padding-top: 2rem; margin-top: 3rem;
+  }
+  .module:first-child { border-top: none; padding-top: 0; margin-top: 0; }
+  .module .num {
+    font-family: ui-monospace, monospace; font-size: 0.78rem;
+    background: var(--gold); color: var(--bg); padding: 0.2rem 0.6rem;
+    border-radius: 99px; display: inline-block; margin-bottom: 0.6rem;
+  }
+  .module h2 {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.9rem; margin: 0;
+    letter-spacing: -0.01em; font-weight: 500; line-height: 1.15;
+  }
+  .module .objective {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic;
+    color: var(--ink-soft); margin: 0.5rem 0 1rem;
+  }
+  section { margin: 1.6rem 0; }
+  section h3 {
+    font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em;
+    color: var(--muted); margin: 0 0 0.6rem;
+  }
+  .passage {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--gold);
+    padding: 0.8rem 1rem; margin: 0.5rem 0; border-radius: 4px;
+  }
+  .passage .src {
+    font-family: ui-monospace, monospace; font-size: 0.72rem;
+    color: var(--accent); margin-bottom: 0.3rem;
+  }
+  .passage .quote {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic;
+    color: var(--ink); font-size: 1rem; line-height: 1.55;
+  }
+  .passage .note { font-size: 0.78rem; color: var(--muted); margin-top: 0.4rem; }
+  .seed {
+    padding: 0.5rem 0; border-left: 2px solid var(--gold); padding-left: 1rem; margin: 0.5rem 0;
+  }
+  .seed .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic; color: var(--ink);
+  }
+  .seed .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.3rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .theme-pill {
+    background: var(--elev); padding: 0.15rem 0.55rem; border-radius: 99px;
+  }
+  .misc {
+    background: var(--elev); padding: 0.7rem 1rem; margin: 0.5rem 0; border-radius: 6px;
+    font-size: 0.9rem;
+  }
+  .misc .label { font-weight: 500; }
+  .misc .label.if { color: var(--ink); }
+  .misc .label.then { color: var(--accent); }
+  .check {
+    background: var(--elev); border: 2px solid var(--gold); padding: 1rem 1.2rem;
+    border-radius: 8px; margin-top: 0.6rem;
+  }
+  .check .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic; font-size: 1.1rem; color: var(--ink);
+  }
+  .check .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.5rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .toc {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    padding: 1rem 1.4rem; margin: 1.5rem 0;
+  }
+  .toc h3 { margin: 0 0 0.4rem; }
+  .toc ol { margin: 0; padding-left: 1.4rem; }
+  .toc li { margin: 0.2rem 0; font-size: 0.92rem; }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+  .approve-bar {
+    position: sticky; bottom: 0;
+    background: var(--bg); border-top: 1px solid var(--border);
+    padding: 0.8rem 2.5rem;
+    display: flex; gap: 0.6rem; justify-content: flex-end;
+  }
+  .btn {
+    padding: 0.55rem 1.2rem; border-radius: 6px; font-size: 0.9rem;
+    border: 1px solid var(--border); background: var(--surface); color: var(--ink-soft);
+    cursor: pointer; font-family: inherit;
+  }
+  .btn.primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+  .btn:hover { transform: translateY(-1px); }
+</style>
+</head><body>
+<header>
+  <a class="back-link" href="index.html">← All course reviews</a>
+  <div class="meta">Mini-course · 2 modules</div>
+  <h1>Eros</h1>
+  <p class="abstract">This course examines eros — the love of becoming one with something — as the first in Vervaeke's trilogy of loves (eros, philia, agape), each with a distinct logic. After completing this course, you will be able to articulate why eros is not reducible to sexual desire but encompasses any orientation toward union or consummation; why eros is satisfied by becoming one with its object rather than by cooperation or creativity; and how Socrates transformed eros into 'ta erotika' — an art of knowing what to care about and how to care about it rightly. Eros is essential to the series arc because it introduces the comparative analysis of love that makes the distinctiveness of agape — and the meaning-making power of different ways of loving — intelligible. Understanding eros also grounds the later discussion of how the erotic drive toward union can be sublimated or misdirected, driving both wisdom and foolishness.</p>
+  
+</header>
+<main>
+  <div class="toc">
+    <h3>Modules</h3>
+    <ol>
+      <li><a href="#m-eros-consumptive-unification">Eros as Consumptive Unification</a></li><li><a href="#m-ta-erotika-socratic">Ta Erotika: Socrates's Craft of Loving Rightly</a></li>
+    </ol>
+  </div>
+  
+    <article class="module" id="m-eros-consumptive-unification">
+      <span class="num">Module 1</span>
+      <h2>Eros as Consumptive Unification</h2>
+      <p class="objective">Articulate the logic of eros as the love that seeks to become one with its object, satisfied through consummation and union.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 15 · Marcus Aurelius and Jesus</div>
+            <div class="quote">&ldquo;Eros is the love that seeks to be one with something.&rdquo;</div>
+            <div class="note">Vervaeke's foundational definition of eros</div>
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 15 · Marcus Aurelius and Jesus</div>
+            <div class="quote">&ldquo;So this is the love that is satisfied through consummation. Phylia. This is the love that seeks cooperation. This is the love in which we experienced reciprocity.&rdquo;</div>
+            <div class="note">Eros contrasted with philia in terms of their distinct logics</div>
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 16 · Christianity and Agape</div>
+            <div class="quote">&ldquo;Eros is consumptive - making one with -, Phylia is cooperation - we work together.&rdquo;</div>
+            <div class="note">Crisp contrast statement</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Think about the difference between eating something delicious and working alongside a collaborator on a project. Both could involve care and positive feeling — but what is the fundamental difference in what each seeks?</div>
+            <div class="themes"><span class="theme-pill">eating seeks to become one with</span><span class="theme-pill">collaboration seeks ongoing cooperation</span><span class="theme-pill">eros seeks consummation philia seeks reciprocity</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke illustrates eros with eating a cookie, sexual desire, and the desire to become one with nature. What do all three have in common that makes them structurally the same kind of love?</div>
+            <div class="themes"><span class="theme-pill">all seek to dissolve the boundary between self and other</span><span class="theme-pill">all are satisfied by union or consummation</span><span class="theme-pill">all cease once union is achieved</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Is eros always satisfied when it achieves union — or can you think of cases where the union creates new longing rather than fulfilling it? What does that suggest about the limits of erotic logic?</div>
+            <div class="themes"><span class="theme-pill">some erotic fulfillment triggers new desire</span><span class="theme-pill">eros may be intrinsically restless</span><span class="theme-pill">points toward eros needing supplementation by philia or agape</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">If eros is satisfied by union and consummation, what happens to it once the beloved is fully 'had'? Does eros sustain a relationship, or does it require something else to keep a relationship alive?</div>
+            <div class="themes"><span class="theme-pill">eros is fulfilled and thus concluded by consummation</span><span class="theme-pill">relationships require philia and agape beyond eros</span><span class="theme-pill">not self-sustaining over time</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Eros just means sexual love or physical desire.</div>
+              <div><span class="label then">Then:</span> In Vervaeke's usage, eros is any orientation whose logic is union or consummation — it includes sexual desire but equally applies to the desire to become one with nature, music, or even a delicious meal.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Eros is the highest or most complete form of love.</div>
+              <div><span class="label then">Then:</span> Vervaeke presents eros, philia, and agape as three loves with distinct logics, none simply reducible to or superior to the others — he later argues that agape has a creative and sacrificial dimension eros lacks.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">What is the distinctive logic of eros — what does it seek, and what satisfies it — and how does that contrast with philia's logic of cooperation?</div>
+          <div class="themes"><span class="theme-pill">eros seeks union and is satisfied by consummation</span><span class="theme-pill">philia seeks cooperation and reciprocity</span><span class="theme-pill">different structures not just different intensities</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-ta-erotika-socratic">
+      <span class="num">Module 2</span>
+      <h2>Ta Erotika: Socrates's Craft of Loving Rightly</h2>
+      <p class="objective">Explain what Socrates meant by mastery of 'ta erotika' — not just sexual knowledge but an art of knowing what to care about and how to direct erotic orientation toward wisdom.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 15 · Marcus Aurelius and Jesus</div>
+            <div class="quote">&ldquo;Socrates new/taught erotica, which wasn't just sex. Socrates knew what to care about.&rdquo;</div>
+            <div class="note">Vervaeke's identification of Socratic ta erotika with wisdom about care and orientation</div>
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Socrates claimed to know only one thing: ta erotika — the erotic things, or the art of love. What might it mean to be a master of 'what to care about' rather than a master of some body of knowledge?</div>
+            <div class="themes"><span class="theme-pill">wisdom as orientation not information</span><span class="theme-pill">knowing what matters vs. knowing facts</span><span class="theme-pill">eros as an orienting force that needs calibration</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">If eros is the energy of longing and union, what would it mean to direct it poorly — toward things unworthy of it — versus to direct it rightly? Can you think of examples of misdirected eros?</div>
+            <div class="themes"><span class="theme-pill">eros toward trivial or harmful objects</span><span class="theme-pill">addictive patterns as misdirected eros</span><span class="theme-pill">wisdom as proper calibration of erotic orientation</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Plato's Symposium has Socrates reporting Diotima's ladder of beauty — eros can start with a beautiful body and be sublimated upward to beauty itself. What does this suggest about eros's potential as a vehicle for transformation?</div>
+            <div class="themes"><span class="theme-pill">eros as anagogic energy</span><span class="theme-pill">erotic drive can be redirected to larger objects</span><span class="theme-pill">connection to philosophical ascent</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Is 'knowing what to care about' a form of knowledge you could teach in a classroom? If not, what kind of knowing is it — and what practices might cultivate it?</div>
+            <div class="themes"><span class="theme-pill">perspectival and participatory knowing</span><span class="theme-pill">requires character formation not just information</span><span class="theme-pill">Socratic dialogue as practice context</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Mastery of ta erotika is mastery of seduction — knowing how to attract others.</div>
+              <div><span class="label then">Then:</span> Vervaeke reads Socratic ta erotika as an art of knowing what is genuinely worth caring about and how to orient one's erotic energy toward it — it is fundamentally about wisdom and proper orientation, not seduction.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Eros as a love philosophy is separate from cognitive function — it is purely about feeling and desire.</div>
+              <div><span class="label then">Then:</span> For Vervaeke, eros is inseparable from relevance realization — what one cares about structures what is salient and real; mastery of eros (ta erotika) is therefore mastery of a fundamental cognitive orientation.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">What did Socrates mean by claiming mastery of ta erotika — and why does Vervaeke read this as a claim about wisdom rather than simply about erotic skill?</div>
+          <div class="themes"><span class="theme-pill">ta erotika as knowing what to care about</span><span class="theme-pill">orientation of erotic energy is a form of wisdom</span><span class="theme-pill">eros is not only feeling but a structuring of what matters</span></div>
+        </div>
+      </section>
+    </article>
+  
+</main>
+<div class="approve-bar">
+  <button class="btn">Request changes</button>
+  <button class="btn primary">Approve for shipping</button>
+</div>
+</body></html>

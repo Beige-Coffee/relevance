@@ -1,0 +1,228 @@
+{
+  "id": "the-platonic-project",
+  "title": "The Platonic Project",
+  "conceptId": "the-platonic-project",
+  "abstract": "This course examines the Platonic project as Vervaeke reconstructs it: Plato's synthesis of Socratic self-knowledge and Pythagorean self-transcendence into a developmental program for wisdom, in which ordering the psyche simultaneously reduces inner conflict and deepens contact with reality. Students will be able to articulate the three-part structure of the psyche (man, lion, monster), explain the anagogic cycle of mutual deepening between self-knowledge and reality-contact, and trace the Myth of the Cave as a map of the transformative journey from illusion to participatory contact with the Good. In the series arc, the Platonic project is one of the two foundational feet of Western civilization (along with the Hebrew Bible) and serves as the historical origin of the two-worlds mythology, the aspirational self-transcendence that structures the axial legacy, and the participatory epistemology that Vervaeke's cognitive science reanimates.",
+  "prerequisites": [
+    "the-axial-revolution"
+  ],
+  "modules": [
+    {
+      "id": "integration-of-socrates-and-pythagoras",
+      "title": "Plato's Synthesis: Socratic Self-Knowledge and Pythagorean Self-Transcendence",
+      "subConceptId": "integration-of-socrates-and-pythagoras",
+      "learningObjective": "Explain how Plato integrates Socratic participatory self-knowledge with Pythagorean self-transcendence through rational pattern-discovery into a single developmental program.",
+      "expositionPassages": [
+        {
+          "episode": 5,
+          "phrase": "Plato describes wisdom as an internal Justice within the psyche in which the man has been taught, the line has been trained and the monster has been tamed so they can get along together as much as is possible.",
+          "note": "The core definition of Platonic wisdom as inner ordering"
+        },
+        {
+          "episode": 5,
+          "phrase": "This (Myth of the Cave) is a myth of enlightenment: of coming into the light. It's a myth of self-transcendence and self-transformation.",
+          "note": "The Myth of the Cave as map of the transformative journey"
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "Socrates believed the key to wisdom was self-knowledge — 'know thyself.' Pythagoras believed wisdom came through discovering the mathematical patterns underlying reality. Why would these two projects seem to be in tension — and why does Plato think they are actually complementary?",
+          "expectedThemes": [
+            "self-knowledge vs world-knowledge",
+            "inner and outer as mirrors",
+            "participatory knowing connecting both",
+            "wisdom as integration"
+          ]
+        },
+        {
+          "prompt": "Plato says wisdom requires the 'man' (reason) to teach the 'lion' (spirit/thymos) and tame the 'monster' (appetite). Does this ordering mean reason simply suppresses desire — or is something more subtle happening?",
+          "expectedThemes": [
+            "ordering not suppression",
+            "education of spirit and appetite",
+            "reason as teacher not tyrant",
+            "inner harmony vs conflict"
+          ]
+        },
+        {
+          "prompt": "The Myth of the Cave describes people who have never seen the light outside, only shadows on a wall. What kind of cognitive state does life in the cave represent — and why is 'coming into the light' described as both liberation and disorientation?",
+          "expectedThemes": [
+            "illusion vs reality",
+            "habituation to shadows",
+            "disorientation of greater contact",
+            "transformative shock of wisdom"
+          ]
+        },
+        {
+          "prompt": "Plato argues that as you become wiser, you come into better contact with reality; and as you come into better contact with reality, you can become wiser. Does this sound like a virtuous circle or a circular argument? What makes it a genuine developmental process?",
+          "expectedThemes": [
+            "anagogic cycle",
+            "mutual deepening",
+            "not circular but spiral",
+            "progressive participation in reality"
+          ]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "The Platonic project is simply idealism — the claim that the physical world is less real than abstract ideas.",
+          "correction": "Vervaeke stresses that Plato's forms (idos) are patterns both in the mind and in the world, and that knowing them is a participatory contact epistemology, not an exercise in conceptual abstraction; the project is about coming into deeper contact with reality, not escaping it."
+        },
+        {
+          "misconception": "Plato's Myth of the Cave is a claim that the physical world is unreal.",
+          "correction": "The myth is a parable about the difference between untrained and trained cognition — it illustrates that wisdom is a process of increasingly accurate participatory contact with reality, not a denial of the physical world."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "How does Plato's synthesis of Socratic and Pythagorean strands produce a more powerful account of wisdom than either alone — and why does Vervaeke regard this synthesis as one of the foundational moves of Western civilization?",
+        "expectedThemes": [
+          "synthesis more than sum",
+          "self-knowledge and world-contact as one",
+          "wisdom as developmental program",
+          "axial legacy"
+        ]
+      }
+    },
+    {
+      "id": "inner-conflict-and-wisdom",
+      "title": "Inner Conflict Reduction as Wisdom: The Tripartite Psyche",
+      "subConceptId": "inner-conflict-reduction",
+      "learningObjective": "Articulate why Plato identifies wisdom with the reduction of inner conflict, how the three parts of the psyche (man, lion, monster) correspond to different motivational levels, and why getting the ordering wrong produces destructive salience distortion.",
+      "expositionPassages": [
+        {
+          "episode": 5,
+          "phrase": "What you want to do is get it properly ordered. When you don't order it, think about what this means... Salience and understanding and participation get out of sync with each other.",
+          "note": "The stakes of misalignment: salience, understanding, and participation fall out of sync"
+        },
+        {
+          "episode": 5,
+          "phrase": "As I get better knowledge of myself, I can better teach the man. To be a good teacher, you have to know your student better.",
+          "note": "Self-knowledge enables better inner teaching — the developmental upward spiral"
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "Have you ever wanted something intensely while knowing intellectually it was bad for you? That gap between what the 'monster' wants and what the 'man' knows is the inner conflict Plato is diagnosing. What happens to your perception of the world when this conflict is intense?",
+          "expectedThemes": [
+            "inner conflict distorting perception",
+            "salience hijacked by appetite",
+            "akrasia",
+            "monster as relevance disruptor"
+          ]
+        },
+        {
+          "prompt": "Vervaeke says that when the psyche is disordered, 'salience and understanding and participation get out of sync with each other.' What would it look like for these three to be out of sync? Can you think of a concrete example?",
+          "expectedThemes": [
+            "salience misaligned with understanding",
+            "participation in wrong things",
+            "motivation vs knowledge gap",
+            "fragmented self"
+          ]
+        },
+        {
+          "prompt": "Plato's tripartite psyche (reason, spirit, appetite) keeps being 'rediscovered' — Freud's id/ego/superego, the triune brain model. What does it mean that Plato identified something about motivational architecture that keeps recurring in scientific theories?",
+          "expectedThemes": [
+            "Plato anticipates science",
+            "real motivational architecture",
+            "reason spirit appetite as robust discovery",
+            "not primitive but prescient"
+          ]
+        },
+        {
+          "prompt": "Why does wisdom require educating spirit (lion/thymos) and not just suppressing appetite (monster)? What role does spirit play in the properly ordered psyche — and what goes wrong if spirit is broken rather than trained?",
+          "expectedThemes": [
+            "spiritedness as necessary",
+            "education not suppression",
+            "lion's role in drive and courage",
+            "what happens when spirit is crushed"
+          ]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "The tripartite psyche is a primitive psychology that neuroscience has superseded.",
+          "correction": "Vervaeke argues that Plato's tripartite structure keeps being rediscovered — in Freudian theory, triune-brain models, and dual-process psychology — because Plato identified something genuinely real about motivational architecture that persists across theoretical frameworks."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "Why does Vervaeke argue that Platonic inner ordering is not primarily a moral achievement but an epistemic one — that reducing inner conflict actually improves one's contact with reality rather than just making one a better person?",
+        "expectedThemes": [
+          "moral and epistemic linked",
+          "inner conflict distorts perception",
+          "wisdom as both ethical and cognitive",
+          "salience distortion from disordered psyche"
+        ]
+      }
+    },
+    {
+      "id": "anagogic-cycle",
+      "title": "The Anagogic Cycle: Self-Knowledge and Reality Deepening Each Other",
+      "subConceptId": "anagogic-cycle-of-self-and-reality",
+      "learningObjective": "Explain the anagogic cycle in which improved self-knowledge enables better contact with reality and better contact with reality enables deeper self-knowledge, and why this spiral is Plato's model of wisdom development.",
+      "expositionPassages": [
+        {
+          "episode": 5,
+          "phrase": "I improve a little bit; my skill at picking up on real patterns. I use that skill on myself to increase my self-knowledge and get better patterns, which means I reduce my inner conflict. As my inner conflict goes down, I get a clearer vision of reality.",
+          "note": "The anagogic cycle described in full: self-knowledge, inner conflict reduction, clearer reality-contact"
+        },
+        {
+          "episode": 7,
+          "phrase": "The core idea of rationality is your capacity for reflectively realizing your capacities for self-deception and illusion and for self correction.",
+          "note": "Rationality as the Socratic-Platonic aspiration restated cognitively"
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "Plato says that as you know yourself better, you perceive reality more clearly, which in turn enables deeper self-knowledge. This sounds like a spiral that lifts you upward rather than a circle that keeps you in place. What makes it an upward spiral rather than a repetitive loop?",
+          "expectedThemes": [
+            "anagogic not circular",
+            "progressive deepening",
+            "transformation at each turn",
+            "spiral vs loop"
+          ]
+        },
+        {
+          "prompt": "Vervaeke frames rationality as the capacity to notice your own self-deception and correct it. How is this different from simply being 'logical' or 'analytical'? What kind of self-awareness does genuine rationality require?",
+          "expectedThemes": [
+            "rationality as self-corrective",
+            "beyond logical analysis",
+            "meta-cognitive awareness",
+            "Socratic critical examination"
+          ]
+        },
+        {
+          "prompt": "The myth of the cave ends with the philosopher returning to the cave after seeing the light. Why must the philosopher return rather than staying in the light — and what does the return require of someone who has been transformed?",
+          "expectedThemes": [
+            "wisdom requires engagement with the world",
+            "return as ethical responsibility",
+            "teaching and transformation",
+            "philosopher as servant not escapee"
+          ]
+        },
+        {
+          "prompt": "If the anagogic cycle involves both self-knowledge and contact with reality, can either one be developed in isolation? What happens to someone who pursues relentless self-analysis without engaging with the world — or who engages with the world without self-reflection?",
+          "expectedThemes": [
+            "both directions needed",
+            "navel-gazing without world",
+            "unreflective worldly engagement",
+            "integration required"
+          ]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "Anagoge (the upward leading) is simply intellectual progress — learning more about abstract ideas.",
+          "correction": "Anagoge in the Platonic sense is a transformation of the whole person — salience, understanding, and participation must all change together; it is not an increase in information but a shift in how one's entire cognition engages with reality."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "In what sense does Vervaeke's cognitive-science account of wisdom — targeting the salience landscape, reducing inner conflict, enhancing participatory knowing — recapitulate the structure of the Platonic project in a naturalistic register?",
+        "expectedThemes": [
+          "cognitive science as reanimation of Plato",
+          "salience landscape as modern tripartite psyche",
+          "anagogic cycle in naturalistic terms",
+          "same structure new vocabulary"
+        ]
+      }
+    }
+  ]
+}

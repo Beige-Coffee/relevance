@@ -1,0 +1,45 @@
+{
+  "num": 31,
+  "slug": "embodied-embedded-rr-dynamical-gi",
+  "title": "Embodied-Embedded RR as Dynamical-Developmental GI",
+  "essence": "Extending the dynamical systems account, Vervaeke emphasizes the bodily and environmental embeddedness of relevance realization. The body is not Cartesian clay but a constitutive bioeconomy without which cognition cannot occur. Relevance is neither projected subjectively nor detected objectively, but is transjective—co-created between organism and environment. Introducing compression and particularization as internal bioeconomic processes, he draws parallels to Piaget's assimilation and accommodation, showing that relevance realization is inherently developmental: systems self-organize by simultaneously integrating (compression) and differentiating (particularization), leading to complexification and emergent capacities. This sets the stage for understanding general intelligence as grounded in relevance realization's ongoing evolution of cognitive-interactional fitness.",
+  "keyClaims": [
+    "Relevance realization is inherently embodied and embedded; neither purely internal nor external but transjective.",
+    "Compression and particularization are complementary bioeconomic processes that trade off efficiency for resiliency.",
+    "These map onto Piaget's assimilation and accommodation, showing relevance realization is fundamentally developmental.",
+    "General intelligence (g-factor) can be understood as unified relevance realization, evidenced by strong positive manifold in psychometrics.",
+    "Relevance realization is self-organizing, multi-scale, and continuously complexifying through development."
+  ],
+  "concepts": [
+    {"name": "transjective", "treatment": "introduced", "summary": "A transactional relationship neither subjective nor objective; characteristics of relevance realization's nature."},
+    {"name": "compression", "treatment": "introduced", "summary": "Bioeconomic process of data compression via integration; emphasizes invariance for generalization and efficiency."},
+    {"name": "particularization", "treatment": "introduced", "summary": "Bioeconomic process emphasizing context-specific variation; increases resiliency and context-sensitivity."},
+    {"name": "cognitive scope", "treatment": "introduced", "summary": "The dynamic trade-off between compression and particularization; enables varying generality vs. specificity."},
+    {"name": "applicability", "treatment": "introduced", "summary": "How flexibly a cognitive function can be applied across contexts; shaped by general vs. special purpose processing."},
+    {"name": "exploitation", "treatment": "introduced", "summary": "Remaining in current situation to maximize resource extraction; opportunistic but costly if environment changes."},
+    {"name": "exploration", "treatment": "introduced", "summary": "Seeking new environments and possibilities; costly upfront but enables discovery of better niches."},
+    {"name": "cognitive tempering", "treatment": "introduced", "summary": "Dynamic balance between exploitation (reward error reduction) and exploration (reward error increase)."},
+    {"name": "cognitive prioritization", "treatment": "introduced", "summary": "Flexible gambling among cost functions; allocating attentional and metabolic resources based on context."},
+    {"name": "complexification", "treatment": "introduced", "summary": "Process where simultaneous integration and differentiation produce emergent capacities and self-transcendence."},
+    {"name": "general intelligence", "treatment": "developed", "summary": "Unified phenomenon grounded in relevance realization; evidenced by strong positive manifold in intelligence testing."},
+    {"name": "assimilation", "treatment": "referenced", "summary": "Piaget's term; maps to compression and integration; treating new information as continuous with existing schemas."},
+    {"name": "accommodation", "treatment": "referenced", "summary": "Piaget's term; maps to particularization and differentiation; restructuring schemas in response to novelty."}
+  ],
+  "people": [
+    {"name": "Markus Brede", "role": "referenced", "summary": "Mathematical proof that networks optimize trade-offs between efficiency and resiliency."},
+    {"name": "Tim Lilicrap", "role": "discussed", "summary": "Colleague who showed these strategies align with cutting-edge AI; co-authored paper on relevance realization."},
+    {"name": "Blake Richards", "role": "discussed", "summary": "Co-author on relevance realization paper showing AI convergence with cognitive science theory."},
+    {"name": "Jean Piaget", "role": "referenced", "summary": "Developmental psychology founder; assimilation and accommodation parallel compression and particularization."},
+    {"name": "Charles Spearman", "role": "referenced", "summary": "Discovered general intelligence factor (g) and strong positive manifold; foundational to psychometrics."},
+    {"name": "Leo Ferraro", "role": "referenced", "summary": "Psychometrist collaborator on connecting relevance realization to general intelligence."}
+  ],
+  "crossRefs": [
+    {"episode": 30, "context": "Previous episode introduced dynamical systems framework; this applies it to embodied, embedded cognition."},
+    {"episode": 32, "context": "Next episode applies these concepts to neural implementation and consciousness."}
+  ],
+  "quotableMoments": [
+    {"quote": "The body is not a useless appendage. It is not just a vehicle. The body is an auto-poetic bio-economy that makes your cognition possible.", "context": "Establishing embodiment as constitutive, not incidental, to cognition."},
+    {"quote": "Relevance is neither subjective nor objective; it is transjective—a real relationship between organism and environment.", "context": "Central claim that relevance transcends subject-object dualism."},
+    {"quote": "Relevance Realization is unified phenomenon... is actually the underlying ability of your general intelligence.", "context": "Connecting dynamical-developmental theory to psychometric evidence of g-factor."}
+  ]
+}

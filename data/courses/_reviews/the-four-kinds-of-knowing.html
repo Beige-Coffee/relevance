@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Four Kinds of Knowing — Mini-course Review</title>
+<style>
+  :root {
+    --bg: #faf7f1; --surface: #ffffff; --elev: #f2ede0;
+    --ink: #1c1a17; --ink-soft: #3a3530; --muted: #6b6660;
+    --border: #e0d9c8; --accent: #8b3a3a; --gold: #b8893c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#14120e; --surface:#1c1916; --elev:#25211c;
+      --ink:#ece6d6; --ink-soft:#b8b1a1; --muted:#8a8378;
+      --border:#2e2922; --accent:#d28a7e; --gold:#d4a85a; }
+  }
+  * { box-sizing: border-box; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Inter", system-ui, sans-serif;
+    background: var(--bg); color: var(--ink); margin: 0; line-height: 1.6;
+    -webkit-font-smoothing: antialiased; }
+  .serif { font-family: "EB Garamond", Georgia, serif; }
+  header { padding: 2rem 2.5rem 1rem; border-bottom: 1px solid var(--border); }
+  .back-link { color: var(--muted); font-size: 0.8rem; text-decoration: none; }
+  .back-link:hover { color: var(--accent); }
+  .meta { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--muted); margin: 0.6rem 0 0.3rem; }
+  h1 { font-family: "EB Garamond", Georgia, serif; font-size: 2.6rem; margin: 0; letter-spacing: -0.01em; font-weight: 500; }
+  .abstract {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.1rem; line-height: 1.65;
+    color: var(--ink-soft); margin: 1rem 0; max-width: 60rem;
+  }
+  .prereqs { font-size: 0.85rem; color: var(--muted); margin-top: 0.6rem; }
+  .prereqs a { color: var(--accent); text-decoration: none; }
+  .prereqs a:hover { text-decoration: underline; }
+  main { max-width: 60rem; margin: 0 auto; padding: 2rem 2.5rem 5rem; }
+  .module {
+    border-top: 1px solid var(--border); padding-top: 2rem; margin-top: 3rem;
+  }
+  .module:first-child { border-top: none; padding-top: 0; margin-top: 0; }
+  .module .num {
+    font-family: ui-monospace, monospace; font-size: 0.78rem;
+    background: var(--gold); color: var(--bg); padding: 0.2rem 0.6rem;
+    border-radius: 99px; display: inline-block; margin-bottom: 0.6rem;
+  }
+  .module h2 {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.9rem; margin: 0;
+    letter-spacing: -0.01em; font-weight: 500; line-height: 1.15;
+  }
+  .module .objective {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic;
+    color: var(--ink-soft); margin: 0.5rem 0 1rem;
+  }
+  section { margin: 1.6rem 0; }
+  section h3 {
+    font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.12em;
+    color: var(--muted); margin: 0 0 0.6rem;
+  }
+  .passage {
+    background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--gold);
+    padding: 0.8rem 1rem; margin: 0.5rem 0; border-radius: 4px;
+  }
+  .passage .src {
+    font-family: ui-monospace, monospace; font-size: 0.72rem;
+    color: var(--accent); margin-bottom: 0.3rem;
+  }
+  .passage .quote {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic;
+    color: var(--ink); font-size: 1rem; line-height: 1.55;
+  }
+  .passage .note { font-size: 0.78rem; color: var(--muted); margin-top: 0.4rem; }
+  .seed {
+    padding: 0.5rem 0; border-left: 2px solid var(--gold); padding-left: 1rem; margin: 0.5rem 0;
+  }
+  .seed .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-size: 1.05rem; font-style: italic; color: var(--ink);
+  }
+  .seed .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.3rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .theme-pill {
+    background: var(--elev); padding: 0.15rem 0.55rem; border-radius: 99px;
+  }
+  .misc {
+    background: var(--elev); padding: 0.7rem 1rem; margin: 0.5rem 0; border-radius: 6px;
+    font-size: 0.9rem;
+  }
+  .misc .label { font-weight: 500; }
+  .misc .label.if { color: var(--ink); }
+  .misc .label.then { color: var(--accent); }
+  .check {
+    background: var(--elev); border: 2px solid var(--gold); padding: 1rem 1.2rem;
+    border-radius: 8px; margin-top: 0.6rem;
+  }
+  .check .prompt {
+    font-family: "EB Garamond", Georgia, serif; font-style: italic; font-size: 1.1rem; color: var(--ink);
+  }
+  .check .themes {
+    font-size: 0.78rem; color: var(--muted); margin-top: 0.5rem;
+    display: flex; gap: 0.4rem; flex-wrap: wrap;
+  }
+  .toc {
+    background: var(--surface); border: 1px solid var(--border); border-radius: 8px;
+    padding: 1rem 1.4rem; margin: 1.5rem 0;
+  }
+  .toc h3 { margin: 0 0 0.4rem; }
+  .toc ol { margin: 0; padding-left: 1.4rem; }
+  .toc li { margin: 0.2rem 0; font-size: 0.92rem; }
+  .toc li a { color: var(--ink); text-decoration: none; }
+  .toc li a:hover { color: var(--accent); }
+  .approve-bar {
+    position: sticky; bottom: 0;
+    background: var(--bg); border-top: 1px solid var(--border);
+    padding: 0.8rem 2.5rem;
+    display: flex; gap: 0.6rem; justify-content: flex-end;
+  }
+  .btn {
+    padding: 0.55rem 1.2rem; border-radius: 6px; font-size: 0.9rem;
+    border: 1px solid var(--border); background: var(--surface); color: var(--ink-soft);
+    cursor: pointer; font-family: inherit;
+  }
+  .btn.primary { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+  .btn:hover { transform: translateY(-1px); }
+</style>
+</head><body>
+<header>
+  <a class="back-link" href="index.html">← All course reviews</a>
+  <div class="meta">Mini-course · 4 modules</div>
+  <h1>The Four Kinds of Knowing</h1>
+  <p class="abstract">Vervaeke argues that modern culture has collapsed all forms of knowing into a single kind — propositional knowing (having justified true beliefs) — and that this collapse is itself a driver of the meaning crisis. Against this reduction, he distinguishes four irreducible kinds: propositional (knowing-that), procedural (knowing-how), perspectival (knowing what it is like), and participatory (knowing through being-in-relation). These form a hierarchy of asymmetric dependence: propositional depends on procedural, procedural on perspectival, perspectival on participatory — but none reduces to another. Recovering the non-propositional kinds of knowing is not a philosophical curiosity but a practical necessity: transformation, wisdom, and religio all operate at the procedural, perspectival, and participatory levels. This concept runs as connective tissue from Episode 1 through the wisdom discussions in Episodes 40–46.</p>
+  
+</header>
+<main>
+  <div class="toc">
+    <h3>Modules</h3>
+    <ol>
+      <li><a href="#m-propositional-knowing">Propositional Knowing and Its Limits</a></li><li><a href="#m-procedural-knowing">Procedural Knowing: Knowing-How</a></li><li><a href="#m-perspectival-knowing">Perspectival Knowing: What It Is Like</a></li><li><a href="#m-participatory-knowing">Participatory Knowing: Being-In-Relation</a></li>
+    </ol>
+  </div>
+  
+    <article class="module" id="m-propositional-knowing">
+      <span class="num">Module 1</span>
+      <h2>Propositional Knowing and Its Limits</h2>
+      <p class="objective">Explain what propositional knowing is, why it has become the default modern form of knowing, and why Vervaeke argues this is both limited and historically contingent.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 1 · Introduction</div>
+            <div class="quote">&ldquo;We tend to have reduced all of the ways that the ancients talked about how we know to one thing: To know is to have a special kind of belief. And so we are very belief centric which is why we are so focused as a culture on ideologies.&rdquo;</div>
+            
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 1 · Introduction</div>
+            <div class="quote">&ldquo;There is much more to knowing than having justified true beliefs.&rdquo;</div>
+            
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 22 · Descartes vs. Hobbes</div>
+            <div class="quote">&ldquo;you do not have to be transformed in order to come into contact with ultimate reality. All you have to do is use the right method, do the right computation.&rdquo;</div>
+            
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Why does Vervaeke connect the dominance of propositional knowing to the cultural obsession with ideologies? What is the link?</div>
+            <div class="themes"><span class="theme-pill">beliefs as the unit of knowing</span><span class="theme-pill">ideology as propositional package</span><span class="theme-pill">missing participatory and perspectival dimensions</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Can you think of something you genuinely know but cannot fully articulate in propositions? What does that suggest about the relationship between knowing and believing?</div>
+            <div class="themes"><span class="theme-pill">procedural knowing — riding a bike</span><span class="theme-pill">perspectival knowing — what grief feels like</span><span class="theme-pill">participatory knowing — being in a relationship</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke says that Descartes's picture of knowledge implies you do not need to be transformed to know ultimate reality. Why does he find that picture inadequate?</div>
+            <div class="themes"><span class="theme-pill">transformation is needed for perspectival and participatory knowing</span><span class="theme-pill">propositional method bypasses self-change</span><span class="theme-pill">meaning and wisdom require transformation</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Propositional knowing is the most complete or foundational kind of knowing.</div>
+              <div><span class="label then">Then:</span> Vervaeke argues propositional knowing is actually the most derivative — it depends on procedural, perspectival, and participatory knowing beneath it, not vice versa.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Having correct propositional knowledge about a practice (e.g., mindfulness) is equivalent to engaging in it.</div>
+              <div><span class="label then">Then:</span> The propositional and procedural/perspectival/participatory are irreducibly different; knowing about mindfulness does not substitute for practicing it.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">If someone masters a complete library of propositional knowledge about wisdom, have they become wise? Why or why not, in Vervaeke's terms?</div>
+          <div class="themes"><span class="theme-pill">propositional depends on other knowings</span><span class="theme-pill">wisdom requires procedural perspectival participatory transformation</span><span class="theme-pill">the collapse of knowing is itself the problem</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-procedural-knowing">
+      <span class="num">Module 2</span>
+      <h2>Procedural Knowing: Knowing-How</h2>
+      <p class="objective">Define procedural knowing as skill-based knowing grounded in implicit learning, and explain why it cannot be replaced by propositional instruction.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 1 · Introduction</div>
+            <div class="quote">&ldquo;There's the kind of knowing that's involved in knowing how to catch a baseball.&rdquo;</div>
+            
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 36 · Religio/Perennial Problems/Reverse Eng. Enlightenment</div>
+            <div class="quote">&ldquo;It's at the level of procedural and ultimately perspectival and participatory knowing.&rdquo;</div>
+            
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 43 · Wisdom and Virtue</div>
+            <div class="quote">&ldquo;your propositional knowing has to be grounded in your procedural abilities, which have to be grounded in your perspectival, which has to be grounded ultimately in your participatory.&rdquo;</div>
+            
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Why can't you learn to ride a bicycle from a book, no matter how detailed? What does this reveal about the nature of procedural knowing?</div>
+            <div class="themes"><span class="theme-pill">implicit learning requires practice</span><span class="theme-pill">propositional description cannot convey skill</span><span class="theme-pill">motor and sensorimotor dimensions</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">In what sense does procedural knowing 'depend on' perspectival knowing? What would go wrong if you had the skill without the situational awareness?</div>
+            <div class="themes"><span class="theme-pill">need to know which skill applies when</span><span class="theme-pill">situational awareness guides skill application</span><span class="theme-pill">perspectival as condition for procedural</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke connects procedural knowing to implicit learning. What is implicit learning, and why does it matter for wisdom?</div>
+            <div class="themes"><span class="theme-pill">unconscious pickup of patterns</span><span class="theme-pill">flow state enhances it</span><span class="theme-pill">wisdom involves implicit pattern recognition not just explicit rules</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Procedural knowing is a lesser kind than propositional knowing — it is just muscle memory.</div>
+              <div><span class="label then">Then:</span> The hierarchy of dependence shows that propositional knowing actually depends on procedural knowing; procedural is more foundational, not less.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">A therapist knows all the techniques of cognitive-behavioral therapy propositionally. What else do they need to be genuinely skilled, and why?</div>
+          <div class="themes"><span class="theme-pill">procedural skill through practice</span><span class="theme-pill">perspectival knowing of the situation</span><span class="theme-pill">implicit learning from cases</span><span class="theme-pill">participatory attunement to client</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-perspectival-knowing">
+      <span class="num">Module 3</span>
+      <h2>Perspectival Knowing: What It Is Like</h2>
+      <p class="objective">Define perspectival knowing as knowing what it is like to occupy a perspective, explain its constitutive role in the salience landscape, and show why it cannot be replaced by propositional reports.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 1 · Introduction</div>
+            <div class="quote">&ldquo;There's the kind of knowing of what it is like to be having this experience right now.&rdquo;</div>
+            
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 22 · Descartes vs. Hobbes</div>
+            <div class="quote">&ldquo;And so Pascal is pointing out that what has been lost in the scientific revolution is all these other kinds of knowing and being, and these are the kinds of knowing and being that he found present in the transformative experience that he had.&rdquo;</div>
+            
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 17 · Gnosis and Existential Inertia</div>
+            <div class="quote">&ldquo;you don't know what it is like cause that's the core of you don't know what your salience landscape will be like when you eat this fruit until you have eaten the fruit.&rdquo;</div>
+            
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">Can a person who has never experienced grief understand what it is like — from propositional descriptions alone? What does this suggest about perspectival knowing?</div>
+            <div class="themes"><span class="theme-pill">what-it-is-like is irreducible</span><span class="theme-pill">salience landscape changes with experience</span><span class="theme-pill">propositional descriptions gesture at but cannot convey the perspective</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Pascal argues the scientific revolution lost the 'spirit of finesse' (perspectival and participatory knowing) in favor of the 'spirit of geometry'. What might be the practical cost of that loss?</div>
+            <div class="themes"><span class="theme-pill">transformative experience unavailable</span><span class="theme-pill">insight and wisdom require perspectival</span><span class="theme-pill">existential transformation blocked by propositional-only approach</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke says you cannot know what your salience landscape will be like after a transformative experience until you have gone through it. How does this bear on rational decision-making?</div>
+            <div class="themes"><span class="theme-pill">L.A. Paul's transformative experience</span><span class="theme-pill">decision theory cannot fully capture</span><span class="theme-pill">aspiration and gnosis as responses</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Perspectival knowing is just subjective bias — emotion getting in the way of objective truth.</div>
+              <div><span class="label then">Then:</span> Perspectival knowing is a genuine kind of knowing constituted by what it is like to occupy a perspective; it cannot be replaced by propositional reports and is not reducible to bias.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">Two people know identical propositions about a situation, yet one makes a wiser decision. What might account for the difference, in terms of the four kinds of knowing?</div>
+          <div class="themes"><span class="theme-pill">perspectival knowing of the situation</span><span class="theme-pill">situational awareness guides skill</span><span class="theme-pill">participatory attunement</span><span class="theme-pill">procedural competence in application</span></div>
+        </div>
+      </section>
+    </article>
+  
+    <article class="module" id="m-participatory-knowing">
+      <span class="num">Module 4</span>
+      <h2>Participatory Knowing: Being-In-Relation</h2>
+      <p class="objective">Explain participatory knowing as the foundational mode in which agent and world co-constitute each other, and show why recovering it is essential for any genuine response to the meaning crisis.</p>
+      <section>
+        <h3>Exposition</h3>
+        
+          <div class="passage">
+            <div class="src">Episode 1 · Introduction</div>
+            <div class="quote">&ldquo;There's the kind of knowing that is knowing what it's like to be in something you're participating in like a relationship.&rdquo;</div>
+            
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 36 · Religio/Perennial Problems/Reverse Eng. Enlightenment</div>
+            <div class="quote">&ldquo;It's at the level of procedural and ultimately perspectival and participatory knowing.&rdquo;</div>
+            
+          </div>
+        
+          <div class="passage">
+            <div class="src">Episode 29 · Getting to the Depths of Relevance Realization</div>
+            <div class="quote">&ldquo;we are getting a lot about how we should think about Relevance Realisation where we should look for it and notice it's starting to give us a way of connecting and thinking about the four kinds of knowing.&rdquo;</div>
+            
+          </div>
+        
+      </section>
+      <section>
+        <h3>Socratic seeds</h3>
+        
+          <div class="seed">
+            <div class="prompt">What is the difference between knowing about a friendship propositionally and actually being in a friendship? What kind of knowing is the latter?</div>
+            <div class="themes"><span class="theme-pill">participatory knowing as being-in-relation</span><span class="theme-pill">co-constituting change in both parties</span><span class="theme-pill">Da'ath — Hebraic participatory knowing</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">If participatory knowing is the most foundational of the four kinds, what does it mean that modern culture has largely lost it?</div>
+            <div class="themes"><span class="theme-pill">loss grounds all other losses</span><span class="theme-pill">propositional collapse undermines meaning at the root</span><span class="theme-pill">wisdom traditions addressed participatory knowing</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">How does the notion of participatory knowing help explain why some experiences feel more real and more meaningful than ordinary life?</div>
+            <div class="themes"><span class="theme-pill">higher states of consciousness</span><span class="theme-pill">anagoge</span><span class="theme-pill">agent-arena attunement</span><span class="theme-pill">contact with reality rather than description of it</span></div>
+          </div>
+        
+          <div class="seed">
+            <div class="prompt">Vervaeke argues that recovering procedural, perspectival, and participatory knowing requires practice, not just information. What kind of practices might develop each kind?</div>
+            <div class="themes"><span class="theme-pill">mindfulness for perspectival</span><span class="theme-pill">flow for procedural</span><span class="theme-pill">gnosis for participatory</span><span class="theme-pill">ecology of psycho-technologies</span></div>
+          </div>
+        
+      </section>
+      
+        <section>
+          <h3>Misconception branches</h3>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Participatory knowing is the lowest or most primitive kind — the one we should aim to transcend.</div>
+              <div><span class="label then">Then:</span> In Vervaeke's hierarchy of dependence, participatory knowing is the most foundational — the highest in the dependency chain — not the lowest in value; all other kinds of knowing depend on it.</div>
+            </div>
+          
+            <div class="misc">
+              <div><span class="label if">If:</span> Learning propositions about participatory knowing cultivates it.</div>
+              <div><span class="label then">Then:</span> Recovery of participatory knowing requires appropriate practice within an ecology of psycho-technologies; propositional knowledge about it cannot substitute for enacting it.</div>
+            </div>
+          
+        </section>
+      
+      <section>
+        <h3>Check for understanding</h3>
+        <div class="check">
+          <div class="prompt">Why does Vervaeke argue that responding to the meaning crisis requires recovering all four kinds of knowing — and why is propositional knowing alone insufficient, no matter how accurate?</div>
+          <div class="themes"><span class="theme-pill">four kinds are irreducibly different</span><span class="theme-pill">meaning operates at procedural perspectival participatory levels</span><span class="theme-pill">propositional collapse is the problem not the solution</span><span class="theme-pill">ecology of practices needed</span></div>
+        </div>
+      </section>
+    </article>
+  
+</main>
+<div class="approve-bar">
+  <button class="btn">Request changes</button>
+  <button class="btn primary">Approve for shipping</button>
+</div>
+</body></html>

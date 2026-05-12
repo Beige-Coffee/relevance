@@ -1,0 +1,152 @@
+{
+  "id": "reverse-engineering-enlightenment",
+  "title": "Reverse-Engineering Enlightenment",
+  "conceptId": "reverse-engineering-enlightenment",
+  "abstract": "This course examines Vervaeke's cognitive-scientific project of reverse-engineering enlightenment: starting with a stipulative definition (enlightenment as the developmental process that reliably ameliorates the perennial problems) and working backward to identify what practices, mechanisms, and worldview conditions could produce it. Students will be able to explain why Vervaeke's redefinition makes enlightenment tractable, map specific perennial problems to specific psycho-technologies, and articulate why both worldview rearticulation and an ecology of practices are required. In the series arc, this concept is the integrative pivot where the cognitive-science framework (relevance realization, religio) meets the practical project of designing an adequate response to the meaning crisis.",
+  "prerequisites": [
+    "relevance-realization",
+    "religio"
+  ],
+  "modules": [
+    {
+      "id": "stipulative-redefinition",
+      "title": "Enlightenment Redefined: From Superlative to Developmental Process",
+      "subConceptId": "stipulative-redefinition-of-enlightenment",
+      "learningObjective": "Explain Vervaeke's stipulative redefinition of enlightenment and why making it a developmental process rather than a superlative state is methodologically essential.",
+      "expositionPassages": [
+        {
+          "episode": 36,
+          "phrase": "I'm going to stipulate that enlightenment is the developmental process that gives us reliable amelioration and alleviation of the perennial problems.",
+          "note": "The central stipulative redefinition — enlightenment as tractable target"
+        },
+        {
+          "episode": 36,
+          "phrase": "I want to reverse-engineer enlightenment. I want to understand what the perennial problems are and using this machinery (indicates RR, Religio, Sacredness), what are the practices (indicates Wisdom, Enlightenment, Salvation), what are the processes we can use in order to address the perennial problems?",
+          "note": "The reverse-engineering methodology stated directly"
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "Traditional understandings of enlightenment often portray it as a final, perfect state — total liberation, complete union with God, absolute wisdom. What problems arise when we try to use such a notion as a practical target for human development?",
+          "expectedThemes": ["unachievable superlative", "no clear path", "perfectionism as obstacle", "inaccessible goal"]
+        },
+        {
+          "prompt": "Vervaeke says he is 'stipulating' a definition rather than describing one. What is the difference — and why is it important that the stipulation be argued for rather than just assumed?",
+          "expectedThemes": ["stipulative vs descriptive definition", "definition as theoretical choice", "accountability for stipulation", "methodological transparency"]
+        },
+        {
+          "prompt": "If enlightenment is defined as the developmental process that reliably ameliorates the perennial problems, what work is being done by the word 'reliably'? Why not just say 'sometimes helps'?",
+          "expectedThemes": ["reliability as scientific standard", "not occasional benefit", "systematic and repeatable", "engineering not luck"]
+        },
+        {
+          "prompt": "Reverse-engineering starts with a target (alleviation of perennial problems) and works backward to the mechanisms. How does this differ from working forward from mechanisms to outcomes — and what advantages does the reverse direction offer?",
+          "expectedThemes": ["target-first methodology", "pragmatic orientation", "mechanism-discovery vs mechanism-application", "avoid preconceptions about path"]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "Reverse-engineering enlightenment is a claim to have achieved or described final enlightenment.",
+          "correction": "Vervaeke explicitly calls it a developmental process, not an achieved superlative state; the project is methodological — identifying what reliably ameliorates the perennial problems — and he acknowledges it is not a final answer."
+        },
+        {
+          "misconception": "The cognitive-scientific framing discards the wisdom traditions by replacing them with scientific concepts.",
+          "correction": "The project tries to salvage the functional machinery of wisdom traditions by grounding their practices in a naturalistic worldview — it is a reframing that respects the traditions while making their mechanisms cognitively tractable."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "Why does the reverse-engineering methodology require beginning with the target (alleviation of perennial problems) rather than with a pre-formed theory of enlightenment — and what risk does this approach avoid?",
+        "expectedThemes": ["avoiding pre-formed superlatives", "tractable target", "working backward from effect", "avoids doctrine-first approach"]
+      }
+    },
+    {
+      "id": "mapping-perennial-problems",
+      "title": "Mapping Perennial Problems to Psycho-Technologies",
+      "subConceptId": "mapping-perennial-problems-to-psychotechs",
+      "learningObjective": "Identify the key perennial problems and explain how specific psycho-technologies address specific problems within Vervaeke's reverse-engineering framework.",
+      "expositionPassages": [
+        {
+          "episode": 38,
+          "phrase": "we can address parasitic processing with a counteractive dynamical system. We can address modal confusion by the cultivation of Sati. We can address the reflectiveness gap by the cultivation of flow. We can address absurdity by cultivating Prajñā.",
+          "note": "The systematic mapping of perennial problems to practices"
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "Sati (mindfulness) addresses 'modal confusion' — the failure to distinguish between the mode of having and the mode of being. What would it look like to confuse these modes, and why might systematic mindfulness practice help disambiguate them?",
+          "expectedThemes": ["having vs being mode", "modal confusion", "mindfulness as mode-correction", "attention to mode not content"]
+        },
+        {
+          "prompt": "The 'reflectiveness gap' is the problem of being unable to step back from one's own processing to examine it. Why might flow — a state of total absorbed engagement — address this gap rather than deepen it?",
+          "expectedThemes": ["paradox of flow correcting reflectiveness gap", "optimal processing vs self-consciousness", "effortless engagement", "different sense of stepping back"]
+        },
+        {
+          "prompt": "Parasitic processing is the way cognitive machinery that is normally adaptive gets co-opted into destructive patterns. Why would a 'counteractive dynamical system' be needed rather than simply a better belief or decision?",
+          "expectedThemes": ["sub-propositional level of problem", "need for counteractive habit not belief", "dynamical not propositional fix", "parasitic processing runs beneath explicit thought"]
+        },
+        {
+          "prompt": "Prajñā (insight wisdom) addresses the perennial problem of absurdity — the sense that nothing ultimately makes sense or connects. Why might insight, rather than argument or new information, be the right treatment for absurdity?",
+          "expectedThemes": ["absurdity as relevance failure", "insight as gestalt reorganization", "reasons cannot compel reconnection", "transformative not informative"]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "The perennial problems can be solved by acquiring the correct information or changing one's explicit beliefs.",
+          "correction": "The perennial problems (parasitic processing, modal confusion, reflectiveness gap, absurdity, alienation, existential entrapment) operate at sub-propositional levels; their resolution requires practices that alter the machinery of cognition, not propositional updates."
+        },
+        {
+          "misconception": "Any practice that feels helpful is a valid psycho-technology for addressing the perennial problems.",
+          "correction": "The reverse-engineering framework requires that practices reliably and systematically address specific perennial problems — not merely that they feel beneficial; a wisdom framing of interlocking virtues is needed, not a grab-bag of techniques."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "Why does each psycho-technology need to be set within a wisdom framing — an interlocking set of virtues — rather than being deployed as a standalone technique? What would be lost without that framing?",
+        "expectedThemes": ["isolated technique vs integrated wisdom", "interlocking virtues", "ecology of practices", "no technique without character context"]
+      }
+    },
+    {
+      "id": "two-pronged-response",
+      "title": "Two Prongs: Worldview Rearticulation and Ecology of Practices",
+      "subConceptId": "historical-and-perennial-two-pronged-response",
+      "learningObjective": "Explain why responding to the meaning crisis requires both rearticulating a worldview in which religio is legitimate and cultivating an ecology of practices, and why neither prong alone is sufficient.",
+      "expositionPassages": [
+        {
+          "episode": 37,
+          "phrase": "So responding to the Meaning Crisis has two components to it. And that's why I call it 'awakening' from the Meaning Crisis",
+          "note": "The two-pronged structure of the response"
+        }
+      ],
+      "socraticSeeds": [
+        {
+          "prompt": "Why isn't a new worldview — a scientifically updated set of beliefs about consciousness, meaning, and reality — sufficient by itself to address the meaning crisis? What would still be missing?",
+          "expectedThemes": ["worldview without practices is empty", "propositional shift not enough", "practices needed for transformation", "credo without religio"]
+        },
+        {
+          "prompt": "Why isn't a new set of practices — mindfulness retreats, therapy, contemplative traditions — sufficient by itself without worldview rearticulation? What goes wrong if we have practices but no framework?",
+          "expectedThemes": ["practices without worldview are decontextualized", "context gives practices meaning", "disconnected techniques vs integrated ecology", "worldview provides coherence"]
+        },
+        {
+          "prompt": "Vervaeke calls the response 'awakening' from the meaning crisis. What does the metaphor of awakening suggest about the kind of change required — and how is it different from, say, 'solving' or 'treating' the crisis?",
+          "expectedThemes": ["awakening as transformation not problem-solving", "developmental not remedial", "waking to what was always there", "religio not information"]
+        },
+        {
+          "prompt": "The religion that is not a religion is proposed as the social-institutional form of the two-pronged response. Why would a community of practice be needed rather than simply the right ideas and the right techniques?",
+          "expectedThemes": ["community as necessary condition", "practices need social scaffolding", "ecology not individual effort", "shared meaning-making"]
+        }
+      ],
+      "misconceptionBranches": [
+        {
+          "misconception": "Reverse-engineering enlightenment is a solo project — an individual can work it out alone with enough study and meditation.",
+          "correction": "The project requires the social and institutional structures of a community of practice; religio has historically been maintained by communities, not isolated individuals, and the sustainability of the ecology of practices depends on social scaffolding."
+        },
+        {
+          "misconception": "The two-pronged response means doing some worldview work AND some practice work, as independent parallel tracks.",
+          "correction": "The two prongs are mutually constitutive: the worldview must legitimate and contextualize the practices, while the practices must enact and embody the worldview — they cannot be separated without each losing much of its force."
+        }
+      ],
+      "checkForUnderstanding": {
+        "prompt": "What does it mean to 'awaken' from the meaning crisis rather than 'solve' it — and why do both worldview rearticulation and an ecology of practices need to work together for that awakening to be real and sustainable?",
+        "expectedThemes": ["awakening vs solving", "developmental transformation", "worldview and practices mutually supporting", "religio as target of both prongs"]
+      }
+    }
+  ]
+}

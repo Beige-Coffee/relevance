@@ -1,0 +1,48 @@
+{
+  "num": 34,
+  "slug": "sacredness-horror-music-symbol",
+  "title": "Sacredness: Horror, Music, and the Symbol",
+  "essence": "Deepening the phenomenology of sacredness, Vervaeke develops the numinous as transgressive sacredness through Otto's analysis. Horror emerges when inter-categorical things violate cognitive grip on reality—not from fear of predation but from loss of comprehension. Yet this horror, when bounded, becomes awe: confrontation with the limits of framing that demands maximal accommodation while humbling the ego. Music exemplifies how symbols activate the machinery of salience and relevance realization for its own sake, without external reference. Symbols work through exaptation: activating embodied neural circuits originally evolved for other purposes, then re-using them to hold abstract concepts in mind (e.g., the scale for justice) and participate in their unfolding. The symbol is ecstatic (standing beyond oneself), participatory, integrative, and complex—capable of opening consciousness to new worlds while transforming the self to dwell within them.",
+  "keyClaims": [
+    "Horror arises from inter-categorical violation of cognitive categories, challenging grip on reality itself.",
+    "The numinous transgresses worldview boundaries, exposing ultimate inadequacy of frames while demanding accommodation.",
+    "Music is the paradigm symbol: purely participatory engagement with relevance realization machinery without conceptual reference.",
+    "Symbols work via exaptation—reactivating neural machinery evolved for embodied functions to hold and explore abstract realities.",
+    "Symbols are ecstatic, participatory, integrative, complex—capable of driving anagogic flow between self-transformation and world-disclosure."
+  ],
+  "concepts": [
+    {"name": "numinous", "treatment": "developed", "summary": "Otto's term for the transcendent pole of sacredness; fascinating and horrifying; beyond moral categories."},
+    {"name": "horror", "treatment": "introduced", "summary": "Perspectival clash causing loss of cognitive grip; categorization breakdown threatening intelligibility."},
+    {"name": "absurdity", "treatment": "referenced", "summary": "Clash of incompatible perspectives; often humorous when resolvable, horrifying when irresoluble."},
+    {"name": "inter-categorical", "treatment": "introduced", "summary": "Things violating categorical boundaries (e.g., zombies, ghosts); uncanny because they disrupt sense-making."},
+    {"name": "symbol", "treatment": "developed", "summary": "Exemplifies through participatory engagement, not merely refers; activates cognitive machinery for integration and world-disclosure."},
+    {"name": "sign", "treatment": "introduced", "summary": "Merely refers; points through rather than exemplifies; doesn't activate participatory machinery."},
+    {"name": "exaptation", "treatment": "developed", "summary": "Reusing neural circuits evolved for one function to enable novel cognitive capacities; reversible unlike evolutionary exaptation."},
+    {"name": "metaphor", "treatment": "developed", "summary": "Not ornamental but structuring; involves bidirectional linking between domains; both bottom-up projection and top-down emanation."},
+    {"name": "anagoge", "treatment": "developed", "summary": "Resonance between symbolic engagement and world-disclosure; each deepening opens the other in spiral of transformation."},
+    {"name": "music", "treatment": "introduced", "summary": "Paradigmatic symbol; pure engagement with salience and relevance machinery for its own sake; no external reference."},
+    {"name": "ecstasis", "treatment": "introduced", "summary": "Standing beyond oneself; symbols help consciousness expand beyond current framings."}
+  ],
+  "people": [
+    {"name": "Mary Douglas", "role": "referenced", "summary": "On inter-categorical things as unclean/monstrous; purity codes based on categorical coherence."},
+    {"name": "Max Black", "role": "referenced", "summary": "On metaphor as more than comparison; involves interaction theory and salience imbalance."},
+    {"name": "Andrew Ortony", "role": "referenced", "summary": "On salience imbalance in metaphorical understanding."},
+    {"name": "George Lakoff", "role": "discussed", "summary": "On metaphors we live by; conceptual metaphor theory; critiqued for oversimplifying projection mechanism."},
+    {"name": "Mark Johnson", "role": "discussed", "summary": "Co-author on metaphorical structure of cognition; embodied metaphor theory."},
+    {"name": "Owen Barfield", "role": "referenced", "summary": "On linguistic evolution and changing meaning; metaphor as fundamental to language."},
+    {"name": "John Kennedy", "role": "referenced", "summary": "Co-authored work showing metaphor involves both bottom-up and top-down mechanisms."},
+    {"name": "Michael Anderson", "role": "discussed", "summary": "On exaptation in brain; neural reuse and circuit reconfiguration for new functions."},
+    {"name": "Nietzsche", "role": "referenced", "summary": "On looking into abyss; sacredness of transgressive experience."},
+    {"name": "Jonathan Pageau", "role": "referenced", "summary": "On symbolic world; remembering functional and participatory nature of symbols."}
+  ],
+  "crossRefs": [
+    {"episode": 33, "context": "Previous episode on numinous and horror; this develops them through symbol and music."},
+    {"episode": 35, "context": "Next episode continues symbol analysis, relating it to sacredness and sacred."},
+    {"episode": 1, "context": "Opening episode on meaning crisis; symbols and music as responses to meaninglessness."}
+  ],
+  "quotableMoments": [
+    {"quote": "Horror is when your sense of contact with reality is being challenged, undermined, where you feel you have a grasp on things and then it's slipping away.", "context": "Distinguishing horror from fear; horror as loss of cognitive grip."},
+    {"quote": "In music we are playing just with the machinery of salience landscaping, just with all of this machinery in a powerful way, for no other reason than for its own sake!", "context": "Music as paradigmatic symbol engaging relevance realization purely participatorily."},
+    {"quote": "What a symbol has to do is... it has to reach into your world view, but... won't be stable within it; it has to be transgressive... and put you into... a way that is making you move to and become capable of dwelling within that more expansive worldview.", "context": "Symbol's function in driving expansion and transformation."}
+  ]
+}

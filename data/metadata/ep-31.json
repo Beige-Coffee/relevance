@@ -1,45 +1,72 @@
 {
   "num": 31,
   "slug": "embodied-embedded-rr-dynamical-gi",
-  "title": "Embodied-Embedded RR as Dynamical-Developmental GI",
-  "essence": "Extending the dynamical systems account, Vervaeke emphasizes the bodily and environmental embeddedness of relevance realization. The body is not Cartesian clay but a constitutive bioeconomy without which cognition cannot occur. Relevance is neither projected subjectively nor detected objectively, but is transjective—co-created between organism and environment. Introducing compression and particularization as internal bioeconomic processes, he draws parallels to Piaget's assimilation and accommodation, showing that relevance realization is inherently developmental: systems self-organize by simultaneously integrating (compression) and differentiating (particularization), leading to complexification and emergent capacities. This sets the stage for understanding general intelligence as grounded in relevance realization's ongoing evolution of cognitive-interactional fitness.",
+  "title": "Embodied, Embedded RR and Dynamical General Intelligence",
+  "essence": "Episode 31 develops two interlocking arguments about the nature of relevance realization. First, Vervaeke introduces the concept of transjective relations: relevance is neither purely subjective (a mere projection of the organism's desires) nor purely objective (a property of the world independent of any observer) — it is transjective, co-constituted in the ongoing coupling between organism and environment, like affordances in ecological psychology. Second, he unpacks the information-processing constraints of RR: the organism faces a fundamental compression–particularization trade-off, because to respond to any situation it must both compress information (treating particulars as instances of general patterns) and particularize (treating the situation as having unique features not captured by any generalization). Managing this trade-off across many contexts is precisely what Spearman's g — general intelligence — measures, leading Vervaeke to argue that RR just is general intelligence, neurally implemented. Finally, the episode shows how this adaptive machinery is inherently developmental: as the organism becomes more fit, it complexifies — generating new cognitive functions and new layers of self-organization — which explains why RR is capable of genuine self-transcendence rather than mere optimization within a fixed space.",
   "keyClaims": [
-    "Relevance realization is inherently embodied and embedded; neither purely internal nor external but transjective.",
-    "Compression and particularization are complementary bioeconomic processes that trade off efficiency for resiliency.",
-    "These map onto Piaget's assimilation and accommodation, showing relevance realization is fundamentally developmental.",
-    "General intelligence (g-factor) can be understood as unified relevance realization, evidenced by strong positive manifold in psychometrics.",
-    "Relevance realization is self-organizing, multi-scale, and continuously complexifying through development."
+    "Relevance is transjective: co-constituted in the organism–environment coupling, neither projected nor detected.",
+    "RR must balance compression (generalizing) with particularization (attending to unique features) — a trade-off managed across all cognitive domains.",
+    "General intelligence (Spearman's g) is best understood as the capacity for cross-domain management of the compression–particularization trade-off, i.e., as RR.",
+    "RR is inherently developmental: increased fitness produces complexification, generating new cognitive levels — genuine self-transcendence.",
+    "Embodiment and embeddedness are constitutive of RR, not merely enabling conditions."
   ],
   "concepts": [
-    {"name": "transjective", "treatment": "introduced", "summary": "A transactional relationship neither subjective nor objective; characteristics of relevance realization's nature."},
-    {"name": "compression", "treatment": "introduced", "summary": "Bioeconomic process of data compression via integration; emphasizes invariance for generalization and efficiency."},
-    {"name": "particularization", "treatment": "introduced", "summary": "Bioeconomic process emphasizing context-specific variation; increases resiliency and context-sensitivity."},
-    {"name": "cognitive scope", "treatment": "introduced", "summary": "The dynamic trade-off between compression and particularization; enables varying generality vs. specificity."},
-    {"name": "applicability", "treatment": "introduced", "summary": "How flexibly a cognitive function can be applied across contexts; shaped by general vs. special purpose processing."},
-    {"name": "exploitation", "treatment": "introduced", "summary": "Remaining in current situation to maximize resource extraction; opportunistic but costly if environment changes."},
-    {"name": "exploration", "treatment": "introduced", "summary": "Seeking new environments and possibilities; costly upfront but enables discovery of better niches."},
-    {"name": "cognitive tempering", "treatment": "introduced", "summary": "Dynamic balance between exploitation (reward error reduction) and exploration (reward error increase)."},
-    {"name": "cognitive prioritization", "treatment": "introduced", "summary": "Flexible gambling among cost functions; allocating attentional and metabolic resources based on context."},
-    {"name": "complexification", "treatment": "introduced", "summary": "Process where simultaneous integration and differentiation produce emergent capacities and self-transcendence."},
-    {"name": "general intelligence", "treatment": "developed", "summary": "Unified phenomenon grounded in relevance realization; evidenced by strong positive manifold in intelligence testing."},
-    {"name": "assimilation", "treatment": "referenced", "summary": "Piaget's term; maps to compression and integration; treating new information as continuous with existing schemas."},
-    {"name": "accommodation", "treatment": "referenced", "summary": "Piaget's term; maps to particularization and differentiation; restructuring schemas in response to novelty."}
+    {
+      "id": "relevance-realization",
+      "treatment": "developed"
+    },
+    {
+      "id": "transjective-relations",
+      "treatment": "developed"
+    },
+    {
+      "id": "4e-cognition",
+      "treatment": "developed"
+    },
+    {
+      "id": "self-transcendence",
+      "treatment": "developed"
+    },
+    {
+      "id": "participatory-knowing",
+      "treatment": "applied"
+    },
+    {
+      "id": "agent-arena-relationship",
+      "treatment": "applied"
+    }
   ],
   "people": [
-    {"name": "Markus Brede", "role": "referenced", "summary": "Mathematical proof that networks optimize trade-offs between efficiency and resiliency."},
-    {"name": "Tim Lilicrap", "role": "discussed", "summary": "Colleague who showed these strategies align with cutting-edge AI; co-authored paper on relevance realization."},
-    {"name": "Blake Richards", "role": "discussed", "summary": "Co-author on relevance realization paper showing AI convergence with cognitive science theory."},
-    {"name": "Jean Piaget", "role": "referenced", "summary": "Developmental psychology founder; assimilation and accommodation parallel compression and particularization."},
-    {"name": "Charles Spearman", "role": "referenced", "summary": "Discovered general intelligence factor (g) and strong positive manifold; foundational to psychometrics."},
-    {"name": "Leo Ferraro", "role": "referenced", "summary": "Psychometrist collaborator on connecting relevance realization to general intelligence."}
+    {
+      "id": "varela",
+      "role": "referenced"
+    },
+    {
+      "id": "merleau-ponty",
+      "role": "referenced"
+    },
+    {
+      "id": "dreyfus",
+      "role": "referenced"
+    }
   ],
   "crossRefs": [
-    {"episode": 30, "context": "Previous episode introduced dynamical systems framework; this applies it to embodied, embedded cognition."},
-    {"episode": 32, "context": "Next episode applies these concepts to neural implementation and consciousness."}
+    {
+      "episode": 30,
+      "reason": "Bio-economic norms established in previous episode grounds the transjective analysis"
+    },
+    {
+      "episode": 26,
+      "reason": "Embodied/embedded cognition framework first introduced"
+    },
+    {
+      "episode": 32,
+      "reason": "Neural implementation of the complexity-generating RR follows"
+    },
+    {
+      "episode": 38,
+      "reason": "4E cognitive science and embodiment developed as worldview framework"
+    }
   ],
-  "quotableMoments": [
-    {"quote": "The body is not a useless appendage. It is not just a vehicle. The body is an auto-poetic bio-economy that makes your cognition possible.", "context": "Establishing embodiment as constitutive, not incidental, to cognition."},
-    {"quote": "Relevance is neither subjective nor objective; it is transjective—a real relationship between organism and environment.", "context": "Central claim that relevance transcends subject-object dualism."},
-    {"quote": "Relevance Realization is unified phenomenon... is actually the underlying ability of your general intelligence.", "context": "Connecting dynamical-developmental theory to psychometric evidence of g-factor."}
-  ]
+  "quotableMoments": []
 }

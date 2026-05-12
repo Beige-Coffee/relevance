@@ -1,0 +1,51 @@
+{
+  "num": 39,
+  "slug": "religion-of-no-religion",
+  "title": "The Religion of No Religion",
+  "essence": "Addressing the final integration, Vervaeke proposes a comprehensive framework for 'religion that is not a religion'—psychotechnologies that transform consciousness without supernatural claims. Distinguishing religio (participatory binding) from credo (propositional belief system), he argues that credal dominance obscures credo's actual function: setting decision criteria for what accesses religio. Using signal detection theory, he shows that criterion-setting is inherently risky and contextually sensitive, requiring wisdom rather than absolutism. Mythos should operate across three levels—participatory, procedural, perspectival, and propositional—maintaining credo in service to religio. Rather than utopic visions, Vervaeke proposes a meta-psychotechnology enabling communities to collectively engineer ecologies of practice. A wiki-structured credo and cooperative curricula allow distributed groups to coordinate while adapting to local contexts. The project remains open-ended, grounded in cognitive science, and fundamentally concerned with cultivating wisdom as the meta-virtue coordinating responses to the meaning crisis.",
+  "keyClaims": [
+    "Religio and credo are distinct; credo's function is setting decision criteria for accessing religio, not asserting absolute truths.",
+    "Criterion-setting is intrinsically risky due to signal-noise overlap; requires wisdom-guided contextual sensitivity, not absolutism.",
+    "Mythos must operate across three levels: participatory, procedural-perspectival, and propositional; always serving religio.",
+    "Meta-psychotechnology enables communities to collectively create and refine ecologies of practices without utopic visions.",
+    "Wisdom is the meta-virtue that coordinates individual virtues and collective engineering of responsive psychotechnologies."
+  ],
+  "concepts": [
+    {"name": "religio", "treatment": "developed", "summary": "Participatory binding of agent and arena; the machinery of meaning-making; primary target of spiritual practice."},
+    {"name": "credo", "treatment": "introduced", "summary": "Paradigmatic propositions and pictures; function is setting decision criteria for accessing religio, not asserting essences."},
+    {"name": "credal dominance", "treatment": "introduced", "summary": "Treating credo as propositional truth system to believe; obscures criterion-setting function and breeds fundamentalism."},
+    {"name": "signal detection theory", "treatment": "introduced", "summary": "Framework showing inherent overlap between desired signal and irrelevant noise; criterion-setting is risky gamble."},
+    {"name": "signal", "treatment": "introduced", "summary": "Information wanted or needed; defined relationally through relevance realization."},
+    {"name": "noise", "treatment": "introduced", "summary": "Information unwanted; distracting or misleading information confused with signal."},
+    {"name": "criterion-setting", "treatment": "introduced", "summary": "Decision line for including signal and excluding noise; contextually sensitive; no universally optimal placement."},
+    {"name": "miss-signal error", "treatment": "introduced", "summary": "Failing to detect actual signal; often costlier than false alarms, drives conservative criterion placement."},
+    {"name": "mistake-noise error", "treatment": "introduced", "summary": "False alarm; treating noise as signal; costly but typically less catastrophic than missing signal."},
+    {"name": "three-level mythos", "treatment": "introduced", "summary": "Mythos operating across unconscious participation, conscious perspectival-procedural, and cultural-propositional levels."},
+    {"name": "meta-psychotechnology", "treatment": "introduced", "summary": "Explicit practices for collectively creating and refining ecologies of psychotechnologies; enables coordination and evolution."},
+    {"name": "wiki-credo", "treatment": "introduced", "summary": "Collective, evolving credo structured like Wikipedia; allows adaptive criterion-setting across distributed communities."},
+    {"name": "seeing through illusion", "treatment": "developed", "summary": "Core of wisdom; systematic perception of self-deception and into more-real; converges across philosophical and psychological theories."}
+  ],
+  "people": [
+    {"name": "James Carse", "role": "referenced", "summary": "The Religious Case Against Belief; exploring religion beyond creeds."},
+    {"name": "Alain de Botton", "role": "referenced", "summary": "Religion for Atheists; secular exploration of religion's psychotechnological functions."},
+    {"name": "Richard Dawkins", "role": "referenced", "summary": "Advocates cultivating poetic capacity for wonder and awe consonant with scientific worldview."},
+    {"name": "Arthur Versluis", "role": "referenced", "summary": "The New Inquisitions; history of heresy persecution foreshadowing totalitarian regimes."},
+    {"name": "Tomas Björkman", "role": "referenced", "summary": "Meta-crisis concept; integrated crises requiring coordinated response."},
+    {"name": "Robert Sternberg", "role": "referenced", "summary": "Pioneered cognitive science of wisdom; convergence between philosophical and psychological theories."},
+    {"name": "McKee and Barber", "role": "discussed", "summary": "Reflective equilibrium method; all wisdom theories converge on seeing through illusion into reality."},
+    {"name": "Lau", "role": "referenced", "summary": "Consciousness sets decision criteria for perception; perspectival knowing is primary guidance."},
+    {"name": "Leo Ferraro", "role": "referenced", "summary": "Co-author with Vervaeke; wisdom involves seeing through illusion into more-real."},
+    {"name": "Jordan Hall", "role": "referenced", "summary": "Coherence and meta-psychotechnology; freeing communication from constraining cultural grammar."}
+  ],
+  "crossRefs": [
+    {"episode": 38, "context": "Previous episode provided 4E cognitive science framework; this operationalizes it as religion-not-religion."},
+    {"episode": 37, "context": "Earlier episodes detailed psychotechnologies; this shows how to coordinate them through meta-psychotechnology."},
+    {"episode": 1, "context": "Opening episode on meaning crisis; this series-long response culminates in practical framework and wisdom cultivation."}
+  ],
+  "quotableMoments": [
+    {"quote": "Credo is setting the criterion on religio. We have to set the criterion, but it is dangerous to set the criterion in an absolute fashion.", "context": "Function of credo as decision-making tool rather than truth assertion; wisdom guides flexible criterion-setting."},
+    {"quote": "The point is not to set the criterion conclusively. The point is to continually reset the criterion optimally.", "context": "Open-ended approach replacing absolute creeds; continuous adaptive response."},
+    {"quote": "Mythos should always have credo in the service of religio.", "context": "Core principle for religion-not-religion; propositional beliefs serve participatory meaning-making, not vice versa."},
+    {"quote": "What all of these theories converge on is seeing through illusion. The core of wisdom is the ability to see through illusion into some sense of what's more real.", "context": "Wisdom as central to cultivating meaningful response to meaning crisis."}
+  ]
+}

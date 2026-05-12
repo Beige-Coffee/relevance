@@ -1,0 +1,259 @@
+[
+  {
+    "id": "4e-cognition",
+    "title": "4E Cognition",
+    "conceptId": "4e-cognition",
+    "abstract": "This course introduces the third-generation cognitive science framework that underlies Vervaeke's entire response to the meaning crisis. You will be able to articulate why mind is not a computer running symbol-manipulation software, and instead how cognition is embodied (arising through sensorimotor coping), embedded (co-constituted with environment through niche construction), enacted (something organisms do rather than passively receive), and extended (distributed through psychotechnologies and social networks). Understanding 4E cognition is essential because it provides the naturalistic worldview in which concepts like relevance realization, participatory knowing, and religio can be coherently situated — replacing the Cartesian ghost-in-machine picture that has made the meaning crisis harder to diagnose and harder to solve.",
+    "moduleCount": 5,
+    "prerequisites": []
+  },
+  {
+    "id": "agape",
+    "title": "Agape",
+    "conceptId": "agape",
+    "abstract": "This course explores agape — the creative, sacrificial love that turns non-persons into persons — one of the most distinctive and transformative concepts Vervaeke draws from the Christian tradition. After completing this course, you will be able to articulate why agape is not an emotion but a modal way of being; why all agapic love is 'for-giving' love (giving before it is earned); how receiving or giving agape triggers the radical reorientation Vervaeke calls metanoia; and how Paul's first letter to the Corinthians binds agape to gnosis as inseparable modes of knowing and loving. Agape is pivotal in the series arc because it names the psychotechnology through which persons are made — the love that precedes, flows through, and transforms individuals into participants in something larger than their own autobiography.",
+    "moduleCount": 5,
+    "prerequisites": []
+  },
+  {
+    "id": "altered-states-of-consciousness",
+    "title": "Altered States of Consciousness",
+    "conceptId": "altered-states-of-consciousness",
+    "abstract": "This course examines altered states of consciousness — the radical transformations of the salience, presence, and depth landscapes that shamanic and contemplative traditions deliberately cultivated and that modern research has begun to study scientifically. After completing this course, you will be able to explain how altered states differ from ordinary insight (they are insights of consciousness rather than in it), how disruptive strategies produce cross-neural integration that enables cognitive exaptation, and how the Upper Paleolithic cognitive revolution may have been driven by shamanic psychotechnologies. Altered states are a foundational concept in the series arc: they are the vehicle by which higher states of consciousness are reached, and understanding their cognitive mechanics is essential for evaluating whether the religious transformations Vervaeke traces throughout history have any naturalistic warrant.",
+    "moduleCount": 4,
+    "prerequisites": []
+  },
+  {
+    "id": "eros",
+    "title": "Eros",
+    "conceptId": "eros",
+    "abstract": "This course examines eros — the love of becoming one with something — as the first in Vervaeke's trilogy of loves (eros, philia, agape), each with a distinct logic. After completing this course, you will be able to articulate why eros is not reducible to sexual desire but encompasses any orientation toward union or consummation; why eros is satisfied by becoming one with its object rather than by cooperation or creativity; and how Socrates transformed eros into 'ta erotika' — an art of knowing what to care about and how to care about it rightly. Eros is essential to the series arc because it introduces the comparative analysis of love that makes the distinctiveness of agape — and the meaning-making power of different ways of loving — intelligible. Understanding eros also grounds the later discussion of how the erotic drive toward union can be sublimated or misdirected, driving both wisdom and foolishness.",
+    "moduleCount": 2,
+    "prerequisites": []
+  },
+  {
+    "id": "flow",
+    "title": "Flow",
+    "conceptId": "flow",
+    "abstract": "This course examines flow — Csikszentmihalyi's optimal experience — through Vervaeke's cognitive-scientific lens. After completing this course, you will be able to explain the skills-demands matching condition that triggers flow, why flow is an insight cascade rather than mere enjoyment, how its tight feedback conditions train implicit learning to track causal patterns, and why the reduction of self-monitoring in flow frees cognitive resources in a way connected to mindfulness and the being-mode. Flow matters in the series arc because it is the universal altered state of consciousness that cultures across history have cultivated — and the more often one flows, the more meaningful one rates one's life. Understanding flow provides a naturalistic bridge between the cognitive machinery of relevance realization and the transformative states that wisdom traditions sought.",
+    "moduleCount": 3,
+    "prerequisites": []
+  },
+  {
+    "id": "higher-states-of-consciousness",
+    "title": "Higher States of Consciousness",
+    "conceptId": "higher-states-of-consciousness",
+    "abstract": "This course examines higher states of consciousness — the subset of altered states experienced as more real than ordinary reality — and explains why they pose a serious philosophical challenge rather than a curiosity for psychiatry. After completing this course, you will be able to describe the characteristic features of higher states (ontonormativity, ineffability, systematic insight), explain why 30–40% of the population reports having had such experiences across all cultures and historical periods, and articulate Vervaeke's account of their rational justification: not through propositional content but by optimizing relevance realization machinery. Higher states are pivotal in the series arc because they are what religious traditions have pointed to as the destination of the transformative practices Vervaeke studies — and understanding them naturalistically is essential for a non-supernaturalist response to the meaning crisis.",
+    "moduleCount": 4,
+    "prerequisites": [
+      "altered-states-of-consciousness"
+    ]
+  },
+  {
+    "id": "insight",
+    "title": "Insight",
+    "conceptId": "insight",
+    "abstract": "This course examines insight — the sudden restructuring of cognition in which an inappropriate frame is broken and a better one constructed — through Vervaeke's cognitive-scientific account. After completing this course, you will be able to describe the two phases of insight (frame-breaking via de-automatization; frame-building via new gestalt), explain why flow produces an insight cascade, and articulate the crucial distinction between insight in consciousness (reframing a single problem) and the transframing insight that transforms the competence for relevance realization itself. Insight is foundational in the series arc because it is the cognitive mechanism behind wisdom, the basis of the transformative experiences religious traditions sought, and — as mindfulness training shows — cultivable through practice rather than merely awaitable through luck.",
+    "moduleCount": 3,
+    "prerequisites": []
+  },
+  {
+    "id": "modal-confusion",
+    "title": "Modal Confusion",
+    "conceptId": "modal-confusion",
+    "abstract": "After this course, students will be able to articulate why Erich Fromm's distinction between having-needs and being-needs reveals a structural fault-line in modern consumer culture, and why attempting to satisfy being-mode needs through having-mode strategies generates a self-compounding spiral of frustration — what Vervaeke calls modal confusion. Students will understand how the palace myth in the Siddhartha story enacts, not just describes, this confusion, and how mindfulness (sati) is presented as a counteractive response. This concept sits at the intersection of the series' existential and cognitive-science threads: it connects Aristotle's agent-arena coupling to Buddhist diagnosis to the contemporary therapeutic interest in modes of engagement rather than accumulation of beliefs. Understanding modal confusion is essential for grasping why parasitic processing is so tenacious.",
+    "moduleCount": 2,
+    "prerequisites": [
+      "having-mode-being-mode"
+    ]
+  },
+  {
+    "id": "mythos-vs-logos",
+    "title": "Mythos vs Logos",
+    "conceptId": "mythos-vs-logos",
+    "abstract": "After this course, students will be able to articulate what logos and mythos each contribute to human meaning-making, why their distinction is not the same as their opposition, and why the modern severance of logos from mythos — leaving rational discourse without existential transformative power, and symbolic-ritual practice without rational grounding — is a driving cause of the meaning crisis. Students will understand how the Gospel of John's 'In the beginning was the Logos' represents one ancient model of integration, and how Hegel later attempted a philosophical translation of mythos into logos. This concept bridges the series' historical thread (Plato, Stoics, Christianity) with its normative thread (religio, ritual, symbol), showing why neither scientific rationality alone nor unreflective mythology alone can address the meaning crisis.",
+    "moduleCount": 2,
+    "prerequisites": [
+      "mythos"
+    ]
+  },
+  {
+    "id": "parasitic-processing",
+    "title": "Parasitic Processing",
+    "conceptId": "parasitic-processing",
+    "abstract": "After this course, students will be able to explain how the very cognitive machinery that makes human beings intelligently adaptive — heuristics, encoding specificity, confirmation bias, self-organizing dynamics — also makes them structurally vulnerable to self-reinforcing loops of self-deceptive, self-destructive behavior. They will understand why this vulnerability is not a moral failing but an architectural feature of intelligent agency, why willpower or propositional insight alone cannot break the spiral, and how the Buddhist Eightfold Path can be understood as a counteractive dynamical system. This concept is central to the series' diagnosis of why suffering persists despite awareness: it is endemic, not accidental. Parasitic processing connects Aristotle's akrasia, Buddhist dukkha, and Marc Lewis's reciprocal narrowing into a unified cognitive-scientific account.",
+    "moduleCount": 3,
+    "prerequisites": [
+      "self-deception"
+    ]
+  },
+  {
+    "id": "participatory-knowing",
+    "title": "Participatory Knowing",
+    "conceptId": "participatory-knowing",
+    "abstract": "After this course, students will be able to articulate what participatory knowing is, why it is the most foundational of the four kinds of knowing, and why modern culture's reduction of all knowing to propositional belief has left us existentially bereft. Students will understand Aristotle's conformity theory as the philosophical grounding for participatory knowing — knowing changes one's being, not just one's beliefs — and will see how this structure appears in shamanism, in gnosis, in therapy, and in the relationship between lover and beloved. This concept is the load-bearing foundation of the series' entire epistemology: every other form of knowing — procedural, perspectival, and propositional — rests asymmetrically upon it, and the meaning crisis can be read as the collapse of participatory knowing across modern life.",
+    "moduleCount": 3,
+    "prerequisites": []
+  },
+  {
+    "id": "perspectival-knowing",
+    "title": "Perspectival Knowing",
+    "conceptId": "perspectival-knowing",
+    "abstract": "After this course, students will be able to explain what perspectival knowing is — knowing constituted by what it is like to occupy a particular perspective, encoded in one's salience landscape — and why it is irreducible to propositional reports about one's perspective. Students will understand why Pascal's distinction between the 'spirit of geometry' and the 'spirit of finesse' diagnoses the modern loss of perspectival knowing, and why transformative experiences (mindfulness, gnosis, awakening) operate precisely at this level. This concept is pivotal in the series because it shows how two people can agree on all the propositions about a situation yet inhabit it completely differently — and why that difference matters more for wisdom, meaning, and therapy than any propositional disagreement. Perspectival knowing sits between procedural and participatory knowing in the foundational hierarchy.",
+    "moduleCount": 2,
+    "prerequisites": []
+  },
+  {
+    "id": "philia",
+    "title": "Philia",
+    "conceptId": "philia",
+    "abstract": "After this course, students will be able to articulate philia as the love of cooperative reciprocity — the love friends bear one another in shared pursuit of mutual development — and distinguish it clearly from eros (love of union through consummation) and agape (love that creates personhood in the beloved before reciprocity is possible). Students will understand why Pythagoras coined 'philo-sophia' (friendship-love of wisdom) rather than 'episteme-sophia' (knowledge of wisdom), what this reveals about philosophy's communal and aspirational character, and why the Epicureans identified friendship as the highest source of meaning. This concept anchors the series' treatment of love as a modal way of being rather than an emotion, and shows how distributed cognition in community is philosophically — not merely socially — essential.",
+    "moduleCount": 2,
+    "prerequisites": []
+  },
+  {
+    "id": "procedural-knowing",
+    "title": "Procedural Knowing",
+    "conceptId": "procedural-knowing",
+    "abstract": "After this course, students will be able to explain what procedural knowing is — the knowing instantiated in skills, powered by implicit learning, irreducible to propositional description — and why it occupies a crucial middle position in the four-kinds-of-knowing hierarchy. Students will understand why no amount of propositional instruction can teach one to ride a bicycle, and what that reveals about the structure of competence and expertise. They will also understand why procedural knowing depends on perspectival knowing: executing a skill well requires knowing what it is like to be in this situation. This concept is directly relevant to the series' argument that wisdom is not a set of beliefs but a cultivated capacity — and to why transformative practices (meditation, philosophical dialogue, virtue ethics) cannot be replaced by information.",
+    "moduleCount": 2,
+    "prerequisites": []
+  },
+  {
+    "id": "propositional-knowing",
+    "title": "Propositional Knowing",
+    "conceptId": "propositional-knowing",
+    "abstract": "This course examines what Vervaeke calls propositional knowing — the form of knowledge captured in true or false beliefs and statements — and why the modern reduction of all knowing to this single mode is both historically produced and philosophically problematic. Students will be able to articulate how propositional knowing differs from procedural, perspectival, and participatory knowing, explain why it is the most derivative of the four kinds rather than the most foundational, and identify the cultural and intellectual forces that produced its contemporary dominance. Understanding propositional knowing is the gateway to grasping why the meaning crisis cannot be resolved by acquiring better information alone, and why transformation — not merely new beliefs — is required for genuine wisdom.",
+    "moduleCount": 2,
+    "prerequisites": []
+  },
+  {
+    "id": "relevance-realization",
+    "title": "Relevance Realization",
+    "conceptId": "relevance-realization",
+    "abstract": "This course develops Vervaeke's central technical construct: relevance realization, the non-propositional, embodied process by which the mind-body system dynamically selects what matters out of a combinatorially explosive sea of available information. Students will be able to explain why relevance cannot be explained by representations or a central executive, articulate the key constraints any adequate theory must satisfy (non-circularity, auto-poetic grounding, scale-invariant self-organization), and connect relevance realization to meaning, agency, and the four kinds of knowing. In the series arc, relevance realization serves as Vervaeke's naturalistic foundation for consciousness, wisdom, religio, and the possibility of responding to the meaning crisis — making it one of the most load-bearing concepts in the entire lecture series.",
+    "moduleCount": 4,
+    "prerequisites": []
+  },
+  {
+    "id": "religio",
+    "title": "Religio",
+    "conceptId": "religio",
+    "abstract": "This course develops Vervaeke's concept of religio — the deep, pre-institutional, transjective binding of agent and arena that underlies all individual acts of meaning-making and all religious and spiritual traditions. Students will be able to distinguish religio from both institutional religion and from its propositional counterpart credo, explain how religio functions as higher-order relevance realization, and articulate why the modern meaning crisis is partly a crisis of religio — the collapse of the lived participatory binding into mere creedal belief. In the series arc, religio is the concept that bridges cognitive science (relevance realization, agent-arena relationship) to the normative question of what wisdom practices must cultivate in order to address the perennial problems of human existence.",
+    "moduleCount": 3,
+    "prerequisites": [
+      "relevance-realization"
+    ]
+  },
+  {
+    "id": "reverse-engineering-enlightenment",
+    "title": "Reverse-Engineering Enlightenment",
+    "conceptId": "reverse-engineering-enlightenment",
+    "abstract": "This course examines Vervaeke's cognitive-scientific project of reverse-engineering enlightenment: starting with a stipulative definition (enlightenment as the developmental process that reliably ameliorates the perennial problems) and working backward to identify what practices, mechanisms, and worldview conditions could produce it. Students will be able to explain why Vervaeke's redefinition makes enlightenment tractable, map specific perennial problems to specific psycho-technologies, and articulate why both worldview rearticulation and an ecology of practices are required. In the series arc, this concept is the integrative pivot where the cognitive-science framework (relevance realization, religio) meets the practical project of designing an adequate response to the meaning crisis.",
+    "moduleCount": 3,
+    "prerequisites": [
+      "relevance-realization",
+      "religio"
+    ]
+  },
+  {
+    "id": "salience-landscape",
+    "title": "Salience Landscape",
+    "conceptId": "salience-landscape",
+    "abstract": "This course develops Vervaeke's concept of the salience landscape — the dynamically structured field of standing-out and standing-back that consciousness produces through featurization, foregrounding, configuration, and framing. Students will be able to explain how the salience landscape operates as a pre-reflective topography that shapes what enters deliberate cognition, articulate why it is neither a spotlight nor a passive mirror, and connect optimal grip to the agent-arena relationship. In the series arc, the salience landscape is the phenomenological counterpart to relevance realization: where relevance realization names the sub-representational process, the salience landscape names the structured experiential terrain it generates — the field within which wisdom, self-deception, and transformation become possible.",
+    "moduleCount": 3,
+    "prerequisites": [
+      "relevance-realization"
+    ]
+  },
+  {
+    "id": "the-axial-revolution",
+    "title": "The Axial Revolution",
+    "conceptId": "the-axial-revolution",
+    "abstract": "This course develops Vervaeke's account of the axial revolution — the pivotal cognitive-cultural transformation from roughly 800 to 300 BCE when new psycho-technologies (alphabetic literacy, coinage) generated an unprecedented capacity for second-order thinking and an awareness of both self-deception and self-transcendence. Students will be able to explain how the Bronze Age collapse created the conditions for the axial breakthrough, articulate how literacy and coinage enabled second-order thinking, and describe the emergence of the two-worlds mythology that replaced the continuous cosmos. In the series arc, the axial revolution is the formative event for Western and world civilization — the origin of the philosophical, religious, and wisdom traditions that constitute the inheritance Vervaeke is both drawing upon and seeing as itself in crisis.",
+    "moduleCount": 5,
+    "prerequisites": [
+      "psycho-technology"
+    ]
+  },
+  {
+    "id": "the-four-kinds-of-knowing",
+    "title": "The Four Kinds of Knowing",
+    "conceptId": "the-four-kinds-of-knowing",
+    "abstract": "Vervaeke argues that modern culture has collapsed all forms of knowing into a single kind — propositional knowing (having justified true beliefs) — and that this collapse is itself a driver of the meaning crisis. Against this reduction, he distinguishes four irreducible kinds: propositional (knowing-that), procedural (knowing-how), perspectival (knowing what it is like), and participatory (knowing through being-in-relation). These form a hierarchy of asymmetric dependence: propositional depends on procedural, procedural on perspectival, perspectival on participatory — but none reduces to another. Recovering the non-propositional kinds of knowing is not a philosophical curiosity but a practical necessity: transformation, wisdom, and religio all operate at the procedural, perspectival, and participatory levels. This concept runs as connective tissue from Episode 1 through the wisdom discussions in Episodes 40–46.",
+    "moduleCount": 4,
+    "prerequisites": []
+  },
+  {
+    "id": "the-meaning-crisis",
+    "title": "The Meaning Crisis",
+    "conceptId": "the-meaning-crisis",
+    "abstract": "Vervaeke diagnoses a pervasive cultural-historical phenomenon: modern people experience a profound sense of disconnection — from themselves, each other, the world, and a viable future. The series opens by establishing that this crisis is not merely political or economic but deeply cognitive and historical, rooted in the erosion of meaning-making resources built up since the Axial Age. Students will learn to distinguish the three interlocking crises (meaning, environmental, socioeconomic), identify the symptomatology (rising suicide, nihilism, bullshit), and understand the two-legged structure of the problem: historical factors that have dismantled Western meaning-making traditions, and perennial vulnerabilities endemic to the same relevance-realization machinery that makes humans adaptively intelligent. This framing concept is the entry point for the entire series.",
+    "moduleCount": 4,
+    "prerequisites": []
+  },
+  {
+    "id": "the-perennial-problems",
+    "title": "The Perennial Problems",
+    "conceptId": "the-perennial-problems",
+    "abstract": "Vervaeke argues that alongside the historical drivers of the meaning crisis there is a second leg: the perennial problems. These are cross-cultural, transhistorical vulnerabilities endemic to the very relevance-realization machinery that makes humans adaptively intelligent. The same system that enables insight, learning, and meaning-making can generate parasitic processing, modal confusion, the reflectiveness gap, absurdity, anxiety, and alienation. Every culture has developed ecologies of psycho-technologies — wisdom traditions, religions, philosophical practices — to address these problems. The meaning crisis emerges precisely when historical factors have invalidated those traditions, leaving the perennial problems uncountered. Students will learn to identify each perennial problem, understand how it arises from adaptive machinery, and see why each requires its own targeted counteractive practice.",
+    "moduleCount": 4,
+    "prerequisites": [
+      "the-meaning-crisis"
+    ]
+  },
+  {
+    "id": "the-platonic-project",
+    "title": "The Platonic Project",
+    "conceptId": "the-platonic-project",
+    "abstract": "This course examines the Platonic project as Vervaeke reconstructs it: Plato's synthesis of Socratic self-knowledge and Pythagorean self-transcendence into a developmental program for wisdom, in which ordering the psyche simultaneously reduces inner conflict and deepens contact with reality. Students will be able to articulate the three-part structure of the psyche (man, lion, monster), explain the anagogic cycle of mutual deepening between self-knowledge and reality-contact, and trace the Myth of the Cave as a map of the transformative journey from illusion to participatory contact with the Good. In the series arc, the Platonic project is one of the two foundational feet of Western civilization (along with the Hebrew Bible) and serves as the historical origin of the two-worlds mythology, the aspirational self-transcendence that structures the axial legacy, and the participatory epistemology that Vervaeke's cognitive science reanimates.",
+    "moduleCount": 3,
+    "prerequisites": [
+      "the-axial-revolution"
+    ]
+  },
+  {
+    "id": "the-sacred",
+    "title": "The Sacred",
+    "conceptId": "the-sacred",
+    "abstract": "Vervaeke proposes a naturalistic account of the sacred — grounded in relevance realization and 4E cognition — that does not require supernatural metaphysical commitment yet does justice to the function and phenomenology of sacredness across traditions. The sacred is understood as the transjective relationship between the inexhaustible no-thing-ness of reality (always exceeding any frame) and the inexhaustible no-thing-ness of relevance realization in oneself. Sacredness functions as a meta-meaning system that homes individuals against horror and absurdity, and the symbol, mythos, and ritual are the primary vehicles by which it is activated. Students will learn to distinguish the sacred from the supernatural, understand its meta-meaning function via Geertz, grasp its transjective character via Vervaeke's own account, and see how the numinous marks the transgressive edge of sacred experience. This concept is pivotal in the series arc: it provides the experiential target for the 'religion that is not a religion.'",
+    "moduleCount": 3,
+    "prerequisites": [
+      "transjective-relations",
+      "the-meaning-crisis"
+    ]
+  },
+  {
+    "id": "transframing",
+    "title": "Transframing",
+    "conceptId": "transframing",
+    "abstract": "Transframing is Vervaeke's coinage for a bi-directional, participatory transformation that simultaneously reframes how one sees the world and reframes how one sees oneself — a systematic restructuring of the whole framing process, not merely the reframing of a particular problem. Ordinary insight reframes a problem within a given perspective; transframing transforms the perspective-making capacity itself. Iris Murdoch's mother-in-law example is canonical: she does not merely see her daughter-in-law differently but becomes a different kind of seer in the process. Transframing is the cognitive signature of wisdom and of genuine sacred symbolic engagement. Students will learn to distinguish transframing from reframing, understand the conditions that necessitate it (existential stupefaction), and grasp how gnosis, ritual, and serious play are its primary vehicles. This concept is central to Vervaeke's account of how awakening from the meaning crisis is not just intellectual but existential.",
+    "moduleCount": 3,
+    "prerequisites": [
+      "the-four-kinds-of-knowing",
+      "the-meaning-crisis"
+    ]
+  },
+  {
+    "id": "transjective-relations",
+    "title": "Transjective Relations",
+    "conceptId": "transjective-relations",
+    "abstract": "Vervaeke introduces transjectivity as his primary metaphysical category for moving beyond the subject-object dichotomy that has dominated Western philosophy since Descartes. Relevance, affordances, meaning, religio, and the sacred are all transjective — neither merely projected by the mind onto a neutral world, nor passively detected in an independently existing world, but real co-constituting relations between organism and environment in which both poles are mutually realized. Grounded in 4E cognition and the biology of niche construction, transjectivity provides a naturalistic account of how meaning can be genuinely real without requiring supernatural ontology. Students will learn to distinguish transjectivity from both subjectivism and objectivism, understand its grounding in relevance realization and co-evolutionary fittedness, and see how it underwrites the sacred, symbols, and religio.",
+    "moduleCount": 3,
+    "prerequisites": [
+      "the-four-kinds-of-knowing"
+    ]
+  },
+  {
+    "id": "wisdom",
+    "title": "Wisdom",
+    "conceptId": "wisdom",
+    "abstract": "Wisdom is the capstone concept of the series — the developmental response to the meaning crisis and the target of Vervaeke's project of reverse-engineering enlightenment. Vervaeke's mature account synthesizes Ardelt's three-factor model, the Berlin paradigm, and Sternberg's balance theory, with relevance realization as connective tissue. Wisdom is defined not as a body of knowledge but as a dynamical ecology of psycho-technologies and cognitive styles that reliably counteracts self-deceptive processing and affords seeing through illusion into reality. It integrates all four kinds of knowing — propositional through participatory — and requires active open-mindedness, mindfulness, internalization of the sage, understanding, gnosis, and aspiration. The Vervaeke-Ferraro three-tier model (active open-mindedness for propositional knowing, mindfulness for procedural-perspectival, internalizing the sage and sophrosyne for participatory) is developed in Episodes 44–45. Wisdom also enhances religio and connects to the sacred — it is not merely a cognitive achievement but the path toward the life of flourishing and awakening from the meaning crisis.",
+    "moduleCount": 5,
+    "prerequisites": [
+      "the-four-kinds-of-knowing",
+      "transframing",
+      "the-perennial-problems"
+    ]
+  }
+]

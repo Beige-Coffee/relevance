@@ -2,75 +2,112 @@
   "num": 47,
   "slug": "heidegger",
   "title": "Heidegger",
-  "essence": "Heidegger critiques Husserl's phenomenology for failing to develop participatory knowing, leaving consciousness trapped in Cartesian subjectivity. True contact with reality requires exploring dasein—the being whose being is in question. This existential realization opens participatory knowing grounding perspectival knowing within broader ontological structure. Heidegger diagnoses metaphysical tradition as history of nihilism: progressive forgetting of being itself in favor of treating being as a being (onto-theology). Medieval scholasticism, Descartes' cogito, and scientific rationalism progressively cut off contact with being. Yet history of metaphysics paradoxically reveals being through its absence. Phenomenological exploration of dasein—who and what we are—becomes interrogation of being itself. Authenticity involves confronting anxiety and thrownness, remembering being mode over having mode. Aletheia (truth as unconcealment) versus correspondence theory. Language reveals and conceals being. Through careful reading of Heidegger's texts, Vervaeke shows how phenomenology reconnects us to fundamental participation in being, opening transformation beyond technological manipulation toward authentic dwelling.",
+  "essence": "Vervaeke examines Heidegger's philosophical project as a prophetic response to the meaning crisis. The central thread is Heidegger's critique of the history of metaphysics as the history of nihilism — the systematic forgetfulness of being that results from becoming trapped in the having mode. From Heidegger's essay on the essence of truth, Vervaeke draws the key insight that truth as correctness (correspondence between statements and reality) is grounded in a deeper attunement — a comportment toward things that makes the agent-arena relationship possible in the first place. This attunement is identified with relevance realization, and its forgetfulness is identified as modal confusion. The essay on Angelus Silesius's rose poem illustrates the alternative: physis, the self-grounding blossoming of things that simultaneously shine into our experience and withdraw beyond our framing — the thing beyond itself. Truth as aletheia — unconcealment, a deep remembering that is simultaneously a disclosure of things shining and withdrawing — is the response to forgetfulness. Dreyfus is identified as the interpreter who connects Heidegger's thought to 4E cognitive science through the notion of optimal grip. Corbin's reading of Heidegger as anticipating gnosis — the transformative participatory knowing in which self-knowledge and world-knowledge are coupled — is introduced. The problem of onto-theology — understanding being in terms of a supreme being — is identified as the metaphysical error that deepens nihilism.",
   "keyClaims": [
-    "Husserl's phenomenology remains trapped in Cartesian subjectivity; participatory knowing must ground perspectival knowing",
-    "Metaphysical tradition is history of nihilism—progressive forgetting of being in pursuit of being as a being",
-    "Dasein (being whose being is in question) reveals that human existence is fundamentally interrogative and self-defining",
-    "Aletheia (truth as unconcealment) differs from correspondence theory; being reveals and conceals itself",
-    "Phenomenological exploration of dasein opens authentic being mode and transformation beyond technological domination"
+    "The history of metaphysics is the history of nihilism: a systematic forgetfulness of being produced by modal confusion — getting trapped in the having mode and forgetting the being mode.",
+    "Truth as correspondence between statements and reality is grounded in a deeper attunement that Heidegger calls the essence of truth — aletheia, an unconcealment that must be actively remembered.",
+    "The thing beyond itself — simultaneously shining into experience and withdrawing from our framing — is the ontological structure that grounds both relevance realization and sacredness.",
+    "Onto-theology — understanding being in terms of a supreme being — is the modal confusion that deepens nihilism by trying to capture the inexhaustible in a propositional object.",
+    "Corbin reads Heidegger as anticipating gnosis: the transformative participatory knowing where self-knowledge and world-knowledge are coupled in a dynamical conformity."
   ],
   "concepts": [
     {
-      "name": "dasein",
+      "id": "having-mode-being-mode",
+      "treatment": "applied",
+      "summary": "Heidegger's project is read as the attempt to recover the being mode from the deep forgetfulness of modal confusion into which the history of metaphysics has driven Western thought."
+    },
+    {
+      "id": "modal-confusion",
+      "treatment": "applied",
+      "summary": "The history of metaphysics is identified as the deepening of modal confusion — trying to grasp being within the having mode — leading to nihilism."
+    },
+    {
+      "id": "transjective-relations",
+      "treatment": "applied",
+      "summary": "Heidegger's attunement is interpreted as transjective: not subjective experience but the underlying relation that makes subject-object experience possible."
+    },
+    {
+      "id": "relevance-realization",
+      "treatment": "applied",
+      "summary": "Heidegger's attunement and Dreyfus's optimal grip are aligned with relevance realization as the non-propositional machinery that grounds the agent-arena relationship."
+    },
+    {
+      "id": "gnosis",
+      "treatment": "applied",
+      "summary": "Corbin reads Heidegger's participatory knowing as gnosis — salvic, redemptive participatory knowing in which self and world are transformed together."
+    },
+    {
+      "id": "worldview-attunement",
+      "treatment": "applied",
+      "summary": "Heidegger's attunement as the ground of the agent-arena relationship is connected to worldview attunement: the way agent and arena are shaped to each other below the propositional level."
+    },
+    {
+      "id": "4e-cognition",
+      "treatment": "applied",
+      "summary": "Dreyfus explicitly bridges Heidegger and 4E cognitive science; his Being-in-the-World and What Computers Can't Do are named as founding texts of this connection."
+    },
+    {
+      "id": "optimal-grip",
       "treatment": "developed",
-      "summary": "Being whose being is in question. Existential condition of human existence. Identity not fixed but continually interrogated. Central to Heidegger's phenomenology."
+      "summary": "Dreyfus's notion of optimal grip is identified as the cognitive-scientific articulation of Heidegger's attunement and relevance realization."
     },
     {
-      "name": "onto-theology",
-      "treatment": "introduced",
-      "summary": "Metaphysical error treating being as a being, subject to rational analysis. Metaphysics forgets being itself in this reduction."
-    },
-    {
-      "name": "aletheia",
-      "treatment": "introduced",
-      "summary": "Greek conception of truth as unconcealment, revelation. Contrasts with correspondence theory. Being reveals and withdraws simultaneously."
-    },
-    {
-      "name": "authenticity",
-      "treatment": "referenced",
-      "summary": "Genuine confrontation with dasein's being-in-question. Anxiety and thrownness connect to authentic existence."
-    },
-    {
-      "name": "being mode",
-      "treatment": "referenced",
-      "summary": "Participatory, contemplative stance toward being. Contrasts with having mode of manipulation and control."
+      "id": "the-prophets-of-the-meaning-crisis",
+      "treatment": "applied",
+      "summary": "Heidegger is examined as the central prophet in depth; the connections to Dreyfus, Corbin, and speculative realism (Harman) are elaborated."
     }
   ],
   "people": [
     {
-      "name": "Martin Heidegger",
-      "role": "developed",
-      "summary": "Central figure. Deepens phenomenology beyond Husserl through participatory knowing, dasein, and ontology. Diagnoses metaphysics as nihilism."
+      "id": "heidegger",
+      "role": "subject",
+      "summary": "The primary subject: his critique of metaphysics as nihilism, his notion of aletheia, Dasein, attunement, onto-theology, and physis are all examined in depth."
     },
     {
-      "name": "Edmund Husserl",
-      "role": "discussed",
-      "summary": "Heidegger's teacher and critic. Phenomenology remains Cartesian; lacks participatory knowing and ontological grounding."
+      "id": "dreyfus",
+      "role": "subject",
+      "summary": "His interpretation of Heidegger and his founding role in 4E cognitive science (optimal grip, What Computers Can't Do, Being-in-the-World) are examined as the bridge between Heidegger and cognitive science."
     },
     {
-      "name": "Hubert Dreyfus",
+      "id": "corbin",
+      "role": "introduced",
+      "summary": "His reading of Heidegger as anticipating gnosis is introduced; Avens's book The New Gnosis is cited as the source for the Corbin-Heidegger connection."
+    },
+    {
+      "id": "meister-eckhart",
       "role": "referenced",
-      "summary": "Contemporary interpreter of Heidegger helping translate his ideas into cognitive science framework."
+      "summary": "Heidegger's commentary on Angelus Silesius's rose poem — itself an interpretation of Eckhart — connects Heidegger to the Rhineland mystical tradition."
     },
     {
-      "name": "Maurice Merleau-Ponty",
+      "id": "merleau-ponty",
       "role": "referenced",
-      "summary": "Phenomenologist integrating embodiment and embeddedness, closer to Heidegger's participatory knowing than Husserl."
+      "summary": "Credited with developing the embodiment aspect of Heidegger's project; Vervaeke argues his work partially addresses the participatory knowing gap Heidegger identifies in Husserl."
+    },
+    {
+      "id": "plato",
+      "role": "referenced",
+      "summary": "Philia sophia vs. philia nikia — the love of wisdom vs. the love of victory — is invoked as the Platonic framing for Heidegger's critique of propositional metaphysics."
+    },
+    {
+      "id": "charles-taylor",
+      "role": "referenced",
+      "summary": "Dreyfus and Taylor's Retrieving Realism is cited as an example of using Heidegger and 4E cognitive science to recover contact epistemology."
     }
   ],
   "crossRefs": [
-    {"episode": 46, "reason": "Introduces Heidegger as central prophet of meaning crisis"},
-    {"episode": 48, "reason": "Corbin's response to Heidegger through imaginal realm"}
+    {
+      "episode": 46,
+      "context": "Heidegger was positioned as the central prophet and Dasein was introduced; this episode provides the full examination."
+    },
+    {
+      "episode": 48,
+      "context": "Corbin's development of Heidegger's gnosis through the imaginal and the divine double is the subject of the next episode."
+    }
   ],
   "quotableMoments": [
     {
-      "quote": "We are the beings whose being is in question—this interrogative structure is fundamental to human existence.",
-      "context": "Core existential insight distinguishing dasein from other beings; opens to participatory knowing."
-    },
-    {
-      "quote": "The history of metaphysics is the history of nihilism—progressive forgetting of being itself.",
-      "context": "Heidegger's diagnostic framework showing how Western thought systematically lost contact with being."
+      "quote": "Facts and rules are, by themselves, meaningless. To capture what Heidegger calls significance or involvement, they must be assigned relevance.",
+      "context": "Dreyfus's statement of the frame problem, quoted to establish the Heidegger-cognitive science connection via relevance."
     }
   ]
 }

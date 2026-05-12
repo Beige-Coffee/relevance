@@ -1,0 +1,102 @@
+{
+  "num": 1,
+  "slug": "introduction",
+  "title": "Introduction",
+  "essence": "Episode 1 establishes the foundational argument that a confluence of convergent phenomena—the mindfulness revolution, renewed interest in wisdom and stoicism, psychedelics, and happiness research—all point to a unified meaning crisis. Vervaeke traces the historical origins of human meaning-making to the Upper Paleolithic transition, when humans developed art, music, calendars, and enhanced cognition through shamanic practices and ritual. These shamanic psycho-technologies altered consciousness to generate insight and wisdom. The episode introduces key concepts: exaptation (repurposing evolved traits), psycho-technologies (tools that enhance cognition), and the shamanic role as a cultural bearer of wisdom. Through examination of trading rituals, initiation rituals, and shamanic practices, Vervaeke argues that meaning-making and wisdom cultivation are not recent concerns but foundational to human flourishing. The shamanic mastery of altered states, insight, and mind-sight prefigures the Axial Age's formalization of self-reflection and wisdom cultivation.",
+  "keyClaims": [
+    "Contemporary interest in mindfulness, wisdom, stoicism, and psychedelics indicates a unified cultural response to the meaning crisis",
+    "Human meaning-making originates in the Upper Paleolithic transition through shamanic psycho-technologies",
+    "Shamanism combines altered consciousness, insight, and wisdom to enhance individual and group survival",
+    "Exaptation explains how brains repurpose existing capacities for new functions, enabling rapid cognitive enhancement",
+    "Ritual-based psycho-technologies trained metacognition, mind-sight, and the capacity for self-reflection"
+  ],
+  "concepts": [
+    {
+      "name": "mindfulness revolution",
+      "treatment": "introduced",
+      "summary": "Contemporary cultural movement toward meditation and awareness practices as response to meaning crisis."
+    },
+    {
+      "name": "wisdom",
+      "treatment": "developed",
+      "summary": "Central human capacity for understanding meaning and reality, cultivated through shamanic and ritual practice."
+    },
+    {
+      "name": "altered states of consciousness",
+      "treatment": "developed",
+      "summary": "Non-ordinary states accessed through shamanic practice, generating insight and self-transcendence."
+    },
+    {
+      "name": "shamanism",
+      "treatment": "introduced",
+      "summary": "Psycho-technology involving ritual, altered states, and specialized knowledge for healing and insight."
+    },
+    {
+      "name": "psycho-technology",
+      "treatment": "introduced",
+      "summary": "Systematic tools that enhance cognitive and mental capacities, standardized and transmissible."
+    },
+    {
+      "name": "exaptation",
+      "treatment": "introduced",
+      "summary": "Evolutionary mechanism where traits evolved for one purpose are repurposed for another."
+    },
+    {
+      "name": "meaning making",
+      "treatment": "developed",
+      "summary": "Fundamental human capacity to create significance and coherence through symbols, ritual, and narratives."
+    },
+    {
+      "name": "mind-sight",
+      "treatment": "introduced",
+      "summary": "Capacity to perceive and understand others' mental states and one's own mind."
+    }
+  ],
+  "people": [
+    {
+      "name": "David Lewis-Williams",
+      "role": "discussed",
+      "summary": "Scholar of Upper Paleolithic transition and shamanism."
+    },
+    {
+      "name": "Matt Rossano",
+      "role": "discussed",
+      "summary": "Researcher on shamanism and its role in human cognitive development."
+    },
+    {
+      "name": "Michael Winkelman",
+      "role": "discussed",
+      "summary": "Scholar of shamanism across cultures and its neurological basis."
+    },
+    {
+      "name": "Michael Anderson",
+      "role": "discussed",
+      "summary": "Cognitive scientist who developed theory of exaptation in brain function."
+    },
+    {
+      "name": "Andy Clark",
+      "role": "referenced",
+      "summary": "Philosopher and cognitive scientist on human use of tools."
+    }
+  ],
+  "crossRefs": [
+    {
+      "episode": 2,
+      "context": "Flow state and altered consciousness will be further developed"
+    },
+    {
+      "episode": 3,
+      "context": "Shamanic practices lead into the Axial Revolution"
+    }
+  ],
+  "quotableMoments": [
+    {
+      "quote": "My name's John Vervaeke. I'm an assistant professor at the University of Toronto. I'm in the Psychology Department and in the Cognitive Science Program. And I also teach for the Buddhism psychology and mental health program.",
+      "context": "Introducing himself and his interdisciplinary perspective"
+    },
+    {
+      "quote": "The Shaman means 'one who knows', 'one who sees', 'one who has insight'. Shamans are considered wise people, and that's why we have all these words. Like the word 'Wizard' means 'a wise person'.",
+      "context": "Explaining the shamanic role as wisdom keeper"
+    }
+  ]
+}
