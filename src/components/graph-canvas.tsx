@@ -14,6 +14,7 @@ interface Props {
   onSelect: (node: GraphNode | null) => void;
   selectedId?: string | null;
   minDegree?: number;
+  onHoverLabel?: (label: string | null) => void;
 }
 
 interface RenderNode extends GraphNode {
@@ -53,7 +54,7 @@ const CLUSTER_COLORS_DARK: Record<string, string> = {
   methodological: "#7daaff",
 };
 
-export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1 }: Props) {
+export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1, onHoverLabel }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const fgRef = useRef<unknown>(null);
   const [size, setSize] = useState({ w: 800, h: 600 });
@@ -189,7 +190,8 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1 }
   // spring-back animation lasts a couple of seconds before resting.
 
   function nodeRadius(node: GraphNode): number {
-    return (node.kind === "person" ? 5 : 6) + Math.min(5, (node.count ?? 1) * 0.6);
+    // Slightly bigger visual nodes so they're easy to aim at.
+    return (node.kind === "person" ? 6 : 7) + Math.min(6, (node.count ?? 1) * 0.6);
   }
 
   function isLinkActive(l: GraphLink): boolean {
@@ -293,14 +295,15 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1 }
           }
           ctx.globalAlpha = 1;
         }}
-        // Bigger hit area than visual circle, so clicks are forgiving.
+        // Hit area is much larger than the visual circle so clicks and hovers
+        // are forgiving. Tested 6px and bumped to 14px for confident aim.
         nodePointerAreaPaint={(rawNode, color, ctx) => {
           const node = rawNode as RenderNode;
           if (node.x == null || node.y == null) return;
           const r = nodeRadius(node);
           ctx.fillStyle = color;
           ctx.beginPath();
-          ctx.arc(node.x, node.y, r + 6, 0, 2 * Math.PI);
+          ctx.arc(node.x, node.y, r + 14, 0, 2 * Math.PI);
           ctx.fill();
         }}
         linkColor={(l) => {
@@ -318,8 +321,10 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1 }
         // Keep all links visible; we dim them instead of hiding so the graph
         // doesn't appear to "shatter" on hover.
         onNodeHover={(n) => {
-          setHoverId(n ? ((n as GraphNode).id) : null);
-          if (containerRef.current) containerRef.current.style.cursor = n ? "pointer" : "default";
+          const node = n as GraphNode | null;
+          setHoverId(node ? node.id : null);
+          if (containerRef.current) containerRef.current.style.cursor = node ? "pointer" : "default";
+          onHoverLabel?.(node ? node.label : null);
         }}
         onNodeClick={(node) => onSelect(node as unknown as GraphNode)}
         onBackgroundClick={() => onSelect(null)}

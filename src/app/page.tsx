@@ -16,6 +16,7 @@ export default function Home() {
   const [people, setPeople] = useState<Person[]>([]);
   const [courses, setCourses] = useState<CourseSummary[]>([]);
   const [selected, setSelected] = useState<GraphNode | null>(null);
+  const [hoverLabel, setHoverLabel] = useState<string | null>(null);
   const [mode, setMode] = useState<GraphMode>("concepts");
   const [minDegree, setMinDegree] = useState(2);
 
@@ -81,8 +82,16 @@ export default function Home() {
               onSelect={setSelected}
               selectedId={selected?.id ?? null}
               minDegree={minDegree}
+              onHoverLabel={setHoverLabel}
             />
             <GraphLegend mode={mode} />
+            {hoverLabel && (
+              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-[280px] z-10 pointer-events-none">
+                <div className="px-4 py-2 rounded-full bg-[var(--ink)] text-[var(--bg)] text-sm font-medium shadow-lg whitespace-nowrap">
+                  {hoverLabel}
+                </div>
+              </div>
+            )}
           </>
         ) : (
           <div className="absolute inset-0 flex items-center justify-center text-[var(--muted)] text-sm">
