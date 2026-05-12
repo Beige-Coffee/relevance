@@ -52,6 +52,7 @@ export function HomeChat({
   const [input, setInput] = useState("");
   const [error, setError] = useState<string | null>(null);
   const scrollRef = useRef<HTMLDivElement>(null);
+  const inputRef = useRef<HTMLTextAreaElement>(null);
 
   useEffect(() => {
     scrollRef.current?.scrollTo({ top: scrollRef.current.scrollHeight, behavior: "smooth" });
@@ -138,7 +139,7 @@ export function HomeChat({
 
   if (collapsed) {
     return (
-      <aside className="h-full w-12 border-l border-[var(--border-soft)] bg-[var(--surface)]/95 flex flex-col items-center py-3">
+      <aside className="h-full w-12 shrink-0 border-l border-[var(--border-soft)] bg-[var(--surface)]/95 flex flex-col items-center py-3">
         <button
           onClick={onToggleCollapsed}
           aria-label="Expand chat"
@@ -155,7 +156,7 @@ export function HomeChat({
   }
 
   return (
-    <aside className="h-full w-full sm:w-[400px] border-l border-[var(--border-soft)] bg-[var(--surface)] flex flex-col">
+    <aside className="h-full w-full sm:w-[400px] shrink-0 border-l border-[var(--border-soft)] bg-[var(--surface)] flex flex-col">
       <header className="px-4 py-3 border-b border-[var(--border-soft)] flex items-center justify-between gap-2">
         <div className="flex items-center gap-2">
           <button
@@ -191,11 +192,6 @@ export function HomeChat({
               {selectedPerson.canonicalName}
             </Link>
           )}
-          {selectedCourse && (
-            <Link href={`/conversation/${selectedCourse.id}`} className="ml-auto text-[10px] uppercase tracking-wider text-[var(--accent)] hover:underline whitespace-nowrap">
-              Begin the Conversation →
-            </Link>
-          )}
           <button
             onClick={onClearSelected}
             aria-label="Clear anchor"
@@ -209,7 +205,15 @@ export function HomeChat({
 
       <div ref={scrollRef} className="flex-1 overflow-y-auto px-4 py-4">
         {messages.length === 0 ? (
-          <EmptyState onStarter={send} canChat={Boolean(hasKey())} />
+          selectedConcept && selectedCourse ? (
+            <ConversationOffer
+              concept={selectedConcept}
+              course={selectedCourse}
+              onAskInstead={() => inputRef.current?.focus()}
+            />
+          ) : (
+            <EmptyState onStarter={send} canChat={Boolean(hasKey())} />
+          )
         ) : (
           <div className="space-y-4">
             {messages.map((m) => (
@@ -244,6 +248,7 @@ export function HomeChat({
         className="border-t border-[var(--border-soft)] px-3 py-3 flex items-end gap-2"
       >
         <textarea
+          ref={inputRef}
           value={input}
           onChange={(e) => setInput(e.target.value)}
           onKeyDown={(e) => {
@@ -274,6 +279,60 @@ export function HomeChat({
         </button>
       </form>
     </aside>
+  );
+}
+
+function ConversationOffer({
+  concept,
+  course,
+  onAskInstead,
+}: {
+  concept: Concept;
+  course: CourseSummary;
+  onAskInstead: () => void;
+}) {
+  return (
+    <div className="space-y-4">
+      <div>
+        <div className="text-[10px] uppercase tracking-[0.16em] text-[var(--muted)] mb-1">
+          Flagship concept
+        </div>
+        <h3 className="serif text-xl text-[var(--ink)] leading-tight">
+          {concept.canonicalName}
+        </h3>
+        <p className="text-[13px] text-[var(--ink-soft)] mt-1.5 leading-relaxed">
+          {concept.definition}
+        </p>
+      </div>
+
+      <div className="rounded-md border border-[var(--accent)]/30 bg-[var(--accent-tint)] p-3.5">
+        <p className="text-[13px] text-[var(--ink)] leading-relaxed">
+          There&rsquo;s a guided <strong>Conversation</strong> on this concept: {course.moduleCount} module{course.moduleCount === 1 ? "" : "s"} of Socratic dialogue grounded in the transcripts.
+        </p>
+        <Link
+          href={`/conversation/${course.id}`}
+          className="mt-3 inline-flex items-center justify-center w-full px-3 py-2 rounded-md bg-[var(--accent)] text-white text-sm font-medium hover:bg-[var(--accent-bright)] transition-colors"
+        >
+          Begin the Conversation →
+        </Link>
+      </div>
+
+      <div className="flex items-center gap-3">
+        <div className="flex-1 h-px bg-[var(--border-soft)]" />
+        <span className="text-[10px] uppercase tracking-wider text-[var(--muted)]">or</span>
+        <div className="flex-1 h-px bg-[var(--border-soft)]" />
+      </div>
+
+      <button
+        onClick={onAskInstead}
+        className="block w-full text-left text-sm px-3.5 py-2.5 rounded-md border border-[var(--border)] bg-[var(--bg-tinted)] hover:border-[var(--accent)] hover:bg-[var(--elev)] transition-colors"
+      >
+        <span className="text-[var(--ink)] font-medium">Ask a question here</span>
+        <span className="block text-[12px] text-[var(--muted)] mt-0.5">
+          Freeform chat about {concept.canonicalName}, grounded in the corpus.
+        </span>
+      </button>
+    </div>
   );
 }
 
