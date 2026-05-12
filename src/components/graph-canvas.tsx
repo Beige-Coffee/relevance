@@ -381,10 +381,12 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1, 
 
   const activeId = selectedId ?? hoverId ?? null;
   const activeNeighbors = activeId ? neighbors[activeId] ?? new Set() : new Set();
-  // In isolate mode the entire visible set is intentionally part of the focused
-  // concept's neighborhood, so we never dim. In normal mode, dimming kicks in
-  // when the user has selected or is hovering a node.
-  const hasFocus = !isolatedId && Boolean(activeId);
+  // hasFocus drives edge-highlight + neighbor pop styles (works in isolate too).
+  // shouldDim is separate: dimming non-neighbors only happens outside isolate,
+  // because in isolate view every visible node is meant to be part of the
+  // focused neighborhood.
+  const hasFocus = Boolean(activeId);
+  const shouldDim = hasFocus && !isolatedId;
 
   // Configure d3 forces synchronously so the simulation runs with the
   // correct forces from frame 1, not after an async import resolves.
@@ -468,11 +470,14 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1, 
         nodeCanvasObject={(rawNode, ctx, globalScale) => {
           const node = rawNode as RenderNode;
           if (node.x == null || node.y == null) return;
-          const r = nodeRadius(node);
+          const baseR = nodeRadius(node);
           const selected = node.id === selectedId;
           const isActive = activeId === node.id;
           const isNeighbor = activeId ? activeNeighbors.has(node.id) : false;
-          const isDimmed = hasFocus && !isActive && !isNeighbor;
+          const isDimmed = shouldDim && !isActive && !isNeighbor;
+          // Pop the active node visibly bigger; nudge neighbors slightly so
+          // the local network "pops" out of the rest of the graph.
+          const r = isActive ? baseR + 3 : isNeighbor ? baseR + 1.5 : baseR;
 
           // Soft dim rather than near-invisible: keep dimmed nodes legible.
           ctx.globalAlpha = isDimmed ? 0.32 : 1;
@@ -557,6 +562,13 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1, 
         }}
         linkColor={(l) => {
           const link = l as GraphLink;
+          // Contrasts get a distinct hue so the dashed style is even harder
+          // to mistake for a regular related edge, especially in isolate view
+          // where edge kind is what the user is reading.
+          const contrastColor = dark ? "#c9a8ff" : "#7c3aed";
+          if (link.kind === "contrasted") {
+            return hasFocus && isLinkActive(link) ? contrastColor : (dark ? "#7a5ec2" : "#a78bfa");
+          }
           if (!hasFocus) return palette.link;
           return isLinkActive(link) ? palette.linkActive : palette.link;
         }}
@@ -564,8 +576,15 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1, 
           const link = l as GraphLink;
           // Weighted link width: thicker for stronger co-discussion edges.
           const baseW = link.weight ? Math.min(2.4, 0.5 + link.weight * 0.15) : 0.8;
-          if (!hasFocus) return baseW;
-          return isLinkActive(link) ? Math.max(2.2, baseW + 1.4) : 0.4;
+          // In isolate view, the three semantic edge types are the whole
+          // point, so make them slightly thicker than the exploration view.
+          const isolateBase =
+            link.kind === "prereq" ? 1.4 :
+            link.kind === "contrasted" ? 1.4 :
+            1.0;
+          const w = isolatedId ? isolateBase : baseW;
+          if (!hasFocus) return w;
+          return isLinkActive(link) ? Math.max(2.8, w + 1.8) : Math.max(0.3, w * 0.5);
         }}
         // Keep all links visible; we dim them instead of hiding so the graph
         // doesn't appear to "shatter" on hover.
@@ -603,15 +622,23 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1, 
         warmupTicks={200}
         linkLineDash={(l) => {
           const link = l as GraphLink;
-          if (link.kind === "contrasted") return [4, 4];
+          // More pronounced dash in isolate view so contrast edges are
+          // unmistakable.
+          if (link.kind === "contrasted") return isolatedId ? [7, 4] : [4, 4];
           return null;
         }}
         linkDirectionalArrowLength={(l) => {
           const link = l as GraphLink;
-          return link.kind === "prereq" ? 4.5 : 0;
+          if (link.kind !== "prereq") return 0;
+          // Bigger arrow heads in isolate view to make direction obvious.
+          return isolatedId ? 7 : 4.5;
         }}
-        linkDirectionalArrowRelPos={0.85}
-        linkDirectionalArrowColor={() => palette.linkActive}
+        linkDirectionalArrowRelPos={0.88}
+        linkDirectionalArrowColor={(l) => {
+          const link = l as GraphLink;
+          if (hasFocus && isLinkActive(link)) return palette.linkActive;
+          return isolatedId ? palette.linkActive : palette.link;
+        }}
       />
     </div>
   );

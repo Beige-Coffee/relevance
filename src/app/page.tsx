@@ -108,6 +108,30 @@ export default function Home() {
                   </div>
                 </div>
               )}
+              {isolatedId && (
+                <div className="absolute top-4 right-4 z-10 rounded-md border border-[var(--border)] bg-[var(--surface)] shadow-sm p-3 text-[11px] leading-snug space-y-1.5 pointer-events-none">
+                  <div className="text-[10px] uppercase tracking-[0.14em] text-[var(--muted)] mb-1">Edges</div>
+                  <div className="flex items-center gap-2">
+                    <svg width="36" height="10" aria-hidden>
+                      <line x1="3" y1="5" x2="32" y2="5" stroke="#b8c3d6" strokeWidth="1.5" />
+                    </svg>
+                    <span>Related</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <svg width="36" height="10" aria-hidden>
+                      <line x1="3" y1="5" x2="27" y2="5" stroke="#1f3a8a" strokeWidth="1.6" />
+                      <polygon points="27,2 33,5 27,8" fill="#1f3a8a" />
+                    </svg>
+                    <span>Prerequisite</span>
+                  </div>
+                  <div className="flex items-center gap-2">
+                    <svg width="36" height="10" aria-hidden>
+                      <line x1="3" y1="5" x2="32" y2="5" stroke="#7c3aed" strokeWidth="1.6" strokeDasharray="6 3" />
+                    </svg>
+                    <span>Contrasted</span>
+                  </div>
+                </div>
+              )}
             </>
           ) : (
             <div className="absolute inset-0 flex items-center justify-center text-[var(--muted)] text-sm">
