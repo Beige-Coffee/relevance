@@ -121,7 +121,7 @@ export default function AskPage() {
           {state.results.length > 0 && (
             <section>
               <h2 className="serif text-2xl text-[var(--ink)] mb-3">
-                Sources <span className="text-sm text-[var(--muted)] font-normal">, {state.results.length} passages</span>
+                Sources <span className="text-sm text-[var(--muted)] font-normal">({state.results.length} passages)</span>
               </h2>
               <div className="space-y-3">
                 {state.results.map((r) => (

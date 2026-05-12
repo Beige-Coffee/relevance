@@ -52,7 +52,7 @@ export default function ConceptPage({ params }: { params: Promise<{ id: string }
           href={`/conversation/${course.id}`}
           className="mt-6 inline-flex items-center px-4 py-2 rounded-md bg-[var(--accent)] text-[var(--bg)] text-sm font-medium hover:opacity-90 transition"
         >
-          ★ Take the mini-course →
+          ★ Begin the Conversation
         </Link>
       )}
 
@@ -134,7 +134,7 @@ export default function ConceptPage({ params }: { params: Promise<{ id: string }
           <h2 className="serif text-2xl text-[var(--ink)] mb-4">Common confusions</h2>
           <ul className="space-y-3 text-[var(--ink-soft)]">
             {concept.commonConfusions.map((c, i) => (
-              <li key={i} className="prose-reader text-[15px] leading-relaxed">, {c}</li>
+              <li key={i} className="prose-reader text-[15px] leading-relaxed">{c}</li>
             ))}
           </ul>
         </section>

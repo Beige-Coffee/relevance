@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import { GraphCanvas, type GraphMode } from "@/components/graph-canvas";
+import { GraphLegend } from "@/components/graph-legend";
 import { NodePanel } from "@/components/node-panel";
 import { getGraph, getEpisodes, getConcepts, getPeople, getCourses } from "@/lib/data";
 import type { Graph, GraphNode, Episode, Concept, Person, CourseSummary } from "@/lib/types";
@@ -73,13 +74,16 @@ export default function Home() {
         )}
 
         {graph ? (
-          <GraphCanvas
-            graph={graph}
-            mode={mode}
-            onSelect={setSelected}
-            selectedId={selected?.id ?? null}
-            minDegree={minDegree}
-          />
+          <>
+            <GraphCanvas
+              graph={graph}
+              mode={mode}
+              onSelect={setSelected}
+              selectedId={selected?.id ?? null}
+              minDegree={minDegree}
+            />
+            <GraphLegend mode={mode} />
+          </>
         ) : (
           <div className="absolute inset-0 flex items-center justify-center text-[var(--muted)] text-sm">
             Loading graph...

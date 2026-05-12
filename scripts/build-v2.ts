@@ -161,7 +161,7 @@ function chunkTranscript(t: Transcript, target = 450, max = 700): Passage[] {
 
 function buildGraph(concepts: Concept[], people: Person[], metadata: EpisodeMeta[]) {
   type Node = { id: string; kind: "episode" | "concept" | "person"; label: string; num?: number; flagship?: boolean; cluster?: string; count?: number };
-  type Link = { source: string; target: string; kind: string };
+  type Link = { source: string; target: string; kind: string; weight?: number };
   const nodes: Node[] = [];
   const links: Link[] = [];
 
@@ -234,8 +234,8 @@ function buildGraph(concepts: Concept[], people: Person[], metadata: EpisodeMeta
       const sharedConcepts = intersect(personConcepts[a] ?? new Set(), personConcepts[b] ?? new Set()).size;
       const sharedEpisodes = intersect(personEpisodes[a] ?? new Set(), personEpisodes[b] ?? new Set()).size;
       const weight = sharedConcepts * 2 + sharedEpisodes;
-      if (weight >= 2) {
-        links.push({ source: `person:${a}`, target: `person:${b}`, kind: "co-discussed" });
+      if (weight >= 4) {
+        links.push({ source: `person:${a}`, target: `person:${b}`, kind: "co-discussed", weight } as GraphLink & { weight: number });
       }
     }
   }

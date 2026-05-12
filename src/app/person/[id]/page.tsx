@@ -64,7 +64,7 @@ export default function PersonPage({ params }: { params: Promise<{ id: string }>
           <h2 className="serif text-2xl text-[var(--ink)] mb-4">What Vervaeke says about them</h2>
           <ul className="space-y-3 text-[var(--ink-soft)]">
             {person.keyClaimsAbout.map((c, i) => (
-              <li key={i} className="prose-reader text-[15px] leading-relaxed">, {c}</li>
+              <li key={i} className="prose-reader text-[15px] leading-relaxed">{c}</li>
             ))}
           </ul>
         </section>

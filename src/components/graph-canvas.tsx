@@ -171,7 +171,7 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1 }
           const base = node.kind === "person" ? 1.4 : 1.6;
           return base + Math.min(8, (node.count ?? 1) * 0.6);
         }}
-        nodeLabel={(n) => (n as GraphNode).label}
+        nodeLabel={() => ""}
         nodeCanvasObject={(rawNode, ctx, globalScale) => {
           const node = rawNode as RenderNode;
           if (node.x == null || node.y == null) return;
@@ -244,8 +244,10 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1 }
         }}
         linkWidth={(l) => {
           const link = l as GraphLink;
-          if (!hasFocus) return 0.7;
-          return isLinkActive(link) ? 2.2 : 0.4;
+          // Weighted link width: thicker for stronger co-discussion edges.
+          const baseW = link.weight ? Math.min(2.4, 0.5 + link.weight * 0.15) : 0.8;
+          if (!hasFocus) return baseW;
+          return isLinkActive(link) ? Math.max(2.2, baseW + 1.4) : 0.4;
         }}
         linkVisibility={(l) => {
           const link = l as GraphLink;

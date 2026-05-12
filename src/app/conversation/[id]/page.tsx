@@ -122,7 +122,7 @@ export default function CoursePage({ params }: { params: Promise<{ id: string }>
                       <summary className="cursor-pointer hover:text-[var(--ink)]">expected themes</summary>
                       <ul className="mt-1 ml-3 space-y-0.5">
                         {s.expectedThemes.map((t, j) => (
-                          <li key={j}>, {t}</li>
+                          <li key={j}>{t}</li>
                         ))}
                       </ul>
                     </details>
@@ -154,7 +154,7 @@ export default function CoursePage({ params }: { params: Promise<{ id: string }>
                 <summary className="cursor-pointer hover:text-[var(--ink)]">a good answer touches on…</summary>
                 <ul className="mt-1 ml-3 space-y-0.5">
                   {mod.checkForUnderstanding.expectedThemes.map((t, i) => (
-                    <li key={i}>, {t}</li>
+                    <li key={i}>{t}</li>
                   ))}
                 </ul>
               </details>

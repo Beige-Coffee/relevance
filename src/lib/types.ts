@@ -70,6 +70,7 @@ export interface GraphLink {
   target: string;
   kind: string;
   label?: string;
+  weight?: number;
 }
 
 export interface Graph { nodes: GraphNode[]; links: GraphLink[]; }
