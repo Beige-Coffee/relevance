@@ -25,6 +25,10 @@ export const metadata: Metadata = {
   title: "relevance, a study companion for Vervaeke's lectures",
   description:
     "Search, dialogue with, and map the ideas in John Vervaeke's 50-episode 'Awakening from the Meaning Crisis' lecture series. An educational study tool, not affiliated with John Vervaeke.",
+  // Keep this app out of search engines. Anyone with the link can still
+  // visit it; we just don't want Google indexing what is essentially a
+  // small private tool shared in a group chat.
+  robots: { index: false, follow: false },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
