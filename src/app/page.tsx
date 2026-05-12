@@ -18,7 +18,9 @@ export default function Home() {
   const [selected, setSelected] = useState<GraphNode | null>(null);
   const [hoverLabel, setHoverLabel] = useState<string | null>(null);
   const [mode, setMode] = useState<GraphMode>("concepts");
-  const [minDegree, setMinDegree] = useState(2);
+  // Fixed minimum-episode threshold: drops concepts that appear in only one
+  // episode (usually noise). Power-user knob has been removed for simplicity.
+  const MIN_DEGREE = 2;
 
   useEffect(() => {
     Promise.all([getGraph(), getEpisodes(), getConcepts(), getPeople(), getCourses()]).then(
@@ -48,20 +50,6 @@ export default function Home() {
           ))}
         </div>
 
-        {/* Top-right minDegree slider */}
-        <div className="absolute top-4 right-4 z-10 flex items-center gap-2 px-3 py-1.5 rounded-full border border-[var(--border)] bg-[var(--surface)]/90 backdrop-blur shadow-sm">
-          <span className="text-[10px] uppercase tracking-wider text-[var(--muted)]">Min episodes</span>
-          <input
-            type="range"
-            min={1}
-            max={6}
-            value={minDegree}
-            onChange={(e) => setMinDegree(Number(e.target.value))}
-            className="accent-[var(--accent)] w-20"
-          />
-          <span className="mono text-xs text-[var(--ink-soft)] w-3 text-center">{minDegree}</span>
-        </div>
-
         {/* Bottom-left intro/help */}
         {!selected && graph && (
           <div className="absolute bottom-5 left-5 z-10 max-w-sm p-4 rounded-lg border border-[var(--border)] bg-[var(--surface)]/95 backdrop-blur shadow-sm pointer-events-none">
@@ -81,7 +69,7 @@ export default function Home() {
               mode={mode}
               onSelect={setSelected}
               selectedId={selected?.id ?? null}
-              minDegree={minDegree}
+              minDegree={MIN_DEGREE}
               onHoverLabel={setHoverLabel}
             />
             <GraphLegend mode={mode} />
