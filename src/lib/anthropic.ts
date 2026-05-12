@@ -134,7 +134,10 @@ export function makeOpenRouterClient(apiKey: string): Anthropic {
   if (!apiKey) throw new Error("OpenRouter API key required");
   return new Anthropic({
     apiKey,
-    baseURL: "https://openrouter.ai/api/v1",
+    // The Anthropic SDK appends its own "/v1/messages" path, so the baseURL
+    // must stop at "/api" — not "/api/v1" — otherwise the URL becomes
+    // /api/v1/v1/messages and OpenRouter returns its HTML 404 page.
+    baseURL: "https://openrouter.ai/api",
     dangerouslyAllowBrowser: true,
     defaultHeaders: {
       "HTTP-Referer": typeof window !== "undefined" ? window.location.origin : "",
