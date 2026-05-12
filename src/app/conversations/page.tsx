@@ -27,12 +27,26 @@ export default function CoursesPage() {
 
   return (
     <div className="max-w-4xl mx-auto px-6 py-10 w-full">
-      <p className="mono text-xs uppercase tracking-[0.18em] text-[var(--accent)] mb-3">Pre-curated Socratic walkthroughs</p>
+      <p className="mono text-xs uppercase tracking-[0.18em] text-[var(--accent)] mb-3">Guided Socratic dialogues</p>
       <h1 className="serif text-5xl text-[var(--ink)] leading-tight">Conversations</h1>
       <p className="serif italic text-xl text-[var(--ink-soft)] mt-3 leading-snug">
-        Hand-grounded walkthroughs of the flagship concepts in Vervaeke&rsquo;s argument. Each one is built from verbatim
-        transcript passages, broken into modules that hold the dialogue to the text.
+        Small, focused dialogues that help you understand one of Vervaeke&rsquo;s flagship concepts by thinking it through, not by being told the answer.
       </p>
+
+      <div className="mt-7 grid gap-5 sm:grid-cols-2 text-sm text-[var(--ink-soft)] leading-relaxed">
+        <div>
+          <h2 className="text-[11px] uppercase tracking-[0.14em] text-[var(--muted)] mb-1.5">What this is</h2>
+          <p>
+            Each Conversation is a short, structured exchange built around one concept. The dialogue asks you questions, listens to your answer, then nudges you toward the next idea. You arrive at the insight; you are not handed it. Think of it as a study session with a patient interlocutor, not a lecture.
+          </p>
+        </div>
+        <div>
+          <h2 className="text-[11px] uppercase tracking-[0.14em] text-[var(--muted)] mb-1.5">How they were made</h2>
+          <p>
+            We read all 50 lectures end-to-end with Claude Opus, identified the 28 concepts Vervaeke treats as load-bearing, and for each one drafted a multi-module walkthrough: learning objective, verbatim source passages, Socratic prompts, common misreadings, and a check-for-understanding question. The dialogue is bound to those passages at runtime so it stays inside the text.
+          </p>
+        </div>
+      </div>
 
       <div className="hr-soft my-10" />
 

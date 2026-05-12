@@ -90,6 +90,24 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1, 
     [dark]
   );
 
+  // Deterministic seeding so the same node set always lands in the same
+  // visual layout. Without this, d3-force picks random initial positions
+  // and switching modes (Concepts ↔ Thinkers) produces a different graph
+  // each time. We hash each node id into an (x, y) inside a disk so the
+  // simulation converges to a stable arrangement.
+  const hashId = (id: string, salt: string) => {
+    let h = 5381;
+    const s = id + salt;
+    for (let i = 0; i < s.length; i++) h = ((h << 5) + h + s.charCodeAt(i)) | 0;
+    // Normalize to [0, 1) regardless of sign
+    return ((h >>> 0) % 100000) / 100000;
+  };
+  const seedPosition = (id: string) => {
+    const angle = hashId(id, "a") * Math.PI * 2;
+    const radius = Math.sqrt(hashId(id, "r")) * 320;
+    return { x: Math.cos(angle) * radius, y: Math.sin(angle) * radius };
+  };
+
   // Filter the graph to the selected mode. Episodes are never shown.
   // After filtering by mode and minDegree, drop any node that isn't in the
   // largest connected component, so a small disconnected cluster doesn't drift
@@ -134,13 +152,21 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1, 
     if (keep.size < Math.max(8, visible.size * 0.25)) {
       for (const id of visible) keep.add(id);
     }
-    const nodes = graph.nodes.filter((n) => keep.has(n.id));
+    const nodes = graph.nodes
+      .filter((n) => keep.has(n.id))
+      // Spread to a new object so the simulation can mutate (vx, vy) without
+      // touching the source data, and assign deterministic initial positions.
+      .map((n) => {
+        const { x, y } = seedPosition(n.id);
+        return { ...n, x, y, vx: 0, vy: 0 };
+      });
     const links = graph.links.filter((l) => {
       const s = typeof l.source === "string" ? l.source : (l.source as GraphNode).id;
       const t = typeof l.target === "string" ? l.target : (l.target as GraphNode).id;
       return keep.has(s) && keep.has(t);
     });
     return { nodes, links };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [graph, mode, minDegree]);
 
   const neighbors = useMemo(() => {

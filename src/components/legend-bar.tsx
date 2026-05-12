@@ -2,12 +2,49 @@
 
 import { useEffect, useRef, useState } from "react";
 
-const CLUSTERS: { id: string; label: string; color: string }[] = [
-  { id: "cognitive-science", label: "Cognitive science", color: "#1f3a8a" },
-  { id: "historical", label: "Historical", color: "#5b3e89" },
-  { id: "normative", label: "Normative", color: "#1f6f6c" },
-  { id: "practical", label: "Practical", color: "#a85c1a" },
-  { id: "methodological", label: "Methodological", color: "#1f3a8a" },
+interface Cluster {
+  id: string;
+  label: string;
+  color: string;
+  definition: string;
+}
+
+const CLUSTERS: Cluster[] = [
+  {
+    id: "cognitive-science",
+    label: "Cognitive science",
+    color: "#1f3a8a",
+    definition:
+      "Concepts from cognitive science, AI, and the mechanics of mind: relevance realization, working memory, attention, insight, the frame problem. The technical backbone of Vervaeke's argument.",
+  },
+  {
+    id: "historical",
+    label: "Historical",
+    color: "#5b3e89",
+    definition:
+      "Movements, eras, and intellectual lineages: the Axial Age, Gnosticism, the Reformation, the rise of secularism. The story of how the meaning crisis came to be.",
+  },
+  {
+    id: "normative",
+    label: "Normative",
+    color: "#1f6f6c",
+    definition:
+      "Ethical and existential ideas: wisdom, virtue, agape, the four kinds of knowing, what a good life looks like. Concepts about what should be, not just what is.",
+  },
+  {
+    id: "practical",
+    label: "Practical",
+    color: "#a85c1a",
+    definition:
+      "Psychotechnologies, the practices and techniques people use to cultivate wisdom and address the crisis: meditation, contemplation, dialogos, ritual.",
+  },
+  {
+    id: "methodological",
+    label: "Methodological",
+    color: "#1f3a8a",
+    definition:
+      "Tools for analyzing the territory: phenomenology, comparative analysis, the careful distinctions Vervaeke draws between things people often run together.",
+  },
 ];
 
 export function LegendBar({ mode }: { mode: "concepts" | "persons" }) {
@@ -37,19 +74,16 @@ export function LegendBar({ mode }: { mode: "concepts" | "persons" }) {
         <>
           <div className="hidden lg:flex items-center gap-3">
             {CLUSTERS.map((c) => (
-              <span key={c.id} className="inline-flex items-center gap-1 whitespace-nowrap">
-                <span className="inline-block w-2 h-2 rounded-full" style={{ background: c.color }} aria-hidden />
-                <span>{c.label}</span>
-              </span>
+              <ClusterPill key={c.id} cluster={c} />
             ))}
           </div>
           <button
             onClick={() => setMoreOpen((v) => !v)}
-            className="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[var(--muted)] hover:text-[var(--ink)] hover:bg-[var(--elev)]"
-            title="Legend details"
+            className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md border border-[var(--border)] text-[var(--ink-soft)] hover:border-[var(--accent)] hover:text-[var(--accent)] hover:bg-[var(--accent-tint)] transition-colors"
+            title="Open the full legend"
           >
-            <span className="text-[12px]">?</span>
-            <span className="hidden md:inline">legend</span>
+            <InfoIcon />
+            <span className="hidden md:inline">Legend</span>
           </button>
         </>
       ) : (
@@ -63,10 +97,11 @@ export function LegendBar({ mode }: { mode: "concepts" | "persons" }) {
           </span>
           <button
             onClick={() => setMoreOpen((v) => !v)}
-            className="inline-flex items-center gap-1 px-2 py-1 rounded-md text-[var(--muted)] hover:text-[var(--ink)] hover:bg-[var(--elev)]"
+            className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-md border border-[var(--border)] text-[var(--ink-soft)] hover:border-[var(--accent)] hover:text-[var(--accent)] hover:bg-[var(--accent-tint)] transition-colors"
+            title="Open the full legend"
           >
-            <span className="text-[12px]">?</span>
-            <span className="hidden md:inline">legend</span>
+            <InfoIcon />
+            <span className="hidden md:inline">Legend</span>
           </button>
         </>
       )}
@@ -87,10 +122,22 @@ export function LegendBar({ mode }: { mode: "concepts" | "persons" }) {
 
           {mode === "concepts" && (
             <div>
-              <h3 className="text-[10px] uppercase tracking-wider text-[var(--muted)] mb-1.5">Clusters</h3>
-              <div className="space-y-1">
+              <h3 className="text-[10px] uppercase tracking-wider text-[var(--muted)] mb-2">Clusters</h3>
+              <div className="space-y-2.5">
                 {CLUSTERS.map((c) => (
-                  <Row key={c.id} color={c.color} filled={true} label={c.label} />
+                  <div key={c.id} className="flex gap-2.5">
+                    <span
+                      className="shrink-0 mt-[3px] inline-block w-3 h-3 rounded-full border-[1.5px]"
+                      style={{ background: c.color, borderColor: c.color }}
+                      aria-hidden
+                    />
+                    <div className="min-w-0">
+                      <div className="text-[12px] text-[var(--ink)] font-medium">{c.label}</div>
+                      <div className="text-[11px] text-[var(--muted)] leading-snug mt-0.5">
+                        {c.definition}
+                      </div>
+                    </div>
+                  </div>
                 ))}
               </div>
             </div>
@@ -116,6 +163,61 @@ export function LegendBar({ mode }: { mode: "concepts" | "persons" }) {
         </div>
       )}
     </div>
+  );
+}
+
+function InfoIcon() {
+  return (
+    <svg
+      width="12"
+      height="12"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden
+    >
+      <circle cx="12" cy="12" r="9" />
+      <line x1="12" y1="11" x2="12" y2="16" />
+      <circle cx="12" cy="8" r="0.5" fill="currentColor" />
+    </svg>
+  );
+}
+
+function ClusterPill({ cluster }: { cluster: Cluster }) {
+  const [open, setOpen] = useState(false);
+  return (
+    <span
+      className="relative inline-flex items-center gap-1 whitespace-nowrap"
+      onMouseEnter={() => setOpen(true)}
+      onMouseLeave={() => setOpen(false)}
+      onFocus={() => setOpen(true)}
+      onBlur={() => setOpen(false)}
+      tabIndex={0}
+    >
+      <span className="inline-block w-2 h-2 rounded-full" style={{ background: cluster.color }} aria-hidden />
+      <span className="cursor-help underline decoration-dotted decoration-[var(--border)] underline-offset-4">
+        {cluster.label}
+      </span>
+      {open && (
+        <div
+          role="tooltip"
+          className="absolute top-full left-0 mt-2 z-40 w-[280px] rounded-md border border-[var(--border)] bg-[var(--surface)] shadow-lg p-3 text-[11px] text-[var(--ink-soft)] leading-snug normal-case tracking-normal"
+        >
+          <div className="flex items-center gap-2 mb-1">
+            <span
+              className="inline-block w-2.5 h-2.5 rounded-full"
+              style={{ background: cluster.color }}
+              aria-hidden
+            />
+            <span className="text-[12px] text-[var(--ink)] font-medium">{cluster.label}</span>
+          </div>
+          <p>{cluster.definition}</p>
+        </div>
+      )}
+    </span>
   );
 }
 
