@@ -14,7 +14,7 @@ export function Nav() {
   const pathname = usePathname();
   return (
     <header className="border-b border-[var(--border-soft)] bg-[var(--bg)]/85 backdrop-blur sticky top-0 z-30">
-      <div className="max-w-7xl mx-auto px-6 h-14 flex items-center justify-between">
+      <div className="pl-4 pr-6 h-14 flex items-center justify-between w-full">
         <Link href="/" className="text-xl lowercase tracking-tight text-[var(--accent)] hover:opacity-80 transition-opacity">
           relevance
         </Link>
