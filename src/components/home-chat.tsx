@@ -30,7 +30,6 @@ interface Props {
   onClearSelected: () => void;
   collapsed: boolean;
   onToggleCollapsed: () => void;
-  onIsolate?: (conceptId: string) => void;
 }
 
 const STARTER_PROMPTS = [
@@ -49,7 +48,6 @@ export function HomeChat({
   onClearSelected,
   collapsed,
   onToggleCollapsed,
-  onIsolate,
 }: Props) {
   const { provider, activeKey, activeModel, hasKey } = useSettings();
   const { messages, append, setLastContent, patchLast, isStreaming, setStreaming, reset } = useChat();
@@ -402,7 +400,6 @@ export function HomeChat({
               course={selectedCourse}
               loading={loadingCourseId === selectedCourse.id}
               onBegin={() => beginConversation(selectedCourse)}
-              onIsolate={onIsolate ? () => onIsolate(selectedConcept.id) : undefined}
             />
           ) : selectedConcept ? (
             <NodeIntro
@@ -411,7 +408,6 @@ export function HomeChat({
               tag={formatClusterLabel(selectedConcept.cluster)}
               description={selectedConcept.definition}
               href={`/concept/${selectedConcept.id}`}
-              onIsolate={onIsolate ? () => onIsolate(selectedConcept.id) : undefined}
             />
           ) : selectedPerson ? (
             <NodeIntro
@@ -495,41 +491,6 @@ export function HomeChat({
   );
 }
 
-function IsolateButton({ onIsolate }: { onIsolate: () => void }) {
-  return (
-    <button
-      onClick={onIsolate}
-      className="w-full flex items-center justify-between gap-3 px-3.5 py-2.5 rounded-md border border-[var(--border)] bg-[var(--surface)] hover:border-[var(--accent)] hover:bg-[var(--accent-tint)] transition-colors text-left"
-      title="Show this concept's full dependency structure on the graph"
-    >
-      <span className="flex flex-col">
-        <span className="text-[13px] font-medium text-[var(--ink)]">Isolate on graph</span>
-        <span className="text-[11px] text-[var(--muted)] leading-snug">
-          See every prerequisite, contrast, and related idea laid out around this concept.
-        </span>
-      </span>
-      <svg
-        width="18"
-        height="18"
-        viewBox="0 0 24 24"
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="2"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        className="shrink-0 text-[var(--accent)]"
-        aria-hidden
-      >
-        <circle cx="12" cy="12" r="3" />
-        <path d="M3 12h6" />
-        <path d="M15 12h6" />
-        <path d="M12 3v6" />
-        <path d="M12 15v6" />
-      </svg>
-    </button>
-  );
-}
-
 function formatClusterLabel(cluster: string): string {
   // "cognitive-science" -> "Cognitive science"
   const spaced = cluster.replace(/-/g, " ");
@@ -543,7 +504,6 @@ function NodeIntro({
   description,
   extra,
   href,
-  onIsolate,
 }: {
   kind: "concept" | "person";
   name: string;
@@ -551,7 +511,6 @@ function NodeIntro({
   description: string;
   extra?: string;
   href: string;
-  onIsolate?: () => void;
 }) {
   const kindLabel = kind === "concept" ? "Concept" : "Thinker";
   const cardLabel = kind === "concept" ? "Open the concept card →" : "Open the thinker card →";
@@ -584,8 +543,6 @@ function NodeIntro({
         </Link>
       </div>
 
-      {onIsolate && <IsolateButton onIsolate={onIsolate} />}
-
       <p className="text-[11px] text-[var(--muted)] leading-relaxed">
         Type a question below to chat about {name}, grounded in the corpus.
       </p>
@@ -598,13 +555,11 @@ function ConversationOffer({
   course,
   loading,
   onBegin,
-  onIsolate,
 }: {
   concept: Concept;
   course: CourseSummary;
   loading: boolean;
   onBegin: () => void;
-  onIsolate?: () => void;
 }) {
   return (
     <div className="space-y-4">
@@ -625,8 +580,6 @@ function ConversationOffer({
           Open the concept card →
         </Link>
       </div>
-
-      {onIsolate && <IsolateButton onIsolate={onIsolate} />}
 
       <div className="rounded-md border border-[var(--accent)]/30 bg-[var(--accent-tint)] p-3.5">
         <p className="text-[13px] text-[var(--ink)] leading-relaxed">

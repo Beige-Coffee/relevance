@@ -108,6 +108,39 @@ export default function Home() {
                   </div>
                 </div>
               )}
+              {/* When a concept is selected but not yet isolated, offer the
+                  isolate action right where the Edges legend will appear
+                  once they take it. Keeps both pieces of UI in the same
+                  visual slot. */}
+              {!isolatedId && selected?.kind === "concept" && (
+                <button
+                  onClick={() => setIsolatedId(selected.id)}
+                  className="absolute top-4 right-4 z-10 flex items-center gap-2 px-3 py-2 rounded-md border border-[var(--accent)] bg-[var(--surface)] text-[var(--accent)] text-[12px] shadow-sm hover:bg-[var(--accent-tint)] transition-colors"
+                  title="Show this concept's full dependency structure"
+                >
+                  <svg
+                    width="14"
+                    height="14"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    aria-hidden
+                  >
+                    <circle cx="12" cy="12" r="3" />
+                    <path d="M3 12h6" />
+                    <path d="M15 12h6" />
+                    <path d="M12 3v6" />
+                    <path d="M12 15v6" />
+                  </svg>
+                  <span className="font-medium">Isolate</span>
+                  <span className="text-[var(--ink-soft)] max-w-[180px] truncate">
+                    {selected.label}
+                  </span>
+                </button>
+              )}
               {isolatedId && (
                 <div className="absolute top-4 right-4 z-10 rounded-md border border-[var(--border)] bg-[var(--surface)] shadow-sm p-3 text-[11px] leading-snug space-y-1.5 pointer-events-none">
                   <div className="text-[10px] uppercase tracking-[0.14em] text-[var(--muted)] mb-1">Edges</div>
@@ -149,7 +182,6 @@ export default function Home() {
           onClearSelected={() => setSelected(null)}
           collapsed={chatCollapsed}
           onToggleCollapsed={() => setChatCollapsed((v) => !v)}
-          onIsolate={(conceptId) => setIsolatedId(`concept:${conceptId}`)}
         />
       </div>
     </div>
