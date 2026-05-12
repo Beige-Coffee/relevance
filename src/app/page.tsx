@@ -23,10 +23,11 @@ export default function Home() {
   // right, related concepts below.
   const [isolatedId, setIsolatedId] = useState<string | null>(null);
 
-  // Hide the long-tail of weakly-connected concepts so the layout
-  // breathes; nodes with edge degree below this threshold are dropped
-  // before the force simulation runs.
-  const MIN_DEGREE = 7;
+  // Per-mode visibility threshold. Concept degree distribution is shifted
+  // higher (min 4, max 28), so we use 7 to prune the long tail. Thinker
+  // degrees are smaller (most thinkers connect to a couple of others);
+  // we use 2 to drop only the very isolated ones and keep the rest.
+  const minDegree = mode === "concepts" ? 7 : 2;
 
   useEffect(() => {
     Promise.all([getGraph(), getEpisodes(), getConcepts(), getPeople(), getCourses()]).then(
@@ -83,7 +84,7 @@ export default function Home() {
                 mode={mode}
                 onSelect={setSelected}
                 selectedId={selected?.id ?? null}
-                minDegree={MIN_DEGREE}
+                minDegree={minDegree}
                 onHoverLabel={setHoverLabel}
                 isolatedId={isolatedId}
               />
