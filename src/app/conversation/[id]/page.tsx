@@ -61,7 +61,7 @@ export default function ConversationPage({ params }: { params: Promise<{ id: str
           {concept && (
             <Link
               href={`/concept/${concept.id}`}
-              className="text-xs text-[var(--muted)] hover:text-[var(--accent)] whitespace-nowrap"
+              className="hidden sm:inline text-xs text-[var(--muted)] hover:text-[var(--accent)] whitespace-nowrap"
             >
               Concept deep-dive →
             </Link>
@@ -69,9 +69,34 @@ export default function ConversationPage({ params }: { params: Promise<{ id: str
         </div>
       </div>
 
-      {/* Main body: modules list (narrow) | dialogue (everything else) */}
-      <div className="flex-1 flex overflow-hidden min-h-0 min-w-0">
-        <aside className="w-56 shrink-0 border-r border-[var(--border-soft)] px-4 py-5 overflow-y-auto min-h-0">
+      {/* Main body: modules nav + dialogue. Side-by-side on desktop,
+          stacked on mobile so neither panel gets clipped on a narrow
+          viewport. */}
+      <div className="flex-1 flex flex-col md:flex-row overflow-hidden min-h-0 min-w-0">
+        {/* Mobile: horizontal-scroll strip of module pills along the top. */}
+        <nav className="md:hidden shrink-0 border-b border-[var(--border-soft)] overflow-x-auto">
+          <ol className="flex gap-1.5 px-3 py-2 min-w-max">
+            {course.modules.map((m, i) => (
+              <li key={m.id || `m-${i}`} className="shrink-0">
+                <button
+                  onClick={() => setActiveModule(i)}
+                  className={`px-3 py-1.5 rounded-full text-[12px] whitespace-nowrap transition-colors ${
+                    i === activeModule
+                      ? "bg-[var(--accent)] text-white"
+                      : "bg-[var(--surface)] border border-[var(--border)] text-[var(--ink-soft)] hover:border-[var(--accent)]"
+                  }`}
+                >
+                  <span className="mono text-[10px] opacity-70 mr-1">
+                    {String(i + 1).padStart(2, "0")}
+                  </span>
+                  {m.title}
+                </button>
+              </li>
+            ))}
+          </ol>
+        </nav>
+        {/* Desktop: vertical sidebar of module buttons. */}
+        <aside className="hidden md:block w-56 shrink-0 border-r border-[var(--border-soft)] px-4 py-5 overflow-y-auto min-h-0">
           <h2 className="text-[10px] uppercase tracking-[0.14em] text-[var(--muted)] mb-3 px-1">
             Modules
           </h2>
