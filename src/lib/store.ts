@@ -161,9 +161,8 @@ export function useThread(key: string | null) {
   };
 }
 
-// Backwards-compatible: the old useChat() still works as a single shared
-// "free" thread. Used by /dialogue (a freeform global page) until it's
-// migrated to a real key.
+// Backwards-compat alias around a "global:free" thread. Currently unused
+// in the live UI but kept around as a useful escape hatch.
 export function useChat() {
   return useThread("global:free");
 }

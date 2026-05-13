@@ -1,127 +1,81 @@
-# Awakening Atlas
+# relevance
 
-A study companion for John Vervaeke's lecture series **Awakening from the Meaning Crisis** (50 episodes, ~395k words).
+A study companion for John Vervaeke's lecture series *Awakening from the Meaning Crisis*. Search, dialogue with, and map the ideas across the 50 lectures.
 
-This is an unaffiliated educational tool. Lectures and ideas are the work of John Vervaeke; transcripts are sourced from [meaningcrisis.co](https://www.meaningcrisis.co/all-transcripts/). The dialogue agent in this app is an AI assistant, it is **not** John Vervaeke, does not speak as him, and does not represent his views.
+This is an unaffiliated educational tool. It is not endorsed by Dr. Vervaeke, by [johnvervaeke.com](https://johnvervaeke.com/), or by the volunteers behind [meaningcrisis.co](https://www.meaningcrisis.co/). All quotes and ideas belong to him; the indexing and tooling here are just a way to navigate them.
 
 ## What it does
 
-Four surfaces, all backed by the same indexed corpus:
+- **Graph view.** A force-directed map of the concepts and thinkers Vervaeke discusses, edges drawn from the canonical registry (prerequisite, related, contrasted).
+- **Isolate a concept.** Click any concept, then "Isolate on graph" to see its full transitive prerequisite chain stacked left-to-right toward it, contrasts to the right, related ideas below.
+- **Chat.** A Socratic dialogue partner that grounds every reply in the actual transcripts via three tools (`look_up`, `read_concept`, `verify_quote`) bounded by a per-turn budget.
+- **Conversations.** 28 pre-curated multi-module walkthroughs of the flagship concepts in Vervaeke's argument. Each module has its own learning objective, source passages, Socratic seeds, and check-for-understanding question. Click a flagship concept, click Begin the Conversation, and the dialogue is bound to that module's text.
 
-- **Dialogue**, a Socratic interlocutor that asks you questions back, retrieves relevant passages from the lectures on each turn, and cites them by episode. Strictly not an impersonation.
-- **Ask**, search the corpus, get ranked passages, plus a synthesized answer with episode citations.
-- **Graph**, interactive force-graph of episodes, concepts, and thinkers, with cross-episode references as edges. Click a node to see its connections.
-- **Episodes**, browse the 50 lectures with an essence summary and link to the original transcript.
+## BYOK + privacy
 
-The graph and search work fully offline in the browser. Dialogue and Ask require an Anthropic API key (you bring your own, it lives in your browser's localStorage only and is never sent to this site's server).
+This app stores no user data on a server. There is no server: it is statically deployed Next.js with a few JSON files in `/public/data`. Everything happens in your browser.
 
-## Architecture
+To chat, you supply your own API key from one of two providers:
 
-- **Next.js 16** App Router, TypeScript, Tailwind 4, React 19.
-- **All inference is client-side, BYOK.** The Anthropic SDK runs in the browser with `dangerouslyAllowBrowser: true`. There are no server-side LLM calls and no API routes that touch keys.
-- **Retrieval is in-browser BM25** via [MiniSearch](https://lucaong.github.io/minisearch/), over ~780 paragraph-sized passages chunked from the transcripts.
-- **Graph rendering** uses [`react-force-graph-2d`](https://github.com/vasturiano/react-force-graph). All graph data is static JSON.
-- **Static data** lives in `public/data/` (fetched at runtime in the browser) and `src/data/` (importable in server code).
+- **OpenRouter** (recommended). Sign up at [openrouter.ai/keys](https://openrouter.ai/keys), add a few dollars of credit, paste the key on the Settings page. A few dollars goes a long way.
+- **Anthropic** direct. Get a key at [console.anthropic.com](https://console.anthropic.com/settings/keys). Same flow.
 
-### Pipeline
+Your key lives only in your browser's `localStorage`. It is never sent to this site's server (because there is no server). When you chat, your messages and the key go directly from your browser to the provider you chose.
 
-```
-meaningcrisis.co
-       │
-       │  npm run scrape       (Node + Cheerio + Turndown)
-       ▼
-data/transcripts/*.md          (51 hand-edited transcripts, with frontmatter)
-       │
-       │  per-episode metadata extraction
-       │  (Haiku agents during build, structured JSON schema)
-       ▼
-data/metadata/*.json
-       │
-       │  npm run build:data
-       ▼
-public/data/
-├── episodes.json, episode index + essence summaries
-├── concepts.json, concept frequencies + episode appearances
-├── people.json, thinker frequencies + episode appearances
-├── graph.json, nodes + links for force-graph
-├── passages.json, 780 paragraph chunks for BM25 search
-├── quotes.json, verbatim quotable moments
-└── graph.cypher, Neo4j Cypher dump (bonus, for offline graph DB use)
-```
+### Audit summary
 
-The data layer is fully reproducible: re-run `npm run scrape && npm run build:data` to refresh.
+You can verify the privacy claims yourself by reading the source:
 
-## Setup
+- **No analytics or telemetry libraries** in `package.json`. No GA, no PostHog, no Plausible, no Sentry, no Datadog, no Mixpanel, no Amplitude. No third-party scripts.
+- **No `process.env` reads** anywhere in `src/`. The code can't be configured at deploy time to send data to a hidden endpoint.
+- **No `.env` files** committed.
+- **No personal info** in source. No hardcoded keys. The only personal string is "Made by Austin" on the About page.
+- **Three (and only three) network destinations:**
+  1. `src/lib/data.ts` fetches static JSON from the same origin (`/data/*.json`).
+  2. `src/lib/anthropic.ts` builds an Anthropic SDK client pointed at either `api.anthropic.com` or `openrouter.ai/api`, depending on which provider you select.
+  3. `src/lib/stream.ts` calls that client's `messages.stream`.
+
+That's it. The chat sends your prompt, the system prompt, the conversation history, the tool definitions, and (for OpenRouter only) attribution headers `HTTP-Referer` and `X-Title`. Nothing else leaves the browser.
+
+### What's stored locally
+
+The browser keeps three `localStorage` entries, all under your control. Clear them anytime from devtools.
+
+| Key                       | Purpose                                                      |
+| ------------------------- | ------------------------------------------------------------ |
+| `amc-settings-v2`         | Provider choice, model choice, API key, Enter-to-send flag.  |
+| `amc-chat-threads-v1`     | Chat history per topic (concept, thinker, or course module). |
+| `home-chat-width`         | Width of the resizable chat panel.                           |
+
+## How it was built
+
+Five-pass Opus 1M pipeline applied to the 50 hand-edited transcripts at [meaningcrisis.co](https://www.meaningcrisis.co/all-transcripts/):
+
+1. **Registry.** Read every transcript, emit canonical concepts and thinkers with aliases, clusters, depth.
+2. **Per-episode extraction.** For each episode, pull the passages where each registered entity appears.
+3. **Enrichment.** Backfill definitions, short bios, role-in-argument, related concepts, contrasted concepts.
+4. **Validation.** A separate Opus pass spot-checks definitions and passages against the transcripts, flags ambiguous attributions, rejects fabricated quotes.
+5. **Conversation generation.** For the 28 flagship concepts, generate a multi-module Socratic walkthrough.
+
+Result: 105 concepts, 94 thinkers, 780 source passages, 28 Conversations. All in `public/data/`.
+
+## Stack
+
+- Next.js 16 (App Router), TypeScript, Tailwind 4
+- `react-force-graph-2d` + `d3-force` for the canvas graph
+- `@anthropic-ai/sdk` in the browser, pointed at Anthropic or OpenRouter (both expose the Anthropic Messages API shape)
+- `zustand` (with `persist`) for the settings + chat-thread stores
+- No backend, no database
+
+## Run locally
 
 ```bash
 npm install
 npm run dev
-# open http://localhost:3000
 ```
 
-To use Dialogue or Ask, get an Anthropic API key from [console.anthropic.com/settings/keys](https://console.anthropic.com/settings/keys), then paste it in **Settings** in the app.
+Open `http://localhost:3000`. Add a key on the Settings page and you're chatting.
 
-## Deploying to Vercel
+## Acknowledgements
 
-```bash
-npx vercel --prod
-```
-
-Or via the [Vercel dashboard](https://vercel.com/new), point at this repo, accept defaults. No environment variables required (the LLM is BYOK on the client). All data is served as static files.
-
-## Re-scraping / re-indexing
-
-```bash
-npm run scrape         # refetch transcripts (skips files that already exist)
-RESCRAPE=1 npm run scrape  # force re-fetch all
-npm run build:data     # rebuild indices, graph, passages
-```
-
-Metadata files in `data/metadata/*.json` are produced manually (or via Haiku agents during the initial build). If you regenerate transcripts and want fresh metadata, see `scripts/manifest.ts` for the canonical episode list and produce one JSON per episode matching the schema in `scripts/build.ts`.
-
-## Optional: Neo4j
-
-The build outputs a `public/data/graph.cypher` file. To explore the graph in Neo4j:
-
-```bash
-cat public/data/graph.cypher | cypher-shell -u neo4j -p <password>
-```
-
-Then run queries like:
-
-```cypher
-// All concepts that bridge episodes about wisdom and episodes about Plato
-MATCH (e1:Episode)-[:DEVELOPED|APPLIED]->(c:Concept)<-[:DEVELOPED|APPLIED]-(e2:Episode)
-WHERE e1.title CONTAINS 'Wisdom' AND e2.title CONTAINS 'Plato'
-RETURN c.name, count(*) AS bridges
-ORDER BY bridges DESC;
-```
-
-## Project layout
-
-```
-data/transcripts/, 51 hand-edited transcripts (.md with frontmatter)
-data/metadata/, 51 metadata JSON files (one per episode)
-scripts/, scrape.ts, build.ts, manifest.ts, aliases.ts
-src/app/, Next.js App Router pages
-  /, landing
-  /dialogue, Socratic chat (BYOK)
-  /ask, search + synthesis (BYOK)
-  /graph, force-graph viz
-  /episodes, browse summaries
-  /settings, API key + model
-src/components/, Nav, Footer, PassageCard, GraphCanvas, etc.
-src/lib/, types, store (zustand), retrieve (MiniSearch),
-                           prompts, anthropic client, citation parser
-public/data/, generated indices, served as static
-```
-
-## Credits
-
-- Transcripts: [meaningcrisis.co](https://www.meaningcrisis.co/), meticulously transcribed and sectioned community resource.
-- Lectures and the ideas they contain: John Vervaeke. See [johnvervaeke.com](https://johnvervaeke.com/).
-- This app is unaffiliated with John Vervaeke or meaningcrisis.co.
-
-## Caveat on metadata quality
-
-Episode metadata (essence, key claims, concepts, people, cross-references) was extracted by AI from the transcripts. It's pretty good but not perfect, some concept names may be inconsistent across episodes, and a few entities are imperfect (occasional misattribution between people with similar names). The canonical alias maps in `scripts/aliases.ts` normalize the most common cases. If you spot something off, the per-episode JSON files in `data/metadata/` are hand-editable; re-run `npm run build:data` after edits.
+Vervaeke's full lecture series is at [meaningcrisis.co](https://www.meaningcrisis.co/). The transcripts on that site are the bedrock of everything here; thank you to the volunteers who made them. Vervaeke's own work, courses, and writing are at [johnvervaeke.com](https://johnvervaeke.com/).

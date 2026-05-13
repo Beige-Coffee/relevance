@@ -29,6 +29,18 @@ export const metadata: Metadata = {
   // visit it; we just don't want Google indexing what is essentially a
   // small private tool shared in a group chat.
   robots: { index: false, follow: false },
+  openGraph: {
+    title: "relevance",
+    description:
+      "A study companion for John Vervaeke's Awakening from the Meaning Crisis. Graph the ideas, talk through them, ground every reply in the transcripts.",
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: "relevance",
+    description:
+      "A study companion for John Vervaeke's Awakening from the Meaning Crisis.",
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

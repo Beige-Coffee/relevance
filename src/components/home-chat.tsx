@@ -3,6 +3,7 @@
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
 import { useThread, useSettings, useChatThreads } from "@/lib/store";
+import { useIsMobile } from "@/lib/use-is-mobile";
 import { makeClientForProvider } from "@/lib/anthropic";
 import { streamText, describeError } from "@/lib/stream";
 import { SOCRATIC_SYSTEM_PROMPT, buildModuleSystemPrompt } from "@/lib/prompts";
@@ -50,6 +51,7 @@ export function HomeChat({
   onToggleCollapsed,
 }: Props) {
   const { provider, activeKey, activeModel, hasKey, enterToSend, setEnterToSend } = useSettings();
+  const isMobile = useIsMobile();
   const [input, setInput] = useState("");
   const [error, setError] = useState<string | null>(null);
   const [loadingCourseId, setLoadingCourseId] = useState<string | null>(null);
@@ -291,28 +293,49 @@ export function HomeChat({
   }
 
   if (collapsed) {
+    // Collapsed: thin sidebar on desktop, thin top strip on mobile.
     return (
-      <aside className="h-full w-12 shrink-0 border-l border-[var(--border)] bg-[var(--surface)]/95 flex flex-col items-center py-3">
+      <aside
+        className={
+          isMobile
+            ? "w-full h-10 shrink-0 border-t border-[var(--border)] bg-[var(--surface)]/95 flex items-center justify-center gap-2"
+            : "h-full w-12 shrink-0 border-l border-[var(--border)] bg-[var(--surface)]/95 flex flex-col items-center py-3"
+        }
+      >
         <button
           onClick={onToggleCollapsed}
           aria-label="Expand chat"
           className="w-9 h-9 rounded-md text-[var(--muted)] hover:text-[var(--accent)] hover:bg-[var(--elev)] flex items-center justify-center"
           title="Expand chat"
         >
-          ‹
+          {isMobile ? "▴" : "‹"}
         </button>
-        <div className="mt-3 vertical-text text-[10px] uppercase tracking-[0.18em] text-[var(--muted)]" style={{ writingMode: "vertical-rl", transform: "rotate(180deg)" }}>
+        <div
+          className={
+            isMobile
+              ? "text-[10px] uppercase tracking-[0.18em] text-[var(--muted)]"
+              : "mt-3 vertical-text text-[10px] uppercase tracking-[0.18em] text-[var(--muted)]"
+          }
+          style={isMobile ? undefined : { writingMode: "vertical-rl", transform: "rotate(180deg)" }}
+        >
           Dialogue
         </div>
       </aside>
     );
   }
 
+  // On mobile, the chat stacks below the graph with a fixed-ish height
+  // so the graph still has room. On desktop, it's a resizable side panel.
+  const asideClasses = isMobile
+    ? "relative w-full shrink-0 bg-[var(--surface)] flex flex-col min-h-0 border-t border-[var(--border)]"
+    : "relative h-full shrink-0 bg-[var(--surface)] flex flex-col min-h-0";
+  const asideStyle = isMobile ? { height: "55dvh" } : { width: chatWidth };
+
   return (
     <>
       {/* While dragging, this fixed overlay sits above the graph canvas and
           owns all pointer events so the canvas can not eat them. */}
-      {isResizing && (
+      {isResizing && !isMobile && (
         <div
           className="fixed inset-0 z-[100]"
           style={{ cursor: "col-resize" }}
@@ -321,21 +344,20 @@ export function HomeChat({
           onMouseLeave={endResize}
         />
       )}
-      <aside
-        className="relative h-full shrink-0 bg-[var(--surface)] flex flex-col min-h-0"
-        style={{ width: chatWidth }}
-      >
-        {/* Resize handle doubles as the left border. 8px transparent hit zone
-            with a 1px visible line on the inside edge that highlights on hover. */}
-        <div
-          onMouseDown={startResize}
-          onDoubleClick={() => setChatWidth(400)}
-          className="absolute left-0 top-0 bottom-0 w-2 cursor-col-resize z-20 group"
-          aria-label="Resize chat panel (double-click to reset)"
-          title="Drag to resize. Double-click to reset."
-        >
-          <span className={`absolute inset-y-0 left-0 w-px ${isResizing ? "bg-[var(--accent)] w-[2px]" : "bg-[var(--border)] group-hover:bg-[var(--accent)] group-hover:w-[2px]"} transition-all`} />
-        </div>
+      <aside className={asideClasses} style={asideStyle}>
+        {/* Resize handle doubles as the left border on desktop. Hidden on
+            mobile (touch screens; the panel just stacks). */}
+        {!isMobile && (
+          <div
+            onMouseDown={startResize}
+            onDoubleClick={() => setChatWidth(400)}
+            className="absolute left-0 top-0 bottom-0 w-2 cursor-col-resize z-20 group"
+            aria-label="Resize chat panel (double-click to reset)"
+            title="Drag to resize. Double-click to reset."
+          >
+            <span className={`absolute inset-y-0 left-0 w-px ${isResizing ? "bg-[var(--accent)] w-[2px]" : "bg-[var(--border)] group-hover:bg-[var(--accent)] group-hover:w-[2px]"} transition-all`} />
+          </div>
+        )}
       <header className="px-4 py-3 border-b border-[var(--border-soft)] flex items-center justify-between gap-2">
         <div className="flex items-center gap-2 min-w-0">
           <button
@@ -665,16 +687,53 @@ function EmptyState({ onStarter, canChat }: { onStarter: (s: string) => void; ca
       <div>
         <p className="serif text-base text-[var(--ink)] leading-snug">Welcome.</p>
         <p className="text-sm text-[var(--ink-soft)] mt-1.5 leading-relaxed">
-          Ask anything about Vervaeke&rsquo;s lecture series, or click a node on the graph to explore that idea together. The dialogue is grounded in the actual transcripts and will cite episodes inline.
+          Ask anything about Vervaeke&rsquo;s lecture series, or click a node on the graph to explore that idea together. The dialogue is grounded in the actual transcripts and cites episodes inline.
         </p>
       </div>
       {!canChat ? (
-        <div className="rounded-md border border-[var(--accent)]/30 bg-[var(--accent-tint)] p-3 text-xs text-[var(--ink-soft)]">
-          Add an API key on the{" "}
-          <Link href="/settings" className="text-[var(--accent)] underline">
-            Settings page
-          </Link>{" "}
-          to start chatting. Your key stays in your browser.
+        <div className="rounded-md border border-[var(--accent)]/30 bg-[var(--accent-tint)] p-4 space-y-3">
+          <div>
+            <div className="text-[10px] uppercase tracking-[0.16em] text-[var(--accent)] mb-1">
+              Quick setup
+            </div>
+            <p className="text-sm text-[var(--ink)] font-medium leading-snug">
+              You&rsquo;ll need your own AI key to chat.
+            </p>
+            <p className="text-[12px] text-[var(--ink-soft)] mt-1.5 leading-relaxed">
+              About 3 minutes. Your key lives only in your browser, never on this site&rsquo;s server. We don&rsquo;t track anything.
+            </p>
+          </div>
+          <ol className="space-y-1.5 text-[12px] text-[var(--ink-soft)] list-none">
+            <li className="flex gap-2">
+              <span className="mono text-[10px] text-[var(--accent)] mt-0.5">1.</span>
+              <span>
+                Sign up free at{" "}
+                <a
+                  href="https://openrouter.ai/keys"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-[var(--accent)] underline"
+                >
+                  openrouter.ai/keys
+                </a>
+                {" "}and create a key. ($5 of credit lasts a long time.)
+              </span>
+            </li>
+            <li className="flex gap-2">
+              <span className="mono text-[10px] text-[var(--accent)] mt-0.5">2.</span>
+              <span>
+                Paste the key on the{" "}
+                <Link href="/settings" className="text-[var(--accent)] underline">
+                  Settings page
+                </Link>
+                .
+              </span>
+            </li>
+            <li className="flex gap-2">
+              <span className="mono text-[10px] text-[var(--accent)] mt-0.5">3.</span>
+              <span>Come back here and start asking questions.</span>
+            </li>
+          </ol>
         </div>
       ) : (
         <div className="space-y-1.5">

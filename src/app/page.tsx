@@ -74,9 +74,10 @@ export default function Home() {
         <LegendBar mode={mode} />
       </div>
 
-      {/* Main: graph + chat */}
-      <div className="flex-1 flex overflow-hidden min-w-0 min-h-0">
-        <div className="flex-1 min-w-0 relative">
+      {/* Main: graph + chat. Side-by-side on desktop, stacked (graph on
+          top, chat below) on mobile so neither panel gets clipped. */}
+      <div className="flex-1 flex flex-col md:flex-row overflow-hidden min-w-0 min-h-0">
+        <div className="flex-1 min-w-0 min-h-0 relative">
           {graph ? (
             <>
               <GraphCanvas
