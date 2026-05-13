@@ -211,11 +211,9 @@ export function HomeChat({
 
   async function send(text: string) {
     if (!text.trim()) return;
+    // Empty key is OK while the shared proxy is enabled; the proxy will
+    // 503 with a clear message if it has been disabled.
     const key = activeKey();
-    if (!key) {
-      setError("Add an API key on the Settings page to start the dialogue.");
-      return;
-    }
     setError(null);
 
     const userMsg: ChatMessage = {

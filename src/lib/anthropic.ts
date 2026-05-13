@@ -158,7 +158,33 @@ export function makeOpenRouterClient(apiKey: string): Anthropic {
   });
 }
 
+// Temporary: when the user hasn't pasted their own key, we route requests
+// through a /api/v1/messages serverless proxy that holds a shared
+// OpenRouter key in a Vercel env var. The key never reaches the browser.
+// To disable the fallback, delete OPENROUTER_API_KEY from Vercel's
+// project env and the proxy will return 503 -> users get a clear "add
+// your own key" error.
+export function makeSharedProxyClient(): Anthropic {
+  const baseURL =
+    typeof window !== "undefined" ? `${window.location.origin}/api` : "/api";
+  return new Anthropic({
+    apiKey: "shared-via-proxy",
+    baseURL,
+    dangerouslyAllowBrowser: true,
+    fetch: async (input, init) => {
+      const headers = new Headers(init?.headers ?? {});
+      // The proxy adds its own auth header. Don't leak SDK defaults.
+      headers.delete("anthropic-version");
+      headers.delete("anthropic-dangerous-direct-browser-access");
+      headers.delete("authorization");
+      headers.delete("x-api-key");
+      return fetch(input as RequestInfo | URL, { ...init, headers });
+    },
+  });
+}
+
 export function makeClientForProvider(provider: Provider, apiKey: string): Anthropic {
+  if (!apiKey) return makeSharedProxyClient();
   return provider === "anthropic" ? makeAnthropicClient(apiKey) : makeOpenRouterClient(apiKey);
 }
 

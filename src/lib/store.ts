@@ -27,6 +27,16 @@ interface Settings {
   hasKey: () => boolean;
 }
 
+// Temporary while the /api/v1/messages shared-key proxy is enabled.
+// Setting this to true makes hasKey() always return true so the chat is
+// usable without the user pasting their own key. If the proxy 503s
+// because OPENROUTER_API_KEY isn't set in Vercel env, the user sees the
+// proxy's error and can still paste their own key from the Settings
+// page. To restore strict BYOK: flip this to false (and ideally also
+// delete src/app/api/v1/messages/route.ts and the makeSharedProxyClient
+// fallback in src/lib/anthropic.ts).
+const SHARED_PROXY_ENABLED = true;
+
 export const useSettings = create<Settings>()(
   persist(
     (set, get) => ({
@@ -44,7 +54,7 @@ export const useSettings = create<Settings>()(
       setEnterToSend: (v) => set({ enterToSend: v }),
       activeKey: () => (get().provider === "anthropic" ? get().anthropicKey : get().openrouterKey),
       activeModel: () => (get().provider === "anthropic" ? get().anthropicModel : get().openrouterModel),
-      hasKey: () => Boolean(get().activeKey()),
+      hasKey: () => Boolean(get().activeKey()) || SHARED_PROXY_ENABLED,
     }),
     { name: "amc-settings-v2" }
   )
