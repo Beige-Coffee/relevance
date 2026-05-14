@@ -62,7 +62,12 @@ const CLUSTER_COLORS_DARK: Record<string, string> = {
 export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1, onHoverLabel, isolatedId = null }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const fgRef = useRef<unknown>(null);
-  const [size, setSize] = useState({ w: 800, h: 600 });
+  // Start at zero so we don't mount the ForceGraph before we know the
+  // real container dimensions. Mounting at a placeholder size would let
+  // the simulation cool and zoomToFit run against the wrong viewport,
+  // which leaves the camera framed too tightly when the canvas later
+  // resizes to its actual width/height.
+  const [size, setSize] = useState({ w: 0, h: 0 });
   const [dark, setDark] = useState(false);
   const [hoverId, setHoverId] = useState<string | null>(null);
   // Per-mode cache of settled node positions. After the simulation stops we
@@ -81,25 +86,18 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1, 
         setSize({ w: containerRef.current.clientWidth, h: containerRef.current.clientHeight });
       }
     });
-    if (containerRef.current) ro.observe(containerRef.current);
+    if (containerRef.current) {
+      // Read the real dimensions synchronously so the ForceGraph mounts
+      // at the right size on the very first paint. Without this the
+      // simulation starts thinking the canvas is the default placeholder
+      // size, and the zoomToFit at onEngineStop frames against the wrong
+      // viewport.
+      const el = containerRef.current;
+      setSize({ w: el.clientWidth, h: el.clientHeight });
+      ro.observe(containerRef.current);
+    }
     return () => ro.disconnect();
   }, []);
-
-  // Re-fit the camera whenever the canvas dimensions change. Without this,
-  // the first zoomToFit (fired from onEngineStop when the simulation
-  // cools) often runs against the default 800x600 size before the
-  // ResizeObserver has reported the real container size; the camera ends
-  // up framed for a smaller canvas than what's actually rendered, so the
-  // graph looks zoomed in. Fitting again after a resize re-frames the
-  // settled layout to the actual viewport.
-  useEffect(() => {
-    if (size.w <= 0 || size.h <= 0) return;
-    const fg = fgRef.current as { zoomToFit?: (ms: number, padding: number) => void } | null;
-    if (!fg?.zoomToFit) return;
-    // Delay a tick so any in-flight layout settle commits first.
-    const t = setTimeout(() => fg.zoomToFit?.(400, 80), 250);
-    return () => clearTimeout(t);
-  }, [size.w, size.h]);
 
   const palette = useMemo(
     () => ({
@@ -470,7 +468,7 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1, 
 
   return (
     <div ref={containerRef} className="relative w-full h-full">
-      <ForceGraph2D
+      {size.w > 0 && size.h > 0 && <ForceGraph2D
         ref={fgRef as never}
         width={size.w}
         height={size.h}
@@ -533,7 +531,10 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1, 
 
           // Label: always show on hover/selection/neighbor; with a pill background for
           // legibility against the busy canvas.
-          const showLabel = isActive || selected || isNeighbor || globalScale > 1.7;
+          // Labels only show for interactive states. At-rest the canvas
+          // is just colored dots so a tight fit on a small viewport
+          // doesn't produce a wall of overlapping text.
+          const showLabel = isActive || selected || isNeighbor;
           if (showLabel) {
             const fontSize = isActive || selected ? Math.max(12, 13 / globalScale) : Math.max(10, 11 / globalScale);
             ctx.font = `${(isActive || selected) ? "500 " : ""}${fontSize.toFixed(0)}px ui-sans-serif, system-ui, -apple-system, "Inter"`;
@@ -656,7 +657,7 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1, 
           if (hasFocus && isLinkActive(link)) return palette.linkActive;
           return isolatedId ? palette.linkActive : palette.link;
         }}
-      />
+      />}
     </div>
   );
 }
