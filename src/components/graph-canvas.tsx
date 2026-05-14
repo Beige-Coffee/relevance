@@ -85,6 +85,22 @@ export function GraphCanvas({ graph, mode, onSelect, selectedId, minDegree = 1, 
     return () => ro.disconnect();
   }, []);
 
+  // Re-fit the camera whenever the canvas dimensions change. Without this,
+  // the first zoomToFit (fired from onEngineStop when the simulation
+  // cools) often runs against the default 800x600 size before the
+  // ResizeObserver has reported the real container size; the camera ends
+  // up framed for a smaller canvas than what's actually rendered, so the
+  // graph looks zoomed in. Fitting again after a resize re-frames the
+  // settled layout to the actual viewport.
+  useEffect(() => {
+    if (size.w <= 0 || size.h <= 0) return;
+    const fg = fgRef.current as { zoomToFit?: (ms: number, padding: number) => void } | null;
+    if (!fg?.zoomToFit) return;
+    // Delay a tick so any in-flight layout settle commits first.
+    const t = setTimeout(() => fg.zoomToFit?.(400, 80), 250);
+    return () => clearTimeout(t);
+  }, [size.w, size.h]);
+
   const palette = useMemo(
     () => ({
       bg: dark ? "#0c1019" : "#ffffff",
